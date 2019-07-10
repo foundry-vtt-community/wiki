@@ -13,6 +13,7 @@ This wiki serves as a repository of community-curated information about the Foun
 * [[Foundry VTT FAQ]]
 
 ## Community Modules
+* [[Community Modules]]
 
 ## Community Game Systems
 
