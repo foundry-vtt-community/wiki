@@ -6,7 +6,7 @@
 
 * **Author**: @Moo Man#7518 on Discord
 * **Version**: Alpha
-* **Version Compatibility**: 0.3+
+* **Foundry Compatibility**: 0.3+
 
 
 ### Link(s) to Module
