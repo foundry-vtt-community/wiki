@@ -19,7 +19,7 @@ This wiki serves as a repository of community-curated information about the Foun
 
 ## Downloading Foundry VTT
 
-## Self-hosted Local
+## [[Self-hosted Local]]
 
 ### Windows
 
@@ -27,7 +27,7 @@ This wiki serves as a repository of community-curated information about the Foun
 
 ### macOS
 
-## Self-hosted Cloud
+## [[Self-hosted Cloud]]
 
 ### AWS
 
