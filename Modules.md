@@ -7,7 +7,7 @@ Community created modules can be found via the [[Community Modules]] wiki page, 
 1. Placing the module files under `\public\resources\modules\<module name>` inside your Foundry VTT installation folder. 
 2. Restart the Foundry VTT server
 3. Log back into Foundry VTT as the GameMaster
-4. Click the Help (<icon>)
+4. Click the Help button
 5. Click Manage Modules under the game system heading (eg. D&D 5th Edition)
 6. Find the newly installed module and place a checkmark next to the name, then click Update Modules at the bottom of the list to activate it
 
