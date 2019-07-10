@@ -6,7 +6,7 @@
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at [felix.mueller.86@web.de](mailto:felix.mueller.86@web.de). 
 * **Version**: 0.1
-* **Foundry Compatibility**: At least 0.3.0+, and will likely work with previous versions.
+* **Foundry VTT Compatibility**: At least 0.3.0+, and will likely work with previous versions.
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -21,7 +21,7 @@ This module makes it so that when you click the anvil in the top left of the scr
 
 * **Author**: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
 * **Version**: 0.1
-* **Foundry Compatibility**: 0.3.1+
+* **Foundry VTT Compatibility**: 0.3.1+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -36,7 +36,7 @@ This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items a
 
 * **Author**: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
 * **Version**: 0.1
-* **Foundry Compatibility**: 0.3+
+* **Foundry VTT Compatibility**: 0.3+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -51,7 +51,7 @@ This Foundry VTT module lets you pop out journal entries into their own windows.
 
 * **Author**: UberV, UberV#2154 on Discord.
 * **Version**: 0.0.5
-* **Foundry Compatibility**: 0.3+
+* **Foundry VTT Compatibility**: 0.3+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -66,7 +66,7 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 
 * **Author**: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
 * **Version**: 0.1
-* **Foundry Compatibility**: 0.3.1
+* **Foundry VTT Compatibility**: 0.3.1
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: This module creates folders and allows you to create data where it shouldn't be. If a future FVTT update enforces the 2-depth limit on the server side, then all of the deeper folders and their content may be lost.
@@ -81,7 +81,7 @@ This Foundry VTT module allows you to create infinite depth of folders for Scene
 
 * **Author**: Moerill#7205 on Discord
 * **Version**: (Note current version of module here.)
-* **Foundry Compatibility**: 
+* **Foundry VTT Compatibility**: 
 * **System Compatibility (If applicable)**: 
 * **Module Requirement(s)**: 
 * **Module Conflicts**: 
@@ -95,7 +95,7 @@ This Foundry VTT module allows you to create infinite depth of folders for Scene
 
 * **Author**: Moerill#7205 on Discord
 * **Version**: Version 0.2
-* **Foundry Compatibility**: 0.2.10
+* **Foundry VTT Compatibility**: 0.2.10
 * **System Compatibility (If applicable)**: As of right now, it is universally applicable to all existing systems.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None currently known.
@@ -110,12 +110,9 @@ This module adds a search function for journal entries, includes a “jump to pi
 
 * **Author**: Moerill#7205 on Discord
 * **Version**: v1.0
-* **Foundry Compatibility**: 0.3.0
-
+* **Foundry VTT Compatibility**: 0.3.0
 * **System Compatibility (If applicable)**: Universal
-
 * **Module Requirement(s)**: None
-
 * **Module Conflicts**: None
 
 ### Link(s) to Module
@@ -143,7 +140,7 @@ The Hotkeys can be seen by hovering over the button as well.
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at [felix.mueller.86@web.de](mailto:felix.mueller.86@web.de). 
 * **Version**: 0.1
-* **Foundry Compatibility**: 0.3.1+
+* **Foundry VTT Compatibility**: 0.3.1+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -158,7 +155,7 @@ A Foundry VTT Module to enable filtering chat-messages by their age. Each user c
 
 * **Author**: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
 * **Version**: 0.2
-* **Foundry Compatibility**: 0.3+
+* **Foundry VTT Compatibility**: 0.3+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -173,7 +170,7 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 
 * **Author**: Moerill#7205 on Discord
 * **Version**: 
-* **Foundry Compatibility**: 
+* **Foundry VTT Compatibility**: 
 * **System Compatibility (If applicable)**: 
 * **Module Requirement(s)**: 
 * **Module Conflicts**: 
@@ -188,7 +185,7 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 
 * **Author**: Moerill#7205 on Discord
 * **Version**: (Note current version of module here.)
-* **Foundry Compatibility**:
+* **Foundry VTT Compatibility**:
 * **System Compatibility (If applicable)**:
 * **Module Requirement(s)**: 
 * **Module Conflicts**:
@@ -526,33 +523,30 @@ Description: This module expands upon the existing 5e system in Foundry VTT, add
 
 What the module should roughly look like, when installed properly:
 
-## Example Module
+## Appendix A: Adding a Module
 
-(Copy and paste the outline below in writing up new module descriptions, formatting and all.)
+**Copy and paste the outline below in writing up new module descriptions, formatting and all!**
+```
+## (Module Name)
 
-#### (Module Name)
+* **Author**: (Put author’s name here, including Discord username.  If they accept contributions in code or donations, note this here as well.)
+* **Version**: (Note current version of module here.)
+* **Foundry VTT Compatibility**: (Note which versions of Foundry Virtual Tabletop the module is compatible with.)
+* **System Compatibility (If applicable)**: (Note which systems of Foundry Virtual Tabletop the module is compatible with.)
+* **Module Requirement(s)**: (If the module requires other modules to function, note them here.)
+* **Module Conflicts**: (If the module conflicts with other modules, either partially or completely, note conflicts here.)
 
-Author: (Put author’s name here, including Discord username.  If they accept contributions in code or donations, note this here as well.)
+### Link(s) to Module
+* (Put a web URL here to find the module.)
 
-Version: (Note current version of module here.)
+### Description
+(Describe the module here.  This should include the module’s function, installation instructions, and anything important to note.  Due to the particular oddities of some archiving programs (WinRar, 7zip), and GitHub zip folders, including a screenshot of what the module should look like file-wise in the “public/modules/examplemodule” is appreciated, though not required.)
+```
 
-Foundry VTT Version Compatibility: (Note which versions of Foundry Virtual Tabletop the module is compatible with.)
-
-System Compatibility (If applicable): (Note which systems of Foundry Virtual Tabletop the module is compatible with.)
-
-Module Requirement(s): (If the module requires other modules to function, note them here.)
-
-Module Conflicts: (If the module conflicts with other modules, either partially or completely, note conflicts here.)
-
-Link(s) to Module: (Put a web URL here to find the module.)
-
-Description: (Describe the module here.  This should include the module’s function, installation instructions, and anything important to note.  Due to the particular oddities of some archiving programs (WinRar, 7zip), and GitHub zip folders, including a screenshot of what the module should look like file-wise in the “public/modules/examplemodule” is appreciated, though not required.)
-
-## Appendix A: Editing Practice
+## Appendix B: Best Editing Practices
 
 - Ideally, the term module should be used over mod, unless it is in the mod’s name or the author’s description.  Mod can carry connotations from other games that might not exist in Foundry VTT, while modules in Foundry VTT can range from NPC compendiums, to worlds, to “enhancement suite” functions.  They’re effectively the same thing, but it helps to emphasize how flexible Foundry Virtual Tabletop is. 
 - Links to modules should link to the author’s page for it, if such exists.  This helps emphasize the module author’s control over their creation, and allows users to see information that the module author deems important.  If you have the module author’s permission otherwise, or you are the creator, feel free to link directly to the module download link. 
-- Be careful with bolding paragraph headers and starting a new line- Google Docs interprets this as a new header, and it can mess with the formatting of the Document Outline. 
 - Modules are sorted by system compatibility, then function, and then alphabetically.  If a module is compatible with more than one system, but not “universally” in Foundry Virtual Tabletop, note compatibility in each system’s section.  Otherwise, if a module is compatible universally, list it in the appropriate section for “universal modules”. 
 - Ensure that Foundry is noted as “Foundry VTT” or “Foundry Virtual Tabletop” in writing, unless it is the module title, or the module author desires otherwise in the description.  This helps emphasize Foundry’s role as a unique, standalone tabletop, and helps distinguish it from other brands using the word “foundry”.   
 - Ideally, each module should be separated by a single line break.  This is just to help it look neat. 
