@@ -37,7 +37,7 @@ This wiki serves as a repository of community-curated information about the Foun
 
 ## [[Setting up Worlds]]
 
-## Setting up Players
+## [[Setting up Players]]
 
 # The Virtual Tabletop
 
