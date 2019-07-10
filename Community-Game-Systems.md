@@ -14,4 +14,4 @@
 
 ### System Description
 
-Installing this system allows you to create campaigns based on Warhammer Fantasy, 4th edition!  Additionally, it comes with a starter world which provides many items already organized for your use.  To install, place the wfrp4e download in your public/systems folder.  (Optional, highly recommended) Place `wfrp4e-starter-world` in `public/worlds`.
+Installing this system allows you to create campaigns based on Warhammer Fantasy, 4th edition!  Additionally, it comes with a starter world which provides many items already organized for your use.  To install, place the wfrp4e download in your `public/systems` folder.  (Optional, highly recommended) Place `wfrp4e-starter-world` in `public/worlds`.
