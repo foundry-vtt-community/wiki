@@ -11,7 +11,7 @@ This wiki serves as a repository of community-curated information about the Foun
 * [Gitlab](https://gitlab.com/foundrynet)
 * [Gitlab Issue Tracker](https://gitlab.com/foundrynet/foundryvtt/-/boards?milestone_title=No+Milestone&)
 * [Patreon](https://www.patreon.com/foundryvtt/overview)
-* [Discord](https://discordapp.com/invite/DDBZUDf)
+* ![discord_logo](https://discordapp.com/assets/2c21aeda16de354ba5334551a883b481.png){:height="33%" width="33%"}[Discord](https://discordapp.com/invite/DDBZUDf)
 
 # [[Getting Started|Getting-Started-with-Foundry-VTT]]
 
