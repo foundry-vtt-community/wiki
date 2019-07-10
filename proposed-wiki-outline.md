@@ -1,93 +1,79 @@
-Foundry VTT - Community Wiki Outline
-
-  
+# Foundry VTT - Community Wiki Outline
 
 - [X] What is Foundry VTT 
 - [ ] FAQs 
-- [ ] Official Resources 
+- [X] Official Resources 
     - Foundry VTT website 
     - Patreon 
     - Discord 
     - Gitlab 
 
-- [ ] About this wiki 
-- [ ] Getting Started 
-    - Downloading Foundry VTT 
-    - Self-hosted peer to peer 
-        - Windows 
-            - Guide 1 
-            - Guide 2 
+- [ ] Getting Started
 
-        - Linux 
-            - Ubuntu 
-                - Guide 1 
-                - Guide 2 
+    - [X] Update Notes
+    
+    - [ ] Downloading Foundry VTT 
+    
+    - [ ] Dedicated Hosting - Local 
+        - [ ] Windows 
+        - [ ] Linux
+        - [ ] macOS
 
-            - Debian 
-            - Etc 
+    - [ ] Dedicated Hosting - Cloud 
+        - [ ] AWS 
+            - [ ] Lightsail 
+            - [ ] EC2 
 
-    - Dedicated host - local 
-        - Windows 
-        - Linux
-        - macOS
+        - [ ] Digital Ocean
 
-    - Dedicated host - cloud 
-        - AWS 
-            - Lightsail 
-            - EC2 
-
-        - DO 
-
-    - Connecting 
-    - Setting up Worlds 
-    - Setting up Players 
+    - [ ] Connecting 
+    - [ ] Setting up Worlds 
+    - [ ] Setting up Players 
 
 - [ ] The Virtual Tabletop 
-    - Command Palette 
-        - Actor 
-            - Select 
-            - Measure 
+    - [ ] Command Palette 
+        - [ ] Actor 
+            - [ ] Select 
+            - [ ] Measure 
 
-        - Templates 
-            - Line 
-            - Cone 
-            - Circle 
-            - Square 
+        - [ ] Templates 
+            - [ ] Line 
+            - [ ] Cone 
+            - [ ] Circle 
+            - [ ] Square 
 
-        - Tiles 
-        - Walls 
-            - Standard 
-            - Terrain 
-            - Invisible 
-            - Ethereal 
-            - Doors 
-            - Secret Doors 
+        - [ ] Tiles 
+        - [ ] Walls 
+            - [ ] Standard 
+            - [ ] Terrain 
+            - [ ] Invisible 
+            - [ ] Ethereal 
+            - [ ] Doors 
+            - [ ] Secret Doors 
 
-        - Pins 
-        - Sounds 
+        - [ ] Pins 
+        - [ ] Sounds 
 
-    - Sidebar 
-        - Chat 
-        - Combat Tracker 
-        - Actors 
-        - Journal 
-        - Playlists 
-        - Compendia 
+    - [ ] Sidebar 
+        - [ ] Chat 
+        - [ ] Combat Tracker 
+        - [ ] Actors 
+        - [ ] Journal 
+        - [ ] Playlists 
+        - [ ] Compendia 
 
-- [ ] Game Systems 
-    - D&D 5e 
-    - Pathfinder
+- [ ] Offical Game Systems 
+    - [ ] D&D 5e 
 
 - [ ] Entities 
-    - Actor 
-    - Combat 
+    - [ ] Actor 
+    - [ ] Combat 
 
 - [ ] API 
-    - API Basics 
-    - API Snippets 
+    - [ ] API Basics 
+    - [ ] API Snippets 
 
-- [ ] Community Game Systems & Modules
-    - Game Systems Library
-    - Games Systems  Resources
-    - Module Library 
-    - Module Resources
+- [X] Community Game Systems & Modules
+    - [X] Community Games Systems
+    - [X] Community Modules
+    - [X] Community Module Repository
