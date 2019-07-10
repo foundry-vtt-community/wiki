@@ -2,16 +2,16 @@ Foundry VTT - Community Wiki Outline
 
   
 
-- [ ] What is Foundry VTT 
-- FAQs 
-- Official Resources 
+- [X] What is Foundry VTT 
+- [ ] FAQs 
+- [ ] Official Resources 
     - Foundry VTT website 
     - Patreon 
     - Discord 
     - Gitlab 
 
-- About this wiki 
-- Getting Started 
+- [ ] About this wiki 
+- [ ] Getting Started 
     - Downloading Foundry VTT 
     - Self-hosted peer to peer 
         - Windows 
@@ -41,7 +41,7 @@ Foundry VTT - Community Wiki Outline
     - Setting up Worlds 
     - Setting up Players 
 
-- The Virtual Tabletop 
+- [ ] The Virtual Tabletop 
     - Command Palette 
         - Actor 
             - Select 
@@ -73,18 +73,18 @@ Foundry VTT - Community Wiki Outline
         - Playlists 
         - Compendia 
 
-- Game Systems 
+- [ ] Game Systems 
     - D&D 5e 
     - Pathfinder 
 
-- Entities 
+- [ ] Entities 
     - Actor 
     - Combat 
 
-- API 
+- [ ] API 
     - API Basics 
     - API Snippets 
 
-- Modules 
+- [ ] Modules 
     - Community Module Library 
     - Module Resources
