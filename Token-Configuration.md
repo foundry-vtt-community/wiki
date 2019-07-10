@@ -19,3 +19,9 @@ The image tab is where you can define how the token appears on the canvas.
 The Token Image Path field is the most important field in this section: it is this field which defines the source image for a token. This path can be an URL or a file path relative to the public folder in the hosting install of FVTT. This path can be typed in, but you should usually just be able to use the file explorer by clicking the button beside the text field.
 
 ## File Explorer
+
+## Wildcards
+
+##Token Size
+The width and height values specified here are set to a number of grid squares (or hexes) and determine how much space the token takes on the field.
+The scale slider only changes the image scale without changing the actual space taken by the token unit. A number higher than 1 results in a bigger image while a number below 1 makes it appear smaller.
