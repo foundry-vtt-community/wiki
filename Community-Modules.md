@@ -32,136 +32,114 @@ This module makes it so that when you click the anvil in the top left of the scr
 ### Description
 This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items and Journal entries).
 
-#### Popout!
+## Popout!
 
-Author: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Author**: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Version**: 0.1
+* **Foundry Compatibility**: 0.3+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
 
-Version: 0.1
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-popout](https://github.com/kakaroto/fvtt-module-popout) 
 
-Foundry VTT Version Compatibility: 0.3+
+### Description
+This Foundry VTT module lets you pop out journal entries into their own windows.  It is currently acting as a proof of concept.
 
-System Compatibility (If applicable): Universal
+## Grid Scaler
 
-Module Requirement(s): None.
+* **Author**: UberV, UberV#2154 on Discord.
+* **Version**: 0.0.5
+* **Foundry Compatibility**: 0.3+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
 
-Module Conflicts: None.
+### Link(s) to Module
+* [https://github.com/UberV/scaleGrid/tree/master/gridScale](https://github.com/UberV/scaleGrid/tree/master/gridScale) 
 
-Link(s) to Module:[https://github.com/kakaroto/fvtt-module-popout](https://github.com/kakaroto/fvtt-module-popout) 
+### Description
+This mod allows you to resize a grid more easily within Foundry, allowing easier map setup when a grid is uneven or unclear within a background image.
 
-Description: This Foundry VTT module lets you pop out journal entries into their own windows.  It is currently acting as a proof of concept.
+## Infinite Folders
 
-#### Grid Scaler
+* **Author**: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Version**: 0.1
+* **Foundry Compatibility**: 0.3.1
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: This module creates folders and allows you to create data where it shouldn't be. If a future FVTT update enforces the 2-depth limit on the server side, then all of the deeper folders and their content may be lost.
 
-Author: UberV, UberV#2154 on Discord.
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-infinite-folders](https://github.com/kakaroto/fvtt-module-infinite-folders) 
 
-Version: 0.0.5
+### Description
+This Foundry VTT module allows you to create infinite depth of folders for Scenes, Actors, Items and Journals. No more limit to a depth of 2 folders (or none for Journal entries). This will also add a `New entity` button on folders so you can create it directly in the folder (does not work for Scenes though).
 
-Foundry VTT Version Compatibility: 0.3+
+## Item Sounds
 
-System Compatibility (If applicable): Universal
+* **Author**: Moerill#7205 on Discord
+* **Version**: (Note current version of module here.)
+* **Foundry Compatibility**: 
+* **System Compatibility (If applicable)**: 
+* **Module Requirement(s)**: 
+* **Module Conflicts**: 
 
-Module Requirement(s): None
+### Link(s) to Module
+* [https://gitlab.com/moerills-fvtt-modules/item-sounds](https://gitlab.com/moerills-fvtt-modules/item-sounds) 
 
-Module Conflicts: None
+### Description
 
-Link(s) to Module:[https://github.com/UberV/scaleGrid/tree/master/gridScale](https://github.com/UberV/scaleGrid/tree/master/gridScale) 
+## Journal Enhancer
 
-Description: This mod allows you to resize a grid more easily within Foundry, allowing easier map setup when a grid is uneven or unclear within a background image.
+* **Author**: Moerill#7205 on Discord
+* **Version**: Version 0.2
+* **Foundry Compatibility**: 0.2.10
+* **System Compatibility (If applicable)**: As of right now, it is universally applicable to all existing systems.
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None currently known.
 
-#### Infinite Folders
+### Link(s) to Module
+* [https://gitlab.com/moerills-fvtt-modules/journal-enhancer](https://gitlab.com/moerills-fvtt-modules/journal-enhancer) 
 
-Author: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+### Description 
+This module adds a search function for journal entries, includes a “jump to pin” button for moving the camera to a pinned journal entry, adds a zoom function for image handouts, and hides the name of a handout to users without permissions set.  Moerill includes a video showing off the mod’s utility here: [https://youtu.be/5O4yA8Kr6bs](https://youtu.be/5O4yA8Kr6bs)
 
-Version: 0.1
+## Layer Hotkeys
 
-Foundry VTT Version Compatibility: 0.3.1
+* **Author**: Moerill#7205 on Discord
+* **Version**: v1.0
+* **Foundry Compatibility**: 0.3.0
 
-System Compatibility (If applicable): Universal
+* **System Compatibility (If applicable)**: Universal
 
-Module Requirement(s): None.
+* **Module Requirement(s)**: None
 
-Module Conflicts: Disclaimer: “This module creates folders and allows you to create data where it shouldn't be. If a future FVTT update enforces the 2-depth limit on the server side, then all of the deeper folders and their content may be lost.”
+* **Module Conflicts**: None
 
-Link(s) to Module:[https://github.com/kakaroto/fvtt-module-infinite-folders](https://github.com/kakaroto/fvtt-module-infinite-folders) 
+### Link(s) to Module
+* [https://gitlab.com/moerills-fvtt-modules/layer-hotkeys](https://gitlab.com/moerills-fvtt-modules/layer-hotkeys) 
 
-Description: This Foundry VTT module allows you to create infinite depth of folders for Scenes, Actors, Items and Journals. No more limit to a depth of 2 folders (or none for Journal entries). This will also add a 'New entity' button on folders so you can create it directly in the folder (does not work for Scenes though).
-
-#### Item Sounds
-
-Author: Moerill#7205 on Discord
-
-Version: (Note current version of module here.)
-
-Foundry VTT Version Compatibility: (Note which versions of Foundry Virtual Tabletop the module is compatible with.)
-
-System Compatibility (If applicable): (Note which systems of Foundry Virtual Tabletop the module is compatible with.)
-
-Module Requirement(s): (If the module requires other modules to function, note them here.)
-
-Module Conflicts: (If the module conflicts with other modules, either partially or completely, note conflicts here.)
-
-Link(s) to Module:[https://gitlab.com/moerills-fvtt-modules/item-sounds](https://gitlab.com/moerills-fvtt-modules/item-sounds) 
-
-Description: (Describe the module here.  This should include the module’s function, installation instructions, and anything important to note.  Due to the particular oddities of some archiving programs (WinRar, 7zip), and GitHub zip folders, including a screenshot of what the module should look like file-wise in the “public/modules/examplemodule” is appreciated, though not required.)
-
-#### Journal Enhancer
-
-Author: Moerill#7205 on Discord
-
-Version: Version 0.2
-
-Foundry VTT Version Compatibility: 0.2.10
-
-System Compatibility (If applicable): As of right now, it is universally applicable to all existing systems.
-
-Module Requirement(s): None
-
-Module Conflicts: None currently known.
-
-Link(s) to Module:[https://gitlab.com/moerills-fvtt-modules/journal-enhancer](https://gitlab.com/moerills-fvtt-modules/journal-enhancer) 
-
-Description: This module adds a search function for journal entries, includes a “jump to pin” button for moving the camera to a pinned journal entry, adds a zoom function for image handouts, and hides the name of a handout to users without permissions set.  Moerill includes a video showing off the mod’s utility here: [https://youtu.be/5O4yA8Kr6bs](https://youtu.be/5O4yA8Kr6bs)
-
-What hte module should roughly look like, when installed properly:
-
-#### Layer Hotkeys
-
-Author: Moerill#7205 on Discord
-
-Version: v1.0
-
-Foundry VTT Version Compatibility: 0.3.0
-
-System Compatibility (If applicable): Universal
-
-Module Requirement(s): None
-
-Module Conflicts: None
-
-Link(s) to Module:[https://gitlab.com/moerills-fvtt-modules/layer-hotkeys](https://gitlab.com/moerills-fvtt-modules/layer-hotkeys) 
-
-Description: This module adds hotkeys for switching layers and the active tool in canvas.
+### Description
+This module adds hotkeys for switching layers and the active tool in canvas.
 
 Hotkeys are:
-
-- Token Layer : T 
-
-- Template/Measurement Layer: M 
-- Tiles Layer: I 
-- Walls Layer: W 
-- Lighting Layer: L 
-- Sound Layer: S 
-- Notes Layer: N 
+- Token Layer : `T` 
+- Template/Measurement Layer: `M` 
+- Tiles Layer: `I` 
+- Walls Layer: `W` 
+- Lighting Layer: `L` 
+- Sound Layer: `S` 
+- Notes Layer: `N` 
 
 The layer tools are accessible through the digits 1 to 9, counted from the first at the top down to the bottom.
 
 The Hotkeys can be seen by hovering over the button as well.
 
-Quick note: To see the changed wall-type reflected you need to move the mouse a bit after switching the tool to trigger a color update.
+**Quick note**: To see the changed wall-type reflected you need to move the mouse a bit after switching the tool to trigger a color update.
 
-What the module should roughly look like, when installed properly:
-
-#### Message Age Restriction
+## Message Age Restriction
 
 Author: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at [felix.mueller.86@web.de](mailto:felix.mueller.86@web.de). 
 
