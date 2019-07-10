@@ -1,10 +1,10 @@
 # Foundry VTT Modules (Universal)
 
-**Description**: Foundry modules that work across all or most systems are noted here.  These may include reskins, general improvement mods, and more.
+**Description**: Foundry modules that work across all or most systems are noted here. These may include reskins, general improvement mods, and more.
 
 ## Display mode
 
-* **Author**: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at [felix.mueller.86@web.de](mailto:felix.mueller.86@web.de). 
+* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
 * **Version**: 0.1
 * **Foundry VTT Compatibility**: At least 0.3.0+, and will likely work with previous versions.
 * **System Compatibility (If applicable)**: Universal
@@ -19,7 +19,7 @@ This module makes it so that when you click the anvil in the top left of the scr
 
 ## Entity Order
 
-* **Author**: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
 * **Version**: 0.1
 * **Foundry VTT Compatibility**: 0.3.1+
 * **System Compatibility (If applicable)**: Universal
@@ -34,7 +34,7 @@ This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items a
 
 ## Popout!
 
-* **Author**: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
 * **Version**: 0.1
 * **Foundry VTT Compatibility**: 0.3+
 * **System Compatibility (If applicable)**: Universal
@@ -45,7 +45,7 @@ This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items a
 * [https://github.com/kakaroto/fvtt-module-popout](https://github.com/kakaroto/fvtt-module-popout) 
 
 ### Description
-This Foundry VTT module lets you pop out journal entries into their own windows.  It is currently acting as a proof of concept.
+This Foundry VTT module lets you pop out journal entries into their own windows. It is currently acting as a proof of concept.
 
 ## Grid Scaler
 
@@ -64,7 +64,7 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 
 ## Infinite Folders
 
-* **Author**: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
 * **Version**: 0.1
 * **Foundry VTT Compatibility**: 0.3.1
 * **System Compatibility (If applicable)**: Universal
@@ -80,7 +80,7 @@ This Foundry VTT module allows you to create infinite depth of folders for Scene
 ## Item Sounds
 
 * **Author**: Moerill#7205 on Discord
-* **Version**: (Note current version of module here.)
+* **Version**:
 * **Foundry VTT Compatibility**: 
 * **System Compatibility (If applicable)**: 
 * **Module Requirement(s)**: 
@@ -98,13 +98,13 @@ This Foundry VTT module allows you to create infinite depth of folders for Scene
 * **Foundry VTT Compatibility**: 0.2.10
 * **System Compatibility (If applicable)**: As of right now, it is universally applicable to all existing systems.
 * **Module Requirement(s)**: None
-* **Module Conflicts**: None currently known.
+* **Module Conflicts**: None currently known
 
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/journal-enhancer](https://gitlab.com/moerills-fvtt-modules/journal-enhancer) 
 
 ### Description 
-This module adds a search function for journal entries, includes a “jump to pin” button for moving the camera to a pinned journal entry, adds a zoom function for image handouts, and hides the name of a handout to users without permissions set.  Moerill includes a video showing off the mod’s utility here: [https://youtu.be/5O4yA8Kr6bs](https://youtu.be/5O4yA8Kr6bs)
+This module adds a search function for journal entries, includes a “jump to pin” button for moving the camera to a pinned journal entry, adds a zoom function for image handouts, and hides the name of a handout to users without permissions set. Moerill includes a video showing off the mod’s utility here: [https://youtu.be/5O4yA8Kr6bs](https://youtu.be/5O4yA8Kr6bs)
 
 ## Layer Hotkeys
 
@@ -138,7 +138,7 @@ The Hotkeys can be seen by hovering over the button as well.
 
 ## Message Age Restriction
 
-* **Author**: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at [felix.mueller.86@web.de](mailto:felix.mueller.86@web.de). 
+* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de 
 * **Version**: 0.1
 * **Foundry VTT Compatibility**: 0.3.1+
 * **System Compatibility (If applicable)**: Universal
@@ -153,7 +153,7 @@ A Foundry VTT Module to enable filtering chat-messages by their age. Each user c
 
 ## Permission Viewer
 
-* **Author**: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
 * **Version**: 0.2
 * **Foundry VTT Compatibility**: 0.3+
 * **System Compatibility (If applicable)**: Universal
@@ -197,11 +197,11 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 
 # Foundry VTT Modules for DnD 5E:
 
-**Description**: Foundry modules that work within Dungeons and Dragons 5th Edition are noted here.  These may include NPC compendiums that may be legally shared, world saves, character sheet mods, and much, much more.
+**Description**: Foundry modules that work within Dungeons and Dragons 5th Edition are noted here. These may include NPC compendiums that may be legally shared, world saves, character sheet mods, and much, much more.
 
 ## Better NPC Sheet 5e
 
-* **Author**: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at [felix.mueller.86@web.de](mailto:felix.mueller.86@web.de). 
+* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de 
 * **Version**: Better NPC Sheet v0.4.2
 * **Foundry VTT Compatibility**: 0.2.9-0.2.10
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
@@ -212,11 +212,11 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 * [https://github.com/syl3r86/BetterNPCSheet5e](https://github.com/syl3r86/BetterNPCSheet5e) 
 
 ### Description
-This module overwrites the default NPC sheet that comes shipped with the dnd5e system and brings it closer to the well known official template.  It also includes functionality supporting separation of action categories (legendary actions, actions, reactions, etc.), and features the ability to expand and view the description of the ability/action in-sheet.
+This module overwrites the default NPC sheet that comes shipped with the dnd5e system and brings it closer to the well known official template. It also includes functionality supporting separation of action categories (legendary actions, actions, reactions, etc.), and features the ability to expand and view the description of the ability/action in-sheet.
 
 ## Beyond 20
 
-* **Author**: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
 * **Version**: 0.2
 * **Foundry VTT Compatibility**: 0.3+
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
@@ -224,10 +224,10 @@ This module overwrites the default NPC sheet that comes shipped with the dnd5e s
 * **Module Conflicts**: None known
 
 ### Link(s) to Module
-* [https://github.com/kakaroto/Beyond20/blob/master/FVTT-module/beyond20/](https://github.com/kakaroto/Beyond20/blob/master/FVTT-module/beyond20/) 
+* [https://github.com/kakaroto/Beyond20/blob/master/FVTT-module](https://github.com/kakaroto/Beyond20/blob/master/FVTT-module) 
 
 ### Description
-This module allows you to use and roll sheets in DnD Beyond, and have those results displayed in Foundry VTT.  For more details, see Kakaroto’s module page and readme files.
+This module allows you to use and roll sheets in DnD Beyond, and have those results displayed in Foundry VTT. For more details, see Kakaroto’s module page and readme files.
 
 ## Chat Damage Buttons
 
@@ -242,9 +242,9 @@ This module allows you to use and roll sheets in DnD Beyond, and have those resu
 * [https://gitlab.com/hooking/foundry-vtt---chat-damage-buttons](https://gitlab.com/hooking/foundry-vtt---chat-damage-buttons) 
 
 ### Description
-This module replaces the right-click context menu with buttons on the dice-roll chat message.  This allows for quicker application of damage/healing.
+This module replaces the right-click context menu with buttons on the dice-roll chat message. This allows for quicker application of damage/healing.
 
-To install the module, download the zip file included in the Github module directory.  Extract the zip file to `/public/modules`.  Restart Foundry Virtual Tabletop.
+To install the module, download the zip file included in the Github module directory. Extract the zip file to `/public/modules`. Restart Foundry Virtual Tabletop.
 
 ## DnD Beyond Character Importer
 
@@ -261,7 +261,7 @@ To install the module, download the zip file included in the Github module direc
 ### Description
 This module allows you to import character data from DnD Beyond into Foundry Virtual Tabletop.  
 
-The module has not been updated recently by its creator, but the community has produced a fix for this issue.  The fix is not included in the zip file for the module, but is instead contained within the Github repository, and must be retrieved there.  Replace the file in the module folder with the fixed version.
+The module has not been updated recently by its creator, but the community has produced a fix for this issue.  The fix is not included in the zip file for the module, but is instead contained within the Github repository, and must be retrieved there. Replace the file in the module folder with the fixed version.
 
 ## Encumbrance Variant
 
@@ -276,18 +276,18 @@ The module has not been updated recently by its creator, but the community has p
 * [https://gitlab.com/hooking/foundry-vtt---encumbrance-variant-5e](https://gitlab.com/hooking/foundry-vtt---encumbrance-variant-5e) 
 
 ### Description
-This module modifies how the encumbrance bar in the actor sheet is displayed to distinguish the different levels of encumbrance when using the variant rules in **PHB pg. 175**.  It does not currently support the Powerful Build feature, as doing so would require extending the base Actor5eSheet class.
+This module modifies how the encumbrance bar in the actor sheet is displayed to distinguish the different levels of encumbrance when using the variant rules in **PHB pg. 175**. It does not currently support the Powerful Build feature, as doing so would require extending the base Actor5eSheet class.
 
-To install the module, download the zip file included in the Github module directory.  Extract the zip file to `/public/modules`.  Restart Foundry Virtual Tabletop.
+To install the module, download the zip file included in the Github module directory. Extract the zip file to `/public/modules`. Restart Foundry Virtual Tabletop.
 
 ## Favourite Item Tab
 
-* **Author**: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at felix.mueller.86@web.de.
+* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
 * **Version**: 0.1
 * **Foundry VTT Compatibility* **: 0.3.0
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None
-* **Module Conflicts**: None known.
+* **Module Conflicts**: None known
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/favtab](https://github.com/syl3r86/favtab)
@@ -308,7 +308,7 @@ Adds a Favourite tab to display a customized list of items, feats and spells. Us
 * [https://github.com/shwill/fvtt-party](https://github.com/shwill/fvtt-party) 
 
 ### Description
-This module adds a convenient button to the actor’s tab, which will track the HP, AC, and Passive Perception, Investigation, and Insight of tokens on the Canvas.  Currently a WIP, and may exhibit some bugs.
+This module adds a convenient button to the actor’s tab, which will track the HP, AC, and Passive Perception, Investigation, and Insight of tokens on the Canvas. Currently a WIP, and may exhibit some bugs.
 
 ## Item Sheet Buttons
 
@@ -323,9 +323,9 @@ This module adds a convenient button to the actor’s tab, which will track the 
 * [https://gitlab.com/hooking/foundry-vtt---item-sheet-buttons](https://gitlab.com/hooking/foundry-vtt---item-sheet-buttons) 
 
 ### Description
-This module adds item card buttons into the description of items, so that the item cards do not need to be pinged in chat.  It does have the side effect of making it harder to ping item descriptions within chat.
+This module adds item card buttons into the description of items, so that the item cards do not need to be pinged in chat. It does have the side effect of making it harder to ping item descriptions within chat.
 
-To install, download the zip file included in the Github module directory.  Extract the zip folder to `/public/modules`.  Restart Foundry Virtual Tabletop.
+To install, download the zip file included in the Github module directory. Extract the zip folder to `/public/modules`. Restart Foundry Virtual Tabletop.
 
 ## Loot Sheet NPC (5e)
 
@@ -340,16 +340,16 @@ To install, download the zip file included in the Github module directory.  Extr
 * [https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc](https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc) 
 
 ### Description
-This module adds an additional NPC sheet which can be used for loot containers such as chests.  It also allows spells to be automatically converted into spell scrolls by dragging them onto this sheet.
+This module adds an additional NPC sheet which can be used for loot containers such as chests. It also allows spells to be automatically converted into spell scrolls by dragging them onto this sheet.
 
 ## NPC Browser
 
-* **Author**: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at felix.mueller.86@web.de.
+* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
 * **Version: 0.1**
 * **Foundry VTT Compatibility**: 0.3.0
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None
-* **Module Conflicts**: None known.
+* **Module Conflicts**: None known
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/npc-browser](https://github.com/syl3r86/npc-browser)
@@ -359,7 +359,7 @@ This module adds a search interface for actors. This enables more comfortable br
 
 ## Polymorpher
 
-* **Author**: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at [felix.mueller.86@web.de](mailto:felix.mueller.86@web.de). 
+* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
 * **Version**: 0.2
 * **Foundry VTT Compatibility**: 0.3.0+
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th edition.
@@ -374,7 +374,7 @@ A module for Foundry VTT that lets you polymorph characters into any other chara
 
 ## R20 Converter
 
-* **Author**: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
 * **Version**: 0.3
 * **Foundry VTT Compatibility**: 0.3.3
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
@@ -385,11 +385,11 @@ A module for Foundry VTT that lets you polymorph characters into any other chara
 * The module is paywalled, and requires subscribing to KaKaRoTo’s Patreon.
 
 ### Description 
-This module imports most facets of a campaign, including scenes, dynamic lighting, basic sheet information, and more.  It currently does not include thorough actor information (either for PCs or NPCs), or items.  Bear in mind that exporting a campaign from Roll20 may violate the EULA.
+This module imports most facets of a campaign, including scenes, dynamic lighting, basic sheet information, and more. It currently does not include thorough actor information (either for PCs or NPCs), or items. Bear in mind that exporting a campaign from Roll20 may violate the EULA.
 
 ## Roll20 NPC Importer, for 5e
 
-* **Author**: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at [felix.mueller.86@web.de](mailto:felix.mueller.86@web.de). 
+* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
 * **Version**: Roll20 NPC Importer 5e v0.5.1
 * **Foundry VTT Compatibility**: 0.3.0
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
@@ -400,11 +400,11 @@ This module imports most facets of a campaign, including scenes, dynamic lightin
 * [https://github.com/syl3r86/roll20npcimporter](https://github.com/syl3r86/roll20npcimporter) 
 
 ### Description
-This module allows for the importing of NPCs from Roll20, through use of JSONs exported via [VTT Enhancement Suite](https://ssstormy.github.io/roll20-enhancement-suite/).  This import currently only supports NPCs created in the Roll20 OGL or Shaped version sheets.  This module supports the Better NPC Sheet 5e, as well as the aDnD5e sheet in tagging actor items according to abilities, reactions, legendary actions, etc.  To install, first download the module, unzip it into `/public/modules`, and then restart Foundry while it is running.
+This module allows for the importing of NPCs from Roll20, through use of JSONs exported via [VTT Enhancement Suite](https://ssstormy.github.io/roll20-enhancement-suite/). This import currently only supports NPCs created in the Roll20 OGL or Shaped version sheets. This module supports the Better NPC Sheet 5e, as well as the aDnD5e sheet in tagging actor items according to abilities, reactions, legendary actions, etc.  To install, first download the module, unzip it into `/public/modules`, and then restart Foundry while it is running.
 
 ## Spell Browser
 
-* **Author**: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at felix.mueller.86@web.de.
+* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de.
 * **Version**: 0.3
 * **Foundry VTT Compatibility**: 0.3.0
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
@@ -430,7 +430,7 @@ This module adds a search interface for spells. This enables more comfortable br
 * [https://drive.google.com/file/d/1oHMQhKuV-Vpdg5ftWTMaGZg76MVngZqO/view?usp=sharing](https://drive.google.com/file/d/1oHMQhKuV-Vpdg5ftWTMaGZg76MVngZqO/view?usp=sharing) 
 
 ### Description
-This module includes each SRD NPC in 5th edition, imported into Foundry VTT.  This includes all of their features, immunities/resistances/vulnerabilities, actions, and much, much more.  Other than lacking token images (token images do not appear to be part of the SRD), each NPC is built and ready for use in Foundry Virtual Tabletop.  Included in the module is a folder containing each individual NPC json, in case you wish to experiment with importing them, or future updates break the NPCs in this module.  These can be imported individually using the Roll20 NPC Importer, for 5e module.  
+This module includes each SRD NPC in 5th edition, imported into Foundry VTT. This includes all of their features, immunities/resistances/vulnerabilities, actions, and much, much more.  Other than lacking token images (token images do not appear to be part of the SRD), each NPC is built and ready for use in Foundry Virtual Tabletop.  Included in the module is a folder containing each individual NPC json, in case you wish to experiment with importing them, or future updates break the NPCs in this module. These can be imported individually using the Roll20 NPC Importer, for 5e module.  
 
 Future updates will include edits to the imports to bring them in line with “good practice” for Foundry NPCs.
 
@@ -438,7 +438,7 @@ To install, simply extract the zip file into `/public/modules`, enable the modul
 
 # Foundry VTT Modules (Defunct)
 
-**Description**: Foundry VTT modules that no longer work are noted here.  Modules included here have been defunct for at least one month.  This exists to help document previous work on Foundry Virtual Tabletop by the community, as well as to exist as a record for anyone who chooses to remain on a previous version of Foundry VTT.  
+**Description**: Foundry VTT modules that no longer work are noted here. Modules included here have been defunct for at least one month. This exists to help document previous work on Foundry Virtual Tabletop by the community, as well as to exist as a record for anyone who chooses to remain on a previous version of Foundry VTT.  
 
 ## aDnD5e
 
@@ -453,7 +453,7 @@ To install, simply extract the zip file into `/public/modules`, enable the modul
 * [https://gitlab.com/moerills-fvtt-modules/adnd5e](https://gitlab.com/moerills-fvtt-modules/adnd5e) 
 
 ### Description
-This module expands upon the existing 5e system in Foundry VTT, adding alternative PC and NPC sheets, as well as changing the system of attacks and macros, and adds a compendium for all SRD monsters, set up for use with this module.  The mod is effectively a massive expansion in the ability to edit sheets for the user’s purposes, and a revamp of how the 5E system works.  It is backwards-compatible with the default sheet, and can be switched between the two as needed.
+This module expands upon the existing 5e system in Foundry VTT, adding alternative PC and NPC sheets, as well as changing the system of attacks and macros, and adds a compendium for all SRD monsters, set up for use with this module. The mod is effectively a massive expansion in the ability to edit sheets for the user’s purposes, and a revamp of how the 5E system works. It is backwards-compatible with the default sheet, and can be switched between the two as needed.
 
 ## Appendix A: Adding a Module
 
@@ -461,7 +461,7 @@ This module expands upon the existing 5e system in Foundry VTT, adding alternati
 ```
 ## (Module Name)
 
-* **Author**: (Put author’s name here, including Discord username.  If they accept contributions in code or donations, note this here as well.)
+* **Author**: (Put author’s name here, including Discord username. If they accept contributions in code or donations, note this here as well.)
 * **Version**: (Note current version of module here.)
 * **Foundry VTT Compatibility**: (Note which versions of Foundry Virtual Tabletop the module is compatible with.)
 * **System Compatibility (If applicable)**: (Note which systems of Foundry Virtual Tabletop the module is compatible with.)
@@ -472,14 +472,14 @@ This module expands upon the existing 5e system in Foundry VTT, adding alternati
 * (Put a web URL here to find the module.)
 
 ### Description
-(Describe the module here.  This should include the module’s function, installation instructions, and anything important to note.  Due to the particular oddities of some archiving programs (WinRar, 7zip), and GitHub zip folders, including a screenshot of what the module should look like file-wise in the “public/modules/examplemodule” is appreciated, though not required.)
+(Describe the module here. This should include the module’s function, installation instructions, and anything important to note. Due to the particular oddities of some archiving programs (WinRar, 7zip), and GitHub zip folders, including a screenshot of what the module should look like file-wise in the “public/modules/examplemodule” is appreciated, though not required.)
 ```
 
 ## Appendix B: Best Editing Practices
 
-- Ideally, the term module should be used over mod, unless it is in the mod’s name or the author’s description.  Mod can carry connotations from other games that might not exist in Foundry VTT, while modules in Foundry VTT can range from NPC compendiums, to worlds, to “enhancement suite” functions.  They’re effectively the same thing, but it helps to emphasize how flexible Foundry Virtual Tabletop is. 
-- Links to modules should link to the author’s page for it, if such exists.  This helps emphasize the module author’s control over their creation, and allows users to see information that the module author deems important.  If you have the module author’s permission otherwise, or you are the creator, feel free to link directly to the module download link. 
-- Modules are sorted by system compatibility, then function, and then alphabetically.  If a module is compatible with more than one system, but not “universally” in Foundry Virtual Tabletop, note compatibility in each system’s section.  Otherwise, if a module is compatible universally, list it in the appropriate section for “universal modules”. 
-- Ensure that Foundry is noted as “Foundry VTT” or “Foundry Virtual Tabletop” in writing, unless it is the module title, or the module author desires otherwise in the description.  This helps emphasize Foundry’s role as a unique, standalone tabletop, and helps distinguish it from other brands using the word “foundry”.   
-- Ideally, each module should be separated by a single line break.  This is just to help it look neat. 
+- Ideally, the term module should be used over mod, unless it is in the mod’s name or the author’s description. Mod can carry connotations from other games that might not exist in Foundry VTT, while modules in Foundry VTT can range from NPC compendiums, to worlds, to “enhancement suite” functions. They’re effectively the same thing, but it helps to emphasize how flexible Foundry Virtual Tabletop is. 
+- Links to modules should link to the author’s page for it, if such exists. This helps emphasize the module author’s control over their creation, and allows users to see information that the module author deems important. If you have the module author’s permission otherwise, or you are the creator, feel free to link directly to the module download link. 
+- Modules are sorted by system compatibility, then function, and then alphabetically. If a module is compatible with more than one system, but not “universally” in Foundry Virtual Tabletop, note compatibility in each system’s section. Otherwise, if a module is compatible universally, list it in the appropriate section for “universal modules”. 
+- Ensure that Foundry is noted as “Foundry VTT” or “Foundry Virtual Tabletop” in writing, unless it is the module title, or the module author desires otherwise in the description. This helps emphasize Foundry’s role as a unique, standalone tabletop, and helps distinguish it from other brands using the word “foundry”.   
+- Ideally, each module should be separated by a single line break. This is just to help it look neat. 
 - Modules should not be listed if they violate existing copyright law.  
