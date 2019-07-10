@@ -1,8 +1,12 @@
-# Beta Version 0.3.X
+# Version History
+- [Beta Version 0.3.2, 2019-06-28](#beta-version-032-2019-06-28)
+- [Beta Version 0.3.1, 2019-06-28](#beta-version-031-2019-06-16)
 
-## Beta Version 0.3.2, 2019-06-28
+## Beta Version 0.3.X
 
-### New Features
+### Beta Version 0.3.2, 2019-06-28
+
+#### New Features
 
 * Added support for **Random Wildcard Tokens** which allows an Actor to be configured to support multiple token artworks and allows placed Tokens of that Actor type to randomly select from available token images when first placing a new Token instance of the Actor.
 * Players with the "Trusted" permission level may now **configure their own Tokens** in addition to editing their Actor sheet. This can speed up set up and gameplay management activities for DMs who have trustworthy players.
@@ -22,7 +26,7 @@
 * Added a new convenience button to the sheet header for entities which are viewed directly from a Compendium Pack which allows for you to import the entity whose sheet you are currently viewing.
 * Added a built-in workflow to support **deleting a World Compendium Pack**. Previously, world-level compendia which were created would need to be manually deleted and removed from the world.json file. There is now an automated in-app workflow to accomplish this - just be careful and read the warning message as any compendium content will be permanently removed.
 
-### Core Bug Fixes
+#### Core Bug Fixes
 
 * Fixed a bug which caused movements to a wall endpoint while editing on the Walls Layer to temporarily display all door control icons.
 * Identified an issue where the rich HTML content of TinyMCE editor fields was being included in every entity update instead of only when that content was modified by a user. Eliminating this issue has made entity update operations (for entities which have rich text fields) more efficient!
@@ -37,7 +41,7 @@
 * Dragging minimized applications was incorrectly constrained by the size of the maximized application, preventing minimized apps from being dragged to the edges of the screen. This is now possible, if a minimized app is maximized into an out-of-bounds position, it's location is corrected to the closed valid location.
 * Fixed another bug with Audio Playlists which could prevent playing tracks from beginning during live gameplay, instead requiring a browser refresh to begin playback.
 
-### Core Software, APIs, and Module Development
+#### Core Software, APIs, and Module Development
 
 * Added `FormApplication` support for a standard color-choice selector which will populate a defined text input field with a chosen color string. Use this pattern throughout FVTT where colors are chosen to allow users a way to provide a color string directly or remove an existing color choice.
 * Modules and Systems may now provide HTML directly in their `description` field of their module.json or world.json manifest files.
@@ -49,7 +53,7 @@
 * Improved the behavior of the `getFiles` socket request to support returning a list of files and directories based on a glob-style wildcard path.
 
  
-### D&D5e System Improvements
+#### D&D5e System Improvements
 
 * Added fully configured Tokens for all CR0 monsters to the Monsters (SRD) Compendium.
 * Added support to the Feat item type to track a limited number of uses per time period (short rest, long rest, day, etc...). The number of uses available is displayed next to the item name in the character sheet for convenient access and easier tracking of multiple resource types.
@@ -59,9 +63,9 @@
 * Added support for initiative-altering feats like Advantage to Initiative, Half-Proficiency Bonus, and the Alert Feat.
 * Fixed a bug which prevented rolling of the NPC hit point formula.
 
-## Beta Version 0.3.1, 2019-06-16
+### Beta Version 0.3.1, 2019-06-16
 
-### New Features
+#### New Features
 
 * Implemented a major performance improvement for Fog of War rendering which is especially valuable for large scenes (10,000px and larger) which economizes substantially on the WebGL resources needed to render and save fog of war. This result in significantly improved application performance which is most noticeable for large and complex maps.
 * Improve the specificity of the Scene Control application identification to allow for multiple scenes to be configured at the same time.
@@ -76,7 +80,7 @@
 * Pausing the game will cause any in-progress token animation paths to end once the token reaches its next waypoint. This gives the GM more control over interrupting a movement to narrate certain key events which may happen as a result of the move.
 * When placing wall endpoints you may now bypass snap-to-grid by holding the SHIFT key. This can be especially helpful when paired with wall chaining (CTRL) to create more circular wall shapes or for other special situations. Take extra care when placing walls which do not snap to the grid to avoid leaving gaps between your wall endpoints which could allow light to bleed through.
 
-### Core Bug Fixes
+#### Core Bug Fixes
 
 * Fixed a bug which prevented Journal Entries from being shown to players with the image mode displayed as intended by the standard workflow.
 * Fixed an issue with the FilePicker UI which prevented navigating upwards to the root public directory.
@@ -103,7 +107,7 @@
 * Attempting to use the FilePicker for a file path which no longer exists will now correctly revert back to display the public root folder.
 * Improve overflow scrolling for the ModuleManagement application to help with cases where users have many modules which could scroll off the viewable screen.
 
-### Core Software, APIs, and Module Development
+#### Core Software, APIs, and Module Development
 
 * Improved the behavior and layout of the Audio Playlist sidebar which should now behave more as expected when adding playlists and sounds. In particular, this update should resolve issues with players not having synchronized audio when the active track changes or was modified by the DM.
 * Improve security around user-provided HTML input by sanitizing the set of allowed HTML tags more aggressively to strip any javascript which could be injected as inline HTML.
@@ -124,7 +128,7 @@
 * Build the AWS SDK into the package as a dev dependency to help with building and distributing new versions and automating the upload and release process further.
 * The `copyObjects` and `pasteObjects` methods in each `PlaceableLayer` will now return an Array of the objects which were copied or pasted when resolving their Promise.
 
-### D&D5e System Improvements
+#### D&D5e System Improvements
 
 * Added "adventuring items" to the D&D5e Items (SRD) Compendium. This expansion adds 100 pre-configured items as well as (perhaps more importantly) over 200 new pieces of licensed icon artwork which may be used to create homebrew items in your D&D5e worlds. Take a look at `public/systems/dnd5e/icons/inventory` for all the good new stuff! Also a special thanks to DoomRice from Discord who did some very helpful legwork to set up the set of items which should be added to the core compendium as part of this update.
 * Added all Artisan Tools and Musical Instruments to the D&D5e Items (SRD) Compendium with pre-configured entries and accompanying artwork. Thanks very much to DoomRice from Discord who helped a lot with setting up these items for import.
