@@ -28,7 +28,8 @@ Foundry VTT - Community Wiki Outline
 
     - Dedicated host - local 
         - Windows 
-        - Linux 
+        - Linux
+        - macOS
 
     - Dedicated host - cloud 
         - AWS 
@@ -75,7 +76,7 @@ Foundry VTT - Community Wiki Outline
 
 - [ ] Game Systems 
     - D&D 5e 
-    - Pathfinder 
+    - Pathfinder
 
 - [ ] Entities 
     - Actor 
@@ -85,6 +86,8 @@ Foundry VTT - Community Wiki Outline
     - API Basics 
     - API Snippets 
 
-- [ ] Modules 
-    - Community Module Library 
+- [ ] Community Game Systems & Modules
+    - Game Systems Library
+    - Games Systems  Resources
+    - Module Library 
     - Module Resources
