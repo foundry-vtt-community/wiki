@@ -1,1 +1,1 @@
-(this page will contain information and links for downloading and setting up the Foundry VTT server/host---note: only Patreon supporters can currently download the software)
+[Official Tutorial](http://foundryvtt.com/pages/tutorial.html)
