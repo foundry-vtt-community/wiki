@@ -22,6 +22,6 @@ The Token Image Path field is the most important field in this section: it is th
 
 ## Wildcards
 
-##Token Size
+## Token Size
 The width and height values specified here are set to a number of grid squares (or hexes) and determine how much space the token takes on the field.
 The scale slider only changes the image scale without changing the actual space taken by the token unit. A number higher than 1 results in a bigger image while a number below 1 makes it appear smaller.
