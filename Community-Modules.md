@@ -1,4 +1,4 @@
-# Foundry VTT Modules (Universal):
+# Foundry VTT Modules (Universal)
 
 **Description**: Foundry modules that work across all or most systems are noted here.  These may include reskins, general improvement mods, and more.
 
@@ -141,81 +141,66 @@ The Hotkeys can be seen by hovering over the button as well.
 
 ## Message Age Restriction
 
-Author: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at [felix.mueller.86@web.de](mailto:felix.mueller.86@web.de). 
+* **Author**: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at [felix.mueller.86@web.de](mailto:felix.mueller.86@web.de). 
+* **Version**: 0.1
+* **Foundry Compatibility**: 0.3.1+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
 
-Version: 0.1
+### Link(s) to Module
+* [https://github.com/syl3r86/messageagerestriction](https://github.com/syl3r86/messageagerestriction) 
 
-Foundry VTT Version Compatibility: 0.3.1+
+### Description
+A Foundry VTT Module to enable filtering chat-messages by their age. Each user can choose his own settings. It is possible to set the maximum age (in days) and to specify if the filter should be applied.
 
-System Compatibility (If applicable): Universal
+## Permission Viewer
 
-Module Requirement(s): None.
+* **Author**: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Version**: 0.2
+* **Foundry Compatibility**: 0.3+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
 
-Module Conflicts: None.
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-permission-viewer](https://github.com/kakaroto/fvtt-module-permission-viewer) 
 
-Link(s) to Module:[https://github.com/syl3r86/messageagerestriction](https://github.com/syl3r86/messageagerestriction) 
+### Description
+This Foundry VTT module displays colored diamonds/squares/circles to represent the players who have limited/observer/owner permissions on Entities (Actors, Journal entries, Items, etc..)
 
-Description: A Foundry VTT Module to enable filtering chat-messages by their age. Each user can choose his own settings. It is possible to set the maximum age (in days) and to specify if the filter should be applied.
+## SVG Loader
 
-#### Permission Viewer
+* **Author**: Moerill#7205 on Discord
+* **Version**: 
+* **Foundry Compatibility**: 
+* **System Compatibility (If applicable)**: 
+* **Module Requirement(s)**: 
+* **Module Conflicts**: 
 
-Author: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+### Link(s) to Module
+* [https://gitlab.com/moerills-fvtt-modules/svg-loader](https://gitlab.com/moerills-fvtt-modules/svg-loader) 
 
-Version: 0.2
+### Description
 
-Foundry VTT Version Compatibility: 0.3+
 
-System Compatibility (If applicable): Universal
+## Token Randomizer
 
-Module Requirement(s): None.
+* **Author**: Moerill#7205 on Discord
+* **Version**: (Note current version of module here.)
+* **Foundry Compatibility**:
+* **System Compatibility (If applicable)**:
+* **Module Requirement(s)**: 
+* **Module Conflicts**:
 
-Module Conflicts: None.
+### Link(s) to Module
+* [https://gitlab.com/moerills-fvtt-modules/token-randomizer](https://gitlab.com/moerills-fvtt-modules/token-randomizer) 
 
-Link(s) to Module:[https://github.com/kakaroto/fvtt-module-permission-viewer](https://github.com/kakaroto/fvtt-module-permission-viewer) 
+### Description
 
-Description: This Foundry VTT module displays colored diamonds/squares/circles to represent the players who have limited/observer/owner permissions on Entities (Actors, Journal entries, Items, etc..)
+# Foundry VTT Modules for DnD 5E:
 
-#### SVG Loader
-
-Author: Moerill#7205 on Discord
-
-Version: (Note current version of module here.)
-
-Foundry VTT Version Compatibility: (Note which versions of Foundry Virtual Tabletop the module is compatible with.)
-
-System Compatibility (If applicable): (Note which systems of Foundry Virtual Tabletop the module is compatible with.)
-
-Module Requirement(s): (If the module requires other modules to function, note them here.)
-
-Module Conflicts: (If the module conflicts with other modules, either partially or completely, note conflicts here.)
-
-Link(s) to Module:[https://gitlab.com/moerills-fvtt-modules/svg-loader](https://gitlab.com/moerills-fvtt-modules/svg-loader) 
-
-Description: (Describe the module here.  This should include the module’s function, installation instructions, and anything important to note.  Due to the particular oddities of some archiving programs (WinRar, 7zip), and GitHub zip folders, including a screenshot of what the module should look like file-wise in the “public/modules/examplemodule” is appreciated, though not required.)
-
-#### Token Randomizer
-
-Author: Moerill#7205 on Discord
-
-Version: (Note current version of module here.)
-
-Foundry VTT Version Compatibility: (Note which versions of Foundry Virtual Tabletop the module is compatible with.)
-
-System Compatibility (If applicable): (Note which systems of Foundry Virtual Tabletop the module is compatible with.)
-
-Module Requirement(s): (If the module requires other modules to function, note them here.)
-
-Module Conflicts: (If the module conflicts with other modules, either partially or completely, note conflicts here.)
-
-Link(s) to Module:[https://gitlab.com/moerills-fvtt-modules/token-randomizer](https://gitlab.com/moerills-fvtt-modules/token-randomizer) 
-
-Description: (Describe the module here.  This should include the module’s function, installation instructions, and anything important to note.  Due to the particular oddities of some archiving programs (WinRar, 7zip), and GitHub zip folders, including a screenshot of what the module should look like file-wise in the “public/modules/examplemodule” is appreciated, though not required.)
-
- 
-
-### Foundry VTT Modules for DnD 5E:
-
-Description: Foundry modules that work within Dungeons and Dragons 5th Edition are noted here.  These may include NPC compendiums that may be legally shared, world saves, character sheet mods, and much, much more.
+**Description**: Foundry modules that work within Dungeons and Dragons 5th Edition are noted here.  These may include NPC compendiums that may be legally shared, world saves, character sheet mods, and much, much more.
 
 #### Better NPC Sheet 5e
 
