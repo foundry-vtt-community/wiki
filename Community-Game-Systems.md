@@ -1,4 +1,4 @@
-# Community Game Systems:
+# Community Game Systems
 
 **Description**: Foundry systems that allow people to expand upon the default Foundry offerings for tabletop games- systems like Warhammer Fantasy or Starfinder.
 
