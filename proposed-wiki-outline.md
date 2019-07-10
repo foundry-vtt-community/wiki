@@ -3,11 +3,12 @@
 - [X] What is Foundry VTT 
 - [ ] FAQs 
 - [X] Official Resources 
-    - Foundry VTT website 
-    - Patreon 
-    - Discord 
-    - Gitlab 
-
+    - Foundry VTT Website
+    - Gitlab
+    - Gitlab Issue Tracker
+    - Patreon
+    - Discord
+    
 - [ ] Getting Started
 
     - [X] Update Notes
