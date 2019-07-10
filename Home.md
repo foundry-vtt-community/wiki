@@ -75,6 +75,11 @@ This wiki serves as a repository of community-curated information about the Foun
 
 ### Combat
 
+# [[Modules]]
+## [[Finding Modules|Modules#finding-modules]]
+## [[Installing Modules|Modules#installing-modules]]
+## [[Developing Modules|Modules#developing-modules]]
+
 # API
 
 ## API Basics
