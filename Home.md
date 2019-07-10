@@ -49,7 +49,7 @@ This wiki serves as a repository of community-curated information about the Foun
 
 ### Tiles
 
-### Walls
+### [[Walls]]
 
 ### Pins
 
