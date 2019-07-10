@@ -84,3 +84,4 @@ This wiki serves as a repository of community-curated information about the Foun
 # Community Game Systems & Modules
 ## [[Community Game Systems]]
 ## [[Community Modules]]
+## [Community Module Repository](https://github.com/foundry-vtt-community/modules)
