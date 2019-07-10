@@ -57,7 +57,7 @@ This Foundry VTT module lets you pop out journal entries into their own windows.
 * **Module Conflicts**: None
 
 ### Link(s) to Module
-* [https://github.com/UberV/scaleGrid/tree/master/gridScale](https://github.com/UberV/scaleGrid/tree/master/gridScale) 
+* [https://github.com/UberV/scaleGrid/](https://github.com/UberV/scaleGrid/) 
 
 ### Description
 This mod allows you to resize a grid more easily within Foundry, allowing easier map setup when a grid is uneven or unclear within a background image.
