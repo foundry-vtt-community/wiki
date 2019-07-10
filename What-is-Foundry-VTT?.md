@@ -1,4 +1,4 @@
-From the [official site](http://foundryvtt.com/#about-foundry-virtual-tabletop):
+From the [official site](http://foundryvtt.com/#about-foundry-virtual-tabletop):  
 Foundry Virtual Tabletop is an application for running multi-player tabletop roleplaying games using an intuitive and feature-rich web-based application. I am a long-time fan of tabletop gaming and the communities which this hobby cultivates, but I have been unsatisfied with existing tools for sharing gaming experiences with my friends.
 
 I envisioned a software that captured the best parts of existing tools while innovating to provide deeper layers of immersion and storytelling tools that can empower creators to bring their worlds to life in the imagination of players. I imagined software that allowed those creators to have autonomy and control over their content with a variety of supported hosting models. I imagined making this tool easily accessible to the community with a browser-based web technologies. Most importantly, I thought about providing talented and imaginative developers with an open sandbox with the tools and space to create powerful and customized systems and modules.
