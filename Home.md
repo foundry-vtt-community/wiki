@@ -82,5 +82,5 @@ This wiki serves as a repository of community-curated information about the Foun
 ## API Snippets
 
 # Community Game Systems & Modules
-* Community Game Systems
-* [[Community Modules]]
+## [[Community Game Systems]]
+## [[Community Modules]]
