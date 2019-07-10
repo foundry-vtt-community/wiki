@@ -5,4 +5,7 @@ From the [official site](http://foundryvtt.com/#about-foundry-virtual-tabletop):
 >
 >Foundry Virtual Tabletop is the result of that vision and is created by a fan and dungeon master who loves creating rich experiences for players for others in the community who share that goal. I am working hard to contribute back to the community by creating technology that I myself would love to use in hopes that other dungeon masters value the same things that I do.
 
+# Development Status
 Foundry VTT is currently in **closed beta** with access provided to [Patreon](https://patreon.com/foundryvtt) subscribers.
+
+Development progress can be tracked in the official Foundry VTT [GitLab](https://gitlab.com/foundrynet/foundryvtt/).
