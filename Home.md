@@ -4,7 +4,7 @@ This wiki serves as a repository of community-curated information about the Foun
 
 # [[What is Foundry VTT?]]
 
-# [[FAQs]]
+# [[FAQ]]
 
 # Official Resources
 * [Foundry VTT Website](http://foundryvtt.com/)
@@ -13,7 +13,7 @@ This wiki serves as a repository of community-curated information about the Foun
 * [Patreon](https://www.patreon.com/foundryvtt/overview)
 * [Discord](https://discordapp.com/invite/DDBZUDf)
 
-# Getting Started
+# [Getting Started](https://github.com/foundry-vtt-community/wiki/wiki/Getting-Started-with-Foundry-VTT)
 
 ## [[Update Notes]]
 
