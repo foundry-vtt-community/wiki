@@ -35,7 +35,7 @@ This wiki serves as a repository of community-curated information about the Foun
 
 ## Connecting
 
-## Setting up Worlds
+## [[Setting up Worlds]]
 
 ## Setting up Players
 
