@@ -80,6 +80,6 @@
     - [ ] API Snippets 
 
 - [X] Community Game Systems & Modules
-    - [X] Community Games Systems
+    - [X] Community Game Systems
     - [X] Community Modules
     - [X] Community Module Repository
