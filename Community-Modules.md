@@ -1,42 +1,36 @@
-### Foundry VTT Modules (Universal):
+# Foundry VTT Modules (Universal):
 
-Description: Foundry modules that work across all or most systems are noted here.  These may include reskins, general improvement mods, and more.
+**Description**: Foundry modules that work across all or most systems are noted here.  These may include reskins, general improvement mods, and more.
 
-#### Display mode
+## Display mode
 
-Author: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at [felix.mueller.86@web.de](mailto:felix.mueller.86@web.de). 
+* **Author**: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at [felix.mueller.86@web.de](mailto:felix.mueller.86@web.de). 
+* **Version**: 0.1
+* **Foundry Compatibility**: At least 0.3.0+, and will likely work with previous versions.
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
 
-Version: 0.1
+### Link(s) to Module
+* [https://github.com/syl3r86/displaymode](https://github.com/syl3r86/displaymode) 
 
-Foundry VTT Version Compatibility: At least 0.3.0+, and will likely work with previous versions.
+###  Module Description
+This module makes it so that when you click the anvil in the top left of the screen, the sidebar in Foundry is hidden.
 
-System Compatibility (If applicable): Universal
+## Entity Order
 
-Module Requirement(s): None
+* **Author**: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Version**: 0.1
+* **Foundry Compatibility**: 0.3.1+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
 
-Module Conflicts: None
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-entityorder](https://github.com/kakaroto/fvtt-module-entityorder) 
 
-Link(s) to Module:[https://github.com/syl3r86/displaymode](https://github.com/syl3r86/displaymode) 
-
-Description: This module makes it so that when you click the anvil in the top left of the screen, the sidebar in Foundry is hidden.
-
-#### Entity Order
-
-Author: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
-
-Version: 0.1
-
-Foundry VTT Version Compatibility: 0.3.1+
-
-System Compatibility (If applicable): Universal.
-
-Module Requirement(s): None.
-
-Module Conflicts: None.
-
-Link(s) to Module:[https://github.com/kakaroto/fvtt-module-entityorder](https://github.com/kakaroto/fvtt-module-entityorder) 
-
-Description: This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items and Journal entries).
+### Description
+This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items and Journal entries).
 
 #### Popout!
 
