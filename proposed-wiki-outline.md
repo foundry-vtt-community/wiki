@@ -68,7 +68,12 @@
 
 - [ ] Entities 
     - [ ] Actor 
-    - [ ] Combat 
+    - [ ] Combat
+    
+ - [X] Modules 
+    - [X] Finding Modules 
+    - [X] Installing Modules 
+    - [X] Developing Modules    
 
 - [ ] API 
     - [ ] API Basics 
