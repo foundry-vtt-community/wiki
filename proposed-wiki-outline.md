@@ -2,7 +2,7 @@ Foundry VTT - Community Wiki Outline
 
   
 
--[] What is Foundry VTT 
+- [ ] What is Foundry VTT 
 - FAQs 
 - Official Resources 
     - Foundry VTT website 
