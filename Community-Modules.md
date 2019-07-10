@@ -335,193 +335,153 @@ Module Conflicts: None known, although module is a WIP.
 
 Link(s) to Module:[https://github.com/shwill/fvtt-party](https://github.com/shwill/fvtt-party) 
 
-Description: This module adds a convenient button to the actor’s tab, which will track the HP, AC, and Passive Perception, Investigation, and Insight of tokens on the Canvas.  Currently a WIP, and may exhibit some bugs.
+### Description
+This module adds a convenient button to the actor’s tab, which will track the HP, AC, and Passive Perception, Investigation, and Insight of tokens on the Canvas.  Currently a WIP, and may exhibit some bugs.
 
-#### Item Sheet Buttons
+## Item Sheet Buttons
 
-Author: hooking#0492 on Discord.
+* **Author**: hooking#0492 on Discord.
+* **Version**: 0.13
+* **Foundry VTT Compatibility**: 0.2.8-0.2.10
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
+* **Module Requirement(s)**: None.
+* **Module Conflicts**: None currently known, but according to Github page may be prone to breaking in the future.
 
-Version: 0.13
+### Link(s) to Module
+* [https://gitlab.com/hooking/foundry-vtt---item-sheet-buttons](https://gitlab.com/hooking/foundry-vtt---item-sheet-buttons) 
 
-Foundry VTT Version Compatibility: 0.2.8-0.2.10
+### Description
+This module adds item card buttons into the description of items, so that the item cards do not need to be pinged in chat.  It does have the side effect of making it harder to ping item descriptions within chat.
 
-System Compatibility (If applicable): Dungeons and Dragons 5th Edition
+To install, download the zip file included in the Github module directory.  Extract the zip folder to `/public/modules`.  Restart Foundry Virtual Tabletop.
 
-Module Requirement(s): None.
+## Loot Sheet NPC (5e)
 
-Module Conflicts: None currently known, but according to Github page may be prone to breaking in the future.
+* **Author**: hooking#0492 on Discord.
+* **Version**: v0.2.2
+* **Foundry VTT Compatibility**: 0.3.0
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
 
-Link(s) to Module:[https://gitlab.com/hooking/foundry-vtt---item-sheet-buttons](https://gitlab.com/hooking/foundry-vtt---item-sheet-buttons) 
+### Link(s) to Module
+* [https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc](https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc) 
 
-Description: This module adds item card buttons into the description of items, so that the item cards do not need to be pinged in chat.  It does have the side effect of making it harder to ping item descriptions within chat.
+### Description
+This module adds an additional NPC sheet which can be used for loot containers such as chests.  It also allows spells to be automatically converted into spell scrolls by dragging them onto this sheet.
 
-To install, download the zip file included in the Github module directory.  Extract the zip folder to “/public/modules”.  Restart Foundry Virtual Tabletop.
+## NPC Browser
 
-What the module should roughly look like, when installed properly:
+* **Author**: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at felix.mueller.86@web.de.
+* **Version: 0.1**
+* **Foundry VTT Compatibility**: 0.3.0
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known.
 
-#### Loot Sheet NPC (5e)
+### Link(s) to Module
+* [https://github.com/syl3r86/npc-browser](https://github.com/syl3r86/npc-browser)
 
-Author: hooking#0492 on Discord.
+### Description
+This module adds a search interface for actors. This enables more comfortable browsing and searching via predefined filters like challenge rating, type or ability score.
 
-Version: v0.2.2
+## Polymorpher
 
-Foundry VTT Version Compatibility: 0.3.0
+* **Author**: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at [felix.mueller.86@web.de](mailto:felix.mueller.86@web.de). 
+* **Version**: 0.2
+* **Foundry VTT Compatibility**: 0.3.0+
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th edition.
+* **Module Requirement(s)**: None.
+* **Module Conflicts**: Previous version of the module deleted actors, do not use v0.1.
 
-System Compatibility (If applicable): Dungeons and Dragons 5th Edition
+### Link(s) to Module
+* [https://github.com/syl3r86/polymorpher](https://github.com/syl3r86/polymorpher) 
 
-Module Requirement(s): None
+### Description
+A module for Foundry VTT that lets you polymorph characters into any other character! Just drag any Actor (NPC or Character) on top of another Actor to change the later into the prior. Support dropping both from Compendium or the sidebar.
 
-Module Conflicts: None
+## R20 Converter
 
-Link(s) to Module:[https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc](https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc) 
+* **Author**: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
+* **Version**: 0.3
+* **Foundry VTT Compatibility**: 0.3.3
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
+* **Module Requirement(s)**: None in Foundry, though module requires a campaign exported from Roll20 using KakaRoTo’s export tool.
+* **Module Conflicts**: None known.
 
-Description: This module adds an additional NPC sheet which can be used for loot containers such as chests.  It also allows spells to be automatically converted into spell scrolls by dragging them onto this sheet.
+### Link(s) to Module
+* The module is paywalled, and requires subscribing to KaKaRoTo’s Patreon.
 
-The module should appear roughly like the following, when installed properly:
+### Description 
+This module imports most facets of a campaign, including scenes, dynamic lighting, basic sheet information, and more.  It currently does not include thorough actor information (either for PCs or NPCs), or items.  Bear in mind that exporting a campaign from Roll20 may violate the EULA.
 
-#### NPC Browser
+## Roll20 NPC Importer, for 5e
 
-Author: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at felix.mueller.86@web.de.
+* **Author**: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at [felix.mueller.86@web.de](mailto:felix.mueller.86@web.de). 
+* **Version**: Roll20 NPC Importer 5e v0.5.1
+* **Foundry VTT Compatibility**: 0.3.0
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
+* **Module Requirement(s)**: None.
+* **Module Conflicts**: None known.
 
-Version: 0.1
+### Link(s) to Module
+* [https://github.com/syl3r86/roll20npcimporter](https://github.com/syl3r86/roll20npcimporter) 
 
-Foundry VTT Version Compatibility: 0.3.0
+### Description
+This module allows for the importing of NPCs from Roll20, through use of JSONs exported via [VTT Enhancement Suite](https://ssstormy.github.io/roll20-enhancement-suite/).  This import currently only supports NPCs created in the Roll20 OGL or Shaped version sheets.  This module supports the Better NPC Sheet 5e, as well as the aDnD5e sheet in tagging actor items according to abilities, reactions, legendary actions, etc.  To install, first download the module, unzip it into `/public/modules`, and then restart Foundry while it is running.
 
-System Compatibility (If applicable): Dungeons and Dragons 5th Edition
+## Spell Browser
 
-Module Requirement(s): None
+* **Author**: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at felix.mueller.86@web.de.
+* **Version**: 0.3
+* **Foundry VTT Compatibility**: 0.3.0
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known.
 
-Module Conflicts: None known.
+### Link(s) to Module
+* [https://github.com/syl3r86/Spell-Browser](https://github.com/syl3r86/Spell-Browser)
 
-Link(s) to Module:[https://github.com/syl3r86/npc-browser](https://github.com/syl3r86/npc-browser)
+### Description
+This module adds a search interface for spells. This enables more comfortable browsing and searching via predefined filters like spell level, class or damage type.
 
-Description: This module adds a search interface for actors. This enables more comfortable browsing and searching via predefined filters like challenge rating, type or ability score.
+## SRD Bestiary Module
 
-The module should appear roughly like the following, when installed properly:
+* **Author**: DestinyGrey#2890, also known as “The_Entire_Eurozone”.  
+* **Version**: 0.2
+* **Foundry VTT Compatibility**: 0.2.8+
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
+* **Module Requirement(s)**: None, though it is compatible and has optional sorting tags for the Better NPC Sheet 5E module, as well as the aDnD5e module.  
+* **Module Conflicts**: None (currently).  
 
-#### Polymorpher
+### Link(s) to Module
+* [https://drive.google.com/file/d/1oHMQhKuV-Vpdg5ftWTMaGZg76MVngZqO/view?usp=sharing](https://drive.google.com/file/d/1oHMQhKuV-Vpdg5ftWTMaGZg76MVngZqO/view?usp=sharing) 
 
-Author: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at [felix.mueller.86@web.de](mailto:felix.mueller.86@web.de). 
-
-Version: 0.2
-
-Foundry VTT Version Compatibility: 0.3.0+
-
-System Compatibility (If applicable): Dungeons and Dragons 5th edition.
-
-Module Requirement(s): None.
-
-Module Conflicts: Previous version of the module deleted actors, do not use v0.1.
-
-Link(s) to Module:[https://github.com/syl3r86/polymorpher](https://github.com/syl3r86/polymorpher) 
-
-Description: A module for Foundry VTT that lets you polymorph characters into any other character! Just drag any Actor (NPC or Character) on top of another Actor to change the later into the prior. Support dropping both from Compendium or the sidebar.
-
-#### R20 Converter
-
-Author: KaKaRoTo#4756 on Discord.  His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-
-Version: 0.3
-
-Foundry VTT Version Compatibility: 0.3.3
-
-System Compatibility (If applicable): Dungeons and Dragons 5th Edition
-
-Module Requirement(s): None in Foundry, though module requires a campaign exported from Roll20 using KakaRoTo’s export tool.
-
-Module Conflicts: None known.
-
-Link(s) to Module: The module is paywalled, and requires subscribing to KaKaRoTo’s Patreon.
-
-Description: This module imports most facets of a campaign, including scenes, dynamic lighting, basic sheet information, and more.  It currently does not include thorough actor information (either for PCs or NPCs), or items.  Bear in mind that exporting a campaign from Roll20 may violate the EULA.
-
-#### Roll20 NPC Importer, for 5e
-
-Author: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at [felix.mueller.86@web.de](mailto:felix.mueller.86@web.de). 
-
-Version: Roll20 NPC Importer 5e v0.5.1
-
-Foundry VTT Version Compatibility: 0.3.0
-
-System Compatibility (If applicable): Dungeons and Dragons 5th Edition
-
-Module Requirement(s): None.
-
-Module Conflicts: None known.
-
-Link(s) to Module:[https://github.com/syl3r86/roll20npcimporter](https://github.com/syl3r86/roll20npcimporter) 
-
-Description: This module allows for the importing of NPCs from Roll20, through use of JSONs exported via [VTT Enhancement Suite](https://ssstormy.github.io/roll20-enhancement-suite/).  This import currently only supports NPCs created in the Roll20 OGL or Shaped version sheets.  This module supports the Better NPC Sheet 5e, as well as the aDnD5e sheet in tagging actor items according to abilities, reactions, legendary actions, etc.  To install, first download the module, unzip it into /public/modules, and then restart Foundry while it is running.  You should see the following button in your actors list after installing the module:
-
-The module should appear roughly like the following, when installed properly:
-
-#### Spell Browser
-
-Author: Felix#6196 on Discord, syl3r31 on Github.  He accepts donations on Paypal at felix.mueller.86@web.de.
-
-Version: 0.3
-
-Foundry VTT Version Compatibility: 0.3.0
-
-System Compatibility (If applicable): Dungeons and Dragons 5th Edition
-
-Module Requirement(s): None
-
-Module Conflicts: None known.
-
-Link(s) to Module:[https://github.com/syl3r86/Spell-Browser](https://github.com/syl3r86/Spell-Browser)
-
-Description: This module adds a search interface for spells. This enables more comfortable browsing and searching via predefined filters like spell level, class or damage type.
-
-The module should appear roughly like the following, when installed properly:
-
-#### SRD Bestiary Module
-
-Author: DestinyGrey#2890, also known as “The_Entire_Eurozone”.  
-
-Version: 0.2
-
-Foundry VTT Version Compatibility: 0.2.8+
-
-System Compatibility (If applicable): Dungeons and Dragons 5th Edition
-
-Module Requirement(s): None, though it is compatible and has optional sorting tags for the Better NPC Sheet 5E module, as well as the aDnD5e module.  
-
-Module Conflicts: None (currently).  
-
-Link(s) to Module:[https://drive.google.com/file/d/1oHMQhKuV-Vpdg5ftWTMaGZg76MVngZqO/view?usp=sharing](https://drive.google.com/file/d/1oHMQhKuV-Vpdg5ftWTMaGZg76MVngZqO/view?usp=sharing) 
-
-Description: This module includes each SRD NPC in 5th edition, imported into Foundry VTT.  This includes all of their features, immunities/resistances/vulnerabilities, actions, and much, much more.  Other than lacking token images (token images do not appear to be part of the SRD), each NPC is built and ready for use in Foundry Virtual Tabletop.  Included in the module is a folder containing each individual NPC json, in case you wish to experiment with importing them, or future updates break the NPCs in this module.  These can be imported individually using the Roll20 NPC Importer, for 5e module.  
+### Description
+This module includes each SRD NPC in 5th edition, imported into Foundry VTT.  This includes all of their features, immunities/resistances/vulnerabilities, actions, and much, much more.  Other than lacking token images (token images do not appear to be part of the SRD), each NPC is built and ready for use in Foundry Virtual Tabletop.  Included in the module is a folder containing each individual NPC json, in case you wish to experiment with importing them, or future updates break the NPCs in this module.  These can be imported individually using the Roll20 NPC Importer, for 5e module.  
 
 Future updates will include edits to the imports to bring them in line with “good practice” for Foundry NPCs.
 
-To install, simply extract the zip file into “/public/modules”, enable the module in Foundry, and then do a full restart in order to display the compendium.
+To install, simply extract the zip file into `/public/modules`, enable the module in Foundry, and then do a full restart in order to display the compendium.
 
-The module should appear roughly like the following, when installed properly:
+# Foundry VTT Modules (Defunct)
 
-### Foundry VTT Modules (Defunct):
+**Description**: Foundry VTT modules that no longer work are noted here.  Modules included here have been defunct for at least one month.  This exists to help document previous work on Foundry Virtual Tabletop by the community, as well as to exist as a record for anyone who chooses to remain on a previous version of Foundry VTT.  
 
-Description: Foundry VTT modules that no longer work are noted here.  Modules included here have been defunct for at least one month.  This exists to help document previous work on Foundry Virtual Tabletop by the community, as well as to exist as a record for anyone who chooses to remain on a previous version of Foundry VTT.  
+## aDnD5e
 
-#### aDnD5e
+* **Author**: Moerill#7205 on Discord
+* **Version**: 0.2
+* **Foundry VTT Compatibility**: 0.2.9-0.2.10
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
+* **Module Requirement(s)**: None
+* **Module Conflicts**: This module currently disables Better NPC Sheet 5e’s function in allowing NPC abilities and actions to be previewed within the sheet.
 
-Author: Moerill#7205 on Discord
+### Link(s) to Module
+* [https://gitlab.com/moerills-fvtt-modules/adnd5e](https://gitlab.com/moerills-fvtt-modules/adnd5e) 
 
-Version: 0.2
-
-Foundry VTT Version Compatibility: 0.2.9-0.2.10
-
-System Compatibility (If applicable): Dungeons and Dragons 5th Edition.
-
-Module Requirement(s): None.
-
-Module Conflicts: This module currently disables Better NPC Sheet 5e’s function in allowing NPC abilities and actions to be previewed within the sheet.
-
-Link(s) to Module:[https://gitlab.com/moerills-fvtt-modules/adnd5e](https://gitlab.com/moerills-fvtt-modules/adnd5e) 
-
-Description: This module expands upon the existing 5e system in Foundry VTT, adding alternative PC and NPC sheets, as well as changing the system of attacks and macros, and adds a compendium for all SRD monsters, set up for use with this module.  The mod is effectively a massive expansion in the ability to edit sheets for the user’s purposes, and a revamp of how the 5E system works.  It is backwards-compatible with the default sheet, and can be switched between the two as needed.  
-
-What the module should roughly look like, when installed properly:
+### Description
+This module expands upon the existing 5e system in Foundry VTT, adding alternative PC and NPC sheets, as well as changing the system of attacks and macros, and adds a compendium for all SRD monsters, set up for use with this module.  The mod is effectively a massive expansion in the ability to edit sheets for the user’s purposes, and a revamp of how the 5E system works.  It is backwards-compatible with the default sheet, and can be switched between the two as needed.
 
 ## Appendix A: Adding a Module
 
