@@ -3,7 +3,7 @@ are a means for defining virtual boundaries in FoundryVTT. There are several typ
 
 Players controlling tokens in a scene cannot move their token passed a wall that blocks it movement, however the GM (or players granted special permission) can move tokens passed movement blocking walls or doors. The exception to this are single direction walls which block movement only in one direction. TIP: Fun for insidious traps. 
 
-A specific tokens ability to see and hear sounds beyond a wall depends on the wall type. Some walls block token visibility and light, some do not. Vision blocking walls effects how light exposes a particular area of the scene that token might be able to see and also effects how Fog of War is exposed in a scene.  Sounds too can be blocked by certain walls.  The exception to this rule are "global" lights and sounds which are seen and hear through all wall types.
+A specific tokens ability to see and hear sounds beyond a wall depends on the wall type. Some walls block token visibility, light, and/or sounds some do not. Vision blocking walls effects how light exposes a particular area of the scene that token might be able to see and also effects how Fog of War is exposed in a scene.  Sounds too can be blocked by certain walls.  The exception to these rules are "global" lights and sounds which are seen and heard through all wall types.
 
 **## Regular Walls**
 These walls block movement, vision and sounds. They are rendered on the Walls Layer using an off-white color.
