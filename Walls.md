@@ -1,5 +1,5 @@
 **# Walls**
-Walls are a means for defining virtual boundaries in FoundryVTT. There are several types of walls that a GM can create as defined below.  Walls are typically not actually visible to players (with the exception of doors) or their tokens however can block visibility, movement and "local only" sound depending on the type of walls predefined by the GM. The GM draws walls segments, one at a time between two points. 
+are a means for defining virtual boundaries in FoundryVTT. There are several types of walls that a GM can create as defined below.  Walls are typically not actually visible to players (with the exception of doors) or their tokens however can block visibility, movement and "local only" sound depending on the type of walls predefined by the GM. The GM draws walls segments, one at a time between two points. 
 
 Players controlling tokens in a scene cannot move their token passed a wall that blocks it movement, however the GM (or players granted special permission) can move tokens passed movement blocking walls or doors. The exception to this are single direction walls which block movement only in one direction. TIP: Fun for insidious traps. 
 
