@@ -31,3 +31,8 @@ To allow this, the path for the image must be set using a special path type endi
 ## Token Size
 The width and height values specified here are set to a number of grid squares (or hexes) and determine how much space the token takes on the field.
 The scale slider only changes the image scale without changing the actual space taken by the token unit. A number higher than 1 results in a bigger image while a number below 1 makes it appear smaller.
+
+# Position Tab
+You should rarely need to use this tab, as all of these settings are generally used dynamically on the map or the [[Token HUD]].
+## X & Y Coordinates
+Pretty self explanatory, these are the coordinates of the token in pixels. Do note that the coordinates cover a broader area than the actual map size, as there is a bit of padding around the edges to act as a "side table" area. As such, a token set to (0,0) won't actually be in the top left corner of the map, but rather some distance beyond that.
