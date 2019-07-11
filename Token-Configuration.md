@@ -34,5 +34,14 @@ The scale slider only changes the image scale without changing the actual space 
 
 # Position Tab
 You should rarely need to use this tab, as all of these settings are generally used dynamically on the map or the [[Token HUD]].
+
 ## X & Y Coordinates
-Pretty self explanatory, these are the coordinates of the token in pixels. Do note that the coordinates cover a broader area than the actual map size, as there is a bit of padding around the edges to act as a "side table" area. As such, a token set to (0,0) won't actually be in the top left corner of the map, but rather some distance beyond that.
+Pretty self explanatory, these are the coordinates of the token in pixels and are updated as you move the tokens around the map. You cannot manually update them with numbers. Do note that the coordinates cover a broader area than the actual map size, as there is a bit of padding around the edges to act as a "side table" area. As such, a token set to (0,0) won't actually be in the top left corner of the map, but rather some distance beyond that.
+
+## Elevation
+This does not have an incidence on the appearane of the token, but it does set how far "above" the map the token is (such as with flying creatures of ledges) and that number appears above the token if it is different from 0. It can be quickly adjusted via the [[Token HUD]], but it can be useful to set a default elevation for flying creatures.
+
+## Rotation Controls
+Again, the rotation field is greyed out and can only be changed on the map, using `Shift` (faster), or `Ctrl` (slower), + mousewheel to rotate the token, or by using `Shift` + `WASD` to make the token face the correct direction directly. The _Lock Rotation_ option is mainly useful for "portrait" style tokens that should not face a direction be instead stay upright.
+
+A possible workaround, or **issue**, regarding the inability to manually change the token's rotation, lies with the default's configuration ability to "Assign" a token. If a default token is set in such a way, it will remember the rotation setting for future uses, which is not an issue with the coordinates since those are the ones you drag the token to when you put them on the map.
