@@ -19,8 +19,14 @@ The image tab is where you can define how the token appears on the canvas.
 The Token Image Path field is the most important field in this section: it is this field which defines the source image for a token. This path can be an URL or a file path relative to the public folder in the hosting install of FVTT. This path can be typed in, but you should usually just be able to use the file explorer by clicking the button beside the text field.
 
 ## File Explorer
+The file explorer let's you select files in the public folder to automatically input the image path. The upward arrow at the top of the window let's you navigate out of the current folder to its parent, but does not let you get further than `/public`, while the field beside it indicates where you currently are in `/public`. This is also where any file uploaded using the _Choose file_ to upload at the bottom will end up when uploaded.
+
+There is currently no file preview available, but this might change in the future.
 
 ## Wildcards
+Only available in the default token configuration, this option let's you have a **randomized image** when you put down a certain kind of tokens. This is useful mostly for nameless NPCs, such as commoners in a tavern of perhaps some goblins you have with different fighting stances or color schemes to make it more immersive for your player than all identical tokens, and saving you the trouble of changing it in every unique token's settings.
+
+To allow this, the path for the image must be set using a special path type ending with `*` (exact path format must be found to be posted, sorry).
 
 ## Token Size
 The width and height values specified here are set to a number of grid squares (or hexes) and determine how much space the token takes on the field.
