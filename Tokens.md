@@ -1,1 +1,2 @@
-(root page for tokens)
+[[Token Configuration]]
+[[Token HUD]]
