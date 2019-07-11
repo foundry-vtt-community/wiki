@@ -1,6 +1,6 @@
-# Community Game Systems
+Foundry systems that allow people to expand upon the default Foundry offerings for tabletop games- systems like Warhammer Fantasy or Starfinder.
 
-**Description**: Foundry systems that allow people to expand upon the default Foundry offerings for tabletop games- systems like Warhammer Fantasy or Starfinder.
+# WFRP 4E
 
 ## WFRP 4E System
 
