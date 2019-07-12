@@ -47,7 +47,7 @@ Again, the rotation field is greyed out and can only be changed on the map, usin
 A possible workaround, or **issue**, regarding the inability to manually change the token's rotation, lies with the default's configuration ability to "Assign" a token. If a default token is set in such a way, it will remember the rotation setting for future uses, which is not an issue with the coordinates since those are the ones you drag the token to when you put them on the map.
 
 # Vision Tab
-This tab is mainly useful for maps that do not use _Global Illumination_, and are thus "dark" by default. The _Has Vision_ option should be checked if the token is not blind.
+This tab is mainly useful for maps that do not use _Global Illumination_, and are thus "dark" by default. The _Has Vision_ option should be checked if you want to track this token's vision, even if such vision happens to be "0" (effectively blind). Leave it unchecked for tokens you do not care to use the vision options for at all.
 
 ## Vision Fields
 The vision fields determine how far a token can see (as bright or dim light) in **the absence of a light source**. There is currently no support for the overlap of dim vision and dim light to result in bright vision as with Darkvision in the D&D 5e system.
@@ -55,3 +55,4 @@ The vision fields determine how far a token can see (as bright or dim light) in 
 The distance in this section is set using the scale you specified for the scene and not in a number of squares. As such, if you set the scene to be 1 square = 5 ft., you wouldn't enter 12 (squares) to have 60 ft. of vision or light, but instead simply put 60. The units are not taken into account, so if vision is set to 60 and your world map is set to squares of 1 mile, your token would have 60 _miles_ of vision. Since all four values are set as a radius starting from the token, if a token sees in darness as in bright light for 30 feet, and 30 more as dim light, the _Dim Vision_ should be set to 60 to account for the first 30 feet covered by the bright vision. The same logic applies to the light fields.
 
 ## Light Fields
+This section let's you set if a token is emitting light, like in the instance of a character carrying a torch illuminating the surroundings. The setup follows the same rules as the vision fields.
