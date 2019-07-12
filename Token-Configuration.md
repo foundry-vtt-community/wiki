@@ -56,3 +56,12 @@ The distance in this section is set using the scale you specified for the scene 
 
 ## Light Fields
 This section let's you set if a token is emitting light, like in the instance of a character carrying a torch illuminating the surroundings. The setup follows the same rules as the vision fields.
+
+# Ressources Tab
+This is where you can setup which ressources to track for a token. This is where you can track the attributes of tokens that are not linked to a character sheet individually. Note that these can also be edited in the [[Token HUD]] once set to be tracked.
+
+## Display Bars
+The choices here are pretty self explanatory. You do not need to make a bar visible at all to track an attribute, though it can be useful at a glance. The first tracked attribute's bar will appear bellow the token in green, while the second (if it exists) will appear above in pale blue.
+
+## Attribute Selection and Values
+The next areas let you choose which attribute to track within a drop-down menu. The choices will vary depending among others on the system used and type of sheet, and will appear as their variable name instead of their common name, but they are generally pretty easy to identify. Under that choice for each bar, you have editable fields that let you track the value of these attributes.
