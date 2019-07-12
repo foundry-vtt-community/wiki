@@ -1,1 +1,1 @@
-**Questions? Comments? Concerns?** Connect with us in [Discord](https://discordapp.com/invite/DDBZUDf)
+**Questions? Comments? Concerns?** Connect with us in [Discord](https://discordapp.com/invite/DDBZUDf) in the #community-wiki channel
