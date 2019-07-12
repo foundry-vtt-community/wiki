@@ -77,7 +77,7 @@
 
 ## [[API Snippets]]
 
-# Community Game Systems & Modules
+# [[Community Game Systems & Modules]]
 ## [[Community Game Systems]]
 ## [Community Game Systems Repository](https://github.com/foundry-vtt-community/game_systems)
 ## [[Community Modules]]
