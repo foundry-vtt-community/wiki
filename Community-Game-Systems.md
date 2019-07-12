@@ -7,7 +7,7 @@ Systems designed for the Warhammer Fantasy Roleplay 4th Edition
 
 * **Author**: @Moo Man#7518 and @CatoThe1stElder#9725 on Discord
 * **Version**: Alpha
-* **Foundry VTT Compatibility**: 0.3+
+* **Foundry VTT Compatibility**: 0.3+ (Highly recommend players use Chrome, Firefox doesn't display the sheet correctly).
 
 
 ### Link(s) to Module
