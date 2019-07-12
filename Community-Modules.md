@@ -14,7 +14,7 @@ Foundry modules that work across all or most systems are noted here. These may i
 ### Link(s) to Module
 * [https://github.com/syl3r86/displaymode](https://github.com/syl3r86/displaymode) 
 
-###  Description
+### Description
 This module makes it so that when you click the anvil in the top left of the screen, the sidebar in Foundry is hidden.
 
 ## Entity Order
