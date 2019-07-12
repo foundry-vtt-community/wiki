@@ -1,6 +1,6 @@
 # Foundry VTT Modules (Universal)
 
-**Description**: Foundry modules that work across all or most systems are noted here. These may include reskins, general improvement mods, and more.
+Foundry modules that work across all or most systems are noted here. These may include reskins, general improvement mods, and more.
 
 ## Display mode
 
@@ -14,7 +14,7 @@
 ### Link(s) to Module
 * [https://github.com/syl3r86/displaymode](https://github.com/syl3r86/displaymode) 
 
-###  Module Description
+###  Description
 This module makes it so that when you click the anvil in the top left of the screen, the sidebar in Foundry is hidden.
 
 ## Entity Order
@@ -197,7 +197,7 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 
 # Foundry VTT Modules for DnD 5E:
 
-**Description**: Foundry modules that work within Dungeons and Dragons 5th Edition are noted here. These may include NPC compendiums that may be legally shared, world saves, character sheet mods, and much, much more.
+Foundry modules that work within Dungeons and Dragons 5th Edition are noted here. These may include NPC compendiums that may be legally shared, world saves, character sheet mods, and much, much more.
 
 ## Better NPC Sheet 5e
 
@@ -438,7 +438,7 @@ To install, simply extract the zip file into `/public/modules`, enable the modul
 
 # Foundry VTT Modules (Defunct)
 
-**Description**: Foundry VTT modules that no longer work are noted here. Modules included here have been defunct for at least one month. This exists to help document previous work on Foundry Virtual Tabletop by the community, as well as to exist as a record for anyone who chooses to remain on a previous version of Foundry VTT.  
+Foundry VTT modules that no longer work are noted here. Modules included here have been defunct for at least one month. This exists to help document previous work on Foundry Virtual Tabletop by the community, as well as to exist as a record for anyone who chooses to remain on a previous version of Foundry VTT.  
 
 ## aDnD5e
 
