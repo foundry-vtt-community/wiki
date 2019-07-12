@@ -6,76 +6,76 @@
 
 ## [[Update Notes]]
 
-## Downloading Foundry VTT
+## [[Downloading Foundry VTT]]
 
 ## [[Self-hosted Local]]
 
-### Windows
+### [[Windows]]
 
-### Linux
+### [[Linux]]
 
-### macOS
+### [[macOS]]
 
 ## [[Self-hosted Cloud]]
 
-### AWS
+### [[AWS]]
 
-### Digital Ocean
+### [[Digital Ocean]]
 
-## Connecting
+## [[Connecting]]
 
 ## [[Setting up Worlds]]
 
 ## [[Setting up Players]]
 
-# The Virtual Tabletop
+# [[The Virtual Tabletop]]
 
-## Command Palette
+## [[Command Palette]]
 
-### Actor
+### [[Actor]]
 
-### Templates
+### [[Templates]]
 
-### Tiles
+### [[Tiles]]
 
 ### [[Walls]]
 
-### Pins
+### [[Pins]]
 
-### Sounds
+### [[Sounds]]
 
-## Sidebar
+## [[Sidebar]]
 
-### Chat
+### [[Chat]]
 
-### Combat Tracker
+### [[Combat Tracker]]
 
-### Actors
+### [[Actors]]
 
-### Journal
+### [[Journal]]
 
-### Playlists
+### [[Playlists]]
 
-### Compendia
+### [[Compendia]]
 
-## Entities
+## [[Entities]]
 
-### Actor
+### [[Actor]]
 
 #### [[Tokens]]
 
-### Combat
+### [[Combat]]
 
 # [[Modules]]
 ## [[Finding Modules|Modules#finding-modules]]
 ## [[Installing Modules|Modules#installing-modules]]
 ## [[Developing Modules|Modules#developing-modules]]
 
-# API
+# [[API]]
 
-## API Basics
+## [[API Basics]]
 
-## API Snippets
+## [[API Snippets]]
 
 # Community Game Systems & Modules
 ## [[Community Game Systems]]
