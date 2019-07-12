@@ -224,7 +224,9 @@ This module overwrites the default NPC sheet that comes shipped with the dnd5e s
 * **Module Conflicts**: None known
 
 ### Link(s) to Module
-* [https://github.com/kakaroto/Beyond20/blob/master/FVTT-module](https://github.com/kakaroto/Beyond20/blob/master/FVTT-module) 
+* [https://github.com/kakaroto/Beyond20/](https://github.com/kakaroto/Beyond20/) 
+
+The module is available under the 'FVTT-module' directory.
 
 ### Description
 This module allows you to use and roll sheets in DnD Beyond, and have those results displayed in Foundry VTT. For more details, see Kakaroto’s module page and readme files.
@@ -256,7 +258,9 @@ To install the module, download the zip file included in the Github module direc
 * **Module Conflicts**: None, but see description.
 
 ### Link(s) to Module
-* [https://github.com/sillvva/foundry-vtt-modules/tree/master/ddb-importer](https://github.com/sillvva/foundry-vtt-modules/tree/master/ddb-importer) 
+* [https://github.com/sillvva/foundry-vtt-modules/](https://github.com/sillvva/foundry-vtt-modules/) 
+
+The module is available under the 'ddb-importer' directory.
 
 ### Description
 This module allows you to import character data from DnD Beyond into Foundry Virtual Tabletop.  
