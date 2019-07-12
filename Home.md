@@ -1,19 +1,8 @@
-Welcome to the Foundry VTT Community wiki.
-
-This wiki serves as a repository of community-curated information about the Foundry VTT.
-
 # [[What is Foundry VTT?]]
 
 # [[FAQ]]
 
-# Official Resources
-* [Foundry VTT Website](http://foundryvtt.com/)
-* [Gitlab](https://gitlab.com/foundrynet)
-* [Gitlab Issue Tracker](https://gitlab.com/foundrynet/foundryvtt/-/boards?milestone_title=No+Milestone&)
-* [Patreon](https://www.patreon.com/foundryvtt/overview)
-* [Discord](https://discordapp.com/invite/DDBZUDf)
-
-# [[Getting Started|Getting-Started-with-Foundry-VTT]]
+# [[Getting Started]]
 
 ## [[Update Notes]]
 
@@ -90,5 +79,6 @@ This wiki serves as a repository of community-curated information about the Foun
 
 # Community Game Systems & Modules
 ## [[Community Game Systems]]
+## [Community Game Systems Repository](https://github.com/foundry-vtt-community/game_systems)
 ## [[Community Modules]]
 ## [Community Module Repository](https://github.com/foundry-vtt-community/modules)
