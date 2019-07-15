@@ -197,7 +197,7 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 
 #### Description
 
-## Foundry VTT Modules for DnD 5E:
+## Foundry VTT Modules for DnD 5E
 
 Foundry modules that work within Dungeons and Dragons 5th Edition are noted here. These may include NPC compendiums that may be legally shared, world saves, character sheet mods, and much, much more.
 
