@@ -4,6 +4,20 @@
 
 Foundry modules that work across all or most systems are noted here. These may include reskins, general improvement mods, and more.
 
+
+### Chat Autoloader
+
+* **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: At least v0.3.2+, propably earlier versions as well.
+* **Module Conflicts**: Possible conflicts with *Message Age Restriction* by Felix@6196.
+
+#### Link(s) to Module
+* https://gitlab.com/moerills-fvtt-modules/chat-autoloader
+
+#### Description
+This module improves loading times by only rendering the last few chat messages at page load. Older messages will automatically get rendered while scrolling to the top. (This behaviour is similar to e.g. scrolling in Discords chat)
+
 ### Display mode
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
@@ -79,23 +93,9 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 #### Description
 This Foundry VTT module allows you to create infinite depth of folders for Scenes, Actors, Items and Journals. No more limit to a depth of 2 folders (or none for Journal entries). This will also add a `New entity` button on folders so you can create it directly in the folder (does not work for Scenes though).
 
-### Item Sounds
-
-* **Author**: Moerill#7205 on Discord
-* **Version**:
-* **Foundry VTT Compatibility**: 
-* **System Compatibility (If applicable)**: 
-* **Module Requirement(s)**: 
-* **Module Conflicts**: 
-
-#### Link(s) to Module
-* [https://gitlab.com/moerills-fvtt-modules/item-sounds](https://gitlab.com/moerills-fvtt-modules/item-sounds) 
-
-#### Description
-
 ### Journal Enhancer
 
-* **Author**: Moerill#7205 on Discord
+* **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **Version**: Version 0.2
 * **Foundry VTT Compatibility**: 0.2.10
 * **System Compatibility (If applicable)**: As of right now, it is universally applicable to all existing systems.
@@ -110,7 +110,7 @@ This module adds a search function for journal entries, includes a “jump to pi
 
 ### Layer Hotkeys
 
-* **Author**: Moerill#7205 on Discord
+* **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **Version**: v1.0
 * **Foundry VTT Compatibility**: 0.3.0
 * **System Compatibility (If applicable)**: Universal
@@ -170,7 +170,7 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 
 ### SVG Loader
 
-* **Author**: Moerill#7205 on Discord
+* **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **Version**: 
 * **Foundry VTT Compatibility**: 
 * **System Compatibility (If applicable)**: 
@@ -181,13 +181,13 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 * [https://gitlab.com/moerills-fvtt-modules/svg-loader](https://gitlab.com/moerills-fvtt-modules/svg-loader) 
 
 #### Description
-
+This module allows to load walls, lights and sources through .svg files, provided e.g. by DungeonFog.
 
 ### Token Randomizer
 
-* **Author**: Moerill#7205 on Discord
+* **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **Version**: (Note current version of module here.)
-* **Foundry VTT Compatibility**:
+* **Foundry VTT Compatibility**: 
 * **System Compatibility (If applicable)**:
 * **Module Requirement(s)**: 
 * **Module Conflicts**:
