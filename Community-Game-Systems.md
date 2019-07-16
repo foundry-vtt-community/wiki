@@ -14,7 +14,6 @@ Systems designed for Warhammer Fantasy Systems
 * [https://github.com/CatoThe1stElder/WFRP-4th-Edition-FoundryVTT](https://github.com/CatoThe1stElder/WFRP-4th-Edition-FoundryVTT/tree/stable) 
 
 ### Description
-
 Installing this system allows you to create campaigns in the grim and perilous world of Warhammer Fantasy 4th edition! Additionally, it comes with a starter world which provides many items already organized for your use.
 
 To install, place the wfrp4e download in your `public/systems` folder.  
