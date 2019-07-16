@@ -19,4 +19,9 @@ Foundry VTT also allows the creation of map pins on the map. These are links to 
 
 # Sharing
 ## Permissions
+
+
 ## "Show Players" Option
+This is a "one time show" option to open a handout for your players, which will appear on their screen automatically. This is a great way both to showcase artwork or to simply show something you don't want your players to have permanent access to, since it doesn't rely on permissions. 
+
+**There have been mentions of showing players an entry would change the permission level of the entry to limited automatically, but I couldn't reproduce.
