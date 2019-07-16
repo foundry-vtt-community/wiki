@@ -1,7 +1,7 @@
 Foundry systems that allow people to expand upon the default Foundry offerings for tabletop games- systems like Warhammer Fantasy or Starfinder.
 
-# WFRP 4E
-Systems designed for the Warhammer Fantasy Roleplay 4th Edition
+# Warhammer Fantasy
+Systems designed for Warhammer Fantasy Systems
 
 ## WFRP 4E System
 
@@ -19,6 +19,8 @@ Installing this system allows you to create campaigns in the grim and perilous w
 
 To install, place the wfrp4e download in your `public/systems` folder.  
 (Optional, highly recommended) Place `wfrp4e-starter-world` in `public/worlds`.
+
+# Appendix
 
 ## Appendix A: Adding a Game System
 
