@@ -1,31 +1,30 @@
-# Walls
 Walls are a means for defining virtual boundaries in FoundryVTT. There are several types of walls that a GM can create as defined below.  Walls are typically not actually visible to players (with the exception of doors) or their tokens however can block visibility, movement and sounds depending on the type of walls predefined by the GM. The GM draws walls segments, one at a time between two points. 
 
 Players controlling tokens in a scene cannot move their token passed a wall that blocks it movement, however the GM (or players granted special permission) can move tokens passed movement blocking walls or doors. The exception to this are single direction walls which block movement only in one direction. TIP: Fun for insidious traps. 
 
 A specific tokens ability to see and hear sounds beyond a wall depends on the wall type. Some walls block token visibility, light, and/or sounds some do not. Vision blocking walls effects how light exposes a particular area of the scene that token might be able to see and also effects how Fog of War is exposed in a scene.  Sounds too can be blocked by certain walls.  The exception to these rules are "global" lights and sounds which are seen and heard through all wall types.
 
-## Wall Types
+# Wall Types
 
-### Regular Walls
+## Regular Walls
 These walls block movement, vision and sounds. They are rendered on the Walls Layer using an off-white color.
 
-### Terrain Walls
+## Terrain Walls
 Terrain walls are used for blocking movement of a token and vision beyond the terrain wall boundary.  These are typically used to hide what is behind an object, but allows the token can see the object itself such as a building.  Draw a series of terrain wall segments to define the outside of the object and the token can still see the object however the terrain wall now blocks vision and sound behind it. Terrain walls are drawn as a light green color.
 
-### Invisible Walls
+## Invisible Walls
 These walls block movement, but not vision or sound. They are rendered on the Walls Layer using a light blue color.
 
-### Ethereal Walls
+## Ethereal Walls
 Ethereal walls block token vision and sound but do not hinder the movement of tokens and are drawn as a purple color.
 
-### Doors
+## Doors
 These walls are able to be toggled between multiple states. Doors may be closed, open, or locked. Closed (or locked) doors block movement, vision and sound, while open doors do not block vision, movement or sound. Doors will be rendered as a small icon for player views which, if clicked, will open or close the door provided it is not locked. Only Game-Master players have the ability to unlock doors. Open doors are rendered in green while with closed doors in orange and locked doors in red.
 
-### Secret Doors
+## Secret Doors
 These walls work as doors, able to be toggled between closed, open, or locked states, however unlike regular doors the icon for secret doors is not shown to players and these can only be toggled by the Game Master. Secret doors are rendered in purple.
 
-## IMPORTANT TIPS
+# IMPORTANT TIPS
 See Walls and Journals video available:
 
 [![Walls and Journals YouTube Video](http://img.youtube.com/vi/zLTArUhSssU/0.jpg)](http://www.youtube.com/watch?v=zLTArUhSssU)
