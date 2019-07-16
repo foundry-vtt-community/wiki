@@ -1,5 +1,3 @@
-# Self-Hosted Local
-
 In a self-hosted setting, the application runs on your own computer and creates a local web server which allows other players to connect directly to your computer. The self-hosted mode is most similar to the setup of Fantasy Grounds, Maptool, or GM Forge.
 
 ## Advantages
