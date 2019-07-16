@@ -1,4 +1,4 @@
-# Warhammer Fantasy Roleplay
+# Warhammer Fantasy
 
 Foundry systems for the various Warhammer Fantasy Roleplay editions.
 
