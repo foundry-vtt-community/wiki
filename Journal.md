@@ -19,7 +19,7 @@ Foundry VTT also allows the creation of map pins on the map. These are links to 
 
 # Sharing
 ## Permissions
-
+Similarly to other types of data in Foundry VTT, you can give different levels of permission to your players. As such, you can keep some campaign notes for yourself private, let them see but not edit your rules, and have ownership of an entry so they can take notes as they progress in your campaign.
 
 ## "Show Players" Option
 This is a "one time show" option to open a handout for your players, which will appear on their screen automatically. This is a great way both to showcase artwork at a specific time or to simply show something you don't want your players to have permanent access to, since it doesn't rely on permissions. 
