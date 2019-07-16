@@ -45,7 +45,7 @@ This module makes it so that when you click the anvil in the top left of the scr
 #### Link(s) to Module
 * [https://github.com/kakaroto/fvtt-module-entityorder](https://github.com/kakaroto/fvtt-module-entityorder) 
 
-### Description
+#### Description
 This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items and Journal entries).
 
 ### Popout!
@@ -458,7 +458,7 @@ Foundry VTT modules that no longer work are noted here. Modules included here ha
 #### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/adnd5e](https://gitlab.com/moerills-fvtt-modules/adnd5e) 
 
-### Description
+#### Description
 This module expands upon the existing 5e system in Foundry VTT, adding alternative PC and NPC sheets, as well as changing the system of attacks and macros, and adds a compendium for all SRD monsters, set up for use with this module. The mod is effectively a massive expansion in the ability to edit sheets for the user’s purposes, and a revamp of how the 5E system works. It is backwards-compatible with the default sheet, and can be switched between the two as needed.
 
 ## Appendix
