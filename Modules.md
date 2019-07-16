@@ -1,4 +1,3 @@
-# Modules
 Modules enhance or replace functionality within Foundry VTT. Most modules consist of a `module.json` file that describes the module and contains some metadata about it, and a `<module name>.js` file that contains the module code. Some modules also include `css` and `html` files.
 
 # Finding Modules
