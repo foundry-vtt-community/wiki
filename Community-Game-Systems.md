@@ -1,7 +1,6 @@
-Foundry systems that allow people to expand upon the default Foundry offerings for tabletop game systems like Warhammer Fantasy or Starfinder.
+# Warhammer Fantasy Roleplay
 
-# Warhammer Fantasy
-Systems designed for Warhammer Fantasy Systems
+Foundry systems for the various Warhammer Fantasy Roleplay editions.
 
 ## WFRP 4E System
 
