@@ -7,11 +7,15 @@ One of Foundry's feature allows you to link entities in the various rich text ed
 * JournalEntry (no space)
 
 ## Troubleshooting
-Any entry you want to link in such way need to be directly into the correct tab of your game, you **cannot currently link from a compendium!** Also, the link won't actually appear as a link in the **edit mode**, you have to save your work to get out of edit mode to be able to click the link. Once out of edit mode, it should display as a link with a little icon to the side of it. If it still appears as `@EntityType[NameOfEntity]`, something else breaks the link. Lastly, be sure that the part between the brackets [] corresponds exactly to the entry you want to link. Some **special characters** in the name of the entry might break the link as well, in which case you'll have to rename the entry you want to link before you do so.
+Any entry you want to link in such way need to be directly into the correct tab of your game, you **cannot currently link from a compendium!** 
 
+Also, the link won't actually appear as a link in the **edit mode**, you have to save your work to get out of edit mode to be able to click the link. Once out of edit mode, it should display as a link with a little icon to the side of it. If it still appears as `@EntityType[NameOfEntity]`, something else breaks the link. 
 
+Lastly, be sure that the part between the brackets [ ] corresponds exactly to the entry you want to link. Some **special characters** (spaces are fine) in the name of the entry might break the link as well, in which case you'll have to rename the entry you want to link before you do so.
 
 # Journal Pins
+Foundry VTT also allows the creation of map pins on the map. These are links to journal entries that can be placed directly on the map, useful for keeping track of landmarks and various locations you have a journal entry for. These pins also inherit the permission level of their journal entry and will be visible to any player with at least `Limited` access to the entry.
+
 
 # Sharing
 ## Permissions
