@@ -1,5 +1,3 @@
-# Setting up Worlds
-
 This is the World configuration screen, used to create and update worlds.
 
 When creating a new world, you must fill in some mandatory details. The world name is a human-readable string that may contain special characters. The file path to your world defines the subdirectory name within the `public/worlds` folder where your world will be saved.
