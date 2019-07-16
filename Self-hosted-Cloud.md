@@ -1,4 +1,3 @@
-# Self-hosted Cloud
 In a dedicated hosting setting, the application runs on a persistent web server using node.js and all players (including the GM) connect to the game session. The dedicated hosting mode is most similar to the experience of Roll20 or Astral Tabletop.
 
 ## Advantages
