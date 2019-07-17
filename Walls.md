@@ -33,11 +33,11 @@ Global lights are not affected by walls or doors. Global lights will be visible 
 
 Global sounds are heard by all tokens through all wall types.
 
-**Chaining Wall Segments**: This can be done by holding down CTRL (on a PC) while creating a wall segment. The GM can continue clicking to chain together more wall segments.  Releasing CTRL completes a wall segment.
+**Chaining Wall Segments**: This can be done by holding down `CTRL` (on a PC) while creating a wall segment. The GM can continue clicking to chain together more wall segments.  Releasing `CTRL` completes a wall segment.
 
 **Wall Snapping**: The two points used to define a wall segment are snapped to a micro grid to ensure they are relatively drawn evenly and can easily be joined to other wall segments. Walls can be moved after creation by clicking on a wall segment point and holding the mouse button while dragging to a new location. Once released, the wall point will be moved and the wall adjusted accordingly.
 
-**Deleting a Wall Segment**: Simply click on one of its points and press the DEL key (PC).
+**Deleting a Wall Segment**: Simply click on one of its points and press the `DEL` key (PC).
 
 **Edit a Wall Segment**: By double-clicking a wall segment point shows the wall segment properties.  You can change the properties of an existing wall in that popup screen.  The color of the wall segment will adjust to the appropriate color.
 
