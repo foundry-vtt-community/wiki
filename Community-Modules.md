@@ -194,6 +194,7 @@ This module allows to load walls, lights and sources through .svg files, provide
 * [https://gitlab.com/moerills-fvtt-modules/token-randomizer](https://gitlab.com/moerills-fvtt-modules/token-randomizer) 
 
 ### Description
+Module adding options to randomise token properties on creation.
 
 # Foundry VTT Modules for DnD 5E
 
