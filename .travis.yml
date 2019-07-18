@@ -13,6 +13,10 @@ script:
   ./gh-md-toc Home.md > _Sidebar.md
   rm gh-md-toc
   git add _Sidebar.md
+  for file in $(grep -l '<!--ts-->' *); do
+      ./gh-md-toc --insert $file
+      git add $file
+  done
   if [[ "$(git diff --cached)" != "" ]] ; then
       git commit -m "Update sidebar Table of Content (Automatic)"
   fi
