@@ -13,7 +13,7 @@ Official Resources
 - Foundry VTT Website : http://foundryvtt.com
 - Gitlab : https://gitlab.com/foundrynet
 - Gitlab Issue Tracker : https://gitlab.com/foundrynet/foundryvtt/-/boards?milestone_title=No+Milestone&
-- Patreon](https://www.patreon.com/foundryvtt/overview
+- Patreon : https://www.patreon.com/foundryvtt/overview
 - Discord : https://discordapp.com/invite/DDBZUDf
 
 Community Resources
