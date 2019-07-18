@@ -10,6 +10,8 @@ script:
   wget https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc
   chmod a+x gh-md-toc
   ./gh-md-toc https://github.com/foundry-vtt-community/wiki/wiki > _Sidebar.md
+  ls -la
+  more _Sidebar.md
   git merge upstream/master --no-edit
   git push origin HEAD:master > /dev/null 2>&1
   git push upstream HEAD:master > /dev/null 2>&1
