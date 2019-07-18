@@ -93,3 +93,7 @@
 ## [[Community Modules]]
 
 ## [Community Module Repository](https://github.com/foundry-vtt-community/modules)
+
+# [[Community Wiki]]
+
+## [[Wiki Outline]]
