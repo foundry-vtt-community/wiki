@@ -90,7 +90,7 @@
       * [Appendix A: Adding a Module](#appendix-a-adding-a-module)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
 
-<!-- Added by: travis, at: Thu Jul 18 08:34:11 UTC 2019 -->
+<!-- Added by: travis, at: Thu Jul 18 08:35:06 UTC 2019 -->
 
 <!--te-->
 
