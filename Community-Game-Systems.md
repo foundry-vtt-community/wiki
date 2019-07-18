@@ -1,6 +1,6 @@
 # Warhammer Fantasy
 
-Foundry systems for the various Warhammer Fantasy Roleplay editions. **TEST TEXT FOR TRAVIS**
+Foundry systems for the various Warhammer Fantasy Roleplay editions.
 
 
 ## WFRP 4E System
