@@ -1,3 +1,6 @@
+<!--ts-->
+<!--te-->
+
 # Warhammer Fantasy
 
 Foundry systems for the various Warhammer Fantasy Roleplay editions.
