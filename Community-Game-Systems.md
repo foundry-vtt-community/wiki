@@ -1,4 +1,11 @@
 <!--ts-->
+   * [Warhammer Fantasy](#warhammer-fantasy)
+      * [WFRP 4E System](#wfrp-4e-system)
+         * [Link(s) to Module](#links-to-module)
+         * [Description](#description)
+   * [Appendix](#appendix)
+      * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)
+      * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
 <!--te-->
 
 # Warhammer Fantasy
