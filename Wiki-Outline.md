@@ -10,7 +10,7 @@
     
     - [ ] Downloading Foundry VTT 
     
-    - [ ] Dedicated Hosting - Local    
+    - [ ] Self-hosted Local    
     
         - [ ] Windows  
         
@@ -18,7 +18,7 @@
         
         - [ ] macOS
 
-    - [ ] Dedicated Hosting - Cloud   
+    - [ ] Self-hosted Cloud   
     
         - [ ] AWS       
         
@@ -78,15 +78,11 @@
         
         - [ ] Actors 
         
-        - [ ] Journal 
+        - [X] Journal 
         
         - [ ] Playlists 
         
         - [ ] Compendia 
-
-- [ ] Offical Game Systems 
-
-    - [ ] D&D 5e 
 
 - [ ] Entities 
 
