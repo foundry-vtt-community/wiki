@@ -1,13 +1,11 @@
 script:
 - |
-  git config user.name "Wiki Sync"
-  git config user.email "fvtt-travisci@mail.com"
   wget https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc
   chmod a+x gh-md-toc
   ./gh-md-toc https://github.com/foundry-vtt-community/wiki/wiki > _Sidebar.md
-  ls -la
-  more _Sidebar.md
   rm gh-md-toc
+  git config user.name "Wiki Sync"
+  git config user.email "fvtt-travisci@mail.com"
   git remote remove origin
   git remote add origin https://$GITHUB_API_KEY@github.com/foundry-vtt-community/wiki.git > /dev/null 2>&1
   git remote add upstream https://$GITHUB_API_KEY@github.com/foundry-vtt-community/wiki.wiki.git > /dev/null 2>&1
