@@ -1,9 +1,5 @@
 script:
 - |
-  wget https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc
-  chmod a+x gh-md-toc
-  ./gh-md-toc https://github.com/foundry-vtt-community/wiki/wiki > _Sidebar.md
-  rm gh-md-toc
   git config user.name "Wiki Sync"
   git config user.email "fvtt-travisci@mail.com"
   git remote remove origin
@@ -12,6 +8,14 @@ script:
   git fetch origin
   git fetch upstream
   git merge upstream/master --no-edit
+  wget https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc
+  chmod a+x gh-md-toc
+  ./gh-md-toc Home.md > _Sidebar.md
+  rm gh-md-toc
+  git add _Sidebar.md
+  if [[ "$(git diff --cached)" != "" ]] ; then
+      git commit -m "Update sidebar Table of Content (Automatic)"
+  fi
   git push origin HEAD:master > /dev/null 2>&1
   git push upstream HEAD:master > /dev/null 2>&1
 env:
