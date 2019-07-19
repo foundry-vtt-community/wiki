@@ -289,6 +289,21 @@ This module allows to load walls, lights and sources through .svg files, provide
 ### Description
 Module adding options to randomise token properties on creation.
 
+## Z Order
+
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-zorder](https://github.com/kakaroto/fvtt-module-zorder) 
+
+### Description
+This Foundry VTT module lets you send tiles to the front or the back of the scene.
+
 # Foundry VTT Modules for DnD 5E
 
 Foundry modules that work within Dungeons and Dragons 5th Edition are noted here. These may include NPC compendiums that may be legally shared, world saves, character sheet mods, and much, much more.
