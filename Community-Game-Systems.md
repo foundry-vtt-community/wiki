@@ -1,3 +1,4 @@
+<!--tl=2-->
 <!--ts-->
    * [Warhammer Fantasy](#warhammer-fantasy)
       * [WFRP 4E System](#wfrp-4e-system)
@@ -54,4 +55,5 @@ To install, place the wfrp4e download in your `public/systems` folder.
 - Game Systems are sorted by system compatibility, then function, and then alphabetically.
 - Ensure that Foundry is noted as “Foundry VTT” or “Foundry Virtual Tabletop” in writing, unless it is the system title, or the module author desires otherwise in the description. This helps emphasize Foundry’s role as a unique, standalone tabletop, and helps distinguish it from other brands using the word “foundry”.   
 - Ideally, each game system should be separated by a single line break. This is just to help it look neat. 
-- Game Systems should not be listed if they violate existing copyright law. 
+- Game Systems should not be listed if they violate existing copyright law.
+

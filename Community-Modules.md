@@ -1,3 +1,4 @@
+<!--tl=2-->
 <!--ts-->
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
       * [Chat Autoloader](#chat-autoloader)
