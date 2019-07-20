@@ -140,8 +140,6 @@ gh_toc(){
              echo "or place github auth token here: $TOKEN"
              exit 1
         fi
-        local toc=`echo "$rawhtml" | gh_toc_grab "$gh_src_copy"`
-        echo "$toc"
         if [ "$need_replace" = "yes" ]; then
             if grep -Fxq "<!--ts-->" $gh_src && grep -Fxq "<!--te-->" $gh_src; then
                 echo "Found markers"
@@ -155,10 +153,17 @@ gh_toc(){
             local ext=".orig.${dt}"
             local toc_path="${gh_src}.toc.${dt}"
             local toc_footer="<!-- Added by: `whoami`, at: `date` -->"
+	    local level=`grep -Po '<!--tl=\K[1-6](?=-->)' "$gh_src"`
             # http://fahdshariff.blogspot.ru/2012/12/sed-mutli-line-replacement-between-two.html
             # clear old TOC
             sed -i${ext} "/${ts}/,/${te}/{//!d;}" "$gh_src"
             # create toc file
+            if [ "$level" == "" ] ; then
+                local toc=`echo "$rawhtml" | gh_toc_grab "$gh_src_copy"`
+            else
+                local toc=`echo "$rawhtml" | GH_MD_TOC_MAX_LEVEL=$level gh_toc_grab "$gh_src_copy"`
+            fi
+            echo "$toc"
             echo "${toc}" > "${toc_path}"
             # insert toc file
             if [[ "`uname`" == "Darwin" ]]; then
@@ -171,6 +176,9 @@ gh_toc(){
             echo "!! Origin version of the file: '${gh_src}${ext}'"
             echo "!! TOC added into a separate file: '${toc_path}'"
             echo
+        else
+            local toc=`echo "$rawhtml" | gh_toc_grab "$gh_src_copy"`
+            echo "$toc"
         fi
     fi
 }
@@ -189,7 +197,7 @@ gh_toc_grab() {
 	# 	became: The command <code>foo1</code></h1>
     sed -e ':a' -e 'N' -e '$!ba' -e 's/\n<\/h/<\/h/g' |
     # find strings that corresponds to template
-    grep -E -o '<a.*id="user-content-[^"]*".*</h[1-6]' |
+    grep -E -o "<a.*id=\"user-content-[^\"]*\".*</h[1-${GH_MD_TOC_MAX_LEVEL:=6}]" |
     # remove code tags
     sed 's/<code>//g' | sed 's/<\/code>//g' |
     # now all rows are like:
