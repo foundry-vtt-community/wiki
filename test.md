@@ -1,1 +1,2 @@
-[testing](Community Modules)
+[testing](Community-Modules)
+[[Community Modules]]
