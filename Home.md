@@ -1,4 +1,4 @@
-# [What is Foundry VTT?](What-is-Foundry-VTT?)
+# [What is Foundry VTT?](What-is-Foundry-VTT%3F)
 
 # [FAQ](FAQ)
 
