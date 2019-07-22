@@ -2,7 +2,7 @@
 Table of Contents
 =================
 
-   * [<a href="What-is-Foundry-VTT?">What is Foundry VTT?</a>](#what-is-foundry-vtt)
+   * [<a href="What-is-Foundry-VTT">What is Foundry VTT</a>](#what-is-foundry-vtt)
    * [<a href="FAQ">FAQ</a>](#faq)
    * [<a href="Getting-Started">Getting Started</a>](#getting-started)
       * [<a href="Update-Notes">Update Notes</a>](#update-notes)
