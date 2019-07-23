@@ -257,7 +257,7 @@ Foundry modules that work within Dungeons and Dragons 5th Edition are noted here
 ## Better NPC Sheet 5e
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de 
-* **Version**: Better NPC Sheet v0.4.2
+* **Version**: Better NPC Sheet v0.4.5
 * **Foundry VTT Compatibility**: 0.2.9-0.2.10
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
 * **Module Requirement(s)**: None
@@ -342,7 +342,7 @@ To install the module, download the zip file included in the Github module direc
 ## Favourite Item Tab
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
-* **Version**: 0.1
+* **Version**: 0.4
 * **Foundry VTT Compatibility* **: 0.3.0
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None
