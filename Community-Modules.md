@@ -175,6 +175,21 @@ The Hotkeys can be seen by hovering over the button as well.
 
 **Quick note**: To see the changed wall-type reflected you need to move the mouse a bit after switching the tool to trigger a color update.
 
+## Less Fog
+
+* **Author**: trdischat#2123 on Discord.
+* **Version**: 0.0
+* **Foundry VTT Compatibility**: 0.3+
+* **System Compatibility (If applicable)**: Universal.
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+
+### Link(s) to Module
+* [https://github.com/trdischat/lessfog](https://github.com/trdischat/lessfog) 
+
+### Description
+Module to enhance visibility for the GM in Foundry VTT.
+
 ## Message Age Restriction
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de 
@@ -189,6 +204,26 @@ The Hotkeys can be seen by hovering over the button as well.
 
 ### Description
 A Foundry VTT Module to enable filtering chat-messages by their age. Each user can choose his own settings. It is possible to set the maximum age (in days) and to specify if the filter should be applied.
+
+## Patches by trdischat
+
+* **Author**: trdischat#2123 on Discord.
+* **Version**: 0.0
+* **Foundry VTT Compatibility**: 0.3+
+* **System Compatibility (If applicable)**: Universal.
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+
+### Link(s) to Module
+* [https://github.com/trdischat/fvtt/tree/master/patches](https://github.com/trdischat/fvtt/tree/master/patches) 
+
+### Description
+Module to apply the following patches to Foundry VTT:
+- `patchFog`: Allow GM to see through the FOW and to see all tokens on the canvas.
+- `patchSound`: Apply volume easing to selected volume level of sound effect.
+- `patchDice`: Average of 2d20 rolls for normal checks and saves; limit dice to reroll (applies to the dnd5e system).
+
+All patches rely on the `patchClass` utility function.
 
 ## Permission Viewer
 
@@ -368,6 +403,21 @@ Adds a Favourite tab to display a customized list of items, feats and spells. Us
 
 ### Description
 This module adds a convenient button to the actor’s tab, which will track the HP, AC, and Passive Perception, Investigation, and Insight of tokens on the Canvas. Currently a WIP, and may exhibit some bugs.
+
+## Group Roll
+
+* **Author**: trdischat#2123 on Discord.
+* **Version**: 0.0
+* **Foundry VTT Compatibility**: 0.3+
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+
+### Link(s) to Module
+* [https://github.com/trdischat/fvtt/tree/master/grouproll](https://github.com/trdischat/fvtt/tree/master/grouproll) 
+
+### Description
+Implements group ability and skill check rolls per Player's Handbook, page 175: "*If at least half the group succeeds, the whole group succeeds.*" Modules also includes patches to implement the Halfling Lucky trait, and a house rule to use the average of 2d20 for normal skill and ability check rolls. Both of these patches can be disabled in config.js. All patches rely on the included `patchClass` utility function.
 
 ## Item Sheet Buttons
 
