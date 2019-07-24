@@ -5,6 +5,7 @@
       * [Display mode](#display-mode)
       * [Entity Order](#entity-order)
       * [Popout!](#popout)
+      * [GM Roll Message](#gm-roll-message)
       * [Grid Scaler](#grid-scaler)
       * [Infinite Folders](#infinite-folders)
       * [Journal Enhancer](#journal-enhancer)
