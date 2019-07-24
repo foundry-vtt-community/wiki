@@ -103,7 +103,7 @@ This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items a
 ### Description
 This Foundry VTT module lets you pop out journal entries into their own windows. It is currently acting as a proof of concept.
 
-## gmrollmessage
+## GM Roll Message
 
 * **Author**: Hydroxi#0366 on Discord.
 * **Version**: WIP
