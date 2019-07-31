@@ -1,7 +1,7 @@
 # Modules
 
 ## How Do I Install Modules?
-Check out the [Modules](Modules) page for instructions.
+Check out the [Modules](https://foundry-vtt-community.github.io/wiki/Modules/) page for instructions.
 
 # Suggestions/Ideas/Issues
 
