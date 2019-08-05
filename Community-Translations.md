@@ -1,10 +1,8 @@
 <!--tl=2-->
 <!--ts-->
-      * [German](#german)
-   * [Appendix](#appendix)
-      * [Appendix A: Adding a Translation](#appendix-a-adding-a-translation)
-      * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
 <!--te-->
+
+# Languages
 
 ## German
 
