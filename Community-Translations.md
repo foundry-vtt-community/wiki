@@ -34,7 +34,7 @@ German i18n translation for Foundry VTT.
 * **Foundry VTT Compatibility**: (Note which versions of Foundry Virtual Tabletop the translation is compatible with.)
 
 ### Link(s) to Translation
-* (Put a web URL here to find the game system.)
+* (Put a web URL here to find the translation.)
 
 ### Description
 (Describe the translation here. This should include installation instructions, and anything important to note. Due to the particular oddities of some archiving programs (WinRar, 7zip), and GitHub zip folders, including a screenshot of what the translation should look like file-wise in the “public/systems/examplesystem” is appreciated, though not required.)
