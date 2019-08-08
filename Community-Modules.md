@@ -12,6 +12,7 @@
       * [Layer Hotkeys](#layer-hotkeys)
       * [Less Fog](#less-fog)
       * [Message Age Restriction](#message-age-restriction)
+      * [No Token Animations](#no-token-animations)
       * [Patches by trdischat](#patches-by-trdischat)
       * [Permission Viewer](#permission-viewer)
       * [SVG Loader](#svg-loader)
@@ -223,6 +224,17 @@ Module to enhance visibility for the GM in Foundry VTT.
 
 ### Description
 A Foundry VTT Module to enable filtering chat-messages by their age. Each user can choose his own settings. It is possible to set the maximum age (in days) and to specify if the filter should be applied.
+
+## No Token Animations
+* **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
+* **Version**: 1.0
+* **Foundry VTT Compatibility**: 0.3.5+
+
+### Link to Module
+* [https://bitbucket.org/Fyorl/notokenanim](https://bitbucket.org/Fyorl/notokenanim)
+
+### Description
+Adds an option to the settings dialog to disable token movement animations. Tokens will drop immediately instead of sliding when dragged and dropped around the map with this setting enabled.
 
 ## Patches by trdischat
 
