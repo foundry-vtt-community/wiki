@@ -15,6 +15,7 @@
       * [No Token Animations](#no-token-animations)
       * [Patches by trdischat](#patches-by-trdischat)
       * [Permission Viewer](#permission-viewer)
+      * [Pointer](#pointer)
       * [SVG Loader](#svg-loader)
       * [Token Randomizer](#token-randomizer)
       * [Z Order](#z-order)
