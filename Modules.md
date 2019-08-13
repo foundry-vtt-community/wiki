@@ -1,7 +1,7 @@
 Modules enhance or replace functionality within Foundry VTT. Most modules consist of a `module.json` file that describes the module and contains some metadata about it, and a `<module name>.js` file that contains the module code. Some modules also include `css` and `html` files.
 
 # Finding Modules
-Community created modules can be found via the [Community Modules](Community-Modules) wiki page, or in the [Community Modules Repo](https://github.com/foundry-vtt-community/modules)
+Community created modules can be found via the [Community Modules](https://foundry-vtt-community.github.io/wiki/Community-Modules/) wiki page, or in the [Community Modules Repo](https://github.com/foundry-vtt-community/modules)
 
 # Installing Modules
 1. Placing the module files under `\resources\app\public\modules\<module name>` inside your Foundry VTT installation folder. 
