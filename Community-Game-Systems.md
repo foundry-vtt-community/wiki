@@ -1,5 +1,7 @@
 <!--tl=2-->
 <!--ts-->
+   * [Pathfinder](#pathfinder)
+      * [Pathfinder 2e](#pathfinder-2e)
    * [Warhammer Fantasy](#warhammer-fantasy)
       * [WFRP 4E System](#wfrp-4e-system)
    * [Appendix](#appendix)
