@@ -36,6 +36,8 @@
       * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
       * [Spell Browser](#spell-browser)
       * [SRD Bestiary Module](#srd-bestiary-module)
+   * [Foundry VTT Modules for WFRP 4E](#foundry-vtt-modules-for-wfrp-4e)
+      * [Arcane Marks &amp; Careers](#arcane-marks--careers)
    * [Foundry VTT Modules (Defunct)](#foundry-vtt-modules-defunct)
       * [aDnD5e](#adnd5e)
    * [Appendix](#appendix)
