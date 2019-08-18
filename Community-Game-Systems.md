@@ -1,6 +1,6 @@
 <!--tl=2-->
 <!--ts-->
-   * [Dungeons & Dragons](#dungeons-dragons)
+   * [Dungeons & Dragons](#dungeons--dragons)
       * [D&D5e](#dd5e)
    * [Pathfinder](#pathfinder)
       * [Pathfinder 2e](#pathfinder-2e)
