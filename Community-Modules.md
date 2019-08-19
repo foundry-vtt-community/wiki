@@ -63,6 +63,21 @@ Foundry modules that work across all or most systems are noted here. These may i
 ### Description
 This module improves loading times by only rendering the last few chat messages at page load. Older messages will automatically get rendered while scrolling to the top. (This behaviour is similar to e.g. scrolling in Discords chat)
 
+## Dice Calculator
+
+* **Author**: Asacolips#1867 on Discord.
+* **Version**: 0.3.0
+* **Foundry VTT Compatibility**: 0.3.0+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+
+### Link(s) to Module
+* https://gitlab.com/asacolips-projects/foundry-mods/foundry-vtt-dice-calculator
+
+### Description
+This module turns the d20 icon near the chat prompt into a clickable link that opens up a new dice calculator dialog. The dice calculator includes buttons for dice, numbers, and simple math. [Screenshot of the calculator can be found here.](https://i.imgur.com/ar2hNYP.png)
+
 ## Display mode
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
