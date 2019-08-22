@@ -25,6 +25,7 @@
       * [Better NPC Sheet 5e](#better-npc-sheet-5e)
       * [Beyond 20](#beyond-20)
       * [Chat Damage Buttons](#chat-damage-buttons)
+      * [DDB Popper](#ddb-popper)
       * [DnD Beyond Character Importer](#dnd-beyond-character-importer)
       * [Encumbrance Variant](#encumbrance-variant)
       * [Favourite Item Tab](#favourite-item-tab)
