@@ -443,7 +443,7 @@ To install the module, download the zip file included in the Github module direc
 
 ## DDB Popper
 
-* **Author**: Evan Clarke (errational#2007 on discord)
+* **Author**: errational#2007 on discord
 * **Version**: 0.1
 * **Foundry VTT Compatibility**: 0.3.4
 * **System Compatibility (If applicable)**: dnd5e
