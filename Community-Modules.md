@@ -439,6 +439,22 @@ This module replaces the right-click context menu with buttons on the dice-roll 
 
 To install the module, download the zip file included in the Github module directory. Extract the zip file to `/public/modules`. Restart Foundry Virtual Tabletop.
 
+## DDB Popper
+
+* **Author**: Evan Clarke (errational#2007 on discord)
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3.4
+* **System Compatibility (If applicable)**: dnd5e
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: N/A
+
+### Link(s) to Module
+* https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper
+* [Download](https://github.com/eclarke12/fvtt-modules/raw/master/ddb-popper.zip)
+
+### Description
+Opens a D&D Beyond popup for a linked actor. More info here: https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper
+
 ## DnD Beyond Character Importer
 
 * **Author**: @Sillvva#2532 on Discord.
