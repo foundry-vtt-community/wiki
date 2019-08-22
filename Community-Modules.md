@@ -9,6 +9,7 @@
       * [Popout!](#popout)
       * [GM Roll Message](#gm-roll-message)
       * [Grid Scaler](#grid-scaler)
+      * [Image Previewer](#image-previewer)
       * [Infinite Folders](#infinite-folders)
       * [Journal Enhancer](#journal-enhancer)
       * [Layer Hotkeys](#layer-hotkeys)
