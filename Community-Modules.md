@@ -476,23 +476,6 @@ This module allows you to import character data from DnD Beyond into Foundry Vir
 
 The module has not been updated recently by its creator, but the community has produced a fix for this issue.  The fix is not included in the zip file for the module, but is instead contained within the Github repository, and must be retrieved there. Replace the file in the module folder with the fixed version.
 
-## Encumbrance Variant
-
-* **Author**: hooking#0492 on Discord.
-* **Version**: 0.14
-* **Foundry VTT Compatibility**: 0.2.8-0.2.10
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
-* **Module Requirement(s)**: None.
-* **Module Conflicts**: None currently known.
-
-### Link(s) to Module
-* [https://gitlab.com/hooking/foundry-vtt---encumbrance-variant-5e](https://gitlab.com/hooking/foundry-vtt---encumbrance-variant-5e) 
-
-### Description
-This module modifies how the encumbrance bar in the actor sheet is displayed to distinguish the different levels of encumbrance when using the variant rules in **PHB pg. 175**. It does not currently support the Powerful Build feature, as doing so would require extending the base Actor5eSheet class.
-
-To install the module, download the zip file included in the Github module directory. Extract the zip file to `/public/modules`. Restart Foundry Virtual Tabletop.
-
 ## Favourite Item Tab
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
@@ -707,6 +690,23 @@ Foundry VTT modules that no longer work are noted here. Modules included here ha
 
 ### Description
 This module expands upon the existing 5e system in Foundry VTT, adding alternative PC and NPC sheets, as well as changing the system of attacks and macros, and adds a compendium for all SRD monsters, set up for use with this module. The mod is effectively a massive expansion in the ability to edit sheets for the user’s purposes, and a revamp of how the 5E system works. It is backwards-compatible with the default sheet, and can be switched between the two as needed.
+
+## Encumbrance Variant
+
+* **Author**: hooking#0492 on Discord.
+* **Version**: 0.14
+* **Foundry VTT Compatibility**: 0.2.8-0.2.10
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
+* **Module Requirement(s)**: None.
+* **Module Conflicts**: None currently known.
+
+### Link(s) to Module
+* [https://gitlab.com/hooking/foundry-vtt---encumbrance-variant-5e](https://gitlab.com/hooking/foundry-vtt---encumbrance-variant-5e) 
+
+### Description
+This module modifies how the encumbrance bar in the actor sheet is displayed to distinguish the different levels of encumbrance when using the variant rules in **PHB pg. 175**. It does not currently support the Powerful Build feature, as doing so would require extending the base Actor5eSheet class.
+
+To install the module, download the zip file included in the Github module directory. Extract the zip file to `/public/modules`. Restart Foundry Virtual Tabletop.
 
 # Appendix
 
