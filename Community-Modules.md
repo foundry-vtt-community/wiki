@@ -20,6 +20,7 @@
       * [Permission Viewer](#permission-viewer)
       * [Pointer](#pointer)
       * [SVG Loader](#svg-loader)
+      * [Tokenizer](#tokenizer)
       * [Token Randomizer](#token-randomizer)
       * [Z Order](#z-order)
    * [Foundry VTT Modules for DnD 5E](#foundry-vtt-modules-for-dnd-5e)
