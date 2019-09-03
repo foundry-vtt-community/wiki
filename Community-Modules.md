@@ -397,7 +397,7 @@ Tokenizer provides the user with:
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **Version**: 0.9
 * **Foundry VTT Compatibility**: 0.3.5
-* **System Compatibility (If applicable)**: None, though extra option to roll hp for DnD5e
+* **System Compatibility (If applicable)**: All, though extra option to roll hp for DnD5e
 
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/token-randomizer](https://gitlab.com/moerills-fvtt-modules/token-randomizer) 
