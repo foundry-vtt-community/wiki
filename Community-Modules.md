@@ -359,6 +359,18 @@ This module adds the ability for each user to show a cursor following his mouse 
 ### Description
 This module allows to load walls, lights and sources through .svg files, provided e.g. by DungeonFog.
 
+## Tiles Browser
+
+* **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
+* **Version**: 0.2
+* **Foundry VTT Compatibility**: 0.3.5
+
+### Link(s) to Module
+* https://gitlab.com/moerills-fvtt-modules/tiles-browser/
+
+### Description
+Adds a browser to the tiles layer to conveniently preview and then drag and drop tiles onto the scene. Providing additional features to manipulate tile rotation and size while dragging.
+
 ## VTTA Tokenizer
 
 * **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
@@ -383,17 +395,20 @@ Tokenizer provides the user with:
 ## Token Randomizer
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Version**: (Note current version of module here.)
-* **Foundry VTT Compatibility**: 
-* **System Compatibility (If applicable)**:
-* **Module Requirement(s)**: 
-* **Module Conflicts**:
+* **Version**: 0.9
+* **Foundry VTT Compatibility**: 0.3.5
+* **System Compatibility (If applicable)**: None, though extra option to roll hp for DnD5e
 
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/token-randomizer](https://gitlab.com/moerills-fvtt-modules/token-randomizer) 
 
 ### Description
-Module adding options to randomise token properties on creation.
+This module gives you options to manipulate tokens on creation. The options include:
+* Automatic indexing
+* Random prefix generation
+* Rolling hp (DnD5e only)
+* Removing the token name, hiding it from your players
+* Overwrite default token configs
 
 ## Z Order
 
