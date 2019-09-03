@@ -1,6 +1,7 @@
 <!--tl=2-->
 <!--ts-->
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
+      * [Always Show Notes)(#always-show-notes)
       * [Chat Autoloader](#chat-autoloader)
       * [Deselection](#deselection)
       * [Dice Calculator](#dice-calculator)
@@ -54,6 +55,20 @@
 
 Foundry modules that work across all or most systems are noted here. These may include reskins, general improvement mods, and more.
 
+## Always Show Notes
+
+* **Author**: Pin#8969
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3.5
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: No known conflicts
+
+### Link(s) to Module
+* https://github.com/Pingar5/alwaysshownotes
+
+### Description
+Sets the Display Notes toggle to true by default
 
 ## Chat Autoloader
 
