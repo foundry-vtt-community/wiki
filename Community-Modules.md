@@ -1,7 +1,7 @@
 <!--tl=2-->
 <!--ts-->
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
-      * [Always Show Notes)(#always-show-notes)
+      * [Always Show Notes](#always-show-notes)
       * [Chat Autoloader](#chat-autoloader)
       * [Deselection](#deselection)
       * [Dice Calculator](#dice-calculator)
