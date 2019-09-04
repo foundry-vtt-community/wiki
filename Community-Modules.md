@@ -409,23 +409,26 @@ Tokenizer provides the user with:
 - automatic generation of a mask using the marching squares algorithm
 - automatic upload of the created tokens to the Foundry VTT server (requires 'Trusted Player' permission level)
 
-## Token Randomizer
+## Token Mold
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Version**: 0.9
+* **Version**: 1.0
 * **Foundry VTT Compatibility**: 0.3.5
 * **System Compatibility (If applicable)**: All, though extra option to roll hp for DnD5e
+* **Module Conflicts**: This module replaces the *Token Randomizer*, hence it is not compatible with it.
 
 ### Link(s) to Module
-* [https://gitlab.com/moerills-fvtt-modules/token-randomizer](https://gitlab.com/moerills-fvtt-modules/token-randomizer) 
+* [https://gitlab.com/moerills-fvtt-modules/token-mold](https://gitlab.com/moerills-fvtt-modules/token-mold) 
 
 ### Description
-This module gives you options to manipulate tokens on creation. The options include:
-* Automatic indexing
-* Random prefix generation
-* Rolling hp (DnD5e only)
-* Removing the token name, hiding it from your players
-* Overwrite default token configs
+What is a foundry without its molds? This module provides you with a customizable mold for your Tokens.  
+On creation each unlinked Token will fit snuggly into the pattern of your mold.  
+**Features**
+- Automatic indexing
+- Random adjective prefixes (e.g. angry, calm, bloodthirsty, ...)
+- Hit Point rolling by formula (currently dnd5e only)
+- Overriding default token template config
+- Providing a customizable overlay to quickly  check some stats on Token hover
 
 ## Z Order
 
