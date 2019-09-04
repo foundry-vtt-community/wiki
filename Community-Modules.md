@@ -23,7 +23,7 @@
       * [SVG Loader](#svg-loader)
       * [Tiles Browser](#tiles-browser)
       * [VTTA Tokenizer](#vtta-tokenizer)
-      * [Token Randomizer](#token-randomizer)
+      * [Token Mold](#token-mold)
       * [Z Order](#z-order)
    * [Foundry VTT Modules for DnD 5E](#foundry-vtt-modules-for-dnd-5e)
       * [Better NPC Sheet 5e](#better-npc-sheet-5e)
