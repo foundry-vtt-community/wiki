@@ -50,6 +50,8 @@
 
 ### [Combat Tracker](Combat-Tracker)
 
+### [Scenes](Scenes)
+
 ### [Actors](Actors)
 
 ### [Journal](Journal)

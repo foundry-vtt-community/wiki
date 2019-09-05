@@ -1,6 +1,7 @@
 <!--tl=2-->
 <!--ts-->
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
+      * [Always Show Notes](#always-show-notes)
       * [Chat Autoloader](#chat-autoloader)
       * [Deselection](#deselection)
       * [Dice Calculator](#dice-calculator)
@@ -9,6 +10,7 @@
       * [Popout!](#popout)
       * [GM Roll Message](#gm-roll-message)
       * [Grid Scaler](#grid-scaler)
+      * [Image Previewer](#image-previewer)
       * [Infinite Folders](#infinite-folders)
       * [Journal Enhancer](#journal-enhancer)
       * [Layer Hotkeys](#layer-hotkeys)
@@ -19,16 +21,17 @@
       * [Permission Viewer](#permission-viewer)
       * [Pointer](#pointer)
       * [SVG Loader](#svg-loader)
-      * [Token Randomizer](#token-randomizer)
+      * [Tiles Browser](#tiles-browser)
+      * [VTTA Tokenizer](#vtta-tokenizer)
+      * [Token Mold](#token-mold)
       * [Z Order](#z-order)
    * [Foundry VTT Modules for DnD 5E](#foundry-vtt-modules-for-dnd-5e)
       * [Better NPC Sheet 5e](#better-npc-sheet-5e)
       * [Beyond 20](#beyond-20)
       * [Chat Damage Buttons](#chat-damage-buttons)
+      * [DDB Popper](#ddb-popper)
       * [DnD Beyond Character Importer](#dnd-beyond-character-importer)
-      * [Encumbrance Variant](#encumbrance-variant)
       * [Favourite Item Tab](#favourite-item-tab)
-      * [FVTT-Party](#fvtt-party)
       * [Group Roll](#group-roll)
       * [Item Sheet Buttons](#item-sheet-buttons)
       * [Loot Sheet NPC (5e)](#loot-sheet-npc-5e)
@@ -38,10 +41,13 @@
       * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
       * [Spell Browser](#spell-browser)
       * [SRD Bestiary Module](#srd-bestiary-module)
+      * [VTTA Party](#vtta-party)
    * [Foundry VTT Modules for WFRP 4E](#foundry-vtt-modules-for-wfrp-4e)
       * [Arcane Marks &amp; Careers](#arcane-marks--careers)
    * [Foundry VTT Modules (Defunct)](#foundry-vtt-modules-defunct)
       * [aDnD5e](#adnd5e)
+      * [Encumbrance Variant](#encumbrance-variant)
+      * [FVTT-Party (Discontinued, see VTTA-Party for an successor)](#fvtt-party-discontinued-see-vtta-party-for-an-successor)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Module](#appendix-a-adding-a-module)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -51,6 +57,20 @@
 
 Foundry modules that work across all or most systems are noted here. These may include reskins, general improvement mods, and more.
 
+## Always Show Notes
+
+* **Author**: Pin#8969
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3.5
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: No known conflicts
+
+### Link(s) to Module
+* https://github.com/Pingar5/alwaysshownotes
+
+### Description
+Sets the Display Notes toggle to true by default
 
 ## Chat Autoloader
 
@@ -169,6 +189,26 @@ Sends an extra public message/hint when rolling a `gmroll` or `blindroll`.
 
 ### Description
 This mod allows you to resize a grid more easily within Foundry, allowing easier map setup when a grid is uneven or unclear within a background image.
+
+## Image Previewer
+
+* **Author**: Felix#6196 on Discord, accepts donations via paypal, felix.mueller.86@web.de
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: written for 0.3.4, should be fairly version independant
+* **System Compatibility (If applicable)**: universal
+* **Module Requirement(s)**: none
+* **Module Conflicts**: none
+
+### Link(s) to Module
+* https://github.com/syl3r86/image-previewer
+
+### Description
+A little app to preview images on hover in the file picker menu.
+#### Installation
+1. Download the [image-previewer.zip](https://github.com/syl3r86/image-previewer/raw/master/image-previewer.zip)
+2. Unzip it into FoundryVTT/resources/app/public/modules
+3. Restart Foundry if it was running.
+4. Enable the module in the Module Configuration
 
 ## Infinite Folders
 
@@ -336,20 +376,59 @@ This module adds the ability for each user to show a cursor following his mouse 
 ### Description
 This module allows to load walls, lights and sources through .svg files, provided e.g. by DungeonFog.
 
-## Token Randomizer
+## Tiles Browser
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Version**: (Note current version of module here.)
-* **Foundry VTT Compatibility**: 
+* **Version**: 0.2
+* **Foundry VTT Compatibility**: 0.3.5
+
+### Link(s) to Module
+* https://gitlab.com/moerills-fvtt-modules/tiles-browser/
+
+### Description
+Adds a browser to the tiles layer to conveniently preview and then drag and drop tiles onto the scene. Providing additional features to manipulate tile rotation and size while dragging.
+
+## VTTA Tokenizer
+
+* **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
+* **Version**: v1.0.2-rc.1
+* **Foundry VTT Compatibility**: 0.3.5+
 * **System Compatibility (If applicable)**:
-* **Module Requirement(s)**: 
+* **Module Requirement(s)**: Requires the player permission "Trusted Player"
 * **Module Conflicts**:
 
 ### Link(s) to Module
-* [https://gitlab.com/moerills-fvtt-modules/token-randomizer](https://gitlab.com/moerills-fvtt-modules/token-randomizer) 
+* [https://www.vttassets.com/asset/vtta-tokenizer](https://www.vttassets.com/asset/vtta-tokenizer)
 
 ### Description
-Module adding options to randomise token properties on creation.
+Tokenizer provides the user with:
+- ability to define a custom token size, defaulting to 400x400 pixels
+- the ability to create multiple layers consting of individual loaded image
+- the ability to load images from a) local disk b) a web URL c) the Foundry VTT server
+- the ability to scale and translate each layer individually
+- automatic generation of a mask using the marching squares algorithm
+- automatic upload of the created tokens to the Foundry VTT server (requires 'Trusted Player' permission level)
+
+## Token Mold
+
+* **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
+* **Version**: 1.0
+* **Foundry VTT Compatibility**: 0.3.5
+* **System Compatibility (If applicable)**: All, though extra option to roll hp for DnD5e
+* **Module Conflicts**: This module replaces the *Token Randomizer*, hence it is not compatible with it.
+
+### Link(s) to Module
+* [https://gitlab.com/moerills-fvtt-modules/token-mold](https://gitlab.com/moerills-fvtt-modules/token-mold) 
+
+### Description
+What is a foundry without its molds? This module provides you with a customizable mold for your Tokens.  
+On creation each unlinked Token will fit snuggly into the pattern of your mold.  
+**Features**
+- Automatic indexing
+- Random adjective prefixes (e.g. angry, calm, bloodthirsty, ...)
+- Hit Point rolling by formula (currently dnd5e only)
+- Overriding default token template config
+- Providing a customizable overlay to quickly  check some stats on Token hover
 
 ## Z Order
 
@@ -419,6 +498,22 @@ This module replaces the right-click context menu with buttons on the dice-roll 
 
 To install the module, download the zip file included in the Github module directory. Extract the zip file to `/public/modules`. Restart Foundry Virtual Tabletop.
 
+## DDB Popper
+
+* **Author**: errational#2007 on discord
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3.4
+* **System Compatibility (If applicable)**: dnd5e
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: N/A
+
+### Link(s) to Module
+* https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper
+* [Download](https://github.com/eclarke12/fvtt-modules/raw/master/ddb-popper.zip)
+
+### Description
+Opens a D&D Beyond popup for a linked actor. More info here: https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper
+
 ## DnD Beyond Character Importer
 
 * **Author**: @Sillvva#2532 on Discord.
@@ -438,23 +533,6 @@ This module allows you to import character data from DnD Beyond into Foundry Vir
 
 The module has not been updated recently by its creator, but the community has produced a fix for this issue.  The fix is not included in the zip file for the module, but is instead contained within the Github repository, and must be retrieved there. Replace the file in the module folder with the fixed version.
 
-## Encumbrance Variant
-
-* **Author**: hooking#0492 on Discord.
-* **Version**: 0.14
-* **Foundry VTT Compatibility**: 0.2.8-0.2.10
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
-* **Module Requirement(s)**: None.
-* **Module Conflicts**: None currently known.
-
-### Link(s) to Module
-* [https://gitlab.com/hooking/foundry-vtt---encumbrance-variant-5e](https://gitlab.com/hooking/foundry-vtt---encumbrance-variant-5e) 
-
-### Description
-This module modifies how the encumbrance bar in the actor sheet is displayed to distinguish the different levels of encumbrance when using the variant rules in **PHB pg. 175**. It does not currently support the Powerful Build feature, as doing so would require extending the base Actor5eSheet class.
-
-To install the module, download the zip file included in the Github module directory. Extract the zip file to `/public/modules`. Restart Foundry Virtual Tabletop.
-
 ## Favourite Item Tab
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
@@ -469,21 +547,6 @@ To install the module, download the zip file included in the Github module direc
 
 ### Description
 Adds a Favourite tab to display a customized list of items, feats and spells. Usable with the default dnd5e Character sheet. You can add any item from the inventory, spell book or feature section of the character sheet. This module also gives access to item charges. You can add these to any item on the favourite list or remove them by changing the maximum to 0. This uses the same data that is used by Moerill#7205's adnd5e module, since this data is not supported by default.
-
-## FVTT-Party
-
-* **Author**: @solfolango77#0880 on Discord.
-* **Version**: 0.1
-* **Foundry VTT Version Compatibility**: 0.3+
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None known, although module is a WIP.
-
-### Link(s) to Module
-* [https://github.com/shwill/fvtt-party](https://github.com/shwill/fvtt-party) 
-
-### Description
-This module adds a convenient button to the actor’s tab, which will track the HP, AC, and Passive Perception, Investigation, and Insight of tokens on the Canvas. Currently a WIP, and may exhibit some bugs.
 
 ## Group Roll
 
@@ -626,6 +689,23 @@ Future updates will include edits to the imports to bring them in line with “g
 
 To install, simply extract the zip file into `/public/modules`, enable the module in Foundry, and then do a full restart in order to display the compendium.
 
+## VTTA Party
+
+* **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
+* **Version**: v1.0.0
+* **Foundry VTT Compatibility**: 0.3.5+
+* **System Compatibility (If applicable)**:
+* **Module Requirement(s)**: None
+* **Module Conflicts**:
+
+### Link(s) to Module
+* [https://www.vttassets.com/asset/vtta-party](https://www.vttassets.com/asset/vtta-party)
+
+### Description
+Successor to fvtt-party, which is discontinued as of now. Provides both an overview about the party in regards to AC, HP, and passive perception/investigation/insight and adds tooltips for the actors of the currently active scene.
+Configurable options for granting players access to both features, or to use it for GMs only.
+
+
 # Foundry VTT Modules for WFRP 4E
 
 Foundry modules that work within Warhammer Fantasy Roleplay 4th Edition are noted here. These may include NPC compendiums that may be legally shared, world saves, character sheet mods, changes to roll tables, etc.
@@ -669,6 +749,38 @@ Foundry VTT modules that no longer work are noted here. Modules included here ha
 
 ### Description
 This module expands upon the existing 5e system in Foundry VTT, adding alternative PC and NPC sheets, as well as changing the system of attacks and macros, and adds a compendium for all SRD monsters, set up for use with this module. The mod is effectively a massive expansion in the ability to edit sheets for the user’s purposes, and a revamp of how the 5E system works. It is backwards-compatible with the default sheet, and can be switched between the two as needed.
+
+## Encumbrance Variant
+
+* **Author**: hooking#0492 on Discord.
+* **Version**: 0.14
+* **Foundry VTT Compatibility**: 0.2.8-0.2.10
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
+* **Module Requirement(s)**: None.
+* **Module Conflicts**: None currently known.
+
+### Link(s) to Module
+* [https://gitlab.com/hooking/foundry-vtt---encumbrance-variant-5e](https://gitlab.com/hooking/foundry-vtt---encumbrance-variant-5e) 
+
+### Description
+This module modifies how the encumbrance bar in the actor sheet is displayed to distinguish the different levels of encumbrance when using the variant rules in **PHB pg. 175**. It does not currently support the Powerful Build feature, as doing so would require extending the base Actor5eSheet class.
+
+## FVTT-Party (Discontinued, see VTTA-Party for an successor)
+
+* **Author**: @solfolango77#0880 on Discord.
+* **Version**: 0.1
+* **Foundry VTT Version Compatibility**: 0.3+
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known, although module is a WIP.
+
+### Link(s) to Module
+* [https://github.com/shwill/fvtt-party](https://github.com/shwill/fvtt-party) 
+
+### Description
+This module adds a convenient button to the actor’s tab, which will track the HP, AC, and Passive Perception, Investigation, and Insight of tokens on the Canvas. Currently a WIP, and may exhibit some bugs.
+
+To install the module, download the zip file included in the Github module directory. Extract the zip file to `/public/modules`. Restart Foundry Virtual Tabletop.
 
 # Appendix
 

@@ -28,6 +28,7 @@ Table of Contents
       * [<a href="Sidebar">Sidebar</a>](#sidebar)
          * [<a href="Chat">Chat</a>](#chat)
          * [<a href="Combat-Tracker">Combat Tracker</a>](#combat-tracker)
+         * [<a href="Scenes">Scenes</a>](#scenes)
          * [<a href="Actors">Actors</a>](#actors)
          * [<a href="Journal">Journal</a>](#journal)
          * [<a href="Playlists">Playlists</a>](#playlists)
