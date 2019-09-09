@@ -8,6 +8,7 @@
       * [Display mode](#display-mode)
       * [Entity Order](#entity-order)
       * [Popout!](#popout)
+      * [Furnace](#furnace)
       * [GM Roll Message](#gm-roll-message)
       * [Grid Scaler](#grid-scaler)
       * [Image Previewer](#image-previewer)
@@ -20,6 +21,7 @@
       * [Patches by trdischat](#patches-by-trdischat)
       * [Permission Viewer](#permission-viewer)
       * [Pointer](#pointer)
+      * [Popout!](#popout-1)
       * [SVG Loader](#svg-loader)
       * [Tiles Browser](#tiles-browser)
       * [VTTA Tokenizer](#vtta-tokenizer)
@@ -155,22 +157,26 @@ This module makes it so that when you click the anvil in the top left of the scr
 ### Description
 This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items and Journal entries).
 
+<<<<<<< HEAD
 ***
 
 ## Popout!
 
+=======
+## Furnace
+>>>>>>> upstream/master
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3+
+* **Version**: 0.5
+* **Foundry VTT Compatibility**: 0.3.5+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
 
 ### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-popout](https://github.com/kakaroto/fvtt-module-popout) 
+* [https://github.com/kakaroto/fvtt-module-furnace](https://github.com/kakaroto/fvtt-module-furnace) 
 
 ### Description
-This Foundry VTT module lets you pop out journal entries into their own windows. It is currently acting as a proof of concept.
+The Furnace is an essential part of every Foundry. This module adds Quality of Life improvements to Foundry VTT, such as advanced Drawing Tools.
 
 ***
 
@@ -228,6 +234,7 @@ A little app to preview images on hover in the file picker menu.
 3. Restart Foundry if it was running.
 4. Enable the module in the Module Configuration
 
+<<<<<<< HEAD
 ***
 
 ## Infinite Folders
@@ -247,6 +254,8 @@ This Foundry VTT module allows you to create infinite depth of folders for Scene
 
 ***
 
+=======
+>>>>>>> upstream/master
 ## Journal Enhancer
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
@@ -397,7 +406,24 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 ### Description
 This module adds the ability for each user to show a cursor following his mouse as well as adding the option to ping a certain location.
 
+<<<<<<< HEAD
 ***
+=======
+## Popout!
+
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-popout](https://github.com/kakaroto/fvtt-module-popout) 
+
+### Description
+This Foundry VTT module lets you pop out journal entries into their own windows. It is currently acting as a proof of concept.
+>>>>>>> upstream/master
 
 ## SVG Loader
 
@@ -553,15 +579,15 @@ To install the module, download the zip file included in the Github module direc
 ## DDB Popper
 
 * **Author**: errational#2007 on discord
-* **Version**: 0.1
+* **Version**: 1.1
 * **Foundry VTT Compatibility**: 0.3.4
 * **System Compatibility (If applicable)**: dnd5e
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: N/A
 
 ### Link(s) to Module
-* https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper
-* [Download](https://github.com/eclarke12/fvtt-modules/raw/master/ddb-popper.zip)
+* https://github.com/death-save/ddb-popper/
+* [Download](https://github.com/death-save/ddb-popper/raw/master/ddb-popper.zip)
 
 ### Description
 Opens a D&D Beyond popup for a linked actor. More info here: https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper
