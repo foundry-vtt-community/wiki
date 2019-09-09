@@ -145,20 +145,19 @@ This module makes it so that when you click the anvil in the top left of the scr
 ### Description
 This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items and Journal entries).
 
-## Popout!
-
+## Furnace
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3+
+* **Version**: 0.5
+* **Foundry VTT Compatibility**: 0.3.5+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
 
 ### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-popout](https://github.com/kakaroto/fvtt-module-popout) 
+* [https://github.com/kakaroto/fvtt-module-furnace](https://github.com/kakaroto/fvtt-module-furnace) 
 
 ### Description
-This Foundry VTT module lets you pop out journal entries into their own windows. It is currently acting as a proof of concept.
+The Furnace is an essential part of every Foundry. This module adds Quality of Life improvements to Foundry VTT, such as advanced Drawing Tools.
 
 ## GM Roll Message
 
@@ -345,6 +344,21 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 
 ### Description
 This module adds the ability for each user to show a cursor following his mouse as well as adding the option to ping a certain location.
+
+## Popout!
+
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-popout](https://github.com/kakaroto/fvtt-module-popout) 
+
+### Description
+This Foundry VTT module lets you pop out journal entries into their own windows. It is currently acting as a proof of concept.
 
 ## SVG Loader
 
