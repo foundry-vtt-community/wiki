@@ -500,15 +500,15 @@ To install the module, download the zip file included in the Github module direc
 ## DDB Popper
 
 * **Author**: errational#2007 on discord
-* **Version**: 0.1
+* **Version**: 1.0
 * **Foundry VTT Compatibility**: 0.3.4
 * **System Compatibility (If applicable)**: dnd5e
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: N/A
 
 ### Link(s) to Module
-* https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper
-* [Download](https://github.com/eclarke12/fvtt-modules/raw/master/ddb-popper.zip)
+* https://github.com/death-save/ddb-popper/
+* [Download](https://github.com/death-save/ddb-popper/raw/master/ddb-popper.zip)
 
 ### Description
 Opens a D&D Beyond popup for a linked actor. More info here: https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper
