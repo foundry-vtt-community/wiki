@@ -500,7 +500,7 @@ To install the module, download the zip file included in the Github module direc
 ## DDB Popper
 
 * **Author**: errational#2007 on discord
-* **Version**: 1.0
+* **Version**: 1.1
 * **Foundry VTT Compatibility**: 0.3.4
 * **System Compatibility (If applicable)**: dnd5e
 * **Module Requirement(s)**: N/A
