@@ -41,6 +41,9 @@ Global sounds are heard by all tokens through all wall types.
 
 **Edit a Wall Segment**: By double-clicking a wall segment point shows the wall segment properties.  You can change the properties of an existing wall in that popup screen.  The color of the wall segment will adjust to the appropriate color.
 
+**Edit multiple Wall Segments**: Hold down the `SHIFT` key while clicking on multiple wall segments' points. Double-click
+any wall segment point to bring up the properties which you can change for all of the selected wall segments.
+
 **Directional Wall Segments**: Wall segments can be directional (left/right/both) to block is various ways.  Edit the wall segment to modify this option.
 
 **The Grid Layer**: Is positioned 2nd from bottom in the layers of the Canvas. The Grid Layer is responsible for orienting and segmenting the game space into grid spaces. Currently only a square grid is supported but hex grid support is flagged as a feature for work during Beta development.
