@@ -7,6 +7,7 @@
       * [Dice Calculator](#dice-calculator)
       * [Display mode](#display-mode)
       * [Entity Order](#entity-order)
+      * [The Furnace](#the-furnace)
       * [Popout!](#popout)
       * [GM Roll Message](#gm-roll-message)
       * [Grid Scaler](#grid-scaler)
