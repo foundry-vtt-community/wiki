@@ -72,6 +72,8 @@ Foundry modules that work across all or most systems are noted here. These may i
 ### Description
 Sets the Display Notes toggle to true by default
 
+---
+
 ## Chat Autoloader
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
@@ -84,6 +86,8 @@ Sets the Display Notes toggle to true by default
 
 ### Description
 This module improves loading times by only rendering the last few chat messages at page load. Older messages will automatically get rendered while scrolling to the top. (This behaviour is similar to e.g. scrolling in Discords chat)
+
+---
 
 ## Deselection
 
@@ -100,6 +104,8 @@ This module improves loading times by only rendering the last few chat messages 
 ### Description
 This module lets the GM deselect a token or tokens by clicking anywhere on the map.
 
+---
+
 ## Dice Calculator
 
 * **Author**: Asacolips#1867 on Discord.
@@ -114,6 +120,8 @@ This module lets the GM deselect a token or tokens by clicking anywhere on the m
 
 ### Description
 This module turns the d20 icon near the chat prompt into a clickable link that opens up a new dice calculator dialog. The dice calculator includes buttons for dice, numbers, and simple math. [Screenshot of the calculator can be found here.](https://i.imgur.com/ar2hNYP.png)
+
+---
 
 ## Display mode
 
@@ -130,6 +138,8 @@ This module turns the d20 icon near the chat prompt into a clickable link that o
 ### Description
 This module makes it so that when you click the anvil in the top left of the screen, the sidebar in Foundry is hidden.
 
+---
+
 ## Entity Order
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
@@ -144,6 +154,8 @@ This module makes it so that when you click the anvil in the top left of the scr
 
 ### Description
 This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items and Journal entries).
+
+---
 
 ## Popout!
 
@@ -160,6 +172,8 @@ This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items a
 ### Description
 This Foundry VTT module lets you pop out journal entries into their own windows. It is currently acting as a proof of concept.
 
+---
+
 ## GM Roll Message
 
 * **Author**: Hydroxi#0366 on Discord.
@@ -175,6 +189,8 @@ This Foundry VTT module lets you pop out journal entries into their own windows.
 ### Description
 Sends an extra public message/hint when rolling a `gmroll` or `blindroll`.
 
+---
+
 ## Grid Scaler
 
 * **Author**: UberV, UberV#2154 on Discord.
@@ -189,6 +205,8 @@ Sends an extra public message/hint when rolling a `gmroll` or `blindroll`.
 
 ### Description
 This mod allows you to resize a grid more easily within Foundry, allowing easier map setup when a grid is uneven or unclear within a background image.
+
+---
 
 ## Image Previewer
 
@@ -210,6 +228,8 @@ A little app to preview images on hover in the file picker menu.
 3. Restart Foundry if it was running.
 4. Enable the module in the Module Configuration
 
+---
+
 ## Infinite Folders
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
@@ -225,6 +245,8 @@ A little app to preview images on hover in the file picker menu.
 ### Description
 This Foundry VTT module allows you to create infinite depth of folders for Scenes, Actors, Items and Journals. No more limit to a depth of 2 folders (or none for Journal entries). This will also add a `New entity` button on folders so you can create it directly in the folder (does not work for Scenes though).
 
+---
+
 ## Journal Enhancer
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
@@ -239,6 +261,8 @@ This Foundry VTT module allows you to create infinite depth of folders for Scene
 
 ### Description 
 This module adds a search function for journal entries, includes a “jump to pin” button for moving the camera to a pinned journal entry, adds a zoom function for image handouts, and hides the name of a handout to users without permissions set. Moerill includes a video showing off the mod’s utility here: [https://youtu.be/5O4yA8Kr6bs](https://youtu.be/5O4yA8Kr6bs)
+
+---
 
 ## Layer Hotkeys
 
@@ -270,6 +294,8 @@ The Hotkeys can be seen by hovering over the button as well.
 
 **Quick note**: To see the changed wall-type reflected you need to move the mouse a bit after switching the tool to trigger a color update.
 
+---
+
 ## Less Fog
 
 * **Author**: trdischat#2123 on Discord.
@@ -284,6 +310,8 @@ The Hotkeys can be seen by hovering over the button as well.
 
 ### Description
 Module to enhance visibility for the GM in Foundry VTT.
+
+---
 
 ## Message Age Restriction
 
@@ -300,6 +328,8 @@ Module to enhance visibility for the GM in Foundry VTT.
 ### Description
 A Foundry VTT Module to enable filtering chat-messages by their age. Each user can choose his own settings. It is possible to set the maximum age (in days) and to specify if the filter should be applied.
 
+---
+
 ## No Token Animations
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
 * **Version**: 1.0
@@ -310,6 +340,8 @@ A Foundry VTT Module to enable filtering chat-messages by their age. Each user c
 
 ### Description
 Adds an option to the settings dialog to disable token movement animations. Tokens will drop immediately instead of sliding when dragged and dropped around the map with this setting enabled.
+
+---
 
 ## Patches by trdischat
 
@@ -331,6 +363,8 @@ Module to apply the following patches to Foundry VTT:
 
 All patches rely on the `patchClass` utility function.
 
+---
+
 ## Permission Viewer
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
@@ -345,6 +379,8 @@ All patches rely on the `patchClass` utility function.
 
 ### Description
 This Foundry VTT module displays colored diamonds/squares/circles to represent the players who have limited/observer/owner permissions on Entities (Actors, Journal entries, Items, etc..)
+
+---
 
 ## Pointer
 
@@ -361,6 +397,8 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 ### Description
 This module adds the ability for each user to show a cursor following his mouse as well as adding the option to ping a certain location.
 
+---
+
 ## SVG Loader
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
@@ -376,6 +414,8 @@ This module adds the ability for each user to show a cursor following his mouse 
 ### Description
 This module allows to load walls, lights and sources through .svg files, provided e.g. by DungeonFog.
 
+---
+
 ## Tiles Browser
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
@@ -387,6 +427,8 @@ This module allows to load walls, lights and sources through .svg files, provide
 
 ### Description
 Adds a browser to the tiles layer to conveniently preview and then drag and drop tiles onto the scene. Providing additional features to manipulate tile rotation and size while dragging.
+
+---
 
 ## VTTA Tokenizer
 
@@ -409,6 +451,8 @@ Tokenizer provides the user with:
 - automatic generation of a mask using the marching squares algorithm
 - automatic upload of the created tokens to the Foundry VTT server (requires 'Trusted Player' permission level)
 
+---
+
 ## Token Mold
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
@@ -429,6 +473,8 @@ On creation each unlinked Token will fit snuggly into the pattern of your mold.
 - Hit Point rolling by formula (currently dnd5e only)
 - Overriding default token template config
 - Providing a customizable overlay to quickly  check some stats on Token hover
+
+---
 
 ## Z Order
 
@@ -464,6 +510,8 @@ Foundry modules that work within Dungeons and Dragons 5th Edition are noted here
 ### Description
 This module overwrites the default NPC sheet that comes shipped with the dnd5e system and brings it closer to the well known official template. It also includes functionality supporting separation of action categories (legendary actions, actions, reactions, etc.), and features the ability to expand and view the description of the ability/action in-sheet.
 
+---
+
 ## Beyond 20
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
@@ -480,6 +528,8 @@ The module is available under the 'FVTT-module' directory.
 
 ### Description
 This module allows you to use and roll sheets in DnD Beyond, and have those results displayed in Foundry VTT. For more details, see Kakaroto’s module page and readme files.
+
+---
 
 ## Chat Damage Buttons
 
@@ -498,6 +548,8 @@ This module replaces the right-click context menu with buttons on the dice-roll 
 
 To install the module, download the zip file included in the Github module directory. Extract the zip file to `/public/modules`. Restart Foundry Virtual Tabletop.
 
+---
+
 ## DDB Popper
 
 * **Author**: errational#2007 on discord
@@ -513,6 +565,8 @@ To install the module, download the zip file included in the Github module direc
 
 ### Description
 Opens a D&D Beyond popup for a linked actor. More info here: https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper
+
+---
 
 ## DnD Beyond Character Importer
 
@@ -533,6 +587,8 @@ This module allows you to import character data from DnD Beyond into Foundry Vir
 
 The module has not been updated recently by its creator, but the community has produced a fix for this issue.  The fix is not included in the zip file for the module, but is instead contained within the Github repository, and must be retrieved there. Replace the file in the module folder with the fixed version.
 
+---
+
 ## Favourite Item Tab
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
@@ -548,6 +604,8 @@ The module has not been updated recently by its creator, but the community has p
 ### Description
 Adds a Favourite tab to display a customized list of items, feats and spells. Usable with the default dnd5e Character sheet. You can add any item from the inventory, spell book or feature section of the character sheet. This module also gives access to item charges. You can add these to any item on the favourite list or remove them by changing the maximum to 0. This uses the same data that is used by Moerill#7205's adnd5e module, since this data is not supported by default.
 
+---
+
 ## Group Roll
 
 * **Author**: trdischat#2123 on Discord.
@@ -562,6 +620,8 @@ Adds a Favourite tab to display a customized list of items, feats and spells. Us
 
 ### Description
 Implements group ability and skill check rolls per Player's Handbook, page 175: "*If at least half the group succeeds, the whole group succeeds.*" Modules also includes patches to implement the Halfling Lucky trait, and a house rule to use the average of 2d20 for normal skill and ability check rolls. Both of these patches can be disabled in config.js. All patches rely on the included `patchClass` utility function.
+
+---
 
 ## Item Sheet Buttons
 
@@ -580,6 +640,8 @@ This module adds item card buttons into the description of items, so that the it
 
 To install, download the zip file included in the Github module directory. Extract the zip folder to `/public/modules`. Restart Foundry Virtual Tabletop.
 
+---
+
 ## Loot Sheet NPC (5e)
 
 * **Author**: hooking#0492 on Discord.
@@ -594,6 +656,8 @@ To install, download the zip file included in the Github module directory. Extra
 
 ### Description
 This module adds an additional NPC sheet which can be used for loot containers such as chests. It also allows spells to be automatically converted into spell scrolls by dragging them onto this sheet.
+
+---
 
 ## NPC Browser
 
@@ -610,6 +674,8 @@ This module adds an additional NPC sheet which can be used for loot containers s
 ### Description
 This module adds a search interface for actors. This enables more comfortable browsing and searching via predefined filters like challenge rating, type or ability score.
 
+---
+
 ## Polymorpher
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
@@ -624,6 +690,8 @@ This module adds a search interface for actors. This enables more comfortable br
 
 ### Description
 A module for Foundry VTT that lets you polymorph characters into any other character! Just drag any Actor (NPC or Character) on top of another Actor to change the later into the prior. Support dropping both from Compendium or the sidebar.
+
+---
 
 ## R20 Converter
 
@@ -640,6 +708,8 @@ A module for Foundry VTT that lets you polymorph characters into any other chara
 ### Description 
 This module imports most facets of a campaign, including scenes, dynamic lighting, basic sheet information, and more. It currently does not include thorough actor information (either for PCs or NPCs), or items. Bear in mind that exporting a campaign from Roll20 may violate the EULA.
 
+---
+
 ## Roll20 NPC Importer, for 5e
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
@@ -655,6 +725,8 @@ This module imports most facets of a campaign, including scenes, dynamic lightin
 ### Description
 This module allows for the importing of NPCs from Roll20, through use of JSONs exported via [VTT Enhancement Suite](https://ssstormy.github.io/roll20-enhancement-suite/). This import currently only supports NPCs created in the Roll20 OGL or Shaped version sheets. This module supports the Better NPC Sheet 5e, as well as the aDnD5e sheet in tagging actor items according to abilities, reactions, legendary actions, etc.  To install, first download the module, unzip it into `/public/modules`, and then restart Foundry while it is running.
 
+---
+
 ## Spell Browser
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de.
@@ -669,6 +741,8 @@ This module allows for the importing of NPCs from Roll20, through use of JSONs e
 
 ### Description
 This module adds a search interface for spells. This enables more comfortable browsing and searching via predefined filters like spell level, class or damage type.
+
+---
 
 ## SRD Bestiary Module
 
@@ -688,6 +762,8 @@ This module includes each SRD NPC in 5th edition, imported into Foundry VTT. Thi
 Future updates will include edits to the imports to bring them in line with “good practice” for Foundry NPCs.
 
 To install, simply extract the zip file into `/public/modules`, enable the module in Foundry, and then do a full restart in order to display the compendium.
+
+---
 
 ## VTTA Party
 
@@ -750,6 +826,8 @@ Foundry VTT modules that no longer work are noted here. Modules included here ha
 ### Description
 This module expands upon the existing 5e system in Foundry VTT, adding alternative PC and NPC sheets, as well as changing the system of attacks and macros, and adds a compendium for all SRD monsters, set up for use with this module. The mod is effectively a massive expansion in the ability to edit sheets for the user’s purposes, and a revamp of how the 5E system works. It is backwards-compatible with the default sheet, and can be switched between the two as needed.
 
+---
+
 ## Encumbrance Variant
 
 * **Author**: hooking#0492 on Discord.
@@ -764,6 +842,8 @@ This module expands upon the existing 5e system in Foundry VTT, adding alternati
 
 ### Description
 This module modifies how the encumbrance bar in the actor sheet is displayed to distinguish the different levels of encumbrance when using the variant rules in **PHB pg. 175**. It does not currently support the Powerful Build feature, as doing so would require extending the base Actor5eSheet class.
+
+---
 
 ## FVTT-Party (Discontinued, see VTTA-Party for an successor)
 
@@ -802,6 +882,8 @@ To install the module, download the zip file included in the Github module direc
 
 ### Description
 (Describe the module here. This should include the module’s function, installation instructions, and anything important to note. Due to the particular oddities of some archiving programs (WinRar, 7zip), and GitHub zip folders, including a screenshot of what the module should look like file-wise in the “public/modules/examplemodule” is appreciated, though not required.)
+
+---
 ```
 
 ## Appendix B: Best Editing Practices
