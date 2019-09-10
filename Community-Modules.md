@@ -7,6 +7,7 @@
       * [Dice Calculator](#dice-calculator)
       * [Display mode](#display-mode)
       * [Entity Order](#entity-order)
+      * [FFG Roller](#ffg-roller)
       * [The Furnace](#the-furnace)
       * [Popout!](#popout)
       * [GM Roll Message](#gm-roll-message)
@@ -158,6 +159,23 @@ This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items a
 
 ---
 
+## FFG Roller
+
+* **Author**: Petep, @petep#0441 on Discord
+* **Version**: 0.2
+* **Foundry VTT Compatibility**: 0.3+
+* **System Compatibility (If applicable)**: Universal, but you'll want to probably use it with the simple system
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+
+### Link(s) to Module
+* [https://github.com/petepeg/FFG-Roller](https://github.com/petepeg/FFG-Roller)
+
+### Description
+This adds a simple dice rolling window for the special dice used in Fantasy Flight Games Star Wars RPG and Genesys. 
+
+---
+
 ## The Furnace
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
@@ -174,7 +192,7 @@ This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items a
 The Furnace is an essential part of every Foundry.
 
 This Foundry VTT module brings Quality of Life Improvements to the VTT.
-It started by adding Drawing Tools, and then an experiemntal Macros system and now it also adds a 'Split Journal' feature. More QoL improvements are planned.
+It started by adding Drawing Tools, and then an experimental Macros system and now it also adds a 'Split Journal' feature. More QoL improvements are planned.
 
 ---
 
@@ -466,7 +484,7 @@ Adds a browser to the tiles layer to conveniently preview and then drag and drop
 ### Description
 Tokenizer provides the user with:
 - ability to define a custom token size, defaulting to 400x400 pixels
-- the ability to create multiple layers consting of individual loaded image
+- the ability to create multiple layers consisting of individual loaded image
 - the ability to load images from a) local disk b) a web URL c) the Foundry VTT server
 - the ability to scale and translate each layer individually
 - automatic generation of a mask using the marching squares algorithm
@@ -487,7 +505,7 @@ Tokenizer provides the user with:
 
 ### Description
 What is a foundry without its molds? This module provides you with a customizable mold for your Tokens.  
-On creation each unlinked Token will fit snuggly into the pattern of your mold.  
+On creation each unlinked Token will fit snugly into the pattern of your mold.  
 **Features**
 - Automatic indexing
 - Random adjective prefixes (e.g. angry, calm, bloodthirsty, ...)
