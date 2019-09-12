@@ -634,7 +634,7 @@ The module has not been updated recently by its creator, but the community has p
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
 * **Version**: 0.4
-* **Foundry VTT Compatibility* **: 0.3.0
+* **Foundry VTT Compatibility**: 0.3.0
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None known
