@@ -1,4 +1,4 @@
-Code snippets seen on the discord channel, make sure to backup before trying these:``
+Code snippets seen on the discord channel, make sure to backup before trying these:
 
 <b>Update Journal Entries Permissions</b>
  // Step 1 - get the folder you want to target
