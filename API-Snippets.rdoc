@@ -45,7 +45,7 @@ Code snippets seen on the discord channel, make sure to backup before trying the
  }
 
 
-<b>(Untested Map) and Wall Scaling</b>
+<b>(Untested) Map and Wall Scaling</b>
  let scale = 2;
  canvas.scene.update({
    walls: canvas.scene.data.walls.map(w => {
