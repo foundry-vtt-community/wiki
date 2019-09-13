@@ -14,6 +14,5 @@ before_script:
 deploy1:
   stage: deploy
   script:
-    - git commit -m "Update Wiki Content"
     - git push origin HEAD:master > /dev/null 2>&1
     - git push upstream HEAD:master > /dev/null 2>&1
