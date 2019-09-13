@@ -10,6 +10,8 @@ before_script:
   - git fetch origin
   - git fetch upstream
   - git merge upstream/master --no-edit
+  - git remote add old https://$GITLAB_API_KEY@gitlab.com/foundry-vtt-community/wiki.wiki.git
+  - git fetch --unshallow old
 
 deploy1:
   stage: deploy
