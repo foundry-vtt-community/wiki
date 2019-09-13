@@ -1,1 +1,1 @@
-This page is currently missing content.
+`node resources/app/main.js`
