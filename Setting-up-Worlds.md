@@ -1,5 +1,9 @@
-This is the World configuration screen, used to create and update worlds.
+This is the World configuration screen, used to create and update worlds, as you will see it as a new Gamemaster.
+![An empty World Selection screen, before any worlds have been made](https://raw.githubusercontent.com/foundry-vtt-community/wiki/master/images/Getting%20Started/Setting%20Up%20Worlds/My_First_Screen.jpg)
+Click **Create World**.
 
+
+<!-- 
 When creating a new world, you must fill in some mandatory details. The world name is a human-readable string that may contain special characters. The file path to your world defines the subdirectory name within the `public/worlds` folder where your world will be saved.
 
 **⚠️ Warning ⚠️**
@@ -11,3 +15,4 @@ You must choose the Game System that your world will use. Foundry VTT comes with
 > A world’s game system cannot be changed once the world is created, since any data created in that world will use the data model and schema for that system.
 
 Lastly, you may provide a text description of your World that can be used to keep track of details about the world or advertise it to potential players.
+-->
