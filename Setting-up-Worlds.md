@@ -3,7 +3,7 @@ This is the World configuration screen, used to create and update worlds, as you
 Click **Create World**.
  
  
-![The world creation screen, with numbered steps for completion](https://github.com/foundry-vtt-community/wiki/blob/master/images/Getting%20Started/Setting%20Up%20Worlds/Create_A_World.jpg)
+![The world creation screen, with numbered steps for completion](https://raw.githubusercontent.com/foundry-vtt-community/wiki/master/images/Getting%20Started/Setting%20Up%20Worlds/Create_A_World.jpg)
 
 
 When creating a new world, you must fill in some mandatory details. 
