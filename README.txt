@@ -15,6 +15,7 @@ Official Resources
 - Gitlab Issue Tracker : https://gitlab.com/foundrynet/foundryvtt/-/boards?milestone_title=No+Milestone&
 - Patreon : https://www.patreon.com/foundryvtt/overview
 - Discord : https://discordapp.com/invite/DDBZUDf
+- YouTube : https://www.youtube.com/user/TamrielFoundry
 
 Community Resources
 - Community Website : https://github.com/foundry-vtt-community/master/wiki
