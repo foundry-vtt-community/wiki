@@ -189,9 +189,8 @@ This adds a simple dice rolling window for the special dice used in Fantasy Flig
 * [https://github.com/kakaroto/fvtt-module-furnace](https://github.com/kakaroto/fvtt-module-furnace) 
 
 ### Description
-The Furnace is an essential part of every Foundry.
+The Furnace is an essential part of every Foundry. This Foundry VTT module brings Quality of Life Improvements to the VTT.
 
-This Foundry VTT module brings Quality of Life Improvements to the VTT.
 It started by adding Drawing Tools, and then an experimental Macros system and now it also adds a 'Split Journal' feature. More QoL improvements are planned.
 
 ---
@@ -831,7 +830,7 @@ Foundry modules that work within Warhammer Fantasy Roleplay 4th Edition are note
 ## Arcane Marks & Careers
 
 * **Author**: Moo Man#7518 on Discord
-* **Version**: 1.2.1
+* **Version**: 1.2.2
 * **Foundry VTT Compatibility**: 0.3+
 * **System Compatibility**: Warhammer Fantasy Roleplay 4th Edition.
 * **Module Requirement(s)**: None
