@@ -16,6 +16,8 @@ script:
   if [[ "$(git diff --cached)" != "" ]] ; then
       git commit -m "Update sidebar Table of Content (Automatic)"
   fi
+  git remote add old https://$GITHUB_API_KEY@github.com/foundry-vtt-community/wiki.wiki.git
+  git fetch --unshallow old
   git push -f origin HEAD:master
   git push -f upstream HEAD:master
 env:
