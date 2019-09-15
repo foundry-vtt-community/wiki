@@ -1,5 +1,8 @@
 <!--tl=2-->
 <!--ts-->
+   * [Appendix](#appendix)
+      * [Appendix A: Adding an Adventure](#appendix-a-adding-an-adventure)
+      * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
 <!--te-->
 
 

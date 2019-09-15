@@ -47,6 +47,8 @@ Table of Contents
       * [<a href="API-Basics">API Basics</a>](#api-basics)
       * [<a href="API-Snippets">API Snippets</a>](#api-snippets)
    * [<a href="Community-Game-Systems-&amp;-Modules">Community Game Systems &amp; Modules</a>](#community-game-systems--modules)
+      * [<a href="Community-Adventures">Community Adventures</a>](#community-adventures)
+      * [<a href="https://github.com/foundry-vtt-community/adventures">Community Adventures Repository</a>](#community-adventures-repository)
       * [<a href="Community-Game-Systems">Community Game Systems</a>](#community-game-systems)
       * [<a href="https://github.com/foundry-vtt-community/game_systems">Community Game Systems Repository</a>](#community-game-systems-repository)
       * [<a href="Community-Modules">Community Modules</a>](#community-modules)
