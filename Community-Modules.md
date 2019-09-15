@@ -97,7 +97,7 @@ This module improves loading times by only rendering the last few chat messages 
 * **Author**: Ken L. (Ayan)
 * **Version**: 1.1
 * **Foundry VTT Compatibility**: 0.3.7 +
-* **Module Conflicts**: 
+* **Module Conflicts**: None
 
 ### Link(s) to Module
 * [https://gitlab.com/Ayanzo/combatready](https://gitlab.com/Ayanzo/combatready)
