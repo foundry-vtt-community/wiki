@@ -1021,6 +1021,7 @@ To install the module, download the zip file included in the Github module direc
 * **System Compatibility (If applicable)**: (Note which systems of Foundry Virtual Tabletop the module is compatible with.)
 * **Module Requirement(s)**: (If the module requires other modules to function, note them here.)
 * **Module Conflicts**: (If the module conflicts with other modules, either partially or completely, note conflicts here.)
+* **Translation Support**: (Note which languages are supported, and if they have (full) or (partial) translations.
 
 ### Link(s) to Module
 * (Put a web URL here to find the module.)
