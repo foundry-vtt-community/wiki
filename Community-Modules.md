@@ -3,7 +3,7 @@
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
       * [Always Show Notes](#always-show-notes)
       * [Chat Autoloader](#chat-autoloader)
-      * [CombatReady](#combatready)
+      * [CombatReady](#combat-ready)
       * [Deselection](#deselection)
       * [Dice Calculator](#dice-calculator)
       * [Display mode](#display-mode)
