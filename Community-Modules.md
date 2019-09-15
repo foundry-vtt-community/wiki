@@ -3,6 +3,7 @@
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
       * [Always Show Notes](#always-show-notes)
       * [Chat Autoloader](#chat-autoloader)
+      * [CombatReady](#combat-ready)
       * [Deselection](#deselection)
       * [Dice Calculator](#dice-calculator)
       * [Display mode](#display-mode)
@@ -88,6 +89,40 @@ Sets the Display Notes toggle to true by default
 
 ### Description
 This module improves loading times by only rendering the last few chat messages at page load. Older messages will automatically get rendered while scrolling to the top. (This behaviour is similar to e.g. scrolling in Discords chat)
+
+---
+
+## Combat Ready
+
+* **Author**: Ken L. (Ayan)
+* **Version**: 1.1
+* **Foundry VTT Compatibility**: 0.3.7 +
+* **Module Conflicts**: None
+* **Translation Support**: EN/JA/KO/FR/BR (full) NL/IT (partial)
+
+### Link(s) to Module
+* [https://gitlab.com/Ayanzo/combatready](https://gitlab.com/Ayanzo/combatready)
+
+### Description
+Shows a graphic + sound for players a round just before a player's turn (Next Up) and
+during their turn.
+
+It uses a light-box style darkening of the canvas to catch their attention as
+well as an animated graphic + sound. The player then needs to click the banner to
+either acknowledge their turn is coming up, or take their turn. If they somehow
+still don't know its their turn then that's a problem between chair and keyboard.
+
+Note that for "Next UP" rather than having the graphic go away entirely, it just
+puts opacity on the banner as a constant reminder for the player to plan for
+their turn for when it does come up. Works with hidden combatants too, such that
+even if there's a block of hidden enemies you're working on as GM, they'll know
+when their turn is 'next' due to the graphic as to not catch them by surprise.
+
+The combat timer is simply a bar along the bottom of the screen. By default it is
+configured for 3m, but this can be changed in the settings. When the bar
+reaches 3m, or the custom value, an 'expired' sound will play, but it does not
+automatically advance the turn. Shame is good enough in my opinion. If you need
+to pause the timer, it responds to FVTT's pause mechanic.
 
 ---
 
@@ -189,9 +224,8 @@ This adds a simple dice rolling window for the special dice used in Fantasy Flig
 * [https://github.com/kakaroto/fvtt-module-furnace](https://github.com/kakaroto/fvtt-module-furnace) 
 
 ### Description
-The Furnace is an essential part of every Foundry.
+The Furnace is an essential part of every Foundry. This Foundry VTT module brings Quality of Life Improvements to the VTT.
 
-This Foundry VTT module brings Quality of Life Improvements to the VTT.
 It started by adding Drawing Tools, and then an experimental Macros system and now it also adds a 'Split Journal' feature. More QoL improvements are planned.
 
 ---
@@ -591,6 +625,24 @@ To install the module, download the zip file included in the Github module direc
 
 ---
 
+## Chat Damage Buttons - Better Rolls Edition
+
+* **Author**: Felix#6196 and hooking#0492
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: written for and tested on v0.3.6
+* **Module Requirement(s)**: [Better Rolls for 5e](https://github.com/RedReign/FoundryVTT-BetterRolls5e) by RedReign
+* **Module Conflicts**: none known.
+
+### Link(s) to Module
+* [https://github.com/syl3r86/chatdamagebuttons-betterrolls](https://github.com/syl3r86/chatdamagebuttons-betterrolls)
+
+### Description
+A small module to add "Apply Damage" buttons to Red Reigns Better Rolls 5e Module, based on hookings Chat Damage Buttons.
+To install use the following link in Foundrys Module Setup
+* https://raw.githubusercontent.com/syl3r86/chatdamagebuttons-betterrolls/master/chatdamagebuttons-betterrolls5e/module.json
+
+---
+
 ## DDB Popper
 
 * **Author**: errational#2007 on discord
@@ -831,7 +883,7 @@ Foundry modules that work within Warhammer Fantasy Roleplay 4th Edition are note
 ## Arcane Marks & Careers
 
 * **Author**: Moo Man#7518 on Discord
-* **Version**: 1.2.1
+* **Version**: 1.2.2
 * **Foundry VTT Compatibility**: 0.3+
 * **System Compatibility**: Warhammer Fantasy Roleplay 4th Edition.
 * **Module Requirement(s)**: None

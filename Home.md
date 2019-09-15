@@ -88,6 +88,10 @@
 
 # [Community Game Systems & Modules](Community-Game-Systems-&-Modules)
 
+## [Community Adventures](Community-Adventures)
+
+## [Community Adventures Repository](https://github.com/foundry-vtt-community/adventures)
+
 ## [Community Game Systems](Community-Game-Systems)
 
 ## [Community Game Systems Repository](https://github.com/foundry-vtt-community/game_systems)
