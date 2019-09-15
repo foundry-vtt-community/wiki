@@ -1,6 +1,7 @@
 Code snippets seen on the discord channel, make sure to backup before trying these:
 
-<b>Update Journal Entries Permissions</b>
+**Update Journal Entries Permissions**
+```
  // Step 1 - get the folder you want to target
  const folder = game.folders.entities.find(f => (f.data.type === "JournalEntry") && (f.name === "TARGET FOLDER NAME"));
  
@@ -11,18 +12,20 @@ Code snippets seen on the discord channel, make sure to backup before trying the
  for ( let e of entries ) {
    await e.update({"permission.default": ENTITY_PERMISSIONS.OBSERVER});
  }
+```
 
-
-<b>Update wall movement type </b>
+**Update wall movement type**
+```
  const scene = canvas.scene;
  let updatedWalls = duplicate(scene.data.walls).map(w => {
    w.move = WALL_MOVEMENT_TYPES.NORMAL;
    return w;
  }
  scene.update({walls: updatedWalls});
+```
 
-
-<b>Move walls by 26px</b>
+**Move walls by 26px**
+```
  let walls = canvas.scene.data.walls.map(w => {
    w = duplicate(w);
    w.c[0] += 26;
@@ -30,9 +33,10 @@ Code snippets seen on the discord channel, make sure to backup before trying the
    return w;
  });
  canvas.scene.update({walls: walls});
+```
 
-
-<b>Move NPCs into a folder</b>
+**Move NPCs into a folder**
+```
  // Step 1 - get the set of Actors you want to move to a folder
  const actors = game.actors.entities.filter(a => a.type === "npc");
  
@@ -43,9 +47,10 @@ Code snippets seen on the discord channel, make sure to backup before trying the
  for ( let a of actors ) {
    await a.update({folder: folder._id});
  }
+```
 
-
-<b>(Untested) Map and Wall Scaling</b>
+**(Untested) Map and Wall Scaling**
+```
  let scale = 2;
  canvas.scene.update({
    walls: canvas.scene.data.walls.map(w => {
@@ -53,3 +58,4 @@ Code snippets seen on the discord channel, make sure to backup before trying the
      return w;
    });
  });
+```
