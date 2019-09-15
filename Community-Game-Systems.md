@@ -18,6 +18,7 @@
 * **Author**: Atropos (Foundry VTT Core Developer)
 * **Version**: 0.61
 * **Foundry VTT Compatibility**: 0.3.0+
+* **Translation Support**: EN (full)
 
 ### Link(s) to Game System
 * https://gitlab.com/foundrynet/dnd5e
@@ -36,6 +37,7 @@ Foundry systems for the various Pathfinder editions.
 * **Author**: hooking#0492 on Discord
 * **Version**: Alpha 0.21
 * **Foundry VTT Compatibility**: 0.3+
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/](https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/)
@@ -68,6 +70,7 @@ Foundry systems for the various Warhammer Fantasy Roleplay editions.
 * **Author**: @Moo Man#7518 and @CatoThe1stElder#9725 on Discord
 * **Version**: Beta 0.8.2
 * **Foundry VTT Compatibility**: 0.3+ (Highly recommend players use Chrome, Firefox doesn't display the sheet correctly).
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/CatoThe1stElder/WFRP-4th-Edition-FoundryVTT](https://github.com/CatoThe1stElder/WFRP-4th-Edition-FoundryVTT/tree/stable) 
@@ -90,6 +93,7 @@ To install, use the in-app installer and enter into the manifest URL: `https://r
 * **Author**: (Put author’s name here, including Discord username. If they accept contributions in code or donations, note this here as well.)
 * **Version**: (Note current version of game system here.)
 * **Foundry VTT Compatibility**: (Note which versions of Foundry Virtual Tabletop the game system is compatible with.)
+* **Translation Support**: (Note which languages are supported, and if they have (full) or (partial) translations.
 
 ### Link(s) to Game System
 * (Put a web URL here to find the game system.)
