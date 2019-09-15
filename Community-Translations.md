@@ -46,7 +46,7 @@ German i18n translation for Foundry VTT.
 
 ## Appendix B: Best Editing Practices
 
-- Links to game systems should link to the author’s page for it, if such exists. This helps emphasize the translation author’s control over their creation, and allows users to see information that the translation author deems important. If you have the translation author’s permission otherwise, or you are the creator, feel free to link directly to the translation download link. 
+- Links to translations should link to the author’s page for it, if such exists. This helps emphasize the translation author’s control over their creation, and allows users to see information that the translation author deems important. If you have the translation author’s permission otherwise, or you are the creator, feel free to link directly to the translation download link. 
 - Translations are sorted by system compatibility and then alphabetically.
 - Ensure that Foundry is noted as “Foundry VTT” or “Foundry Virtual Tabletop” in writing. This helps emphasize Foundry’s role as a unique, standalone tabletop, and helps distinguish it from other brands using the word “foundry”.   
 - Ideally, each translation should be separated by a single line break. This is just to help it look neat. 
