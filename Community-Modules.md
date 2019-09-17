@@ -43,6 +43,7 @@
       * [Polymorpher](#polymorpher)
       * [R20 Converter](#r20-converter)
       * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
+      * [Sky's 5e D&D Character Sheet](#skys-5th-edition-dungeons--dragons-sheet)
       * [Spell Browser](#spell-browser)
       * [SRD Bestiary Module](#srd-bestiary-module)
       * [VTTA Party](#vtta-party)
@@ -858,6 +859,31 @@ This module imports most facets of a campaign, including scenes, dynamic lightin
 
 ### Description
 This module allows for the importing of NPCs from Roll20, through use of JSONs exported via [VTT Enhancement Suite](https://ssstormy.github.io/roll20-enhancement-suite/). This import currently only supports NPCs created in the Roll20 OGL or Shaped version sheets. This module supports the Better NPC Sheet 5e, as well as the aDnD5e sheet in tagging actor items according to abilities, reactions, legendary actions, etc.  To install, first download the module, unzip it into `/public/modules`, and then restart Foundry while it is running.
+
+---
+
+## Sky's 5th Edition Dungeons & Dragons Sheet
+
+* **Author**: Sky#9435
+* **Version**: 0.0.2
+* **Foundry VTT Compatibility**: 0.3.6+
+* **System Compatibility**: D&D 5e
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: None
+
+### Link(s) to Module
+* [https://github.com/Sky-Captain-13/foundry/tree/master/sky5e](https://github.com/Sky-Captain-13/foundry/tree/master/sky5e)
+
+### Description
+This module provides a variant layout of the Core 5e Character Sheet in Foundry as well as providing some upgrades to various sections of the sheet.
+
+* Rearranges the layout into a wider sheet, to display more information instead of being hidden behind tabs
+* Enables rolling ability checks and saving throws directly instead of clicking through a popup
+  * Best combined with Red Reign's BetterRoll5e module: https://github.com/RedReign/FoundryVTT-BetterRolls5e
+* Adds the ability to click Known Languages under Traits to send the list to the chat window
+* Adds Tool, Armor, and Weapon proficiencies beneath Skills
+* Saves the scrollbar position when adding/deleting items from your inventory, features, or spellbook
 
 ---
 
