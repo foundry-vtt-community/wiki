@@ -43,6 +43,7 @@
       * [Polymorpher](#polymorpher)
       * [R20 Converter](#r20-converter)
       * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
+      * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
       * [Spell Browser](#spell-browser)
       * [SRD Bestiary Module](#srd-bestiary-module)
       * [VTTA Party](#vtta-party)
@@ -69,6 +70,7 @@ Foundry modules that work across all or most systems are noted here. These may i
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: No known conflicts
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/Pingar5/alwaysshownotes](https://github.com/Pingar5/alwaysshownotes)
@@ -84,6 +86,7 @@ Sets the Display Notes toggle to true by default
 * **Version**: 0.1
 * **Foundry VTT Compatibility**: At least v0.3.2+, propably earlier versions as well.
 * **Module Conflicts**: Possible conflicts with *Message Age Restriction* by Felix@6196.
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/chat-autoloader](https://gitlab.com/moerills-fvtt-modules/chat-autoloader)
@@ -135,6 +138,7 @@ to pause the timer, it responds to FVTT's pause mechanic.
 * **System Compatibility**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/Sky-Captain-13/foundry/tree/master/deselection](https://github.com/Sky-Captain-13/foundry/tree/master/deselection)
@@ -152,6 +156,7 @@ This module lets the GM deselect a token or tokens by clicking anywhere on the m
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://gitlab.com/asacolips-projects/foundry-mods/foundry-vtt-dice-calculator](https://gitlab.com/asacolips-projects/foundry-mods/foundry-vtt-dice-calculator)
@@ -169,6 +174,7 @@ This module turns the d20 icon near the chat prompt into a clickable link that o
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/displaymode](https://github.com/syl3r86/displaymode) 
@@ -186,6 +192,7 @@ This module makes it so that when you click the anvil in the top left of the scr
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/kakaroto/fvtt-module-entityorder](https://github.com/kakaroto/fvtt-module-entityorder) 
@@ -203,6 +210,7 @@ This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items a
 * **System Compatibility (If applicable)**: Universal, but you'll want to probably use it with the simple system
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/petepeg/FFG-Roller](https://github.com/petepeg/FFG-Roller)
@@ -220,6 +228,7 @@ This adds a simple dice rolling window for the special dice used in Fantasy Flig
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/kakaroto/fvtt-module-furnace](https://github.com/kakaroto/fvtt-module-furnace) 
@@ -239,6 +248,7 @@ It started by adding Drawing Tools, and then an experimental Macros system and n
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/kakaroto/fvtt-module-popout](https://github.com/kakaroto/fvtt-module-popout) 
@@ -256,6 +266,7 @@ This Foundry VTT module lets you pop out journal entries into their own windows.
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/Hydroxi/gmrollmessage](https://github.com/Hydroxi/gmrollmessage) 
@@ -273,6 +284,7 @@ Sends an extra public message/hint when rolling a `gmroll` or `blindroll`.
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/UberV/scaleGrid/](https://github.com/UberV/scaleGrid/) 
@@ -290,6 +302,7 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 * **System Compatibility (If applicable)**: universal
 * **Module Requirement(s)**: none
 * **Module Conflicts**: none
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/image-previewer](https://github.com/syl3r86/image-previewer)
@@ -312,6 +325,7 @@ A little app to preview images on hover in the file picker menu.
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: This module creates folders and allows you to create data where it shouldn't be. If a future FVTT update enforces the 2-depth limit on the server side, then all of the deeper folders and their content may be lost.
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/kakaroto/fvtt-module-infinite-folders](https://github.com/kakaroto/fvtt-module-infinite-folders) 
@@ -329,6 +343,7 @@ This Foundry VTT module allows you to create infinite depth of folders for Scene
 * **System Compatibility (If applicable)**: As of right now, it is universally applicable to all existing systems.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None currently known
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/journal-enhancer](https://gitlab.com/moerills-fvtt-modules/journal-enhancer) 
@@ -346,6 +361,7 @@ This module adds a search function for journal entries, includes a “jump to pi
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/layer-hotkeys](https://gitlab.com/moerills-fvtt-modules/layer-hotkeys) 
@@ -378,6 +394,7 @@ The Hotkeys can be seen by hovering over the button as well.
 * **System Compatibility (If applicable)**: Universal.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/trdischat/lessfog](https://github.com/trdischat/lessfog) 
@@ -395,6 +412,7 @@ Module to enhance visibility for the GM in Foundry VTT.
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/messageagerestriction](https://github.com/syl3r86/messageagerestriction) 
@@ -408,6 +426,7 @@ A Foundry VTT Module to enable filtering chat-messages by their age. Each user c
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
 * **Version**: 1.0
 * **Foundry VTT Compatibility**: 0.3.5+
+* **Translation Support**: EN (full)
 
 ### Link to Module
 * [https://bitbucket.org/Fyorl/notokenanim](https://bitbucket.org/Fyorl/notokenanim)
@@ -425,6 +444,7 @@ Adds an option to the settings dialog to disable token movement animations. Toke
 * **System Compatibility (If applicable)**: Universal.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/trdischat/fvtt/tree/master/patches](https://github.com/trdischat/fvtt/tree/master/patches) 
@@ -447,6 +467,7 @@ All patches rely on the `patchClass` utility function.
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/kakaroto/fvtt-module-permission-viewer](https://github.com/kakaroto/fvtt-module-permission-viewer) 
@@ -464,6 +485,7 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/pointer](https://gitlab.com/moerills-fvtt-modules/pointer)
@@ -481,6 +503,7 @@ This module adds the ability for each user to show a cursor following his mouse 
 * **System Compatibility (If applicable)**: 
 * **Module Requirement(s)**: 
 * **Module Conflicts**: 
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/svg-loader](https://gitlab.com/moerills-fvtt-modules/svg-loader) 
@@ -495,6 +518,7 @@ This module allows to load walls, lights and sources through .svg files, provide
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **Version**: 0.2
 * **Foundry VTT Compatibility**: 0.3.5
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/tiles-browser/](https://gitlab.com/moerills-fvtt-modules/tiles-browser/)
@@ -512,6 +536,7 @@ Adds a browser to the tiles layer to conveniently preview and then drag and drop
 * **System Compatibility (If applicable)**:
 * **Module Requirement(s)**: Requires the player permission "Trusted Player"
 * **Module Conflicts**:
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://www.vttassets.com/asset/vtta-tokenizer](https://www.vttassets.com/asset/vtta-tokenizer)
@@ -534,6 +559,7 @@ Tokenizer provides the user with:
 * **Foundry VTT Compatibility**: 0.3.5
 * **System Compatibility (If applicable)**: All, though extra option to roll hp for DnD5e
 * **Module Conflicts**: This module replaces the *Token Randomizer*, hence it is not compatible with it.
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/token-mold](https://gitlab.com/moerills-fvtt-modules/token-mold) 
@@ -558,6 +584,7 @@ On creation each unlinked Token will fit snugly into the pattern of your mold.
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/kakaroto/fvtt-module-zorder](https://github.com/kakaroto/fvtt-module-zorder) 
@@ -579,6 +606,7 @@ Foundry modules that work within Dungeons and Dragons 5th Edition are noted here
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: If used alongside Moerill’s “adnd5e” module, item descriptions are unable to be expanded in the sheet. This can be fixed by disabling Moerill’s module.
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/BetterNPCSheet5e](https://github.com/syl3r86/BetterNPCSheet5e) 
@@ -596,6 +624,7 @@ This module overwrites the default NPC sheet that comes shipped with the dnd5e s
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: This module requires a concurrent browser plugin in either Firefox or Google Chrome.
 * **Module Conflicts**: None known
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/kakaroto/Beyond20/](https://github.com/kakaroto/Beyond20/) 
@@ -615,6 +644,7 @@ This module allows you to use and roll sheets in DnD Beyond, and have those resu
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s): None.
 * **Module Conflicts**: Module appears to be incompatible with the aDnD5e module.
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://gitlab.com/hooking/foundry-vtt---chat-damage-buttons](https://gitlab.com/hooking/foundry-vtt---chat-damage-buttons) 
@@ -633,6 +663,7 @@ To install the module, download the zip file included in the Github module direc
 * **Foundry VTT Compatibility**: written for and tested on v0.3.6
 * **Module Requirement(s)**: [Better Rolls for 5e](https://github.com/RedReign/FoundryVTT-BetterRolls5e) by RedReign
 * **Module Conflicts**: none known.
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/chatdamagebuttons-betterrolls](https://github.com/syl3r86/chatdamagebuttons-betterrolls)
@@ -652,6 +683,7 @@ To install use the following link in Foundrys Module Setup
 * **System Compatibility (If applicable)**: dnd5e
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: N/A
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper
@@ -670,6 +702,7 @@ Opens a D&D Beyond popup for a linked actor. More info here: https://github.com/
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None.
 * **Module Conflicts**: None, but see description.
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/sillvva/foundry-vtt-modules/](https://github.com/sillvva/foundry-vtt-modules/) 
@@ -691,6 +724,7 @@ The module has not been updated recently by its creator, but the community has p
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None known
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/favtab](https://github.com/syl3r86/favtab)
@@ -708,6 +742,7 @@ Adds a Favourite tab to display a customized list of items, feats and spells. Us
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/trdischat/fvtt/tree/master/grouproll](https://github.com/trdischat/fvtt/tree/master/grouproll) 
@@ -725,6 +760,7 @@ Implements group ability and skill check rolls per Player's Handbook, page 175: 
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None.
 * **Module Conflicts**: None currently known, but according to Github page may be prone to breaking in the future.
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://gitlab.com/hooking/foundry-vtt---item-sheet-buttons](https://gitlab.com/hooking/foundry-vtt---item-sheet-buttons) 
@@ -744,6 +780,7 @@ To install, download the zip file included in the Github module directory. Extra
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc](https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc) 
@@ -761,6 +798,7 @@ This module adds an additional NPC sheet which can be used for loot containers s
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None known
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/npc-browser](https://github.com/syl3r86/npc-browser)
@@ -778,6 +816,7 @@ This module adds a search interface for actors. This enables more comfortable br
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th edition.
 * **Module Requirement(s)**: None.
 * **Module Conflicts**: Previous version of the module deleted actors, do not use v0.1.
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/polymorpher](https://github.com/syl3r86/polymorpher) 
@@ -795,6 +834,7 @@ A module for Foundry VTT that lets you polymorph characters into any other chara
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None in Foundry, though module requires a campaign exported from Roll20 using KakaRoTo’s export tool.
 * **Module Conflicts**: None known.
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * The module is paywalled, and requires subscribing to KaKaRoTo’s Patreon.
@@ -812,12 +852,38 @@ This module imports most facets of a campaign, including scenes, dynamic lightin
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None.
 * **Module Conflicts**: None known.
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/roll20npcimporter](https://github.com/syl3r86/roll20npcimporter) 
 
 ### Description
 This module allows for the importing of NPCs from Roll20, through use of JSONs exported via [VTT Enhancement Suite](https://ssstormy.github.io/roll20-enhancement-suite/). This import currently only supports NPCs created in the Roll20 OGL or Shaped version sheets. This module supports the Better NPC Sheet 5e, as well as the aDnD5e sheet in tagging actor items according to abilities, reactions, legendary actions, etc.  To install, first download the module, unzip it into `/public/modules`, and then restart Foundry while it is running.
+
+---
+
+## Sky's 5th Edition Dungeons & Dragons Sheet
+
+* **Author**: Sky#9435
+* **Version**: 0.0.2
+* **Foundry VTT Compatibility**: 0.3.6+
+* **System Compatibility**: D&D 5e
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: None
+
+### Link(s) to Module
+* [https://github.com/Sky-Captain-13/foundry/tree/master/sky5e](https://github.com/Sky-Captain-13/foundry/tree/master/sky5e)
+
+### Description
+This module provides a variant layout of the Core 5e Character Sheet in Foundry as well as providing some upgrades to various sections of the sheet.
+
+* Rearranges the layout into a wider sheet, to display more information instead of being hidden behind tabs
+* Enables rolling ability checks and saving throws directly instead of clicking through a popup
+  * Best combined with Red Reign's BetterRoll5e module: https://github.com/RedReign/FoundryVTT-BetterRolls5e
+* Adds the ability to click Known Languages under Traits to send the list to the chat window
+* Adds Tool, Armor, and Weapon proficiencies beneath Skills
+* Saves the scrollbar position when adding/deleting items from your inventory, features, or spellbook
 
 ---
 
@@ -829,6 +895,7 @@ This module allows for the importing of NPCs from Roll20, through use of JSONs e
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None known.
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/Spell-Browser](https://github.com/syl3r86/Spell-Browser)
@@ -846,6 +913,7 @@ This module adds a search interface for spells. This enables more comfortable br
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None, though it is compatible and has optional sorting tags for the Better NPC Sheet 5E module, as well as the aDnD5e module.  
 * **Module Conflicts**: None (currently).  
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://drive.google.com/file/d/1oHMQhKuV-Vpdg5ftWTMaGZg76MVngZqO/view?usp=sharing](https://drive.google.com/file/d/1oHMQhKuV-Vpdg5ftWTMaGZg76MVngZqO/view?usp=sharing) 
@@ -867,6 +935,7 @@ To install, simply extract the zip file into `/public/modules`, enable the modul
 * **System Compatibility (If applicable)**:
 * **Module Requirement(s)**: None
 * **Module Conflicts**:
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://www.vttassets.com/asset/vtta-party](https://www.vttassets.com/asset/vtta-party)
@@ -889,6 +958,7 @@ Foundry modules that work within Warhammer Fantasy Roleplay 4th Edition are note
 * **System Compatibility**: Warhammer Fantasy Roleplay 4th Edition.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * https://github.com/moo-man/Arcane-Marks-Careers-FVTT
@@ -916,6 +986,7 @@ Foundry VTT modules that no longer work are noted here. Modules included here ha
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: This module currently disables Better NPC Sheet 5e’s function in allowing NPC abilities and actions to be previewed within the sheet.
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/adnd5e](https://gitlab.com/moerills-fvtt-modules/adnd5e) 
@@ -933,6 +1004,7 @@ This module expands upon the existing 5e system in Foundry VTT, adding alternati
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
 * **Module Requirement(s)**: None.
 * **Module Conflicts**: None currently known.
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://gitlab.com/hooking/foundry-vtt---encumbrance-variant-5e](https://gitlab.com/hooking/foundry-vtt---encumbrance-variant-5e) 
@@ -950,6 +1022,7 @@ This module modifies how the encumbrance bar in the actor sheet is displayed to 
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None known, although module is a WIP.
+* **Translation Support**: EN (full)
 
 ### Link(s) to Module
 * [https://github.com/shwill/fvtt-party](https://github.com/shwill/fvtt-party) 
@@ -975,6 +1048,7 @@ To install the module, download the zip file included in the Github module direc
 * **System Compatibility (If applicable)**: (Note which systems of Foundry Virtual Tabletop the module is compatible with.)
 * **Module Requirement(s)**: (If the module requires other modules to function, note them here.)
 * **Module Conflicts**: (If the module conflicts with other modules, either partially or completely, note conflicts here.)
+* **Translation Support**: (Note which languages are supported, and if they have (full) or (partial) translations.
 
 ### Link(s) to Module
 * (Put a web URL here to find the module.)
