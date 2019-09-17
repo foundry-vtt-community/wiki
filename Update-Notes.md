@@ -28,7 +28,7 @@ Thank you all for appreciating my work, providing thoughtful feedback, and encou
 - Formatting of the exported text chat log file has been improved to add more detail about dice rolls, showing both the initial formula, and the rolled result (including all rolled dice).
 - Incorporated localization support for the Scene Configuration sheet. Thanks to Ayan for contributing an updated HTML template and translation string keys.
 - Improved the sorting logic for Combatants, adding an additional sorting layer after initiative score and name for the Token ID to ensure that the resulting sort order is always deterministic.
-- You may now include some additional flavor text along with any dice roll submitted in the chat window by separating the roll portion of the command with a # character. For example /roll 4d6kh # Rolling for ability scores!.
+- You may now include some additional flavor text along with any dice roll submitted in the chat window by separating the roll portion of the command with a `#` character. For example `/roll 4d6kh # Rolling for ability scores`!.
 - Added additional buttons to the Settings sidebar as an alternative way to return to key setup menu screens. There are new buttons for "Return to Setup", "Configure Players", and "Log Out".
 - Added a new button on the Settings tab of the sidebar to render the Community Wiki documentation in a pop-out iframe. Many thanks to errational, CyberPathogen, and the many other wonderful curators and contributors of the community wiki for creating this helpful resource.
 - The ability to export-to-JSON and import-from-JSON has been added for more Entity types - including Items, Journal Entries, and Scenes. Previously only Actors had this capability.
@@ -38,7 +38,7 @@ Thank you all for appreciating my work, providing thoughtful feedback, and encou
 - Made a change which allows chat commands to span multiple lines without being incorrectly truncated.
 - Users who have "Limited" permission to a Journal Entry will now be able to see Map Notes placed for that entry, but will not be able to inspect the details of the note. This can allow GMs an alternative option for label significant locations without revealing details about those locations to players or needing to keep those details in a separate entry.
 - A User's chosen color is now shown as a border around all out of character chat messages sent by that User.
-- The syntax for sending whispered messages in chat has been made more flexible to support /w and /whisper prefixes in addition to the previous @User syntax.
+- The syntax for sending whispered messages in chat has been made more flexible to support `/w` and `/whisper` prefixes in addition to the previous @User syntax.
 - Web URLs posted in chat messages will be automatically converted to a clickable hyperlink.
 
 ### Core Bug Fixes
@@ -46,7 +46,7 @@ Thank you all for appreciating my work, providing thoughtful feedback, and encou
 - Fixed an issue with attempting to add an Owned Item directly to an Item type compendium.
 - Changing the Actor that a Token references would not fully take effect until a hard refresh, as double-clicking the Token would continue to open the old Actor's sheet.
 - Fixed a problem with IP address identification which sometimes resulted in the local and internet IPs not being properly displayed.
-- Solved a problem for newly created Actors which prevented the img attribute from being initially present in their prototype Token data model.
+- Solved a problem for newly created Actors which prevented the `img` attribute from being initially present in their prototype Token data model.
 - Hardened a loophole with EULA acceptance which previously allowed you to simply close the window to dismiss the agreement without later prompting.
 - Applied a fix for the PIXI v5 update which caused a vertex buffer overflow when rendering large Graphics objects (like big Hex grids). This caused hexagonal grids to no longer render after some number of polygons.
 - Fixed a problem that occured when deleting a World-level compendium pack which had not yet connected to its database.
@@ -56,14 +56,14 @@ Thank you all for appreciating my work, providing thoughtful feedback, and encou
 - Fixed an issue since the PIXI v5 migration which prevented Scene background color from being properly applied.
 - Corrected the rendering of large hex grids in 0.3.5 which produced an incorrect offset with artifact lines.
 - Improve the vertical spacing of TinyMCE editors since the v4.x update in 0.3.5 to make better use of the bounding container.
-- Fixed an order-of-operations problem with the unregisterSheet method which caused it to incorrectly clear a previously registered sheet for all Entity types, even if a specific type of entity to no longer use the sheet for was specified.
+- Fixed an order-of-operations problem with the `unregisterSheet` method which caused it to incorrectly clear a previously registered sheet for all Entity types, even if a specific type of entity to no longer use the sheet for was specified.
 - Improved the logic of the version comparison function used to detect module and system update availability to work for more types of versioning schema.
 - Fixed a bug in the "Simple Worldbuilding" system which prevented Owned Items from being properly editable.
 - An unintentional "feature" in 0.3.5 caused mousing over a Polygon point during a drawing creation workflow to undo that point. This, while sometimes nice, was an unintentional workflow that could sometimes produce frustrating results and has been removed.
 - Fixed a bug whereby an Owned Item could be dropped on the Actor who owns it, thereby duplicating the item data in that Actor.
 - Drawing objects can no longer have no line, no fill, and no text - causing them to become effectively invisible. Drawings must have at least one of these values set.
 - Remove the "Delete All" button from Players on the Drawing layer since they do not have GM permission to delete the drawings of others. This was a bug fix for now, but I may bring this back in the future where the button would only delete drawings belonging to the user.
-- Corrected accidental residual references to CONFIG.Token which has been removed in favor of other global configurations.
+- Corrected accidental residual references to `CONFIG.Token` which has been removed in favor of other global configurations.
 - Improved the approach towards regex matching for chat message whispers and dynamic entity links to better support international characters in Firefox where unicode regex escapes are not supported.
 
 ### Core Software, APIs, and Module Development
@@ -71,19 +71,19 @@ Thank you all for appreciating my work, providing thoughtful feedback, and encou
 - The server-side implementations of "Pakcages": System, Module, and World have all been jointly refactored to extend the same abstract base Package interface and share much more common code and implementation. This has improved quality and consistency of how these packages are managed and described within the VTT software.
 - Broadly refactored and improved code quality for the Chat Log sidebar and the messages that are rendered within it. This was some of the oldest FVTT code, as chat was one of the first features I implemented. It was well overdue for a fresh coat of paint.
 - Refactored the sidebar directory templates and CSS rules to adopt a flexbox layout which should be more friendly for mod developers who want to add additional content into the sidebar.
-- The ChatMessage Entity now has a required type field added to its data model to more explicitly differentiate different types of chat communication. The valid types of chat messages are enumerated in CHAT_MESSAGE_TYPES.
+- The `ChatMessage` Entity now has a required `type` field added to its data model to more explicitly differentiate different types of chat communication. The valid types of chat messages are enumerated in `CHAT_MESSAGE_TYPES`.
 - Some changes to keystroke handling have been implemented. Several keys were previously only captured on keyup, which are now captured on keydown with a repetition filter added. This provides a more responsive experience when interacting with these controls.
 - Performed some code cleanup in the Combat class to remove some deprecated properties and bring greater consistency to the structure for current and previous round tracking.
-- Improved the informativeness of the error message thrown if the --world startup flag references a World which does not exist.
+- Improved the informativeness of the error message thrown if the `--world` startup flag references a World which does not exist.
 - An informative fatal error is now triggered if there are multiple packages (systems, modules, worlds) which have the same "name" attribute in their manifest files.
 - A new structure is supported (and enforced) for defining module-based translation files. Under this new approach, languages are defined as an Array of Objects, and JavaScript code is no longer required to manipulate the CONFIG object as this is handled automatically. See this [issue on GitLab](https://gitlab.com/foundrynet/foundryvtt/issues/1342) for more details.
 - English language translations are now always used as a fallback option for any localization strings which do not have an available translation in the designated preferred locale.
 - Because of the new management strategy for module-provided translation files, these translations are now accessible on the main configuration and setup pages of the Application where modules were previously not able to contribute content.
 - Improved server-side zip file extraction to support an option to de-dupe the folder structure during the extraction process if nested directories are present.
-- Added a confirmDialog() helper function to streamline the process of rendering standard yes/no prompts using less code.
-- Revisit support for options.height = "auto" to be specified in an Application render options - auto height applications will be automatically resized (vertically) when they ar re-rendered to accomodate changes to the internal content.
+- Added a `confirmDialog()` helper function to streamline the process of rendering standard yes/no prompts using less code.
+- Revisit support for `options.height = "auto"` to be specified in an Application render options - auto height applications will be automatically resized (vertically) when they ar re-rendered to accomodate changes to the internal content.
 - Improve server-side Socket management to automatically learn the Entity class names for which to open socket listeners instead of hard-coding them.
-- Added a very simple Number.isNumeric() helper method to test whether a string represents a numeric value.
+- Added a very simple `Number.isNumeric()` helper method to test whether a string represents a numeric value.
 - Enforce a safe Proxy environment for evaluating math expressions in dice rolls. Thanks KaKaRoTo for pointing out this cool approach towards evaluating code using a limited and controlled scope.
 
 ### D&D5e System Improvements
