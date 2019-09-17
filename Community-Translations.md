@@ -23,6 +23,20 @@ German i18n translation for Foundry VTT.
 
 ---
 
+## Portuguese (BR)
+
+* **Authors**: Miriadis#9152, Bellenus#5269 and Thomaz M.#7564 on Discord
+* **Version**: 0.1.0
+* **Foundry VTT Compatibility**: 0.3+
+
+### Link(s) to Translation
+* <https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese>
+
+### Description
+Foundry VTT Brazilian (Portuguese) translation. You can install it using the following manifest URL `https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese/raw/master/pt-BR/module.json`
+
+---
+
 # Appendix
 
 ## Appendix A: Adding a Translation
