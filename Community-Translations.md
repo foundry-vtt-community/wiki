@@ -2,6 +2,7 @@
 <!--ts-->
    * [Languages](#languages)
       * [German](#german)
+      * [Portuguese (BR)](#portuguese-br)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Translation](#appendix-a-adding-a-translation)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
