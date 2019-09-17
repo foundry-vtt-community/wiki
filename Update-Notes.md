@@ -1,3 +1,4 @@
+- [Beta Version 0.3.7, 2019-09-14](#beta-version-037-2019-09-14)
 - [Beta Version 0.3.6, 2019-09-10](#beta-version-036-2019-09-10)
 - [Beta Version 0.3.5, 2019-08-20](#beta-version-035-2019-08-20)
 - [Beta Version 0.3.4, 2019-07-31](#beta-version-034-2019-07-31)
@@ -7,6 +8,36 @@
 - [Beta Version 0.3.0, 2019-05-29](#beta-version-030-2019-05-29)
 
 # Beta Version 0.3.X
+
+## Beta Version 0.3.7, 2019-09-14
+
+Hi everyone. This update is a bit less conventional - I am releasing a small update focused on some bug fixes for various known issues which emerged since 0.3.6. I am releasing these changes promptly because I will be taking a much needed vacation for the next two weeks!
+
+During that time I will be working (a little bit) on some new VTT features, but I didn't want to hold up these bug fixes until after my travel since they can correct a couple of small problems which currently affect players. During vacation, I will be in touch periodically with the community through normal channels, although expect me to be less active on Discord than usual until I return at the end of the month.
+
+Thank you all for the continued support for the project and your contributions towards growing the awesome Foundry community. As always, please keep an eye on the development progress board here for visibility into what features are in progress and coming up next!
+
+[https://gitlab.com/foundrynet/foundryvtt/boards](https://gitlab.com/foundrynet/foundryvtt/boards)
+
+### Core Bug Fixes
+
+- Corrected a regression where the default chat message type was no longer in character in cases where a Token was selected.
+- Resolved a problem which prevented the Chat Log from being exportable when a dice roll was present in the chat history.
+- Fixed an issue which failed to apply the correct in-character or emote chat stylings to chat bubbles and messages after the 0.3.6 changes.
+- Corrected a limitation which prevented a GM user from dragging a Map Note in cases where the default note permission level was set to LIMITED.
+- Solved a problem which prevented Entities from being imported from JSON, instead simply displaying the export prompt.
+- Improved the process of World editing through the configuration sheet on the setup menu, correctly populating the current World path and fixing issues with MCE editor saving.
+- Corrected some mis-translated strings in the Scene Config application.
+- Fix an issue which impacts compendium migration for Entity types which do not define a data model in their system template.
+
+### Core Software, APIs, and Module Development
+
+- Moved the "Worlds" tab to be in the first (left-most) position of the setup view.
+- Define a default ChatMessage type as "OTHER" to correct breakages to existing ChatMessage.create calls, however it is strongly recommended for system and module developers to pass an explicit type from the CHAT_MESSAGE_TYPES object at the point of message creation.
+
+### D&D5e System Improvements
+
+- Corrected a problem with the Damage dialog prompt for rolling Critical damage which raised a roll error.
 
 ## Beta Version 0.3.6, 2019-09-10
 
