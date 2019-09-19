@@ -796,6 +796,7 @@ Add item deletion confirmation, accelerated dice rolls with attack and damage in
 To install past the mainfest link into the foundry "add a module" or download the zip and unzip in your module directory.
 
 Many thanks to @Red Rein @Hooking for allowing me to pillage their code.
+
 ---
 
 ## Loot Sheet NPC (5e)
