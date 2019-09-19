@@ -322,7 +322,7 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 ### Description
 A little app to preview images on hover in the file picker menu.
 #### Installation
-1. Download the [image-previewer.zip](https://github.com/syl3r86/image-previewer/raw/master/image-previewer.zip)
+1. Download the image-previewer.zip
 2. Unzip it into FoundryVTT/resources/app/public/modules
 3. Restart Foundry if it was running.
 4. Enable the module in the Module Configuration
@@ -699,8 +699,7 @@ To install the module, download the zip file included in the Github module direc
 
 ### Description
 A small module to add "Apply Damage" buttons to Red Reigns Better Rolls 5e Module, based on hookings Chat Damage Buttons.
-To install use the following link in Foundrys Module Setup
-* https://raw.githubusercontent.com/syl3r86/chatdamagebuttons-betterrolls/master/chatdamagebuttons-betterrolls5e/module.json
+To install use the following link in Foundrys Module Setup https://raw.githubusercontent.com/syl3r86/chatdamagebuttons-betterrolls/master/chatdamagebuttons-betterrolls5e/module.json
 
 ---
 
