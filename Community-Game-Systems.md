@@ -22,6 +22,7 @@
 
 ### Link(s) to Game System
 * [https://gitlab.com/foundrynet/dnd5e](https://gitlab.com/foundrynet/dnd5e)
+* [https://gitlab.com/foundrynet/dnd5e/raw/master/system.json](https://gitlab.com/foundrynet/dnd5e/raw/master/system.json)
 
 ### Description
 An implementation of the Dungeons & Dragons 5th Edition ruleset under the OGL. This system currently comes bundled with Foundry VTT, but in the future may be distributed separately. Please feel free to post issues or pull requests to the GitLab repo for my consideration.
@@ -41,6 +42,7 @@ Foundry systems for the various Pathfinder editions.
 
 ### Link(s) to Module
 * [https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/](https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/)
+* [https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/raw/master/system.json](https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/raw/master/system.json)
 
 ### Description
 This system adds support for Pathfinder Second Edition to Foundry VTT.
@@ -73,7 +75,8 @@ Foundry systems for the various Warhammer Fantasy Roleplay editions.
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/CatoThe1stElder/WFRP-4th-Edition-FoundryVTT](https://github.com/CatoThe1stElder/WFRP-4th-Edition-FoundryVTT/tree/stable) 
+* [https://github.com/CatoThe1stElder/WFRP-4th-Edition-FoundryVTT](https://github.com/CatoThe1stElder/WFRP-4th-Edition-FoundryVTT/tree/stable)
+* [https://raw.githubusercontent.com/CatoThe1stElder/WFRP-4th-Edition-FoundryVTT/stable/system.json](https://raw.githubusercontent.com/CatoThe1stElder/WFRP-4th-Edition-FoundryVTT/stable/system.json)
 
 ### Description
 Installing this system allows you to create campaigns in the grim and perilous world of Warhammer Fantasy 4th edition!
@@ -97,6 +100,7 @@ To install, use the in-app installer and enter into the manifest URL: `https://r
 
 ### Link(s) to Game System
 * (Put a web URL here to find the game system.)
+* (Put the manifest url here to update/install the game system.)
 
 ### Description
 (Describe the game system here. This should include the game system’s function, installation instructions, and anything important to note. Due to the particular oddities of some archiving programs (WinRar, 7zip), and GitHub zip folders, including a screenshot of what the module should look like file-wise in the “public/systems/examplesystem” is appreciated, though not required.)

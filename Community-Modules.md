@@ -1114,7 +1114,7 @@ To install the module, download the zip file included in the Github module direc
 
 ### Link(s) to Module
 * (Put a web URL here to find the module.)
-* (Put the manifest url here to update/install module.)
+* (Put the manifest url here to update/install the module.)
 
 ### Description
 (Describe the module here. This should include the module’s function, installation instructions, and anything important to note. Due to the particular oddities of some archiving programs (WinRar, 7zip), and GitHub zip folders, including a screenshot of what the module should look like file-wise in the “public/modules/examplemodule” is appreciated, though not required.)
