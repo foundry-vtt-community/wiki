@@ -74,7 +74,7 @@ Foundry modules that work across all or most systems are noted here. These may i
 
 ### Link(s) to Module
 * [https://github.com/Pingar5/alwaysshownotes](https://github.com/Pingar5/alwaysshownotes)
-* [https://github.com/Pingar5/alwaysshownotes/blob/master/alwaysshownotes/module.json](https://github.com/Pingar5/alwaysshownotes/blob/master/alwaysshownotes/module.json)
+* [https://raw.githubusercontent.com/Pingar5/alwaysshownotes/master/alwaysshownotes/module.json](https://raw.githubusercontent.com/Pingar5/alwaysshownotes/master/alwaysshownotes/module.json)
 
 ### Description
 Sets the Display Notes toggle to true by default
@@ -91,6 +91,7 @@ Sets the Display Notes toggle to true by default
 
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/chat-autoloader](https://gitlab.com/moerills-fvtt-modules/chat-autoloader)
+* [https://gitlab.com/moerills-fvtt-modules/chat-autoloader/raw/master/chat-autoloader/module.json](https://gitlab.com/moerills-fvtt-modules/chat-autoloader/raw/master/chat-autoloader/module.json)
 
 ### Description
 This module improves loading times by only rendering the last few chat messages at page load. Older messages will automatically get rendered while scrolling to the top. (This behaviour is similar to e.g. scrolling in Discords chat)
@@ -107,6 +108,7 @@ This module improves loading times by only rendering the last few chat messages 
 
 ### Link(s) to Module
 * [https://gitlab.com/Ayanzo/combatready](https://gitlab.com/Ayanzo/combatready)
+* [https://gitlab.com/Ayanzo/combatready/raw/master/module.json](https://gitlab.com/Ayanzo/combatready/raw/master/module.json)
 
 ### Description
 Shows a graphic + sound for players a round just before a player's turn (Next Up) and
@@ -143,6 +145,7 @@ to pause the timer, it responds to FVTT's pause mechanic.
 
 ### Link(s) to Module
 * [https://github.com/Sky-Captain-13/foundry/tree/master/deselection](https://github.com/Sky-Captain-13/foundry/tree/master/deselection)
+* [https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/deselection/deselection/module.json](https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/deselection/deselection/module.json)
 
 ### Description
 This module lets the GM deselect a token or tokens by clicking anywhere on the map.
@@ -161,13 +164,14 @@ This module lets the GM deselect a token or tokens by clicking anywhere on the m
 
 ### Link(s) to Module
 * [https://gitlab.com/asacolips-projects/foundry-mods/foundry-vtt-dice-calculator](https://gitlab.com/asacolips-projects/foundry-mods/foundry-vtt-dice-calculator)
+* [https://gitlab.com/asacolips-projects/foundry-mods/foundry-vtt-dice-calculator/raw/master/module.json](https://gitlab.com/asacolips-projects/foundry-mods/foundry-vtt-dice-calculator/raw/master/module.json)
 
 ### Description
 This module turns the d20 icon near the chat prompt into a clickable link that opens up a new dice calculator dialog. The dice calculator includes buttons for dice, numbers, and simple math. [Screenshot of the calculator can be found here.](https://i.imgur.com/ar2hNYP.png)
 
 ---
 
-## Display mode
+## Display Mode
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
 * **Version**: 0.1
@@ -178,7 +182,8 @@ This module turns the d20 icon near the chat prompt into a clickable link that o
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/syl3r86/displaymode](https://github.com/syl3r86/displaymode) 
+* [https://github.com/syl3r86/displaymode](https://github.com/syl3r86/displaymode)
+* [https://raw.githubusercontent.com/syl3r86/displaymode/master/displaymode/module.json](https://raw.githubusercontent.com/syl3r86/displaymode/master/displaymode/module.json)
 
 ### Description
 This module makes it so that when you click the anvil in the top left of the screen, the sidebar in Foundry is hidden.
@@ -187,7 +192,7 @@ This module makes it so that when you click the anvil in the top left of the scr
 
 ## Entity Order
 
-* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
 * **Version**: 0.1
 * **Foundry VTT Compatibility**: 0.3.1+
 * **System Compatibility (If applicable)**: Universal
@@ -196,7 +201,8 @@ This module makes it so that when you click the anvil in the top left of the scr
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-entityorder](https://github.com/kakaroto/fvtt-module-entityorder) 
+* [https://github.com/kakaroto/fvtt-module-entityorder](https://github.com/kakaroto/fvtt-module-entityorder)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-entityorder/master/entityorder/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-entityorder/master/entityorder/module.json)
 
 ### Description
 This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items and Journal entries).
@@ -232,7 +238,8 @@ This adds a simple dice rolling window for the special dice used in Fantasy Flig
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-furnace](https://github.com/kakaroto/fvtt-module-furnace) 
+* [https://github.com/kakaroto/fvtt-module-furnace](https://github.com/kakaroto/fvtt-module-furnace)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-furnace/master/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-furnace/master/module.json)
 
 ### Description
 The Furnace is an essential part of every Foundry. This Foundry VTT module brings Quality of Life Improvements to the VTT.
@@ -243,7 +250,7 @@ It started by adding Drawing Tools, and then an experimental Macros system and n
 
 ## Popout!
 
-* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
 * **Version**: 0.1
 * **Foundry VTT Compatibility**: 0.3+
 * **System Compatibility (If applicable)**: Universal
@@ -252,7 +259,8 @@ It started by adding Drawing Tools, and then an experimental Macros system and n
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-popout](https://github.com/kakaroto/fvtt-module-popout) 
+* [https://github.com/kakaroto/fvtt-module-popout](https://github.com/kakaroto/fvtt-module-popout)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/popout/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/popout/module.json)
 
 ### Description
 This Foundry VTT module lets you pop out journal entries into their own windows. It is currently acting as a proof of concept.
@@ -270,7 +278,8 @@ This Foundry VTT module lets you pop out journal entries into their own windows.
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/Hydroxi/gmrollmessage](https://github.com/Hydroxi/gmrollmessage) 
+* [https://github.com/Hydroxi/gmrollmessage](https://github.com/Hydroxi/gmrollmessage)
+* [ttps://github.com/Hydroxi/gmrollmessage/raw/master/module.json](ttps://github.com/Hydroxi/gmrollmessage/raw/master/module.json)
 
 ### Description
 Sends an extra public message/hint when rolling a `gmroll` or `blindroll`.
@@ -307,6 +316,7 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/image-previewer](https://github.com/syl3r86/image-previewer)
+* [https://raw.githubusercontent.com/syl3r86/image-previewer/master/image-previewer/module.json](https://raw.githubusercontent.com/syl3r86/image-previewer/master/image-previewer/module.json)
 
 ### Description
 A little app to preview images on hover in the file picker menu.
@@ -320,7 +330,7 @@ A little app to preview images on hover in the file picker menu.
 
 ## Infinite Folders
 
-* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
 * **Version**: 0.1
 * **Foundry VTT Compatibility**: 0.3.1
 * **System Compatibility (If applicable)**: Universal
@@ -329,7 +339,8 @@ A little app to preview images on hover in the file picker menu.
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-infinite-folders](https://github.com/kakaroto/fvtt-module-infinite-folders) 
+* [https://github.com/kakaroto/fvtt-module-infinite-folders](https://github.com/kakaroto/fvtt-module-infinite-folders)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-infinite-folders/master/infinite_folders/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-infinite-folders/master/infinite_folders/module.json)
 
 ### Description
 This Foundry VTT module allows you to create infinite depth of folders for Scenes, Actors, Items and Journals. No more limit to a depth of 2 folders (or none for Journal entries). This will also add a `New entity` button on folders so you can create it directly in the folder (does not work for Scenes though).
@@ -347,7 +358,8 @@ This Foundry VTT module allows you to create infinite depth of folders for Scene
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://gitlab.com/moerills-fvtt-modules/journal-enhancer](https://gitlab.com/moerills-fvtt-modules/journal-enhancer) 
+* [https://gitlab.com/moerills-fvtt-modules/journal-enhancer](https://gitlab.com/moerills-fvtt-modules/journal-enhancer)
+* [https://gitlab.com/moerills-fvtt-modules/journal-enhancer/raw/master/journal-enhancer/module.json](https://gitlab.com/moerills-fvtt-modules/journal-enhancer/raw/master/journal-enhancer/module.json)
 
 ### Description 
 This module adds a search function for journal entries, includes a “jump to pin” button for moving the camera to a pinned journal entry, adds a zoom function for image handouts, and hides the name of a handout to users without permissions set. Moerill includes a video showing off the mod’s utility here: [https://youtu.be/5O4yA8Kr6bs](https://youtu.be/5O4yA8Kr6bs)
@@ -365,7 +377,8 @@ This module adds a search function for journal entries, includes a “jump to pi
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://gitlab.com/moerills-fvtt-modules/layer-hotkeys](https://gitlab.com/moerills-fvtt-modules/layer-hotkeys) 
+* [https://gitlab.com/moerills-fvtt-modules/layer-hotkeys](https://gitlab.com/moerills-fvtt-modules/layer-hotkeys)
+* [https://gitlab.com/moerills-fvtt-modules/layer-hotkeys/raw/master/layer-hotkeys/module.json](https://gitlab.com/moerills-fvtt-modules/layer-hotkeys/raw/master/layer-hotkeys/module.json)
 
 ### Description
 This module adds hotkeys for switching layers and the active tool in canvas.
@@ -398,7 +411,8 @@ The Hotkeys can be seen by hovering over the button as well.
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/trdischat/lessfog](https://github.com/trdischat/lessfog) 
+* [https://github.com/trdischat/lessfog](https://github.com/trdischat/lessfog)
+* [https://github.com/trdischat/lessfog/raw/master/module.json](https://github.com/trdischat/lessfog/raw/master/module.json)
 
 ### Description
 Module to enhance visibility for the GM in Foundry VTT.
@@ -407,7 +421,7 @@ Module to enhance visibility for the GM in Foundry VTT.
 
 ## Message Age Restriction
 
-* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de 
+* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
 * **Version**: 0.1
 * **Foundry VTT Compatibility**: 0.3.1+
 * **System Compatibility (If applicable)**: Universal
@@ -416,7 +430,8 @@ Module to enhance visibility for the GM in Foundry VTT.
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/syl3r86/messageagerestriction](https://github.com/syl3r86/messageagerestriction) 
+* [https://github.com/syl3r86/messageagerestriction](https://github.com/syl3r86/messageagerestriction)
+* [https://github.com/syl3r86/messageagerestriction/master/favtab/module.json](https://github.com/syl3r86/messageagerestriction/master/favtab/module.json)
 
 ### Description
 A Foundry VTT Module to enable filtering chat-messages by their age. Each user can choose his own settings. It is possible to set the maximum age (in days) and to specify if the filter should be applied.
@@ -431,6 +446,7 @@ A Foundry VTT Module to enable filtering chat-messages by their age. Each user c
 
 ### Link to Module
 * [https://bitbucket.org/Fyorl/notokenanim](https://bitbucket.org/Fyorl/notokenanim)
+* [https://bitbucket.org/Fyorl/NoTokenAnim/raw/master/module.json](https://bitbucket.org/Fyorl/NoTokenAnim/raw/master/module.json)
 
 ### Description
 Adds an option to the settings dialog to disable token movement animations. Tokens will drop immediately instead of sliding when dragged and dropped around the map with this setting enabled.
@@ -448,7 +464,8 @@ Adds an option to the settings dialog to disable token movement animations. Toke
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/trdischat/fvtt/tree/master/patches](https://github.com/trdischat/fvtt/tree/master/patches) 
+* [https://github.com/trdischat/fvtt/tree/master/patches](https://github.com/trdischat/fvtt/tree/master/patches)
+* [https://github.com/trdischat/fvtt/raw/master/patches/module.json](https://github.com/trdischat/fvtt/raw/master/patches/module.json)
 
 ### Description
 Module to apply the following patches to Foundry VTT:
@@ -462,7 +479,7 @@ All patches rely on the `patchClass` utility function.
 
 ## Permission Viewer
 
-* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
 * **Version**: 0.2
 * **Foundry VTT Compatibility**: 0.3+
 * **System Compatibility (If applicable)**: Universal
@@ -471,7 +488,8 @@ All patches rely on the `patchClass` utility function.
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-permission-viewer](https://github.com/kakaroto/fvtt-module-permission-viewer) 
+* [https://github.com/kakaroto/fvtt-module-permission-viewer](https://github.com/kakaroto/fvtt-module-permission-viewer)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-permission-viewer/master/permission_viewer/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-permission-viewer/master/permission_viewer/module.json)
 
 ### Description
 This Foundry VTT module displays colored diamonds/squares/circles to represent the players who have limited/observer/owner permissions on Entities (Actors, Journal entries, Items, etc..)
@@ -490,6 +508,7 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/pointer](https://gitlab.com/moerills-fvtt-modules/pointer)
+* [https://gitlab.com/moerills-fvtt-modules/pointer/raw/master/pointer/module.json](https://gitlab.com/moerills-fvtt-modules/pointer/raw/master/pointer/module.json)
 
 ### Description
 This module adds the ability for each user to show a cursor following his mouse as well as adding the option to ping a certain location.
@@ -507,7 +526,8 @@ This module adds the ability for each user to show a cursor following his mouse 
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://gitlab.com/moerills-fvtt-modules/svg-loader](https://gitlab.com/moerills-fvtt-modules/svg-loader) 
+* [https://gitlab.com/moerills-fvtt-modules/svg-loader](https://gitlab.com/moerills-fvtt-modules/svg-loader)
+* [https://gitlab.com/moerills-fvtt-modules/svg-loader/raw/master/module.json](https://gitlab.com/moerills-fvtt-modules/svg-loader/raw/master/module.json)
 
 ### Description
 This module allows to load walls, lights and sources through .svg files, provided e.g. by DungeonFog.
@@ -523,6 +543,7 @@ This module allows to load walls, lights and sources through .svg files, provide
 
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/tiles-browser/](https://gitlab.com/moerills-fvtt-modules/tiles-browser/)
+* [https://gitlab.com/moerills-fvtt-modules/tiles-browser/raw/master/module.json](https://gitlab.com/moerills-fvtt-modules/tiles-browser/raw/master/module.json)
 
 ### Description
 Adds a browser to the tiles layer to conveniently preview and then drag and drop tiles onto the scene. Providing additional features to manipulate tile rotation and size while dragging.
@@ -563,11 +584,12 @@ Tokenizer provides the user with:
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://gitlab.com/moerills-fvtt-modules/token-mold](https://gitlab.com/moerills-fvtt-modules/token-mold) 
+* [https://gitlab.com/moerills-fvtt-modules/token-mold](https://gitlab.com/moerills-fvtt-modules/token-mold)
+* [https://gitlab.com/moerills-fvtt-modules/token-mold/raw/master/module.json](https://gitlab.com/moerills-fvtt-modules/token-mold/raw/master/module.json)
 
 ### Description
-What is a foundry without its molds? This module provides you with a customizable mold for your Tokens.  
-On creation each unlinked Token will fit snugly into the pattern of your mold.  
+What is a foundry without its molds? This module provides you with a customizable mold for your Tokens.
+On creation each unlinked Token will fit snugly into the pattern of your mold.
 **Features**
 - Automatic indexing
 - Random adjective prefixes (e.g. angry, calm, bloodthirsty, ...)
@@ -579,7 +601,7 @@ On creation each unlinked Token will fit snugly into the pattern of your mold.
 
 ## Z Order
 
-* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
 * **Version**: 0.1
 * **Foundry VTT Compatibility**: 0.3+
 * **System Compatibility (If applicable)**: Universal
@@ -588,7 +610,8 @@ On creation each unlinked Token will fit snugly into the pattern of your mold.
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-zorder](https://github.com/kakaroto/fvtt-module-zorder) 
+* [https://github.com/kakaroto/fvtt-module-zorder](https://github.com/kakaroto/fvtt-module-zorder)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-zorder/master/zorder/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-zorder/master/zorder/module.json)
 
 ### Description
 This Foundry VTT module lets you send tiles to the front or the back of the scene.
