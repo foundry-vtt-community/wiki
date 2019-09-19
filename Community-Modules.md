@@ -105,7 +105,7 @@ This module improves loading times by only rendering the last few chat messages 
 * **Version**: 1.1
 * **Foundry VTT Compatibility**: 0.3.7 +
 * **Module Conflicts**: None
-* **Translation Support**: EN/JA/KO/FR/BR (full) NL/IT (partial)
+* **Translation Support**: EN/JA/KO/FR/PT-BR (full) NL/IT (partial)
 
 ### Link(s) to Module
 * [https://gitlab.com/Ayanzo/combatready](https://gitlab.com/Ayanzo/combatready)
@@ -280,7 +280,7 @@ This Foundry VTT module lets you pop out journal entries into their own windows.
 
 ### Link(s) to Module
 * [https://github.com/Hydroxi/gmrollmessage](https://github.com/Hydroxi/gmrollmessage)
-* [ttps://github.com/Hydroxi/gmrollmessage/raw/master/module.json](ttps://github.com/Hydroxi/gmrollmessage/raw/master/module.json)
+* [https://github.com/Hydroxi/gmrollmessage/raw/master/module.json](https://github.com/Hydroxi/gmrollmessage/raw/master/module.json)
 
 ### Description
 Sends an extra public message/hint when rolling a `gmroll` or `blindroll`.
