@@ -6,7 +6,7 @@
       * [Combat Ready](#combat-ready)
       * [Deselection](#deselection)
       * [Dice Calculator](#dice-calculator)
-      * [Display mode](#display-mode)
+      * [Display Mode](#display-mode)
       * [Entity Order](#entity-order)
       * [FFG Roller](#ffg-roller)
       * [The Furnace](#the-furnace)
