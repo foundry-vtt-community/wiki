@@ -10,6 +10,7 @@
       * [Entity Order](#entity-order)
       * [FFG Roller](#ffg-roller)
       * [The Furnace](#the-furnace)
+      * [Playlist Import](#playlist-import)
       * [Popout!](#popout)
       * [GM Roll Message](#gm-roll-message)
       * [Grid Scaler](#grid-scaler)
