@@ -9,3 +9,4 @@ In a dedicated hosting setting, the application runs on a persistent web server 
 - Requires a accessible web server which is configured to serve the Foundry VTT application.
 - More complicated initial setup, especially for users who are unfamiliar with web hosting.
 - Your world’s static files (maps, tokens, music) need to be served from a static location or from the web server.
+- Monthly cost of service to host in a the Cloud.
