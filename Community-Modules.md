@@ -23,6 +23,7 @@
       * [No Token Animations](#no-token-animations)
       * [Patches by trdischat](#patches-by-trdischat)
       * [Permission Viewer](#permission-viewer)
+      * [Pings](#pings)
       * [Pointer](#pointer)
       * [SVG Loader](#svg-loader)
       * [Tiles Browser](#tiles-browser)
@@ -514,6 +515,27 @@ All patches rely on the `patchClass` utility function.
 
 ### Description
 This Foundry VTT module displays colored diamonds/squares/circles to represent the players who have limited/observer/owner permissions on Entities (Actors, Journal entries, Items, etc..)
+
+---
+
+## Pings
+
+* **Author**: AzzuriteTV#2004
+* **Version**: 1.0.0
+* **Foundry VTT Compatibility**: 0.3.7+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [Project Repository](https://gitlab.com/foundry-azzurite/pings)
+* [https://gitlab.com/foundry-azzurite/pings/raw/master/src/module.json](https://gitlab.com/foundry-azzurite/pings/raw/master/src/module.json)
+* [Zip File](https://gitlab.com/foundry-azzurite/pings/raw/master/dist/pings.zip)
+
+### Description
+
+Adds the ability to ping a location on the map, see this [example ping](https://streamable.com/e48y0). Extensively [customizable](https://i.imgur.com/NwQ6gaU.png). 
 
 ---
 
