@@ -18,7 +18,8 @@
 * **Foundry VTT Compatibility**: 0.3+
 
 ### Link(s) to Translation
-* <https://gitlab.com/baktov.sugar/foundryvtt-lang-fr-fr>
+* [https://gitlab.com/baktov.sugar/foundryvtt-lang-fr-fr](https://gitlab.com/baktov.sugar/foundryvtt-lang-fr-fr)
+* [https://gitlab.com/baktov.sugar/foundryvtt-lang-fr-fr/raw/master/fr-FR/module.json](https://gitlab.com/baktov.sugar/foundryvtt-lang-fr-fr/raw/master/fr-FR/module.json)
 
 ### Description
 This module adds the option to select the French (FRANCE) language from the FoundryVTT settings menu.
@@ -49,10 +50,11 @@ German i18n translation for Foundry VTT.
 * **Foundry VTT Compatibility**: 0.3+
 
 ### Link(s) to Translation
-* <https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese>
+* [https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese](https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese)
+* [https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese/raw/master/pt-BR/module.json](https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese/raw/master/pt-BR/module.json)
 
 ### Description
-Foundry VTT Brazilian (Portuguese) translation. You can install it using the following manifest URL `https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese/raw/master/pt-BR/module.json`
+Foundry VTT Brazilian (Portuguese) translation.
 
 ---
 
@@ -70,6 +72,7 @@ Foundry VTT Brazilian (Portuguese) translation. You can install it using the fol
 
 ### Link(s) to Translation
 * (Put a web URL here to find the translation.)
+* (Put the manifest url here to update/install the translation.)
 
 ### Description
 (Describe the translation here. This should include installation instructions, and anything important to note. Due to the particular oddities of some archiving programs (WinRar, 7zip), and GitHub zip folders, including a screenshot of what the translation should look like file-wise in the “public/systems/examplesystem” is appreciated, though not required.)
