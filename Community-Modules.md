@@ -756,11 +756,12 @@ To install use the following link in Foundrys Module Setup https://raw.githubuse
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper](https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper)
-* [https://raw.githubusercontent.com/death-save/fvtt-modules/master/ddb-popper/module.json](https://raw.githubusercontent.com/death-save/fvtt-modules/master/ddb-popper/module.json)
+* [https://github.com/death-save/ddb-popper](https://github.com/death-save/ddb-popper)
+* [https://raw.githubusercontent.com/death-save/ddb-popper/master/module.json](https://raw.githubusercontent.com/death-save/ddb-popper/master/module.json)
 
 ### Description
-Opens a D&D Beyond popup for a linked actor. More info here: [https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper](https://github.com/eclarke12/fvtt-modules/tree/master/ddb-popper)
+Opens a D&D Beyond popup for a linked actor.    
+More info here: [https://github.com/death-save/ddb-popper](https://github.com/death-save/ddb-popper)
 
 ---
 
