@@ -748,8 +748,8 @@ To install use the following link in Foundrys Module Setup https://raw.githubuse
 ## DDB Popper
 
 * **Author**: errational#2007 on discord
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3.4
+* **Version**: 1.1
+* **Foundry VTT Compatibility**: 0.3.7
 * **System Compatibility (If applicable)**: dnd5e
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: N/A
