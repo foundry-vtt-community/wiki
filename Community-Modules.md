@@ -154,7 +154,7 @@ to pause the timer, it responds to FVTT's pause mechanic.
 
 ### Description
 
-Adds the ability to hide your cursor on the tabletop, see this [demonstration](https://streamable.com/uxuly).
+Adds the ability to hide your cursor and ruler on the tabletop, see this [demonstration](https://streamable.com/ljte3).
 
 ---
 
