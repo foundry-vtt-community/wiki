@@ -4,6 +4,7 @@
       * [Always Show Notes](#always-show-notes)
       * [Chat Autoloader](#chat-autoloader)
       * [Combat Ready](#combat-ready)
+      * [Cursor Hider](#cursor-hider)
       * [Deselection](#deselection)
       * [Dice Calculator](#dice-calculator)
       * [Display Mode](#display-mode)
@@ -133,6 +134,27 @@ configured for 3m, but this can be changed in the settings. When the bar
 reaches 3m, or the custom value, an 'expired' sound will play, but it does not
 automatically advance the turn. Shame is good enough in my opinion. If you need
 to pause the timer, it responds to FVTT's pause mechanic.
+
+---
+
+## Cursor Hider
+
+* **Author**: AzzuriteTV#2004
+* **Version**: 1.1.0
+* **Foundry VTT Compatibility**: 0.3.7+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [Project Repository & Readme](https://gitlab.com/foundry-azzurite/cursor-hider)
+* [https://gitlab.com/foundry-azzurite/cursor-hider/raw/master/src/module.json](https://gitlab.com/foundry-azzurite/cursor-hider/raw/master/src/module.json)
+* [Zip File](https://gitlab.com/foundry-azzurite/cursor-hider/raw/master/dist/cursor-hider.zip)
+
+### Description
+
+Adds the ability to hide your cursor on the tabletop, see this [demonstration](https://streamable.com/uxuly).
 
 ---
 
