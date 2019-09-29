@@ -27,6 +27,7 @@
       * [Pings](#pings)
       * [Pointer](#pointer)
       * [SVG Loader](#svg-loader)
+      * [Theatre](#theatre)
       * [Tiles Browser](#tiles-browser)
       * [VTTA Tokenizer](#vtta-tokenizer)
       * [Token Mold](#token-mold)
