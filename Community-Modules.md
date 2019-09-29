@@ -543,7 +543,7 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 ## Pings
 
 * **Author**: AzzuriteTV#2004
-* **Version**: 1.0.0
+* **Version**: 1.0.2
 * **Foundry VTT Compatibility**: 0.3.7+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
