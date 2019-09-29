@@ -602,13 +602,13 @@ This module allows to load walls, lights and sources through .svg files, provide
 
 ## Theatre
 
-* **Author**: ayan#2758 on Discord
+* **Author**: Ken L. (ayan)
 * **Version**: 1.0.1
-* **Foundry VTT Compatibility**: 0.3.6+
+* **Foundry VTT Compatibility**: 0.3.7+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
-* **Translation Support**: EN, JA, KO, PT-BR, FR, TH
+* **Translation Support**: EN/JA/KO/PT-BR/FR/TH (full)
 
 ### Link(s) to Module
 * [https://gitlab.com/Ayanzo/theatre](https://gitlab.com/Ayanzo/theatre)
