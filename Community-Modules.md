@@ -140,7 +140,7 @@ to pause the timer, it responds to FVTT's pause mechanic.
 ## Cursor Hider
 
 * **Author**: AzzuriteTV#2004
-* **Version**: 1.1.0
+* **Version**: 1.1.1
 * **Foundry VTT Compatibility**: 0.3.7+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
@@ -154,7 +154,7 @@ to pause the timer, it responds to FVTT's pause mechanic.
 
 ### Description
 
-Adds the ability to hide your cursor on the tabletop, see this [demonstration](https://streamable.com/uxuly).
+Adds the ability to hide your cursor and ruler on the tabletop, see this [demonstration](https://streamable.com/ljte3).
 
 ---
 
