@@ -6,6 +6,8 @@
       * [Pathfinder 2e](#pathfinder-2e)
    * [Warhammer Fantasy](#warhammer-fantasy)
       * [WFRP 4E System](#wfrp-4e-system)
+   * [13th Age](#13th-age)
+      * [13th Age System](#13th-age-archmage)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -85,7 +87,11 @@ To install, use the in-app installer and enter into the manifest URL: `https://r
 
 ---
 
-## 13th Age (Archmage)
+# 13th Age
+
+Foundry systems for the 13th Age RPG.
+
+## 13th Age System (Archmage)
 
 * **Author**: Asacolips#1867 on Discord.
 * **Version**: 1.0.0
