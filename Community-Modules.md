@@ -4,6 +4,7 @@
       * [Always Show Notes](#always-show-notes)
       * [Chat Autoloader](#chat-autoloader)
       * [Combat Ready](#combat-ready)
+      * [Combat Utility Belt (Beta)](#combat-utility-belt-beta)
       * [Cursor Hider](#cursor-hider)
       * [Deselection](#deselection)
       * [Dice Calculator](#dice-calculator)
