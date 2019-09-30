@@ -34,6 +34,7 @@
       * [Z Order](#z-order)
    * [Foundry VTT Modules for DnD 5E](#foundry-vtt-modules-for-dnd-5e)
       * [Better NPC Sheet 5e](#better-npc-sheet-5e)
+      * [Better Rolls for 5e](#better-rolls-for-5e)
       * [Beyond 20](#beyond-20)
       * [Chat Damage Buttons](#chat-damage-buttons)
       * [Chat Damage Buttons - Better Rolls Edition](#chat-damage-buttons---better-rolls-edition)
