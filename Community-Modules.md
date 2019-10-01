@@ -630,7 +630,7 @@ This module allows to load walls, lights and sources through .svg files, provide
 ## Theatre
 
 * **Author**: Ken L. (ayan)
-* **Version**: 1.0.1
+* **Version**: 1.0.2
 * **Foundry VTT Compatibility**: 0.3.7+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
