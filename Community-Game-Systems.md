@@ -72,7 +72,7 @@ Foundry systems for the various Warhammer Fantasy Roleplay editions.
 ## WFRP 4E System
 
 * **Author**: @Moo Man#7518 and @CatoThe1stElder#9725 on Discord
-* **Version**: Beta 0.8.2
+* **Version**: Beta 0.8.3
 * **Foundry VTT Compatibility**: 0.3+ (Highly recommend players use Chrome, Firefox doesn't display the sheet correctly).
 * **Translation Support**: EN (full)
 
