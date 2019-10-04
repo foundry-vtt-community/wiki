@@ -954,6 +954,7 @@ To install, download the zip file included in the Github module directory. Extra
 * https://dl.dropboxusercontent.com/s/bdh5pgpdcgkzkem/module.json
 
 ### Description
+
 This module allows the creation of bags which can contain other items, think backpack or bag of holding. These items can be put anywhere an item can.
 See the link for more details.
 ---
