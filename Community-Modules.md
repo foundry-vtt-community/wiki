@@ -954,10 +954,12 @@ To install, download the zip file included in the Github module directory. Extra
 * https://dl.dropboxusercontent.com/s/bdh5pgpdcgkzkem/module.json
 
 ### Description
-
 This module allows the creation of bags which can contain other items, think backpack or bag of holding. These items can be put anywhere an item can.
+
 See the link for more details.
+
 ---
+
 ## Minor QOL Improvements
 
 * **Author**: @tposney#1462 on Discord
@@ -973,9 +975,9 @@ See the link for more details.
 * [https://dl.dropboxusercontent.com/s/yt34vrukyakkwqq/module.json](https://dl.dropboxusercontent.com/s/yt34vrukyakkwqq/module.json)
 
 ### Description
-Add item deletion confirmation, accelerated dice rolls with attack and damage in one click and item info hiding. All features can be enabled/disabled from the in-game module settings. If enabling/disabling speed-item-rolls should should reload the browser window.
+Adds item deletion confirmation, accelerated dice rolls with attack and damage in one click and item info hiding. All features can be enabled/disabled from the in-game module settings. If enabling/disabling speed-item-rolls you should reload the browser window.
 
-To install past the mainfest link into the foundry "add a module" or download the zip and unzip in your module directory.
+To install paste the manifest link into the foundry "add a module" or download the zip and unzip in your module directory.
 
 Many thanks to @Red Rein @Hooking for allowing me to pillage their code.
 
