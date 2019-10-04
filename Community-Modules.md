@@ -941,7 +941,7 @@ To install, download the zip file included in the Github module directory. Extra
 
 ## Item Collection
 
-* **Author**: @tposney
+* **Author**: @tposney#1462 on Discord
 * **Version**: 1.0.5
 * **Foundry VTT Compatibility**: 0.3.7
 * **System Compatibility (If applicable)**: dn5e, because of currency.
