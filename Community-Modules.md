@@ -938,6 +938,7 @@ This module adds item card buttons into the description of items, so that the it
 To install, download the zip file included in the Github module directory. Extract the zip folder to `/public/modules`. Restart Foundry Virtual Tabletop.
 
 ---
+
 ## Item Collection
 
 * **Author**: @tposney
