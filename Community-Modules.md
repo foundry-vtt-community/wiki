@@ -315,7 +315,7 @@ This adds a simple dice rolling window for the special dice used in Fantasy Flig
 
 ### Link(s) to Module
 * [https://github.com/kakaroto/fvtt-module-furnace](https://github.com/kakaroto/fvtt-module-furnace)
-* [https://raw.githubusercontent.com/kakaroto/fvtt-module-furnace/master/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-furnace/master/module.json)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-furnace/stable/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-furnace/stable/module.json)
 
 ### Description
 The Furnace is an essential part of every Foundry. This Foundry VTT module brings Quality of Life Improvements to the VTT.
