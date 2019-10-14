@@ -18,9 +18,7 @@
 
 ## [Self-hosted Cloud](Self-hosted-Cloud)
 
-### [AWS](AWS)
-
-### [Digital Ocean](Digital-Ocean)
+### [Ubuntu VM](Ubuntu-VM)
 
 ## [Connecting](Connecting)
 
