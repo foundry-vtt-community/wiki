@@ -6,7 +6,7 @@ nicer than "http://myhost.com:8080". We are leveraging the power of a node proce
 and to provide detailed statistics about the foundry instance, including easy to use start/stop/restart commands and an 
 automatic start when the server boots up.
 
-![Architecture](img/architecture.png)
+![Architecture](https://raw.githubusercontent.com/shwill/fvtt-tidbits/master/documentation/reverse-proxy/img/architecture.png)
 
 You and your players will connect to the reverse proxy on an encrypted port, so nobody will connect directly to your Foundry installation. This has additionally a slight benefit to your security - yes, they are talking to the Foundry instance by using their client, but they can't breach the software by other means. So, win/win for everybody, even you!
 
@@ -19,7 +19,7 @@ you will create a CNAME with a name of your choice and a value of '@', so pointi
 The name of the CNAME will be your subdomain name, so "CNAME foundry @" will result in foundry.yourhost.com. Name it how
 you like, but make sure to remember it.
 
-![DNS Configuration dashboard at GoDaddy.com](img/subdomain-dns-manager.png)
+![DNS Configuration dashboard at GoDaddy.com](https://raw.githubusercontent.com/shwill/fvtt-tidbits/master/documentation/reverse-proxy/img/subdomain-dns-manager.png)
 
 In my example, my
 * hostname is **yourhost.com**
