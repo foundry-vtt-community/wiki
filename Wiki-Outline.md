@@ -20,9 +20,7 @@
 
     - [ ] Self-hosted Cloud   
     
-        - [ ] AWS       
-        
-        - [ ] Digital Ocean
+        - [X] Ubuntu VM
 
     - [ ] Connecting 
     
