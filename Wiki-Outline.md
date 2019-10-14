@@ -112,6 +112,10 @@
 
 - [X] Community Game Systems & Modules
 
+    - [X] Community Adventures Systems
+    
+    - [X] Community Adventures Repository
+
     - [X] Community Game Systems
     
     - [X] Community Game Systems Repository
@@ -119,3 +123,11 @@
     - [X] Community Modules
     
     - [X] Community Module Repository
+
+    - [X] Community Translations
+    
+    - [X] Community Translations Repository
+
+- [X] Community Wiki
+
+    - [X] Wiki Outline
