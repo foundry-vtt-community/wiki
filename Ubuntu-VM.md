@@ -56,7 +56,7 @@ sudo rm /etc/nginx/sites-enabled/default
 sudo service nginx restart
 ```
 
-Refreshing the browser window should not result in an error message.
+Refreshing the browser window should now result in an error message.
 
 ### Install the Process Manager pm2
 
