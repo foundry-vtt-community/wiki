@@ -1,10 +1,5 @@
-# Setting up Foundry VTT on ubuntu with a reverse proxy and a process manager
-
-Foundry VTT is a nice piece of software, but today I wan't to provide ways to have consistently running instance
-that is reachable by a (sub)domain name instead of a cluncy port number: "http://foundry.myhost.com" is in my opinion a bit
-nicer than "http://myhost.com:8080". We are leveraging the power of a node process manager to keep the instance running
-and to provide detailed statistics about the foundry instance, including easy to use start/stop/restart commands and an 
-automatic start when the server boots up.
+Foundry VTT is a nice piece of software, but today I want to provide ways to have consistently running instance
+that is reachable by a (sub)domain name instead of a clunky port number: "http://foundry.myhost.com" is in my opinion a bit nicer than "http://myhost.com:8080". We are leveraging the power of a node process manager to keep the instance running and to provide detailed statistics about the foundry instance, including easy to use start/stop/restart commands and an automatic start when the server boots up.
 
 ![Architecture](https://raw.githubusercontent.com/shwill/fvtt-tidbits/master/documentation/reverse-proxy/img/architecture.png)
 
@@ -12,7 +7,7 @@ You and your players will connect to the reverse proxy on an encrypted port, so 
 
 Furthermore, we will setup an SSL encryption to foundry at no additional costs.
 
-## Setting up a subdomain name for your foundry instance
+## Setting Up a Subdomain Name for Your Foundry Instance
 
 Depending where you are buying your DNS this will be looking very different on your DNS management dashboard. In short, 
 you will create a CNAME with a name of your choice and a value of '@', so pointing to the main IP address of your server.
@@ -26,7 +21,7 @@ In my example, my
 * subdomain is **foundry**
 * fully-qualified domain name (FQDN) is foundry.yourhost.com
 
-## Setting up the software pre-requisites
+## Setting up the Software Pre-Requisites
 
 We will need several pieces of software to accomplish everything, but it's all very straight forward:
 
@@ -36,7 +31,7 @@ We will need several pieces of software to accomplish everything, but it's all v
 
 Let's start with 
 
-### Installing node.js and it's package manager
+### Installing node.js and it's Package Manager
 
 This guide is for linux, sinde all cheaper hosts on the internet are running Linux, so there's that. I will be using Ubuntu, if you are using a different Linux distribution, your commands and packages might differ.
 
@@ -48,11 +43,11 @@ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -`
 This installs both nodejs and the node package manager npm. Check both with 
 `node --version` and `npm --version`, at this time of writing node.js is at version 10.16.0 and npm at version 6.9.0.
 
-### Install the reverse proxy and the unzip utility
+### Install the Reverse Proxy and the Unzip Utility
 
 We need both, so let's set those up:
 
-´´´sudo apt-get install nginx unzip```
+```sudo apt-get install nginx unzip```
 
 If port 80 is not protected by a firewall, you should be seeing the nginx starting page by opening a browser and surfing to http://yourhost.com. nginx comes up with a default web page located at `/var/www/html` which you can overwrite, alternatively you can remove this default website altogether by deleting the config file and restarting the nginx service:
 
@@ -63,7 +58,7 @@ sudo service nginx restart
 
 Refreshing the browser window should not result in an error message.
 
-### Install the process manager pm2
+### Install the Process Manager pm2
 
 It could not be easier to install the process manager pm2: 
 
@@ -71,7 +66,7 @@ It could not be easier to install the process manager pm2:
 
 This will install pm2 globally, so not just in the current directory for you to use. `pm2 --version` will show an output, for me it's version 3.5.1.
 
-### Lets grab foundry and unpack it
+### Lets Grab Foundry and Unpack It
 
 Go to your patreon page and grab the link for the Linux version of foundry, it should look like this: 
 
@@ -117,7 +112,7 @@ Foundry VTT | 2019-07-08 10:26:51 | [info] Server started and listening on port 
 
 Great! Let's kill the process with `CTRL-C`.
 
-## Run Foundry using the process manager pm2
+## Run Foundry Using the Process Manager pm2
 
 First, we need to configure the process manager to startup automatically on server boot. There is [a startup script generator](http://pm2.keymetrics.io/docs/usage/startup/) at the pm2 homepage that will help you with that. For me on ubuntu, I do the following: `pm2 startup` generates the following output:
 
@@ -162,13 +157,13 @@ Using `pm2 list` you can bring this list up and see e.g. if the number of restar
 
 `pm2 start foundry`, `pm2 stop foundry`, `pm2 restart foundry` can control the running status of Foundry and `pm2 delete foundry` will remove this process from the pm2 config. Once everything is settled and running, you can `pm2 save` the current list of applications and to save it for a server reboot. Done!
 
-If the port number is reachable from the internet, you can check the running Foundry instance by browsing to `http://yourhost.com:8080`. Foundry should be accessiable then. If not, that's great, because we don't want the port open from the bad, bad internet, so close it after testing!
+If the port number is reachable from the internet, you can check the running Foundry instance by browsing to `http://yourhost.com:8080`. Foundry should be accessible then. If not, that's great, because we don't want the port open from the bad, bad internet, so close it after testing!
 
-## Setting up the reverse proxy
+## Setting Up the Reverse Proxy
 
 Instead, the user should connect to our reverse proxy, which then should talk to foundry, relaying the response back to the user. 
 
-### Create a log directory
+### Create a Log Directory
 
 nginx likes log messages an so do you (even if you don't know it yet). Let's create a directory to store those messages in a structured manner: `sudo mkdir /var/log/nginx/foundry`.
 
@@ -224,7 +219,7 @@ server {
 
 Let's create a link from this configuration to enable it: `sudo ln -s /etc/nginx/sites-available/foundry /etc/nginx/sites-enabled/foundry`. Restart the server to reflect the changes: `sudo service nginx restart`. Check the browser, not pointing at port 80 (we are not yet installing the certificate) to see if the reverse proxy is working correctly: `http://foundry.myhost.com` should now be showing the foundry instance served by the process manager pm2. Looks great already!
 
-### Optional step: Use SSL encryption 
+### Optional Step: Use SSL Encryption 
 
 The [Let's encrypt!-Homepage](https://letsencrypt.org/) has information about installing the Certbot on different systems, the one for [Ubuntu Linux and nginx](https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx) should be the right one. Let's just follow the instructions on their website (from 07/08/2019):
 
@@ -311,10 +306,10 @@ IMPORTANT NOTES:
    Donating to EFF:                    https://eff.org/donate-le
 ```
 
-#### Adding auto-refreshing of the SSL certificate
+#### Adding Auto-Refreshing of the SSL Certificate
 
-First, create a new directory that is used by certbot to auto-refresh your new certificate: `sudo mkdir /var/www/letsencrypt` and reference to this location for a very specific http answer that 
-letsencrypt wants to verify. Open up your nginx configuration for foundry and add some more configuration items: `sudo nano /etc/nginx/sites-available/foundry`.
+First, create a new directory that is used by Certbot to auto-refresh your new certificate: `sudo mkdir /var/www/letsencrypt` and reference to this location for a very specific http answer that 
+letsencrypt wants to verify. Open up your Nginx configuration for foundry and add some more configuration items: `sudo nano /etc/nginx/sites-available/foundry`.
 
 Right above the section `location / { .... }` you prepend the following block:
 
@@ -380,7 +375,6 @@ server {
     server_name                 foundry.myhost.com;
     return 404; # managed by Certbot
 }
-
 ```
 
 Now create a new file `sudo nano /etc/nginx/conf.d/drop`, add the following contents into it and restart nginx with `sudo service nginx restart`: 
@@ -399,7 +393,7 @@ location = /apple-touch-icon-precomposed.png { access_log off; log_not_found off
 location ~ /\. { deny  all; access_log off; log_not_found off; }
 ```
 
-### Additional configuration for nginx
+### Additional Configuration for Nginx
 
 Create a new file `sudo nano /etc/nginx/conf.d/drop.conf` and insert the following contents in there:
 
@@ -417,13 +411,13 @@ location = /apple-touch-icon-precomposed.png { access_log off; log_not_found off
 location ~ /\. { deny  all; access_log off; log_not_found off; }
 ```
 
-## Final steps
+## Final Steps
 
-Open up your webbrowser at http://foundry.myhost.com and it should automatically redirect to the encrypted site at https://foundry.myhost.com. Everything else should work as you are used to.
+Open up your web browser at http://foundry.myhost.com and it should automatically redirect to the encrypted site at https://foundry.myhost.com. Everything else should work as you are used to.
 
-## Something went wrong
+## Something Went Wrong
 
-* Make sure that your port 443 is accessible. UFW (Universal FireWall) is pretty common, so you can check `ufw status` and see if that is enabled. `sudo ufw allow https` and `sudo ufw allow http` should add ports 80 and 443 to your firewall, thus allowing access to your ssl encrypted foundry instance and the certbot for it's automatic certification renewal
+* Make sure that your port 443 is accessible. UFW (Universal FireWall) is pretty common, so you can check `ufw status` and see if that is enabled. `sudo ufw allow https` and `sudo ufw allow http` should add ports 80 and 443 to your firewall, thus allowing access to your ssl encrypted foundry instance and the Certbot for it's automatic certification renewal
 * Check the `pm2 log foundry` for errors on the configuration there. Perhaps foundry starts up, fails and pm2 wants to restart it all the time, resulting in an endless loop of frustration for everybody? Stop the process by `pm2 stop foundry` and run it manually `node /home/ubuntu/foundry/resources/app/main.js` and check for errors (directory permissions are alright? Perhaps you changed anything there and it's just not working?).
 
 ## Contributors
