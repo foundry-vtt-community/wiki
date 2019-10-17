@@ -20,6 +20,8 @@
 
 ### [Ubuntu VM](Ubuntu-VM)
 
+### [DigitalOcean Initialization Script](DigitalOcean-Initialization-Script)
+
 ## [Connecting](Connecting)
 
 ## [Setting up Worlds](Setting-up-Worlds)
