@@ -13,6 +13,7 @@ Table of Contents
          * [<a href="macOS">macOS</a>](#macos)
       * [<a href="Self-hosted-Cloud">Self-hosted Cloud</a>](#self-hosted-cloud)
          * [<a href="Ubuntu-VM">Ubuntu VM</a>](#ubuntu-vm)
+         * [<a href="DigitalOcean-Initialization-Script">DigitalOcean Initialization Script</a>](#DigitalOcean-Initialization-Script)
       * [<a href="Connecting">Connecting</a>](#connecting)
       * [<a href="Setting-up-Worlds">Setting up Worlds</a>](#setting-up-worlds)
       * [<a href="Setting-up-Players">Setting up Players</a>](#setting-up-players)
