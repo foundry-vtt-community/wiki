@@ -323,44 +323,6 @@ It started by adding Drawing Tools, and then an experimental Macros system and n
 
 ---
 
-## Playlist Import
-
-* **Author**: JacobMcAuley#3461 on Discord
-* **Version**: 1.0
-* **Foundry VTT Compatibility**: 0.3.7+
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/JacobMcAuley/playlist_import](https://github.com/JacobMcAuley/playlist_import)
-* [https://raw.githubusercontent.com/JacobMcAuley/playlist_import/master/module.json](https://raw.githubusercontent.com/JacobMcAuley/playlist_import/master/module.json)
-
-### Description
-This module aims to simplify the process of adding multiple music tracks to Foundry VTT, doing so in a timely manner.
-
----
-
-## Popout!
-
-* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3+
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-popout](https://github.com/kakaroto/fvtt-module-popout)
-* [https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/popout/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/popout/module.json)
-
-### Description
-This Foundry VTT module lets you pop out journal entries into their own windows. It is currently acting as a proof of concept.
-
----
-
 ## GM Roll Message
 
 * **Author**: Hydroxi#0366 on Discord.
@@ -395,6 +357,29 @@ Sends an extra public message/hint when rolling a `gmroll` or `blindroll`.
 
 ### Description
 This mod allows you to resize a grid more easily within Foundry, allowing easier map setup when a grid is uneven or unclear within a background image.
+
+---
+
+## Hype Track
+
+* **Author**: errational#2007 on discord
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3.8
+* **System Compatibility (If applicable)**: dnd5e, pf2e
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: N/A
+* **Translation Support**: N/A
+
+### Link(s) to Module
+* [https://github.com/death-save/hype-track/](https://github.com/death-save/hype-track/)
+* [https://raw.githubusercontent.com/death-save/hype-track/master/module.json](https://raw.githubusercontent.com/death-save/hype-track/master/module.json)
+
+### Description
+Every hero needs a hype person* in their corner, getting the crowd amped up whenever they arrive.
+
+With Hype Track you can give your players that experience by setting a Hype Track that plays when it is their turn in combat.
+
+*or familiar, or spirit, or sidekick robot, or probably-not-going-kill-all-humanity AI
 
 ---
 
@@ -608,6 +593,44 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 ### Description
 
 Adds the ability to ping a location on the map, see this [example ping](https://streamable.com/e48y0). Extensively [customizable](https://i.imgur.com/NwQ6gaU.png). 
+
+---
+
+## Playlist Import
+
+* **Author**: JacobMcAuley#3461 on Discord
+* **Version**: 1.0
+* **Foundry VTT Compatibility**: 0.3.7+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/JacobMcAuley/playlist_import](https://github.com/JacobMcAuley/playlist_import)
+* [https://raw.githubusercontent.com/JacobMcAuley/playlist_import/master/module.json](https://raw.githubusercontent.com/JacobMcAuley/playlist_import/master/module.json)
+
+### Description
+This module aims to simplify the process of adding multiple music tracks to Foundry VTT, doing so in a timely manner.
+
+---
+
+## Popout!
+
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-popout](https://github.com/kakaroto/fvtt-module-popout)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/popout/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/popout/module.json)
+
+### Description
+This Foundry VTT module lets you pop out journal entries into their own windows. It is currently acting as a proof of concept.
 
 ---
 
