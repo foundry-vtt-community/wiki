@@ -4,10 +4,10 @@ If you are adding a page, please note that the title of the page is determined b
 the file name. Hyphens in the file names will become spaces in the titles of the
 pages. Refer to existing files as examples of the naming convention.
 
-NOTE: Please do not rename this file from README.txt to README.md.
+NOTE : Please do not rename this file from README.txt to README.md.
 README.txt will not show up in the Wiki view, but README.md will.
 
-NOTE: This wiki serves as a repository of community-curated information about the Foundry VTT and is 100% community-managed and run. We do not represent Foundry Gaming LLC in any way.
+NOTE : This wiki serves as a repository of community-curated information about the Foundry VTT and is 100% community-managed and run. We do not represent Foundry Gaming LLC in any way.
 
 Official Resources
 - Foundry VTT Website : http://foundryvtt.com
