@@ -103,7 +103,3 @@
 ## [Community Translations](Community-Translations)
 
 ## [Community Translations Repository](https://github.com/foundry-vtt-community/translations)
-
-# [Community Wiki](Community-Wiki)
-
-## [Wiki Outline](Wiki-Outline)
