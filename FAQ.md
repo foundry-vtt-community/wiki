@@ -12,8 +12,25 @@ Check out the [Modules](https://foundry-vtt-community.github.io/wiki/Modules/) p
 ## I Forgot My Player Access Keys!
 Check `/worlds/<worldname>/data/users.db`.
 
+## Where Can I Place Content In Foundry?
+You can place anything you want in the `public` folder located at `resources/app/public`.
+
 ## How Do I Apply Damage?
 There is an option to apply damage from a roll. Right click on the damage and a context menu will show up that will apply that damage or healing to the select token.
+
+## How Do I Create a Custom Character Sheet
+Start by downloading the example `HTML` and `JS` files provided by Atropos:
+
+1. [my-actor-sheet.js](https://cdn.discordapp.com/attachments/554492873190670336/616309044604436511/my-actor-sheet.js) - This is the JavaScript that defines the sheet and registers it with the Foundry VTT system 
+2. [my-actor-sheet.html](https://cdn.discordapp.com/attachments/554492873190670336/616309067513593856/my-actor-sheet.html) - This is the HTML template where you define the structure and templating for your sheet
+
+**NOTE** - This does require knowledge of `CSS` for styling.
+
+## How Do Walls Affect Performance?
+What matter for wall performance the the amount of *unique* wall endpoints, rather than the amount of walls themselves. In short longer walls are better than shorter walls.
+
+- **Terrain Walls** have the same performance as a **Regular Wall**.
+- **One-Way Walls** are more computationally intensive, as it has to check the orientation of the ray collision.
 
 # Suggestions/Ideas/Issues
 
