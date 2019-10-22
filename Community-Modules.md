@@ -1184,7 +1184,7 @@ Successor to fvtt-party, which is discontinued as of now. Provides both an overv
 Configurable options for granting players access to both features, or to use it for GMs only.
 
 ---
-## (Dynamic Items)
+## Dynamic Items
 
 * **Author**: @tposney discord
 * **Version**: 0.0.7
