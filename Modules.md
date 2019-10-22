@@ -4,13 +4,15 @@ Modules enhance or replace functionality within Foundry VTT. Most modules consis
 Community created modules can be found via the [Community Modules](https://foundry-vtt-community.github.io/wiki/Community-Modules/) wiki page, or in the [Community Modules Repo](https://github.com/foundry-vtt-community/modules)
 
 # Installing Modules
+
+## Installing Modules Via Manifest URL
 1. Open the Foundry setup page in a web browser
 2. Click on the Add-on Modules tab
 3. Click the Install Module button
 4. Paste the Manifest URL to the Module being installed
 5. Click Install 
 
-# Installing Modules Manually
+## Installing Modules Manually
 1. Placing the module files under `\resources\app\public\modules\<module name>` inside your Foundry VTT installation folder. 
 2. Restart the Foundry VTT server
 3. Log back into Foundry VTT as the GameMaster
