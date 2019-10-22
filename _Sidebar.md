@@ -55,5 +55,3 @@ Table of Contents
       * [<a href="https://github.com/foundry-vtt-community/modules">Community Module Repository</a>](#community-module-repository)
       * [<a href="Community-Translations">Community Translations</a>](#community-translations)
       * [<a href="https://github.com/foundry-vtt-community/translations">Community Translations Repository</a>](#community-translations-repository)
-   * [<a href="Community-Wiki">Community Wiki</a>](#community-wiki)
-      * [<a href="Wiki-Outline">Wiki Outline</a>](#wiki-outline)
