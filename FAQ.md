@@ -12,6 +12,9 @@ Check out the [Modules](https://foundry-vtt-community.github.io/wiki/Modules/) p
 ## I Forgot My Player Access Keys!
 Check `/worlds/<worldname>/data/users.db`.
 
+## How Do I Apply Damage?
+There is an option to apply damage from a roll. Right click on the damage and a context menu will show up that will apply that damage or healing to the select token.
+
 # Suggestions/Ideas/Issues
 
 ## I Have a Suggestion/Idea/Issue
