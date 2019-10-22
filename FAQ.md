@@ -26,6 +26,17 @@ Start by downloading the example `HTML` and `JS` files provided by Atropos:
 
 **NOTE** - This does require knowledge of `CSS` for styling.
 
+## How Do I Improve Performance?
+One easy way to improve performance is by disabling soft shadows. You can do this in game by clicking **Game Settings** -> **Configure Settings** and uncheck **Enable Soft Shadows**.
+
+You can also check what is affecting performance by opening the developer console (`F12`) and running the following commands:
+- **Number of Walls**: `console.log(canvas.walls.placeables.length);`
+- **Number of Light Sources**: `console.log(canvas.lighting.placeables.length);`
+- **Number of Tokens**: `console.log(canvas.tokens.placeables.length);`
+- **Scene Dimensions**: `console.log(canvas.dimensions);`
+
+Evaluate the results against the hardware of your machine on the client side
+
 ## How Do Walls Affect Performance?
 What matter for wall performance the the amount of *unique* wall endpoints, rather than the amount of walls themselves. In short longer walls are better than shorter walls.
 
