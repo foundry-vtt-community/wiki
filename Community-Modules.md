@@ -13,7 +13,6 @@
       * [Entity Order](#entity-order)
       * [FFG Roller](#ffg-roller)
       * [The Furnace](#the-furnace)
-      * [GM Roll Message](#gm-roll-message)
       * [Grid Scaler](#grid-scaler)
       * [Hype Track](#hype-track)
       * [Image Previewer](#image-previewer)
@@ -63,6 +62,7 @@
       * [aDnD5e](#adnd5e)
       * [Encumbrance Variant](#encumbrance-variant)
       * [FVTT-Party (Discontinued, see VTTA-Party for an successor)](#fvtt-party-discontinued-see-vtta-party-for-an-successor)
+      * [GM Roll Message (similiar function is integrated in fvtt 3.9.0)](#gm-roll-message)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Module](#appendix-a-adding-a-module)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -323,24 +323,6 @@ The Furnace is an essential part of every Foundry. This Foundry VTT module bring
 
 It started by adding Drawing Tools, and then an experimental Macros system and now it also adds a 'Split Journal' feature. More QoL improvements are planned.
 
----
-
-## GM Roll Message
-
-* **Author**: Hydroxi#0366 on Discord.
-* **Version**: WIP
-* **Foundry VTT Compatibility**: 0.3+
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/Hydroxi/gmrollmessage](https://github.com/Hydroxi/gmrollmessage)
-* [https://github.com/Hydroxi/gmrollmessage/raw/master/module.json](https://github.com/Hydroxi/gmrollmessage/raw/master/module.json)
-
-### Description
-Sends an extra public message/hint when rolling a `gmroll` or `blindroll`.
 
 ---
 
@@ -1300,6 +1282,26 @@ This module adds a convenient button to the actor’s tab, which will track the 
 To install the module, download the zip file included in the Github module directory. Extract the zip file to `/public/modules`. Restart Foundry Virtual Tabletop.
 
 ---
+
+## GM Roll Message
+
+* **Author**: Hydroxi#0366 on Discord.
+* **Version**: WIP
+* **Foundry VTT Compatibility**: 0.3+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/Hydroxi/gmrollmessage](https://github.com/Hydroxi/gmrollmessage)
+* [https://github.com/Hydroxi/gmrollmessage/raw/master/module.json](https://github.com/Hydroxi/gmrollmessage/raw/master/module.json)
+
+### Description
+Sends an extra public message/hint when rolling a `gmroll` or `blindroll`.
+
+---
+
 
 # Appendix
 
