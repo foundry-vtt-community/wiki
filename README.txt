@@ -18,8 +18,8 @@ Official Resources
 - YouTube : https://www.youtube.com/user/TamrielFoundry
 
 Community Resources
-- Community Website : https://github.com/foundry-vtt-community/master/wiki
-- Community Wiki Repo : https://github.com/foundry-vtt-community/master/wiki
+- Community Website : https://foundry-vtt-community.github.io/
+- Community Wiki Repo : https://github.com/foundry-vtt-community/wiki
 - Community Adventures Repo : https://github.com/foundry-vtt-community/adventures
 - Community Modules Repo : https://github.com/foundry-vtt-community/modules
 - Community Game Systems Repo : https://github.com/foundry-vtt-community/game_systems
