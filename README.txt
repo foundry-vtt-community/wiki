@@ -19,6 +19,8 @@ Official Resources
 
 Community Resources
 - Community Website : https://github.com/foundry-vtt-community/master/wiki
-- Community Wiki : https://github.com/foundry-vtt-community/master/wiki
+- Community Wiki Repo : https://github.com/foundry-vtt-community/master/wiki
+- Community Adventures Repo : https://github.com/foundry-vtt-community/adventures
 - Community Modules Repo : https://github.com/foundry-vtt-community/modules
 - Community Game Systems Repo : https://github.com/foundry-vtt-community/game_systems
+- Community Translations Repo : https://github.com/foundry-vtt-community/translations
