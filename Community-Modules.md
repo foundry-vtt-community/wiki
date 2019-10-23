@@ -948,8 +948,8 @@ To install, download the zip file included in the Github module directory. Extra
 ## Item Collection
 
 * **Author**: @tposney#1462 on Discord
-* **Version**: 1.0.5
-* **Foundry VTT Compatibility**: 0.3.7
+* **Version**: 1.0.12
+* **Foundry VTT Compatibility**: 0.3.9
 * **System Compatibility (If applicable)**: dn5e, because of currency.
 * **Module Requirement(s)**: none.
 * **Module Conflicts**: none that I know of.
@@ -957,7 +957,8 @@ To install, download the zip file included in the Github module directory. Extra
 
 ### Link(s) to Module
 * https://gitlab.com/tposney/itemcollection
-* gitlab.com/tposney/itemcollection/raw/master/module.json
+* https://gitlab.com/tposney/itemcollection/raw/master/module.json
+https://gitlab.com/tposney/itemcollection/raw/master/itemcollection.zip
 
 ### Description
 This module allows the creation of bags which can contain other items, think backpack or bag of holding. These items can be put anywhere an item can.
@@ -969,7 +970,7 @@ See the link for more details.
 ## Minor QOL Improvements
 
 * **Author**: @tposney#1462 on Discord
-* **Version**: 0.1
+* **Version**: 0.11
 * **Foundry VTT Compatibility**: 0.3.6+
 * **System Compatibility (If applicable)**: All
 * **Module Requirement(s)**: None
@@ -1169,8 +1170,8 @@ Configurable options for granting players access to both features, or to use it 
 ## Dynamic Items
 
 * **Author**: @tposney discord
-* **Version**: 0.0.7
-* **Foundry VTT Compatibility**: 0.3.8 dnd 5e.
+* **Version**: 0.0.9
+* **Foundry VTT Compatibility**: 0.3.9 dnd 5e.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None that I know of
 * **Translation Support**: English.
