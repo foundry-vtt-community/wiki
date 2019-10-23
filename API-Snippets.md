@@ -14,6 +14,7 @@ for ( let a of game.actors.entities ) {
 ```
 
 **Update Journal Entries Permissions**
+
 Step 1 - get the folder you want to target
 ```
 const folder = game.folders.entities.find(f => (f.data.type === "JournalEntry") && (f.name === "TARGET FOLDER NAME"));
@@ -51,6 +52,7 @@ for ( let e of entries ) {
 ```
 
 **Move NPCs Into a Folder**
+
 Step 1 - get the set of Actors you want to move to a folder
 ```
 const actors = game.actors.entities.filter(a => a.type === "npc");
