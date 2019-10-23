@@ -1177,8 +1177,8 @@ Configurable options for granting players access to both features, or to use it 
 
 ### Link(s) to Module
 * https://gitlab.com/tposney/dynamicitems
-*  manifest https://gitlab.com/tposney/dynamicitens/raw/master/module.json
-*  download https://gitlab.com/tposney/dynamicitens/raw/master/dynamicitems.zip
+*  manifest https://gitlab.com/tposney/dynamicitems/raw/master/module.json
+*  download https://gitlab.com/tposney/dynamicitems/raw/master/dynamicitems.zip
 
 
 ### Description
