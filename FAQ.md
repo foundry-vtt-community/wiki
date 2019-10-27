@@ -1,5 +1,6 @@
 <!--tl=2-->
 <!--ts-->
+   * [FAQ](#faq)
       * [How Do I Access Foundry VTT?](#how-do-i-access-foundry-vtt)
       * [How Do I Link My Patreon to Discord?](#how-do-i-link-my-patreon-to-discord)
       * [How Do I Install Modules?](#how-do-i-install-modules)
