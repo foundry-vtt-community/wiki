@@ -1,3 +1,7 @@
+<!--tl=2-->
+<!--ts-->
+<!--te-->
+
 ## How Do I Access Foundry VTT?
 Access to FVTT Beta is through Patreon. On release it will be a one-time purchase. Release is tentatively slated for Jan. 2020. Price is not yet set. Only the host will need a license, everyone else can login via a webbrowser.
 
