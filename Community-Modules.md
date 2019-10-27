@@ -8,6 +8,7 @@
       * [Cursor Hider](#cursor-hider)
       * [Deselection](#deselection)
       * [Dice Calculator](#dice-calculator)
+      * [Discord Rich Presence](#discord-rich-presence)
       * [Display Mode](#display-mode)
       * [Entity Order](#entity-order)
       * [FFG Roller](#ffg-roller)
@@ -210,6 +211,30 @@ This module lets the GM deselect a token or tokens by clicking anywhere on the m
 
 ### Description
 This module turns the d20 icon near the chat prompt into a clickable link that opens up a new dice calculator dialog. The dice calculator includes buttons for dice, numbers, attributes for the selected token, and simple math. In addition, it includes support for inline dice rolls, such as `[[2d6 + @abil.str.mod]]` in chat. [Screenshot of the calculator can be found here.](https://i.imgur.com/53XmxEN.png)
+
+---
+
+## Discord Rich Presence
+
+* **Author**: Cody Swendrowski (Toon324#9701 on Discord)
+* **Version**: 1.0.0
+* **Foundry VTT Compatibility**: 0.3.8+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: Supports any Language supported by the Discord GameSDK
+
+### Link(s) to Module
+* [https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence](https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence)
+* [https://raw.githubusercontent.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/master/module.json](https://raw.githubusercontent.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/master/module.json)
+* [Companion API (Required!)](https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/releases)
+
+### Description
+Enables Discord Rich Presence and Invites for http://foundryvtt.com/
+
+![](https://i.imgur.com/m6qwl7E.png)
+
+![](https://i.imgur.com/mNfLSKW.png)
 
 ---
 
