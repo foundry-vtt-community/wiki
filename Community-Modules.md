@@ -115,6 +115,27 @@ The Anvil Menu is also a library able to be used by other module developers with
 
 ---
 
+## Arcane Viewing
+
+* **Author**: KaKaRoTo#4756 (Discord). KaKaRoTo's Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto).
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3.8
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN
+
+### Link(s) to Module
+* [The module is paywalled, and requires subscribing to KaKaRoTo’s Patreon.](https://www.patreon.com/posts/arcane-viewing-30918808)
+
+### Description
+Arcane Viewing adds Audio/Video conferencing support directly from within FVTT.
+
+Through the use of Arcane magic, you are able to see and hear your follow adventurers wherever they may hide! Peer through the looking glass and see the horror that grips them and hear their screams as they are attacked by a cute bunny. Huh?
+
+
+---
+
 ## Chat Autoloader
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
@@ -1084,8 +1105,8 @@ This module adds a search interface for actors. This enables more comfortable br
 * **Translation Support**: EN
 
 ### Link(s) to Module
-* https://github.com/kakaroto/fvtt-module-polyglot
-* https://raw.githubusercontent.com/kakaroto/fvtt-module-polyglot/master/module.json
+* [https://github.com/kakaroto/fvtt-module-polyglot](https://github.com/kakaroto/fvtt-module-polyglot)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-polyglot/master/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-polyglot/master/module.json)
 
 ### Description
 Talk to others using a language your selected character can understand and scrambles in-character text you can't understand.
