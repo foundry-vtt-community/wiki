@@ -29,6 +29,7 @@
       * [Playlist Import](#playlist-import)
       * [Popout!](#popout)
       * [Pointer](#pointer)
+      * [Search Anywhere](#search-anywhere)
       * [SVG Loader](#svg-loader)
       * [Tiles Browser](#tiles-browser)
       * [VTTA Tokenizer](#vtta-tokenizer)
