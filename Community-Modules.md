@@ -1073,6 +1073,25 @@ This module adds a search interface for actors. This enables more comfortable br
 
 ---
 
+## Polyglot
+
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
+* **Version**: 0.3
+* **Foundry VTT Compatibility**: 0.3.0
+* **System Compatibility (If applicable)**: D&D 5e
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN
+
+### Link(s) to Module
+* https://github.com/kakaroto/fvtt-module-polyglot
+* https://raw.githubusercontent.com/kakaroto/fvtt-module-polyglot/master/module.json
+
+### Description
+Talk to others using a language your selected character can understand and scrambles in-character text you can't understand.
+
+---
+
 ## Polymorpher
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
@@ -1092,13 +1111,13 @@ A module for Foundry VTT that lets you polymorph characters into any other chara
 
 ---
 
-## R20 Converter
+## Roll20 Converter
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
 * **Version**: 0.3
-* **Foundry VTT Compatibility**: 0.3.3
+* **Foundry VTT Compatibility**: 0.3.5
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
-* **Module Requirement(s)**: None in Foundry, though module requires a campaign exported from Roll20 using KakaRoTo’s export tool.
+* **Module Requirement(s)**: None in Foundry, though module requires a campaign exported from Roll20 using KaKaRoTo’s export tool.
 * **Module Conflicts**: None known.
 * **Translation Support**: EN (full)
 
