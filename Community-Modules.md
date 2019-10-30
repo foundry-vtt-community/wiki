@@ -1033,7 +1033,7 @@ Many thanks to @Red Rein @Hooking for allowing me to pillage their code.
 
 ### Link(s) to Module
 * [https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc](https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc)
-* [https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc/blob/master/module.json](https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc/blob/master/module.json)
+* [https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc/raw/master/module.json](https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc/raw/master/module.json)
 
 ### Description
 This module adds an additional NPC sheet which can be used for loot containers such as chests. It also allows spells to be automatically converted into spell scrolls by dragging them onto this sheet.
