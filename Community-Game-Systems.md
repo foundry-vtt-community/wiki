@@ -8,6 +8,8 @@
       * [WFRP 4E System](#wfrp-4e-system)
    * [13th Age](#13th-age)
       * [13th Age System (Archmage)](#13th-age-system-archmage)
+   * [FATE](#fate)
+      * [FATE Core & Accelerated](#fate-core--accelerated)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
