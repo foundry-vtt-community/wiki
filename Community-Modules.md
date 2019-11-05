@@ -398,29 +398,6 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 
 ---
 
-## Hype Track
-
-* **Author**: errational#2007 on discord
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3.8
-* **System Compatibility (If applicable)**: dnd5e, pf2e
-* **Module Requirement(s)**: N/A
-* **Module Conflicts**: N/A
-* **Translation Support**: N/A
-
-### Link(s) to Module
-* [https://github.com/death-save/hype-track/](https://github.com/death-save/hype-track/)
-* [https://raw.githubusercontent.com/death-save/hype-track/master/module.json](https://raw.githubusercontent.com/death-save/hype-track/master/module.json)
-
-### Description
-Every hero needs a hype person* in their corner, getting the crowd amped up whenever they arrive.
-
-With Hype Track you can give your players that experience by setting a Hype Track that plays when it is their turn in combat.
-
-*or familiar, or spirit, or sidekick robot, or probably-not-going-kill-all-humanity AI
-
----
-
 ## Image Previewer
 
 * **Author**: Felix#6196 on Discord, accepts donations via paypal, felix.mueller.86@web.de
@@ -514,6 +491,29 @@ The Hotkeys can be seen by hovering over the button as well.
 
 ### Description
 Module to enhance visibility for the GM in Foundry VTT.
+
+---
+## Maestro
+
+* **Author**: Evan Clarke (errational#2007)
+* **Version**: 0.2.2
+* **Foundry VTT Compatibility**: 0.3.9+
+* **System Compatibility (If applicable)**: N/A
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: Hype Track (deprecated by this module)
+* **Translation Support**: N/A (EN only)
+
+### Link(s) to Module
+* https://github.com/death-save/maestro
+* https://raw.githubusercontent.com/death-save/maestro/master/module.json
+
+### Description
+A quality of life audio-focused module for Foundry Virtual Tabletop.
+
+Maestro adds the following features:
+
+* Scene Playlist - Select a playlist to play automatically when the Scene is activated.
+* Hype Track - Set a track to play each time that Actor has a turn in Combat
 
 ---
 
