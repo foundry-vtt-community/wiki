@@ -19,7 +19,7 @@
       * [Grid Scaler](#grid-scaler)
       * [Image Previewer](#image-previewer)
       * [Journal Enhancer](#journal-enhancer)
-      * [Journal Drag] (#journal-drag)
+      * [Journal Drag](#journal-drag)
       * [Layer Hotkeys](#layer-hotkeys)
       * [Less Fog](#less-fog)
       * [Maestro](#maestro)
