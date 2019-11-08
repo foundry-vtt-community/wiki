@@ -19,6 +19,7 @@
       * [Grid Scaler](#grid-scaler)
       * [Image Previewer](#image-previewer)
       * [Journal Enhancer](#journal-enhancer)
+      * [Journal Drag] (#journal-drag)
       * [Layer Hotkeys](#layer-hotkeys)
       * [Less Fog](#less-fog)
       * [Maestro](#maestro)
@@ -419,6 +420,23 @@ A little app to preview images on hover in the file picker menu.
 2. Unzip it into FoundryVTT/resources/app/public/modules
 3. Restart Foundry if it was running.
 4. Enable the module in the Module Configuration
+
+---
+
+## (Journal Drag)
+
+* **Author**: @tposney - discord
+* **Version**: 0.2
+* **Foundry VTT Compatibility**: 0.3.8+
+* **Module Requirement(s)**: (If the module requires other modules to function, note them here.)
+* **Module Conflicts**: Not aware of any
+* **Translation Support**: english, but there are not strings to be localized
+### Link(s) to Module
+* https://gitlab.com/tposney/journal-drag
+* https://gitlab.com/tposney/journal-drag/raw/master/module.json
+
+### Description
+This module allows you to drag things into your journal entries (while they are being edited) and to drag journal links to the map (actors) or to characters (items) or to other journal entries.
 
 ---
 
