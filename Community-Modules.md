@@ -393,6 +393,7 @@ It started by adding Drawing Tools, and then an experimental Macros system and n
 
 ### Link(s) to Module
 * [https://github.com/UberV/scaleGrid/](https://github.com/UberV/scaleGrid/) 
+* [https://raw.githubusercontent.com/UberV/scaleGrid/master/module.json](https://raw.githubusercontent.com/UberV/scaleGrid/master/module.json) 
 
 ### Description
 This mod allows you to resize a grid more easily within Foundry, allowing easier map setup when a grid is uneven or unclear within a background image.
