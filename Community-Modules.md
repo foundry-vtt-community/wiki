@@ -15,6 +15,7 @@
       * [Entity Order](#entity-order)
       * [FFG Roller](#ffg-roller)
       * [Foundry Patrol](#foundry-patrol)
+      * [Foundry Pin](#foundry-pin)
       * [The Furnace](#the-furnace)
       * [Grid Scaler](#grid-scaler)
       * [Image Previewer](#image-previewer)
@@ -359,6 +360,25 @@ TLDR: Create token automated token patrols
 Using this mod, you will be able to set up "Patrol Routes" which tokens will move to based on a timing of your choice. This can give certain scenes a more life like appearance! Make your markets full of life and give your castles that patrolling retinue they've always needed!
 
 ---
+
+## Foundry Pin
+
+* **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
+* **Version**: 1.0
+* **Foundry VTT Compatibility**: 0.3.9+
+* **Translation Support**: N/A
+
+### Link to Module
+
+* [https://bitbucket.org/Fyorl/foundry-pin](https://bitbucket.org/Fyorl/foundry-pin)
+* [https://bitbucket.org/Fyorl/foundry-pin/raw/master/module.json](https://bitbucket.org/Fyorl/foundry-pin/raw/master/module.json)
+
+### Description
+
+Allows the user to pin windows which will be re-opened automatically the next time you open foundry.
+
+---
+
 ## The Furnace
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
