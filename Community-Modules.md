@@ -65,7 +65,6 @@
    * [Foundry VTT Modules for WFRP 4E](#foundry-vtt-modules-for-wfrp-4e)
       * [Arcane Marks &amp; Careers](#arcane-marks--careers)
    * [Foundry VTT Modules (Defunct)](#foundry-vtt-modules-defunct)
-      * [aDnD5e](#adnd5e)
       * [Encumbrance Variant](#encumbrance-variant)
       * [FVTT-Party (Discontinued, see VTTA-Party for an successor)](#fvtt-party-discontinued-see-vtta-party-for-an-successor)
       * [GM Roll Message](#gm-roll-message)
