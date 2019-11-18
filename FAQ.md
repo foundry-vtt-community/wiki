@@ -3,6 +3,7 @@
    * [Frequently Asked Questions](#frequently-asked-questions)
       * [How Do I Access Foundry VTT?](#how-do-i-access-foundry-vtt)
       * [How Do I Link My Patreon to Discord?](#how-do-i-link-my-patreon-to-discord)
+      * [How do I enable WebGL?](#how-do-i-enable-webgl)
       * [How Do I Install Modules?](#how-do-i-install-modules)
       * [I Forgot My Player Access Keys!](#i-forgot-my-player-access-keys)
       * [Where Can I Place Content In Foundry?](#where-can-i-place-content-in-foundry)
