@@ -53,5 +53,7 @@ Table of Contents
       * [<a href="https://github.com/foundry-vtt-community/game_systems">Community Game Systems Repository</a>](#community-game-systems-repository)
       * [<a href="Community-Modules">Community Modules</a>](#community-modules)
       * [<a href="https://github.com/foundry-vtt-community/modules">Community Module Repository</a>](#community-module-repository)
+      * [<a href="Community-Rollable-Tables">Community Rollable Tables</a>](#community-rollable-tables)
+      * [<a href="https://github.com/foundry-vtt-community/rollable_table">Community Rollable Table Repository</a>](#community-rollable-table-repository)
       * [<a href="Community-Translations">Community Translations</a>](#community-translations)
       * [<a href="https://github.com/foundry-vtt-community/translations">Community Translations Repository</a>](#community-translations-repository)
