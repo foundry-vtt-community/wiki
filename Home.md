@@ -82,8 +82,6 @@
 
 # [API](API)
 
-## [API Basics](API-Basics)
-
 ## [API Snippets](API-Snippets)
 
 # [Community Game Systems & Modules](Community-Game-Systems-&-Modules)
