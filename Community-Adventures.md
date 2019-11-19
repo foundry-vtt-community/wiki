@@ -1,5 +1,7 @@
 <!--tl=2-->
 <!--ts-->
+   * [Foundry VTT Adventures for DnD 5E](#foundry-vtt-adventures-for-dnd-5e)
+      * [The Lost City of Barakus](#the-lost-city-of-barakus)
    * [Appendix](#appendix)
       * [Appendix A: Adding an Adventure](#appendix-a-adding-an-adventure)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
