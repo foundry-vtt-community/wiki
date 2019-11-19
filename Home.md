@@ -100,6 +100,10 @@
 
 ## [Community Module Repository](https://github.com/foundry-vtt-community/modules)
 
+## [Community Rollable Table](Community-Rollable-Table)
+
+## [Community Rollable Table Repository](https://github.com/foundry-vtt-community/rollable_table)
+
 ## [Community Translations](Community-Translations)
 
 ## [Community Translations Repository](https://github.com/foundry-vtt-community/translations)
