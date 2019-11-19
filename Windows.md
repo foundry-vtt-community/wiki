@@ -43,6 +43,7 @@ To get it manually Right Click on the host > Copy IpV4
 If your party+GM is more than 5 people, you cannot use Hamachi without paying a subscription since it allows a network of 5 people maximum.
 One good solution is ZeroTier.
 These are the steps to create a virtual network and create your Foundry session.
+
 For GMs
 1.	Download Zerotier from https://www.zerotier.com/download/
 2.	Install it
@@ -51,6 +52,7 @@ For GMs
 5.	Once created, in the network properties you should have an alphanumeric network id (something like 0dddb752f775c1e2). Select and copy (Ctrl+c) it.
 6.	In the system tray you should have this icon ![](https://i.imgur.com/gNesEDY.png) . Clicking on it will open a menu. Click on join a network and insert the network id copied at point 5. Click ok.
 7.	Now your pc is in a virtual network. In the page https://my.zerotier.com/network/<networkid> at the section “Member” you should see your address (mac), your managed IPs, Last seen, Physical IP. Copy your Managed IPs
+
 For each player:
 1.	Download Zerotier from https://www.zerotier.com/download/
 2.	Install it
