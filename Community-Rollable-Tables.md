@@ -1,5 +1,5 @@
-## For those involving images & entities and not just text, provide a link with the images hosted
-### Share the raw data so it can be imported, not just a screenshot of it
+## For tables involving images & entities and not just text, provide a link with the images hosted
+### Share the raw data so it can be imported, not just a screenshot of what the table looks like
 ***
 # Outline
 - Table Name:
@@ -10,6 +10,9 @@
 ```
 Data Goes in Here
 You can find your table data at \resources\app\public\worlds\(your world)\data, in tables
+All the data should come up in a single line
+Just select, copy, and paste
+You also do the same thing when adding a table
 ```
 - Any notes about the table:
 ***
