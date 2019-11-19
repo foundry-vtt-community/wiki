@@ -44,7 +44,6 @@ Table of Contents
       * [<a href="Modules#installing-modules">Installing Modules</a>](#installing-modules)
       * [<a href="Modules#developing-modules">Developing Modules</a>](#developing-modules)
    * [<a href="API">API</a>](#api)
-      * [<a href="API-Basics">API Basics</a>](#api-basics)
       * [<a href="API-Snippets">API Snippets</a>](#api-snippets)
    * [<a href="Community-Game-Systems-&amp;-Modules">Community Game Systems &amp; Modules</a>](#community-game-systems--modules)
       * [<a href="Community-Adventures">Community Adventures</a>](#community-adventures)
