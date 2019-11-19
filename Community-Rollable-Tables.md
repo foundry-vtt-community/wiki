@@ -1,5 +1,11 @@
 <!--tl=2-->
 <!--ts-->
+   * [Foundry VTT Rollable Tables for DnD 5E](#foundry-vtt-rollable-tables-for-dnd-5e)
+      * [Potion Strength](#potion-strength)
+   * [Appendix](#appendix)
+      * [Appendix A: Adding a Rollable Table](#appendix-a-adding-a-rollable-table)
+      * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
+      * [Appendix C: Importing &amp; Exporting Tables](#appendix-c-importing--exporting-tables)
 <!--te-->
 
 # Foundry VTT Rollable Tables for DnD 5E
