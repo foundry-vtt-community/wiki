@@ -16,6 +16,8 @@
 
 ### [macOS](macOS)
 
+### [FreeBSD](FreeBSD)
+
 ## [Self-hosted Cloud](Self-hosted-Cloud)
 
 ### [Ubuntu VM](Ubuntu-VM)
