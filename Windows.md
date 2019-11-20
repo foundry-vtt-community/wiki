@@ -2,14 +2,14 @@
 1. Download the latest Windows setup file from [Patreon](https://patreon.com/foundryvtt/posts)
 2. Run `FoundryVTT-0.4.0-Setup.exe` to install Foundry VTT (note: your version might not show 0.4.0)
 Note: If you are running Windows 10 you may see the following warning:    
-![https://i.imgur.com/aTfmxeq.png](https://i.imgur.com/aTfmxeq.png)
+![https://i.imgur.com/aTfmxeq.png](https://i.imgur.com/aTfmxeq.png)    
 Click More Info, then Run Anyway:    
-![https://i.imgur.com/nBjS6J6.png](https://i.imgur.com/nBjS6J6.png)
+![https://i.imgur.com/nBjS6J6.png](https://i.imgur.com/nBjS6J6.png)    
 3. Follow the instructions to install Foundry.
 Note: If you select Run Foundry VTT at the end of installation you may be prompted to allow it through your Windows firewall. Click Allow:     
-![https://i.imgur.com/Q5FMI1O.png](https://i.imgur.com/Q5FMI1O.png)
+![https://i.imgur.com/Q5FMI1O.png](https://i.imgur.com/Q5FMI1O.png)    
 4. If you see this screen you have successfully installed Foundry VTT:    
-![https://i.imgur.com/CnGbXAK.jpg](https://i.imgur.com/CnGbXAK.jpg)
+![https://i.imgur.com/CnGbXAK.jpg](https://i.imgur.com/CnGbXAK.jpg)    
 
 If you need to launch Foundry again (for example you reboot your PC), you will can run `FoundryVTT.exe` from the folder you installed Foundry VTT in, or you can click the link in the Start Menu or Desktop.
 
