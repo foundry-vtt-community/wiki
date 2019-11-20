@@ -11,6 +11,7 @@ Table of Contents
          * [<a href="Windows">Windows</a>](#windows)
          * [<a href="Linux">Linux</a>](#linux)
          * [<a href="macOS">macOS</a>](#macos)
+         * [<a href="FreeBSD">FreeBSD</a>](#macos)
       * [<a href="Self-hosted-Cloud">Self-hosted Cloud</a>](#self-hosted-cloud)
          * [<a href="Ubuntu-VM">Ubuntu VM</a>](#ubuntu-vm)
          * [<a href="DigitalOcean-Initialization-Script">DigitalOcean Initialization Script</a>](#digitalocean-initialization-script)
