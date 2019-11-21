@@ -787,8 +787,8 @@ Adds a browser to the tiles layer to conveniently preview and then drag and drop
 ## Torch
 
 * **Author**: Deuce#8801 on Discord.
-* **Version**: 0.9.2
-* **Foundry VTT Compatibility**: 0.3.9
+* **Version**: 0.10.1
+* **Foundry VTT Compatibility**: 0.4.0+
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
