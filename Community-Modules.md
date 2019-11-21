@@ -800,15 +800,15 @@ Adds a HUD button to toggle light of a specific radius.  For the dnd5e system, w
 
 ---
 
-## VTTA Tokenizer
+## VTTA Iconizer
 
 * **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
-* **Version**: v1.0.2-rc.1
-* **Foundry VTT Compatibility**: 0.3.5+
-* **System Compatibility (If applicable)**:
+* **Version**: v1.0.12
+* **Foundry VTT Compatibility**: 0.4.0+
+* **System Compatibility (If applicable)**: "dnd5e", "pf2e", "archmage" - shout out if I should anything, thanks!
 * **Module Requirement(s)**: Requires the player permission "Trusted Player"
 * **Module Conflicts**:
-* **Translation Support**: EN (full)
+* **Translation Support**: EN (full), DE (full)
 
 ### Link(s) to Module
 * [https://www.vttassets.com/asset/vtta-tokenizer](https://www.vttassets.com/asset/vtta-tokenizer)
@@ -821,6 +821,32 @@ Tokenizer provides the user with:
 - the ability to scale and translate each layer individually
 - automatic generation of a mask using the marching squares algorithm
 - automatic upload of the created tokens to the Foundry VTT server (requires 'Trusted Player' permission level)
+
+---
+
+## VTTA Tokenizer
+
+* **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
+* **Version**: v1.0.2
+* **Foundry VTT Compatibility**: 0.4.0+
+* **System Compatibility (If applicable)**: "dnd5e" - shout out if I should anything, thanks!
+* **Module Requirement(s)**: 
+* **Module Conflicts**:
+* **Translation Support**: EN (full), DE (full)
+
+### Link(s) to Module
+* [https://www.vttassets.com/asset/vtta-iconizer](https://www.vttassets.com/asset/vtta-iconizer)
+
+### Description
+Iconizer watches the creation of items in your world, and tries to find a suitable icon from a pre-populated name/icon dictionary. All you need to do, is
+
+- downloading a suitable icon library, or use the icons that are coming with Foundry
+- creating a dictionary
+- create items and watch the magic happen
+
+The item database comes pre-populated with 1800+ item name set, but lives from community contributions. While the database if 
+strongly tied to the item names from D&D Beyond it works best with DND5e, but can be adapted to any game system due to the ability
+to define custom databases, too
 
 ---
 
@@ -1290,6 +1316,38 @@ This module includes each SRD NPC in 5th edition, imported into Foundry VTT. Thi
 Future updates will include edits to the imports to bring them in line with “good practice” for Foundry NPCs.
 
 To install, simply extract the zip file into `/public/modules`, enable the module in Foundry, and then do a full restart in order to display the compendium.
+
+---
+
+## VTTA D&D Beyond Integration
+
+* **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
+* **Version**: v1.0.2
+* **Foundry VTT Compatibility**: 0.4.0+
+* **System Compatibility (If applicable)**:
+* **Module Requirement(s)**: None
+* **Module Conflicts**:
+* **Translation Support**: EN (full), DE (full)
+
+### Link(s) to Module
+* [https://www.vttassets.com/asset/vtta-dndbeyond](https://www.vttassets.com/asset/vtta-dndbeyond)
+
+### Description
+The integration module provides you with the possibility to import
+
+* characters and their related
+* spells and
+* inventory items
+
+into the world and optionally into designated compendium packs (see [a suitable tiny module](https://www.vttassets.com/asset/shared) for a possible implementation). Is is supporting all features currently implemented into Foundry, including
+
+* Inventory: weapons, equipment, consumables (scrolls and potions), loot (everything else)
+* Character Features
+* Character Classes
+* Spells and
+* of course generic information like 
+    * Proficiencies: Adding everything on top of the generic,  support proficiency types
+    * Senses: Darkvision, including the token adjustments, so you don't need to do that manually
 
 ---
 
