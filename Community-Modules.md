@@ -183,8 +183,8 @@ This module improves loading times by only rendering the last few chat messages 
 ## Combat Utility Belt (Beta)
 
 * **Author**: errational#2007 on discord
-* **Version**: 0.5
-* **Foundry VTT Compatibility**: 0.3.7
+* **Version**: 0.7.1
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: N/A
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: N/A
@@ -555,7 +555,7 @@ Module to enhance visibility for the GM in Foundry VTT.
 
 * **Author**: Evan Clarke (errational#2007)
 * **Version**: 0.2.2
-* **Foundry VTT Compatibility**: 0.3.9+
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: N/A
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: Hype Track (deprecated by this module)
@@ -995,26 +995,6 @@ To install use the following link in Foundrys Module Setup https://raw.githubuse
 
 ---
 
-## DDB Popper
-
-* **Author**: errational#2007 on discord
-* **Version**: 1.1
-* **Foundry VTT Compatibility**: 0.3.7
-* **System Compatibility (If applicable)**: dnd5e
-* **Module Requirement(s)**: N/A
-* **Module Conflicts**: N/A
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/death-save/ddb-popper](https://github.com/death-save/ddb-popper)
-* [https://raw.githubusercontent.com/death-save/ddb-popper/master/module.json](https://raw.githubusercontent.com/death-save/ddb-popper/master/module.json)
-
-### Description
-Opens a D&D Beyond popup for a linked actor.    
-More info here: [https://github.com/death-save/ddb-popper](https://github.com/death-save/ddb-popper)
-
----
-
 ## DnD Beyond Character Importer
 
 * **Author**: @Sillvva#2532 on Discord.
@@ -1426,6 +1406,26 @@ Once installed, you'll find the careers in the Arcane Careers Compendium, and yo
 # Foundry VTT Modules (Defunct)
 
 Foundry VTT modules that no longer work are noted here. Modules included here have been defunct for at least one month. This exists to help document previous work on Foundry Virtual Tabletop by the community, as well as to exist as a record for anyone who chooses to remain on a previous version of Foundry VTT.  
+
+## DDB Popper (use VTTA-DNDBEYOND instead)
+
+* **Author**: errational#2007 on discord
+* **Version**: 1.1
+* **Foundry VTT Compatibility**: 0.3.7
+* **System Compatibility (If applicable)**: dnd5e
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: N/A
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/death-save/ddb-popper](https://github.com/death-save/ddb-popper)
+* [https://raw.githubusercontent.com/death-save/ddb-popper/master/module.json](https://raw.githubusercontent.com/death-save/ddb-popper/master/module.json)
+
+### Description
+Opens a D&D Beyond popup for a linked actor.    
+More info here: [https://github.com/death-save/ddb-popper](https://github.com/death-save/ddb-popper)
+
+---
 
 ## Encumbrance Variant
 
