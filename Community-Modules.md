@@ -704,7 +704,7 @@ This module aims to simplify the process of adding multiple music tracks to Foun
 
 ### Link(s) to Module
 * [https://github.com/kakaroto/fvtt-module-popout](https://github.com/kakaroto/fvtt-module-popout)
-* [https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/popout/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/popout/module.json)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/module.json)
 
 ### Description
 This Foundry VTT module lets you pop out journal entries into their own windows. It is currently acting as a proof of concept.
