@@ -20,11 +20,14 @@ packages:
 
 runcmd:
   - printf '\nSetting up server for Foundry VTT\n'
+  - mkdir foundrycore
+  - mkdir foundrydata
+  - cd foundrycore
   - wget https://foundryvtt.s3-us-west-2.amazonaws.com/releases/__ACCESSKEY__/FoundryVirtualTabletop-linux-x64.zip
   - unzip FoundryVirtualTabletop-linux-x64.zip
   - screen -S Foundry
   - printf '\nStarting up Foundry\n'
-  - node /resources/app/main.js --port=__PORT__
+  - node /resources/app/main.js --port=__PORT__ --dataPath=/foundrydata/
 ```
 
 Wait a few minutes, then verify Foundry started up by running `tail -100 /var/log/cloud-init-output.log`
@@ -39,6 +42,11 @@ Cons: You'll need to ssh in to finish setup
 packages:
   - unzip
   - nodejs
+
+runcmd:
+  - printf '\nSetting up server for Foundry VTT\n'
+  - mkdir foundrycore
+  - mkdir foundrydata
 ```
 
 #### Finishing setup
@@ -46,10 +54,11 @@ packages:
 DigitalOcean will email you a one-time password to SSH in that you'll have to immediately change before executing further commands.
 
 1. `ssh root@<Your Droplet IP>`
-2. `wget https://foundryvtt.s3-us-west-2.amazonaws.com/releases/<Patreon Access Key>/FoundryVirtualTabletop-linux-x64.zip`
-3. `unzip FoundryVirtualTabletop-linux-x64.zip`
-4. `screen -S Foundry` (creates a named background "screen" so the server stays running)
-5. `node /resources/app/main.js --port=<Desired Port>`
-6. `CTRL + A + D` (detach from screen)
+2. `cd foundrycore`
+3. `wget https://foundryvtt.s3-us-west-2.amazonaws.com/releases/<Patreon Access Key>/FoundryVirtualTabletop-linux-x64.zip`
+4. `unzip FoundryVirtualTabletop-linux-x64.zip`
+5. `screen -S Foundry` (creates a named background "screen" so the server stays running)
+6. `node /resources/app/main.js --port=<Desired Port> --dataPath=/foundrycore/`
+7. `CTRL + A + D` (detach from screen)
 
 If you ever want to reattach to the Screen, use `screen -r`
