@@ -735,8 +735,8 @@ This module adds the ability for each user to show a cursor following his mouse 
 ## Search Anywhere
 
 * **Author**: Simone#6710 on Discord
-* **Version**: 1.0.2
-* **Foundry VTT Compatibility**: 0.3.9+
+* **Version**: 1.0.3
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
