@@ -160,14 +160,13 @@ Arcane Viewing adds Audio/Video conferencing support directly from within FVTT.
 
 Through the use of Arcane magic, you are able to see and hear your follow adventurers wherever they may hide! Peer through the looking glass and see the horror that grips them and hear their screams as they are attacked by a cute bunny. Huh?
 
-
 ---
 
 ## Chat Autoloader
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **Version**: 0.1
-* **Foundry VTT Compatibility**: At least v0.3.2+, propably earlier versions as well.
+* **Foundry VTT Compatibility**: At least v0.3.2+, probably earlier versions as well.
 * **Module Conflicts**: Possible conflicts with *Message Age Restriction* by Felix@6196.
 * **Translation Support**: EN (full)
 
@@ -176,7 +175,7 @@ Through the use of Arcane magic, you are able to see and hear your follow advent
 * [https://gitlab.com/moerills-fvtt-modules/chat-autoloader/raw/master/chat-autoloader/module.json](https://gitlab.com/moerills-fvtt-modules/chat-autoloader/raw/master/chat-autoloader/module.json)
 
 ### Description
-This module improves loading times by only rendering the last few chat messages at page load. Older messages will automatically get rendered while scrolling to the top. (This behaviour is similar to e.g. scrolling in Discords chat)
+This module improves loading times by only rendering the last few chat messages at page load. Older messages will automatically get rendered while scrolling to the top. (This behavior is similar to e.g. scrolling in Discords chat)
 
 ---
 
@@ -216,9 +215,9 @@ Some highlights for this version include:
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [Project Repository & Readme](https://gitlab.com/foundry-azzurite/cursor-hider)
+* [Phttps://gitlab.com/foundry-azzurite/cursor-hider](https://gitlab.com/foundry-azzurite/cursor-hider)
 * [https://gitlab.com/foundry-azzurite/cursor-hider/raw/master/src/module.json](https://gitlab.com/foundry-azzurite/cursor-hider/raw/master/src/module.json)
-* [Zip File](https://gitlab.com/foundry-azzurite/cursor-hider/raw/master/dist/cursor-hider.zip)
+* [https://gitlab.com/foundry-azzurite/cursor-hider/raw/master/dist/cursor-hider.zip](https://gitlab.com/foundry-azzurite/cursor-hider/raw/master/dist/cursor-hider.zip)
 
 ### Description
 
@@ -268,14 +267,13 @@ This module turns the d20 icon near the chat prompt into a clickable link that o
 * **Version**: 1.0.0
 * **Foundry VTT Compatibility**: 0.3.8+
 * **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
+* **Module Requirement(s)**: [Companion API (Required!)](https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/releases)
 * **Module Conflicts**: None
 * **Translation Support**: Supports any Language supported by the Discord GameSDK
 
 ### Link(s) to Module
 * [https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence](https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence)
 * [https://raw.githubusercontent.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/master/module.json](https://raw.githubusercontent.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/master/module.json)
-* [Companion API (Required!)](https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/releases)
 
 ### Description
 Enables Discord Rich Presence and Invites for http://foundryvtt.com/
@@ -302,6 +300,30 @@ Enables Discord Rich Presence and Invites for http://foundryvtt.com/
 
 ### Description
 This module makes it so that when you click the anvil in the top left of the screen, the sidebar in Foundry is hidden.
+
+---
+
+## Dynamic Items
+
+* **Author**: @tposney discord
+* **Version**: 0.0.9
+* **Foundry VTT Compatibility**: 0.3.9 dnd 5e.
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None that I know of
+* **Translation Support**: English.
+
+### Link(s) to Module
+* [https://gitlab.com/tposney/dynamicitems](https://gitlab.com/tposney/dynamicitems)
+* [https://gitlab.com/tposney/dynamicitems/raw/master/module.json](https://gitlab.com/tposney/dynamicitems/raw/master/module.json)
+* [https://gitlab.com/tposney/dynamicitems/raw/master/dynamicitems.zip](https://gitlab.com/tposney/dynamicitems/raw/master/dynamicitems.zip)
+
+### Description
+Dynamic items are ones that makes changes to your stats/modifiers when they are active in your inventory. This module is really intended for player characters and NPCs that have linked tokens.
+
+* Armor and shields now update your armor class when equipped and reverse the change when unequipped. (this happens automatically once the module is turned on and the items are equipped). Armor can have dynamic properties, e.g. ac+2 which can require attunement.
+* Rings of protection can increase saves or armor class when active, again changes are reversed when unequiped or unattuned (if that is a word).
+* There is a straightforward ui to make changes/create items For more complex changes (e.g. AC based on dex mod, you need to know the attribute specification, e.g. data.avilities.dex.mod)
+* Dynamic effects can be applied to any item, weapons/backpacks/armor/feats, in addition to its normal properties.
 
 ---
 
@@ -399,7 +421,6 @@ The Furnace is an essential part of every Foundry. This Foundry VTT module bring
 
 It started by adding Drawing Tools, and then an experimental Macros system and now it also adds a 'Split Journal' feature. More QoL improvements are planned.
 
-
 ---
 
 ## Grid Scaler
@@ -425,7 +446,7 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 
 * **Author**: Felix#6196 on Discord, accepts donations via paypal, felix.mueller.86@web.de
 * **Version**: 0.1
-* **Foundry VTT Compatibility**: written for 0.3.4, should be fairly version independant
+* **Foundry VTT Compatibility**: written for 0.3.4, should be fairly version independent
 * **System Compatibility (If applicable)**: universal
 * **Module Requirement(s)**: none
 * **Module Conflicts**: none
@@ -445,40 +466,22 @@ A little app to preview images on hover in the file picker menu.
 
 ---
 
-## (Journal Drag)
+## Journal Drag
 
 * **Author**: @tposney - discord
 * **Version**: 0.3
 * **Foundry VTT Compatibility**: 0.3.8+
 * **Module Requirement(s)**: (If the module requires other modules to function, note them here.)
 * **Module Conflicts**: Not aware of any
-* **Translation Support**: english, but there are not strings to be localized
+* **Translation Support**: english, but there are no strings to be localized
+
 ### Link(s) to Module
-* https://gitlab.com/tposney/journal-drag
-* https://gitlab.com/tposney/journal-drag/raw/master/module.json
+* [https://gitlab.com/tposney/journal-drag](https://gitlab.com/tposney/journal-drag)
+* [https://gitlab.com/tposney/journal-drag/raw/master/module.json](https://gitlab.com/tposney/journal-drag/raw/master/module.json)
 
 ### Description
 This module allows you to drag things into your journal entries (while they are being edited) and to drag journal links to the map (actors) or to characters (items) or to other journal entries.
 V0.3 allows dragging entities from compendia into the journal sheet. If no entity of the right type and with the same name exists it will be imported from the compendia.
-
----
-
-## Journal Enhancer
-
-* **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Version**: Version 0.2
-* **Foundry VTT Compatibility**: 0.2.10
-* **System Compatibility (If applicable)**: As of right now, it is universally applicable to all existing systems.
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None currently known
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://gitlab.com/moerills-fvtt-modules/journal-enhancer](https://gitlab.com/moerills-fvtt-modules/journal-enhancer)
-* [https://gitlab.com/moerills-fvtt-modules/journal-enhancer/raw/master/journal-enhancer/module.json](https://gitlab.com/moerills-fvtt-modules/journal-enhancer/raw/master/journal-enhancer/module.json)
-
-### Description 
-This module adds a search function for journal entries, includes a “jump to pin” button for moving the camera to a pinned journal entry, adds a zoom function for image handouts, and hides the name of a handout to users without permissions set. Moerill includes a video showing off the mod’s utility here: [https://youtu.be/5O4yA8Kr6bs](https://youtu.be/5O4yA8Kr6bs)
 
 ---
 
@@ -534,6 +537,7 @@ The Hotkeys can be seen by hovering over the button as well.
 Module to enhance visibility for the GM in Foundry VTT.
 
 ---
+
 ## Maestro
 
 * **Author**: Evan Clarke (errational#2007)
@@ -545,8 +549,8 @@ Module to enhance visibility for the GM in Foundry VTT.
 * **Translation Support**: N/A (EN only)
 
 ### Link(s) to Module
-* https://github.com/death-save/maestro
-* https://raw.githubusercontent.com/death-save/maestro/master/module.json
+* [https://github.com/death-save/maestro](https://github.com/death-save/maestro)
+* [https://raw.githubusercontent.com/death-save/maestro/master/module.json](https://raw.githubusercontent.com/death-save/maestro/master/module.json)
 
 ### Description
 A quality of life audio-focused module for Foundry Virtual Tabletop.
@@ -578,6 +582,7 @@ A Foundry VTT Module to enable filtering chat-messages by their age. Each user c
 ---
 
 ## No Token Animations
+
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
 * **Version**: 1.0
 * **Foundry VTT Compatibility**: 0.3.5+
@@ -648,7 +653,7 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 ### Link(s) to Module
 * [https://gitlab.com/foundry-azzurite/pings](https://gitlab.com/foundry-azzurite/pings)
 * [https://gitlab.com/foundry-azzurite/pings/raw/master/src/module.json](https://gitlab.com/foundry-azzurite/pings/raw/master/src/module.json)
-* [Zip File](https://gitlab.com/foundry-azzurite/pings/raw/master/dist/pings.zip)
+* [https://gitlab.com/foundry-azzurite/pings/raw/master/dist/pings.zip](https://gitlab.com/foundry-azzurite/pings/raw/master/dist/pings.zip)
 
 ### Description
 
@@ -751,6 +756,22 @@ This module allows to load walls, lights and sources through .svg files, provide
 
 ---
 
+## Theatre
+
+* **Author**: NoahZorbaugh#1404 on Discord.
+* **Version**: 1.0.4
+* **Foundry VTT Compatibility**: 0.4.0
+* **Translation Support**: EN (full) JA (Full) KO (Full) FR (Full) TH (Full)
+
+### Link(s) to Module
+* [https://gitlab.com/NoahZorbaugh/theatre/tree/master](https://gitlab.com/NoahZorbaugh/theatre/tree/master)
+* [https://gitlab.com/NoahZorbaugh/theatre/raw/master/module.json](https://gitlab.com/NoahZorbaugh/theatre/raw/master/module.json)
+
+### Description
+Theatre is a mod for FVTT as well as future unannounced VTT that allows for a visual novel style RP experience for text, and text-voice hybrid games. The primary function of Theatre is to allow for graphical 'theatre-inserts' or 'standin-graphics' to appear on screen with an accompanying area for text beneath them. This follows the style of visual novels, and even provides a means to animate or decorate the text as it appears in the below box. It also provides an emote system to allow users to configure different graphics for the various emotive expressions. Most of the emotes additionally have a built in 'emote animation' that occurs when the emote is selected, which can be toggled off globally if undesired.
+
+---
+
 ## Tiles Browser
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
@@ -764,72 +785,6 @@ This module allows to load walls, lights and sources through .svg files, provide
 
 ### Description
 Adds a browser to the tiles layer to conveniently preview and then drag and drop tiles onto the scene. Providing additional features to manipulate tile rotation and size while dragging.
-
----
-
-## Torch
-
-* **Author**: Deuce#8801 on Discord.
-* **Version**: 0.10.1
-* **Foundry VTT Compatibility**: 0.4.0+
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/RealDeuce/torch/](https://github.com/RealDeuce/torch/)
-* [https://raw.githubusercontent.com/RealDeuce/torch/master/module.json](https://raw.githubusercontent.com/RealDeuce/torch/master/module.json)
-
-### Description
-Adds a HUD button to toggle light of a specific radius.  For the dnd5e system, will also deduct torches from inventory when turned on if the Actor does not know the Light cantrip.
-
----
-
-## VTTA Iconizer
-
-* **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
-* **Version**: v1.0.12
-* **Foundry VTT Compatibility**: 0.4.0+
-* **System Compatibility (If applicable)**: "dnd5e", "pf2e", "archmage" - shout out if I should anything, thanks!
-* **Module Requirement(s)**: Requires the player permission "Trusted Player"
-* **Module Conflicts**:
-* **Translation Support**: EN (full), DE (full)
-
-### Link(s) to Module
-* [https://www.vttassets.com/asset/vtta-tokenizer](https://www.vttassets.com/asset/vtta-tokenizer)
-
-### Description
-Tokenizer provides the user with:
-- ability to define a custom token size, defaulting to 400x400 pixels
-- the ability to create multiple layers consisting of individual loaded image
-- the ability to load images from a) local disk b) a web URL c) the Foundry VTT server
-- the ability to scale and translate each layer individually
-- automatic generation of a mask using the marching squares algorithm
-- automatic upload of the created tokens to the Foundry VTT server (requires 'Trusted Player' permission level)
-
----
-
-## VTTA Tokenizer
-
-* **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
-* **Version**: v1.0.2
-* **Foundry VTT Compatibility**: 0.4.0+
-* **System Compatibility (If applicable)**: "dnd5e" - shout out if I should anything, thanks!
-* **Module Requirement(s)**: 
-* **Module Conflicts**:
-* **Translation Support**: EN (full), DE (full)
-
-### Link(s) to Module
-* [https://www.vttassets.com/asset/vtta-iconizer](https://www.vttassets.com/asset/vtta-iconizer)
-
-### Description
-Iconizer watches the creation of items in your world, and tries to find a suitable icon from a pre-populated name/icon dictionary. All you need to do, is
-
-- downloading a suitable icon library, or use the icons that are coming with Foundry
-- creating a dictionary
-- create items and watch the magic happen
-
-The item database comes pre-populated with 1800+ item name set, but lives from community contributions. While the database if 
-strongly tied to the item names from D&D Beyond it works best with DND5e, but can be adapted to any game system due to the ability
-to define custom databases, too
 
 ---
 
@@ -855,6 +810,72 @@ On creation each unlinked Token will fit snugly into the pattern of your mold.
 - Hit Point rolling by formula (currently dnd5e only)
 - Overriding default token template config
 - Providing a customizable overlay to quickly  check some stats on Token hover
+
+---
+
+## Torch
+
+* **Author**: Deuce#8801 on Discord.
+* **Version**: 0.10.1
+* **Foundry VTT Compatibility**: 0.4.0+
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/RealDeuce/torch/](https://github.com/RealDeuce/torch/)
+* [https://raw.githubusercontent.com/RealDeuce/torch/master/module.json](https://raw.githubusercontent.com/RealDeuce/torch/master/module.json)
+
+### Description
+Adds a HUD button to toggle light of a specific radius.  For the dnd5e system, will also deduct torches from inventory when turned on if the Actor does not know the Light cantrip.
+
+---
+
+## VTTA Iconizer
+
+* **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
+* **Version**: v1.0.2
+* **Foundry VTT Compatibility**: 0.4.0+
+* **System Compatibility (If applicable)**: "dnd5e" - shout out if I should anything, thanks!
+* **Module Requirement(s)**: 
+* **Module Conflicts**:
+* **Translation Support**: EN (full), DE (full)
+
+### Link(s) to Module
+* [https://www.vttassets.com/asset/vtta-iconizer](https://www.vttassets.com/asset/vtta-iconizer)
+
+### Description
+Iconizer watches the creation of items in your world, and tries to find a suitable icon from a pre-populated name/icon dictionary. All you need to do, is
+
+- downloading a suitable icon library, or use the icons that are coming with Foundry
+- creating a dictionary
+- create items and watch the magic happen
+
+The item database comes pre-populated with 1800+ item name set, but lives from community contributions. While the database if 
+strongly tied to the item names from D&D Beyond it works best with DND5e, but can be adapted to any game system due to the ability
+to define custom databases, too
+
+---
+
+## VTTA Tokenizer
+
+* **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
+* **Version**: v1.0.12
+* **Foundry VTT Compatibility**: 0.4.0+
+* **System Compatibility (If applicable)**: "dnd5e", "pf2e", "archmage" - shout out if I should anything, thanks!
+* **Module Requirement(s)**: Requires the player permission "Trusted Player"
+* **Module Conflicts**:
+* **Translation Support**: EN (full), DE (full)
+
+### Link(s) to Module
+* [https://www.vttassets.com/asset/vtta-tokenizer](https://www.vttassets.com/asset/vtta-tokenizer)
+
+### Description
+Tokenizer provides the user with:
+- ability to define a custom token size, defaulting to 400x400 pixels
+- the ability to create multiple layers consisting of individual loaded image
+- the ability to load images from a) local disk b) a web URL c) the Foundry VTT server
+- the ability to scale and translate each layer individually
+- automatic generation of a mask using the marching squares algorithm
+- automatic upload of the created tokens to the Foundry VTT server (requires 'Trusted Player' permission level)
 
 ---
 
@@ -1003,6 +1024,30 @@ The module has not been updated recently by its creator, but the community has p
 
 ---
 
+## Dynamic Items
+
+* **Author**: @tposney discord
+* **Version**: 0.0.9
+* **Foundry VTT Compatibility**: 0.3.9 dnd 5e.
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None that I know of
+* **Translation Support**: English.
+
+### Link(s) to Module
+* https://gitlab.com/tposney/dynamicitems
+*  manifest https://gitlab.com/tposney/dynamicitems/raw/master/module.json
+*  download https://gitlab.com/tposney/dynamicitems/raw/master/dynamicitems.zip
+
+### Description
+Dynamic items are ones that makes changes to your stats/modifiers when they are active in your inventory. This module is really intended for player characters and NPCs that have linked tokens.
+
+* Armor and shields now update your armor class when equipped and reverse the change when unequipped. (this happens automatically once the module is turned on and the items are equipped). Armor can have dynamic properties, e.g. ac+2 which can require attunement.
+* Rings of protection can increase saves or armor class when active, again changes are reversed when unequiped or unattuned (if that is a word).
+* There is a straightforward ui to make changes/create items For more complex changes (e.g. AC based on dex mod, you need to know the attribute specification, e.g. data.avilities.dex.mod)
+* Dynamic effects can be applied to any item, weapons/backpacks/armor/feats, in addition to its normal properties.
+
+---
+
 ## Favourite Item Tab
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
@@ -1070,12 +1115,12 @@ To install, download the zip file included in the Github module directory. Extra
 * **System Compatibility (If applicable)**: dn5e, because of currency.
 * **Module Requirement(s)**: none.
 * **Module Conflicts**: none that I know of.
-* **Translation Support**: english, but others can be added via a suitable json.
+* **Translation Support**: English, but others can be added via a suitable json.
 
 ### Link(s) to Module
-* https://gitlab.com/tposney/itemcollection
-* https://gitlab.com/tposney/itemcollection/raw/master/module.json
-https://gitlab.com/tposney/itemcollection/raw/master/itemcollection.zip
+* [https://gitlab.com/tposney/itemcollection](https://gitlab.com/tposney/itemcollection)
+* [https://gitlab.com/tposney/itemcollection/raw/master/module.json](https://gitlab.com/tposney/itemcollection/raw/master/module.json)
+* [https://gitlab.com/tposney/itemcollection/raw/master/itemcollection.zip](https://gitlab.com/tposney/itemcollection/raw/master/itemcollection.zip)
 
 ### Description
 This module allows the creation of bags which can contain other items, think backpack or bag of holding. These items can be put anywhere an item can.
@@ -1095,9 +1140,9 @@ See the link for more details.
 * **Translation Support**: english only, no i18n support.
 
 ### Link(s) to Module
-* [Web site](http://kpogl.wikidot.com/)
-* [module.json](http://kpogl.wdfiles.com/local--files/home:home/module.json) automatic install.
-* [ZIP file](http://kpogl.wdfiles.com/local--files/home:home/koboldpressogl.zip) for manual install.
+* [http://kpogl.wikidot.com/](http://kpogl.wikidot.com/)
+* http://kpogl.wdfiles.com/local--files/home:home/module.json](http://kpogl.wdfiles.com/local--files/home:home/module.json)
+* [http://kpogl.wdfiles.com/local--files/home:home/koboldpressogl.zip](http://kpogl.wdfiles.com/local--files/home:home/koboldpressogl.zip)
 
 ### Description
 This module adds Kobold Press OGL content sourced from the KPOGL wiki. Currently there are two compendiums, one with over 800 monsters and the other with over 500 spells.
@@ -1353,30 +1398,6 @@ into the world and optionally into designated compendium packs (see [a suitable 
 ### Description
 Successor to fvtt-party, which is discontinued as of now. Provides both an overview about the party in regards to AC, HP, and passive perception/investigation/insight and adds tooltips for the actors of the currently active scene.
 Configurable options for granting players access to both features, or to use it for GMs only.
-
----
-## Dynamic Items
-
-* **Author**: @tposney discord
-* **Version**: 0.0.9
-* **Foundry VTT Compatibility**: 0.3.9 dnd 5e.
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None that I know of
-* **Translation Support**: English.
-
-### Link(s) to Module
-* https://gitlab.com/tposney/dynamicitems
-*  manifest https://gitlab.com/tposney/dynamicitems/raw/master/module.json
-*  download https://gitlab.com/tposney/dynamicitems/raw/master/dynamicitems.zip
-
-
-### Description
-Dynamic items are ones that makes changes to your stats/modifiers when they are active in your inventory. This module is really intended for player characters and NPCs that have linked tokens.
-
-* Armor and shields now update your armor class when equipped and reverse the change when unequipped. (this happens automatically once the module is turned on and the items are equipped). Armor can have dynamic properties, e.g. ac+2 which can require attunement.
-* Rings of protection can increase saves or armor class when active, again changes are reversed when unequiped or unattuned (if that is a word).
-* There is a straightforward ui to make changes/create items For more complex changes (e.g. AC based on dex mod, you need to know the attribute specification, e.g. data.avilities.dex.mod)
-* Dynamic effects can be applied to any item, weapons/backpacks/armor/feats, in addition to its normal properties.
 
 ---
 
