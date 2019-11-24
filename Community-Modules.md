@@ -1014,9 +1014,7 @@ To install use the following link in Foundrys Module Setup https://raw.githubuse
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/sillvva/foundry-vtt-modules/](https://github.com/sillvva/foundry-vtt-modules/) 
-
-The module is available under the 'ddb-importer' directory.
+* [https://github.com/sillvva/foundry-vtt-modules/tree/master/ddb-importer](https://github.com/sillvva/foundry-vtt-modules/tree/master/ddb-importer) 
 
 ### Description
 This module allows you to import character data from DnD Beyond into Foundry Virtual Tabletop.  
@@ -1035,9 +1033,9 @@ The module has not been updated recently by its creator, but the community has p
 * **Translation Support**: English.
 
 ### Link(s) to Module
-* https://gitlab.com/tposney/dynamicitems
-*  manifest https://gitlab.com/tposney/dynamicitems/raw/master/module.json
-*  download https://gitlab.com/tposney/dynamicitems/raw/master/dynamicitems.zip
+* [https://gitlab.com/tposney/dynamicitems](https://gitlab.com/tposney/dynamicitems)
+* [https://gitlab.com/tposney/dynamicitems/raw/master/module.json](https://gitlab.com/tposney/dynamicitems/raw/master/module.json)
+* [https://gitlab.com/tposney/dynamicitems/raw/master/dynamicitems.zip](https://gitlab.com/tposney/dynamicitems/raw/master/dynamicitems.zip)
 
 ### Description
 Dynamic items are ones that makes changes to your stats/modifiers when they are active in your inventory. This module is really intended for player characters and NPCs that have linked tokens.
