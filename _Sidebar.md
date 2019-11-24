@@ -46,7 +46,7 @@ Table of Contents
       * [<a href="Modules#developing-modules">Developing Modules</a>](#developing-modules)
    * [<a href="API">API</a>](#api)
       * [<a href="API-Snippets">API Snippets</a>](#api-snippets)
-   * [<a href="Community-Game-Systems-&amp;-Modules">Community Game Systems &amp; Modules</a>](#community-game-systems--modules)
+   * [<a href="Community-Contributed-Content">Community Contributed Content</a>](#community-contributed-content)
       * [<a href="Community-Adventures">Community Adventures</a>](#community-adventures)
       * [<a href="https://github.com/foundry-vtt-community/adventures">Community Adventures Repository</a>](#community-adventures-repository)
       * [<a href="Community-Game-Systems">Community Game Systems</a>](#community-game-systems)
