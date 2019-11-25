@@ -817,7 +817,7 @@ On creation each unlinked Token will fit snugly into the pattern of your mold.
 ## Torch
 
 * **Author**: Deuce#8801 on Discord.
-* **Version**: 0.10.1
+* **Version**: 1.0.0
 * **Foundry VTT Compatibility**: 0.4.0+
 * **Translation Support**: EN (full)
 
@@ -826,7 +826,7 @@ On creation each unlinked Token will fit snugly into the pattern of your mold.
 * [https://raw.githubusercontent.com/RealDeuce/torch/master/module.json](https://raw.githubusercontent.com/RealDeuce/torch/master/module.json)
 
 ### Description
-Adds a HUD button to toggle light of a specific radius.  For the dnd5e system, will also deduct torches from inventory when turned on if the Actor does not know the Light cantrip.
+Adds a HUD button to toggle light of a specific radius.  For the dnd5e system, will also deduct torches from inventory when turned on if the Actor does not know the Light or Dancing Lights cantrips. For Dancing Lights, creates four Dancing Light tokens for the player as long as there is a GM connected.
 
 ---
 
