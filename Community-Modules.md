@@ -1142,7 +1142,7 @@ See the link for more details.
 
 ### Link(s) to Module
 * [http://kpogl.wikidot.com/](http://kpogl.wikidot.com/)
-* http://kpogl.wdfiles.com/local--files/home:home/module.json](http://kpogl.wdfiles.com/local--files/home:home/module.json)
+* [http://kpogl.wdfiles.com/local--files/home:home/module.json](http://kpogl.wdfiles.com/local--files/home:home/module.json)
 * [http://kpogl.wdfiles.com/local--files/home:home/koboldpressogl.zip](http://kpogl.wdfiles.com/local--files/home:home/koboldpressogl.zip)
 
 ### Description
