@@ -34,7 +34,6 @@
       * [Pointer](#pointer)
       * [Search Anywhere](#search-anywhere)
       * [SVG Loader](#svg-loader)
-      * [Theatre](#theatre)
       * [Tiles Browser](#tiles-browser)
       * [Token Mold](#token-mold)
       * [Torch](#torch)
