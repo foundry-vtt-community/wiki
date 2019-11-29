@@ -1037,6 +1037,7 @@ Dynamic items are ones that makes changes to your stats/modifiers when they are 
 * **Author**: Deuce#8801 on Discord.
 * **Version**: 0.0.2
 * **Foundry VTT Compatibility**: 0.4.0+
+* **Module Conflicts**: Better Rolls for 5e (when Better Rolls for 5e is in use, E-Z Roller has no effect)
 * **Translation Support**: EN (i18n support currently unimplemented)
 
 ### Link(s) to Module
