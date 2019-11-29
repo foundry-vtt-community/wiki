@@ -57,6 +57,7 @@
       * [Minor QOL Improvements](#minor-qol-improvements)
       * [Loot Sheet NPC (5e)](#loot-sheet-npc-5e)
       * [NPC Browser](#npc-browser)
+      * [Obsidian Character Sheets](#obsidian-character-sheets)
       * [Polyglot](#polyglot)
       * [Polymorpher](#polymorpher)
       * [Roll20 Converter](#roll20-converter)
@@ -1205,6 +1206,24 @@ This module adds an additional NPC sheet which can be used for loot containers s
 
 ### Description
 This module adds a search interface for actors. This enables more comfortable browsing and searching via predefined filters like challenge rating, type or ability score.
+
+---
+
+## Obsidian Character Sheets
+
+* **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
+* **Version**: 1.0.0
+* **Foundry VTT Compatibility**: 0.4.1+
+* **Translation Support**: EN, DE, JP
+
+### Link to Module
+
+* [https://bitbucket.org/Fyorl/obsidian](https://bitbucket.org/Fyorl/obsidian)
+* [https://bitbucket.org/Fyorl/obsidian/raw/1.0.0/module.json](https://bitbucket.org/Fyorl/obsidian/raw/1.0.0/module.json)
+
+### Description
+
+Allows the user to pin windows which will be re-opened automatically the next time you open foundry.
 
 ---
 
