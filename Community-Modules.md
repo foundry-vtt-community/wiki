@@ -33,6 +33,7 @@
       * [Popout!](#popout)
       * [Pointer](#pointer)
       * [Search Anywhere](#search-anywhere)
+      * [Skycons](#skycons)
       * [SVG Loader](#svg-loader)
       * [Tiles Browser](#tiles-browser)
       * [Token Mold](#token-mold)
@@ -736,6 +737,22 @@ This module adds the ability for each user to show a cursor following his mouse 
 
 ### Description
 A FoundryVTT Module that adds a way to quickly search for any entity by name via a handy auto-complete widget.
+
+---
+
+## Skycons
+
+* **Author**: Deuce#8801 on Discord.
+* **Version**: 0.0.0
+* **Foundry VTT Compatibility**: 0.4.0+
+* **Translation Support**: None
+
+### Link(s) to Module
+* [https://github.com/RealDeuce/skycons/](https://github.com/RealDeuce/skycons/)
+* [https://raw.githubusercontent.com/RealDeuce/skycons/master/module.json](https://raw.githubusercontent.com/RealDeuce/skycons/master/module.json)
+
+### Description
+Save/restore window position whem minimizing/maximizing.
 
 ---
 
