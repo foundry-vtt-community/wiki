@@ -1241,7 +1241,7 @@ This module adds a search interface for actors. This enables more comfortable br
 
 ### Description
 
-Allows the user to pin windows which will be re-opened automatically the next time you open foundry.
+A dark theme character sheet.
 
 ---
 
