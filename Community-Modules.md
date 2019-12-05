@@ -1230,14 +1230,14 @@ This module adds a search interface for actors. This enables more comfortable br
 ## Obsidian Character Sheets
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
-* **Version**: 1.0.0
+* **Version**: 1.0.2
 * **Foundry VTT Compatibility**: 0.4.1+
 * **Translation Support**: EN, DE, JP
 
 ### Link to Module
 
 * [https://bitbucket.org/Fyorl/obsidian](https://bitbucket.org/Fyorl/obsidian)
-* [https://bitbucket.org/Fyorl/obsidian/raw/1.0.0/module.json](https://bitbucket.org/Fyorl/obsidian/raw/1.0.0/module.json)
+* [https://bitbucket.org/Fyorl/obsidian/raw/1.0.0/module.json](https://bitbucket.org/Fyorl/obsidian/raw/master/module.json)
 
 ### Description
 
