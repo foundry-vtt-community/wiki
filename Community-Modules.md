@@ -457,7 +457,7 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/image-previewer](https://github.com/syl3r86/image-previewer)
-* [https://raw.githubusercontent.com/syl3r86/image-previewer/master/image-previewer/module.json](https://raw.githubusercontent.com/syl3r86/image-previewer/master/image-previewer/module.json)
+* [https://raw.githubusercontent.com/syl3r86/image-previewer/master/module.json](https://raw.githubusercontent.com/syl3r86/image-previewer/master/module.json)
 
 ### Description
 A little app to preview images on hover in the file picker menu.
