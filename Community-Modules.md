@@ -309,8 +309,8 @@ This module makes it so that when you click the anvil in the top left of the scr
 ## Dynamic Items
 
 * **Author**: @tposney discord
-* **Version**: 0.0.9
-* **Foundry VTT Compatibility**: 0.3.9 dnd 5e.
+* **Version**: 0.4.0
+* **Foundry VTT Compatibility**: 0.4+ dnd 5e.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None that I know of
 * **Translation Support**: English.
@@ -472,8 +472,8 @@ A little app to preview images on hover in the file picker menu.
 ## Journal Drag
 
 * **Author**: @tposney - discord
-* **Version**: 0.3
-* **Foundry VTT Compatibility**: 0.3.8+
+* **Version**: 0.4.1
+* **Foundry VTT Compatibility**: 0.4+
 * **Module Requirement(s)**: (If the module requires other modules to function, note them here.)
 * **Module Conflicts**: Not aware of any
 * **Translation Support**: english, but there are no strings to be localized
@@ -1028,8 +1028,8 @@ The module has not been updated recently by its creator, but the community has p
 ## Dynamic Items
 
 * **Author**: @tposney discord
-* **Version**: 0.0.9
-* **Foundry VTT Compatibility**: 0.3.9 dnd 5e.
+* **Version**: 0.0.30
+* **Foundry VTT Compatibility**: 0.4+ dnd 5e.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None that I know of
 * **Translation Support**: English.
@@ -1128,8 +1128,8 @@ To install, download the zip file included in the Github module directory. Extra
 ## Item Collection
 
 * **Author**: @tposney#1462 on Discord
-* **Version**: 1.0.12
-* **Foundry VTT Compatibility**: 0.3.9
+* **Version**: 1.2.1
+* **Foundry VTT Compatibility**: 0.4+
 * **System Compatibility (If applicable)**: dn5e, because of currency.
 * **Module Requirement(s)**: none.
 * **Module Conflicts**: none that I know of.
@@ -1170,9 +1170,9 @@ This module adds Kobold Press OGL content sourced from the KPOGL wiki. Currently
 ## Minor QOL Improvements
 
 * **Author**: @tposney#1462 on Discord
-* **Version**: 0.11
-* **Foundry VTT Compatibility**: 0.3.6+
-* **System Compatibility (If applicable)**: All
+* **Version**: 0.18
+* **Foundry VTT Compatibility**: 0.4+
+* **System Compatibility (If applicable)**: dnd5e
 * **Module Requirement(s)**: None
 * **Module Conflicts**: Does not work with the default Apply damage pull down but provides chat damage buttons instead.
 * **Translation Support**: English, but localization support is included.
