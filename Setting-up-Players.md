@@ -24,6 +24,9 @@ A player flagged as “trusted” has some additional capabilities beyond that o
 ## Assistant Gamemaster
 An assistant GM is similar to a regular GameMaster, they can see the entire game canvas and can create or edit all content. Some permissions are limited, however: Assistant GMs are not allowed to delete Actors, Scenes, or Items.
 
+## None
+Similar to the Player level of permission. Users with this role can be given token sight, but are unable to move actors on the canvas.
+
 # First Time
 
 Before inviting your first player it is recommended that Gamemasters create a User that can be used for testing content from the perspective of a Player. Even without a specific player in mind for your world, this is an important learning tool.
