@@ -477,6 +477,7 @@ A little app to preview images on hover in the file picker menu.
 * **Module Requirement(s)**: (If the module requires other modules to function, note them here.)
 * **Module Conflicts**: Not aware of any
 * **Translation Support**: english, but there are no strings to be localized
+* ** OPbsolete as of verison 0.4.2. of core. Please uninstall the module once updated to 0.4.2.
 
 ### Link(s) to Module
 * [https://gitlab.com/tposney/journal-drag](https://gitlab.com/tposney/journal-drag)
