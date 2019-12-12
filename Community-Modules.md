@@ -47,7 +47,7 @@
       * [Chat Damage Buttons - Better Rolls Edition](#chat-damage-buttons---better-rolls-edition)
       * [Chat Damage Buttons - Beyond20 Edition](#chat-damage-buttons---beyond20-edition)
       * [DnD Beyond Character Importer](#dnd-beyond-character-importer)
-      * [Dynamic Items](#dynamic-items-1)
+      * [Dynamic Items](#dynamic-items)
       * [E-Z Roller](#e-z-roller)
       * [Favourite Item Tab](#favourite-item-tab)
       * [Group Roll](#group-roll)
