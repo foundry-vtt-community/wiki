@@ -54,6 +54,7 @@
       * [Item Sheet Buttons](#item-sheet-buttons)
       * [Item Collection](#item-collection)
       * [Kobold Press OGL](#kobold-press-ogl)
+      * [Let Me Roll That For You! (LMRTFY)](#let-me-roll-that-for-you-lmrtfy)
       * [Minor QOL Improvements](#minor-qol-improvements)
       * [Loot Sheet NPC (5e)](#loot-sheet-npc-5e)
       * [NPC Browser](#npc-browser)
