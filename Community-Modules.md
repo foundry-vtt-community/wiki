@@ -474,19 +474,7 @@ A little app to preview images on hover in the file picker menu.
 * **Author**: @tposney - discord
 * **Version**: 0.4.1
 * **Foundry VTT Compatibility**: 0.4+
-* **Module Requirement(s)**: (If the module requires other modules to function, note them here.)
-* **Module Conflicts**: Not aware of any
-* **Translation Support**: english, but there are no strings to be localized
-* **Obsolete as of version 0.4.2. of core. Please uninstall the module once updated to 0.4.2**
-
-### Link(s) to Module
-* [https://gitlab.com/tposney/journal-drag](https://gitlab.com/tposney/journal-drag)
-* [https://gitlab.com/tposney/journal-drag/raw/master/module.json](https://gitlab.com/tposney/journal-drag/raw/master/module.json)
-
-### Description
-This module allows you to drag things into your journal entries (while they are being edited) and to drag journal links to the map (actors) or to characters (items) or to other journal entries.
-V0.3 allows dragging entities from compendia into the journal sheet. If no entity of the right type and with the same name exists it will be imported from the compendia.
-
+* **Obsolete as of version Foundry 0.4.2. of core. Please uninstall the module once updated to 0.4.2**
 ---
 
 ## Layer Hotkeys
@@ -1029,8 +1017,8 @@ The module has not been updated recently by its creator, but the community has p
 ## Dynamic Items
 
 * **Author**: @tposney discord
-* **Version**: 0.0.30
-* **Foundry VTT Compatibility**: 0.4+ dnd 5e.
+* **Version**: 0.0.32
+* **Foundry VTT Compatibility**: 0.4.2+ dnd 5e. Requires 0.4.2+ and wont work with earlier versions.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None that I know of
 * **Translation Support**: English.
