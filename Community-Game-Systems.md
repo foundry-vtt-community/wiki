@@ -10,6 +10,8 @@
       * [13th Age System (Archmage)](#13th-age-system-archmage)
    * [FATE](#fate)
       * [FATE Core &amp; Accelerated](#fate-core--accelerated)
+   * [Starfinder](#starfinder)
+      * [Starfinder](#starfinder)
    * [Other](#other)
       * [Simple Worldbuilding System](#simple-worldbuilding-system)
    * [Appendix](#appendix)
@@ -130,6 +132,24 @@ Foundry systems based on the FATE Core and Accelerated systems by Evil Hat Produ
 
 ### Description
 This system adds support for FATE Core and FATE Accelerated (FAE) to Foundry VTT. Currently in Alpha stage, only FAE character sheets and Stunts are available.
+
+---
+
+# Starfinder
+
+## starfinder
+
+* **Author**: James Allred (wildj79#0980 on discord)
+* **Version**: v0.1.1
+* **Foundry VTT Compatibility**: v0.4.1+
+* **Translation Support**: EN (full)
+
+### Link(s) to Game System
+* [https://github.com/wildj79/foundryvtt-starfinder](https://github.com/wildj79/foundryvtt-starfinder)
+* [https://raw.githubusercontent.com/wildj79/foundryvtt-starfinder/master/system.json](https://raw.githubusercontent.com/wildj79/foundryvtt-starfinder/master/system.json)
+
+### Description
+This system brings support for the Starfinder RPG to Foundry VTT. The system provides sheets for player characters, NPC's, starships, and vehicles. There isn't any compendium content provided currently. That should come in a future update.
 
 ---
 
