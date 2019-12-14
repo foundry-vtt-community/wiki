@@ -551,6 +551,7 @@ This module came about after looking at walls generated in DunGen and a discussi
 Backup your world before trying as it will change the walls in your world permanently. See the Readme.md for how to use.
 
 ---
+
 ## Message Age Restriction
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
