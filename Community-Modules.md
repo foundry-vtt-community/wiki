@@ -510,7 +510,7 @@ Module to enhance visibility for the GM in Foundry VTT.
 ## Maestro
 
 * **Author**: Evan Clarke (errational#2007)
-* **Version**: 0.2.2
+* **Version**: 0.3.5
 * **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: N/A
 * **Module Requirement(s)**: N/A
@@ -528,6 +528,7 @@ Maestro adds the following features:
 
 * Scene Playlist - Select a playlist to play automatically when the Scene is activated.
 * Hype Track - Set a track to play each time that Actor has a turn in Combat
+* Item Track - Set a track/playlist to play each time that Item is rolled
 
 ---
 
