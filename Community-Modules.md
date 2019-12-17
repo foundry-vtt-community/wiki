@@ -169,9 +169,6 @@ Through the use of Arcane magic, you are able to see and hear your follow advent
 ## Chat Autoloader
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: At least v0.3.2+, probably earlier versions as well.
-* **Module Conflicts**: Possible conflicts with *Message Age Restriction* by Felix@6196.
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
@@ -457,11 +454,6 @@ A little app to preview images on hover in the file picker menu.
 ## Layer Hotkeys
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Version**: v1.0
-* **Foundry VTT Compatibility**: 0.3.0
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
@@ -693,11 +685,7 @@ This Foundry VTT module lets you pop out journal entries and actor sheets into t
 ## Pointer
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Version**: 1.3
-* **Foundry VTT Compatibility**: 0.3+
 * **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
@@ -747,11 +735,6 @@ Save/restore window position whem minimizing/maximizing.
 ## SVG Loader
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Version**: 
-* **Foundry VTT Compatibility**: 
-* **System Compatibility (If applicable)**: 
-* **Module Requirement(s)**: 
-* **Module Conflicts**: 
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
@@ -766,8 +749,6 @@ This module allows to load walls, lights and sources through .svg files, provide
 ## Tiles Browser
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Version**: 0.2
-* **Foundry VTT Compatibility**: 0.3.5
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
@@ -782,10 +763,7 @@ Adds a browser to the tiles layer to conveniently preview and then drag and drop
 ## Token Mold
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
-* **Version**: 1.0
-* **Foundry VTT Compatibility**: 0.3.5
-* **System Compatibility (If applicable)**: All, though extra option to roll hp for DnD5e
-* **Module Conflicts**: This module replaces the *Token Randomizer*, hence it is not compatible with it.
+* **System Compatibility (If applicable)**: All, though some extra option for DnD5e
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
