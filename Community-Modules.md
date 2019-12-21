@@ -746,6 +746,7 @@ This module allows to load walls, lights and sources through .svg files, provide
 
 ### Status
 Broken since at least update 4.2
+
 ---
 
 ## Tiles Browser
