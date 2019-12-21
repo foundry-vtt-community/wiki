@@ -1,4 +1,4 @@
-<!--tl=2-->
+s<!--tl=2-->
 <!--ts-->
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
       * [Actually Private Rolls](#actually-private-rolls)
@@ -744,6 +744,8 @@ Save/restore window position whem minimizing/maximizing.
 ### Description
 This module allows to load walls, lights and sources through .svg files, provided e.g. by DungeonFog.
 
+### Status
+Broken since at least update 4.2
 ---
 
 ## Tiles Browser
