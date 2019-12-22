@@ -172,7 +172,7 @@ Through the use of Arcane magic, you are able to see and hear your follow advent
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **Translation Support**: EN (full)
-
+* **Foundry VTT Compatibility**: 0.4.1
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/chat-autoloader](https://gitlab.com/moerills-fvtt-modules/chat-autoloader)
 * [https://gitlab.com/moerills-fvtt-modules/chat-autoloader/raw/master/chat-autoloader/module.json](https://gitlab.com/moerills-fvtt-modules/chat-autoloader/raw/master/chat-autoloader/module.json)
@@ -249,7 +249,7 @@ This module lets the GM deselect a token or tokens by clicking anywhere on the m
 
 * **Author**: Asacolips#1867 on Discord.
 * **Version**: 0.3.9
-* **Foundry VTT Compatibility**: 0.3.0+
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: Inline rolls (if enabled) will likely conflict with other macro systems
@@ -268,7 +268,7 @@ This module turns the d20 icon near the chat prompt into a clickable link that o
 
 * **Author**: Cody Swendrowski (Toon324#9701 on Discord)
 * **Version**: 1.0.0
-* **Foundry VTT Compatibility**: 0.3.8+
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: [Companion API (Required!)](https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/releases)
 * **Module Conflicts**: None
@@ -310,7 +310,7 @@ This module makes it so that when you click the anvil in the top left of the scr
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
 * **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3.1+
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -348,6 +348,7 @@ This adds a simple dice rolling window for the special dice used in Fantasy Flig
 * **Author**: Jacob McAuley Discord: @JacobMcAuley3461
 * **Version**: 1.0.0
 * **Foundry VTT Compatibility**: 0.3.8
+> Editor Note: This module is reported to work in v0.4.0+ if the MinimumCoreVersion line is added to the module.json.
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None known
