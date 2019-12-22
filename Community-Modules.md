@@ -1,14 +1,16 @@
 s<!--tl=2-->
 <!--ts-->
+_Items marked with :three: series icons may work for the indicated revision and later :three: revisions of FVTT._
+_Items marked with :four: series icons require a minimum FVTT revision level as indicated and may work with later revisions._
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
       * [Actually Private Rolls :three:.:nine:](#actually-private-rolls)
       * [Always Show Notes :three:.:five:](#always-show-notes)
       * [Anvil Menu :three:.:seven:](#anvil-menu)
       * [Arcane Viewing :three:.:eight:](#arcane-viewing)
       * [Chat Autoloader :four:.:one::heavy_plus_sign:](#chat-autoloader)
-      * [Combat Utility Belt (Beta) :four::heavy_plus_sign:](#combat-utility-belt-beta)
+      * [Combat Utility Belt (Beta) :four:.:zero::heavy_plus_sign:](#combat-utility-belt-beta)
       * [Cursor Hider :three:.:seven:](#cursor-hider)
-      * [Deselection :four::heavy_plus_sign:](#deselection)
+      * [Deselection :four:.:zero::heavy_plus_sign:](#deselection)
       * [Dice Calculator :four:.:zero::heavy_plus_sign:](#dice-calculator)
       * [Discord Rich Presence :four:.:zero::heavy_plus_sign:](#discord-rich-presence)
       * [Display Mode :three:.:zero:](#display-mode)
@@ -23,8 +25,8 @@ s<!--tl=2-->
       * [Layer Hotkeys :interrobang:](#layer-hotkeys)
       * [Less Fog :four:.:one::heavy_plus_sign:](#less-fog)
       * [Maestro :four:.:one::heavy_plus_sign::new:](#maestro)
-      * [Merge Walls](#merge-walls)
-      * [Message Age Restriction](#message-age-restriction)
+      * [Merge Walls :four:.:zero::heavy_plus_sign:](#merge-walls)
+      * [Message Age Restriction :three:.:one:](#message-age-restriction)
       * [No Token Animations](#no-token-animations)
       * [Patches by trdischat](#patches-by-trdischat)
       * [Permission Viewer](#permission-viewer)
