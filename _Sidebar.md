@@ -12,6 +12,7 @@ Table of Contents
          * [<a href="Linux">Linux</a>](#linux)
          * [<a href="macOS">macOS</a>](#macos)
          * [<a href="FreeBSD">FreeBSD</a>](#freebsd)
+         * [<a href="Docker">Docker</a>](#Docker)
       * [<a href="Self-hosted-Cloud">Self-hosted Cloud</a>](#self-hosted-cloud)
          * [<a href="Ubuntu-VM">Ubuntu VM</a>](#ubuntu-vm)
          * [<a href="DigitalOcean-Initialization-Script">DigitalOcean Initialization Script</a>](#digitalocean-initialization-script)
