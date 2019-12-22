@@ -1,7 +1,7 @@
 s<!--tl=2-->
 <!--ts-->
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
-      * [Actually Private Rolls](#actually-private-rolls)
+      * [Actually Private Rolls :three:.:nine:](#actually-private-rolls)
       * [Always Show Notes](#always-show-notes)
       * [Anvil Menu](#anvil-menu)
       * [Arcane Viewing](#arcane-viewing)
