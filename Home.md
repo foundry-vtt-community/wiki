@@ -102,6 +102,8 @@
 
 ## [Community Module Repository](https://github.com/foundry-vtt-community/modules)
 
+## [Community Tools](Community-Tools)
+
 ## [Community Rollable Tables](Community-Rollable-Tables)
 
 ## [Community Rollable Table Repository](https://github.com/foundry-vtt-community/rollable_table)
