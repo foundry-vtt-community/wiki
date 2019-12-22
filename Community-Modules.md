@@ -6,7 +6,7 @@ s<!--tl=2-->
       * [Anvil Menu](#anvil-menu)
       * [Arcane Viewing](#arcane-viewing)
       * [Chat Autoloader](#chat-autoloader)
-      * [Combat Utility Belt (Beta)](#combat-utility-belt-beta)
+      * [Combat Utility Belt (Beta) :four::heavy_plus_sign:](#combat-utility-belt-beta)
       * [Cursor Hider](#cursor-hider)
       * [Deselection](#deselection)
       * [Dice Calculator](#dice-calculator)
