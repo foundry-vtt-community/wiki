@@ -386,7 +386,7 @@ Allows the user to pin windows which will be re-opened automatically the next ti
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
 * **Version**: 1.0
-* **Foundry VTT Compatibility**: 0.3.5+
+* **Foundry VTT Compatibility**: 0.4.3+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -407,7 +407,7 @@ It started by adding Drawing Tools, and then an experimental Macros system and n
 
 * **Author**: UberV, UberV#2154 on Discord.
 * **Version**: 0.0.5
-* **Foundry VTT Compatibility**: 0.3+
+* **Foundry VTT Compatibility**: 0.4.)+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -426,7 +426,7 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 
 * **Author**: Felix#6196 on Discord, accepts donations via paypal, felix.mueller.86@web.de
 * **Version**: 0.1
-* **Foundry VTT Compatibility**: written for 0.3.4, should be fairly version independent
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: universal
 * **Module Requirement(s)**: none
 * **Module Conflicts**: none
@@ -487,7 +487,7 @@ The Hotkeys can be seen by hovering over the button as well.
 
 * **Author**: trdischat#2123 on Discord.
 * **Version**: 0.0
-* **Foundry VTT Compatibility**: 0.3+
+* **Foundry VTT Compatibility**: 0.4.1+
 * **System Compatibility (If applicable)**: Universal.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -506,7 +506,7 @@ Module to enhance visibility for the GM in Foundry VTT.
 
 * **Author**: Evan Clarke (errational#2007)
 * **Version**: 0.3.5
-* **Foundry VTT Compatibility**: 0.4.0+
+* **Foundry VTT Compatibility**: 0.4.1+
 * **System Compatibility (If applicable)**: N/A
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: Hype Track (deprecated by this module)
@@ -630,7 +630,7 @@ This Foundry VTT module displays colored diamonds/squares/circles to represent t
 
 * **Author**: AzzuriteTV#2004
 * **Version**: 1.0.2
-* **Foundry VTT Compatibility**: 0.3.7+
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -651,7 +651,7 @@ Adds the ability to ping a location on the map, see this [example ping](https://
 
 * **Author**: JacobMcAuley#3461 on Discord
 * **Version**: 1.0
-* **Foundry VTT Compatibility**: 0.3.7+
+* **Foundry VTT Compatibility**: 0.4.1+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -690,7 +690,7 @@ This Foundry VTT module lets you pop out journal entries and actor sheets into t
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **System Compatibility (If applicable)**: Universal
 * **Translation Support**: EN (full)
-
+* **Foundry VTT Compatibility**: 0.4.1+
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/pointer](https://gitlab.com/moerills-fvtt-modules/pointer)
 * [https://gitlab.com/moerills-fvtt-modules/pointer/raw/master/pointer/module.json](https://gitlab.com/moerills-fvtt-modules/pointer/raw/master/pointer/module.json)
@@ -739,7 +739,7 @@ Save/restore window position whem minimizing/maximizing.
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **Translation Support**: EN (full)
-
+* **Foundry VTT Compatibility**: 0.3+
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/svg-loader](https://gitlab.com/moerills-fvtt-modules/svg-loader)
 * [https://gitlab.com/moerills-fvtt-modules/svg-loader/raw/master/module.json](https://gitlab.com/moerills-fvtt-modules/svg-loader/raw/master/module.json)
@@ -756,7 +756,7 @@ Broken since at least update 4.2
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **Translation Support**: EN (full)
-
+* **Foundry VTT Compatibility**: 0.4.2+
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/tiles-browser/](https://gitlab.com/moerills-fvtt-modules/tiles-browser/)
 * [https://gitlab.com/moerills-fvtt-modules/tiles-browser/raw/master/module.json](https://gitlab.com/moerills-fvtt-modules/tiles-browser/raw/master/module.json)
@@ -771,7 +771,7 @@ Adds a browser to the tiles layer to conveniently preview and then drag and drop
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
 * **System Compatibility (If applicable)**: All, though some extra option for DnD5e
 * **Translation Support**: EN (full)
-
+* **Foundry VTT Compatibility**: 0.4+
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/token-mold](https://gitlab.com/moerills-fvtt-modules/token-mold)
 * [https://gitlab.com/moerills-fvtt-modules/token-mold/raw/master/module.json](https://gitlab.com/moerills-fvtt-modules/token-mold/raw/master/module.json)
@@ -834,7 +834,7 @@ to define custom databases, too
 
 * **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
 * **Version**: v1.0.12
-* **Foundry VTT Compatibility**: 0.4.0+
+* **Foundry VTT Compatibility**: 0.4.3+
 * **System Compatibility (If applicable)**: "dnd5e", "pf2e", "archmage" - shout out if I should anything, thanks!
 * **Module Requirement(s)**: Requires the player permission "Trusted Player"
 * **Module Conflicts**:
@@ -862,7 +862,7 @@ Foundry modules that work within Dungeons and Dragons 5th Edition are noted here
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de 
 * **Version**: Better NPC Sheet v0.4.5
-* **Foundry VTT Compatibility**: 0.2.9-0.2.10
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: If used alongside Moerill’s “adnd5e” module, item descriptions are unable to be expanded in the sheet. This can be fixed by disabling Moerill’s module.
@@ -925,7 +925,7 @@ This module allows you to use and roll sheets in DnD Beyond, and have those resu
 
 * **Author**: hooking#0492 on Discord.
 * **Version**: 0.3.1
-* **Foundry VTT Compatibility**: 0.2.8-0.2.10
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s): None.
 * **Module Conflicts**: Module appears to be incompatible with the aDnD5e module.
@@ -1022,7 +1022,7 @@ Causes item cards to open in a window rather than in chat.  This allows you to o
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
 * **Version**: 0.4
-* **Foundry VTT Compatibility**: 0.3.0
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None known
@@ -1081,7 +1081,7 @@ To install, download the zip file included in the Github module directory. Extra
 
 * **Author**: @tposney#1462 on Discord
 * **Version**: 1.2.1
-* **Foundry VTT Compatibility**: 0.4+
+* **Foundry VTT Compatibility**: 0.4.3+
 * **System Compatibility (If applicable)**: dn5e, because of currency.
 * **Module Requirement(s)**: none.
 * **Module Conflicts**: none that I know of.
@@ -1220,7 +1220,7 @@ A dark theme character sheet.
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
 * **Version**: 0.3
-* **Foundry VTT Compatibility**: 0.3.0
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: D&D 5e
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -1258,7 +1258,7 @@ A module for Foundry VTT that lets you polymorph characters into any other chara
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
 * **Version**: 0.3
-* **Foundry VTT Compatibility**: 0.3.5
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None in Foundry, though module requires a campaign exported from Roll20 using KaKaRoTo’s export tool.
 * **Module Conflicts**: None known.
@@ -1393,7 +1393,7 @@ into the world and optionally into designated compendium packs (see [a suitable 
 
 * **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
 * **Version**: v1.0.0
-* **Foundry VTT Compatibility**: 0.3.5+
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**:
 * **Module Requirement(s)**: None
 * **Module Conflicts**:
@@ -1416,7 +1416,7 @@ Foundry modules that work within Warhammer Fantasy Roleplay 4th Edition are note
 
 * **Author**: Moo Man#7518 on Discord
 * **Version**: 1.2.2
-* **Foundry VTT Compatibility**: 0.3+
+* **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility**: Warhammer Fantasy Roleplay 4th Edition.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
