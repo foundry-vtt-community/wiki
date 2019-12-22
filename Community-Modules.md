@@ -5,7 +5,7 @@ s<!--tl=2-->
       * [Always Show Notes :three:.:five:](#always-show-notes)
       * [Anvil Menu :three:.:seven:](#anvil-menu)
       * [Arcane Viewing :three:.:eight:](#arcane-viewing)
-      * [Chat Autoloader :interrogating:](#chat-autoloader)
+      * [Chat Autoloader :interrobang:](#chat-autoloader)
       * [Combat Utility Belt (Beta) :four::heavy_plus_sign:](#combat-utility-belt-beta)
       * [Cursor Hider](#cursor-hider)
       * [Deselection](#deselection)
