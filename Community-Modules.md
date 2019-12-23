@@ -1434,6 +1434,22 @@ To install, simply add `arcane-marks-careers` into the modules folder in the `pu
 Once installed, you'll find the careers in the Arcane Careers Compendium, and you can roll on any Arcane Mark table with the chat command `/table <wind-name>`, e.g. `/table aqshy`.
 
 ---
+## Rough Nights & Hard Days
+
+* **Author**: Jagusti#3610
+* **Version**: 0.4
+* **Foundry VTT Compatibility**: 0.4.0+
+* **System Compatibility**: WFRP4e 0.9.0+
+* **Module Conflicts**: Any module that changes the species or career tables
+
+### Link(s) to Module
+* https://github.com/Jagusti/fvtt-wfrp4e-rnhd/
+* `https://raw.githubusercontent.com/Jagusti/fvtt-wfrp4e-rnhd/master/module.json`
+
+### Description
+Extends the character creation capabilities to gnomes, including their stats, background, features. Also includes pub games!
+
+---
 
 # Foundry VTT Modules (Defunct)
 
