@@ -70,6 +70,7 @@
       * [VTTA Party](#vtta-party)
    * [Foundry VTT Modules for WFRP 4E](#foundry-vtt-modules-for-wfrp-4e)
       * [Arcane Marks &amp; Careers](#arcane-marks--careers)
+      * [Rough Nights &amp; Hard Days](#rough-nights--hard-days)
    * [Foundry VTT Modules (Defunct)](#foundry-vtt-modules-defunct)
       * [DDB Popper (use VTTA-DNDBEYOND instead)](#ddb-popper-use-vtta-dndbeyond-instead)
       * [DnD Beyond Character Importer (non-functional -- use VTTA-D&amp;D Beyond Integration instead)](#dnd-beyond-character-importer-non-functional----use-vtta-dd-beyond-integration-instead)
