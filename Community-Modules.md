@@ -1200,7 +1200,7 @@ This module adds a search interface for actors. This enables more comfortable br
 ## Obsidian Character Sheets
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
-* **Version**: 1.1.2
+* **Version**: 1.1.7
 * **Foundry VTT Compatibility**: 0.4.3+
 * **Translation Support**: EN, DE, JP
 
