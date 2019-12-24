@@ -85,9 +85,9 @@ copy your foundryvtt-x.x.x.zip file to the same level as the other files
 After build image you can use or test your container with this commands :
 
 Run the container (for test no save modifications)
-#### `sudo docker run --restart=always --name FoundryVTT.0.4.3 -p 30000:30000 -d fvtt:1.11.0`
+#### `sudo docker run --restart=always --name FoundryVTT.x.x.x -p 30000:30000 -d fvtt:1.11.0`
 
 
 Run the docker with volume map for save yours modifications :
-#### `sudo docker run --restart=always --name FoundryVTT.0.4.3 -p 30000:30000 -v /YourLocalDirectory1:/home/foundry -v /yourLocalDirectory2:/root/FoundryVTT -d fvtt:1.11.0`
+#### `sudo docker run --restart=always --name FoundryVTT.x.x.x -p 30000:30000 -v /YourLocalDirectory1:/home/foundry -v /yourLocalDirectory2:/root/FoundryVTT -d fvtt:1.11.0`
 
