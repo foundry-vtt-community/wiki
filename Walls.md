@@ -49,3 +49,13 @@ any wall segment point to bring up the properties which you can change for all o
 **The Grid Layer**: Is positioned 2nd from bottom in the layers of the Canvas. The Grid Layer is responsible for orienting and segmenting the game space into grid spaces. Currently only a square grid is supported but hex grid support is flagged as a feature for work during Beta development.
 
 The Grid provides convenience tools for measuring distance, restricting token movement, and providing guide lines for anchoring wall segments or other canvas features.
+
+**Rescaling your walls along with your scene**: Note that before using such a command, a backup is always advised. If you rescaled your scene and want to rescale your walls along with it, you can do so using the following code in the console (F12 to open, console tab at the top) with the appropriate scaling factor (here the scene has been assumed to double in size):
+```js
+let scale = 2;
+canvas.scene.update({
+  walls: canvas.scene.data.walls.map(w => {
+    w.c = w.c.map(x => x * scale);
+    return w;
+  })
+});```
