@@ -32,7 +32,7 @@
       * [Playlist Import](#playlist-import)
       * [Popout!](#popout)
       * [Pointer](#pointer)
-      * [Roll Table Buttons] (#roll-table-buttons)
+      * [Roll Table Buttons](#roll-table-buttons)
       * [Search Anywhere](#search-anywhere)
       * [Skycons](#skycons)
       * [SVG Loader](#svg-loader)
