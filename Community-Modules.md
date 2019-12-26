@@ -22,6 +22,7 @@
       * [Journal Drag](#journal-drag)
       * [Layer Hotkeys](#layer-hotkeys)
       * [Less Fog](#less-fog)
+      * [L5R Roller](#l5r-roller)
       * [Maestro](#maestro)
       * [Merge Walls](#merge-walls)
       * [Message Age Restriction](#message-age-restriction)
@@ -499,6 +500,26 @@ The Hotkeys can be seen by hovering over the button as well.
 
 ### Description
 Module to enhance visibility for the GM in Foundry VTT.
+
+---
+
+## L5R Roller
+
+* **Author**: putty#0555 on Discord.
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.4.3+
+* **System Compatibility (If applicable)**: Universal.
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/BernhardPosselt/l5r-foundryvtt-roller](https://github.com/BernhardPosselt/l5r-foundryvtt-roller)
+* [https://raw.githubusercontent.com/BernhardPosselt/l5r-foundryvtt-roller/master/module.json](https://raw.githubusercontent.com/BernhardPosselt/l5r-foundryvtt-roller/master/module.json)
+
+### Description
+Roll Legend of the 5 Rings 5th edition dice in the chat window (s for skill, r for ring): /l5r 3dr+2ds or /l5r 3dr or /l5r 2ds. Auto rolls exploding successes.
+
 
 ---
 
