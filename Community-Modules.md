@@ -506,7 +506,7 @@ Module to enhance visibility for the GM in Foundry VTT.
 ## L5R Roller
 
 * **Author**: putty#0555 on Discord.
-* **Version**: 0.1
+* **Version**: 0.2.0
 * **Foundry VTT Compatibility**: 0.4.3+
 * **System Compatibility (If applicable)**: Universal.
 * **Module Requirement(s)**: None
@@ -518,8 +518,17 @@ Module to enhance visibility for the GM in Foundry VTT.
 * [https://raw.githubusercontent.com/BernhardPosselt/l5r-foundryvtt-roller/master/module.json](https://raw.githubusercontent.com/BernhardPosselt/l5r-foundryvtt-roller/master/module.json)
 
 ### Description
-Roll Legend of the 5 Rings 5th edition dice in the chat window (s for skill, r for ring): /l5r 3dr+2ds or /l5r 3dr or /l5r 2ds. Auto rolls exploding successes.
+Roll Legend of the 5 Rings 5th edition dice in the chat window. Auto rolls exploding successes and let's you keep/re-roll selected dice.
 
+You can roll by prepending **/l5r** to your message. Supported formulas (s,w for skill, r,b for ring):
+
+* /l5r 3dr+2ds 
+* /l5r 3dr 
+* /l5r 2ds
+* /l5r wwwbb
+* /l5r ssrr
+* /l5r ss
+* /l5r bb
 
 ---
 
