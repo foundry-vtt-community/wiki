@@ -506,7 +506,7 @@ Module to enhance visibility for the GM in Foundry VTT.
 ## L5R Roller
 
 * **Author**: putty#0555 on Discord.
-* **Version**: 0.2.0
+* **Version**: 0.3.0
 * **Foundry VTT Compatibility**: 0.4.3+
 * **System Compatibility (If applicable)**: Universal.
 * **Module Requirement(s)**: None
@@ -518,17 +518,38 @@ Module to enhance visibility for the GM in Foundry VTT.
 * [https://raw.githubusercontent.com/BernhardPosselt/l5r-foundryvtt-roller/master/module.json](https://raw.githubusercontent.com/BernhardPosselt/l5r-foundryvtt-roller/master/module.json)
 
 ### Description
+A Legend of the 5 Rings dice roller using the images from [SkyJedi's Discord Roller](https://github.com/SkyJedi/FFGNDS-Discord-Dice-Roller)
+
+Also supports Genesys and Fantasy Flight Games Star Wars RPG
+
+You can roll a system by starting your message with the following string:
+
+* Legend of the 5 Rings: /l5r
+* FFG Star Wars: /sw
+* FFG Genesys: /gen
+
+Then supply a dice formula separated with a space. 
+
+This can be either separate letters and for each letter a roll will be made (e.g. ssr would roll 2 skill dice and 1 ring die) or a combination like **ndl+ndl** where n is a number of rolls and l the die letter (e.g. 2dr+1ds would roll 2 ring dice and 1 skill die) 
+
+A full roll example would be **/l5r rrs**.
+
 Roll Legend of the 5 Rings 5th edition dice in the chat window. Auto rolls exploding successes and let's you keep/re-roll selected dice.
 
-You can roll by prepending **/l5r** to your message. Supported formulas (s,w for skill, r,b for ring):
+Use the **/l5r** command using the following dice letters:
 
-* /l5r 3dr+2ds 
-* /l5r 3dr 
-* /l5r 2ds
-* /l5r wwwbb
-* /l5r ssrr
-* /l5r ss
-* /l5r bb
+* b, r: ring
+* s, w: skill
+
+Usage is similar to L5R but re-rolls and keeping dice is unsupported. Use the **/gen** or **/sw** commands using the following dice letters:
+
+* b: boost
+* s: setback
+* a: ability
+* d: difficulty
+* p: proficiency
+* c: challenge
+* f: force (only sw)
 
 ---
 
