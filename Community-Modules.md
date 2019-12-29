@@ -59,6 +59,7 @@
       * [Item Collection](#item-collection)
       * [Kobold Press OGL](#kobold-press-ogl)
       * [Let Me Roll That For You! (LMRTFY)](#let-me-roll-that-for-you-lmrtfy)
+      * [Max Crit Damage)(#max-crit-damage)
       * [Minor QOL Improvements](#minor-qol-improvements)
       * [Loot Sheet NPC (5e)](#loot-sheet-npc-5e)
       * [NPC Browser](#npc-browser)
@@ -1224,7 +1225,22 @@ This module adds Kobold Press OGL content sourced from the KPOGL wiki. Currently
 * [https://raw.githubusercontent.com/kakaroto/fvtt-module-lmrtfy/master/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-lmrtfy/master/module.json)
 
 ### Description
-LMRTFY is a module to let Game Masters request rolls from their players. This can help avoid questions like "where do I click again?" or maybe simply to request a roll without the other players knowing about it.
+LMRTFY is a module to let Game Masters request rolls from their players. This can help avoid questions like 
+"where do I click again?" or maybe simply to request a roll without the other players knowing about it.
+
+---
+
+## Max Crit Damage
+
+* **Author**:  on Discord.
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.4.0
+* **System Compatibility (If applicable)**: D&D 5e
+* **Module Requirement(s)**: None
+* **Module Conflicts**: Any that don't use the standard D&D 5e roller
+* **Translation Support**: English
+### Description
+Deals max damage for critical hit rolls.
 
 ---
 
