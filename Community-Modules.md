@@ -49,6 +49,7 @@
       * [Chat Damage Buttons](#chat-damage-buttons)
       * [Chat Damage Buttons - Better Rolls Edition](#chat-damage-buttons---better-rolls-edition)
       * [Chat Damage Buttons - Beyond20 Edition](#chat-damage-buttons---beyond20-edition)
+      * [Compendium Browser](#compendium-browser)
       * [Critical Fumble](#critical-fumble)
       * [Dynamic Items](#dynamic-items)
       * [E-Z Roller](#e-z-roller)
@@ -60,7 +61,7 @@
       * [Let Me Roll That For You! (LMRTFY)](#let-me-roll-that-for-you-lmrtfy)
       * [Minor QOL Improvements](#minor-qol-improvements)
       * [Loot Sheet NPC (5e)](#loot-sheet-npc-5e)
-      * [NPC Browser](#npc-browser)
+      * [NPC Browser (discontinued, use Compendium Browser instead)](#npc-browser)
       * [Obsidian Character Sheets](#obsidian-character-sheets)
       * [Polyglot](#polyglot)
       * [Polymorpher](#polymorpher)
@@ -68,7 +69,7 @@
       * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
       * [Request Roll](#request-roll)
       * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
-      * [Spell Browser](#spell-browser)
+      * [Spell Browser (discontinued, use Compendium Browser instead)](#spell-browser)
       * [SRD Bestiary Module](#srd-bestiary-module)
       * [VTTA D&amp;D Beyond Integration](#vtta-dd-beyond-integration)
       * [VTTA Party](#vtta-party)
@@ -1023,6 +1024,26 @@ To install use the following link in Foundrys Module Setup https://raw.githubuse
 
 ---
 
+## Compendium Browser
+
+* **Author**: Felix#6196, accepts donation via paypal: felix.mueller.86@web.de
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.4.3
+* **System Compatibility (If applicable)**: dnd5e
+* **Module Requirement(s)**: none
+* **Module Conflicts**: none known
+* **Translation Support**: full english translation is included
+
+### Link(s) to Module
+* https://github.com/syl3r86/compendium-browser
+* https://raw.githubusercontent.com/syl3r86/compendium-browser/master/module.json
+
+### Description
+A module to easily browse and filter spells as well as npcs loaded from compendie.
+To install, copy the second link to the manifest file and paste that in the modules setup page in Foundry VTT.
+
+---
+
 ## Critical Fumble
 
 * **Author**: Jacob McAuley Discord: @JacobMcAuley3461
@@ -1253,7 +1274,7 @@ This module adds an additional NPC sheet which can be used for loot containers s
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
 * **Version: 0.1**
-* **Foundry VTT Compatibility**: 0.3.0
+* **Foundry VTT Compatibility**: 0.3.0  (discontinued, use Compendium Browser instead)
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None known
@@ -1409,7 +1430,7 @@ This module provides a variant layout of the Core 5e Character Sheet in Foundry 
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de.
 * **Version**: 0.3
-* **Foundry VTT Compatibility**: 0.3.0
+* **Foundry VTT Compatibility**: 0.3.0 (discontinued, use Compendium Browser instead)
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None known.
