@@ -59,7 +59,7 @@
       * [Item Collection](#item-collection)
       * [Kobold Press OGL](#kobold-press-ogl)
       * [Let Me Roll That For You! (LMRTFY)](#let-me-roll-that-for-you-lmrtfy)
-      * [Max Crit Damage)(#max-crit-damage)
+      * [Max Crit Damage](#max-crit-damage)
       * [Minor QOL Improvements](#minor-qol-improvements)
       * [Loot Sheet NPC (5e)](#loot-sheet-npc-5e)
       * [NPC Browser](#npc-browser)
@@ -1239,6 +1239,7 @@ LMRTFY is a module to let Game Masters request rolls from their players. This ca
 * **Module Requirement(s)**: None
 * **Module Conflicts**: Any that don't use the standard D&D 5e roller
 * **Translation Support**: English
+
 ### Description
 Deals max damage for critical hit rolls.
 
