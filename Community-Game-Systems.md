@@ -12,6 +12,8 @@
       * [FATE Core &amp; Accelerated](#fate-core--accelerated)
    * [Starfinder](#starfinder)
       * [starfinder](#starfinder-1)
+   * [Shadowrun](#shadowrun)
+      * [Shadowrun 5th Edition](#shadowrun-5th-edition)
    * [Other](#other)
       * [Simple Worldbuilding System](#simple-worldbuilding-system)
    * [Appendix](#appendix)
