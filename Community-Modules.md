@@ -22,7 +22,6 @@
       * [Journal Drag](#journal-drag)
       * [Layer Hotkeys](#layer-hotkeys)
       * [Less Fog](#less-fog)
-      * [L5R Roller](#l5r-roller)
       * [Maestro](#maestro)
       * [Merge Walls](#merge-walls)
       * [Message Age Restriction](#message-age-restriction)
@@ -36,6 +35,7 @@
       * [Roll Table Buttons](#roll-table-buttons)
       * [Search Anywhere](#search-anywhere)
       * [Skycons](#skycons)
+      * [Special Dice Roller](#special-dice-roller)
       * [SVG Loader](#svg-loader)
       * [Tiles Browser](#tiles-browser)
       * [Token Mold](#token-mold)
@@ -505,10 +505,10 @@ Module to enhance visibility for the GM in Foundry VTT.
 
 ---
 
-## L5R Roller
+## Special Dice Roller
 
 * **Author**: putty#0555 on Discord.
-* **Version**: 0.4.0
+* **Version**: 0.5.0
 * **Foundry VTT Compatibility**: 0.4.3+
 * **System Compatibility (If applicable)**: Universal.
 * **Module Requirement(s)**: None
@@ -516,38 +516,16 @@ Module to enhance visibility for the GM in Foundry VTT.
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/BernhardPosselt/l5r-foundryvtt-roller](https://github.com/BernhardPosselt/l5r-foundryvtt-roller)
-* [https://raw.githubusercontent.com/BernhardPosselt/l5r-foundryvtt-roller/master/module.json](https://raw.githubusercontent.com/BernhardPosselt/l5r-foundryvtt-roller/master/module.json)
+* [https://github.com/BernhardPosselt/foundryvtt-special-dice-roller](https://github.com/BernhardPosselt/foundryvtt-special-dice-roller)
+* [https://raw.githubusercontent.com/BernhardPosselt/foundryvtt-special-dice-roller/master/module.json](https://raw.githubusercontent.com/BernhardPosselt/foundryvtt-special-dice-roller/master/module.json)
 
 ### Description
-A Legend of the 5 Rings dice roller using the images from [SkyJedi's Discord Roller](https://github.com/SkyJedi/FFGNDS-Discord-Dice-Roller) that supports exploding successes, re-rolling and keeping dice.
+Supports rolling dice in your chat window for various non regular dice systems:
 
-Also supports Genesys and Fantasy Flight Games Star Wars RPG.
-
-You can roll a system by starting your message with the following string:
-
-* Legend of the 5 Rings: /l5r
-* FFG Star Wars: /sw
-* FFG Genesys: /gen
-
-Then supply a dice formula separated with a space. The formula consists of dice letters that are optionally prefixed with a number.
-
-A full roll example would be **/l5r rrs** or **/l5r 2rs**.
-
-Use the **/l5r** command using the following dice letters:
-
-* b, r: ring
-* s, w: skill
-
-Usage is similar to L5R but re-rolls and keeping dice is unsupported. Use the **/gen** or **/sw** commands using the following dice letters:
-
-* b: boost
-* s: setback
-* a: ability
-* d: difficulty
-* p: proficiency
-* c: challenge
-* f: force (only sw)
+* Legend of the 5 Rings 5th edition
+* Vampire the Masquerade 5th edition
+* Genesys
+* FFG's Star Wars TTRPG
 
 ---
 
