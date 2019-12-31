@@ -61,7 +61,7 @@ Foundry VTT Brazilian (Portuguese) translation.
 
 ---
 
-# Russian (RU)
+## Russian (RU)
 
 * **Author**: Phenomen [Discord: Phenomen#1337]
 * **Version**: 0.4.3.2
