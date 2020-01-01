@@ -42,6 +42,8 @@
       * [Torch](#torch)
       * [VTTA Iconizer](#vtta-iconizer)
       * [VTTA Tokenizer](#vtta-tokenizer)
+   * [Foundry VTT Modules for 13th Age](#foundry-vtt-modules-for-13th-Age)
+      * [13th Age Expanded](#13th-age-expanded)
    * [Foundry VTT Modules for DnD 5E](#foundry-vtt-modules-for-dnd-5e)
       * [Better NPC Sheet 5e](#better-npc-sheet-5e)
       * [Better Rolls for 5e](#better-rolls-for-5e)
@@ -272,12 +274,12 @@ This module turns the d20 icon near the chat prompt into a clickable link that o
 ## Discord Rich Presence
 
 * **Author**: Cody Swendrowski (Toon324#9701 on Discord)
-* **Version**: 1.0.0
-* **Foundry VTT Compatibility**: 0.4.0+
+* **Version**: 2.0.3
+* **Foundry VTT Compatibility**: 0.3.X, 0.4.X
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: [Companion API (Required!)](https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence/releases)
 * **Module Conflicts**: None
-* **Translation Support**: Supports any Language supported by the Discord GameSDK
+* **Translation Support**: Supports any Language supported by the Discord GameSDK for Rich Presence. Supports English for UI, with localization enabled if other languages are contributed.
 
 ### Link(s) to Module
 * [https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence](https://github.com/cswendrowski/FoundryVTT-Discord-Rich-Presence)
@@ -899,6 +901,28 @@ Tokenizer provides the user with:
 - the ability to scale and translate each layer individually
 - automatic generation of a mask using the marching squares algorithm
 - automatic upload of the created tokens to the Foundry VTT server (requires 'Trusted Player' permission level)
+
+---
+# Foundry VTT Modules for 13th Age
+
+Foundry modules that work within the 13th Age System are noted here. These may include NPC compendiums that may be legally shared, world saves, character sheet mods, and much, much more.
+
+## 13th Age Expanded
+
+* **Author**: Cody Swendrowski (Toon324#9701 on Discord)
+* **Version**: 1.0.0
+* **Foundry VTT Compatibility**: 0.4.X
+* **System Compatibility (If applicable)**: 13th Age
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: Supports English, with localization enabled if other languages are contributed.
+
+### Link(s) to Module
+* [https://github.com/cswendrowski/FoundryVTT-13th-Age-Expanded)
+* [https://github.com/cswendrowski/FoundryVTT-13th-Age-Expanded/blob/master/module.json)
+
+### Description
+A small set of additional features for https://gitlab.com/asacolips-projects/foundry-mods/archmage/tree/master, such as adding a place to keep track of Incremental Advances
 
 ---
 
