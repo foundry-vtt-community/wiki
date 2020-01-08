@@ -14,8 +14,8 @@ Foundry tools that work across all or most systems are noted here. These differ 
 ## DunGen
 
 * **Author**: Nick#2947 on Discord. His Patreon can be found here: [patreon.com/DungeonChannel](https://www.patreon.com/DungeonChannel)
-* **Version**: 0.8.5
-* **Foundry VTT Compatibility**: 0.4.0+
+* **Version**: 0.8.9
+* **Foundry VTT Compatibility**: 0.4.3
 * **Translation Support**: EN (full)
 
 ### Link(s) to Tool
