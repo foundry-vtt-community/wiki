@@ -14,6 +14,7 @@
       * [Display Mode](#display-mode)
       * [Entity Order](#entity-order)
       * [FFG Roller](#ffg-roller)
+      * [Foundry Hot Seat Observer](#foundry-hot-seat-observer)
       * [Foundry Patrol](#foundry-patrol)
       * [Foundry Pin](#foundry-pin)
       * [The Furnace](#the-furnace)
@@ -350,6 +351,25 @@ This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items a
 This adds a simple dice rolling window for the special dice used in Fantasy Flight Games Star Wars RPG and Genesys. 
 
 ---
+## Foundry Hot Seat Observer
+
+* **Author**: Zzarek Discord: zzarek@3461
+* **Version**: 0.1.2
+* **Foundry VTT Compatibility**: 0.4.3
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known
+* **Translation Support**: EN (Full)
+
+### Link(s) to Module
+* [https://github.com/Zzarek/FoundryHotSeatObserver](https://github.com/Zzarek/FoundryHotSeatObserver)
+* [https://raw.githubusercontent.com/zzarek/FoundryHotSeatObserver/master/module.json](https://raw.githubusercontent.com/zzarek/FoundryHotSeatObserver/master/module.json)
+
+### Description
+TLDR: Create token automated token patrols
+Using this mod, you will be able to set up "Patrol Routes" which tokens will move to based on a timing of your choice. This can give certain scenes a more life like appearance! Make your markets full of life and give your castles that patrolling retinue they've always needed!
+
+---
 
 ## Foundry Patrol
 
@@ -367,8 +387,7 @@ This adds a simple dice rolling window for the special dice used in Fantasy Flig
 * [https://github.com/JacobMcAuley/foundry-patrol/raw/master/module.json](https://github.com/JacobMcAuley/foundry-patrol/raw/master/module.json)
 
 ### Description
-TLDR: Create token automated token patrols
-Using this mod, you will be able to set up "Patrol Routes" which tokens will move to based on a timing of your choice. This can give certain scenes a more life like appearance! Make your markets full of life and give your castles that patrolling retinue they've always needed!
+Allows a single player for hot seat situations - whenever initiative is changed the Observer player is updated to the next player assigned to it.
 
 ---
 
