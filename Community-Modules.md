@@ -353,7 +353,7 @@ This adds a simple dice rolling window for the special dice used in Fantasy Flig
 ---
 ## Foundry Hot Seat Observer
 
-* **Author**: Zzarek Discord: zzarek@3461
+* **Author**: Zzarek Discord: zzarek@8820
 * **Version**: 0.1.2
 * **Foundry VTT Compatibility**: 0.4.3
 * **System Compatibility (If applicable)**: Universal
