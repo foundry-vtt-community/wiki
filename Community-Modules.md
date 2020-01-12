@@ -5,6 +5,7 @@
       * [Always Show Notes](#always-show-notes)
       * [Anvil Menu](#anvil-menu)
       * [Arcane Viewing](#arcane-viewing)
+      * [BubbleRolls](#bubblerolls)
       * [Chat Autoloader](#chat-autoloader)
       * [Combat Utility Belt (Beta)](#combat-utility-belt-beta)
       * [Cursor Hider](#cursor-hider)
