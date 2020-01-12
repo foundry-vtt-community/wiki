@@ -177,6 +177,25 @@ Through the use of Arcane magic, you are able to see and hear your follow advent
 
 ---
 
+## BubbleRolls
+
+* **U~man**: U~man#2374, contributions are welcome on core features, translations and new templates
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.4.3
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known
+* **Translation Support**: English, French
+
+### Link(s) to Module
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls) 
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/raw/master/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/raw/master/module.json) 
+
+### Description
+This module displays Actor Rolls in Chat Bubbles located on just above the Token. This module makes it easy for contributors to add templates of their own. More information on the gitlab link.
+
+---
+
 ## Chat Autoloader
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
