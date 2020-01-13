@@ -774,7 +774,7 @@ This module adds the ability for each user to show a cursor following his mouse 
 ## Roll Table Buttons
 
 * **Author**: RaySSharma#4736 on Discord
-* **Version**: 0.1.0
+* **Version**: 0.3.0
 * **Foundry VTT Compatibility**: 0.4.3+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
