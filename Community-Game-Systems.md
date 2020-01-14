@@ -160,8 +160,8 @@ This system brings support for the Starfinder RPG to Foundry VTT. The system pro
 ## Shadowrun 5th Edition
 
 * **Author**: Shawn Milligan (n3rf_herder#9026 on discord)
-* **Version**: v0.4
-* **Foundry VTT Compatibility**: v0.4.3
+* **Version**: v0.4.6
+* **Foundry VTT Compatibility**: v0.4.4
 * **Translation Support**: EN (full)
 
 ### Link(s) to Game System
