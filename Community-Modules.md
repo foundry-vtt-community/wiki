@@ -1336,8 +1336,8 @@ This version was forked from Hooking's module which ended compatibility with Fou
 ## Max Crit Damage
 
 * **Author**: n3rf_herder#9026 on Discord.
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.4.0
+* **Version**: 0.1.1
+* **Foundry VTT Compatibility**: 0.4.4
 * **System Compatibility (If applicable)**: D&D 5e
 * **Module Requirement(s)**: None
 * **Module Conflicts**: Any that don't use the standard D&D 5e roller
