@@ -142,8 +142,8 @@ This system adds support for FATE Core and FATE Accelerated (FAE) to Foundry VTT
 ## starfinder
 
 * **Author**: James Allred (wildj79#0980 on discord)
-* **Version**: v0.1.1
-* **Foundry VTT Compatibility**: v0.4.1+
+* **Version**: v0.1.6
+* **Foundry VTT Compatibility**: v0.4.2+
 * **Translation Support**: EN (full)
 
 ### Link(s) to Game System
