@@ -576,12 +576,12 @@ Supports rolling dice in your chat window for various non regular dice systems:
 ## Maestro
 
 * **Author**: Evan Clarke (errational#2007)
-* **Version**: 0.3.5
-* **Foundry VTT Compatibility**: 0.4.1+
+* **Version**: 0.4.2
+* **Foundry VTT Compatibility**: 0.4.4+
 * **System Compatibility (If applicable)**: N/A
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: Hype Track (deprecated by this module)
-* **Translation Support**: N/A (EN only)
+* **Translation Support**: EN, JA
 
 ### Link(s) to Module
 * [https://github.com/death-save/maestro](https://github.com/death-save/maestro)
@@ -592,7 +592,6 @@ A quality of life audio-focused module for Foundry Virtual Tabletop.
 
 Maestro adds the following features:
 
-* Scene Playlist - Select a playlist to play automatically when the Scene is activated.
 * Hype Track - Set a track to play each time that Actor has a turn in Combat
 * Item Track - Set a track/playlist to play each time that Item is rolled
 
