@@ -56,7 +56,7 @@
       * [Chat Damage Buttons - Beyond20 Edition](#chat-damage-buttons---beyond20-edition)
       * [Compendium Browser](#compendium-browser)
       * [Critical Fumble](#critical-fumble)
-      * [D&D 5e Conditions](#d&d-5e-conditions)
+      * [D&amp;D 5e Conditions](#dd-5e-conditions)
       * [Dynamic Items](#dynamic-items)
       * [E-Z Roller](#e-z-roller)
       * [Favourite Item Tab](#favourite-item-tab)
