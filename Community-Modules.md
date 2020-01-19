@@ -56,6 +56,7 @@
       * [Chat Damage Buttons - Beyond20 Edition](#chat-damage-buttons---beyond20-edition)
       * [Compendium Browser](#compendium-browser)
       * [Critical Fumble](#critical-fumble)
+      * [D&D 5e Conditions](#d&d-5e-conditions)
       * [Dynamic Items](#dynamic-items)
       * [E-Z Roller](#e-z-roller)
       * [Favourite Item Tab](#favourite-item-tab)
@@ -1142,6 +1143,25 @@ Do you find yourself forgetting to roll on the critical hit table? The critical 
 Then you're like me and this mod is what you need! Critical-fumble will automatically roll on the critical hit tables in the event of a critical hit! Each hit rolls a special table depending on the type of damage.
 
 Additionally, every time a targeted monster is felled by your players, the CR table is rolled! To further your convience, the coins dropped can be automatically distributed to your players. This option can be ignored though!
+
+---
+
+## D&D 5e Conditions
+
+* **Author**: trdischat#2123 on Discord.
+* **Version**: 0.4.5
+* **Foundry VTT Compatibility**: 0.4.5+
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/trdischat/conditions5e](https://github.com/trdischat/conditions5e)
+* [https://raw.githubusercontent.com/trdischat/conditions5e/master/module.json](https://raw.githubusercontent.com/trdischat/conditions5e/master/module.json)
+
+### Description
+Alter the icons in the Status Effects panel of the Token Hub to reflect the standard "conditions" in D&D 5e, and repurpose the effects overlay to display whether the token is seriously wounded, unconscious, or dead.
 
 ---
 
