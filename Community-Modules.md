@@ -29,7 +29,6 @@
       * [Merge Walls](#merge-walls)
       * [Message Age Restriction](#message-age-restriction)
       * [No Token Animations](#no-token-animations)
-      * [Patches by trdischat](#patches-by-trdischat)
       * [Permission Viewer](#permission-viewer)
       * [Pings](#pings)
       * [Playlist Import](#playlist-import)
@@ -533,8 +532,8 @@ The Hotkeys can be seen by hovering over the button as well.
 ## Less Fog
 
 * **Author**: trdischat#2123 on Discord.
-* **Version**: 0.0
-* **Foundry VTT Compatibility**: 0.4.1+
+* **Version**: 0.4.5
+* **Foundry VTT Compatibility**: 0.4.5+
 * **System Compatibility (If applicable)**: Universal.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -542,7 +541,7 @@ The Hotkeys can be seen by hovering over the button as well.
 
 ### Link(s) to Module
 * [https://github.com/trdischat/lessfog](https://github.com/trdischat/lessfog)
-* [https://github.com/trdischat/lessfog/raw/master/module.json](https://github.com/trdischat/lessfog/raw/master/module.json)
+* [https://raw.githubusercontent.com/trdischat/lessfog/master/module.json](https://raw.githubusercontent.com/trdischat/lessfog/master/module.json)
 
 ### Description
 Module to enhance visibility for the GM in Foundry VTT.
@@ -650,30 +649,6 @@ A Foundry VTT Module to enable filtering chat-messages by their age. Each user c
 
 ### Description
 Adds an option to the settings dialog to disable token movement animations. Tokens will drop immediately instead of sliding when dragged and dropped around the map with this setting enabled.
-
----
-
-## Patches by trdischat
-
-* **Author**: trdischat#2123 on Discord.
-* **Version**: 0.0
-* **Foundry VTT Compatibility**: 0.3+
-* **System Compatibility (If applicable)**: Universal.
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/trdischat/fvtt/tree/master/patches](https://github.com/trdischat/fvtt/tree/master/patches)
-* [https://github.com/trdischat/fvtt/raw/master/patches/module.json](https://github.com/trdischat/fvtt/raw/master/patches/module.json)
-
-### Description
-Module to apply the following patches to Foundry VTT:
-- `patchFog`: Allow GM to see through the FOW and to see all tokens on the canvas.
-- `patchSound`: Apply volume easing to selected volume level of sound effect.
-- `patchDice`: Average of 2d20 rolls for normal checks and saves; limit dice to reroll (applies to the dnd5e system).
-
-All patches rely on the `patchClass` utility function.
 
 ---
 
@@ -1213,16 +1188,16 @@ Adds a Favourite tab to display a customized list of items, feats and spells. Us
 ## Group Roll
 
 * **Author**: trdischat#2123 on Discord.
-* **Version**: 0.0
-* **Foundry VTT Compatibility**: 0.3+
+* **Version**: 0.4.5
+* **Foundry VTT Compatibility**: 0.4.5+
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://github.com/trdischat/fvtt/tree/master/grouproll](https://github.com/trdischat/fvtt/tree/master/grouproll)
-* [https://github.com/trdischat/fvtt/raw/master/grouproll/module.json](https://github.com/trdischat/fvtt/raw/master/grouproll/module.json)
+* [https://github.com/trdischat/grouproll](https://github.com/trdischat/grouproll)
+* [https://raw.githubusercontent.com/trdischat/grouproll/master/module.json](https://raw.githubusercontent.com/trdischat/grouproll/master/module.json)
 
 ### Description
 Implements group ability and skill check rolls per Player's Handbook, page 175: "*If at least half the group succeeds, the whole group succeeds.*" Modules also includes patches to implement the Halfling Lucky trait, and a house rule to use the average of 2d20 for normal skill and ability check rolls. Both of these patches can be disabled in config.js. All patches rely on the included `patchClass` utility function.
