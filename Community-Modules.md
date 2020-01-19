@@ -406,7 +406,9 @@ This adds a simple dice rolling window for the special dice used in Fantasy Flig
 * [https://raw.githubusercontent.com/zzarek/FoundryHotSeatObserver/master/module.json](https://raw.githubusercontent.com/zzarek/FoundryHotSeatObserver/master/module.json)
 
 ### Description
+
 Allows a single player for hot seat situations - whenever initiative is changed the Observer player is updated to the next player assigned to it.
+
 ---
 
 ## Foundry Patrol
