@@ -393,7 +393,7 @@ This adds a simple dice rolling window for the special dice used in Fantasy Flig
 ---
 ## Foundry Hot Seat Observer
 
-* **Author**: Zzarek Discord: zzarek@8820 [Paypal Donations Accepted At](https://paypal.me/Zzarek8820?locale.x=en_US)
+* **Author**: Zzarek Discord: zzarek@8820 Paypal Donations Accepted [Here](https://paypal.me/Zzarek8820?locale.x=en_US)
 * **Version**: 0.2.08
 * **Foundry VTT Compatibility**: 0.4.5
 * **System Compatibility (If applicable)**: Universal
@@ -406,9 +406,7 @@ This adds a simple dice rolling window for the special dice used in Fantasy Flig
 * [https://raw.githubusercontent.com/zzarek/FoundryHotSeatObserver/master/module.json](https://raw.githubusercontent.com/zzarek/FoundryHotSeatObserver/master/module.json)
 
 ### Description
-TLDR: Create token automated token patrols
-Using this mod, you will be able to set up "Patrol Routes" which tokens will move to based on a timing of your choice. This can give certain scenes a more life like appearance! Make your markets full of life and give your castles that patrolling retinue they've always needed!
-
+Allows a single player for hot seat situations - whenever initiative is changed the Observer player is updated to the next player assigned to it.
 ---
 
 ## Foundry Patrol
@@ -427,7 +425,8 @@ Using this mod, you will be able to set up "Patrol Routes" which tokens will mov
 * [https://github.com/JacobMcAuley/foundry-patrol/raw/master/module.json](https://github.com/JacobMcAuley/foundry-patrol/raw/master/module.json)
 
 ### Description
-Allows a single player for hot seat situations - whenever initiative is changed the Observer player is updated to the next player assigned to it.
+TLDR: Create token automated token patrols
+Using this mod, you will be able to set up "Patrol Routes" which tokens will move to based on a timing of your choice. This can give certain scenes a more life like appearance! Make your markets full of life and give your castles that patrolling retinue they've always needed!
 
 ---
 
