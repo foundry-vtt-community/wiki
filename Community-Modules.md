@@ -1169,8 +1169,8 @@ Alter the icons in the Status Effects panel of the Token Hub to reflect the stan
 ## Dynamic Items
 
 * **Author**: @tposney discord
-* **Version**: 0.0.32
-* **Foundry VTT Compatibility**: 0.4.2+ dnd 5e. Requires 0.4.2+ and wont work with earlier versions.
+* **Version**: 0.0.45
+* **Foundry VTT Compatibility**: 0.4.4+ dnd 5e 0.80+. Requires 0.4.4+ and wont work with earlier versions.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None that I know of
 * **Translation Support**: English.
@@ -1183,10 +1183,15 @@ Alter the icons in the Status Effects panel of the Token Hub to reflect the stan
 ### Description
 Dynamic items are ones that makes changes to your stats/modifiers when they are active in your inventory. This module is really intended for player characters and NPCs that have linked tokens.
 
-* Armor and shields now update your armor class when equipped and reverse the change when unequipped. (this happens automatically once the module is turned on and the items are equipped). Armor can have dynamic properties, e.g. ac+2 which can require attunement.
+* Armor and shields now update your armor class when equipped and reverse the change when unequipped. (this happens automatically once the module is turned on and the items are equipped). Armor can have dynamic properties, e.g. ac+2 which can require attunement. Dexterity bonuses are added to AC up to the max dex mod specified in the armor.
 * Rings of protection can increase saves or armor class when active, again changes are reversed when unequiped or unattuned (if that is a word).
 * There is a straightforward ui to make changes/create items For more complex changes (e.g. AC based on dex mod, you need to know the attribute specification, e.g. data.avilities.dex.mod)
 * Dynamic effects can be applied to any item, weapons/backpacks/armor/feats, in addition to its normal properties.
+* as of 0.8 new bonus fields, like attacks, weapon damage and saves/checks can be added as strings. So +1d4 on saving throws for bless.
+* You can add the following macro
+```DynamicItems.showEffects(actor)``` for a detailed list of effects, or ```DynamicItems.showEffects(actor, false)`` for a summary.
+* You can add the following macro
+```toggleFeatActive("item name")``` to toggle a feat/item as active. Think turning on/off bless or sneak attack.
 
 ---
 
@@ -1269,8 +1274,8 @@ To install, download the zip file included in the Github module directory. Extra
 ## Item Collection
 
 * **Author**: @tposney#1462 on Discord
-* **Version**: 1.2.1
-* **Foundry VTT Compatibility**: 0.4.3+
+* **Version**: 1.2.11
+* **Foundry VTT Compatibility**: 0.4.4+
 * **System Compatibility (If applicable)**: dn5e, because of currency.
 * **Module Requirement(s)**: none.
 * **Module Conflicts**: none that I know of.
@@ -1372,20 +1377,38 @@ Deals max damage for critical hit rolls.
 
 * **Author**: @tposney#1462 on Discord
 * **Version**: 0.18
-* **Foundry VTT Compatibility**: 0.4+
-* **System Compatibility (If applicable)**: dnd5e
+* **Foundry VTT Compatibility**: 0.4.4+
+* **System Compatibility (If applicable)**: dnd5e 0.8
 * **Module Requirement(s)**: None
 * **Module Conflicts**: Does not work with the default Apply damage pull down but provides chat damage buttons instead.
 * **Translation Support**: English, but localization support is included.
 
 ### Link(s) to Module
+* https://gitlab.com/tposney/minor-qol/master/minor-qol
 * [https://gitlab.com/tposney/minor-qol/raw/master/minor-qol.zip](https://gitlab.com/tposney/minor-qol/raw/master/minor-qol.zip)
 * [https://gitlab.com/tposney/minor-qol/raw/master/module.json](https://gitlab.com/tposney/minor-qol/raw/master/module.json)
 
 ### Description
-Adds item deletion confirmation, accelerated dice rolls with attack and damage in one click and item info hiding. All features can be enabled/disabled from the in-game module settings. If enabling/disabling speed-item-rolls you should reload the browser window.
+ Link: https://gitlab.com/tposney/minor-qol
+Manifest:  https://gitlab.com/tposney/minor-qol/raw/master/module.json
 
-To install paste the manifest link into the foundry "add a module" or download the zip and unzip in your module directory.
+Please see the link for more detailed info.
+
+* A confirmation dialog when you delete an item from the character sheet
+* The ability to add damage buttons to any standard dnd5e damage dice roll.
+* Speed Rolls. There are quite a few options, but simply when you enable the flag "Speed Item Rolls" the item roll icon (on the character inventory) allows you to use shift/ctrl/alt for standard rolls (if you don't select any then the default chat card will be displayed), rolls with disadvantage and advantage respectively. So for normal usage you shift click the weapon/spell icon to do a normal speed roll.
+* Speed item rolls support rolling the attack, checking if the attack hit the target, any saves, the damage and applying the damage if the attack hits all automatically (taking into account damage immunities for single damage type rolls). You can decide how much automation you want, toggling off auto hit checking, auto saves and damage application. 
+* You can choose display the target token's name or it's image in the save/hits chatcards. 
+* When applying damage the module uses targeted opponents not selected.
+* For weapon attacks only the fist targeted token is damaged by the attack. 
+* If casting an area affect spell target all of the affected tokens.
+* The module also supports speed item rolls on the macro bar. 
+* You can create speed item macro rolls by hand, create a script macro and enter 
+```MinorQOL.doMacroRoll(event, "Greataxe")```
+
+* The attack/damage rolls are displayed using the system chat cards.
+* You can enable roll buttons on the inventory sheet.
+* The module will speed cast spells at the default level and consume the appropriate spell slot or auto use a higher level slot.  Spell scaling will be applied. Useful for pact/always prepared spells which will consume slots from the main spell slots. Innate spells don't.
 
 Many thanks to @Red Rein @Hooking for allowing me to pillage their code.
 
