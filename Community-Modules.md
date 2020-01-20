@@ -1174,6 +1174,7 @@ Alter the icons in the Status Effects panel of the Token Hub to reflect the stan
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None that I know of
 * **Translation Support**: English.
+* **Translation Support**: Japanese. Kingly provided by @BrotherSharp
 
 ### Link(s) to Module
 * [https://gitlab.com/tposney/dynamicitems](https://gitlab.com/tposney/dynamicitems)
@@ -1280,7 +1281,7 @@ To install, download the zip file included in the Github module directory. Extra
 * **Module Requirement(s)**: none.
 * **Module Conflicts**: none that I know of.
 * **Translation Support**: English, but others can be added via a suitable json.
-
+* **Translation Support**: Japanese, kindly provided by @Asami
 ### Link(s) to Module
 * [https://gitlab.com/tposney/itemcollection](https://gitlab.com/tposney/itemcollection)
 * [https://gitlab.com/tposney/itemcollection/raw/master/module.json](https://gitlab.com/tposney/itemcollection/raw/master/module.json)
