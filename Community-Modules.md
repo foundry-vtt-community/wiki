@@ -20,6 +20,7 @@
       * [Foundry Patrol](#foundry-patrol)
       * [Foundry Pin](#foundry-pin)
       * [The Furnace](#the-furnace)
+      * [GM Notes](#gm-notes)
       * [Grid Scaler](#grid-scaler)
       * [Image Previewer](#image-previewer)
       * [Journal Drag](#journal-drag)
@@ -468,6 +469,25 @@ Allows the user to pin windows which will be re-opened automatically the next ti
 The Furnace is an essential part of every Foundry. This Foundry VTT module brings Quality of Life Improvements to the VTT.
 
 It started by adding Drawing Tools, and then an experimental Macros system and now it also adds a 'Split Journal' feature. More QoL improvements are planned.
+
+---
+
+## GM Notes
+
+* **Author**: Felix#6196, accepts donation via paypal: felix.mueller.86@web.de
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.4.5
+* **System Compatibility (If applicable)**: universal, but extra feature for dnd5e
+* **Module Requirement(s)**: none
+* **Module Conflicts**: none known
+* **Translation Support**: Japanese and French fully translated
+
+### Link(s) to Module
+* https://github.com/syl3r86/gm-notes
+* manifest: https://raw.githubusercontent.com/syl3r86/gm-notes/master/module.json
+
+### Description
+A Foundry VTT Module to add GM-Only notes to entities (Actor, Items (including owned items), RollTable and JournalEntry). This module is system independet, but has an additional feature to easily move GM notes to or from the actors bio, items description or JournalEntrys content.
 
 ---
 
