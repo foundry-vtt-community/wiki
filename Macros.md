@@ -11,7 +11,7 @@ Macros were added in Foundry VTT version `0.4.4`
 ## Script Macros
 
 ### Examples
-An example script macro to draw from a random table  
+#### Random Table Roll 
 
 `    const table = game.tables.entities.find(t => t.name === "MY TABLE NAME");
      table.draw();`  
