@@ -13,8 +13,10 @@ Macros were added in Foundry VTT version `0.4.4`
 ### Examples
 #### Random Table Roll 
 
-`    const table = game.tables.entities.find(t => t.name === "MY TABLE NAME");
-     table.draw();`  
+```js
+const table = game.tables.entities.find(t => t.name === "MY TABLE NAME");
+table.draw();
+```
 
 Replace the table name with the one you want to use.
 
