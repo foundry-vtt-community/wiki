@@ -215,7 +215,7 @@ This module improves loading times by only rendering the last few chat messages 
 
 ## Combat Utility Belt (Beta)
 
-* **Author**: errational#2007 on discord
+* **Author**: errational#2007 on discord (Donation/Sponsor? Sponsor button in the first link below)
 * **Version**: 0.7.1
 * **Foundry VTT Compatibility**: 0.4.0+
 * **System Compatibility (If applicable)**: N/A
@@ -616,8 +616,8 @@ Supports rolling dice in your chat window for various non regular dice systems:
 
 ## Maestro
 
-* **Author**: Evan Clarke (errational#2007)
-* **Version**: 0.4.2
+* **Author**: Evan Clarke (errational#2007) (Donation/Sponsor? Sponsor button in the first link below)
+* **Version**: 0.5.0
 * **Foundry VTT Compatibility**: 0.4.4+
 * **System Compatibility (If applicable)**: N/A
 * **Module Requirement(s)**: N/A
@@ -629,12 +629,19 @@ Supports rolling dice in your chat window for various non regular dice systems:
 * [https://raw.githubusercontent.com/death-save/maestro/master/module.json](https://raw.githubusercontent.com/death-save/maestro/master/module.json)
 
 ### Description
-A quality of life audio-focused module for Foundry Virtual Tabletop.
+Adds some sound-focused features to Foundry Virtual Tabletop!
 
 Maestro adds the following features:
 
-* Hype Track - Set a track to play each time that Actor has a turn in Combat
-* Item Track - Set a track/playlist to play each time that Item is rolled
+Hype Track - Set a track to play each time that Actor has a turn in Combat
+
+Item Track - Set a track to play when that Item is rolled
+
+Combat Track - Set a playlist or track to play when the Combat encounter begins
+
+Miscellaneous - Playlist loop toggling, disable dice sound setting
+
+DEPRECATED Scene Playlist - DEPRECATED -- Use native Foundry functionality instead Select a playlist to play automatically when the Scene is activated.
 
 ---
 
