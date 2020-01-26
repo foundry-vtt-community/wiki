@@ -117,23 +117,23 @@ To install, use the in-app installer and enter into the manifest URL: `https://g
 
 ---
 
-# FATE
+# Fate
 
-Foundry systems based on the FATE Core and Accelerated systems by Evil Hat Productions.
+Foundry systems based on the Fate Core and Accelerated systems by Evil Hat Productions, available under Creative Commons.
 
-## FATE Core & Accelerated
+## Fate Core & Accelerated
 
 * **Author**: Nick van Oosten (NickEast#1131 on Discord)
-* **Version**: 0.1 (Alpha)
-* **Foundry VTT Compatibility**: 0.3.9+
+* **Version**: 0.2.0
+* **Foundry VTT Compatibility**: 0.4.5+
 * **Translation Support**: EN (Full)
 
 ### Link(s) to Game System
-* [https://gitlab.com/foundry-projects/fate](https://gitlab.com/foundry-projects/fate)
-* [https://gitlab.com/foundry-projects/fate/raw/master/system.json](https://gitlab.com/foundry-projects/fate/raw/master/system.json)
+* Repository: [https://gitlab.com/foundry-projects/fate](https://gitlab.com/foundry-projects/fate)
+* Manifest (most recent version): [https://gitlab.com/foundry-projects/fate/raw/master/system.json](https://gitlab.com/foundry-projects/fate/raw/master/system.json)
 
 ### Description
-This system adds support for FATE Core and FATE Accelerated (FAE) to Foundry VTT. Currently in Alpha stage, only FAE character sheets and Stunts are available.
+This system adds support for Fate Core and Fate Accelerated (FAE) to Foundry VTT. Currently still in development, and only the FAE character sheet is functional.
 
 ---
 
