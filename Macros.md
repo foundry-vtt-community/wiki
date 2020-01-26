@@ -20,7 +20,7 @@ table.draw();
 
 Replace the table name with the one you want to use.
 
-#### Rolling perception (in gm mode) for selected tokens or active players if no token is selected
+#### Rolling perception (in gm mode) for selected tokens or active players if no token is selected. For dnd5e
 ```js
 let actors = [];
 // getting all actors of selected tokens
