@@ -26,6 +26,23 @@ DunGen is a Dungeon Generator that creates high resolution maps ready to import 
 
 ---
 
+## Foundry Project Creator (FPC)
+
+* **Author**: Nick van Oosten (NickEast#1131 on Discord)
+* **Version**: 1.3.0
+* **Foundry VTT Compatibility**: 0.4.5+
+
+### Link(s) to Tool
+* [Link to the repository](https://gitlab.com/foundry-projects/foundry-pc/create-foundry-project)
+* [Link to the wiki](https://gitlab.com/foundry-projects/foundry-pc/create-foundry-project/-/wikis/home)
+
+### Description
+The **Project Creator** is a tool to quickly get started with developing modules and systems for the Foundry VTT. It provides basic boilerplate code, for both vanilla JavaScript as well as TypeScript, and automated tasks using Gulp to speed up building, testing, and releasing your module.
+
+Please refer to the README and the FPC wiki for more information.
+
+---
+
 # Appendix
 
 ## Appendix A: Adding a Tool
