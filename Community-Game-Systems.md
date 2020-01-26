@@ -130,7 +130,7 @@ Foundry systems based on the Fate Core and Accelerated systems by Evil Hat Produ
 
 ### Link(s) to Game System
 * Repository: [https://gitlab.com/foundry-projects/fate](https://gitlab.com/foundry-projects/fate)
-* Manifest (most recent version): [https://gitlab.com/foundry-projects/fate/raw/master/system.json](https://gitlab.com/foundry-projects/fate/raw/master/system.json)
+* Manifest (most recent version): [https://gitlab.com/foundry-projects/fate/raw/master/src/system.json](https://gitlab.com/foundry-projects/fate/raw/master/src/system.json)
 
 ### Description
 This system adds support for Fate Core and Fate Accelerated (FAE) to Foundry VTT. Currently still in development, and only the FAE character sheet is functional.
