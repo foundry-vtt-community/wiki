@@ -2,6 +2,7 @@
 <!--ts-->
    * [Foundry VTT Tools (Universal)](#foundry-vtt-tools-universal)
       * [DunGen](#dungen)
+      * [Foundry Project Creator (FPC)](#foundry-project-creator-fpc)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Tool](#appendix-a-adding-a-tool)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
