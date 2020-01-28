@@ -226,7 +226,7 @@ This module improves loading times by only rendering the last few chat messages 
 
 ### Link(s) to Module
 * [https://github.com/death-save/combat-utility-belt/tree/beta](https://github.com/death-save/combat-utility-belt/tree/beta)
-* [https://raw.githubusercontent.com/death-save/combat-utility-belt/beta/module.json](https://github.com/death-save/combat-utility-belt/tree/beta)
+* [https://raw.githubusercontent.com/death-save/combat-utility-belt/beta/module.json](https://raw.githubusercontent.com/death-save/combat-utility-belt/beta/module.json)
 
 ### Description
 You can read more about the module in the README @ (https://github.com/death-save/combat-utility-belt/tree/beta).
