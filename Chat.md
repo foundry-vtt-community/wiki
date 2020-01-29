@@ -5,4 +5,4 @@
 * In Character chat (triggers a chat bubble) : `/ic`
 * Out of Character chat : `/occ`
 * Emote : `/em` or `/emote`
-* Whispers : `@name` or `@[player name]`
+* Whispers : `@PlayerName`, `@CharacterName`, `@[Player Name]`, or `@[Character Name]`
