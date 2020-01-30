@@ -2,7 +2,6 @@
 <!--ts-->
    * [Foundry VTT Rollable Tables for DnD 5E](#foundry-vtt-rollable-tables-for-dnd-5e)
       * [Potion Strength](#potion-strength)
-      * [SRD Trinkets Table](#srd-trinkets-table)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Rollable Table](#appendix-a-adding-a-rollable-table)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
