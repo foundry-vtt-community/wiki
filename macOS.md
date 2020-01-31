@@ -1,3 +1,13 @@
+# Basic Setup
+1. Download the latest Windows setup file from [Patreon](https://patreon.com/foundryvtt/posts)
+2. Run `FoundryVTT-0.4.X-Setup.dmg` to install Foundry VTT
+Note: The .dmg is currently not signed, so you will need to allow the installation when prompted
+3. Follow the instructions to install Foundry.
+Note: If you select Run Foundry VTT at the end of installation you may be prompted to allow it through the macOS firewall.   
+4. When finished installed Foundry will open as a full screen application on the "Foundry Virtual Tabletop - Configuration and Setup" screen.
+
+# Running From Terminal
+
 Download the Window's version of Foundry and place it in a suitable location, such as **Documents**. Double click on the `FoundryVirtualTabletop-win32-x64.zip` to extract the contents. I suggest renaming the folder that was created to **FoundryVTT**.
 
 In order to run the Foundry server we need to download `node.js` for macOS. It is suggested to install `node.js` via [Homebrew](https://brew.sh/) for ease of installation and managment.
