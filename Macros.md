@@ -62,10 +62,13 @@ You can edit `${actor.name} rolled <b>${result}</b> for perception<br>` to chang
 ### Consume various resources. 
 
 This was actually written as a module that provides the dailyGrind function to be called from a macro with
-```MacroModule.dailyGrind(actor, [["ration1", 1], ["ration2", 2]])```
+```js
+MacroModule.dailyGrind(actor, [["ration1", 1], ["ration2", 2]])
+```
 
 As a standalone macro it looks like:
 
+```js
 // Consume items from inventory
 let consumption = [["ration1", 1], ["ration2", 2]];
 let updates = [];
