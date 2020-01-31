@@ -58,3 +58,36 @@ if(messageContent !== '') {
 }
 ```
 You can edit `${actor.name} rolled <b>${result}</b> for perception<br>` to change the displayed text.
+
+### Consume various resources. 
+
+This was actually written as a module that provides the dailyGrind function to be called from a macro with
+```MacroModule.dailyGrind(actor, [["ration1", 1], ["ration2", 2]])```
+
+As a standalone macro it looks like:
+
+// Consume items from inventory
+let consumption = [["ration1", 1], ["ration2", 2]];
+let updates = [];
+let consumed = "";
+for (let [name, quantity] of consumption) {
+  let item = actor.items.find(i=> i.name===name);
+  if (item.data.data.quantity < quantity) {
+    ui.notifications.warn(`${game.user.name} not enough ${name} remaining`);
+    consumed += `Only had ${item.data.data.quantity} ${name} but needed ${quantity} - death ensues<br>`;
+  } else {
+    updates.push({"_id": item._id, "data.quantity": item.data.data.quantity - quantity});
+    consumed += `Consumed ${quantity} ${item.data.name} and has ${item.data.data.quantity - quantity} left<br>`;
+  }
+}
+
+if (updates.length > 0) {
+  actor.updateManyEmbeddedEntities("OwnedItem", updates);
+}
+ChatMessage.create({
+  user: game.user._id,
+speaker: { actor: actor, alias: actor.name },
+  content: consumed,
+  type: CONST.CHAT_MESSAGE_TYPES.OTHER
+});
+```
