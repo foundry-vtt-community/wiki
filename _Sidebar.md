@@ -27,6 +27,7 @@ Table of Contents
          * [<a href="Walls">Walls</a>](#walls)
          * [<a href="Pins">Pins</a>](#pins)
          * [<a href="Sounds">Sounds</a>](#sounds)
+         * [<a href="Macros">Macros</a>](#macros)
       * [<a href="Sidebar">Sidebar</a>](#sidebar)
          * [<a href="Chat">Chat</a>](#chat)
          * [<a href="Combat-Tracker">Combat Tracker</a>](#combat-tracker)
