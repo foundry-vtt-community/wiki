@@ -48,6 +48,8 @@
 
 ### [Sounds](Sounds)
 
+### [Macros](Macros)
+
 ## [Sidebar](Sidebar)
 
 ### [Chat](Chat)
