@@ -1657,8 +1657,8 @@ Foundry modules that work within Warhammer Fantasy Roleplay 4th Edition are note
 ## Arcane Marks & Careers
 
 * **Author**: Moo Man#7518 on Discord
-* **Version**: 1.2.2
-* **Foundry VTT Compatibility**: 0.4.0+
+* **Version**: 1.2.4
+* **Foundry VTT Compatibility**: 0.4.4+
 * **System Compatibility**: Warhammer Fantasy Roleplay 4th Edition.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -1666,7 +1666,7 @@ Foundry modules that work within Warhammer Fantasy Roleplay 4th Edition are note
 
 ### Link(s) to Module
 * [https://github.com/moo-man/Arcane-Marks-Careers-FVTT](https://github.com/moo-man/Arcane-Marks-Careers-FVTT)
-* [https://raw.githubusercontent.com/moo-man/Arcane-Marks-Careers-FVTT/master/arcane-marks-careers/module.json](https://raw.githubusercontent.com/moo-man/Arcane-Marks-Careers-FVTT/master/arcane-marks-careers/module.json)
+* [https://raw.githubusercontent.com/moo-man/Arcane-Marks-Careers-FVTT/master/module.json](https://raw.githubusercontent.com/moo-man/Arcane-Marks-Careers-FVTT/master/module.json)
 
 ### Description
 [This homebrew](https://drive.google.com/file/d/1uTy2r0EDMdcISFqqyxeIOSadtzz-OTAg/view) supplement I made adds Lore specific careers and marks for WFRP4e. 
