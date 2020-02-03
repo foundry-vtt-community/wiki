@@ -22,7 +22,7 @@ runcmd:
   - printf '\nSetting up server for Foundry VTT\n'
   - mkdir foundrycore
   - mkdir foundrydata
-  - cd foundrycore
+  - cd /foundrycore
   - wget https://foundryvtt.s3-us-west-2.amazonaws.com/releases/__ACCESSKEY__/FoundryVirtualTabletop-linux-x64.zip
   - unzip FoundryVirtualTabletop-linux-x64.zip
   - screen -S Foundry
@@ -54,11 +54,11 @@ runcmd:
 DigitalOcean will email you a one-time password to SSH in that you'll have to immediately change before executing further commands.
 
 1. `ssh root@<Your Droplet IP>`
-2. `cd foundrycore`
+2. `cd /foundrycore`
 3. `wget https://foundryvtt.s3-us-west-2.amazonaws.com/releases/<Patreon Access Key>/FoundryVirtualTabletop-linux-x64.zip`
 4. `unzip FoundryVirtualTabletop-linux-x64.zip`
 5. `screen -S Foundry` (creates a named background "screen" so the server stays running)
-6. `node /resources/app/main.js --port=<Desired Port> --dataPath=/foundrycore/`
+6. `node resources/app/main.js --port=<Desired Port> --dataPath=/foundrydata/`
 7. `CTRL + A + D` (detach from screen)
 
 If you ever want to reattach to the Screen, use `screen -r`
