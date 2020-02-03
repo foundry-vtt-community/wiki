@@ -30,6 +30,7 @@
       * [Maestro](#maestro)
       * [Merge Walls](#merge-walls)
       * [Message Age Restriction](#message-age-restriction)
+      * [Mother, May I?](#mother-may-i)
       * [No Token Animations](#no-token-animations)
       * [Permission Viewer](#permission-viewer)
       * [Pings](#pings)
@@ -79,6 +80,9 @@
       * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
       * [VTTA D&amp;D Beyond Integration](#vtta-dd-beyond-integration)
       * [VTTA Party](#vtta-party)
+
+   * [Foundry VTT Modules for GURPS](#foundry-vtt-modules-for-gurps)
+      * [GURPSModule](#gurpsmodule)
    * [Foundry VTT Modules for WFRP 4E](#foundry-vtt-modules-for-wfrp-4e)
       * [Arcane Marks &amp; Careers](#arcane-marks--careers)
       * [Rough Nights &amp; Hard Days](#rough-nights--hard-days)
@@ -492,6 +496,26 @@ A Foundry VTT Module to add GM-Only notes to entities (Actor, Items (including o
 
 ---
 
+## GM Scene Background
+
+* **Author**: Evan Clarke (errational#2007)
+* **Version**: 0.1.0
+* **Foundry VTT Compatibility**: 0.4.5
+* **System Compatibility (If applicable)**: All
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: None
+
+### Link(s) to Module
+* https://github.com/death-save/gm-bg
+* Manifest: https://raw.githubusercontent.com/death-save/gm-bg/master/module.json
+
+### Description
+Allows GMs to set a GM-only background image.
+Sponsor/Donation options in Github link
+
+---
+
 ## Grid Scaler
 
 * **Author**: UberV, UberV#2154 on Discord.
@@ -683,6 +707,22 @@ Backup your world before trying as it will change the walls in your world perman
 
 ### Description
 A Foundry VTT Module to enable filtering chat-messages by their age. Each user can choose his own settings. It is possible to set the maximum age (in days) and to specify if the filter should be applied.
+
+---
+
+## Mother, May I?
+
+* **Author**: Deuce#8801 on Discord.
+* **Version**: 0.0.1
+* **Foundry VTT Compatibility**: 0.4.4+
+* **Translation Support**: None
+
+### Link(s) to Module
+* [https://github.com/RealDeuce/mother-may-i/](https://github.com/RealDeuce/mother-may-i/)
+* [https://raw.githubusercontent.com/RealDeuce/mother-may-i/master/module.json](https://raw.githubusercontent.com/RealDeuce/mother-may-i/master/module.json)
+
+### Description
+Allows players to drag items and actors they own to the canvas.
 
 ---
 
@@ -1650,8 +1690,32 @@ Configurable options for granting players access to both features, or to use it 
 
 ---
 
-# Foundry VTT Modules for WFRP 4E
 
+# Foundry VTT Modules for GURPS
+
+Foundry modules that work within GURPS 4th Edition are noted here. These may include NPC compendiums that may be legally shared, world saves, character sheet mods, changes to roll tables, etc.
+
+
+## GURPSModule
+
+* **Author**: Kalos#9376 on Discord
+* **Version**: 0.2
+* **Foundry VTT Compatibility**: 0.4.5
+* **System Compatibility (If applicable)**: Universal (unless any others rewrite the ruler label!)
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None.
+* **Translation Support**: English
+
+### Link(s) to Module
+* [https://github.com/kalminos/GURPSmodule](https://github.com/kalminos/GURPSmodule) 
+* [https://raw.githubusercontent.com/kalminos/GURPSmodule/master/module.json](https://raw.githubusercontent.com/kalminos/GURPSmodule/master/module.json) 
+
+### Description
+This mod changes the foundry ruler label to print out the GURPS range modifier from the size speed and range table. There are also some chat commands to roll on rolltables for hit location (off the grand unified hit location table), range, size modifier, fear results, critical hits, malfunctions, and more. Type in !ghelp into the chat for a bit of help. 
+
+---
+
+# Foundry VTT Modules for WFRP 4E
 Foundry modules that work within Warhammer Fantasy Roleplay 4th Edition are noted here. These may include NPC compendiums that may be legally shared, world saves, character sheet mods, changes to roll tables, etc.
 
 ## Arcane Marks & Careers
