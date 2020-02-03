@@ -100,6 +100,8 @@
 
 ## [Community Game Systems Repository](https://github.com/foundry-vtt-community/game_systems)
 
+## [Community Media](Community-Media)
+
 ## [Community Modules](Community-Modules)
 
 ## [Community Module Repository](https://github.com/foundry-vtt-community/modules)
