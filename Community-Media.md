@@ -1,14 +1,14 @@
 <!--tl=2-->
 <!--ts-->
-   * [Foundry Media (Universal)](#foundry-media-universal)
+   * [Foundry Media]
    * [Appendix](#appendix)
       * [Appendix A: Adding Media](#appendix-a-adding-media)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
 <!--te-->
 
-# Foundry Media (Universal)
+# Foundry Media
 
-Foundry media, such as music and artwork, that can be used universally across game systems and settings.
+Foundry media, such as music and artwork, that can be legally shared.
 
 # Appendix
 
@@ -32,7 +32,7 @@ Foundry media, such as music and artwork, that can be used universally across ga
 ## Appendix B: Best Editing Practices
 
 - The term media should be used when denoting a third-party program or website that interacts with Foundry VTT.
-- Links to media should link to the author’s page for it, if such exists. This helps emphasize the media author’s control over their creation, and allows users to see information that the media author deems important. If you have the media author’s permission otherwise, or you are the creator, feel free to link directly to the media download link, if any.
+- Links to media should link to the artist’s page for it, if such exists. This helps emphasize the media author’s control over their creation, and allows users to see information that the media author deems important. If you have the media author’s permission otherwise, or you are the creator, feel free to link directly to the media download link, if any.
 - Media are sorted alphabetically.
 - Ensure that Foundry is noted as “Foundry VTT” or “Foundry Virtual Tabletop” in writing, unless it is the media title, or the media author desires otherwise in the description. This helps emphasize Foundry’s role as a unique, standalone tabletop, and helps distinguish it from other brands using the word “foundry”.   
 - Ideally, each media should be separated by a single line break. This is just to help it look neat. 
