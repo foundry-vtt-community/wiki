@@ -21,6 +21,7 @@
       * [Foundry Pin](#foundry-pin)
       * [The Furnace](#the-furnace)
       * [GM Notes](#gm-notes)
+      * [GM Scene Background](#gm-scene-background)
       * [Grid Scaler](#grid-scaler)
       * [Image Previewer](#image-previewer)
       * [Journal Drag](#journal-drag)
@@ -80,7 +81,6 @@
       * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
       * [VTTA D&amp;D Beyond Integration](#vtta-dd-beyond-integration)
       * [VTTA Party](#vtta-party)
-
    * [Foundry VTT Modules for GURPS](#foundry-vtt-modules-for-gurps)
       * [GURPSModule](#gurpsmodule)
    * [Foundry VTT Modules for WFRP 4E](#foundry-vtt-modules-for-wfrp-4e)
