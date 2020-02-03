@@ -80,6 +80,9 @@
       * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
       * [VTTA D&amp;D Beyond Integration](#vtta-dd-beyond-integration)
       * [VTTA Party](#vtta-party)
+
+   * [Foundry VTT Modules for GURPS](#foundry-vtt-modules-for-gurps)
+      * [GURPSModule](#gurpsmodule)
    * [Foundry VTT Modules for WFRP 4E](#foundry-vtt-modules-for-wfrp-4e)
       * [Arcane Marks &amp; Careers](#arcane-marks--careers)
       * [Rough Nights &amp; Hard Days](#rough-nights--hard-days)
