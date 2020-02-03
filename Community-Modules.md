@@ -532,25 +532,6 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 
 ---
 
-## GURPSModule
-
-* **Author**: Kalos#9376 on Discord
-* **Version**: 0.2
-* **Foundry VTT Compatibility**: 0.4.5
-* **System Compatibility (If applicable)**: Universal (unless any others rewrite the ruler label!)
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None.
-* **Translation Support**: English
-
-### Link(s) to Module
-* [https://github.com/kalminos/GURPSmodule](https://github.com/kalminos/GURPSmodule) 
-* [https://raw.githubusercontent.com/kalminos/GURPSmodule/master/module.json](https://raw.githubusercontent.com/kalminos/GURPSmodule/master/module.json) 
-
-### Description
-This mod changes the foundry ruler label to print out the GURPS range modifier from the size speed and range table. There are also some chat commands to roll on rolltables for hit location (off the grand unified hit location table), range, size modifier, fear results, critical hits, malfunctions, and more. Type in !ghelp into the chat for a bit of help. 
-
----
-
 ## Image Previewer
 
 * **Author**: Felix#6196 on Discord, accepts donations via paypal, felix.mueller.86@web.de
@@ -1706,8 +1687,32 @@ Configurable options for granting players access to both features, or to use it 
 
 ---
 
-# Foundry VTT Modules for WFRP 4E
 
+# Foundry VTT Modules for GURPS
+
+Foundry modules that work within GURPS 4th Edition are noted here. These may include NPC compendiums that may be legally shared, world saves, character sheet mods, changes to roll tables, etc.
+
+
+## GURPSModule
+
+* **Author**: Kalos#9376 on Discord
+* **Version**: 0.2
+* **Foundry VTT Compatibility**: 0.4.5
+* **System Compatibility (If applicable)**: Universal (unless any others rewrite the ruler label!)
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None.
+* **Translation Support**: English
+
+### Link(s) to Module
+* [https://github.com/kalminos/GURPSmodule](https://github.com/kalminos/GURPSmodule) 
+* [https://raw.githubusercontent.com/kalminos/GURPSmodule/master/module.json](https://raw.githubusercontent.com/kalminos/GURPSmodule/master/module.json) 
+
+### Description
+This mod changes the foundry ruler label to print out the GURPS range modifier from the size speed and range table. There are also some chat commands to roll on rolltables for hit location (off the grand unified hit location table), range, size modifier, fear results, critical hits, malfunctions, and more. Type in !ghelp into the chat for a bit of help. 
+
+---
+
+# Foundry VTT Modules for WFRP 4E
 Foundry modules that work within Warhammer Fantasy Roleplay 4th Edition are noted here. These may include NPC compendiums that may be legally shared, world saves, character sheet mods, changes to roll tables, etc.
 
 ## Arcane Marks & Careers
