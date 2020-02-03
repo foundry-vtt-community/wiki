@@ -18,7 +18,7 @@ Foundry media, such as music and artwork, that can be used universally across ga
 ```
 ## (Media Name)
 
-* **Author**: (Put author’s name here, including Discord username. If they accept contributions in code or donations, note this here as well.)
+* **Artist**: (Put artist’s name here, including Discord username (if applicable). If they accept contributions in code or donations, note this here as well.)
 
 ### Link(s) to Media
 * (Put a web URL here to find the media.)
