@@ -1,6 +1,6 @@
 <!--tl=2-->
 <!--ts-->
-   * [Foundry Media]
+   * [Foundry Media](#foundry-media)
    * [Appendix](#appendix)
       * [Appendix A: Adding Media](#appendix-a-adding-media)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
