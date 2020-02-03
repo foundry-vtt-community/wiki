@@ -53,6 +53,7 @@ Table of Contents
       * [<a href="https://github.com/foundry-vtt-community/adventures">Community Adventures Repository</a>](#community-adventures-repository)
       * [<a href="Community-Game-Systems">Community Game Systems</a>](#community-game-systems)
       * [<a href="https://github.com/foundry-vtt-community/game_systems">Community Game Systems Repository</a>](#community-game-systems-repository)
+      * [<a href="Community-Media">Community Media</a>](#community-media)
       * [<a href="Community-Modules">Community Modules</a>](#community-modules)
       * [<a href="https://github.com/foundry-vtt-community/modules">Community Module Repository</a>](#community-module-repository)
       * [<a href="Community-Tools">Community Tools</a>](#community-tools)
