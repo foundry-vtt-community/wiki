@@ -348,7 +348,7 @@ server {
         proxy_set_header        X-Forwarded-Proto $scheme;
 
         # Adjust the port number you chose!
-        proxy_pass              http://127.0.0.1:8080;
+        proxy_pass              https://127.0.0.1:8080;
 
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
@@ -356,7 +356,7 @@ server {
         proxy_read_timeout      90;
 
         # Again, adjust both your FQDN and your port number here!
-        proxy_redirect          http://127.0.0.1:8080 http://foundry.myhost.com;
+        proxy_redirect          https://127.0.0.1:8080 http://foundry.myhost.com;
     }
 
     listen 443 ssl; # managed by Certbot
