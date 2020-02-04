@@ -43,7 +43,6 @@
       * [Skycons](#skycons)
       * [SVG Loader](#svg-loader)
       * [Tiles Browser](#tiles-browser)
-      * [Token Info Icons](#token-info-icons)
       * [Token Mold](#token-mold)
       * [Torch](#torch)
       * [VTTA Iconizer](#vtta-iconizer)
@@ -79,6 +78,7 @@
       * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
       * [Request Roll](#request-roll)
       * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
+      * [Token Info Icons](#token-info-icons)
       * [VTTA D&amp;D Beyond Integration](#vtta-dd-beyond-integration)
       * [VTTA Party](#vtta-party)
    * [Foundry VTT Modules for GURPS](#foundry-vtt-modules-for-gurps)
@@ -920,25 +920,6 @@ Adds a browser to the tiles layer to conveniently preview and then drag and drop
 
 ---
 
-## Token Info Icons
-
-* **Author**: Jan Ole Peek (ChalkOne#0156 on Discord)
-* **Version**: 0.1.1
-* **Foundry VTT Compatibility**: 0.4.0
-* **System Compatibility (If applicable)**: None
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None known
-* **Translation Support**: English (no localization)
-
-### Link(s) to Module
-* [https://gitlab.com/jopeek/fvtt---token-info-icons](https://gitlab.com/jopeek/fvtt---token-info-icons)
-* [https://gitlab.com/jopeek/fvtt---token-info-icons/raw/master/module.json](https://gitlab.com/jopeek/fvtt---token-info-icons/raw/master/module.json)
-
-### Description
-Simple module that displays Speed, AC, and Passive Perception on Tokens for the GM.
-
----
-
 ## Token Mold
 
 * **Author**: Moerill#7205 on Discord. He accepts donations at his [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYZ294SP2JBGS&source=url).
@@ -1636,6 +1617,25 @@ This module provides a variant layout of the Core 5e Character Sheet in Foundry 
 * Adds the ability to click Known Languages under Traits to send the list to the chat window
 * Adds Tool, Armor, and Weapon proficiencies beneath Skills
 * Saves the scrollbar position when adding/deleting items from your inventory, features, or spellbook
+
+---
+
+## Token Info Icons
+
+* **Author**: Jan Ole Peek (ChalkOne#0156 on Discord)
+* **Version**: 0.1.1
+* **Foundry VTT Compatibility**: 0.4.0
+* **System Compatibility (If applicable)**: None
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known
+* **Translation Support**: English (no localization)
+
+### Link(s) to Module
+* [https://gitlab.com/jopeek/fvtt---token-info-icons](https://gitlab.com/jopeek/fvtt---token-info-icons)
+* [https://gitlab.com/jopeek/fvtt---token-info-icons/raw/master/module.json](https://gitlab.com/jopeek/fvtt---token-info-icons/raw/master/module.json)
+
+### Description
+Simple module that displays Speed, AC, and Passive Perception on Tokens for the GM.
 
 ---
 
