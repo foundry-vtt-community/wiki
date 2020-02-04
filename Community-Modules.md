@@ -361,25 +361,6 @@ Enhancements to Foundry playlists, including making playlists visible only to th
 
 ---
 
-## Entity Order
-
-* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.4.0+
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/kakaroto/fvtt-module-entityorder](https://github.com/kakaroto/fvtt-module-entityorder)
-* [https://raw.githubusercontent.com/kakaroto/fvtt-module-entityorder/master/entityorder/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-entityorder/master/entityorder/module.json)
-
-### Description
-This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items and Journal entries).
-
----
-
 ## FFG Roller
 
 * **Author**: Petep, @petep#0441 on Discord
@@ -397,6 +378,7 @@ This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items a
 This adds a simple dice rolling window for the special dice used in Fantasy Flight Games Star Wars RPG and Genesys. 
 
 ---
+
 ## Foundry Hot Seat Observer
 
 * **Author**: Zzarek Discord: zzarek@8820 Paypal Donations Accepted [Here](https://paypal.me/Zzarek8820?locale.x=en_US)
@@ -1819,6 +1801,25 @@ The module has not been updated recently by its creator, but the community has p
 
 ### Description
 This module modifies how the encumbrance bar in the actor sheet is displayed to distinguish the different levels of encumbrance when using the variant rules in **PHB pg. 175**. It does not currently support the Powerful Build feature, as doing so would require extending the base Actor5eSheet class.
+
+---
+
+## Entity Order
+
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.4.0+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-entityorder](https://github.com/kakaroto/fvtt-module-entityorder)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-entityorder/master/entityorder/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-entityorder/master/entityorder/module.json)
+
+### Description
+This Foundry VTT module allows you to re-order entities (Actors, Scenes, Items and Journal entries).
 
 ---
 
