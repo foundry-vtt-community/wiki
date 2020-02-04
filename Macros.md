@@ -94,3 +94,70 @@ speaker: { actor: actor, alias: actor.name },
   type: CONST.CHAT_MESSAGE_TYPES.OTHER
 });
 ```
+
+### Rolling a skill check for DnD 5e
+
+Here are a few simple scripts useful for rolling skill checks using the dnd5e system.
+
+```js
+// This would roll an athletics skill check for the players character. 
+// Just replace 'ath' with the appropriate skill abbreviation for the
+// skill you'd like to roll.
+character.rollSkil('ath');
+
+// This would be used if a player controls more than one character.
+// It would roll the check for which ever token the player has selected.
+actor.rollSkill('ath');
+```
+
+List of skill abbreviations:
+
+* "acr" => Acrobatics
+* "ani" => Animal Handling
+* "arc" => Arcana
+* "ath" => Athletics
+* "dec" => Deception
+* "his" => History
+* "ins" => Insight
+* "itm" => Intimidation
+* "inv" => Investigation
+* "med" => Medicine
+* "nat" => Nature
+* "prc" => Perception
+* "prf" => Performance
+* "per" => Persuasion
+* "rel" => Religion
+* "slt" => Sleight of Hand
+* "ste" => Stealth
+* "sur" => Survival
+
+### Rolling an attribute check for DnD 5e
+
+These are examples for rolling an attribute check.
+
+```js
+// This would pop up a dialog asking if you'd like
+// to roll a Strength Test or a Strength Save.
+// Just replace "str" with the appropriate ability
+// abbreviation.
+character.rollAbility("str");
+
+// or this for a player that is controlling multiple
+// tokens.
+actor.rollAbility("str");
+
+// This would skip the dialog and roll an ability test
+character.rollAbilityTest("str");
+
+// And this would skip the dialog and roll an ability save
+character.rollAbilitySave("str");
+```
+
+List of ability abbreviations:
+
+* "str" => Strength
+* "dex" => Dexterity
+* "con" => Constitution
+* "int" => Intelligence
+* "wis" => Wisdom
+* "cha" => Charisma
