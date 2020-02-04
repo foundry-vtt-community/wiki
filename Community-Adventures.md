@@ -14,9 +14,9 @@ Foundry adventures that work within Dungeons and Dragons 5th Edition are noted h
 ## The Lost City of Barakus
 
 * **Author**: u2mad#5354 on Discord
-* **Version**: 0.1a
+* **Version**: 0.1b
 * **System Compatibility**: Dungeons and Dragons 5th Edition
-* **Foundry VTT Compatibility**: 0.3.9
+* **Foundry VTT Compatibility**: 0.4.5
 * **Translation Support**: EN (full)
 
 ### Link(s) to Adventure
