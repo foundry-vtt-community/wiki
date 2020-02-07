@@ -425,8 +425,8 @@ Using this mod, you will be able to set up "Patrol Routes" which tokens will mov
 ## Foundry Pin
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
-* **Version**: 1.0
-* **Foundry VTT Compatibility**: 0.3.9+
+* **Version**: 2.0
+* **Foundry VTT Compatibility**: 0.4.4+
 * **Translation Support**: N/A
 
 ### Link to Module
@@ -713,8 +713,8 @@ Allows trusted players to drag items and actors they own to the canvas as long a
 ## No Token Animations
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
-* **Version**: 1.0
-* **Foundry VTT Compatibility**: 0.3.5+
+* **Version**: 2.0
+* **Foundry VTT Compatibility**: 0.4.4+
 * **Translation Support**: EN (full)
 
 ### Link to Module
@@ -1469,8 +1469,8 @@ This module adds a search interface for actors. This enables more comfortable br
 ## Obsidian Character Sheets
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
-* **Version**: 1.1.7
-* **Foundry VTT Compatibility**: 0.4.3+
+* **Version**: 2.1.1
+* **Foundry VTT Compatibility**: 0.4.5+
 * **Translation Support**: EN, DE, JP
 
 ### Link to Module
