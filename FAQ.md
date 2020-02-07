@@ -29,6 +29,12 @@ Refer to Patreon's instructions [here](https://support.patreon.com/hc/en-us/arti
 
 **Firefox** - `about:preferences` -> Performance -> Uncheck "Use recommended performance settings" -> Check "Use hardware acceleration when available"
 
+## How Do I Connect to an IPv6 Address?
+Open your browser of choice and enter the address like this: `http://[IP:v6:AD:RE:SS]:PORTNUMBER`
+
+- Paste the full IPv6 Address between the `[` `]`
+- Port number by default is 3000
+
 ## How Do I Install Modules?
 Check out the [Modules](https://foundry-vtt-community.github.io/wiki/Modules/) page for instructions.
 
