@@ -86,9 +86,8 @@ for ( let a of actors ) {
     const pack = game.packs.find(p => p.metadata.label === "Bard Spells");
 
     for (let s of spells){
-            console.log("Adding spell:" + s.name);
-            await pack.importEntity(s);
-            }
-        }    
+      console.log("Adding spell:" + s.name);
+      await pack.importEntity(s);
+    }    
 })();
 ```
