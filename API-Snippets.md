@@ -82,7 +82,7 @@ for ( let a of actors ) {
 ## Copy Items from a Folder into a Compendium
 ```js
 (async () => {
-    const spells = game.items.entities.find(i => i.folder.name === "Bard Spells");
+    const spells = game.items.entities.filter(i => i.folder && i.folder.name === "Bard Spells");
     const pack = game.packs.find(p => p.metadata.label === "Bard Spells");
 
     for (let s of spells){
