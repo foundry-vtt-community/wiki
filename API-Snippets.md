@@ -91,3 +91,26 @@ for ( let a of actors ) {
     }    
 })();
 ```
+
+## Copy Items from a Folder with nested Folders into a Compendium
+```js
+( async () => {
+    const folder = game.folders.entities.find(f => f.name === "Blah");
+    const pack = game.packs.find(p => p.metadata.label === "Foo");
+    let spells = [];
+
+    for (let c of folder.children) {
+        if (c.content.length) {
+          for (let s of c.content) {
+              spells.push(s);
+          }
+        }
+        
+    }
+    
+    for (let s of spells){
+      console.log("Adding spell:" + s.name);
+      await pack.importEntity(s);
+    }    
+})();
+```
