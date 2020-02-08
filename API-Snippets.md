@@ -1,6 +1,6 @@
 Code snippets seen on the discord channel, make sure to backup before trying these:
 
-**Bulk Update Tokens**
+## Bulk Update Tokens
 ```
 for ( let a of game.actors.entities ) {
     let token = duplicate(a.data.token);
@@ -13,7 +13,7 @@ for ( let a of game.actors.entities ) {
 }
 ```
 
-**Update Journal Entries Permissions**
+## Update Journal Entries Permissions
 
 Step 1 - get the folder you want to target
 ```
@@ -30,7 +30,7 @@ for ( let e of entries ) {
 }
 ```
 
-**Update Wall Movement Type**
+## Update Wall Movement Type
 ```
  const scene = canvas.scene;
  let updatedWalls = duplicate(scene.data.walls).map(w => {
@@ -40,7 +40,7 @@ for ( let e of entries ) {
  scene.update({walls: updatedWalls});
 ```
 
-**Move Walls by 26px**
+## Move Walls by 26px
 ```
  let walls = canvas.scene.data.walls.map(w => {
    w = duplicate(w);
@@ -51,7 +51,7 @@ for ( let e of entries ) {
  canvas.scene.update({walls: walls});
 ```
 
-**Move NPCs Into a Folder**
+## Move NPCs Into a Folder
 
 Step 1 - get the set of Actors you want to move to a folder
 ```
@@ -68,8 +68,8 @@ for ( let a of actors ) {
 }
 ```
 
-**(Untested) Map and Wall Scaling**
-```
+## (Untested) Map and Wall Scaling
+```js
  let scale = 2;
  canvas.scene.update({
    walls: canvas.scene.data.walls.map(w => {
@@ -77,4 +77,18 @@ for ( let a of actors ) {
      return w;
    });
  });
+```
+
+## Copy Items from a Folder into a Compendium
+```js
+(async () => {
+    const spells = game.items.entities.find(i => i.folder.name === "Bard Spells");
+    const pack = game.packs.find(p => p.metadata.label === "Bard Spells");
+
+    for (let s of spells){
+            console.log("Adding spell:" + s.name);
+            await pack.importEntity(s);
+            }
+        }    
+})();
 ```
