@@ -46,7 +46,6 @@
       * [Torch](#torch)
       * [VTTA Iconizer](#vtta-iconizer)
       * [VTTA Tokenizer](#vtta-tokenizer)
-      * [ZoomKey](#zoomkey)
    * [Foundry VTT Modules for 13th Age](#foundry-vtt-modules-for-13th-age)
       * [13th Age Expanded](#13th-age-expanded)
    * [Foundry VTT Modules for DnD 5E](#foundry-vtt-modules-for-dnd-5e)
@@ -59,6 +58,7 @@
       * [Compendium Browser](#compendium-browser)
       * [Critical Fumble](#critical-fumble)
       * [D&amp;D 5e Conditions](#dd-5e-conditions)
+      * [D&amp;D5e Dark Mode](#dd5e-dark-mode)
       * [Dynamic Items](#dynamic-items)
       * [E-Z Roller](#e-z-roller)
       * [Favourite Item Tab](#favourite-item-tab)
@@ -70,7 +70,6 @@
       * [Loot Sheet NPC 5E](#loot-sheet-npc-5e)
       * [Max Crit Damage](#max-crit-damage)
       * [Minor QOL Improvements](#minor-qol-improvements)
-      * [MyBeyond-Theme](#mybeyond-theme)
       * [NPC Browser](#npc-browser)
       * [Obsidian Character Sheets](#obsidian-character-sheets)
       * [Polyglot](#polyglot)
@@ -99,7 +98,6 @@
       * [Spell Browser](#spell-browser)
       * [SRD Bestiary Module](#srd-bestiary-module)
       * [Z Order (functionality integrated into core)](#z-order-functionality-integrated-into-core)
-      * [D&amp;D5e Dark Mode](#dd5e-dark-mode)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Module](#appendix-a-adding-a-module)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -427,8 +425,8 @@ Using this mod, you will be able to set up "Patrol Routes" which tokens will mov
 ## Foundry Pin
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
-* **Version**: 2.0
-* **Foundry VTT Compatibility**: 0.4.4+
+* **Version**: 1.0
+* **Foundry VTT Compatibility**: 0.3.9+
 * **Translation Support**: N/A
 
 ### Link to Module
@@ -715,8 +713,8 @@ Allows trusted players to drag items and actors they own to the canvas as long a
 ## No Token Animations
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
-* **Version**: 2.0
-* **Foundry VTT Compatibility**: 0.4.4+
+* **Version**: 1.0
+* **Foundry VTT Compatibility**: 0.3.5+
 * **Translation Support**: EN (full)
 
 ### Link to Module
@@ -992,23 +990,6 @@ Tokenizer provides the user with:
 - automatic generation of a mask using the marching squares algorithm
 - automatic upload of the created tokens to the Foundry VTT server (requires 'Trusted Player' permission level)
 
-## ZoomKey
-
-* **U~man**: U~man#2374, contributions are welcome
-* **Version**: 0.1.2
-* **Foundry VTT Compatibility**: 0.4.x
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None known
-* **Translation Support**: No text
-
-### Link(s) to Module
-* [https://gitlab.com/mesfoliesludiques/foundryvtt-zoomkey](https://gitlab.com/mesfoliesludiques/foundryvtt-zoomkey) 
-* [https://gitlab.com/mesfoliesludiques/foundryvtt-zoomkey/-/raw/master/zoomkey/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-zoomkey/-/raw/master/zoomkey/module.json) 
-
-### Description
-This module adds the PageUp PageDown shortcut to zoom in and out of the Canvas.Very handy for player who uses a trackpad with no mousewheel replacement.
-
 ---
 # Foundry VTT Modules for 13th Age
 
@@ -1215,6 +1196,26 @@ Additionally, every time a targeted monster is felled by your players, the CR ta
 
 ### Description
 Alter the icons in the Status Effects panel of the Token Hub to reflect the standard "conditions" in D&D 5e, and repurpose the effects overlay to display whether the token is seriously wounded, unconscious, or dead.
+
+---
+
+## D&D5e Dark Mode
+
+* **Author**: Stryxin#7572
+* **Version**: 1.0.2
+* **Foundry VTT Compatibility**: 0.4.4+
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
+* **Module Requirement(s)**: Better NPC Sheet 5e
+* **Module Conflicts**: Better Rolls for 5e ( I have a fixed version that works on my github branch) 
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/Stryxin/dnd5edark-foundryvtt](https://github.com/Stryxin/dnd5edark-foundryvtt)
+* [https://raw.githubusercontent.com/Stryxin/dnd5edark-foundryvtt/master/module.json](https://raw.githubusercontent.com/Stryxin/dnd5edark-foundryvtt/master/module.json)
+
+### Description
+A dark sheet style for the default D&D5e Character and NPC sheets.
+All the same functionality, just different color scheme. (Just changes CSS Styling)
 
 ---
 
@@ -1467,25 +1468,6 @@ Many thanks to @Red Rein @Hooking for allowing me to pillage their code.
 
 ---
 
-## MyBeyond-Theme
-
-* **Author**: Frederik Eschmann (Aylas#4838 on Discord; FreddyEs on GitHub)
-* **Version**: 1.0.0 (2020-02-09)
-* **Foundry VTT Compatibility**: 0.4.5+
-* **System Compatibility (If applicable)**: D&D 5e v0.81+
-* **Module Requirement(s)**: None
-* **Module Conflicts**: no known conflicts
-
-### Link(s) to Module
-* [https://fvtt-modules.eschmann.online/](https://fvtt-modules.eschmann.online/)
-* [https://fvtt-modules.eschmann.online/mybeyond-theme/module.json](https://fvtt-modules.eschmann.online/mybeyond-theme/module.json)
-
-### Description
-A simple css overwrite that brings the character sheet into a DnDBeyond like style without changing the function of the character sheet.
-Note: In Version 1.0.0, this module will also add styles for the ChatLog Messages and Chat Input, but will be made optional in a later version.
-
----
-
 ## NPC Browser
 
 * **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
@@ -1507,8 +1489,8 @@ This module adds a search interface for actors. This enables more comfortable br
 ## Obsidian Character Sheets
 
 * **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
-* **Version**: 2.1.1
-* **Foundry VTT Compatibility**: 0.4.5+
+* **Version**: 1.1.7
+* **Foundry VTT Compatibility**: 0.4.3+
 * **Translation Support**: EN, DE, JP
 
 ### Link to Module
@@ -1998,25 +1980,6 @@ To install, simply extract the zip file into `/public/modules`, enable the modul
 ### Description
 This Foundry VTT module lets you send tiles to the front or the back of the scene.
 
----
-
-## D&D5e Dark Mode
-
-* **Author**: Stryxin#7572
-* **Version**: 0.2
-* **Foundry VTT Compatibility**: 0.4.4+
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None (As far as I know)
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/Stryxin/dnd5edark-foundryvtt](https://github.com/Stryxin/dnd5edark-foundryvtt)
-* [https://raw.githubusercontent.com/Stryxin/dnd5edark-foundryvtt/master/module.json](https://raw.githubusercontent.com/Stryxin/dnd5edark-foundryvtt/master/module.json)
-
-### Description
-A dark sheet style for the default D&D5e Character and NPC sheets.
-All the same functionality, just different color scheme. (Just changes CSS Styling)
 
 ---
 # Appendix
