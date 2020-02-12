@@ -150,7 +150,8 @@ if (barb !== undefined) {
         content: chatMsg
     };
     ChatMessage.create(chatData, {});
-}```
+}
+```
 
 ### Consume various resources. 
 
