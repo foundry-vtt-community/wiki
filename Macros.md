@@ -59,6 +59,59 @@ if(messageContent !== '') {
 ```
 You can edit `${actor.name} rolled <b>${result}</b> for perception<br>` to change the displayed text. Written by @Felix#6196, if there are any questions feel free to send a message.
 
+
+
+let actors = game.actors.entities.filter(e=> e.data.type==='character');
+
+
+// pull each player's passive perception
+let messageContent = '';
+let messageHeader = '<b>Passive Perception</b><br>';
+for(let actor of actors) {
+  let modifier = actor.data.data.skills.prc.mod; // this is total bonus for perception (abilitie mod + proficiency)
+  let result = 10 + modifier; // this gives the passice perception
+  messageContent += `${actor.name} <b>${result}</b><br>`; // creating the output string
+}
+
+// create the message
+if(messageContent !== '') {
+  let chatData = {
+    user: game.user._id,
+    speaker: ChatMessage.getSpeaker(),
+    content: messageHeader + messageContent,
+    whisper: game.users.entities.filter(u => u.isGM).map(u => u._id)
+  };
+  ChatMessage.create(chatData, {});
+}
+
+
+#### Pulls Passive Perception for all of your players and sends it to you as a private message. For dnd5e
+```js
+let actors = game.actors.entities.filter(e=> e.data.type==='character');
+
+
+// pull each player's passive perception
+let messageContent = '';
+let messageHeader = '<b>Passive Perception</b><br>';
+for(let actor of actors) {
+  let modifier = actor.data.data.skills.prc.mod; // this is total bonus for perception (abilitie mod + proficiency)
+  let result = 10 + modifier; // this gives the passice perception
+  messageContent += `${actor.name} <b>${result}</b><br>`; // creating the output string
+}
+
+// create the message
+if(messageContent !== '') {
+  let chatData = {
+    user: game.user._id,
+    speaker: ChatMessage.getSpeaker(),
+    content: messageHeader + messageContent,
+    whisper: game.users.entities.filter(u => u.isGM).map(u => u._id)
+  };
+  ChatMessage.create(chatData, {});
+}
+```
+Written by @Erogroth#7134 using @Felix#6196's code as a base along with some help from him as well.
+
 ### Rage toggle for inhabited character
 This rather complex macro enables toggling the barbarian rage for a character. It adds damage resistance for bludgeoning, piercing and slashing, and adds the rage bonus (as determined by the barbarian class level) to any items with melee weapon damage.
 The character in question has to have a class called "Barbarian" with the specific level, since that is what's used to determin the damage bonus
