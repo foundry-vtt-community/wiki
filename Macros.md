@@ -69,7 +69,7 @@ let messageContent = '';
 let messageHeader = '<b>Passive Perception</b><br>';
 for(let actor of actors) {
   let modifier = actor.data.data.skills.prc.mod; // this is total bonus for perception (abilitie mod + proficiency)
-  let result = 10 + modifier; // this gives the passice perception
+  let result = 10 + modifier; // this gives the passive perception
   messageContent += `${actor.name} <b>${result}</b><br>`; // creating the output string
 }
 
