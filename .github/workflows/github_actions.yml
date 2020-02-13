@@ -21,7 +21,7 @@ jobs:
         git remote add upstream https://$GITHUB_API_KEY@github.com/foundry-vtt-community/wiki.wiki.git > /dev/null 2>&1
         git fetch origin
         git fetch upstream
-        git merge upstream/master --no-edit
+        git merge upstream/master --no-edit --allow-unrelated-histories
         chmod a+x utils/gh-md-toc
         ./utils/gh-md-toc Home.md > _Sidebar.md && git add _Sidebar.md
         for file in $(grep -l '<!--ts-->' *.md); do
@@ -32,7 +32,5 @@ jobs:
         fi
         git remote add old https://$GITHUB_API_KEY@github.com/foundry-vtt-community/wiki.wiki.git
         git fetch --unshallow old
-        git pull origin master --allow-unrelated-histories
-        git merge origin origin/master
         git push -f origin HEAD:master
         git push -f upstream HEAD:master
