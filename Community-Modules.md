@@ -1299,7 +1299,7 @@ Causes item cards to open in a window rather than in chat.  This allows you to o
 
 ### Link(s) to Module
 * [https://github.com/syl3r86/favtab](https://github.com/syl3r86/favtab)
-* [https://raw.githubusercontent.com/syl3r86/favtab/master/favtab/module.json](https://raw.githubusercontent.com/syl3r86/favtab/master/favtab/module.json)
+* [https://raw.githubusercontent.com/syl3r86/favtab/master/module.json](https://raw.githubusercontent.com/syl3r86/favtab/master/module.json)
 
 ### Description
 Adds a Favourite tab to display a customized list of items, feats and spells. Usable with the default dnd5e Character sheet. You can add any item from the inventory, spell book or feature section of the character sheet. This module also gives access to item charges. You can add these to any item on the favourite list or remove them by changing the maximum to 0. This uses the same data that is used by Moerill#7205's adnd5e module, since this data is not supported by default.
