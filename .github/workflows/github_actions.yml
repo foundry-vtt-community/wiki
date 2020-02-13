@@ -32,5 +32,7 @@ jobs:
         fi
         git remote add old https://$GITHUB_API_KEY@github.com/foundry-vtt-community/wiki.wiki.git
         git fetch --unshallow old
+        git pull origin master --allow-unrelated-histories
+        git merge origin origin/master
         git push -f origin HEAD:master
         git push -f upstream HEAD:master
