@@ -1,0 +1,36 @@
+name: CI for Wiki.Wiki Sync
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '*/15 * * * *' #Every 15mins
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run Scripts
+      run: |     
+        git config user.name "Wiki Sync"
+        git config user.email "fvtt-travisci@mail.com"
+        git remote remove origin
+        git remote add origin https://$GITHUB_API_KEY@github.com/foundry-vtt-community/wiki.git > /dev/null 2>&1
+        git remote add upstream https://$GITHUB_API_KEY@github.com/foundry-vtt-community/wiki.wiki.git > /dev/null 2>&1
+        git fetch origin
+        git fetch upstream
+        git merge upstream/master --no-edit
+        chmod a+x utils/gh-md-toc
+        ./utils/gh-md-toc Home.md > _Sidebar.md && git add _Sidebar.md
+        for file in $(grep -l '<!--ts-->' *.md); do
+            ./utils/gh-md-toc --insert $file && git add $file
+        done
+        if [[ "$(git diff --cached)" != "" ]] ; then
+            git commit -m "Update sidebar Table of Content (Automatic)"
+        fi
+        git remote add old https://$GITHUB_API_KEY@github.com/foundry-vtt-community/wiki.wiki.git
+        git fetch --unshallow old
+        git push -f origin HEAD:master
+        git push -f upstream HEAD:master
