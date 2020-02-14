@@ -19,6 +19,7 @@
       * [Foundry Patrol](#foundry-patrol)
       * [Foundry Pin](#foundry-pin)
       * [The Furnace](#the-furnace)
+      * [FX Master](#fxmaster)
       * [GM Notes](#gm-notes)
       * [GM Scene Background](#gm-scene-background)
       * [Grid Scaler](#grid-scaler)
@@ -199,8 +200,8 @@ Through the use of Arcane magic, you are able to see and hear your follow advent
 * **Translation Support**: English, French, Japanese
 
 ### Link(s) to Module
-* [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls) 
-* [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/raw/master/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/raw/master/module.json) 
+* https: [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls) 
+* manifest: [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/raw/master/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/raw/master/module.json) 
 
 ### Description
 This module displays Actor Rolls in Chat Bubbles located on just above the Token. This module makes it easy for contributors to add templates of their own. More information on the gitlab link.
@@ -460,6 +461,25 @@ Allows the user to pin windows which will be re-opened automatically the next ti
 The Furnace is an essential part of every Foundry. This Foundry VTT module brings Quality of Life Improvements to the VTT.
 
 It started by adding Drawing Tools, and then an experimental Macros system and now it also adds a 'Split Journal' feature. More QoL improvements are planned.
+
+---
+
+## FX Master
+
+* **U~man**: U~man#2374, contributions are welcome
+* **Version**: 0.1.0
+* **Foundry VTT Compatibility**: 0.4.5
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known
+* **Translation Support**: -
+
+### Link(s) to Module
+* https: [https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster](https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster) 
+* manifest: [https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster/-/raw/master/fxmaster/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster/-/raw/master/fxmaster/module.json) 
+
+### Description
+This module adds weather effects to choose from in the scene configuration menu. You can now have animated flying birds, bubbles, embers and clouds.
 
 ---
 
