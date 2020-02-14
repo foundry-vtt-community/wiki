@@ -192,7 +192,7 @@ Through the use of Arcane magic, you are able to see and hear your follow advent
 ## BubbleRolls
 
 * **U~man**: U~man#2374, contributions are welcome on core features, translations and new templates
-* **Version**: 0.3
+* **Version**: 0.3.1
 * **Foundry VTT Compatibility**: 0.4.5
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
@@ -200,8 +200,8 @@ Through the use of Arcane magic, you are able to see and hear your follow advent
 * **Translation Support**: English, French, Japanese
 
 ### Link(s) to Module
-* https: [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls) 
-* manifest: [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/raw/master/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/raw/master/module.json) 
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls) 
+* Manifest: [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/raw/master/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/raw/master/module.json) 
 
 ### Description
 This module displays Actor Rolls in Chat Bubbles located on just above the Token. This module makes it easy for contributors to add templates of their own. More information on the gitlab link.
@@ -475,8 +475,8 @@ It started by adding Drawing Tools, and then an experimental Macros system and n
 * **Translation Support**: -
 
 ### Link(s) to Module
-* https: [https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster](https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster) 
-* manifest: [https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster/-/raw/master/fxmaster/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster/-/raw/master/fxmaster/module.json) 
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster](https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster) 
+* Manifest: [https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster/-/raw/master/fxmaster/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster/-/raw/master/fxmaster/module.json) 
 
 ### Description
 This module adds weather effects to choose from in the scene configuration menu. You can now have animated flying birds, bubbles, embers and clouds.
@@ -1017,7 +1017,7 @@ Tokenizer provides the user with:
 ## ZoomKey
 
 * **Author**: U~man#2374, contributions are welcome
-* **Version**: 0.1.2
+* **Version**: 0.2.1
 * **Foundry VTT Compatibility**: 0.4.x
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
@@ -1029,7 +1029,10 @@ Tokenizer provides the user with:
 * [https://gitlab.com/mesfoliesludiques/foundryvtt-zoomkey/-/raw/master/zoomkey/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-zoomkey/-/raw/master/zoomkey/module.json) 
 
 ### Description
-This module adds the PageUp PageDown shortcut to zoom in and out of the Canvas.Very handy for player who uses a trackpad with no mousewheel replacement.
+Adds hotkeys for zooming and panning on the canvas without mousewheel
+- Zooming in: Page Up or Ctrl + '+'
+- Zooming out: Page Down or Ctrl + '-'
+- Panning : Ctrl + arrows
 
 ---
 # Foundry VTT Modules for 13th Age
