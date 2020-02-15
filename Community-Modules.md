@@ -201,7 +201,7 @@ Through the use of Arcane magic, you are able to see and hear your follow advent
 
 ### Link(s) to Module
 * [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls) 
-* Manifest: [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/raw/master/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/raw/master/module.json) 
+* Manifest: [https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/-/raw/master/bubblerolls/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-bubblerolls/-/raw/master/bubblerolls/module.json)
 
 ### Description
 This module displays Actor Rolls in Chat Bubbles located on just above the Token. This module makes it easy for contributors to add templates of their own. More information on the gitlab link.
