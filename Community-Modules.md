@@ -1,7 +1,6 @@
 <!--tl=2-->
 <!--ts-->
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
-      * [Actually Private Rolls](#actually-private-rolls)
       * [Always Show Notes](#always-show-notes)
       * [Anvil Menu](#anvil-menu)
       * [Arcane Viewing](#arcane-viewing)
@@ -78,7 +77,6 @@
       * [Polyglot](#polyglot)
       * [Polymorpher](#polymorpher)
       * [Roll20 Converter](#roll20-converter)
-      * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
       * [Request Roll](#request-roll)
       * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
       * [Token Info Icons](#token-info-icons)
@@ -90,6 +88,7 @@
       * [Arcane Marks &amp; Careers](#arcane-marks--careers)
       * [Rough Nights &amp; Hard Days](#rough-nights--hard-days)
    * [Foundry VTT Modules (Defunct)](#foundry-vtt-modules-defunct)
+      * [Actually Private Rolls](#actually-private-rolls)
       * [DDB Popper (use VTTA-DNDBEYOND instead)](#ddb-popper-use-vtta-dndbeyond-instead)
       * [DnD Beyond Character Importer (non-functional -- use VTTA-D&amp;D Beyond Integration instead)](#dnd-beyond-character-importer-non-functional----use-vtta-dd-beyond-integration-instead)
       * [Encumbrance Variant](#encumbrance-variant)
@@ -98,6 +97,7 @@
       * [GM Roll Message](#gm-roll-message)
       * [Infinite Folders](#infinite-folders)
       * [NPC Browser](#npc-browser-1)
+      * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
       * [Spell Browser](#spell-browser)
       * [SRD Bestiary Module](#srd-bestiary-module)
       * [Z Order (functionality integrated into core)](#z-order-functionality-integrated-into-core)
@@ -109,25 +109,6 @@
 # Foundry VTT Modules (Universal)
 
 Foundry modules that work across all or most systems are noted here. These may include reskins, general improvement mods, and more.
-
-## Actually Private Rolls
-
-* **Author**: Felix#6196
-* **Version**: 0.0.3
-* **Foundry VTT Compatibility**: 0.4.5
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: N/A
-* **Module Conflicts**: No known conflicts
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://github.com/syl3r86/Actually-Private-Rolls](https://github.com/syl3r86/Actually-Private-Rolls)
-* [https://raw.githubusercontent.com/syl3r86/Actually-Private-Rolls/master/module.json](https://raw.githubusercontent.com/syl3r86/Actually-Private-Rolls/master/module.json)
-
-### Description
-Hides Private GM Rolls completely rather then just obfuscating the result.
-
----
 
 ## Always Show Notes
 
@@ -1620,25 +1601,6 @@ This module imports most facets of a campaign, including scenes, dynamic lightin
 
 ---
 
-## Roll20 NPC Importer, for 5e
-
-* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
-* **Version**: Roll20 NPC Importer 5e v0.5.1
-* **Foundry VTT Compatibility**: 0.3.0
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
-* **Module Requirement(s)**: None.
-* **Module Conflicts**: None known.
-* **Translation Support**: EN (full), JA (full)
-
-### Link(s) to Module
-* [https://github.com/syl3r86/roll20npcimporter](https://github.com/syl3r86/roll20npcimporter)
-* [https://raw.githubusercontent.com/syl3r86/roll20npcimporter/master/roll20npcimporter/module.json](https://raw.githubusercontent.com/syl3r86/roll20npcimporter/master/roll20npcimporter/module.json)
-
-### Description
-This module allows for the importing of NPCs from Roll20, through use of JSONs exported via [VTT Enhancement Suite](https://ssstormy.github.io/roll20-enhancement-suite/). This import currently only supports NPCs created in the Roll20 OGL or Shaped version sheets. This module supports the Better NPC Sheet 5e, as well as the aDnD5e sheet in tagging actor items according to abilities, reactions, legendary actions, etc.  To install, first download the module, unzip it into `/public/modules`, and then restart Foundry while it is running.
-
----
-
 ## Request Roll
 
 * **Author**: Jacob McAuley Discord: @JacobMcAuley3461
@@ -1827,6 +1789,26 @@ Extends the character creation capabilities to gnomes, including their stats, ba
 
 Foundry VTT modules that no longer work are noted here. Modules included here have been defunct for at least one month. This exists to help document previous work on Foundry Virtual Tabletop by the community, as well as to exist as a record for anyone who chooses to remain on a previous version of Foundry VTT.  
 
+## Actually Private Rolls
+
+* **Depreciated**: See Moerils Chat Autoloader for similar functionality
+* **Author**: Felix#6196
+* **Version**: 0.0.3
+* **Foundry VTT Compatibility**: 0.4.5
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: No known conflicts
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/syl3r86/Actually-Private-Rolls](https://github.com/syl3r86/Actually-Private-Rolls)
+* [https://raw.githubusercontent.com/syl3r86/Actually-Private-Rolls/master/module.json](https://raw.githubusercontent.com/syl3r86/Actually-Private-Rolls/master/module.json)
+
+### Description
+Hides Private GM Rolls completely rather then just obfuscating the result.
+
+---
+
 ## DDB Popper (use VTTA-DNDBEYOND instead)
 
 * **Author**: errational#2007 on discord
@@ -1979,6 +1961,26 @@ This Foundry VTT module allows you to create infinite depth of folders for Scene
 
 ### Description
 This module adds a search interface for actors. This enables more comfortable browsing and searching via predefined filters like challenge rating, type or ability score.
+
+---
+
+## Roll20 NPC Importer, for 5e
+
+* **Depreicated**: No longer recieves updates. See R20 Converter here for similar functionality @ [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
+* **Author**: Felix#6196 on Discord, syl3r31 on Github. He accepts donations on Paypal at felix.mueller.86@web.de
+* **Version**: Roll20 NPC Importer 5e v0.5.1
+* **Foundry VTT Compatibility**: 0.3.0
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
+* **Module Requirement(s)**: None.
+* **Module Conflicts**: None known.
+* **Translation Support**: EN (full), JA (full)
+
+### Link(s) to Module
+* [https://github.com/syl3r86/roll20npcimporter](https://github.com/syl3r86/roll20npcimporter)
+* [https://raw.githubusercontent.com/syl3r86/roll20npcimporter/master/roll20npcimporter/module.json](https://raw.githubusercontent.com/syl3r86/roll20npcimporter/master/roll20npcimporter/module.json)
+
+### Description
+This module allows for the importing of NPCs from Roll20, through use of JSONs exported via [VTT Enhancement Suite](https://ssstormy.github.io/roll20-enhancement-suite/). This import currently only supports NPCs created in the Roll20 OGL or Shaped version sheets. This module supports the Better NPC Sheet 5e, as well as the aDnD5e sheet in tagging actor items according to abilities, reactions, legendary actions, etc.  To install, first download the module, unzip it into `/public/modules`, and then restart Foundry while it is running.
 
 ---
 
