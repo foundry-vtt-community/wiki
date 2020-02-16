@@ -19,7 +19,7 @@
       * [Foundry Patrol](#foundry-patrol)
       * [Foundry Pin](#foundry-pin)
       * [The Furnace](#the-furnace)
-      * [FX Master](#fxmaster)
+      * [FX Master](#fx-master)
       * [GM Notes](#gm-notes)
       * [GM Scene Background](#gm-scene-background)
       * [Grid Scaler](#grid-scaler)
