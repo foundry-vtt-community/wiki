@@ -4,6 +4,7 @@
       * [Always Show Notes](#always-show-notes)
       * [Anvil Menu](#anvil-menu)
       * [Arcane Viewing](#arcane-viewing)
+      * [Babele](#babele)
       * [BubbleRolls](#bubblerolls)
       * [Calendar/Weather](#calendarweather)
       * [Chat Autoloader](#chat-autoloader)
@@ -68,6 +69,7 @@
       * [Kobold Press OGL](#kobold-press-ogl)
       * [Let Me Roll That For You! (LMRTFY)](#let-me-roll-that-for-you-lmrtfy)
       * [Loot Sheet NPC 5E](#loot-sheet-npc-5e)
+      * [Magic Items](#magic-items)
       * [Max Crit Damage](#max-crit-damage)
       * [Minor QOL Improvements](#minor-qol-improvements)
       * [MyBeyond-Theme](#mybeyond-theme)
@@ -167,6 +169,25 @@ The Anvil Menu is also a library able to be used by other module developers with
 Arcane Viewing adds Audio/Video conferencing support directly from within FVTT.
 
 Through the use of Arcane magic, you are able to see and hear your follow adventurers wherever they may hide! Peer through the looking glass and see the horror that grips them and hear their screams as they are attacked by a cute bunny. Huh?
+
+---
+
+## Babele
+
+* **Author**: Simone#6710 (Discord).
+* **Version**: 1.2
+* **Foundry VTT Compatibility**: 0.4.5+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN, IT
+
+### Link(s) to Module
+* [https://gitlab.com/riccisi/foundryvtt-babele](https://gitlab.com/riccisi/foundryvtt-babele) 
+* Manifest: [https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json](https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json)
+
+### Description
+Babele is a module for runtime translation of Compendium packs.
 
 ---
 
@@ -852,8 +873,8 @@ This module adds a button to the chat controls for easier access to rolltables. 
 ## Search Anywhere
 
 * **Author**: Simone#6710 on Discord
-* **Version**: 1.0.3
-* **Foundry VTT Compatibility**: 0.4.0+
+* **Version**: 1.4
+* **Foundry VTT Compatibility**: 0.4.5+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -1420,6 +1441,25 @@ LMRTFY is a module to let Game Masters request rolls from their players. This ca
 ### Description
 This module adds an additional NPC sheet which can be used for loot containers such as chests. It also allows spells to be automatically converted into spell scrolls by dragging them onto this sheet. 
 This version was forked from Hooking's module which ended compatibility with Foundry VTT version 0.3.9 (https://gitlab.com/hooking/foundry-vtt---loot-sheet-npc).
+
+---
+
+## Magic Items
+
+* **Author**: Simone#6710 (Discord).
+* **Version**: 1.4
+* **Foundry VTT Compatibility**: 0.4.7+
+* **System Compatibility (If applicable)**: DnD 5e
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN, IT
+
+### Link(s) to Module
+* [https://gitlab.com/riccisi/foundryvtt-magic-items](https://gitlab.com/riccisi/foundryvtt-magic-items) 
+* Manifest: [https://gitlab.com/riccisi/foundryvtt-magic-items/raw/master/module/module.json](https://gitlab.com/riccisi/foundryvtt-magic-items/raw/master/module/module.json)
+
+### Description
+This module adds the ability to create magical items with spells or feats that belong to the item itself, such as staffs or magic wands, which will be automatically inherited from the character who owns the item.
 
 ---
 
