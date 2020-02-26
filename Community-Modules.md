@@ -14,6 +14,7 @@
       * [Dice Calculator](#dice-calculator)
       * [Discord Rich Presence](#discord-rich-presence)
       * [Display Mode](#display-mode)
+      * [Easy Target](#easy-target)
       * [Enhanced Playlist](#enhanced-playlist)
       * [FFG Roller](#ffg-roller)
       * [Foundry Hot Seat Observer](#foundry-hot-seat-observer)
@@ -373,6 +374,24 @@ Enables Discord Rich Presence and Invites for http://foundryvtt.com/
 
 ### Description
 This module makes it so that when you click the anvil in the top left of the screen, the sidebar in Foundry is hidden.
+
+---
+
+## Easy Target
+
+* **Author**: [Fyorl#1292](https://kim.mantas.me.uk)
+* **Version**: 1.0
+* **Foundry VTT Compatibility**: 0.4.7+
+* **Translation Support**: N/A
+
+### Link to Module
+
+* [https://bitbucket.org/Fyorl/easy-target](https://bitbucket.org/Fyorl/easy-target)
+* [https://bitbucket.org/Fyorl/easy-target/raw/master/module.json](https://bitbucket.org/Fyorl/easy-target/raw/master/module.json)
+
+### Description
+
+Target tokens while on any layer with alt+click. Clear all targeted tokens with alt+shift+c.
 
 ---
 
