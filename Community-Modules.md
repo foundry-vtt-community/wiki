@@ -1,6 +1,7 @@
 <!--tl=2-->
 <!--ts-->
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
+      * [About Time](#about-time]
       * [Always Show Notes](#always-show-notes)
       * [Anvil Menu](#anvil-menu)
       * [Arcane Viewing](#arcane-viewing)
@@ -112,6 +113,27 @@
 # Foundry VTT Modules (Universal)
 
 Foundry modules that work across all or most systems are noted here. These may include reskins, general improvement mods, and more.
+
+## About Time
+
+* **Author**: @tposney
+* **Version**: 0.1.17
+* **Foundry VTT Compatibility**: 0.4.5
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: No known conflicts
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+*  url: https://gitlab/com/tposney/about-time
+*  manifest: https://gitlab.com/tposney/about-time/raw/master/package/module.json
+*  download: https://gitlab.com/tposney/about-time/raw/master/package/about-time-v0.1.17.zip
+
+### Description
+Supports a pseudo real time game clock withe events and arbitrary calendars.
+See Readme.md and gettingStarted.md for more information.
+
+---
 
 ## Always Show Notes
 
