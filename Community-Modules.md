@@ -125,7 +125,7 @@ Foundry modules that work across all or most systems are noted here. These may i
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-*  url: https://gitlab/com/tposney/about-time
+*  url: https://gitlab.com/tposney/about-time
 *  manifest: https://gitlab.com/tposney/about-time/raw/master/package/module.json
 *  download: https://gitlab.com/tposney/about-time/raw/master/package/about-time-v0.1.17.zip
 
