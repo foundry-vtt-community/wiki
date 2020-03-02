@@ -1,7 +1,7 @@
 <!--tl=2-->
 <!--ts-->
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
-      * [About Time](#about-time]
+      * [About Time](#about-time)
       * [Always Show Notes](#always-show-notes)
       * [Anvil Menu](#anvil-menu)
       * [Arcane Viewing](#arcane-viewing)
@@ -113,8 +113,6 @@
 # Foundry VTT Modules (Universal)
 
 Foundry modules that work across all or most systems are noted here. These may include reskins, general improvement mods, and more.
-
----
 
 ## About Time
 
