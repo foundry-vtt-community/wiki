@@ -82,6 +82,7 @@
       * [Roll20 Converter](#roll20-converter)
       * [Request Roll](#request-roll)
       * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
+      * [Stat Drawer](#stat-drawer)
       * [Token Info Icons](#token-info-icons)
       * [VTTA D&amp;D Beyond Integration](#vtta-dd-beyond-integration)
       * [VTTA Party](#vtta-party)
@@ -1715,6 +1716,25 @@ This module provides a variant layout of the Core 5e Character Sheet in Foundry 
 * Adds the ability to click Known Languages under Traits to send the list to the chat window
 * Adds Tool, Armor, and Weapon proficiencies beneath Skills
 * Saves the scrollbar position when adding/deleting items from your inventory, features, or spellbook
+
+---
+
+## Stat Drawer
+
+* **Author**: Felix#6196 (Discord), Art by @Setsuretsu (Twitter)
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.4.7+
+* **System Compatibility (If applicable)**: dnd5e
+* **Module Requirement(s)**: none
+* **Module Conflicts**: none known
+* **Translation Support**: none yet
+
+### Link(s) to Module
+* Link: [https://github.com/syl3r86/statdrawer](https://github.com/syl3r86/statdrawer)
+* Manifest: [https://raw.githubusercontent.com/syl3r86/statdrawer/master/module.json](https://raw.githubusercontent.com/syl3r86/statdrawer/master/module.json)
+
+### Description
+A module for Foundry VTT that lets you generate ablitiy scores for characters using the "Holy Grail" method as described [here](https://www.reddit.com/r/DnD/comments/c67dft/oc_another_character_stat_generation_method_i/)!
 
 ---
 
