@@ -143,7 +143,7 @@ For issues or translation problems, contact ariakas81#9664 or Simone#6710 on Dis
 
 #### Link(s) to Translation
 * Github : [https://github.com/ShoyuVanilla/FoundryVTT-lang-ko-KR](https://github.com/ShoyuVanilla/FoundryVTT-lang-ko-KR)
-* Manifest : [https://raw.githubusercontent.com/ShoyuVanilla/FoundryVTT-lang-ko-KR/master/ko-KR/module.json](https://raw.githubusercontent.com/ShoyuVanilla/FoundryVTT-lang-ko-KR/master/ko-KR/module.json)
+* Manifest : [https://raw.githubusercontent.com/ShoyuVanilla/FoundryVTT-lang-ko-KR/master/module.json](https://raw.githubusercontent.com/ShoyuVanilla/FoundryVTT-lang-ko-KR/master/module.json)
 
 #### Description
 This module adds the option to select the Korean language from the FoundryVTT settings menu. Selecting this option will translate various aspects of the program interface.
