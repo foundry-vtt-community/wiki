@@ -5,6 +5,7 @@
       * [French](#french)
       * [German](#german)
       * [Italian](#italian)
+      * [Korean](#korean)
       * [Portuguese (BR)](#portuguese-br)
       * [Russian (RU)](#russian-ru)
    * [Appendix](#appendix)
@@ -141,8 +142,7 @@ For issues or translation problems, contact ariakas81#9664 or Simone#6710 on Dis
 * **Foundry VTT Compatibility**: 0.47+
 
 #### Link(s) to Translation
-* Github : [https://github.com/ShoyuVanilla/FoundryVTT-lang-ko-KR]
-(https://github.com/ShoyuVanilla/FoundryVTT-lang-ko-KR)
+* Github : [https://github.com/ShoyuVanilla/FoundryVTT-lang-ko-KR](https://github.com/ShoyuVanilla/FoundryVTT-lang-ko-KR)
 * Manifest : [https://raw.githubusercontent.com/ShoyuVanilla/FoundryVTT-lang-ko-KR/master/ko-KR/module.json](https://raw.githubusercontent.com/ShoyuVanilla/FoundryVTT-lang-ko-KR/master/ko-KR/module.json)
 
 #### Description
