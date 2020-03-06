@@ -22,5 +22,5 @@ Community created modules can be found via the [Community Modules](https://found
 
 
 # Developing Modules
-Modules are developed using the Foundry VTT API which is documented on the official [Foundry VTT site](http://foundryvtt.com/pages/api.html).
+Modules are developed using the Foundry VTT API which is documented on the official [Foundry VTT site](https://foundryvtt.com/api/).
 
