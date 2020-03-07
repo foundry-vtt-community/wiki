@@ -3,6 +3,7 @@
    * [Dungeons &amp; Dragons](#dungeons--dragons)
       * [D&amp;D5e](#dd5e)
    * [Pathfinder](#pathfinder)
+      * [Pathfinder 1e](#pathfinder-1e)
       * [Pathfinder 2e](#pathfinder-2e)
    * [Warhammer Fantasy](#warhammer-fantasy)
       * [WFRP 4E System](#wfrp-4e-system)
