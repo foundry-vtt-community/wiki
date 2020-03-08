@@ -36,7 +36,7 @@ RUN apt-get update
 
 # curl nodejs nginx unzip
 RUN apt-get install curl -y
-RUN curl -sL https://deb.nodesource.com/setup_10.x  | bash -
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 RUN apt-get -y install nodejs
 RUN apt-get -y install nginx unzip
 
