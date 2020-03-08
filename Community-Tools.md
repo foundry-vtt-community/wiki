@@ -16,7 +16,7 @@ Foundry tools that work across all or most systems are noted here. These differ 
 
 * **Author**: Nick#2947 on Discord. His Patreon can be found here: [patreon.com/DungeonChannel](https://www.patreon.com/DungeonChannel)
 * **Version**: 0.8.10
-* **Foundry VTT Compatibility**: 0.4.7
+* **Foundry VTT Compatibility**: 0.5.1
 * **Translation Support**: EN (full)
 
 ### Link(s) to Tool
