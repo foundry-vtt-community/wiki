@@ -27,7 +27,6 @@
       * [GM Scene Background](#gm-scene-background)
       * [Grid Scaler](#grid-scaler)
       * [Image Previewer](#image-previewer)
-      * [Journal Drag](#journal-drag)
       * [Layer Hotkeys](#layer-hotkeys)
       * [Less Fog](#less-fog)
       * [Special Dice Roller](#special-dice-roller)
@@ -102,6 +101,7 @@
       * [FVTT-Party (Discontinued, see VTTA-Party for an successor)](#fvtt-party-discontinued-see-vtta-party-for-an-successor)
       * [GM Roll Message](#gm-roll-message)
       * [Infinite Folders](#infinite-folders)
+      * [Journal Drag](#journal-drag)
       * [NPC Browser](#npc-browser-1)
       * [Roll20 NPC Importer, for 5e](#roll20-npc-importer-for-5e)
       * [Spell Browser](#spell-browser)
@@ -223,7 +223,7 @@ Babele is a module for runtime translation of Compendium packs.
 * **Foundry VTT Compatibility**: 0.4.5
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
-* **Module Conflicts**: None known
+* **Module Conflicts**: None knownd
 * **Translation Support**: English, French, Japanese
 
 ### Link(s) to Module
@@ -635,14 +635,6 @@ A little app to preview images on hover in the file picker menu.
 3. Restart Foundry if it was running.
 4. Enable the module in the Module Configuration
 
----
-
-## Journal Drag
-
-* **Author**: @tposney - discord
-* **Version**: 0.4.1
-* **Foundry VTT Compatibility**: 0.4+
-* **Obsolete as of version Foundry 0.4.2. of core. Please uninstall the module once updated to 0.4.2**
 ---
 
 ## Layer Hotkeys
@@ -2078,6 +2070,16 @@ Sends an extra public message/hint when rolling a `gmroll` or `blindroll`.
 
 ### Description
 This Foundry VTT module allows you to create infinite depth of folders for Scenes, Actors, Items and Journals. No more limit to a depth of 2 folders (or none for Journal entries). This will also add a `New entity` button on folders so you can create it directly in the folder (does not work for Scenes though).
+
+---
+
+
+## Journal Drag
+
+* **Author**: @tposney - discord
+* **Version**: 0.4.1
+* **Foundry VTT Compatibility**: 0.4+
+* **Obsolete as of version Foundry 0.4.2. of core. Please uninstall the module once updated to 0.4.2**
 
 ---
 ## NPC Browser 
