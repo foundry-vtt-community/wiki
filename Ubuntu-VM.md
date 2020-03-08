@@ -36,12 +36,12 @@ Let's start with
 This guide is for linux, sinde all cheaper hosts on the internet are running Linux, so there's that. I will be using Ubuntu, if you are using a different Linux distribution, your commands and packages might differ.
 
 ```
-curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -`
+curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -`
 `sudo apt-get install -y nodejs
 ```
 
 This installs both nodejs and the node package manager npm. Check both with 
-`node --version` and `npm --version`, at this time of writing node.js is at version 10.16.0 and npm at version 6.9.0.
+`node --version` and `npm --version`, at this time of writing node.js is at version 13.10.1 and npm at version 6.13.7.
 
 ### Install the Reverse Proxy and the Unzip Utility
 
