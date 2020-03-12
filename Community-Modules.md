@@ -1342,7 +1342,7 @@ Causes item cards to open in a window rather than in chat.  This allows you to o
 ## Encounter Builder
 
 * **Author**: RaySSharma#4736
-* **Version**: 0.0.1
+* **Version**: 0.2.0
 * **Foundry VTT Compatibility**: 0.5.0+
 * **System Compatibility (If applicable)**: D&D5E
 * **Translation Support**: en
@@ -1356,11 +1356,15 @@ Causes item cards to open in a window rather than in chat.  This allows you to o
 
 This module adds an Application to aid in building D&D5E combat encounters. Following a similar design to [Kobold Fight Club](https://kobold.club/fight/#/encounter-builder), this module calculates encounter difficulty for your chosen PCs and monsters/NPCs. Encounter prep has never been easier!
 
-* Calculates combat difficulty based on XP thresholds (PHB) for players
+* Calculates combat difficulty based on XP thresholds (DMG) for players
 * Includes difficulty multipliers for fights against many opponents
 * Adjusts difficulty for parties of <3 players, or >5 players.
 * Calculates total XP and XP per player.
-* Drag-and-drop tokens onto or off the Application.
+* Drag-and-drop from compendiums or existing actors.
+* Drag-and-drop from builder to canvas.
+* *Approximates* encounter difficulty for friendly monsters or hostile players
+  * Hostile player XP set by comparing level to the deadly XP threshold table.
+  * Allied monster levels set by comparing XP to the deadly XP threshold table.
 
 ---
 
