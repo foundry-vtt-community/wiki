@@ -1342,7 +1342,7 @@ Causes item cards to open in a window rather than in chat.  This allows you to o
 ## Encounter Builder
 
 * **Author**: RaySSharma#4736
-* **Version**: 0.0.1
+* **Version**: 0.2.0
 * **Foundry VTT Compatibility**: 0.5.0+
 * **System Compatibility (If applicable)**: D&D5E
 * **Translation Support**: en
@@ -1356,11 +1356,15 @@ Causes item cards to open in a window rather than in chat.  This allows you to o
 
 This module adds an Application to aid in building D&D5E combat encounters. Following a similar design to [Kobold Fight Club](https://kobold.club/fight/#/encounter-builder), this module calculates encounter difficulty for your chosen PCs and monsters/NPCs. Encounter prep has never been easier!
 
-* Calculates combat difficulty based on XP thresholds (PHB) for players
+* Calculates combat difficulty based on XP thresholds (DMG) for players
 * Includes difficulty multipliers for fights against many opponents
 * Adjusts difficulty for parties of <3 players, or >5 players.
 * Calculates total XP and XP per player.
-* Drag-and-drop tokens onto or off the Application.
+* Drag-and-drop from compendiums or existing actors.
+* Drag-and-drop from builder to canvas.
+* *Approximates* encounter difficulty for friendly monsters or hostile players
+  * Hostile player XP set by comparing level to the deadly XP threshold table.
+  * Allied monster levels set by comparing XP to the deadly XP threshold table.
 
 ---
 
@@ -1734,26 +1738,24 @@ Request Roll is a module designed to help Gamemasters speed up the rolling proce
 ## Sky's 5th Edition Dungeons & Dragons Sheet
 
 * **Author**: Sky#9435
-* **Version**: 0.0.2
-* **Foundry VTT Compatibility**: 0.3.6+
-* **System Compatibility**: D&D 5e
+* **Version**: 0.0.7
+* **Foundry VTT Compatibility**: 0.5.0+
+* **System Compatibility**: D&D 5e 0.8.4
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
 * **Translation Support**: None
 
 ### Link(s) to Module
-* [https://github.com/Sky-Captain-13/foundry/tree/master/sky5e](https://github.com/Sky-Captain-13/foundry/tree/master/sky5e)
-* [https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/sky5e/sky5e/module.json](https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/sky5e/sky5e/module.json)
+* [https://github.com/Sky-Captain-13/foundry/tree/master/alt5e](https://github.com/Sky-Captain-13/foundry/tree/master/alt5e)
+* [https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/alt5e/alt5e/module.json](https://raw.githubusercontent.com/Sky-Captain-13/foundry/master/alt5e/alt5e/module.json)
 
 ### Description
 This module provides a variant layout of the Core 5e Character Sheet in Foundry as well as providing some upgrades to various sections of the sheet.
 
 * Rearranges the layout into a wider sheet, to display more information instead of being hidden behind tabs
-* Enables rolling ability checks and saving throws directly instead of clicking through a popup
-  * Best combined with Red Reign's BetterRoll5e module: https://github.com/RedReign/FoundryVTT-BetterRolls5e
-* Adds the ability to click Known Languages under Traits to send the list to the chat window
-* Adds Tool, Armor, and Weapon proficiencies beneath Skills
-* Saves the scrollbar position when adding/deleting items from your inventory, features, or spellbook
+* Click Known Languages under Traits to send the list of languages to the chat window
+* Configurable display of passive insight, investigation, perception, and stealth.
+ * Automatically adds +5 to passive investigation and perception if you have the Observant feat
 
 ---
 
