@@ -1,26 +1,183 @@
 <!--tl=2-->
 <!--ts-->
-   * [Beta Version 0.4.X](#beta-version-04x)
-      * [Beta Version 0.4.7, 2020-02-09](#beta-version-047-2020-02-09)
-      * [Beta Version 0.4.6, 2020-02-04](#beta-version-046-2020-02-04)
-      * [Beta Version 0.4.5, 2020-01-17](#beta-version-045-2020-01-17)
-      * [Beta Version 0.4.4, 2020-01-09](#beta-version-044-2020-01-09)
-      * [Beta Version 0.4.3, 2019-12-15](#beta-version-043-2019-12-15)
-      * [Beta Version 0.4.2, 2019-12-10](#beta-version-042-2019-12-10)
-      * [Beta Version 0.4.1, 2019-11-20](#beta-version-041-2019-11-20)
-      * [Beta Version 0.4.0, 2019-11-15](#beta-version-040-2019-11-15)
-   * [Beta Version 0.3.X](#beta-version-03x)
-      * [Beta Version 0.3.9, 2019-10-21](#beta-version-039-2019-10-21)
-      * [Beta Version 0.3.8, 2019-10-05](#beta-version-038-2019-10-05)
-      * [Beta Version 0.3.7, 2019-09-14](#beta-version-037-2019-09-14)
-      * [Beta Version 0.3.6, 2019-09-10](#beta-version-036-2019-09-10)
-      * [Beta Version 0.3.5, 2019-08-20](#beta-version-035-2019-08-20)
-      * [Beta Version 0.3.4, 2019-07-31](#beta-version-034-2019-07-31)
-      * [Beta Version 0.3.3, 2019-07-17](#beta-version-033-2019-07-17)
-      * [Beta Version 0.3.2, 2019-06-28](#beta-version-032-2019-06-28)
-      * [Beta Version 0.3.1, 2019-06-16](#beta-version-031-2019-06-16)
-      * [Beta Version 0.3.0, 2019-05-29](#beta-version-030-2019-05-29)
+* [Beta Version 0.5.X](#beta-version-05x)
+   * [Beta Version 0.5.1, 2020-03-07](#beta-version-051-2020-03-07)
+   * [Beta Version 0.5.0, 2020-03-01](#beta-version-050-2020-03-01)
+* [Beta Version 0.4.X](#beta-version-04x)
+   * [Beta Version 0.4.7, 2020-02-09](#beta-version-047-2020-02-09)
+   * [Beta Version 0.4.6, 2020-02-04](#beta-version-046-2020-02-04)
+   * [Beta Version 0.4.5, 2020-01-17](#beta-version-045-2020-01-17)
+   * [Beta Version 0.4.4, 2020-01-09](#beta-version-044-2020-01-09)
+   * [Beta Version 0.4.3, 2019-12-15](#beta-version-043-2019-12-15)
+   * [Beta Version 0.4.2, 2019-12-10](#beta-version-042-2019-12-10)
+   * [Beta Version 0.4.1, 2019-11-20](#beta-version-041-2019-11-20)
+   * [Beta Version 0.4.0, 2019-11-15](#beta-version-040-2019-11-15)
+* [Beta Version 0.3.X](#beta-version-03x)
+   * [Beta Version 0.3.9, 2019-10-21](#beta-version-039-2019-10-21)
+   * [Beta Version 0.3.8, 2019-10-05](#beta-version-038-2019-10-05)
+   * [Beta Version 0.3.7, 2019-09-14](#beta-version-037-2019-09-14)
+   * [Beta Version 0.3.6, 2019-09-10](#beta-version-036-2019-09-10)
+   * [Beta Version 0.3.5, 2019-08-20](#beta-version-035-2019-08-20)
+   * [Beta Version 0.3.4, 2019-07-31](#beta-version-034-2019-07-31)
+   * [Beta Version 0.3.3, 2019-07-17](#beta-version-033-2019-07-17)
+   * [Beta Version 0.3.2, 2019-06-28](#beta-version-032-2019-06-28)
+   * [Beta Version 0.3.1, 2019-06-16](#beta-version-031-2019-06-16)
+   * [Beta Version 0.3.0, 2019-05-29](#beta-version-030-2019-05-29)
 <!--te-->
+
+# Beta Version 0.5.X
+
+## Beta Version 0.5.1, 2020-03-07
+
+Hey there Patreon supporters and Foundry VTT community! I'm happy to share release notes for **Foundry Virtual Tabletop - Beta 0.5.1**, which is a odd-numbered ("stable") update which combines all of the new features added in the 0.5.0 release with a number of bug fixes and adjustments to make this release available for all Beta supporters.
+
+The 0.5.0 update included a ton of great new features with a mix of backend and frontend improvements. Be sure to visit [https://foundryvtt.com/releases/0.5.0](https://foundryvtt.com/releases/0.5.0) to read the full release notes for that update. This update fixes a number of bugs which should make this update version relatively stable for most users.
+
+Thank you all for your vocal support for my work, your thoughtful feedback, and for the positive word-of-mouth you share within the RPG community. It's extremely valuable and much appreciated. As always, please keep an eye on the development progress board here for visibility into what features are in progress and coming up next!
+
+[https://gitlab.com/foundrynet/foundryvtt/boards](https://gitlab.com/foundrynet/foundryvtt/boards)
+
+### New Features
+
+- **Important note for Node.js hosted installations**: new dependencies added in version 0.5.0 require that Foundry Virtual Tabletop be run using Node.js version 12.x or later. If trying to run the Foundry VTT software with an older version of Node.js an error will be thrown and the application will fail to start.
+- Dynamically adapt the amount of vision blur as you zoom the canvas in or out. Previously, the amount of vision blur would look good at high levels of zoom but look bad when zoomed out very far. Vision lines should now be more crisp when zoomed out.
+- Improved the visual preview of the area-of-effect for ambient light sources to better indicate the color tint of the light source.
+- Improved the adaptive scaling for Token nameplate font size to better avoid edge cases where the font size for Tokens with very specific names could end up substantially enlarged.
+- Change the area of effect calculation for Cone type Measured Templates when "Flat Bottomed" cones are used. Instead of treating the cone distance as the length (as in the case of curved cones), the cone area will treat the distance as the height of the cone which should better match player intuition about what area should be affected.
+- Removed the "Return to Game" button from the administrator access key prompt as this option was meaningless for the situation in which admin access is required.
+- Changed the masking rectangle for the Lighting Layer from just the background image dimensions to the dimensions of the entire game Canvas.
+
+### Bug Fixes
+
+- Fixed an issue with the startup workflow which could result in failure of the default `options.json` to be created which was a fatal error blocking application startup.
+- Editing the administrative configuration options for the software multiple times after setting an Admin Access Key could cause that key to be incorrectly replaced with it's hashed value. This could result in users getting locked out of the application unless they manually removed the admin key from their options configuration. This is fixed.
+- Fixed the behavior of limited-angle vision and light source polygon computation where previously certain angles and directions of facing could produce artifacts or incorrect polygons for vision. The experience with limited vision angles should now be more faithful to expectation.
+- Improve the encoding of URI strings to protect against and allow for a wider range of special characters which ideally should not, but sometimes may appear in file or directory names.
+- Hardened edge case handling for server-side User activation and deactivation workflows to avoid throwing an error in some cases where a User was not able to be properly deactivated.
+- Fixed a bug with changes to Token hidden state which failed to force a new visibility test after the state change was completed. This could result in hidden tokens being visible to players or other similar issues.
+- Fixed a problem with negative radius light sources which, after the lighting improvements in 0.5.0, were not properly negating the light level within their affected area.
+- Fix an issue with the drawing configuration form, and the workflow to reset that configuration back to default values. Invalid default configuration values caused errors to be thrown and also resulted in drawings not being previewed in real-time while drawing.
+- An assumption in the Sight Layer was too rigid, expecting a Token that had vision settings to reference a valid Actor. This has been relaxed so Tokens which do not reference an Actor can still function from a vision perspective.
+- Fixed a bug with object visibility where it was not re-computed as required when a controlled Token was released.
+- Protect against special characters in compendium filter searches by properly escaping them prior to creating a regexp pattern.
+- Canvas initialization would fail for worlds that did not have any Scene yet - in particular affecting brand new players first experiencing the software. This is fixed and the canvas will properly initialize with the gray denim background.
+- Fixed a problem when an administrator access key is required to access the Setup menu, but the EULA also needs to be agreed where it was not possible to accept the license agreement without first interacting with the admin access prompt.
+- Corrected a problem where returning to the /join screen from within an active World did not properly de-register that World and User from the client's saved session object.
+- The "Log Out" and "Return to Setup" buttons in the settings sidebar menu were not functioning properly due to an incorrect usage of the route prefix option (if any).
+- Attempting to agree to the EULA without checking the "I agree" checkbox would result in the confirmation button remaining disabled, preventing signing of the agreement.
+- Fixed the styling and positioning of the elevation arrow in the Token HUD.
+- Setting the value `"upnp": false` in the options.json configuration file did not properly prevent UPnP from being used by the application. This configuration value will now be respected.
+
+### Framework and API Changes
+
+- Added an additional `pan {boolean}` option to the `Token.control(options)` method which will automatically pan the canvas to the controlled Token if set to true.
+- Added configuration variables for `CONFIG.Canvas.darknessColor` and `CONFIG.Canvas.normalLightColor` which allow for configuring the default color hues used for darkness and normal (uncolored) light sources.
+- Switch from relying upon `KeyboardEvent.code` which designates the key location on the keyboard to `KeyboardEvent.key` which designates the actual character used. Hopefully this will provide greater compatibility with foreign language or customized keyboard configurations.
+- Select global variables have been explicitly added to the `window` scope to (hopefully) ensure that they may be used within ES modules in Safari where variables are required to be explicitly imported or drawn from the window global. This issue still impacts access to utility functions which are defined within the global namespace - that situation will need to be solved in a subsequent update.
+- Improve the rendering behavior for Application instances which set `height: "auto"` in their options to more efficiently rescale their vertical position and height when a re-render occurs.
+
+Documentation Improvements
+
+- Improvements to the hosting instructions page to clarify the requirements related to the Node.js version that can be used: [https://foundryvtt.com/article/hosting/](https://foundryvtt.com/article/hosting/)
+- Added a new documentation page named "Introduction to Module Development" which explains the file structure and manifest schema for modules: [https://foundryvtt.com/article/module-development/](https://foundryvtt.com/article/module-development/)
+
+### Known Issues
+
+- None at this time.
+
+## Beta Version 0.5.0, 2020-03-01
+
+Hello dear Patreon supporters and Foundry VTT community - I'm really excited to share release notes for **Foundry Virtual Tabletop - Beta 0.5.0**, which is a major ("unstable") update which represents a key step along the path to full software release. The changes in Beta 0.5.0 are release immediately for Council tier Patreon supporters for preliminary testing and will be rolled out to all Beta tiers as part of the Beta 0.5.1 update by next weekend.
+
+This update adds a great many key new features with a mix of backend and frontend functionality. On the front end, a redesign of the vision and fog of war systems has resulted in more responsive performance when moving a token or rendering vision changes. To partner with these improvements for vision, the lighting layer has been completely rebuilt to feature a scene-wide darkness level that allows for simulating differences between night and day for the same map image. Additionally, the way that light sources apply coloration to the nearby map has been significantly improved - resulting in a much warmer and more natural feeling for dynamic lighting. In addition to those updates, improvements to the Token and Combat systems allow more flexibility in how you track token data across many Scenes.
+
+On the backend - this update adds a number of really critical features which needed to fall into place before release. An administrator control panel for configuring the application, a license signature and verification system, improved support for S3 based file sources, and improvements to the installation process for modules, systems, and core software updates.
+
+Thank you all for your vocal support for my work, your thoughtful feedback, and for the positive word-of-mouth you share within the RPG community. It's extremely valuable and much appreciated. As always, please keep an eye on the development progress board here for visibility into what features are in progress and coming up next!
+
+[https://gitlab.com/foundrynet/foundryvtt/boards](https://gitlab.com/foundrynet/foundryvtt/boards)
+
+### New Features
+
+- The Lighting layer has been completely re-written to add support for overall ambient darkness level configured within the Scene. Light sources dispel that darkness layer by lessening it. See the new darkness level options in the Scene configuration sheet to manipulate this new setting.
+- I have achieved some significant performance improvements to vision and fog of war by combining both concepts into a single and simultaneously rendered shadow-mapped layer. As a result, the amount of processing to render a sight or fog update has reduced considerably with satisfying performance benefits. Due to the redesigned nature of the fog layer and the performance improvements it captures, updating to Foundry VTT 0.5.0 will invalidate any existing fog of war exploration in your worlds. This is an unfortunate and unavoidable side effect of the improvements to the fog computation. I appreciate your understanding and patience with making this improvement before the full software release.
+- Further improved fog performance by greatly reducing the number of times that the saved Fog of War data is retrieved from the server during the course of play.
+- Added an external mask to the vision and lighting container to keep lighting and fog of war constrained within the bounds of the Scene canvas.
+- Extend the coverage of lighting and fog of war layers slightly outside the boundaries of the map image to ensure that these layers do not leave trace visual artifacts at the outer edges of the screen which can inadvertently reveal a tiny portion of the image below.
+- Improved the precision of rendered ambient light source polygons to better reflect nuances of nearby walls.
+- Token configuration and the Token HUD have been improved to allow assigning a single attribute value to either displayed token resource. This allows for attributes which have a numeric value, but are not part of an object with a value/maximum pair to be used. In such cases a bar will not be shown, but the value of the attribute will be shown and edited via the HUD.
+- Improve the user experience when viewing a Scene where they initially do not have a Token - but a Token is created for them by the GM. Now the Scene view will automatically pan to the position of their created token and that Token will be automatically controlled.
+- Implement an additional safeguard when instantiating Token objects to enforce that their starting coordinates fall within the playable rectangle of the Scene canvas. Tokens whose saved coordinates are out of bounds will be moved to (0,0).
+- The strong linkage between Combat Encounters and the "active" Scene has been removed. This now allows you to have Combat encounters running on multiple scenes. The Combat Tracker sidebar will automatically update to display the available encounters on your currently viewed Scene - and you can create, update, and delete Combat encounters simultaneously across multiple Scenes. Additionally, the Toggle Combat button in the Token HUD is now always visible regardless of the viewed Scene.
+- Greatly improve the procedure for active user recognition. This produces a much more accurate report of which users are connected to the software at any given time and should update responsively as any new user joins or disconnects. This improvement fixed an issue where, in cases where one user had multiple open connections, closing just one of those connections would incorrectly flag the user as offline.
+- Journal Entries and audio Playlists which can be linked to a Scene in the configuration sheet are now sorted alphabetically to make it easier to find the entity you wish to link.
+- Improved the behavior of browser resizing operations which should now more quickly and responsively resize the rendered canvas.
+- Added a new "description" field to Roll Tables which is displayed before the drawn result whenever the table is rolled. This description can contain dynamic entity links or other rich text references.
+- The backend authentication system has been redesigned to no longer be cookie-based and instead use cached sessions which more security authenticate user identity.
+- Added a brand new authentication concept of an **Administrator** which has the ability to modify various setup configuration options for the overall Foundry application. On the new **Configuration** tab of the setup screen you can set an Administrator Access Key as a securely encrypted passphrase. This passphrase will be required in order to access the setup area of the Foundry VTT application.
+- The new Configuration section of the Setup screen allows you to set many options for how Foundry VTT runs, including the user data directory, the port and uPnP settings, SSL and AWS configuration, and more.
+- Improvements to the core software update process to better protect against failure modes and to provide superior feedback to the user if the update does not go as expected. You can now "force" and update which allows you to downgrade your software to a previous version or reinstall the same version if needed.
+- Previously when using the software updater, if you accidentally entered an invalid update key the form would remain disabled, preventing you from re-attempting the update. You may now re-attempt the process if you enter an invalid update key.
+- Improve the system and module installation process to no longer require the URL which serves the manifest to end with a specific JSON string. This allows for users to serve their manifests from a web server or other URL.
+- Added support for extra allowed fields in system and module manifest files. These new fields which can be included are: authors, keywords, readme, license, bugs, and compatibleCoreVersion. See the module creation knowledge base page for more details.
+- Added new software configuration options in the `options.json `file which allow for the Foundry application to be informed that the server is running behind a reverse proxy. Assign the `proxySSL` and `proxyPort` keys to denote whether the reverse proxy handles SSL certificates or serves the Foundry application on a specific port.
+- Implemented an asymmetric signature and verification process for the Foundry VTT software license key which obtains a valid license signature from the Foundry web server and verifies the integrity of that signature locally when the application starts. You are required to have a web connection when you first sign the license - but you do not need internet connectivity to verify the license once it is signed.
+- Added a way to launch a world in "safe mode" by disabling all modules. This can help in cases where a module error breaks the initialization logic for the core software. This option can be used by opening the Edit World configuration sheet on the setup menu and checking the "Disable All Modules" option before launching the world.
+- Removed the "Close" button from the header of the EULA window - the license agreement must either be accepted and signed, or refused - at which point the application will close.
+- The software can now support symbolic links inside the user data location which can point to art assets, module, systems, or worlds which are stored in other locations.
+- Improved the S3 file storage backend to be more adaptable for non-Amazon S3 file storage solutions. If you specify a custom endpoint in your `awsConfig` file - you can use the S3 storage backend with other solutions like Wasabi or others.
+- Display a more interpretable error message in the server logs if the SSL certificate or key were not able to be read successfully.
+- Improved the module and system installation procedure to first inspect the file structure of the provided ZIP archive to determine the root path to which the manifest file is relative. This allows for different zip distribution structures which may have inner directories, the installer can now determine the correct package root by locating the path to the module.json or system.json file.
+- Provide an informative error message back to the client if an application, system, or module update fails due to a permissions issue or other error.
+- Added a safeguard to prevent dragging and dropping a file from the local filesystem into the Foundry VTT application which would incorrectly result in that file being loaded (as default browser behavior).
+- Changed the way that external hyperlinks function in the Electron application. Instead of spawning child Electron windows to view the opened URL, external links will now be redirected towards the default web browser of your operating system.
+
+### Core Bug Fixes
+
+- Fixed a bug with the targeting tool which previously did not allow the User to target unowned Tokens with a left click as intended.
+- Resolved a problem with the display of user cursors which prevented the cursor position indicator from being correctly synced across connected clients.
+- Corrected a display bug with the Macros directory which prevented the directory from being re-rendered when a Macro was created or deleted.
+- Fixed a bug with file uploads due to an incorrect POST endpoint resulting from misuse of the application route prefix.
+- Corrected a problem with initiative formulas which incorrectly caused multiple actors within the same Combat Encounter to receive the same initiative formula even if their character attributes should have produced different formulae per Token.
+- Fixed a bug which caused Fog of War exploration progress to be lost when resizing the browser window.
+- On Linux operating systems, the XDG directory path will now be automatically created if it does not exist when Foundry VTT is first used.
+- Fix an issue with incorrect asynchronous logic to test S3 bucket visibility which resulted in buckets not being detected as usable the first time the FilePicker was opened.
+- Fix an issue with the Join Game screen where, if the user attempted to join before the JavaScript for the page was fully loaded, the server JSON response would not be correctly processed.
+- Ensure that the package (system or module) update workflow does not remove existing package data until after successfully inspecting the contents of the downloaded update.
+- Improve the up-front client-side checks for placeable object deletion permissions to avoid submitting deletion requests to the server which cannot be fulfilled due to lack of user permission.
+- Fix an issue which could allow folders to create a circular tree structure, where (for example) Folder A is the parent of B, which is the parent of C, but C is the parent of A. This type of circularity is eliminated when the folder structure in the sidebar is computed.
+- Make rendering of Sidebar tabs more fault tolerant such that a failure to render any single tab will not cascade to prevent the successful rendering of other tabs.
+- The numpad ENTER key was not working properly as a means of confirming a dialog form choice since the numpad ENTER returns a slightly different key code. This has been fixed!
+- Setting a new Token status effect failed to immediately re-render the combat tracker. This has been corrected so that Token status effect changes will now immediately sync with the icons on the tracker.
+- Fixed a click detection issue which caused the Token status effects popout to close whenever an effect was removed which made it frustrating to alter multiple status effects at once.
+- Fixed the log-out button which directed to the wrong URL in cases where a route prefix was applied as an application configuration setting.
+- Prevented a loophole which created duplicate Tokens on the Combat Tracker when players were modifying the combat state of Tokens.
+- After updating a module or system, the visual display of the Setup UI will now correctly update to reflect the new state of that module.
+
+### Core Software, APIs, and Module Development
+
+- [BREAKING] Changed the default assumptions in the FormApplication class about what focus events trigger a form submission. Previously the default logic was trying to be "smart" to avoid submitting the form if the user changed focus to a different input. While this was (potentially) clever, it could sometimes result in data loss. The new default form behavior is simply to submit the form every time an input field is changed if the `submitOnChange` option is set to true.
+- [BREKAING] Support for "v1" format system `template.json` files has been deprecated. This change was announced in 0.4.0 and support for old-style templates has been completely removed. There is no longer any distinction between "v1" and "v2" templates, there are now simply templates (which are v2).
+- [BREAKING] Entity and PlaceableObject creation operations previously supported a `displaySheet` boolean option which was true by default. This option has been removed and replaced with the `renderSheet` option which is false by default.
+- Updated to new major versions of several core dependency packages: aws-sdk, electron, handlebars, howler, node-turn, pixi.js, and tinymce - each of which incorporate various improvements.
+- Added support for smooth darkness transitions using the `LightingLayer.animateDarkness` method.
+- Add general styling rules for range inputs followed by a span element with the class `range-value`.
+- Comprehensively refactor the `SightLayer` including, in particular, a new `SightLayer.testVisibility()` method which is responsible for centralizing the computation of whether an object falls within a visible polygon.
+- Implement runtime options in client-side handlebars rendering which allows for prototype methods to be used and referenced within templates. This feature was disabled in a recent handlebars update due to security vulnerabilities which are not relevant for the FVTT client-side use case.
+- Implemented a `Canvas.tearDown()` method which centralizes all deconstruction operations which are needed prior to switching the viewed scene.
+- Changed the behavior of `PlaceablesLayer.selectObjects()` to return a boolean for whether the controlled set changed during the operation.
+- When entity content is exported to a JSON file, an additional flag is added named `exportSource` which contains the system id, the core software version, and the system version from which the content was exported. This metadata can be used when importing the entity later to determine whether a data migration may be necessary to correct for data model changes which occurred in the intervening time.
+
+### Documentation Improvements
+
+- Added API documentation for the `SortingHelpers` class which was previously undocumented.
+- Updated many articles in the migrated Knowledge Base on the new Foundry Virtual Tabletop website: [https://foundryvtt.com/kb/](https://foundryvtt.com/kb/)
+
+### Known Issues
+
+- The elevation arrow icon for large tokens is not correctly positioned.
+- Setting `upnp: false` in the options.json file is not correctly applied unless the `--noupnp` startup flag is passed.
+- Some conditions create incorrect vision or lighting polygons for tokens which have a limited vision or light emission angle which is large (greater than 180 degrees).
 
 # Beta Version 0.4.X
 
