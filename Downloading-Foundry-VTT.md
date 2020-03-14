@@ -4,7 +4,7 @@ To search all releases of Foundry, use the following filter URL: [https://www.pa
 
 If Foundry VTT is already downloaded and installed copy the **Update Key** from the latest release and paste it into **Update Software** tab of the Foundry application.
 
-If this is a fresh installation of Foundry, click on the download link for the operating system that the Foundry server will b erunning on.
+If this is a fresh installation of Foundry, click on the download link for the operating system that the Foundry server will be running on.
 
 
  
