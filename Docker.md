@@ -11,15 +11,16 @@ You can use Docker to run FoundryVTT.
 ```yaml
 FROM ubuntu:latest
 
+# make directory
+RUN mkdir -p /home/foundry/fvtt
+RUN mkdir -p /root/.local/share/FoundryVTT
+
 # Build-arg: User ID for the created foundry user
 ENV UID=1026
 # Build-arg: Group ID for the created group
 ENV GUID=65534
 # Set the foundry install home
 ENV FOUNDRY_HOME=/home/foundry/fvtt
-
-# make directory
-RUN mkdir -p /home/foundry/fvtt
 
 RUN echo "UID ${UID}"
 # add a foundry group with a guid listed above
@@ -35,6 +36,7 @@ WORKDIR "${FOUNDRY_HOME}"
 RUN apt-get update
 
 # curl nodejs nginx unzip
+RUN apt-get install apt-utils -y
 RUN apt-get install curl -y
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 RUN apt-get -y install nodejs
