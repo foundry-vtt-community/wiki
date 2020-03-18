@@ -91,5 +91,8 @@ Run the container (for test no save modifications)
 
 
 Run the docker with volume map for save yours modifications :
-#### `sudo docker run --restart=always --name FoundryVTT.x.x.x -p 30000:30000 -v /YourLocalDirectory1:/home/foundry -v /yourLocalDirectory2:/root/FoundryVTT -d fvtt:1.11.0`
+#### `sudo docker run --restart=always --name FoundryVTT.x.x.x -p 30000:30000 \
+ -v /YourLocalDirectory1:/home/foundry/fvtt \
+ -v /yourLocalDirectory2:/root/.local/share/FoundryVTT \
+-d fvtt:1.11.0`
 
