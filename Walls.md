@@ -19,7 +19,7 @@ These walls block movement, but not vision or sound. They are rendered on the Wa
 Ethereal walls block token vision and sound but do not hinder the movement of tokens and are drawn as a purple color.
 
 ## Doors
-These walls are able to be toggled between multiple states. Doors may be closed, open, or locked. Closed (or locked) doors block movement, vision and sound, while open doors do not block vision, movement or sound. Doors will be rendered as a small icon for player views which, if clicked, will open or close the door provided it is not locked. Only Game-Master players have the ability to unlock doors. Open doors are rendered in green while with closed doors in orange and locked doors in red.
+These walls are able to be toggled between multiple states. Doors may be closed, open, or locked. Closed (or locked) doors block movement, vision and sound, while open doors do not block vision, movement or sound. Doors will be rendered as a small icon for player views which, if clicked, will open or close the door provided it is not locked. Only Game-Master players have the ability to unlock doors. Open doors are rendered in green while with closed doors in blue and locked doors in red.
 
 ## Secret Doors
 These walls work as doors, able to be toggled between closed, open, or locked states, however unlike regular doors the icon for secret doors is not shown to players and these can only be toggled by the Game Master. Secret doors are rendered in purple.
