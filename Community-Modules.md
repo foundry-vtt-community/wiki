@@ -590,8 +590,8 @@ A Foundry VTT Module to add GM-Only notes to entities (Actor, Items (including o
 * **Translation Support**: None
 
 ### Link(s) to Module
-* https://github.com/death-save/gm-bg
-* Manifest: https://raw.githubusercontent.com/death-save/gm-bg/master/module.json
+* [Link](https://github.com/death-save/gm-bg)
+* [Manifest](https://raw.githubusercontent.com/death-save/gm-bg/master/module.json)
 
 ### Description
 Allows GMs to set a GM-only background image.
