@@ -1,4 +1,11 @@
-You can use Docker to run FoundryVTT.
+You can use Docker to run FoundryVTT, you may use two different approach.
+
+## A simple Dockerfile
+
+You can check at https://github.com/mikysan/simple-fvtt-dockerfile.
+You'll simply need to copy or download the **Dockerfile** you'll find in the repository into your fvtt directory and follow the instructions.
+
+## Docker compose
 
 ### For this you only need 3 files.
 <!--ts-->
@@ -81,7 +88,7 @@ services:
 copy your foundryvtt-x.x.x.zip file to the same level as the other files
 
 
-## *Build image*
+### *Build image*
 `sudo docker-compose build`
 
 After build image you can use or test your container with this commands :
