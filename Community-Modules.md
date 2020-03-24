@@ -15,6 +15,7 @@
       * [Dice Calculator](#dice-calculator)
       * [Discord Rich Presence](#discord-rich-presence)
       * [Display Mode](#display-mode)
+      * [Dungendraft Importer](#dd-import)
       * [Easy Target](#easy-target)
       * [Enhanced Playlist](#enhanced-playlist)
       * [FFG Roller](#ffg-roller)
@@ -403,6 +404,24 @@ Enables Discord Rich Presence and Invites for http://foundryvtt.com/
 
 ### Description
 This module makes it so that when you click the anvil in the top left of the screen, the sidebar in Foundry is hidden.
+
+---
+
+## Dungeondraft Import
+
+* **Author**: [Moo Man#7518](https://github.com/moo-man), [m42e#6427](https://github.com/m42e)
+* **Version**: 0.4.2
+* **Foundry VTT Compatibility**: 0.5.1+
+* **Translation Support**: N/A
+
+### Link to Module
+
+* [https://github.com/moo-man/FVTT-DD-Import](https://github.com/moo-man/FVTT-DD-Import)
+* [https://raw.githubusercontent.com/moo-man/FVTT-DD-Import/master/module.json](https://raw.githubusercontent.com/moo-man/FVTT-DD-Import/master/module.json)
+
+### Description
+
+Import walls, doors and light from Dungeondraft maps. *NB:* no cave walls for now.
 
 ---
 
