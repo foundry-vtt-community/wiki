@@ -15,7 +15,7 @@
       * [Dice Calculator](#dice-calculator)
       * [Discord Rich Presence](#discord-rich-presence)
       * [Display Mode](#display-mode)
-      * [Dungendraft Importer](#dd-import)
+      * [Dungeondraft Import](#dungeondraft-import)
       * [Easy Target](#easy-target)
       * [Enhanced Playlist](#enhanced-playlist)
       * [FFG Roller](#ffg-roller)
