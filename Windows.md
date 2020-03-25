@@ -75,3 +75,5 @@ For each player:
 
 Now the GM must append :30000 to his ZeroTier Managed IP (see point 7 above). Voilà, this is the FVTT invitation link.
 
+WARNING:
+Zerotier installs on your pc as an automatic service. It means unless you set it as manual on you Services list it will run as soon as your OS is started, so you don't need to "run" it, unlike Hamachi. You are always connected to the vpn it creates.
