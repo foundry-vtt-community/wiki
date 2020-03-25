@@ -3,7 +3,6 @@
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
       * [About Time](#about-time)
       * [Always Show Notes](#always-show-notes)
-      * [Anvil Menu](#anvil-menu)
       * [Arcane Viewing](#arcane-viewing)
       * [Babele](#babele)
       * [BubbleRolls](#bubblerolls)
@@ -22,6 +21,7 @@
       * [Foundry Hot Seat Observer](#foundry-hot-seat-observer)
       * [Foundry Patrol](#foundry-patrol)
       * [Foundry Pin](#foundry-pin)
+      * [Fullscreen](#fullscreen)
       * [The Furnace](#the-furnace)
       * [FX Master](#fx-master)
       * [GM Notes](#gm-notes)
@@ -96,6 +96,7 @@
       * [Rough Nights &amp; Hard Days](#rough-nights--hard-days)
    * [Foundry VTT Modules (Defunct)](#foundry-vtt-modules-defunct)
       * [Actually Private Rolls](#actually-private-rolls)
+       * [Anvil Menu](#anvil-menu)
       * [Chat Damage Buttons - Better Rolls Edition](#chat-damage-buttons---better-rolls-edition)
       * [DDB Popper (use VTTA-DNDBEYOND instead)](#ddb-popper-use-vtta-dndbeyond-instead)
       * [DnD Beyond Character Importer (non-functional -- use VTTA-D&amp;D Beyond Integration instead)](#dnd-beyond-character-importer-non-functional----use-vtta-dd-beyond-integration-instead)
@@ -156,27 +157,6 @@ See Readme.md and gettingStarted.md for more information.
 
 ### Description
 Sets the Display Notes toggle to true by default
-
----
-
-## Anvil Menu
-
-* **Author**: GameGrue#7383 on Discord
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3.7
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: N/A
-* **Module Conflicts**: [Display Mode](#display-mode)
-* **Translation Support**: EN (full)
-
-### Link(s) to Module
-* [https://gitlab.com/Ionshard/foundry-vtt-anvil-menu](https://gitlab.com/Ionshard/foundry-vtt-anvil-menu)
-* [https://gitlab.com/Ionshard/foundry-vtt-anvil-menu/-/jobs/artifacts/master/raw/module.json?job=build-module](https://gitlab.com/Ionshard/foundry-vtt-anvil-menu/-/jobs/artifacts/master/raw/module.json?job=build-module)
-
-### Description
-Adds a context menu to Foundry's Anvil logo in the top left of the screen. This module adds entries to the menu to put the application into Fullscreen mode, as well as providing the ability to toggle the visibility of the main UI components.
-
-The Anvil Menu is also a library able to be used by other module developers without the need to include the anvil-menu module itself. See the README on GitLab for more information.
 
 ---
 
@@ -536,6 +516,36 @@ Using this mod, you will be able to set up "Patrol Routes" which tokens will mov
 ### Description
 
 Allows the user to pin windows which will be re-opened automatically the next time you open foundry.
+
+---
+
+## Fullscreen
+
+* **Author**: GameGrue#7383 on Discord
+* **Version**: 0.1.0
+* **Foundry VTT Compatibility**: 0.4.7
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: None known
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://gitlab.com/Ionshard/foundry-vtt-fullscreen](https://gitlab.com/Ionshard/foundry-vtt-fullscreen)
+* [https://gitlab.com/Ionshard/foundry-vtt-fullscreen/-/jobs/artifacts/master/raw/module.json?job=build-module](https://gitlab.com/Ionshard/foundry-vtt-fullscreen/-/jobs/artifacts/master/raw/module.json?job=build-module)
+
+### Description
+
+![Fullscreen Menu Preview](https://gitlab.com/Ionshard/foundry-vtt-fullscreen/-/wikis/uploads/7fd584a4aafa4b0f672c60c8162429c3/fvtt-fullscreen.png)
+
+Enables using Foundry VTT in Fullscreen mode. This is very useful if you play in a browser as this provides all the extra screen space the address bar and tabs take up.
+
+To use:
+ * Right click on the anvil in the top right.
+ * Select "Toggle Fullscreen"
+
+This mod uses the [AnvilMenu](#anvil-menu) library to register it's options on an extendable context menu on the Anvil icon.
+
+*Experimental*: This mod also includes an experimental feature to rebind the `Escape` key. This is available in the Module Settings. This will allow you to use another key to provide the same functionality as `Escape`, since using `Escape` in fullscreen mode will exit fullscreen mode.
 
 ---
 
@@ -1985,6 +1995,29 @@ Foundry VTT modules that no longer work are noted here. Modules included here ha
 
 ### Description
 Hides Private GM Rolls completely rather then just obfuscating the result.
+
+---
+
+## Anvil Menu
+
+* **Author**: GameGrue#7383 on Discord
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3.7
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: [Display Mode](#display-mode)
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://gitlab.com/Ionshard/foundry-vtt-anvil-menu](https://gitlab.com/Ionshard/foundry-vtt-anvil-menu)
+* [https://gitlab.com/Ionshard/foundry-vtt-anvil-menu/-/jobs/artifacts/master/raw/module.json?job=build-module](https://gitlab.com/Ionshard/foundry-vtt-anvil-menu/-/jobs/artifacts/master/raw/module.json?job=build-module)
+
+### Description
+
+**UPDATE**: No longer a bundled module. But the Anvil Menu library is still usable by developers.
+See: The [Fullscreen](#fullscreen) module for the new location of the functionality.
+
+The Anvil Menu is a library able to be used by other module developers without the need to include the anvil-menu module itself. See the README on GitLab for more information.
 
 ---
 
