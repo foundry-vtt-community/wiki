@@ -24,7 +24,8 @@ Foundry adventures that work within Dungeons and Dragons 5th Edition are noted h
 * https://froggodgames.com/product/the-lost-lands-the-lost-city-of-barakus/
 
 ### Description
-*A quick note by u2mad: I've gotten permission to distribute this from the folks at Frog God games as long as the book/pdf for the adventure is still required and it isn't being sold.
+*A quick note by u2mad: I've gotten permission to distribute this from the folks at Frog God games as long as the book/pdf for the adventure is still required and it isn't being sold.<br>
+*Another note is: this is not a traditional foundry module. I couldn't contain all of the actor, scene and journal entries as a foundry module, so I had to export out the campaign folder itself. To install this, just extract the campaign folder out into Foundrys world folder where your other campaigns are. (usually %localappdata%\foundryvtt\Data\worlds on a windows pc)
 
 (Grabbed from the product page) An elaborate underground city, an ancient necromancer, an alliance of wizards, and an arcane prison form the backdrop for this ENnie award-winning adventure book. The book contains enough to challenge characters from level 2 to level 6, but it is much more than just an adventure resource. The Lost City of Barakus contains the Lost Lands campaign information for the City of Endhome, the Penprie Forest, and the Duskmoon Hills. And, of course, for the Lost City of Barakus itself. This 143-page book is filled with adventures, NPCs, and locations for the party to explore, interact with, and conquer.
 
