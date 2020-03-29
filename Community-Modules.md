@@ -8,7 +8,6 @@
       * [BubbleRolls](#bubblerolls)
       * [Bullseye](#bullseye)
       * [Calendar/Weather](#calendarweather)
-      * [Features:](#features)
       * [Chat Autoloader](#chat-autoloader)
       * [Combat Utility Belt (Beta)](#combat-utility-belt-beta)
       * [Cursor Hider](#cursor-hider)
@@ -95,6 +94,7 @@
    * [Foundry VTT Modules for WFRP 4E](#foundry-vtt-modules-for-wfrp-4e)
       * [Arcane Marks &amp; Careers](#arcane-marks--careers)
       * [Rough Nights &amp; Hard Days](#rough-nights--hard-days)
+      * [Gerwin Waffenhalter’s Magnificent Weapons Gallery](#gerwin-waffenhalters-magnificent-weapons-gallery)
    * [Foundry VTT Modules (Defunct)](#foundry-vtt-modules-defunct)
       * [Actually Private Rolls](#actually-private-rolls)
       * [Anvil Menu](#anvil-menu)
@@ -253,7 +253,7 @@ This module adds a new Bullseye Application that shows all the currently active 
 A customizable module that accurately tracks and displays dates and time.
 This module **REQUIRES** [about-time](https://gitlab.com/tposney/about-time) v0.1.18 or greater installed and loaded to function correctly.
 If you want to have weather effects, you must have [FXMaster](https://gitlab.com/mesfoliesludiques/foundryvtt-fxmaster) by U~Man installed and loaded.
-## Features:
+### Features:
 * Customizable calendar that handles arbitrarily long weeks, months, and years. 
 * Intercalary day handling.
 * Real time time tracking at customizable speeds through about-time.
@@ -1960,6 +1960,18 @@ Once installed, you'll find the careers in the Arcane Careers Compendium, and yo
 * Extends the character creation capabilities to gnomes, including their stats, background, features. 
 * Also includes pub games
 * Adds campaign scenario content (see [readme.md](https://github.com/Jagusti/fvtt-wfrp4e-rnhd/blob/master/README.md) for current coverage)
+---
+## Gerwin Waffenhalter’s Magnificent Weapons Gallery
+* **Author**: DasSauerkraut#3215
+* **Version**: 1.0
+* **Foundry VTT Compatibility**: 0.4.5+
+* **System Compatibility**: WFRP4e 0.9.0+
+* **Module Conflicts**: N/A
+### Description
+This module adds the 'Slashing' weapon quality as well as the expanded weapons from [The Ratter Vol. 1 Issue 2](https://indd.adobe.com/view/763c1883-228a-455f-a115-19f4059f4589)
+### Link(s) to Module
+* https://github.com/DasSauerkraut/wfrp-gwmwg
+* Manifest: https://raw.githubusercontent.com/DasSauerkraut/wfrp-gwmwg/master/module.json
 
 ---
 
