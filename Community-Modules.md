@@ -553,7 +553,7 @@ Allows the user to pin windows which will be re-opened automatically the next ti
 * [https://raw.githubusercontent.com/kakaroto/fvtt-module-furnace/stable/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-furnace/stable/module.json)
 
 ### Description
-The Furnace is an essential part of every Foundry. This Foundry VTT module brings Quality of Life Improvements to the VTT.
+The Furnace module brings Quality of Life Improvements to the VTT.
 
 It started by adding Drawing Tools, and then an experimental Macros system and now it also adds a 'Split Journal' feature. More QoL improvements are planned.
 
