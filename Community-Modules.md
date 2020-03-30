@@ -161,26 +161,6 @@ Sets the Display Notes toggle to true by default
 
 ---
 
-## Arcane Viewing
-
-* **Author**: KaKaRoTo#4756 (Discord). KaKaRoTo's Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto).
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.3.8
-* **System Compatibility (If applicable)**: Universal
-* **Module Requirement(s)**: None
-* **Module Conflicts**: None
-* **Translation Support**: EN
-
-### Link(s) to Module
-* [The module is paywalled, and requires subscribing to KaKaRoTo’s Patreon.](https://www.patreon.com/posts/arcane-viewing-30918808)
-
-### Description
-Arcane Viewing adds Audio/Video conferencing support directly from within FVTT.
-
-Through the use of Arcane magic, you are able to see and hear your follow adventurers wherever they may hide! Peer through the looking glass and see the horror that grips them and hear their screams as they are attacked by a cute bunny. Huh?
-
----
-
 ## Babele
 
 * **Author**: Simone#6710 (Discord).
@@ -541,8 +521,8 @@ Allows the user to pin windows which will be re-opened automatically the next ti
 ## The Furnace
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
-* **Version**: 1.0
-* **Foundry VTT Compatibility**: 0.4.3+
+* **Version**: 1.2.2
+* **Foundry VTT Compatibility**: 0.5.1+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -553,9 +533,15 @@ Allows the user to pin windows which will be re-opened automatically the next ti
 * [https://raw.githubusercontent.com/kakaroto/fvtt-module-furnace/stable/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-furnace/stable/module.json)
 
 ### Description
-The Furnace module brings Quality of Life Improvements to the VTT.
+This module contains a set of features that improve the Quality of Life of the DMs and Players.
 
-It started by adding Drawing Tools, and then an experimental Macros system and now it also adds a 'Split Journal' feature. More QoL improvements are planned.
+The current features are : 
+**Advanced Drawing Tools :** Improved drawing tools with different pattern fill types, new HUD, and various options.
+**Split Journal :** Select the split option from the context menu on a journal entry to split it into multiple entries.
+**Scene:** Move multiple tokens, tiles or drawings at once with your mouse.
+**Tokens :** As GM, you can enable/disable token vision for yourself. You can also drop an actor folder into a scene to deploy multiple tokens at once.
+**Combat :** Double click the initiative value in the combat tracker to quickly modify it.
+**Playlists : **Adds a 'Now Playing' section, and auto-hides sound controls until hovered. Helps in fine tuning of low level volumes.
 
 ---
 
@@ -819,8 +805,8 @@ Adds an option to the settings dialog to disable token movement animations. Toke
 ## Permission Viewer
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Version**: 0.4
-* **Foundry VTT Compatibility**: 0.4+
+* **Version**: 0.5.2
+* **Foundry VTT Compatibility**: 0.4.4+, 0.5.0+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -831,7 +817,7 @@ Adds an option to the settings dialog to disable token movement animations. Toke
 * [https://raw.githubusercontent.com/kakaroto/fvtt-module-permission-viewer/master/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-permission-viewer/master/module.json)
 
 ### Description
-This Foundry VTT module displays colored diamonds/squares/circles to represent the players who have limited/observer/owner permissions on Entities (Actors, Journal entries, Items, etc..)
+This Foundry VTT module allows a GM to quickly share actors, journal entries, items, etc.. with their players and displays colored diamonds/squares/circles to represent which players have which access to the various Entities.
 
 ---
 
@@ -878,8 +864,8 @@ This module aims to simplify the process of adding multiple music tracks to Foun
 ## Popout!
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Version**: 0.3
-* **Foundry VTT Compatibility**: 0.4+
+* **Version**: 0.6
+* **Foundry VTT Compatibility**: 0.4.4+, 0.5.0+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -890,7 +876,7 @@ This module aims to simplify the process of adding multiple music tracks to Foun
 * [https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/module.json)
 
 ### Description
-This Foundry VTT module lets you pop out journal entries and actor sheets into their own windows.
+This Foundry VTT module lets you pop out journal entries and actor sheets into their own windows or into separate tabs.
 
 ---
 
@@ -1205,14 +1191,15 @@ It currently supports the DnD5e Character and NPC sheets, Better NPC Sheet 5e, a
 ### Link(s) to Module
 * [https://github.com/kakaroto/Beyond20/](https://github.com/kakaroto/Beyond20/)
 * [https://raw.githubusercontent.com/kakaroto/Beyond20/master/FVTT-module/beyond20/module.json](https://raw.githubusercontent.com/kakaroto/Beyond20/master/FVTT-module/beyond20/module.json)
+* [Official browser extension website](https://beyond20.here-for-more.info)
 
 The module is available under the 'FVTT-module' directory.
 
-If using FVTT 0.3.x, you can install this version : 
-* [https://raw.githubusercontent.com/kakaroto/Beyond20/0.3.x/FVTT-module/beyond20/module.json](https://raw.githubusercontent.com/kakaroto/Beyond20/0.3.x/FVTT-module/beyond20/module.json)
-
 ### Description
-This module allows you to use and roll sheets in DnD Beyond, and have those results displayed in Foundry VTT. For more details, see Kakaroto’s module page and readme files.
+This module allows you to use and roll sheets in DnD Beyond, and have those results displayed in Foundry VTT. For more details, see Kakaroto’s module page and readme files, or the official website.
+
+The FVTT module allows other players who do not have the browser extension installed to see the rolls properly formatted, and allows the condition mapping to work correctly with the token status effect icons.
+
 
 ---
 
@@ -1515,8 +1502,8 @@ This module adds Kobold Press OGL content sourced from the KPOGL wiki. Currently
 ## Let Me Roll That For You! (LMRTFY)
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Version**: 0.4.1
-* **Foundry VTT Compatibility**: 0.4.0
+* **Version**: 0.6
+* **Foundry VTT Compatibility**: 0.4.4+, 0.5.0+
 * **System Compatibility (If applicable)**: D&D 5e
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -1706,8 +1693,8 @@ Changes map pin icon selection to filepicker
 ## Polyglot
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Version**: 0.3
-* **Foundry VTT Compatibility**: 0.4.0+
+* **Version**: 0.6
+* **Foundry VTT Compatibility**: 0.4.4+, 0.5.0+
 * **System Compatibility (If applicable)**: D&D 5e
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -1744,18 +1731,20 @@ A module for Foundry VTT that lets you polymorph characters into any other chara
 ## Roll20 Converter
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto)
-* **Version**: 0.3
+* **Version**: 0.8.8
 * **Foundry VTT Compatibility**: 0.4.0+
-* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
+* **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition, Universal
 * **Module Requirement(s)**: None in Foundry, though module requires a campaign exported from Roll20 using KaKaRoTo’s export tool.
 * **Module Conflicts**: None known.
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* The module is paywalled, and requires subscribing to KaKaRoTo’s Patreon.
+* The module is paywalled, and requires subscribing to KaKaRoTo’s [Patreon](https://www.patreon.com/kakaroto).
 
 ### Description 
-This module imports most facets of a campaign, including scenes, dynamic lighting, basic sheet information, and more. It currently does not include thorough actor information (either for PCs or NPCs), or items. Bear in mind that exporting a campaign from Roll20 may violate the EULA.
+This module is a PC application that imports most facets of a Roll 20 campaign, including scenes, walls, dynamic lighting, character sheets (D&D 5e), handouts, chat logs and more. 
+
+Bear in mind that exporting a campaign from Roll20 may violate the EULA.
 
 ---
 
@@ -2016,6 +2005,28 @@ Hides Private GM Rolls completely rather then just obfuscating the result.
 **UPDATE**: No longer a bundled module. But the Anvil Menu library is still usable by developers.
 
 The Anvil Menu is a library able to be used by other module developers without the need to include the anvil-menu module itself. See the README on GitLab for more information.
+
+---
+
+## Arcane Viewing (module integrated into core)
+
+* **Author**: KaKaRoTo#4756 (Discord). KaKaRoTo's Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto).
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.3.8
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN
+
+### Link(s) to Module
+* [The module is paywalled, and requires subscribing to KaKaRoTo’s Patreon.](https://www.patreon.com/posts/arcane-viewing-30918808)
+
+### Description
+Arcane Viewing adds Audio/Video conferencing support directly from within FVTT.
+
+Through the use of Arcane magic, you are able to see and hear your follow adventurers wherever they may hide! Peer through the looking glass and see the horror that grips them and hear their screams as they are attacked by a cute bunny. Huh?
+
+**Note**: This module has been deprecated as most of its functionality has now been integrated into Foundry's core. See https://www.patreon.com/posts/beta-0-4-2-notes-32265287
 
 ---
 
