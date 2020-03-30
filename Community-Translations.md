@@ -8,6 +8,7 @@
       * [Korean](#korean)
       * [Portuguese (BR)](#portuguese-br)
       * [Russian (RU)](#russian-ru)
+      * [Spanish](#spanish)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Translation](#appendix-a-adding-a-translation)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -197,6 +198,24 @@ Adiciona o idioma Português (Brasil) para o sistema de jogo D&D 5E no FoundryVT
 This module adds the Russian language to Foundry VTT. 
 
 Этот модуль добавлять русский язык в Foundry VTT. Для установки скопируйте ссылку Manifest в окно Install Module. Для включения перевода, зайдите в Game Settings > Configure Settings и поменяйте Language на Russian. 
+
+---
+
+## Spanish
+
+* **Author**: Cosmo Corban#4840 on Discord
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.5+
+
+
+### Link(s) to Translation
+* [https://gitlab.com/carlosjrlu/foundryvtt-es/](https://gitlab.com/carlosjrlu/foundryvtt-es/)
+* [https://gitlab.com/carlosjrlu/foundryvtt-es/-/raw/master/es-ES/module.json](https://gitlab.com/carlosjrlu/foundryvtt-es/-/raw/master/es-ES/module.json)
+
+### Description
+This module adds the option to select the Spanish (Español) language from the FoundryVTT settings menu.
+Includes the complete translation of the program interface.
+Installation: In the Add-On Modules option click on Install Module and place the following link in the field Manifest URL `https://gitlab.com/carlosjrlu/foundryvtt-es/-/raw/master/es-ES/module.json`
 
 ---
 
