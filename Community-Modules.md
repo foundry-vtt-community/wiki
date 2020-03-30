@@ -284,8 +284,8 @@ This module improves loading times by only rendering the last few chat messages 
 ## Combat Utility Belt (Beta)
 
 * **Author**: errational#2007 on discord (Donation/Sponsor? Sponsor button in the first link below)
-* **Version**: 0.7.1
-* **Foundry VTT Compatibility**: 0.4.0+
+* **Version**: 0.9.8
+* **Foundry VTT Compatibility**: 0.5.1+
 * **System Compatibility (If applicable)**: N/A
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: N/A
@@ -735,8 +735,8 @@ Supports rolling dice in your chat window for various non regular dice systems:
 ## Maestro
 
 * **Author**: Evan Clarke (errational#2007) (Donation/Sponsor? Sponsor button in the first link below)
-* **Version**: 0.5.0
-* **Foundry VTT Compatibility**: 0.4.4+
+* **Version**: 0.6.3
+* **Foundry VTT Compatibility**: 0.5.1+
 * **System Compatibility (If applicable)**: N/A
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: Hype Track (deprecated by this module)
