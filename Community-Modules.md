@@ -521,8 +521,8 @@ Allows the user to pin windows which will be re-opened automatically the next ti
 ## The Furnace
 
 * **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
-* **Version**: 1.2.2
-* **Foundry VTT Compatibility**: 0.5.1+
+* **Version**: 1.3.2
+* **Foundry VTT Compatibility**: 0.5.3+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
@@ -536,12 +536,14 @@ Allows the user to pin windows which will be re-opened automatically the next ti
 This module contains a set of features that improve the Quality of Life of the DMs and Players.
 
 The current features are : 
-**Advanced Drawing Tools :** Improved drawing tools with different pattern fill types, new HUD, and various options.
-**Split Journal :** Select the split option from the context menu on a journal entry to split it into multiple entries.
-**Scene:** Move multiple tokens, tiles or drawings at once with your mouse.
-**Tokens :** As GM, you can enable/disable token vision for yourself. You can also drop an actor folder into a scene to deploy multiple tokens at once.
-**Combat :** Double click the initiative value in the combat tracker to quickly modify it.
-**Playlists : **Adds a 'Now Playing' section, and auto-hides sound controls until hovered. Helps in fine tuning of low level volumes.
+- **Advanced Drawing Tools :** Improved drawing tools with different pattern fill types, new HUD, and various options.
+- **Advanced Macros**: Use async script macros, handlebars templating, recursive macro calls and call macros with arguments or directly from chat.
+- **Split Journal :** Select the split option from the context menu on a journal entry to split it into multiple entries.
+- **Tokens :** As GM, you can enable/disable token vision for yourself. You can also drop an actor folder into a scene to deploy multiple tokens at once.
+- **Combat :** Double click the initiative value in the combat tracker to quickly modify it.
+- **Playlists : **Adds a 'Now Playing' section, and auto-hides sound controls until hovered. Helps in fine tuning of low level volumes.
+
+Refer to the [README](https://github.com/kakaroto/fvtt-module-furnace/blob/master/README.md) file for instructions on how to use some of the more advanced features.
 
 ---
 
@@ -1038,6 +1040,29 @@ On creation each unlinked Token will fit snugly into the pattern of your mold.
 
 ### Description
 Adds a HUD button to toggle light of a specific radius.  For the dnd5e system, will also deduct torches from inventory when turned on if the Actor does not know the Light or Dancing Lights cantrips. For Dancing Lights, creates four Dancing Light tokens for the player as long as there is a GM connected.
+
+---
+
+## Trigger Happy
+
+* **Author**: KaKaRoTo#4756 on Discord. His Patreon can be found here: [https://www.patreon.com/kakaroto](https://www.patreon.com/kakaroto) 
+* **Version**: 0.2
+* **Foundry VTT Compatibility**: 0.5.3+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: None
+
+### Link(s) to Module
+* [https://github.com/kakaroto/fvtt-module-trigger-happy/](https://github.com/kakaroto/fvtt-module-trigger-happy/)
+* [https://raw.githubusercontent.com/kakaroto/fvtt-module-trigger-happy/master/module.json](https://raw.githubusercontent.com/kakaroto/fvtt-module-trigger-happy/master/module.json)
+
+### Description
+This module adds a trigger->effect system for creating triggers and automating things within a world.
+
+This was created as a way of creating the interactive FVTT Tutorial on [The Forge](https://forgevtt.com/game/demo)
+
+Refer to the [README](https://github.com/kakaroto/fvtt-module-trigger-happy/blob/master/README.md) file for instructions on how to create and configure triggers.
 
 ---
 
