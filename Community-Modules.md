@@ -47,6 +47,7 @@
       * [Tiles Browser](#tiles-browser)
       * [Token Mold](#token-mold)
       * [Torch](#torch)
+      * [Trigger Happy](#trigger-happy)
       * [VTTA Iconizer](#vtta-iconizer)
       * [VTTA Tokenizer](#vtta-tokenizer)
       * [ZoomKey](#zoomkey)
