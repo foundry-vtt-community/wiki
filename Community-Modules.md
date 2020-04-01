@@ -1069,15 +1069,15 @@ Refer to the [README](https://github.com/kakaroto/fvtt-module-trigger-happy/blob
 ## VTTA Iconizer
 
 * **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
-* **Version**: v1.0.2
-* **Foundry VTT Compatibility**: 0.4.0+
+* **Version**: v2.1.2
+* **Foundry VTT Compatibility**: 0.4.4+
 * **System Compatibility (If applicable)**: "dnd5e" - shout out if I should anything, thanks!
 * **Module Requirement(s)**: 
 * **Module Conflicts**:
 * **Translation Support**: EN (full), DE (full)
 
 ### Link(s) to Module
-* [https://www.vttassets.com/asset/vtta-iconizer](https://www.vttassets.com/asset/vtta-iconizer)
+* [https://www.vttassets.com/assets/vtta-iconizer](https://www.vttassets.com/assets/vtta-iconizer)
 
 ### Description
 Iconizer watches the creation of items in your world, and tries to find a suitable icon from a pre-populated name/icon dictionary. All you need to do, is
@@ -1095,15 +1095,15 @@ to define custom databases, too
 ## VTTA Tokenizer
 
 * **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
-* **Version**: v1.0.12
-* **Foundry VTT Compatibility**: 0.4.3+
+* **Version**: v2.0.2
+* **Foundry VTT Compatibility**: 0.4.4+
 * **System Compatibility (If applicable)**: "dnd5e", "pf2e", "archmage" - shout out if I should anything, thanks!
 * **Module Requirement(s)**: Requires the player permission "Trusted Player"
 * **Module Conflicts**:
 * **Translation Support**: EN (full), DE (full)
 
 ### Link(s) to Module
-* [https://www.vttassets.com/asset/vtta-tokenizer](https://www.vttassets.com/asset/vtta-tokenizer)
+* [https://www.vttassets.com/assets/vtta-tokenizer](https://www.vttassets.com/assets/vtta-tokenizer)
 
 ### Description
 Tokenizer provides the user with:
@@ -1857,51 +1857,42 @@ Simple module that displays Speed, AC, and Passive Perception on Tokens for the 
 ## VTTA D&D Beyond Integration
 
 * **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
-* **Version**: v1.0.2
-* **Foundry VTT Compatibility**: 0.4.0+
+* **Version**: v2.0.3
+* **Foundry VTT Compatibility**: 0.4.4+
 * **System Compatibility (If applicable)**:
 * **Module Requirement(s)**: None
 * **Module Conflicts**:
 * **Translation Support**: EN (full), DE (full)
 
 ### Link(s) to Module
-* [https://www.vttassets.com/asset/vtta-dndbeyond](https://www.vttassets.com/asset/vtta-dndbeyond)
+* [https://www.vttassets.com/assets/vtta-dndbeyond](https://www.vttassets.com/assets/vtta-dndbeyond)
 
 ### Description
-The integration module provides you with the possibility to import
-
-* characters and their related
-* spells and
-* inventory items
-
-into the world and optionally into designated compendium packs (see [a suitable tiny module](https://www.vttassets.com/asset/shared) for a possible implementation). Is is supporting all features currently implemented into Foundry, including
-
-* Inventory: weapons, equipment, consumables (scrolls and potions), loot (everything else)
-* Character Features
-* Character Classes
-* Spells and
-* of course generic information like 
-    * Proficiencies: Adding everything on top of the generic,  support proficiency types
-    * Senses: Darkvision, including the token adjustments, so you don't need to do that manually
+* By clicking an inserted button on any D&D Beyond monster's page, you can **import that monster** straight into the game, with **all stats, all actions, all attacks, reactions and legendary actions**, fully Foundry compatible and up to date to the latest changes
+* The same works for **importing all spells** from any D&D Beyond spell page, empowering your NPCs in unimaginable ways
+* You can **import your D&D Beyond characters**, or better: Let your player's import their characters to have an great representation of their character right within Foundry.
+* Additionally, you can **roll monster checks, saves, spells and attacks** straight from the D&D Beyond monster's page without you opening NPC sheets within Foundry
 
 ---
 
 ## VTTA Party
 
 * **Author**: solfolango77#0880 on Discord. His Patreon can be found here: [https://www.patreon.com/vttassets](https://www.patreon.com/vttassets) 
-* **Version**: v1.0.0
-* **Foundry VTT Compatibility**: 0.4.0+
+* **Version**: v2.1.3
+* **Foundry VTT Compatibility**: 0.4.4+
 * **System Compatibility (If applicable)**:
 * **Module Requirement(s)**: None
 * **Module Conflicts**:
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://www.vttassets.com/asset/vtta-party](https://www.vttassets.com/asset/vtta-party)
+* [https://www.vttassets.com/assets/vtta-party](https://www.vttassets.com/assets/vtta-party)
 
 ### Description
-Successor to fvtt-party, which is discontinued as of now. Provides both an overview about the party in regards to AC, HP, and passive perception/investigation/insight and adds tooltips for the actors of the currently active scene.
-Configurable options for granting players access to both features, or to use it for GMs only.
+The overview window acts intelligently to not overload you with characters and NPCs:
+* only tokens that are owned by a player and
+* that are **placed on the currently active scene**
+are shown. If that is still to much you can toggle the eye button to quickly show or hide a specific actor
 
 ---
 
