@@ -202,7 +202,7 @@ This module displays Actor Rolls in Chat Bubbles located on just above the Token
 
 ## Bullseye
 
-* **Author**: GameGrue#7383 on Discord
+* **Author**: Ionshard#7383 on Discord
 * **Version**: 0.1.1
 * **Foundry VTT Compatibility**: 0.5.0
 * **System Compatibility (If applicable)**: Universal
@@ -1252,7 +1252,7 @@ To install the module, download the zip file included in the Github module direc
 
 ## Chat Damage Buttons - Beyond20 Edition
 
-* **Author**: GameGrue#7383 on Discord
+* **Author**: Ionshard#7383 on Discord
 * **Version**: 1.0.0
 * **Foundry VTT Compatibility**: 0.4.7
 * **System Compatibility (If applicable)**: Dungeons and Dragons 5th Edition
@@ -2007,7 +2007,7 @@ Hides Private GM Rolls completely rather then just obfuscating the result.
 
 ## Anvil Menu
 
-* **Author**: GameGrue#7383 on Discord
+* **Author**: Ionshard#7383 on Discord
 * **Version**: 0.1
 * **Foundry VTT Compatibility**: 0.3.7
 * **System Compatibility (If applicable)**: Universal
