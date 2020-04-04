@@ -156,8 +156,8 @@ This module adds the option to select the Korean language from the FoundryVTT se
 ## Portuguese (BR)
 
 * **Authors**: Miriadis#9152, Bellenus#5269, Thomaz M.#7564 and Melithian539#0625 on Discord
-* **Version**: 0.2.3
-* **Foundry VTT Compatibility**: 0.4+
+* **Version**: 0.3.1
+* **Foundry VTT Compatibility**: 0.5+
 
 ### Link(s) to Translation
 * [https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese](https://gitlab.com/elvis-pereira/foundryvtt-brazilian-portuguese)
@@ -170,8 +170,8 @@ Esse módulo adiciona a opção de selecionar o idioma Português (Brasil) no me
 
 ### Dungeons & Dragons 5th Edition System [Author : Atropos]
 * **Authors**: Melithian539#0625 on Discord
-* **Version**: 0.1.0
-* **Foundry VTT Compatibility**: 0.4+
+* **Version**: 0.4.0
+* **Foundry VTT Compatibility**: 0.5+
 
 #### Link(s) to Translation
 * Gitlab : [https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese](https://gitlab.com/Caua539/foundryvtt-dnd5e-brazilian-portuguese)
