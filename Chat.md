@@ -13,3 +13,4 @@
   Note there must be an _actor_ that exists with that name.  Not just a Compendium entry.
 * Item references : `You find an @Item[Abacus].`
   As with actor references, this refers to an item (see item sidebar).  A Compendium entry isn't enough.
+* Scene references : `Check out @Scene[Old Road Ambush].`
