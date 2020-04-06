@@ -656,7 +656,7 @@ A little app to preview images on hover in the file picker menu.
 
 ### Link(s) to Module
 * [https://gitlab.com/moerills-fvtt-modules/layer-hotkeys](https://gitlab.com/moerills-fvtt-modules/layer-hotkeys)
-* [https://gitlab.com/moerills-fvtt-modules/layer-hotkeys/raw/master/layer-hotkeys/module.json](https://gitlab.com/moerills-fvtt-modules/layer-hotkeys/raw/master/layer-hotkeys/module.json)
+* [https://gitlab.com/moerills-fvtt-modules/layer-hotkeys/-/raw/master/module.json](https://gitlab.com/moerills-fvtt-modules/layer-hotkeys/-/raw/master/module.json)
 
 ### Description
 This module adds hotkeys for switching layers and the active tool in canvas.
