@@ -3,6 +3,9 @@ A macro is a set of commands (such as a roll, a message, or a Javascript scriptl
 
 Macros were added in Foundry VTT version `0.4.4`
 
+Some community contributed Macros can be found here:    
+https://github.com/foundry-vtt-community/macros
+
 # Macro Types
 ## Chat Macros
 
