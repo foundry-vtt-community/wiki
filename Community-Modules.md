@@ -8,6 +8,7 @@
       * [Bullseye](#bullseye)
       * [Calendar/Weather](#calendarweather)
       * [Chat Autoloader](#chat-autoloader)
+      * [Chat Colors & More](#chat-colors--more)
       * [Combat Utility Belt (Beta)](#combat-utility-belt-beta)
       * [Cursor Hider](#cursor-hider)
       * [Deselection](#deselection)
@@ -259,6 +260,24 @@ If you want to have weather effects, you must have [FXMaster](https://gitlab.com
 
 ### Description
 This module improves loading times by only rendering the last few chat messages at page load. Older messages will automatically get rendered while scrolling to the top. (This behavior is similar to e.g. scrolling in Discords chat)
+
+---
+
+## Chat Colors & More
+
+* **Author**: Letheka
+* **Foundry VTT Compatibility**: 0.5.3+
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+
+### Link(s) to Module
+* [https://gitlab.com/lethekazhorai/chat-colors-and-more](https://gitlab.com/lethekazhorai/chat-colors-and-more)
+* [https://gitlab.com/lethekazhorai/chat-colors-and-more/-/raw/master/module.json](https://gitlab.com/lethekazhorai/chat-colors-and-more/-/raw/master/module.json)
+
+### Description
+This module allows players to set custom colors for different types of chat messages (IC speech, emotes, rolls, and all other messages) in the Module Settings. Players can also specify a default chat prefix, which will be prefixed to all their chat messages that are not already commands. 
+
+![Screenshot](https://gitlab.com/lethekazhorai/chat-colors-and-more/-/raw/master/ChatColors_Example.PNG?inline=true "Screenshot")
 
 ---
 
