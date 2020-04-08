@@ -8,7 +8,7 @@
       * [Bullseye](#bullseye)
       * [Calendar/Weather](#calendarweather)
       * [Chat Autoloader](#chat-autoloader)
-      * [Chat Colors & More](#chat-colors--more)
+      * [Chat Colors &amp; More](#chat-colors--more)
       * [Combat Utility Belt (Beta)](#combat-utility-belt-beta)
       * [Cursor Hider](#cursor-hider)
       * [Deselection](#deselection)
