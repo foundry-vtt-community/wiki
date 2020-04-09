@@ -1390,10 +1390,7 @@ Dynamic items are ones that makes changes to your stats/modifiers when they are 
 * There is a straightforward ui to make changes/create items For more complex changes (e.g. AC based on dex mod, you need to know the attribute specification, e.g. data.avilities.dex.mod)
 * Dynamic effects can be applied to any item, weapons/backpacks/armor/feats, in addition to its normal properties.
 * as of 0.8 new bonus fields, like attacks, weapon damage and saves/checks can be added as strings. So +1d4 on saving throws for bless.
-* You can add the following macro
-```DynamicItems.showEffects(actor)``` for a detailed list of effects, or ```DynamicItems.showEffects(actor, false)`` for a summary.
-* You can add the following macro
-```toggleFeatActive("item name")``` to toggle a feat/item as active. Think turning on/off bless or sneak attack.
+Please see the module link for documentation.
 
 ---
 
