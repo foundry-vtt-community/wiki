@@ -160,9 +160,13 @@ Click the Attach existing policies directly button.  This will bring up a long l
 
 You're now ready to set up your new AWS-hosted Ubuntu server with Foundry.  Again, you can find the generic guide [here](https://github.com/foundry-vtt-community/wiki/wiki/Ubuntu-VM).
 
-You'll need the key pair you created in order to log in via ssh.  A typical command to log into an EC2 at a command line:
+You'll need the key pair you created in order to log in via ssh.  Before you log in, though, you'll need to change the permissions on the keyfile so other users on your computer can't read it.  On Linux/MacOS, you can do so with the following command:
 
-    ssh -i path/to/keypair.pem ubuntu@<your-instance-public-ip>
+    chmod 600 /path/to/keypair.pem
+
+A typical SSH command to log into an EC2 instance at the command line looks like this, with the appropriate information replaced:
+
+    ssh -i /path/to/keypair.pem ubuntu@<your-instance-public-ip>
 
 This should work in both a Linux or MacOS terminal, or in Microsoft Powershell on most modern installs of Windows 10.
 
