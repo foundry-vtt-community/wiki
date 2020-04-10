@@ -16,6 +16,8 @@ The templates require a bit of manipulation to use with Pathfinder 2's standard 
 * 30 ft cones = impossible with templates, can do with tiles?
 * 60 ft cones = impossible with templates, can do with tiles?
 
+Note, you need to have "flat" as your cone template type in the 'configure game settings' menu.
+
 **Emanations**
 
 _From medium creature:_
