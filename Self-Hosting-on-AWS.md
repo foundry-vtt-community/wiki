@@ -9,7 +9,7 @@ Requirements for this guide are a web browser, a notepad app, and possibly some 
 
 ## 2. Setting up an AWS Account
 
-If you already have an AWS account, please feel free to skip this section.  Everyone else, the first thing you'll need is an AWS account -- go to[aws.amazon.com](https://aws.amazon.com) and click the Create an AWS Account button in the top right.  Fill out the forms as listed, setting up a Personal account.  Do note that when it asks you for a payment method, you _must_ provide a valid payment method.  Even on the free tier, they will test the card with a nominal $1 charge to test to see if it's valid.  This charge will be credited back to your account after 3-5 days.  When they ask you to select a support plan, pick Basic, and you're done.  After you receive confirmation via email that the account is set up, you can log into the console and proceed.
+If you already have an AWS account, please feel free to skip this section.  Everyone else, the first thing you'll need is an AWS account -- go to [aws.amazon.com](https://aws.amazon.com) and click the Create an AWS Account button in the top right.  Fill out the forms as listed, setting up a Personal account.  Do note that when it asks you for a payment method, you _must_ provide a valid payment method.  Even on the free tier, they will test the card with a nominal $1 charge to test to see if it's valid.  This charge will be credited back to your account after 3-5 days.  When they ask you to select a support plan, pick Basic, and you're done.  After you receive confirmation via email that the account is set up, you can log into the console and proceed.
 
 ## 3. Identity and Access Management (IAM), Part 1
 
