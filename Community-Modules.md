@@ -35,6 +35,7 @@
       * [Special Dice Roller](#special-dice-roller)
       * [Maestro](#maestro)
       * [Merge Walls](#merge-walls)
+      * [Modbox](#modbox)
       * [Mother, May I?](#mother-may-i)
       * [No Token Animations](#no-token-animations)
       * [Permission Viewer](#permission-viewer)
@@ -827,6 +828,25 @@ DEPRECATED Scene Playlist - DEPRECATED -- Use native Foundry functionality inste
 This module came about after looking at walls generated in DunGen and a discussion with Atropos about how to reduce the number or walls by merging neighbouring walls. For hand drawn maps there is only a small decrease but for DunGen and maps imported from Roll20 modules there can be 30% reduction in the number of walls. The results are not too far from hand crafted wall layouts.
 
 Backup your world before trying as it will change the walls in your world permanently. See the Readme.md for how to use.
+
+---
+
+## Modbox
+
+* **U~man**: U~man#2374, contributions are welcome on core features, translations and new templates
+* **Version**: 0.0.1
+* **Foundry VTT Compatibility**: 0.5.0
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known
+* **Translation Support**: English, French
+
+### Link(s) to Module
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-modbox](https://gitlab.com/mesfoliesludiques/foundryvtt-modbox)
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-modbox/-/raw/master/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-modbox/-/raw/master/module.json)
+
+### Description
+Adds an input box to the toolbar that applies a modifier to the next roll.
 
 ---
 
