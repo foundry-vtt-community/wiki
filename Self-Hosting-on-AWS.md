@@ -172,6 +172,6 @@ This should work in both a Linux or MacOS terminal, or in Microsoft Powershell o
 
 After you've set up Foundry, you'll want to go back to the Foundry S3 setup [here](https://foundryvtt.com/article/aws-s3/) and make the appropriate edits to the options.json file, and create a aws.json file with the appropriate access key and private key, as well as the region.  The keys are in the .csv file you made all the way back in IAM, part 1.  The region is the AWS-compliant name of the region your bucket is located in -- if you hit the Regions dropdown in the top right, it'll be in all lower case next to the friendlier name.
 
-## 7. Final Notes
+## 8. Final Notes
 
 Like most pieces of documentation, this is a living document.  If you run into any issues with the instructions here, please reach out to me.  I am @magichateball on the Foundry VTT Discord and will do my best to field any questions you have related to these instructions.
