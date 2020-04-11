@@ -804,8 +804,8 @@ Module to enhance visibility for the GM in Foundry VTT.
 Simple module that allows for quick rolling of common dice.
 
 ### Link(s) to Module
-**Link:** [https://gitlab.com/jopeek/fvtt---simple-dice-roller](https://gitlab.com/jopeek/fvtt---simple-dice-roller)
-**Manifest:** [https://gitlab.com/jopeek/fvtt---simple-dice-roller/raw/master/module.json](https://gitlab.com/jopeek/fvtt---simple-dice-roller/raw/master/module.json)
+* **Link:** [https://gitlab.com/jopeek/fvtt---simple-dice-roller](https://gitlab.com/jopeek/fvtt---simple-dice-roller)
+* **Manifest:** [https://gitlab.com/jopeek/fvtt---simple-dice-roller/raw/master/module.json](https://gitlab.com/jopeek/fvtt---simple-dice-roller/raw/master/module.json)
 
 ---
 
