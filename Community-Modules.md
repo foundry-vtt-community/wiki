@@ -35,6 +35,7 @@
       * [Special Dice Roller](#special-dice-roller)
       * [Maestro](#maestro)
       * [Merge Walls](#merge-walls)
+      * [Modbox](#modbox)
       * [Mother, May I?](#mother-may-i)
       * [No Token Animations](#no-token-animations)
       * [Permission Viewer](#permission-viewer)
@@ -43,6 +44,7 @@
       * [Popout!](#popout)
       * [Pointer](#pointer)
       * [Roll Table Buttons](#roll-table-buttons)
+      * [Route-Finder](#route-finder)
       * [Search Anywhere](#search-anywhere)
       * [Skycons](#skycons)
       * [SVG Loader](#svg-loader)
@@ -681,6 +683,25 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 
 ---
 
+## Image Drop
+
+* **U~man**: U~man#2374, contributions are welcome on core features, translations and new templates
+* **Version**: 0.0.1
+* **Foundry VTT Compatibility**: 0.5.0
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known
+* **Translation Support**: Not applicable
+
+### Link(s) to Module
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-image-drop](https://gitlab.com/mesfoliesludiques/foundryvtt-image-drop)
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-image-drop/-/raw/master/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-image-drop/-/raw/master/module.json)
+
+### Description
+Allows dropping images from journal entries to the canvas as tiles.
+
+---
+
 ## Image Previewer
 
 * **Author**: Felix#6196 on Discord, accepts donations via paypal, felix.mueller.86@web.de
@@ -829,6 +850,25 @@ Backup your world before trying as it will change the walls in your world perman
 
 ---
 
+## Modbox
+
+* **U~man**: U~man#2374, contributions are welcome on core features, translations and new templates
+* **Version**: 0.0.1
+* **Foundry VTT Compatibility**: 0.5.0
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known
+* **Translation Support**: English, French
+
+### Link(s) to Module
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-modbox](https://gitlab.com/mesfoliesludiques/foundryvtt-modbox)
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-modbox/-/raw/master/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-modbox/-/raw/master/module.json)
+
+### Description
+Adds an input box to the toolbar that applies a modifier to the next roll.
+
+---
+
 ## Mother, May I?
 
 * **Author**: Deuce#8801 on Discord.
@@ -970,6 +1010,26 @@ This module adds the ability for each user to show a cursor following his mouse 
 
 ### Description
 This module adds a button to the chat controls for easier access to rolltables. Came about as a way to add critical-hit decks for players.
+
+---
+
+## Route-Finder
+
+* **Author**: Moe#6034 on Discord
+* **Version**: 0.3.1
+* **Foundry VTT Compatibility**: 0.5.3+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/Exote/foundry-vtt-pathfinding](https://github.com/Exote/foundry-vtt-pathfinding)
+* [https://raw.githubusercontent.com/Exote/foundry-vtt-pathfinding/master/module.json](https://raw.githubusercontent.com/Exote/foundry-vtt-pathfinding/master/module.json)
+
+### Description
+A module to find the shortest route for a token to reach a chosen point.
+Once a token is selected a path will be drawn from the token to the user's mouse showing the shortest route to that point. Right-clicking will move the token along the route to the end position.
 
 ---
 

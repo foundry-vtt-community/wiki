@@ -16,6 +16,7 @@ Table of Contents
       * [<a href="Self-hosted-Cloud">Self-hosted Cloud</a>](#self-hosted-cloud)
          * [<a href="Ubuntu-VM">Ubuntu VM</a>](#ubuntu-vm)
          * [<a href="DigitalOcean-Initialization-Script">DigitalOcean Initialization Script</a>](#digitalocean-initialization-script)
+         * [<a href="Self-Hosting-on-AWS">Self Hosting on AWS</a>](#self-hosting-on-aws)
       * [<a href="Connecting">Connecting</a>](#connecting)
       * [<a href="Setting-up-Worlds">Setting up Worlds</a>](#setting-up-worlds)
       * [<a href="Setting-up-Players">Setting up Players</a>](#setting-up-players)
