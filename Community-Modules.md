@@ -33,6 +33,7 @@
       * [Image Previewer](#image-previewer)
       * [Layer Hotkeys](#layer-hotkeys)
       * [Less Fog](#less-fog)
+      * [Simple Dice Roller](#simple-dice-roller)
       * [Special Dice Roller](#special-dice-roller)
       * [Maestro](#maestro)
       * [Merge Walls](#merge-walls)
