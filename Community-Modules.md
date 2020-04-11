@@ -48,6 +48,7 @@
       * [Route-Finder](#route-finder)
       * [Search Anywhere](#search-anywhere)
       * [Skycons](#skycons)
+      * [Squeaker](#squeaker)
       * [SVG Loader](#svg-loader)
       * [Theatre Inserts](#theatre-inserts)
       * [Tiles Browser](#tiles-browser)
@@ -793,6 +794,20 @@ Module to enhance visibility for the GM in Foundry VTT.
 
 ---
 
+## Simple Dice Roller
+* **Author**: ChalkOne#0156 on Discord.
+* **Version:** 0.1.1
+* **Foundry VTT Compatibility**: 0.4.4
+* **Module Requirement(s):** None
+* **System Compatibility (If applicable)**: Universal.
+Simple module that allows for quick rolling of common dice.
+
+### Link(s) to Module
+**Link:** [https://gitlab.com/jopeek/fvtt---simple-dice-roller](https://gitlab.com/jopeek/fvtt---simple-dice-roller)
+**Manifest:** [https://gitlab.com/jopeek/fvtt---simple-dice-roller/raw/master/module.json](https://gitlab.com/jopeek/fvtt---simple-dice-roller/raw/master/module.json)
+
+---
+
 ## Special Dice Roller
 
 * **Author**: putty#0555 on Discord.
@@ -872,7 +887,7 @@ Backup your world before trying as it will change the walls in your world perman
 ## Modbox
 
 * **U~man**: U~man#2374, contributions are welcome on core features, translations and new templates
-* **Version**: 0.0.1
+* **Version**: 0.0.3
 * **Foundry VTT Compatibility**: 0.5.0
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
@@ -1084,6 +1099,25 @@ A FoundryVTT Module that adds a way to quickly search for any entity by name via
 
 ### Description
 Save/restore window position whem minimizing/maximizing.
+
+---
+
+## Squeaker
+
+* **U~man**: U~man#2374, contributions are welcome on core features, translations and new templates
+* **Version**: 1.2.1
+* **Foundry VTT Compatibility**: 0.5.0
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known
+* **Translation Support**: Not applicable
+
+### Link(s) to Module
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-squeaker](https://gitlab.com/mesfoliesludiques/foundryvtt-squeaker) 
+* Manifest: [https://gitlab.com/mesfoliesludiques/foundryvtt-squeaker/-/raw/master/module.json](https://gitlab.com/mesfoliesludiques/foundryvtt-squeaker/-/raw/master/module.json)
+
+### Description
+Adds settings to control sounds that trigger when a chat message is received. You can use custom sounds, disable roll sounds and enable chat sound notifications even when it's not whispered messages. Based on an original idea from @Gen Kitty (she/her). **Default settings don't change anything.**
 
 ---
 
