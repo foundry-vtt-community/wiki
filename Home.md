@@ -26,6 +26,8 @@
 
 ### [DigitalOcean Initialization Script](DigitalOcean-Initialization-Script)
 
+### [Self Hosting on AWS](Self-Hosting-on-AWS)
+
 ## [Connecting](Connecting)
 
 ## [Setting up Worlds](Setting-up-Worlds)
