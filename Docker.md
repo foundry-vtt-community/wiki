@@ -2,9 +2,9 @@ You can use Docker to run Foundry VTT. You may use two different approaches.
 
 ## mikysan's Dockerfile (Recommended Approach)
 
-Dockerfile and guide available at [https://github.com/mikysan/simple-fvtt-dockerfile](https://github.com/mikysan/simple-fvtt-dockerfile).
+Dockerfile and guides for manual and docker-compose setup available at [https://github.com/mikysan/simple-fvtt-dockerfile](https://github.com/mikysan/simple-fvtt-dockerfile).
 
-## trotroyanas's docker-compose
+## trotroyanas's docker-compose Setup
 
 ### For this you only need 3 files.
 <!--ts-->
