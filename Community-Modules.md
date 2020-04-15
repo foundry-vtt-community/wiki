@@ -1,7 +1,7 @@
 <!--tl=2-->
 <!--ts-->
 
-Get Modules for Foundry VTT on the official site: https://foundryvtt.com/packages/
+Get Modules for Foundry VTT on the official site: [https://foundryvtt.com/packages/](https://foundryvtt.com/packages/)
 
 Module Writers: Please talk to Atropos on Discord for help in getting your module into the _System and Module Browser for One-Click Installation_.
 
