@@ -1527,7 +1527,6 @@ All the same functionality, just different color scheme. (Just changes CSS Styli
 
 ## Dynamic Effects
 
-** This module is obsolete and replaced with dynamic effects **
 * **Author**: @tposney discord
 * **Version**: 0.5.4
 * **Foundry VTT Compatibility**: 0.5.4 
@@ -1539,7 +1538,7 @@ All the same functionality, just different color scheme. (Just changes CSS Styli
 
 Dynamic effects is a replacement for dynamic items. It has been completely rewritten see New Features for changes
 
-*Dynamic effects lets you apply item based effects to your character or targeted tokens, adding/decreasing attack/damage bonuses, increasing/decreasing maximum hit points, changing alignment, in fact almost any field on the character sheet can be adjusted by dynamiceffects.
+* Dynamic effects lets you apply item based effects to your character or targeted tokens, adding/decreasing attack/damage bonuses, increasing/decreasing maximum hit points, changing alignment, in fact almost any field on the character sheet can be adjusted by dynamiceffects.
 * The module is not dnd5e dependent, although there is additional support for dnd5e.
 * All of the changes exist in game only, the saved version of the actor remains unchanged, with the excpetion that active effect modifiers are stored in a flag so they can be reapplied when the game reloads.
 * Effects are created/edited from the item sheet which has an additional tab, Effects.
@@ -1547,14 +1546,15 @@ Dynamic effects is a replacement for dynamic items. It has been completely rewri
 
 Please see the follow the link and see the readme for much more information
 
-** Link: ** [https://gitlab.com/tposney/dynamiceffects](https://gitlab.com/tposney/dynamiceffects)
-** Manifest ** (https://gitlab.com/tposney/dynamiceffects/raw/master/module.json)
+**Link:** [https://gitlab.com/tposney/dynamiceffects](https://gitlab.com/tposney/dynamiceffects)  
+**Manifest** (https://gitlab.com/tposney/dynamiceffects/raw/master/module.json)
 
 ---
 
 ## Dynamic Items
 
-** This module is obsolete and replaced with dynamic effects **
+**This module is obsolete and replaced with dynamic effects**  
+
 * **Author**: @tposney discord
 * **Version**: 0.0.45
 * **Foundry VTT Compatibility**: 0.4.4+ dnd 5e 0.80+. Requires 0.4.4+ and wont work with earlier versions.
