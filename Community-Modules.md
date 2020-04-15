@@ -23,6 +23,7 @@ The list below is an unofficial list of modules.
       * [Discord Rich Presence](#discord-rich-presence)
       * [Display Mode](#display-mode)
       * [Dungeondraft Import](#dungeondraft-import)
+      * [Dynamic Effects](#dynamic-effects)
       * [Easy Target](#easy-target)
       * [Enhanced Playlist](#enhanced-playlist)
       * [FFG Roller](#ffg-roller)
@@ -1524,15 +1525,43 @@ All the same functionality, just different color scheme. (Just changes CSS Styli
 
 ---
 
+## Dynamic Effects
+
+** This module is obsolete and replaced with dynamic effects **
+* **Author**: @tposney discord
+* **Version**: 0.5.4
+* **Foundry VTT Compatibility**: 0.5.4 
+* ** Does not require dnd5e but works much better for dnd than other system. 
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None that I know of
+* **Translation Support**: English.
+* **Translation Support**: Japanese. Kindly provided by @BrotherSharp
+
+Dynamic effects is a replacement for dynamic items. It has been completely rewritten see New Features for changes
+
+*Dynamic effects lets you apply item based effects to your character or targeted tokens, adding/decreasing attack/damage bonuses, increasing/decreasing maximum hit points, changing alignment, in fact almost any field on the character sheet can be adjusted by dynamiceffects.
+* The module is not dnd5e dependent, although there is additional support for dnd5e.
+* All of the changes exist in game only, the saved version of the actor remains unchanged, with the excpetion that active effect modifiers are stored in a flag so they can be reapplied when the game reloads.
+* Effects are created/edited from the item sheet which has an additional tab, Effects.
+* An effect is just an actor field specifier (i.e. Attributes HP Max) a mode +/= (add value or set value) and a value. A value can be any valid value for the field with some additional options.
+
+Please see the follow the link and see the readme for much more information
+
+** Link: ** [https://gitlab.com/tposney/dynamiceffects](https://gitlab.com/tposney/dynamiceffects)
+** Manifest ** (https://gitlab.com/tposney/dynamiceffects/raw/master/module.json)
+
+---
+
 ## Dynamic Items
 
+** This module is obsolete and replaced with dynamic effects **
 * **Author**: @tposney discord
 * **Version**: 0.0.45
 * **Foundry VTT Compatibility**: 0.4.4+ dnd 5e 0.80+. Requires 0.4.4+ and wont work with earlier versions.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None that I know of
 * **Translation Support**: English.
-* **Translation Support**: Japanese. Kingly provided by @BrotherSharp
+* **Translation Support**: Japanese. Kindly provided by @BrotherSharp
 
 ### Link(s) to Module
 * [https://gitlab.com/tposney/dynamicitems](https://gitlab.com/tposney/dynamicitems)
