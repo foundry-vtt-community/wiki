@@ -63,7 +63,7 @@ Before we get started, I need to introduce a basic concept: AWS regions.  All AW
 
 On the left hand toolbar, click on Instances.  You should see the following screen.
 
-![](https://github.com/foundry-vtt-community/wiki/blob/master/images/Getting%20Started/AWS%20Self%20Hosting/3-1.PNG)
+![](https://github.com/foundry-vtt-community/wiki/blob/master/images/Getting%20Started/AWS%20Self%20Hosting/3-1%20.PNG)
 
 Click on either of the Launch Instances button.  That'll take you to the page for selecting the AMI you want to launch.  AMIs are base templates for instances -- they provide the OS install and a preselected software package.  In this case, the Ubuntu 18.04 image will just come with Ubuntu and an assortment of must-have utilities.
 
