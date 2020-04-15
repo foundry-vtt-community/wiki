@@ -121,7 +121,7 @@ We need to set up a custom policy that locks down the user we set up for Foundry
 
 ![](https://github.com/foundry-vtt-community/wiki/blob/master/images/Getting%20Started/AWS%20Self%20Hosting/5-1.PNG)
 
-Click the JSON tab, delete the text already in the field, and paste in the following policy:
+Click the JSON tab, delete the text already in the field, and paste in the following policy.  Under Resource in the part of the statement with SID "VisualEditor0", put in your S3 bucket ARN that you copied down in the prior section.
 
     {
         "Version": "2012-10-17",
@@ -137,8 +137,8 @@ Click the JSON tab, delete the text already in the field, and paste in the follo
                     "s3:PutObjectAcl"
                 ],
                 "Resource": [
-                    "arn:aws:s3:::(my-bucket)/*",
-                    "arn:aws:s3:::(my-bucket)"
+                    "<Insert bucket ARN>/*",
+                    "<Insert bucket ARN>"
                 ]
             },
             {
