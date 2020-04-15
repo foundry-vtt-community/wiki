@@ -1,31 +1,30 @@
 <!--tl=2-->
 <!--ts-->
-
-Get Modules for Foundry VTT on the official site: [https://foundryvtt.com/packages/](https://foundryvtt.com/packages/)
-
-Module Writers: Please talk to Atropos on Discord for help in getting your module into the _System and Module Browser for One-Click Installation_.
-
-## Do not place your module on this page, this page is being deprecated.
-
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
+      * [About Time](#about-time)
       * [Actually Private Rolls](#actually-private-rolls)
       * [Always Show Notes](#always-show-notes)
+      * [Babele](#babele)
       * [BubbleRolls](#bubblerolls)
       * [Bullseye](#bullseye)
+      * [Calendar/Weather](#calendarweather)
       * [Chat Autoloader](#chat-autoloader)
       * [Chat Colors &amp; More](#chat-colors--more)
+      * [Combat Utility Belt (Beta)](#combat-utility-belt-beta)
       * [Create Actors from Folder](#create-actors-from-folder)
       * [Cursor Hider](#cursor-hider)
       * [Deselection](#deselection)
       * [Dice Calculator](#dice-calculator)
       * [Discord Rich Presence](#discord-rich-presence)
       * [Display Mode](#display-mode)
+      * [Dungeondraft Import](#dungeondraft-import)
       * [Easy Target](#easy-target)
       * [Enhanced Playlist](#enhanced-playlist)
       * [FFG Roller](#ffg-roller)
       * [Foundry Hot Seat Observer](#foundry-hot-seat-observer)
       * [Foundry Patrol](#foundry-patrol)
       * [Foundry Pin](#foundry-pin)
+      * [The Furnace](#the-furnace)
       * [FX Master](#fx-master)
       * [GM Notes](#gm-notes)
       * [GM Scene Background](#gm-scene-background)
@@ -37,16 +36,27 @@ Module Writers: Please talk to Atropos on Discord for help in getting your modul
       * [Less Fog](#less-fog)
       * [Simple Dice Roller](#simple-dice-roller)
       * [Special Dice Roller](#special-dice-roller)
+      * [Maestro](#maestro)
+      * [Merge Walls](#merge-walls)
       * [Modbox](#modbox)
+      * [Mother, May I?](#mother-may-i)
       * [No Token Animations](#no-token-animations)
+      * [Permission Viewer](#permission-viewer)
       * [Pings](#pings)
+      * [Playlist Import](#playlist-import)
+      * [Popout!](#popout)
       * [Pointer](#pointer)
       * [Roll Table Buttons](#roll-table-buttons)
+      * [Route-Finder](#route-finder)
+      * [Search Anywhere](#search-anywhere)
       * [Skycons](#skycons)
       * [Squeaker](#squeaker)
       * [SVG Loader](#svg-loader)
       * [Theatre Inserts](#theatre-inserts)
-      * [Torch](#torch) (currently broken)
+      * [Tiles Browser](#tiles-browser)
+      * [Token Mold](#token-mold)
+      * [Torch](#torch)
+      * [Trigger Happy](#trigger-happy)
       * [VTTA Iconizer](#vtta-iconizer)
       * [VTTA Tokenizer](#vtta-tokenizer)
       * [ZoomKey](#zoomkey)
@@ -68,15 +78,24 @@ Module Writers: Please talk to Atropos on Discord for help in getting your modul
       * [Favourite Item Tab](#favourite-item-tab)
       * [Group Roll](#group-roll)
       * [Item Sheet Buttons](#item-sheet-buttons)
+      * [Item Collection](#item-collection)
       * [Kobold Press OGL](#kobold-press-ogl)
+      * [Let Me Roll That For You! (LMRTFY)](#let-me-roll-that-for-you-lmrtfy)
+      * [Loot Sheet NPC 5E](#loot-sheet-npc-5e)
+      * [Magic Items](#magic-items)
       * [Max Crit Damage](#max-crit-damage)
+      * [Minor QOL Improvements](#minor-qol-improvements)
       * [MyBeyond-Theme](#mybeyond-theme)
       * [Obsidian Character Sheets](#obsidian-character-sheets)
       * [Pin Cushion](#pin-cushion)
+      * [Polyglot](#polyglot)
       * [Roll20 Converter](#roll20-converter)
       * [Request Roll](#request-roll)
+      * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
       * [Stat Drawer](#stat-drawer)
+      * [Token Info Icons](#token-info-icons)
       * [VTTA D&amp;D Beyond Integration](#vtta-dd-beyond-integration)
+      * [VTTA Party](#vtta-party)
    * [Foundry VTT Modules for GURPS](#foundry-vtt-modules-for-gurps)
       * [GURPSModule](#gurpsmodule)
    * [Foundry VTT Modules for WFRP 4E](#foundry-vtt-modules-for-wfrp-4e)
@@ -2424,3 +2443,37 @@ This Foundry VTT module lets you send tiles to the front or the back of the scen
 
 
 ---
+# Appendix
+
+## Appendix A: Adding a Module
+
+**Copy and paste the outline below in writing up new module descriptions, formatting and all!**
+```
+## (Module Name)
+
+* **Author**: (Put author’s name here, including Discord username. If they accept contributions in code or donations, note this here as well.)
+* **Version**: (Note current version of module here.)
+* **Foundry VTT Compatibility**: (Note which versions of Foundry Virtual Tabletop the module is compatible with.)
+* **System Compatibility (If applicable)**: (Note which systems of Foundry Virtual Tabletop the module is compatible with.)
+* **Module Requirement(s)**: (If the module requires other modules to function, note them here.)
+* **Module Conflicts**: (If the module conflicts with other modules, either partially or completely, note conflicts here.)
+* **Translation Support**: (Note which languages are supported, and if they have (full) or (partial) translations.
+
+### Link(s) to Module
+* (Put a web URL here to find the module.)
+* (Put the manifest url here to update/install the module.)
+
+### Description
+(Describe the module here. This should include the module’s function, installation instructions, and anything important to note. Due to the particular oddities of some archiving programs (WinRar, 7zip), and GitHub zip folders, including a screenshot of what the module should look like file-wise in the “public/modules/examplemodule” is appreciated, though not required.)
+
+---
+```
+
+## Appendix B: Best Editing Practices
+
+- Ideally, the term module should be used over mod, unless it is in the mod’s name or the author’s description. Mod can carry connotations from other games that might not exist in Foundry VTT, while modules in Foundry VTT can range from NPC compendiums, to worlds, to “enhancement suite” functions. They’re effectively the same thing, but it helps to emphasize how flexible Foundry Virtual Tabletop is. 
+- Links to modules should link to the author’s page for it, if such exists. This helps emphasize the module author’s control over their creation, and allows users to see information that the module author deems important. If you have the module author’s permission otherwise, or you are the creator, feel free to link directly to the module download link. 
+- Modules are sorted by system compatibility, then function, and then alphabetically. If a module is compatible with more than one system, but not “universally” in Foundry Virtual Tabletop, note compatibility in each system’s section. Otherwise, if a module is compatible universally, list it in the appropriate section for “universal modules”. 
+- Ensure that Foundry is noted as “Foundry VTT” or “Foundry Virtual Tabletop” in writing, unless it is the module title, or the module author desires otherwise in the description. This helps emphasize Foundry’s role as a unique, standalone tabletop, and helps distinguish it from other brands using the word “foundry”.   
+- Ideally, each module should be separated by a single line break. This is just to help it look neat. 
+- Modules should not be listed if they violate existing copyright law.  
