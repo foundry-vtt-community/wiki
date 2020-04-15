@@ -1547,7 +1547,7 @@ Dynamic effects is a replacement for dynamic items. It has been completely rewri
 Please see the follow the link and see the readme for much more information
 
 **Link:** [https://gitlab.com/tposney/dynamiceffects](https://gitlab.com/tposney/dynamiceffects)  
-**Manifest** (https://gitlab.com/tposney/dynamiceffects/raw/master/module.json)
+**Manifest** (https://gitlab.com/tposney/dynamiceffects/packages/raw/master/module.json)
 
 ---
 
