@@ -5,7 +5,7 @@ Get Modules for Foundry VTT on the official site: [https://foundryvtt.com/packag
 
 Module Writers: Please talk to Atropos on Discord for help in getting your module into the _System and Module Browser for One-Click Installation_.
 
-## Do not place your module on this page, this page will be deleted at some point in the future.
+## Do not place your module on this page, this page is being deprecated.
 
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
       * [Actually Private Rolls](#actually-private-rolls)
