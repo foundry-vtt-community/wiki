@@ -170,7 +170,23 @@ A typical SSH command to log into an EC2 instance at the command line looks like
 
 This should work in both a Linux or MacOS terminal, or in Microsoft Powershell on most modern installs of Windows 10.
 
-After you've set up Foundry, you'll want to go back to the Foundry S3 setup [here](https://foundryvtt.com/article/aws-s3/) and make the appropriate edits to the options.json file, and create a aws.json file with the appropriate access key and private key, as well as the region.  The keys are in the .csv file you made all the way back in IAM, part 1.  The region is the AWS-compliant name of the region your bucket is located in -- if you hit the Regions dropdown in the top right, it'll be in all lower case next to the friendlier name.
+After you've set up Foundry, you'll want to add in the information that Foundry needs to connect to S3.  First, you need to create a .json file to contain the access key ID and secret access key, as well as your preferred region.  You can place this anywhere you like, but for simplicity's sake, I like to put it alongside my options.json file, like so.
+
+    nano ~/.local/share/FoundryVTT/Config/s3.json
+
+The precise path will vary based on how you installed it.  The keys you need are in the .csv file you made all the way back in IAM, part 1.  The region is the AWS-compliant name of the region your bucket is located in -- if you hit the Regions dropdown in the top right, it'll be in all lower case next to the friendlier name.  Copy and paste the following into your s3.json file, replace the accessKeyId, secretAccessKey, and region with the appropriate selections:
+
+    {
+        "accessKeyId": "<your access key id>",
+        "secretAccessKey": "<your secret access key",
+        "region": "<your region>"
+    }
+
+Save the file, then go into the Configuration tab of the Foundry setup page.  Put the file path for the .json file into the AWS Configuration Path box, and hit Save Changes.  Note that is is from my personal setup -- yours may look different.
+
+<7-1>
+
+Once you've done that, you should be able to launch a game table and open the image browser.  You should see a tab for Amazon S3 that will let you choose objects uploaded to S3 as well as upload objects to S3.  Note that if you like organization, you cannot create folders or delete in S3 from this tab at this time -- you'll need to use the S3 console to create folders for organization, or remove media you no longer need.
 
 ## 8. Final Notes
 
