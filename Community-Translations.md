@@ -82,6 +82,21 @@ This module adds the option to translate in French (FRANCE) language Starfinder 
 Ce module traduit les clés (termes) exposés par le créateur pour ce system de jeu Starfinder. 
 Installation : Dans le menu des modules, cliquer sur install module" et dans le champs Manifest, copier le lien ci-dessus. Une fois votre Monde lancé, n'oubliez pas d'activer le module et de définir la langue Française pour ce monde.
 
+### Warhammer 4 Fantasy Roleplaying system [Author : MooMan]
+* **Authors**: LeRatierBretonnien + all translators (see README)
+* **Version**: 0.51
+* **Foundry VTT Compatibility**: 0.5+
+
+#### Link(s) to Translation
+* Gitlab : [https://gitlab.com/LeRatierBretonnien/foundryvtt-wh4-lang-fr-fr](https://gitlab.com/LeRatierBretonnien/foundryvtt-wh4-lang-fr-fr)
+* Manifest : [https://gitlab.com/LeRatierBretonnien/foundryvtt-wh4-lang-fr-fr/-/raw/master/module.json](https://gitlab.com/LeRatierBretonnien/foundryvtt-wh4-lang-fr-fr/-/raw/master/module.json)
+
+#### Description
+This module adds the option to translate in French (FRANCE) language Warhammer 4 FRP system. 
+
+Ce module traduit les clés (termes) et compendiums exposés par le créateur pour le system de jeu Warhammer v4. 
+Installation : Dans le menu des modules, cliquer sur install module" et dans le champs Manifest, copier le lien ci-dessus. Une fois votre Monde lancé, n'oubliez pas d'activer le module et de définir la langue Française pour ce monde.
+
 ---
 
 ## German
