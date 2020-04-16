@@ -1,10 +1,5 @@
 <!--tl=2-->
 <!--ts-->
-Get Modules for Foundry VTT on the official site:
-[https://foundryvtt.com/packages/](https://foundryvtt.com/packages/)
-
-The list below is an unofficial list of modules.
-
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
       * [About Time](#about-time)
       * [Actually Private Rolls](#actually-private-rolls)
@@ -23,7 +18,6 @@ The list below is an unofficial list of modules.
       * [Discord Rich Presence](#discord-rich-presence)
       * [Display Mode](#display-mode)
       * [Dungeondraft Import](#dungeondraft-import)
-      * [Dynamic Effects](#dynamic-effects)
       * [Easy Target](#easy-target)
       * [Enhanced Playlist](#enhanced-playlist)
       * [FFG Roller](#ffg-roller)
@@ -78,6 +72,7 @@ The list below is an unofficial list of modules.
       * [Critical Fumble](#critical-fumble)
       * [D&amp;D 5e Conditions](#dd-5e-conditions)
       * [D&amp;D5e Dark Mode](#dd5e-dark-mode)
+      * [Dynamic Effects](#dynamic-effects)
       * [Dynamic Items](#dynamic-items)
       * [E-Z Roller](#e-z-roller)
       * [Encounter Builder](#encounter-builder)
