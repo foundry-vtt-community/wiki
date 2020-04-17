@@ -47,7 +47,7 @@ Use this if you have a lot of attributes and you want to automatically populate 
     
       
 
-This establishes an ordered list, then calls the {{#each}} helper. The each helper iterates everything in a list of objects from our data and does something for every object that list contains. So in this case, for every item in our attributes object {data.attributes} it creates a list item `<li>` that contains a `<span>` and the {{label}} of that attribute, and then creates an <input> text box for that attribute that is linked to the JSON data.
+This establishes an ordered list, then calls the {{#each}} helper. The each helper iterates everything in a list of objects from our data and does something for every object that list contains. So in this case, for every item in our attributes object {data.attributes} it creates a list item `<li>` that contains a `<span>` and the {{label}} of that attribute, and then creates an `<input>` text box for that attribute that is linked to the JSON data.
 
   
 
@@ -114,7 +114,7 @@ NOTE: If you change your template.json you need to restart Foundry to see the ch
 
 Then in your HTML:
 
-    <input  type="checkbox"  name="data.attributes.strength.proficient"  {{checked  actor.data.strength.proficient}}>
+`    <input  type="checkbox"  name="data.attributes.strength.proficient"  {{checked  actor.data.strength.proficient}}>`
 
   
 
