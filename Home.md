@@ -46,7 +46,7 @@
 
 ### [Part 4: Bureaucracy](System-Development-Part-4-Bureaucracy)
 
-### [Part 5: Wandering in #000000](System-Development-Part-5-Wandering-in-#000000)
+### [Part 5: Wandering in #000000](System-Development-Part-5-Wandering-in-%23000000)
 
 ### [Part 6: (optional) Derivation is not a 5e Magic School](System-Development-Part-6-(optional)-Derivation-is-not-a-5e-Magic-School)
 
