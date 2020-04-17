@@ -19,12 +19,11 @@ What follows is the monotonous part where we enter data into our template.json f
 
 Remember back in part 3c when I had you delete the line from your template.json that read: 
 
-> 
-> ,
-> 
-> "attributes": {}
-> 
-> }
+    ,
+    
+    "attributes": {}
+    
+    }
 
   
 
