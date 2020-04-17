@@ -4,6 +4,8 @@ Table of Contents
 
    * [<a href="What-is-Foundry-VTT">What is Foundry VTT</a>](#what-is-foundry-vtt)
    * [<a href="FAQ">FAQ</a>](#faq)
+   * [<a href="Tutorials">Tutorials</a>](#tutorials)
+      * [<a href="System-Development-for-Beginners">System Development for Beginners</a>](#system-development-for-beginners)
    * [<a href="Getting-Started">Getting Started</a>](#getting-started)
       * [<a href="Update-Notes">Update Notes</a>](#update-notes)
       * [<a href="Downloading-Foundry-VTT">Downloading Foundry VTT</a>](#downloading-foundry-vtt)
