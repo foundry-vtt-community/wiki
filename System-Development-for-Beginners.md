@@ -16,7 +16,7 @@ This guide is a highly condensed form of a much bigger and more detailed guide s
 4.  Get you to a point where you can use HTML and CSS skills to make your sheet look how you want
     
 
-##### Chapters
+### Chapters
 * [<a href="System-Development-Part-1-I-Made-This">System Development Part 1: I Made This</a>](system-development-part-1:-i-made-this)
 * [<a href="System-Development-Part-2-Whirlwind-Tour">System Development Part 2: Whirlwind Tour</a>](#system-development-part-2-whirlwind-tour)
 * [<a href="System-Development-Part-3-Breaking-Everything">System Development Part 3: Breaking Everything</a>](#system-development-part-3-breaking-everything)
