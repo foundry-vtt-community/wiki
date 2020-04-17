@@ -814,8 +814,8 @@ Simple module that allows for quick rolling of common dice.
 ## Special Dice Roller
 
 * **Author**: putty#0555 on Discord.
-* **Version**: 0.6.0
-* **Foundry VTT Compatibility**: 0.4.3+
+* **Version**: 0.8.0
+* **Foundry VTT Compatibility**: 0.5.5+
 * **System Compatibility (If applicable)**: Universal.
 * **Module Requirement(s)**: None
 * **Module Conflicts**: None
