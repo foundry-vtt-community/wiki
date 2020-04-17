@@ -169,45 +169,48 @@ It also requires a place to store the information.
   
 
     In template.json:
-    
+
     "character": {
-    
-    "race": {
-    
-    "value": "",
-    
-    "label": "Race"
-    
+
+        "race": {
+
+            "value": "",
+
+            "label": "Race"
+
+        }
+
+        "biography": "",
+
+        "races": {
+
+            "dwarf": {
+
+                "label": "Dwarf",
+
+                "dtype": "String"
+
+            },
+
+            "elf": {
+
+                "label": "Elf",
+
+                "dtype": "String"
+
+            },
+
+            "gnome": {
+
+                "label": "Gnome",
+
+                "dtype": "String"
+
+            }
+        }
     }
     
-    "biography": "",
-    
-    "races": {
-    
-    "dwarf": {
-    
-    "label": "Dwarf",
-    
-    "dtype": "String"
-    
-    },
-    
-    "elf": {
-    
-    "label": "Elf",
-    
-    "dtype": "String"
-    
-    },
-    
-    "gnome": {
-    
-    "label": "Gnome",
-    
-    "dtype": "String"
-    
-    }  
-    }
+
     
       
 
