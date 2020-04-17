@@ -17,12 +17,12 @@ This guide is a highly condensed form of a much bigger and more detailed guide s
     
 
 ### Chapters
-* [Part 1: I Made This](System-Development-Part-1-I-Made-This)
-* [Part 2: Whirlwind Tour](System-Development-Part-2-Whirlwind-Tour)
-* [Part 3: Breaking Everything](System-Development-Part-3-Breaking-Everything)
-* [Part 4: Bureaucracy](System-Development-Part-4-Bureaucracy)
-* [Part 5: Wandering in 000000](System-Development-Part-5-Wandering-in-000000)
-* [Part 6: (optional) Derivation is not a 5e Magic School](System-Development-Part-6-(optional)-Derivation-is-not-a-5e-Magic-School)
+* [Part 1: I Made This](https://github.com/foundry-vtt-community/wiki/wiki/System-Development-Part-1-I-Made-This)
+* [Part 2: Whirlwind Tour](https://github.com/foundry-vtt-community/wiki/wiki/System-Development-Part-2-Whirlwind-Tour)
+* [Part 3: Breaking Everything](https://github.com/foundry-vtt-community/wiki/wiki/System-Development-Part-3-Breaking-Everything)
+* [Part 4: Bureaucracy](https://github.com/foundry-vtt-community/wiki/wiki/System-Development-Part-4-Bureaucracy)
+* [Part 5: Wandering in 000000](https://github.com/foundry-vtt-community/wiki/wiki/System-Development-Part-5-Wandering-in-000000)
+* [Part 6: (optional) Derivation is not a 5e Magic School](https://github.com/foundry-vtt-community/wiki/wiki/System-Development-Part-6-(optional)-Derivation-is-not-a-5e-Magic-School)
 
 
 This guide is designed for people who have at least rudimentary knowledge of HTML and CSS, and are sufficiently capable of reading a piece of Javascript to make an educated guess what it does. Engaging with a coding language may be scary, but Javascript is reasonably friendly to new users.
