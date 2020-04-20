@@ -294,7 +294,7 @@ This is a direct way to play audio.
 ```js
 AudioHelper.play({src: "audio/SFX/Fire arrow.mp3", volume: 0.8, autoplay: true, loop: false}, true);
 ```
-There is a way to play from a playlist which I will add once I figured out what I or it is doing wrong but it's supposed to go along the lines of:
+There is a way to play from a playlist which I will add once I have figured out what I, or it is doing wrong but it's supposed to go along the lines of:
 ```js
 const playlist = game.playlists.entities.find(p => p.name === "SFX");
 const sound = playlist.sounds.find(s => s.name === "chest open");
