@@ -150,3 +150,4 @@ Hooks.on("canvasPan", (canvas, options) => {
 });
 
 ```
+But maybe you should just make a macro and put it on hotbar
