@@ -2,7 +2,7 @@ Code snippets seen on the discord channel, make sure to backup before trying the
 
 ## Bulk Update Tokens
 This example updates all tokens in game so that:
-* 
+
 * they have `attributes.hp` as a first bar.
 * Bars are displayed to owner only
 * Names are displayed to owner only on hover.
