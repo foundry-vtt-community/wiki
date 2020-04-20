@@ -3,7 +3,7 @@
 ![](https://lh6.googleusercontent.com/1UfbCbWz54rZXds2llYZn0ebmut4mSwjCdqwpkHoJf4LIex2pdeE1Ao24vR1z9S4O3n7-uatgsmN5oBKaQZrdt9qnKH5rCYICBYpew1abnkZn52H4EPZRkcN4XBE6Uhhsex-gKp4)
 
 # FLAGGED FOR REVIEW
-this entry has been flagged for review. Due to some changes in Simple Worldbuilding System's structure (it now has an Actor Class) some of this may not be accurate (particularly the portion about SWS not having an actor class. 
+this entry has been flagged for review. Due to some changes in Simple Worldbuilding System's structure (it now has an Actor Class) some of this may not be accurate (particularly the portion about SWS not having an actor class.)
 
 # Optional  
 
