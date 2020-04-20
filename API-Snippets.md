@@ -1,7 +1,7 @@
 Code snippets seen on the discord channel, make sure to backup before trying these:
 
 ## Bulk Update Tokens
-This example updates all tokens in game so that:
+This example updates all tokens in game.
 
 ```js
 // Update all tokens in game:
