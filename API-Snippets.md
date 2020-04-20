@@ -136,3 +136,9 @@ This example scales walls by a factor of 2. Origin of the scaling will be topmos
     }    
 })();
 ```
+
+## Scaling ruler labels
+When zoomed out ruler labels become almost not visible. But they can be scaled
+```js
+canvas.controls.getRulerForUser(game.userId).labels.children.map(c=>c.transform.scale.set(4))
+```
