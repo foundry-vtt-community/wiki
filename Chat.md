@@ -8,9 +8,7 @@
 * Whispers : `@PlayerName`, `@CharacterName`, `@[Player Name]`, or `@[Character Name]`
 
 # Available markup in chat :
-* Inline dice rolling :
-  * "Simple" with visible roll result in message: `For this, I roll [[1d20]] mid-chat!`, `[[2d20kh]]` (kh = "keep high"), etc.
-  * Deferred with a placeholder that will show roll result when clicked: `Make either dexterity based roll [[/roll 1d20 + @abilities.dex.mod ]] or str based roll [[/roll 1d20 + @abilities.str.mod ]]`
+* Inline dice rolling: `For this, I roll [[1d20]] mid-chat!`, `[[2d20kh]]` (kh = "keep high"), etc.
 * Entry/Object links:
   * Scene : `Check out @Scene[Old Road Ambush].`
   * Actor : `Is it a @Actor[Kobold]?`
@@ -25,3 +23,10 @@
 Note entry/object links are case-sensitive!  Both the type ("JournalEntry", not "journalEntry") and the object's name ("Abacus", not "abacus").  You can also drag-and-drop objects to some places to create links.
 
 In the case of Actor, Item, and other references of the `@<type>[<name>]` style, a reference is created to a specific object's ID.  If that object is later deleted, even if a new one with the same name is made, the existing link won't refer to the new object.  Also note that if multiple choices for a given name exist, the "first" one will be picked.  If that "first" one happens to be one that a player can't see due to permissions, then even if there's a "second" one the player can see, clicking the reference link will give them a permissions error.
+
+# Rolling dice
+
+General information can be found in [Knowledge Base](https://foundryvtt.com/article/dice/), but not all features are described there:
+* Some functions of JS builtin object [Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) are supported in rolls. Example `[[ 1d6 + round(7/2) ]]`
+* Inline rolls can be deferred by adding slash-command after opening brackets. Example: `Make either dexterity based roll [[/roll 1d20 + @abilities.dex.mod ]] or str based roll [[/roll 1d20 + @abilities.str.mod ]]`
+* Explode with "operator" does not really need a number after operator and maximum die value is used in that case. Example: `/roll 1d4x=` will explode on 4.
