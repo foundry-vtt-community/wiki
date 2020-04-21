@@ -1,5 +1,5 @@
 # Available commands in chat : 
-* Making a roll : `/r` or `/roll`
+* Making a roll : `/r` or `/roll`. You can add a dash with custom text to use it as roll's flavor: `/roll 1d20+4+2 # Viciously attack that goblin`
 * Making a roll to the GM only : `/gmr` or `/gmroll`
 * Making a blind roll to the GM : `/br` or `/blindroll`
 * In Character chat (triggers a chat bubble) : `/ic`
@@ -8,7 +8,9 @@
 * Whispers : `@PlayerName`, `@CharacterName`, `@[Player Name]`, or `@[Character Name]`
 
 # Available markup in chat :
-* Dice rolling : `For this, I roll [[1d20]] mid-chat!`, `[[2d20kh]]` (kh = "keep high"), etc.
+* Inline dice rolling :
+  * "Simple" with visible roll result in message: `For this, I roll [[1d20]] mid-chat!`, `[[2d20kh]]` (kh = "keep high"), etc.
+  * Deferred with a placeholder that will show roll result when clicked: `Make either dexterity based roll [[/roll 1d20 + @abilities.dex.mod ]] or str based roll [[/roll 1d20 + @abilities.str.mod ]]`
 * Entry/Object links:
   * Scene : `Check out @Scene[Old Road Ambush].`
   * Actor : `Is it a @Actor[Kobold]?`

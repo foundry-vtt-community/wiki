@@ -26,6 +26,7 @@ This HTML tag is the most basic way to accept input and have it stored in the da
 
 ## 5b. Create input boxes for all attributes, programmatically using a {{Handlebars}} helper
 Use this if you have a lot of attributes and you want to automatically populate them with input boxes. Slightly more difficult.
+
     <ol  class="attributes-list">
     
     {{#each actor.data.attributes as |attrib key|}}

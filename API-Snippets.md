@@ -1,14 +1,25 @@
 Code snippets seen on the discord channel, make sure to backup before trying these:
 
 ## Bulk Update Tokens
+This example updates all tokens in game.
+
 ```js
+// Update all tokens in game:
 for ( let a of game.actors.entities ) {
     let token = duplicate(a.data.token);
+
+    // Update name and image of token to match name of actor
     token.name = a.data.name;
     token.img = a.data.img;
+
+    // Set first bar to show HP (systems: dnd5, pf)
     token.bar1 = {attribute: "attributes.hp"};
+
+    // Display bars and names to owner only (names on hover)
     token.displayBars = CONST.TOKEN_DISPLAY_MODES.OWNER;
     token.displayName = CONST.TOKEN_DISPLAY_MODES.OWNER_HOVER;
+    
+    // Actually update game database
     await a.update({token: token});
 }
 ```
@@ -30,22 +41,30 @@ for ( let e of entries ) {
 }
 ```
 
-## Update Wall Movement Type
+## Bulk update walls on scene
+
+In both examples here approaches to modify walls data are equivalent:
+* one duplicates all the walls in advance
+* another duplicates each wall individually during iteration.
+
+Second approach might be preferred when on some conditions update is not needed, but otherwise there should be no difference
+
+### Change movement type of walls to "normal":
 ```js
  const scene = canvas.scene;
  let updatedWalls = duplicate(scene.data.walls).map(w => {
-   w.move = WALL_MOVEMENT_TYPES.NORMAL;
+   w.move = WALL_MOVEMENT_TYPES.NORMAL;  // Another option is WALL_MOVEMENT_TYPES.NONE
    return w;
  }
  scene.update({walls: updatedWalls});
 ```
 
-## Move Walls by 26px
+### Move Walls by 26px on X-axis
 ```js
  let walls = canvas.scene.data.walls.map(w => {
    w = duplicate(w);
-   w.c[0] += 26;
-   w.c[2] += 26;
+   w.c[0] += 26;  // Move start point
+   w.c[2] += 26;  // Move end point
    return w;
  });
  canvas.scene.update({walls: walls});
@@ -68,15 +87,18 @@ for ( let a of actors ) {
 }
 ```
 
-## (Untested) Map and Wall Scaling
+## Map and Wall Scaling
+This example scales walls by a factor of 2. Origin of the scaling will be topmost left corner of a scene, so walls in the center of scene will move closer to bottom-right corner, and walls in that corner may be moved beyond the limits of the scene.
 ```js
  let scale = 2;
  canvas.scene.update({
    walls: canvas.scene.data.walls.map(w => {
      w.c = w.c.map(x => x * scale);
      return w;
-   });
+   })
  });
+ // Redraw canvas to see the changes:
+ canvas.draw(); 
 ```
 
 ## Copy Items from a Folder into a Compendium
@@ -113,4 +135,19 @@ for ( let a of actors ) {
       await pack.importEntity(s);
     }    
 })();
+```
+
+## Scaling ruler labels
+When zoomed out ruler labels become almost not visible. They can be scaled by processing pan hook calls, but maybe you should just make a macro and put it on hotbar
+```js
+// This is not very good example because you need to zoom while ruler is visible (e.g. use ruller with Ctrl pressed)
+Hooks.on("canvasPan", (canvas, options) => {
+  let labelScale = 1;
+  if (options.scale < 1) {
+    labelScale = 1/options.scale;
+  };
+  canvas.controls.getRulerForUser(game.userId).labels.children.map(c=>c.transform.scale.set(labelScale));
+  // if you are scaling from simple macro then you can set scale to (1/canvas.stage.scale._x)
+});
+
 ```
