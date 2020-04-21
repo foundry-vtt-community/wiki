@@ -27,6 +27,9 @@ In the case of Actor, Item, and other references of the `@<type>[<name>]` style,
 # Rolling dice
 
 General information can be found in [Knowledge Base](https://foundryvtt.com/article/dice/), but not all features are described there:
+
 * Some functions of JS builtin object [Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) are supported in rolls. Example `[[ 1d6 + round(7/2) ]]`
+
 * Inline rolls can be deferred by adding slash-command after opening brackets. Deferred rolls must be clicked in chat to show the result. Example: `Make either dexterity based roll [[/roll 1d20 + @abilities.dex.mod ]] or str based roll [[/roll 1d20 + @abilities.str.mod ]]`
+
 * Explode with "operator" does not really need a number after operator and maximum die value is used in that case. Example: `/roll 1d4x=` will explode on 4.
