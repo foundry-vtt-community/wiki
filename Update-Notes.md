@@ -1,6 +1,10 @@
 <!--tl=2-->
 <!--ts-->
    * [Beta Version 0.5.X](#beta-version-05x)
+      * [Beta Version 0.5.5, 2020-04-17](#beta-version-055-2020-04-17)
+      * [Beta Version 0.5.4, 2020-04-12](#beta-version-054-2020-04-12)
+      * [Beta Version 0.5.3, 2020-03-30](#beta-version-053-2020-03-30)
+      * [Beta Version 0.5.2, 2020-03-25](#beta-version-052-2020-03-25)
       * [Beta Version 0.5.1, 2020-03-07](#beta-version-051-2020-03-07)
       * [Beta Version 0.5.0, 2020-03-01](#beta-version-050-2020-03-01)
    * [Beta Version 0.4.X](#beta-version-04x)
@@ -26,6 +30,367 @@
 <!--te-->
 
 # Beta Version 0.5.X
+
+## Beta Version 0.5.5, 2020-04-17
+
+Hi everyone, I'm extremely excited to celebrate a major milestone for Foundry Virtual Tabletop with **Beta 0.5.5** and the launch of software license purchasing on the official website. This is an odd-numbered "stable" release for all Patreon supporters and for all users who pre-purchase a license from the website. There are relatively few changes in this update, the most significant of which is the addition of the new **license verification process** which applies to non-Patreon customers and will (eventually) apply to everyone.
+
+Along with this release pre-purchasing is now available on the website! You'll be hearing more details about that in a companion post coming shortly. If you haven't yet gotten a chance, please check out the [Release Announcement Video](https://www.youtube.com/watch?v=9RlXQCi9TQI) which was posted recently.
+
+For those of you who did not update to version 0.5.4, this update includes a ton of major new features from that update version. Be sure to see the [Beta 0.5.4 Update Notes](https://foundryvtt.com/releases/0.5.4) for all the details on those changes.
+
+### New Features
+
+- Implemented a new workflow for software license key application and activation as a first step in the VTT user experience. When launching Foundry for the first time (or if you do not have a license applied) you will be prompted to enter a software license key. For users who have temporary access to the Foundry Beta through Patreon, you should use the access key provided through Patreon. For users who have purchased a software license from the website, use the license key which is available on the Purchased Licenses subsection of your user profile.
+- Improve the tag designation for packages which do not state a compatible core version which is equal or greater than the core VTT version to be displayed as "Compatibility Risk" rather than "Requires Update".
+- Provide a human-readable error message when the user tries to download a file and save it to a location where they do not have write permissions.
+- In response to user feedback, redefined keyboard control for canvas zooming to use either NumpadPlus/NumpadMinus or PageUp/PageDown with no modifier key required.
+
+### Bug Fixes
+
+- Fixed an issue with World-level settings with the String datatype where the string was not appropriately serialized and unserialized when stored to the server, resulting in JSON parsing errors after a reload.
+- Downloaded files could occasionally produce an "End of Central Directory Signature" error if the file was immediately unzipped after download but before the downloaded file was properly closed.
+- Pre-existing Modules and Systems were failing to detect available updates due to incorrect server side logic which checked for updates to the package.
+- Fixed an issue which could cause the Module Management form to not be properly saved due to incorrect JSON formatting of the saved setting value.
+- Image decoding in the new TextureLoader was not working properly for Images which were very large. The asynchronous loading process for loaded image textures has been changed to work better for such image files.
+- Fixed an issue which caused the new sight rendering computation to fail for tokens which had a limited angle of vision or light source emission.
+- Scene entity deletions were not properly cascading server-side to also delete related entities like Combat Encounters, Fog Exploration, or saved thumbnail images.
+- Socket handshakes were incorrectly rejected by Electron when using SSL certificates because they came from the WebSocket wss:// protocol instead of https://.
+- Beginning an Item Compendium drag operation should be allowed so that players can populate their own character sheets. It is currently requiring the ITEM_CREATE permission which should not be needed.
+- An excessive line-height created a bad appearance for RollTable results whose text wrapped onto multiple displayed lines.
+- Modules were not properly showing Localization tags if they included a languages entry in their module manifest.
+- Sharing a popout image with other players fails on the receiving clients if a companion Entity object is not defined. This should not be the case and has been corrected.
+
+### Framework and API Changes
+
+- Improve the way that search filtering is performed in the FilePicker, Package Installation, and Compendium applications to reduce the risk of duplicate filtering or searching effort.
+- Improve the ability to cancel the movement animation of a Token with a `Token.stopAnimation` function so that it can be properly terminated when the Token is deleted or when the Tokens layer is deconstructed.
+
+### Documentation Improvements
+
+- Added a new Installation Guide: [https://foundryvtt.com/article/installation/](https://foundryvtt.com/article/installation/)
+- Added a Knowledge Base page on Macro Commands: [https://foundryvtt.com/article/macros/](https://foundryvtt.com/article/macros/)
+
+### Known Issues
+
+- If there are enough Scenes displayed in the Navigation Bar that it wraps to a 2nd (or more) line, those subsequent rows of Scenes will overlap the position of the loading bar which displays load progress.
+
+## Beta Version 0.5.4, 2020-04-12
+
+Hi everyone I'm thrilled to release Foundry Virtual Tabletop **Beta 0.5.4** which is a major update that is an even-numbered "unstable" release for Council-tier Patreon supporters. The changes in this update are quite broad and do a huge amount of work to get Foundry Virtual Tabletop ready for release which has been announced for Friday, May 22! If you haven't yet gotten a chance, please check out the [Release Announcement Video](https://www.youtube.com/watch?v=9RlXQCi9TQI) which was posted last week.
+
+This update includes a ton of major new features including: an expanded Application Update system, the addition of an integrated Systems and Modules Browser, improved Canvas Keyboard controls, more robust player management, a Drawing Text tool, and a large number of performance and stability improvements. This update sets a new record for the **largest Foundry Virtual Tabletop update ever**, clocking in with an enormous 111 closed issues on GitLab.
+
+Thank you all so very much for supporting my project and relying on Foundry Virtual Tabletop to bring us all together amidst health concerns and difficult times of social distancing. Please stay healthy, care for each other, and stay up to date on progress by following the project roadmap on GitLab: [https://gitlab.com/foundrynet/foundryvtt/boards](https://gitlab.com/foundrynet/foundryvtt/boards).
+
+### New Features
+
+- Added a major new feature, the **Systems and Modules Browser** which allows you to easily discover and install with a single click many game systems or add-on modules from the setup menu. Click "Install System" to browse available systems or "Install Module" on the Modules tab to browse add-on Modules. Systems and Modules will appear in this list if they are featured on the Package Directory page of the official Foundry VTT website. Instructions for having your module or system featured on that page are available in Discord. Users may still install any System or Module directly using its JSON manifest URL even if it does not appear in the browser, and packages may still be manually installed by unzipping their contents into the appropriate folder of your user data.
+- Allow the installation of Systems or Modules where the Foundry core version exceeds the stated `compatibleCoreVersion` of the package, but display a warning to the user that some features may not be supported. Previously such packages would be refused entirely, which was often unnecessarily strict.
+- Implemented the internal updater strategy that will be used at software release. All software updates are classified into one of three channels: "Alpha (Unstable)" which reflects new features under development and may be relatively unstable, "Beta (Candidate)" which reflects sets of changes which are nearly ready for release but are not yet fully polished, and "Release (Stable)" which includes only changes which have been through earlier phases of testing and are viewed as stable. Select your desired update channel when requesting an update.
+- Implemented an authenticated software update procedure where, when attempting a core software update, you will request access to the update from a centralized server which validates your software license and provides you with a limited time access token to download the update. You do not have to have a license yet to update the software - in the near term Patreon access codes will still be used.
+- Improve (slightly) the smoothness of keyboard movement by adjusting the throttle timing and set
+- Added `C` as a keyboard shortcut to toggle the character sheet of the currently targeted Token or primary Character.
+- Provided a Game Master only method to kick an idle player from the game session, returning them to the login screen. Access this feature by right clicking a User in the bottom-left Players menu.
+- Provided a Game Master only method to ban an unwelcome player from the World, revoking their user role and booting them to the login screen (where they will be denied access). Access this feature by right clicking a User in the bottom-left Players menu.
+- Players with an assigned role of NONE are no longer able to log into the world.
+- Improved the capabilities and permissions of the ASSISTANT role to more effectively be able to assist the primary Game Master by creating, editing, and deleting Entities within the World.
+- Provide server administrator users with a safe method of deleting a World from within the application. In the Setup menu, you may delete a world after first completing a confirmation dialog which verifies your intent. Be cautious when using this feature - data from deleted worlds cannot be recovered (unless you have backed it up yourself).
+- Added a method of panning and zooming the canvas using the keyboard. Holding CTRL (or CMD on MacOS) plus directional arrow keys will pan the canvas in the corresponding direction while CTRL/CMD plus Equals (=) will zoom in and CTRL/CMD plus Minus (-) will zoom out.
+- Added a new Drawing Text tool which allows easily creating and placing text labels directly on a Scene. The Text tool is in the Drawing Tools control palette. While placing a text label, simply type and update the label in real time. Press ENTER to confirm your text, or ESCAPE to discard it.
+- Text in Drawings will now rotate to remain aligned with the rotation of the drawing itself.
+- Improve Drawing creation workflow by automatically assuming control over a created Drawing after it has been created.
+- Added a rectangular select tool for the Walls Layer which allows you to easily select multiple walls within a rectangular area. Walls will be selected if their midpoint falls within the selection rectangle.
+- Significantly reduced the amount of computation needed when modifying Walls on the Walls Layer. Previously each wall update was doing a lot of work to recompute all the vision settings for all light sources and Tokens on the scene - but this was largely wasteful and made the experience of editing walls on the map unnecessarily slow. Now those computations are deferred until the Walls Layer is deactivated which greatly improves the fluidity of wall creation.
+- Optimize the number of fog exploration events which must occur before the pending exploration progress is committed to a rendered texture.
+- Added a toggle control in the Walls Layer which will force exact snapping to grid intersections while it is toggled on. When "Force Snap to Grid" is enabled, wall endpoints will only be placed exactly at (square) grid intersections. With this mode toggled off, wall endpoints will continue snapping at sub-grid precision.
+- Improved the user experience with the new Grid Configuration tool by better supporting manual numpad entry of values and automatically minimizing the main Scene Config sheet when the Grid Config is activated.
+- Enlarged the displayed size of walls on the Walls Layer for large dimension grids (>100px) to be more prominently visible and easy to edit. This makes the experience of working with walls for high-resolution maps more consistent with what is the "intended" experience at 100px grid.
+- Added support for the TinyMCE Link plugin in the rich text editor toolbar, making it easier to customize links to external URLs or content.
+- In the Windows Electron application, added some Jump Menu (right click on the taskbar) links which conveniently open the User Data location or the Application Installation location in your windows explorer. This enhancement will only be available if you install a fresh copy of Foundry VTT using version 0.5.4 or later as Electron does not get updated when using the internal software update.
+- Added a new option in the context menu of each Scene in the sidebar to regenerate its thumbnail image on demand if, for any reason, a Scene fails to have a thumbnail generated properly the first time.
+- Added support for .m4v video files as an allowed and supported video format. Note that for m4v videos to work your web browser must natively support this file format.
+- Implemented a brand new TextureLoader which fully replaces the built-in PIXI.Loader to load image and video assets and prepare them for use on the game canvas. The new custom loader demonstrates noticeable performance improvements over the PIXI loader, as well as better supporting a wider variety of media formats (like .m4v video and better .svg support). The new texture loader also removes the requirement that only one Scene can be loading at any given time - eliminating errors when trying to switch to a second Scene before the first finished loading.
+- Added a loading bar just beneath the Scene navigation bar which displays the progress of asset loading when switching to a new Scene.
+- Added a command-line flag when starting the server `--noupdate` which can disable the core software update functionality. This could be useful in hosted or managed environments where you do not wish to permit a software update without handling other related work.
+- Improved the way that AWS credentials are loaded for integrating with S3 File Storage. Previously credentials had to be loaded from a JSON file, the path to which was specified in the options.json file. Now the awsConfig setting may be optionally set to `true` which will, instead of using a JSON configuration file, attempt to load AWS credentials from Environment Variables or user-level AWS configurations, or IAM roles.
+- Improved the Macro configuration sheet by allowing it to be resizable to adjust the amount of space allowed for typing chat or script macros.
+- Changed the behavior of dynamic entity links to Macro entities. These links will now execute the linked macro when clicked (if the clicking User has permission to do so) instead of opening the Macro sheet.
+- Added an "Execute" button to the Macro Configuration sheet which allows for quickly executing a Macro while editing it.
+- Add a new configurable User Permission which can allow players to create Journal Entries for themselves without needing to request that the Game Master create journal entries on their behalf. This can make it much easier for players to take notes during the session within the convenience of the Foundry application.
+- Reworked the Module Management application to allow all Players to view the list of Modules which are currently active and enabled within the game world. Modules which are installed, but not activated, will not be shown in this list. I felt it was important for the set of modules which are active to be transparent and shared knowledge for all Users. I realize that some GameMasters would probably prefer to keep their list of modules a secret - but this was a carefully reasoned decision that I hope you will understand.
+- Display a prominent error message regarding hardware acceleration and WebGL which does not disappear until the user clicks on it to acknowledge the message.
+- Display a prominent error message which cautions the user if they are using a screen resolution which is smaller than the supported minimum of 1366px by 768px.
+- Improved the behavior of user click detection in the Combat Tracker to make it easier to hover and click upon Combatants and have their tokens be highlighted (on hover) or controlled (on click).
+- Users will now be clearly informed of their error when attempting to install a package (system or module) of the incorrect type.
+- Improved the rendering performance of multi-token movements by ensuring that all sight updates are deferred until a single operation for the set of all updates.
+- Implemented significant performance improvements for sight updates when opening or closing doors by reducing the amount of re-computation required in the Walls layer.
+- When a new file is uploaded in the file picker, the UI will automatically select that asset as the active choice, reducing the need to find your uploaded file afterwards.
+- Reduce the dimensions of the Setup and Configuration app slightly to get it closer to 680px height which will work better for players on the (minimum supported) resolution of 768px height.
+- Changes to Entity permission levels will now immediately revoke (or enable) the editable state of an open sheet associated with that Entity.
+- Added a large number of translation strings to the English localization dictionary.
+
+### Bug Fixes
+
+- The Combat Tracker header would incorrectly state "No active encounter" if no Combatants had been yet added to the encounter, even though the encounter itself was active.
+- Login could fail if attempted before all script resources and language translations were finished loading. To improve upon this the Join form is initially disabled with a spinner icon which becomes enabled for login once required scripts have finished loading for the client.
+- Players who have entity creation permission are now able to import or drag+drop Entities of that type out of Compendium packs into teh World where previously they were prevented from doing this despite having permission to create new entities directly.
+- Added explicit response headers from the Foundry VTT server to DENY attempts to cross-frame Foundry Virtual Tabletop within an external iframe.
+- Using the createMany operation for Drawings fails to call the _adjustPoints method which needs to occur before data is sent to the server.
+- Accessing the FilePicker on the World Config app requires admin access, but doesn't perceive access as being allowed if no admin access key were present. This will now work even if no access key is set.
+- Dynamic entity link name overrides were no longer working, the intended syntax like `@Actor[Big Bad Guy]{Innocent Civilian}` will now correctly display the link as "Innocent Civilian" instead of the true Entity name.
+- The orientation of the Scene darkness layer failed to take canvas image offsets into consideration. This has been reduced in importance as the Scene darkness layer has been expanded to also cover the buffer area surrounding the Scene background image, allowing room for offsets to be defined while still remaining under the area of darkness.
+- Inline roll messages were not working properly with modifier terms which included greater-than or less-than signs. These should now be working as expected.
+- A crash could occur if a background image sprite was created using a null texture where the texture source was null.
+- A crash could occur if a Tile object specified an invalid image path. Such invalid tile images are now replaced with a generic hazard sign icon so that you can clearly see which tiles do not have image paths properly defined.
+- Using a pattern fill for a Drawing without providing a valid pattern texture would fail rendering and break the Drawings Layer of the Scene. This has been resolved.
+- Tokens with invalid image URLs caused the Token to show the mystery man icon as expected, but become non-interactable (not expected). This has been resolved.
+- Fixed a bug which prevented non-GM players from configuring their own client settings because the entire settings configuration menu was incorrectly gated behind the modify settings permission. Now this menu is available to all players, but only settings which can be modified are visible for alteration.
+- Token light source tinting suffered from a bounding rectangle which was incorrectly clipping the edges of the effect. This has been resolved.
+- Shift+Click to add or remove walls from the currently controlled set had broken and was not working as expected. This is restored and you can now shift+click wall endpoints to add that wall to your control set.
+- Using negative values for light source emission produced a result which did not match the radius of light emitted with positive values due to the extra half-token width padding applied for Token light sources.
+- Editing the World configuration would accidentally result in the "Disable All Modules" override being incorrectly applied even if that checkbox was left unchecked.
+- Improve the shorthand world description displayed on the Setup page to prevent it possibly contaminating and breaking other nearby HTML structure due to unclosed tags in its preview.
+- Pressing the TAB key will now only cycle through controllable Tokens when the Tokens layer is active.
+- Strictly enforce that Foundry VTT urls may not end with a trailing slash via a redirecting middleware. Any URL requests which initially have a trailing slash will be redirected to the non-slashed address.
+- Toggle Navigation for a singleton active scene removes it as Active and de-populates the navigation bar. This should be prevented, you can no longer toggle off navigation for your active Scene.
+- Roll Tables with an unreachable entry which falls outside the probability distribution of the roll formula could result in an infinite loop where the table tried but failed to draw a valid result.
+- Improved the visual tooltip style of long macro names to not break and overflow the preferred tooltip width by allowing the tooltips the possibility to scale horizontally as needed.
+- Fixed an issue with roll data attribute references not working properly for deferred inline rolls.
+- Resolved an error which would occur when changing the type of a wall segment to contain a Door.
+- Hidden Tokens could occasionally and briefly be displayed when re-rendering the Canvas. I have prevented this by starting every Token in an initially hidden state and only revealing that Token if conditions allow for it to be visible.
+- Fixed an issue with the Setup Configuration application which failed to record the changed value of the UPnP preference.
+- Improve the naming convention of newly created entities in the sidebar to apply localized strings instead of using the class name of the Entity.
+- All `FormApplication._updateObject` methods should have been asynchronous and return Promises once their target objects were updated. This was not the case in a large number of cases. I went through and applied the correct functional standards.
+- Initiative rolls on the Combat Tracker will attempt to respect the Roll Mode dropdown selection. Some exceptions may occur in cases where a token is explicitly hidden on the Combat Tracker, it's roll will always be Private.
+- The FilePicker would not correctly assign it's active target and search path in some cases.
+- The Combat Tracker would fail to render image previews for video tokens since their icons were not static. I added additional logic to create thumbnails for video tokens that can be used in cases where a static representation of the Token is required.
+- Dragging the token of an unlinked Token would misleadingly reset the display of their attribute bars to full during the drag preview operation.
+- Pressing the Enter key has been disabled or restricted while navigating the File Picker to prevent it from unexpectedly submitting the form or traversing the directory path backwards.
+- Improve URI decoding in the displayed results of the File Picker to display the original names of files and directories even if they contain special characters.
+- Interacting with a Door could, in some cases, cause Fog of War exploration to be lost. Some refactoring of the Sight Layer has improved the workflows being used here and eliminated this method of incorrectly losing exploration progress.
+
+### Framework and API Changes
+
+- [BREAKING] This version includes a major refactor of the Socket management system which handles the transaction of data to and from the server-side of the software. There are several significant changes associated with this redesign including breaking changes for multi-entity and multi-embedded entity operations, for the usage of Hooks related to Entities and Embedded Entities, and for callback function specifications in custom entity (like Actor) subclasses. Please see [these notes on GitLab](https://gitlab.com/foundrynet/foundryvtt/-/issues/2454) for more details.
+- [BREAKING] The `Collection` class which defines the containing group for each Entity type has been refactored to subclass `Map` directly for more efficient and semantic APIs which reduce unnecessary Array iteration.
+- [BREAKING] Redefined the `WallsLayer.blockMovement` and `WallsLayer.blockVision` Arrays to always include doors regardless of their current state, deferring door state checks until vision computation.
+- Added the concept of a "permanent" notification which does not automatically disappear without being explicitly dismissed by the user. To make any notification type (info, warn, error) permanent, pass `{permanent: true}` as a key in a second `options` parameter.
+- Improved the `WallLayer.pasteObjects` and `PlaceablesLayer.pasteObjects` methods to use a createMany operation instead of iterating individual creation operations.
+- Optimized performance of localization file loading by allowing all translation files to be loaded asynchronously and in-parallel while simply awaiting the completion of all promises to apply the translations in the expected load order.
+- Improve the rendering and closing logic of the FormApplication class to avoid unnecessary re-rendering attempts of forms which are being submitted and staged to automatically close after submission.
+- Each CanvasLayer subclass is now drawn in it's own separate `try` block with layer-specific errors displayed as notifications and in the console log. Previously all layers were within the same block, so errors on one layer would break rendering of subsequent layers.
+- Implemented the server side HTML parsing library `parse5` which adds some improved sanitization and parsing abilities for server-side HTML cleaning. Particularly, this allows for the server-side HTML validation to detect and automatically close any unclosed HTML tags which could otherwise contaminate the structure of the outer document in which such defective HTML appeared.
+- Refactored the storage schema of client-side Settings to use Map instances for the registered setting definitions `game.settings.settings`.
+- Renamed the `Documentation` class to `FrameViewer` to generalize it's usage for any iframe target URL.
+- When uploading a file using the `Files.upload()` method, expand the data returned in the server response to provide the resulting web-safe file path of the uploaded file.
+- Significant portions of the server side code have been re-implemented in Typescript to harden their reliability, testability, and consistency. This is a relatively major paradigm change, but it's one that after exploring for several days felt was a good choice to make. The initial portions of the server side code which are re-implemented in Typescript are the entire Database layer, the server-side Socket management interface, the software auto-updater, and Compendium packs. This represents a considerable chunk (around 30%) of the server-side code. I will be working to eventually convert the entire server-side code to Typescript before the full software release. An additional positive byproduct of this process is that all the modules which were re-written in Typescript have been thoroughly audited and improved for consistency, structure, and reliability.
+- As part of the Typescript changes, some aspects of the server-side build process have also changed including the approach to code obfuscation and minification to support the preservation of source-maps back to the original Typescript files.
+- Implemented a new `Collection.getName(entityName)` method to get a single Entity by it's name attribute. If multiple entities have the same name, the first matched Entity will be returned.
+- Some improvements to the WebRTC implementation to update to a new version of the EasyRTC client script and change the server to bind on all available interfaces.
+- Allow for improved flexibility in localization and translation with a new `i18n.format(stringId, data)` method which allows for substituting a data object into a complex sentence structure.
+- Support an option to register a button in the master settings configuration menu for a Module or System which spawns another application form for in-depth configuration. See these notes on GitLab for example usages and a visual explanation.
+- Removed several instances of hard-coded Entity class references in favor of more dynamically referencing the assigned `entityClass` for that particular Entity type within the `CONFIG` object.
+- Added support for the missing `options.deleteAll` flag for Embedded Entity delete operations. This is similar to, but not exactly equivalent to updating the parent with an empty Array since this approach will end up triggering callback functions and hooks for every deleted Embedded Entity.
+- Refactored the `getWallCollisionsForRay` method, moving it to the `WallsLayer` class and adding several additional options which customize how collision testing is performed.
+- Added the `TextEditor.previewHTML(content, length)` method which can generate an abbreviated text preview of some HTML content.
+
+### Documentation Improvements
+
+- Updated API documentation for 0.5.4 build.
+
+### Known Issues
+
+- If there are enough Scenes displayed in the Navigation Bar that it wraps to a 2nd (or more) line, those subsequent rows of Scenes will overlap the position of the loading bar which displays load progress.
+- The "Force Snap to Grid" toggle in the Walls Layer produces unpredictable effects on hexagonal grids where some alternative logic is required to improve this behavior.
+
+## Beta Version 0.5.3, 2020-03-30
+
+Hi everyone I'm thrilled to release Foundry Virtual Tabletop **Beta 0.5.3** which is an odd-numbered "stable" release version for all Patreon supporter tiers including all of the new features added in version 0.5.2 with a number of added feature improvements and bug fixes.
+
+Update 0.5.2 included some major new features including **permission control system**, support for **inline dice rolls**, a built-in **grid configuration tool**, the ability to **bulk upload** assets, expanded Token features like **light emission color**, and many minor features. The stable update 0.5.3 expands upon this by adding **improved Compendium controls** and **Macro compendium and linking** features.
+
+Thank you all so very much for supporting my project and relying on Foundry Virtual Tabletop to bring us all together amidst health concerns and difficult times of social distancing. Please stay healthy, care for each other, and stay up to date on progress by following the project roadmap on GitLab: [https://gitlab.com/foundrynet/foundryvtt/boards](https://gitlab.com/foundrynet/foundryvtt/boards).
+
+### New Features
+
+- Compendium packs can now be duplicated with a helpful tool in their context menu. Duplicating a compendium pack will create a copy of that pack in your current world which you can modify separately from the base pack.
+- Added a new Compendium context option to lock or unlock that compendium pack. Compendium packs which are not owned by the active world will be initially locked by default, but they may be unlocked in order to permit editing of their content. In order to create, update, or delete content from a compendium pack you must first unlock it. This adds some extra safety protections to prevent incorrectly modifying a core system or module-provided compendium.
+- You may now create Compendium packs for the Macro entity type.
+- Macro entities may now be the target of dynamic entity links using the syntax `@Macro[Macro Name]` or `@Macro[macro._id]{Displayed Name}`.
+- Dynamic entity links to Compendium content created as `@Compendium[package.name.id]{Displayed Name}` are now draggable so that you can create Actors, Items, or other Entities using a dynamic entity link.
+- Added the ability to configure the ability to create Measured Templates as a new User Role permission. Previously this permission was hard-coded to be available to Users with the TRUSTED role (or greater).
+- Enforce a minimum height for sidebar pop-out tabs to ensure that they leave adequate room for context menus to be displayed for the entries they contain.
+- Change the style and format of the Permission Control ui to remove "Default" as an option for the "Default Permissions" section. This should now be more self-explanatory that the default permission level is "None" unless set otherwise.
+- Implemented a new and more effective WebGL test to validate up-front whether the user has hardware acceleration enabled which permits WebGL to be used. If the necessary conditions are not met a visible error banner will be displayed to inform the user of the problem.
+
+### Bug Fixes
+
+- A bug allowed for users to install versions of systems or modules which could not actually be used under their current core VTT software version. This will now be prevented with an error message to explain why you cannot install or update a module or system with your current VTT version.
+- A bug incorrectly prevented users from uninstalling a module or system from within the Foundry VTT application if that package version could not be used (for any reason). You may now always uninstall packages even of those package versions are otherwise unusable.
+- Fixed a bug where world-level compendium packs could be created with metadata that set the system as undefined resulting in 2 bugs. Firstly this will no longer happen and the system value for created World packs will be set to the active system of the world. Secondly, if a pack does have the system value of undefined this will be tolerated as an allowed pack.
+- Fixed a bug by which a newly created Compendium pack could fail to be opened during the same session in which it was created. Newly created Compendium packs should now be available immediately.
+- Implement a solution which attempts to solve for the problem of SVG images becoming tiny under rare circumstances - resulting in token images or status effects which are incorrectly tiny.
+- Ensure that only entity types explicitly allowed by the `COMPENDIUM_ENTITY_TYPES` constant may be used to create Compendium packs.
+- Changing the configuration of Token resource bars on the prototype token could inadvertently push changes to that resource back onto the base Actor, which should now be prevented.
+- Dynamic entity links displayed in chat messages were previously draggable so that (for example) items could be created from the links that were generated there. This got broken in the 0.5.1 update but is now restored.
+- Fixed a bug where attempting to pop out the Combat Tracker with no active encounter would throw an exception.
+- Measured templates should not be hoverable or clickable by Users who are not a Game Master or the original author of the template.
+- Fixed an issue with Actor sheets where the Token button in the header could become stuck in an inconsistent state between showing the Prototype Token for the base Actor vs. the placed Token for an Actor who was already placed in a Scene.
+- Fixed a UI issue which could give the Prototype Token configuration form a vertical scrollbar which was unnecessary.
+- New messages created in an initially empty Chat Log could create a situation where scrolling up would duplicate those messages as a new batch. This no longer occurs.
+- Private dice rolls should no longer override the existing flavor message for the roll if the current user has permission to view it. For users which do not have permission to see the role the flavor text will be replaced with a message explaining that the roll is private.
+- Fixed a bug where ruler path measurement was broken due to a change in the Token.update API signature.
+- Scene width and height values will now be rounded to whole integers when finalizing settings of the Grid Configuration utility.
+- Fixed a problem where the initially highlighted tab of the File Picker could be out of sync with the browsed location.
+- Corrected an issue where the grid alignment tool could leave the map grid displayed in red unless a change to the Scene was actually performed.
+- Fixed a permission check issue with dynamic entity links which should correctly require that the User has at least LIMITED permission to view the sheet in order to click on an entity link.
+- Fixed an issue with attempting to roll dice formulae with no Scene active or no Token controlled.
+- Fixed a typo which caused a ChatMessage whisper array of User entities to not be properly converted to string id values.
+- Attempt to resolve a race condition which could occur when launching the server with a specific world supplied at the command line in cases where the Express server might take longer to start than expected.
+
+### Framework and API Changes
+
+- Deprecate the previously used `core.compendiumVisibility` world setting in favor of a new and more flexible `core.compendiumConfiguration` object which can store more expansive metadata about specific compendium packs.
+- Changed the `Canvas.getDimensions` method to be static. The instance method remains with a deprecation warning for the time being.
+- Fixed a problem where the `Entity#clone` method failed to resolve it's promise to the created entity after creation.
+- Moved the default `USER_PERMISSIONS` in the `CONST` object from an Array to an Object with expanded metadata properties.
+- Improved initial construction of default game permission settings to ensure that all permission settings are reflected in the default object.
+- Apply some additional client-side permission checks to ensure that compendium modification operations are prevented on the client side before requests are dispatched to the server which it cannot fulfill.
+- Disable the World Configuration form when submitting it to prevent further duplicate submissions until the response (or error) is received from the server.
+- Fix an issue with `Application#getData` method signatures to prevent passing an empty object which could break downstream child classes.
+
+### Documentation Improvements
+
+- Added a new documentation page for Chat Messages: [https://foundryvtt.com/article/chat/](https://foundryvtt.com/article/chat/)
+
+### Known Issues
+
+- None at this time.
+
+## Beta Version 0.5.2, 2020-03-25
+
+Hi everyone, I'm extremely happy to share the **Beta 0.5.2** update which is one of the biggest update versions ever clocking in with 89 issues closed in the GitLab milestone ranging encompassing new features, bug fixes, and API improvements. This is an even-numbered "major" update so it focuses heavily on adding new functionality and API changes to the software for testing by Alpha tier Patreon supporters.
+
+The most significant improvements in this update version include a brand new **permission control system**, support for **inline dice rolls**, a built-in **grid configuration tool**, the ability to **bulk upload** assets, expanded Token features like **light emission color**, and many minor features.
+
+Thank you all so very much for supporting my project and relying on Foundry Virtual Tabletop to bring us all together amidst health concerns and difficult times of social distancing. Please stay healthy, care for each other, and stay up to date on progress by following the project roadmap on GitLab: [https://gitlab.com/foundrynet/foundryvtt/boards](https://gitlab.com/foundrynet/foundryvtt/boards).
+
+### New Features
+
+- Beta 0.5.2 includes a major new feature of a configurable role permission system which allows you to fine-tune and customize which User roles are allowed to take which actions. Each permission describes an action that can be taken, and the permission to perform that action can be enabled or disabled for each User role level independently. The initial set of actions which can be configured by this system include the following:
+   - Broadcast Audio - allows broadcasting audio when A/V is enabled
+   - Broadcast Video - allows broadcasting video when A/V is enabled
+   - Create Actor - allows creating new Actor entities in the world
+   - Create Drawing - allows creation of Drawings using the drawing tools
+   - Create Item - allows creation of Item entities within the world
+   - Create Token - allows dragging an owned Actor onto the Scene to create a new Token
+   - Browse Files - allows using the file picker to browse available files on the host machine
+   - Upload Files - allows using the file picker to upload new file content to the server. Requires Browse File permission.
+   - Script Macros - allows writing and using JavaScript macros.
+   - Private Messages - allows sending whispered messages to players which are not visible to the GM
+   - Configure Settings - allows configuring world settings and enabling/disabling active modules.
+   - Mouse Cursor - allows sharing mouse cursor position data.
+   - Configure Token - allows configuring display and vision settings for owned Tokens
+   - Interact with Doors - allows opening and closing of doors
+   - As a result of this centralized permission control system, several previous game settings which were configured individually have been removed since their functionality is no longer needed.
+- Assumptions around chat whisper visibility have been changed. Previously whispered messages were visible to GM users and there was a setting to allow this. Now whispered messages only go to the whispered targets and the new permission control setting governs whether users are allowed to privately whisper other players or not.
+- A major new feature in Beta 0.5.2 is inline dice rolls which allow for you to embed dice roll formulas or rolled results directly within chat messages and other enriched HTML. There are two types of inline syntax - "inline rolls" where the message displays the result of a rolled formula, or "deferred rolls" where the message displays a button to execute a roll at a later point in time. Syntax for including inline dice rolls is shown in the following examples:
+   - I can roll [[6d6]] in-line and see the result directly in my message.
+   - Alternatively, I can include [[/roll 6d6]] as a button to roll the provided formula on-demand with a left-click.
+   - This represents "Version 1" for inline rolls, so please try it out and help share your thoughts about what additional features are needed in order for inline rolls to work well for your gaming table.
+- Placeable objects like Tokens, Tiles, and Drawings can now be dragged and dropped as a group. Previously groups of tokens could be moved together with the directional keyboard keys, but now mouse drag+drop will work for selected groups also. Note that if any Token in the selected group cannot perform a move due to wall collision that Token's movement will fail while other Tokens in the set may complete the requested move. In such cases an error notification will be displayed to the player denoting which Token(s) collided with an obstacle.
+- The previous major update 0.5.0 added vastly improved light source tinting and intensity configuration. This update adds the same features for Tokens which emit light, you can now customize the color and intensity level of Token light source emission within the Token configuration menu.
+- Ambient Light sources now feature a "darkness threshold" property which allows you to specify a Scene darkness level beyond which the light source will activate. You can use this feature in a number of creative ways, including immersive city Scenes where houses and street-lamps illuminate once the darkness surpasses some value.
+- Media files can now be quickly imported or uploaded to a file storage location by dragging and dropping a file or group of files directly onto the File Picker. This allows for bulk uploading of media content to a remote location to simplify the process of importing a lot of audio, video, or image content for use in the application.
+- Dynamic entity links (like `@Actor[Atropos]`) which do not reference valid entities are now displayed with a dotted red border and a broken link icon to clearly designate intended links which are not functioning properly and differentiate them from normal text.
+- Improved the handling of Token artwork which is not square in aspect ratio. Previously using asymmetric Token artwork would result in the image being stretched to be symmetric. Now the artwork will preserve the original aspect ratio and be centered within the Token's specified frame.
+- Added an option to vertically mirror Token artwork. Foundry VTT assumes that tokens are drawn facing "south". For tokens which are drawn with their intended default direction of facing as "north" flipping the artwork vertically will result in better alignment between token usage and appearance.
+- Updated several core software dependencies, including updating Electron to the newest version `0.8.2` which includes support for Chromium 80.0.3987.158. **IMPORTANT NOTE: updating Foundry Virtual Tabletop using the internal auto-update does not update your Electron version. If you need the new Electron version due to compatibility problems with the previous 0.7.x version, you need to reinstall Foundry Virtual Tabletop using the full installer instead of using the update key**.
+- Changed the default file storage scope of the File Picker to treat the user data location as the default view rather than the application public data folder.
+- Added support to load the chat log in batches of 100 messages at a time to limit the amount of chat history which is displayed and rendered when loading the application. Scrolling upwards in the chat log will incrementally load and append additional batches of messages. This results in a significant performance improvement for worlds which retain lengthy chat log histories without flushing the log.
+- Scene configuration now supports a helpful grid-configuration tool which makes it much easier to establish and align the grid dimensions for pre-existing maps which include drawn grids. To access the grid configuration tool, first open Scene Configuration and then click the small "Grid Alignment" icon to the right of the Grid Type selector. While in this mode you can change the grid type, the size of the map, and the alignment of the grid in real time until you find settings that fit well for your Scene.
+- In Foundry VTT - measured templates highlight any grid space where the center-point of that space lies within the template polygon. In cases where the polygon originates exactly in the center of a space, for some orientations of shape this was resulting in the origin square not being included in the highlight result. This has been changed so that templates which originate in the center of a space will include that space in their highlighting. This may not be the correct mechanical decision for a subset of use cases or game systems, but it is a change which makes the highlighting rules mechanically consistent within the VTT framework.
+- Improved the behavior of Scene preloading which previously would only preload the Scene background image, but will now preload all image and video assets related to the Scene including Token and Tile images.
+- Expand the set of files which are queued for loading when initially viewing or preloading a Scene to include the set of SVG control icons which are used in the Scene.
+- When placing Ambient Light sources, the area of effect that will be illuminated by the light source is now previewed in real time instead of simply showing a circle that is unaffected by placed walls.
+- Added a safety check to prevent viewing a new Scene if resources for your currently viewed scene are still in the process of loading. Attempting to do so will display a warning message until the current Scene load is complete.
+- Improved the user connection and disconnection workflow to more reliably update activity indicators including the players list, displayed active cursors, rulers, and Token targets.
+- Journal Entries which exist within Compendium Packs can now be dragged and dropped onto a Scene directly to import the entry and create a Map Note in a single workflow, similar to the Token workflow.
+- Added support for the `<u>` HTML tag as a convenient way to add underline formatting to a portion of text in chat messages or other HTML passages. Previously this tag was stripped by the HTML sanitization process.
+- Support multi-line chat messages with line breaks created using `SHIFT+ENTER` automatically converted to `<br/>` tags and kept in the resulting HTML.
+- When re-rendering a form application, the user's focused input field will be remembered and restored on the far side of the render operation, allowing you to more effectively tab between input fields while the form saves and re-renders in the background.
+
+### Bug Fixes
+
+- Fixed an issue with the directional movement keys sometimes getting "stuck" and producing incorrect results. The logic for identifying which combination of movement keys is currently depressed is much improved and (to the best of my testing) will now produce reliable results.
+- Some faulty logic resulted in Actor or Token names being incorrectly displayed as the alias for private rolls in the chat log. When rolling privately (or blindly) other players should see that a roll is occurring, but not the name of the creature or token which is placing the roll. This has been changed so private rolls only indicate the name of the User placing the roll, rather than the name of the Actor.
+- Fixed a bug where Users which had OBSERVER permission to a certain Actor were not able to see vision changes for that Token in real-time.
+- A logical error allowed for the inadvertent creation of recursive loops in the sidebar folder structure (yes, again!). I've changed the tree generation algorithm again to (hopefully) protect against this outcome and ensure that folders do not have cyclic parent relationships.
+- Explicitly enclose the image file paths in Journal Entry featured images to better handle images with spaces, apostrophes, or quotes in their file name.
+- The `system` attribute of compendium pack metadata was not respected to appropriately restrict which packs were included for which World. This has changed so that a module can incorporate packs designed for multiple different systems and restrict which compendium packs are visible in-game based on the World's used system.
+- Fixed a bug where a User's active Ruler would be displayed even if the measuring User was viewing a different Scene. The display of rulers now correctly verifies the viewed Scene before displaying a measurement.
+- Corrected a server side issue which produced an incorrect port range for custom WebRTC configurations which explicitly specified an end port range value.
+- Fixed a bug whereby light sources failed to dispel the darkness layer when the Token Vision setting was disabled.
+- Changes to the AWS Configuration file path in the Setup menu of the application were not correctly saved upon form submission. This is now corrected.
+- Fixed a bug where package update versions were detected as unavailable if the original installed version was too old to be compatible with the current VTT version.
+- It was possible to configure an "illegal" user data path that fell within the application installation directory from the application setup menu. This is now validated before making the change to reject any requested file paths which will be illegal.
+- Fixed an issue where in some situations providing an invalid admin access key did not properly result in redirecting the user.
+- In some cases where a Token did not have a valid Actor entity defined, the user was prevented from being able to access the Token configuration sheet.
+- Ensure that displayed dice roll results which are non-integers are displayed rounded to 2 decimal places.
+- Additional server-side permission checks will now prevent users from making updates to Tokens for which they do not have ownership of that Token's actor.
+- Fixed a bug with the popped out Combat Tracker which prevented it from being correctly updated when a Combat Encounter was ended in the main sidebar.
+- Fixed several crashes or errors which could occur when deleting the actively viewed Scene.
+- Fixed an error which could occur from deleting an Actor whose character sheet was currently open.
+- Corrected a problem which prevented saving the default drawing configuration - particularly the colors used for stroke and fill display. This default configuration can now be modified and saved as normal. The "Position" tab of the default drawing configuration has been removed to avoid confusion since position settings are not configured as defaults.
+- Fix behavior of the Fog of War exploration Scene setting which, if disabled, should prevent tracking exploration progress and only show current Token vision.
+- Fix a Token visibility issue which would show hidden tokens to players if the Token Vision scene configuration setting was false.
+- Fix errors when trying to edit the description of an existing World.
+- Prevent dragstart events for any element in the document unless specifically authorized by that element.
+- Improve vertical resizing of the settings menu when switching tabs.
+- Fix setting the Scene darkness level to zero which now applies immediately.
+- Deleting a hovered placeable object now correctly removes references to that object from the parent layer's _hover attribute.
+- Explicitly prevent form submission for HUD elements which, for some browsers, could be submitted when the enter key was pressed.
+- Changing the active weather effect in a Scene should now apply immediately instead of requiring a page refresh.
+- Toggling folder collapsed/expanded state in a sidebar tab will now resize the height of pop-out sidebar tabs.
+- Dynamic entity links to Scenes should open the associated Journal Entry for that Scene if one exists, otherwise it will open the Scene configuration sheet.
+- Assuming control of a Token when multiple Tokens are owned did not successfully restrict vision to just that Token.
+- The package directories in the Setup application should now remember their vertical scroll positions when the app is re-rendered.
+- Deleting a Token which emitted light but was not a valid Actor would fail to remove the light source and leave light emission visible in the Scene.
+- Assigning the default world configuration back to null in the Setup application was not correctly applied. This setting can now be un-set to remove a World as the default.
+- Fixed a breaking error where modules or systems which included a `languages` entry but not as an appropriately formatted Array could break loading the game world.
+- Deleting a Token which was a target for one or more Users would leave that Token in the User's targets array instead of removing it. This no longer occurs.
+- Fixed a bug where deleting a placeable object that was hovered would leave it referenced as the `_hover` object of the parent layer.
+- Fix a bug where, in some circumstances, making changes to the Elevation field on the Token HUD could result in submitting the form as a GET request instead of that behavior being prevented by JavaScript.
+- Addressed a problem where a failure to load the options.json configuration file would crash the Foundry VTT node.js process but fail to adequately terminate the Electron application that would remain running in the background.
+
+### Framework and API Changes
+
+- [BREAKING] Finalized the deprecation process for `sceneId` as the first argument to canvas placeable CRUD methods.
+- [BREAKING] Revised the behavior of the `mergeObject` helper to forward the same `insertKeys` and `insertValues` arguments to recursive inner-object merges.
+- [BREAKING] The `game.modules` object has been refactored from an `Array` to a `Map` where the keys of the map are module IDs which allows for easier access to a module's configuration data without needing to iterate through the full modules Array. For example `game.modules.get("about-time")`.
+- Changed the naming convention for Scene thumbnail images to instead use the scene ID as using the original map image file name could collide for maps in different directory paths which use the same file name. Existing map thumbnails will be unchanged, but any newly created thumbnails will use the Scene ID as the resulting file name.
+- Standardize the identification of a chat message actor using the `ChatMessage.getSpeakerActor()` method.
+- Standardize the construction of dice roll data for an Actor with the `Actor#getRollData()` method.
+- Refactor the `FilePicker.upload` method to use the simpler fetch API rather than XHR requests.
+- When identifying packages (systems, modules, worlds) where the directory `name` does not match the name attribute in the package manifest, such packages will be automatically ignored with a warning message displayed in the server log where previously this would cause a fatal error.
+- When worlds are created, the name attribute of the world is forcibly "slugified" to convert it to all lower-case ascii characters with hyphens to separate multiple terms. This feature enhancement uses the new `String.slugify` helper method which can be used by others for their own string ID or file path standardization needs.
+- Provide specialized functions for performing multi-item update operations for synthetic Token actors. These actors previously had specialized methods to handle `createOwnedItem`, `updateOwnedItem`, and `deleteOwnedItem` operations, but trying to use the "many" versions of these operations would fail. You can now use `createManyOwnedItem`, `updateManyOwnedItem`, and `deleteManyOwnedItem` operations for synthetic Token Actors.
+- Refactor the `Actor.getWildcardImages` function to use the modernized `FilePicker.browse` method instead of an explicit socket request.
+- Imposed strict server-side validation that the width and height attributes for a Scene must be positive integers.
+- The usage of `Tabs` has been comprehensively refactored to a `TabsV2` class which improves in a number of key dimensions. Usage of tabs within an Application can now be configured as part of the `defaultOptions` object by providing a tab configuration array for any tabbed navigation containers that are present. Tab controllers are instantiated at the Application level, rather than at the render level, and stored in the `app._tabs` allowing for downstream modules to interrupt or modify tab behavior. Furthermore, Application instances now share an `_onChangeTab` function that is called whenever a tabbed navigation element is changed. This allows downstream classes to easily extend or override the tab switching behavior of the class.
+- Improve the behavior and rendering of the /no page to better display the full fatal error message and its stack trace if necessary.
+- Implemented improvements to the `hasProperty` and `getProperty` helper functions to return `undefined` if they encounter a non-object during their recursive search.
+
+### Documentation Improvements
+
+- API documentation updated to reflect version 0.5.2 usage.
+- Expansions of the Localization page to describe how localization can be applied in JavaScript or HTML: [https://foundryvtt.com/article/localization/](https://foundryvtt.com/article/localization/)
+- Improvements to the Compendium Packs knowledge base page: [https://foundryvtt.com/article/compendium/](https://foundryvtt.com/article/compendium/)
+
+### Known Issues
+
+- None at this time.
 
 ## Beta Version 0.5.1, 2020-03-07
 
