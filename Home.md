@@ -52,7 +52,7 @@
 
 # [The Virtual Tabletop](The-Virtual-Tabletop)
 
-## [Command Palette](Command-Palette)
+## [Scene Controls](Scene-Controls)
 
 ### [Actor](Actor)
 
@@ -66,7 +66,11 @@
 
 ### [Sounds](Sounds)
 
-### [Macros](Macros)
+## [Macros](Macros)
+
+### [Chat Macros](Chat-Macros)
+
+### [Script Macros](Script-Macros)
 
 ## [Sidebar](Sidebar)
 
