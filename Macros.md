@@ -12,7 +12,7 @@ Some community contributed Macros can be found on [github](https://github.com/fo
 
 ## Script Macros
 
-Script macros are written in JavaScript and can utilize [API](https://foundryvtt.com/api/) objects and methods (like `game.users`, `canvas.tokens`, or `game.user.character`). When a token is selected before calling a macro, then `token` varible will also be available for code in macro. 
+Script macros are written in JavaScript and can utilize [API](https://foundryvtt.com/api/) objects and methods (like `game.users`, `canvas.tokens`, or `game.user.character`). When a token is selected before calling a macro, then `token` variable will also be available for code in macro. 
 
 See also: [API Snippets](https://foundry-vtt-community.github.io/wiki/API-Snippets/) (some of them can be used in a Macros)
 
