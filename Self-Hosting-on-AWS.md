@@ -95,7 +95,7 @@ Hit Launch, wait while the spinner spins, then hit View Instances once you get t
 
 ## 5. Simple Storage Service (S3)
 
-If EC2 is what runs everything on AWS, S3 is what stores it (mostly).  The service mostly lives up to its name, as it provides an easy way to store large amounts of objects.  These objects can be, so far as we're concerned for this, of basically unlimited size -- sending more than 5gb in a single file requires special transfer methods, but other than that, as long as you're willing to pay per gigabyte-hour for it to get stored, they'll host it.  Open the Services menu and click on S3 near the top left.
+If EC2 is what runs everything on AWS, S3 is what stores it (mostly).  The service mostly lives up to its name, as it provides an easy way to store large amounts of objects.  These objects can be, so far as we're concerned for this, of basically unlimited size -- sending more than 5gb in a single file requires special transfer methods, but other than that, as long as you're willing to pay per gigabyte-month for it to get stored, they'll host it.  Open the Services menu and click on S3 near the top left.
 
 ![](https://github.com/foundry-vtt-community/wiki/blob/master/images/Getting%20Started/AWS%20Self%20Hosting/4-1.PNG)
 
