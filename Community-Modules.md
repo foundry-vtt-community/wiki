@@ -222,7 +222,7 @@ Babele is a module for runtime translation of Compendium packs.
 
 ### Link(s) to Module
 * [https://github.com/Adriannom/fvtt-better-filepicker](https://github.com/Adriannom/fvtt-better-filepicker) 
-* Manifest: [https://raw.githubusercontent.com/Adriannom/fvtt-better-filepicker/master/module.json)
+* Manifest: [https://raw.githubusercontent.com/Adriannom/fvtt-better-filepicker/master/module.json](https://raw.githubusercontent.com/Adriannom/fvtt-better-filepicker/master/module.json)
 
 ### Description
 Toggle image thumbnails in the file picker. Also improves file picker visibility on small screens.
