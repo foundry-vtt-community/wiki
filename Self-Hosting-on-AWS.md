@@ -87,8 +87,6 @@ This is where you're going to set up the traffic allowed through to your instanc
 
 If you intend on using nginx as a reverse proxy, like the Ubuntu VM guide lays out, you'll want to hit Add Rule twice and add rules to let traffic in on TCP ports 80 and 443.  If you are just going to run Foundry on the instance by itself, you'll want to let in TCP port 30000 (or whatever port you intend to put Foundry on).  You may also need to allow additional ports through for voice and video traffic -- I'd advise referring to the guides for those to get the appropriate port ranges.
 
-Additio
-
 You can edit security groups at any time via the EC2 control panel, and changes are instant, so don't feel you have to get things perfect right now.  SSH, HTTP, and HTTPS are the minimums required to setup Foundry and verify it's working.  Click Review and Launch when you're ready to move on.  This will bring you to the last page, which lets you review your instance setup.  There is one final task to do before the instance is launched.  Click Launch, and this window should pop up.
 
 ![](https://raw.githubusercontent.com/foundry-vtt-community/wiki/master/images/Getting%20Started/AWS%20Self%20Hosting/3-6.PNG)
