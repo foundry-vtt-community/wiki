@@ -124,7 +124,7 @@ Additionally, while we have made the bucket public, objects in it are not public
                 "Sid": "PublicReadGetObject",
                 "Action": "s3:GetObject",
                 "Effect": "Allow",
-                "Resource": "arn:aws:s3:::doomnaught-vtt-assets/*",
+                "Resource": "arn:aws:s3:::<your bucket>/*",
                 "Principal": "*"
             }
         ]
