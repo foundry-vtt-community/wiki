@@ -115,6 +115,23 @@ When you go back to the dashboard, you should see the new bucket there.  Click o
 
 This is the bucket itself.  Click on the Permissions Tab, then click on CORS configuration.  The Foundry defaults for bucket setup can be found [here](https://foundryvtt.com/article/aws-s3/).  I suggest just copy-pasting the CORS configuration on that page in and hitting save.
 
+Additionally, while we have made the bucket public, objects in it are not public by default.  Both the bucket and the objects in it need to be public in order for Foundry to use S3 for static content.  Click on Bucket Policy by the CORS configuration, and paste in the following bucket policy.  Insert your bucket name in the Resource line.
+
+     {     
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Sid": "PublicReadGetObject",
+                "Action": "s3:GetObject",
+                "Effect": "Allow",
+                "Resource": "arn:aws:s3:::doomnaught-vtt-assets/*",
+                "Principal": "*"
+            }
+        ]
+    }
+
+AWS will warn you that the bucket has public access.  Again, this is generally not best practices, but it is required for Foundry to use S3.  Please do not put anything in this bucket that you are not comfortable sharing with the world.
+
 That's it for bucket setup.  Now all we have to do is set up our system account to have permissions to access only this bucket.
 
 ## 6. IAM, pt. 2
