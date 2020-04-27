@@ -151,3 +151,8 @@ Hooks.on("canvasPan", (canvas, options) => {
 });
 
 ```
+
+## Play some audio-file
+```js
+AudioHelper.play({src: "audio/SFX/Some File.mp3", volume: 0.8, autoplay: true, loop: false}, true);
+```
