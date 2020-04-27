@@ -328,28 +328,36 @@ This module allows players to set custom colors for different types of chat mess
 
 ---
 
-## Combat Utility Belt (Beta)
+## Combat Utility Belt
 
 * **Author**: errational#2007 on discord (Donation/Sponsor? Sponsor button in the first link below)
-* **Version**: 0.9.8
-* **Foundry VTT Compatibility**: 0.5.1+
+* **Version**: 1.0.2
+* **Foundry VTT Compatibility**: 0.5.4+
 * **System Compatibility (If applicable)**: N/A
 * **Module Requirement(s)**: N/A
 * **Module Conflicts**: N/A
-* **Translation Support**: EN (full)
+* **Translation Support**: en (partial)
 
 ### Link(s) to Module
-* [https://github.com/death-save/combat-utility-belt/tree/beta](https://github.com/death-save/combat-utility-belt/tree/beta)
-* [https://raw.githubusercontent.com/death-save/combat-utility-belt/beta/module.json](https://raw.githubusercontent.com/death-save/combat-utility-belt/beta/module.json)
+* [https://github.com/death-save/combat-utility-belt/tree/master](https://github.com/death-save/combat-utility-belt/tree/master)
+* [https://raw.githubusercontent.com/death-save/combat-utility-belt/master/module.json](https://raw.githubusercontent.com/death-save/combat-utility-belt/master/module.json)
 
 ### Description
-You can read more about the module in the README @ (https://github.com/death-save/combat-utility-belt/tree/beta).
+You can read more about the module in the README @ (https://github.com/death-save/combat-utility-belt/tree/master).
 
-Some highlights for this version include:
-- [X] Hiding NPC Names for players
-- [X] Rerolling initiative each combat round
-- [X] Enhanced Conditions including the Condition Lab
-- [X] Marking injured and dead tokens
+Featuring
+
+- Auto-distribute XP
+- Concentration Checks (D&D5e only)
+- Enhanced Conditions
+- Hide NPC Names
+- Mark Injured/Dead
+- Mighty Summoner (Druid Circle of the Shepherd class feature) support (D&D5e only)
+- Pan to/Select Token
+- Quick Edit Token Resource
+- Reroll Initiative
+- Roll Initiative from Sheet
+- Temporary Combatants
 
 ---
 
