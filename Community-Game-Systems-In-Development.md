@@ -5,8 +5,8 @@
 The list below is an unofficial list of game systems that are still in development.
 
 
-   * [Star Wars](#Star--Wars)	
-      * [Star Wars FFG](#Star--Wars--FFG)	
+   * [Star Wars](#Star-Wars)	
+      * [Star Wars FFG](#Star-Wars-FFG)	
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)	
