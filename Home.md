@@ -120,6 +120,8 @@
 
 ## [Community Game Systems](Community-Game-Systems)
 
+## [Community Game Systems In Development](Community-Game-Systems-In-Development)
+
 ## [Community Game Systems Repository](https://github.com/foundry-vtt-community/game_systems)
 
 ## [Community Media](Community-Media)
