@@ -172,7 +172,7 @@ Displays this:
 You can format your journal entries, macros, etc — basically anything with a text box — using HTML. 
 
 **Learning HTML?**
-HTML is *extremely* simple. If you can put <h1> tags </h1> around some text, you can use HTML! If you want to learn some basic HTML, you can do the first few lessons before “create a text field” [here](https://www.freecodecamp.org/learn/), which all together shouldn’t take you more than 20 minutes.
+HTML is *extremely* simple. If you can put `<h1> tags </h1>` around some text, you can use HTML! If you want to learn some basic HTML, you can do the first few lessons before “create a text field” [here](https://www.freecodecamp.org/learn/), which all together shouldn’t take you more than 20 minutes.
 
 **Using the built-in HTML Editor**
 You don’t have to learn any HTML at all in order to make your formatting nice and pretty. On any description box (on your character, Journal entries, items, etc) there should be a text editor you can use. Just combine inline dice and references with using the buttons for formatting there to make things nice and pretty.
