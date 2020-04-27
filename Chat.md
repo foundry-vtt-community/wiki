@@ -153,7 +153,13 @@ You can reference almost any entity in Foundry in *any* textbox in Foundry, like
 | Roll Table      | `@RollTable[Roll Table Name]`       |
 | Macro           | `@Macro[Macro Name]`                |
 
-Note that linking to a macro or rollable table does not automatically roll it — it will create a button you must click to roll.
+Note that linking to a macro or rollable table does not automatically roll it — it will create a button you must click to roll. 
+
+Entry/object links are case-sensitive! Both the type (“JournalEntry”, not “journalEntry”) and the object’s name (“Abacus”, not “abacus”). You can also drag-and-drop objects to some places to create links.
+
+In the case of Actor, Item, and other references of the @<type>[<name>] style, a reference is created to a specific object’s ID. If that object is later deleted, even if a new one with the same name is made, the existing link won’t refer to the new object. Also note that if multiple choices for a given name exist, the “first” one will be picked. If that “first” one happens to be one that a player can’t see due to permissions, then even if there’s a “second” one the player can see, clicking the reference link will give them a permissions error.
+
+ROLLING DICE
 
 Example:
 
