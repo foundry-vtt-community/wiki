@@ -83,7 +83,9 @@ Once you've settled on how to handle your storage, click Next: Add Tags.  You ca
 
 ![](https://raw.githubusercontent.com/foundry-vtt-community/wiki/master/images/Getting%20Started/AWS%20Self%20Hosting/3-5.PNG)
 
-This is where you're going to set up the traffic allowed through to your instance.  By default, your instance will permit SSH traffic for management from anywhere.  You can make this more secure by clicking on the dropdown that says Anywhere, and changing it to My IP.  AWS will automatically pull the public source IP for your traffic and restrict SSH traffic to that IP only.  Please note that most residential ISPs do dynamic public IP addressing, so you are not guaranteed to have the same address day to day -- if SSH login works one day, but not the next, you'll need to edit the security group later.  Click Add Rule twice and add rules for HTTP and HTTPS traffic at a minimum.  You may also need to allow additional ports through for voice and video traffic -- I'd advise referring to the guides for those to get the appropriate port ranges.
+This is where you're going to set up the traffic allowed through to your instance.  By default, your instance will permit SSH traffic for management from anywhere.  You can make this more secure by clicking on the dropdown that says Anywhere, and changing it to My IP.  AWS will automatically pull the public source IP for your traffic and restrict SSH traffic to that IP only.  Please note that most residential ISPs do dynamic public IP addressing, so you are not guaranteed to have the same address day to day -- if SSH login works one day, but not the next, you'll need to edit the security group later.  
+
+If you intend on using nginx as a reverse proxy, like the Ubuntu VM guide lays out, you'll want to hit Add Rule twice and add rules to let traffic in on TCP ports 80 and 443.  If you are just going to run Foundry on the instance by itself, you'll want to let in TCP port 30000 (or whatever port you intend to put Foundry on).  You may also need to allow additional ports through for voice and video traffic -- I'd advise referring to the guides for those to get the appropriate port ranges.
 
 You can edit security groups at any time via the EC2 control panel, and changes are instant, so don't feel you have to get things perfect right now.  SSH, HTTP, and HTTPS are the minimums required to setup Foundry and verify it's working.  Click Review and Launch when you're ready to move on.  This will bring you to the last page, which lets you review your instance setup.  There is one final task to do before the instance is launched.  Click Launch, and this window should pop up.
 
@@ -112,6 +114,23 @@ When you go back to the dashboard, you should see the new bucket there.  Click o
 ![](https://raw.githubusercontent.com/foundry-vtt-community/wiki/master/images/Getting%20Started/AWS%20Self%20Hosting/4-3.PNG)
 
 This is the bucket itself.  Click on the Permissions Tab, then click on CORS configuration.  The Foundry defaults for bucket setup can be found [here](https://foundryvtt.com/article/aws-s3/).  I suggest just copy-pasting the CORS configuration on that page in and hitting save.
+
+Additionally, while we have made the bucket public, objects in it are not public by default.  Both the bucket and the objects in it need to be public in order for Foundry to use S3 for static content.  Click on Bucket Policy by the CORS configuration, and paste in the following bucket policy.  Insert your bucket name in the Resource line.
+
+     {     
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Sid": "PublicReadGetObject",
+                "Action": "s3:GetObject",
+                "Effect": "Allow",
+                "Resource": "arn:aws:s3:::<your bucket>/*",
+                "Principal": "*"
+            }
+        ]
+    }
+
+AWS will warn you that the bucket has public access.  Again, this is generally not best practices, but it is required for Foundry to use S3.  Please do not put anything in this bucket that you are not comfortable sharing with the world.
 
 That's it for bucket setup.  Now all we have to do is set up our system account to have permissions to access only this bucket.
 
