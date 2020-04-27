@@ -68,7 +68,7 @@ The `/r` or `/roll` command does a normal, public roll. You can use the followin
 
 `/br` or `/broll` or `/blindroll` displays the roll to the GM only (and hides it from you.)
 
-`/sr or `/selfroll` displays the roll only to you.
+`/sr` or `/selfroll` displays the roll only to you.
 
 
 ## Using Attributes
