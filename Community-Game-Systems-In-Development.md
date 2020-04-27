@@ -2,7 +2,7 @@
 <!--ts-->
 
 
-The list below is an unofficial list of game systems that are still in development.
+The list below is an unofficial list of game systems that are still a work in progress. These are in various stages of development and may or may not be useable in their current state depending on your tolerance for bugs and rough edges.
 
 
    * [Star Wars](#Star-Wars)	
