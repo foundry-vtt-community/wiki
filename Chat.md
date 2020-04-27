@@ -150,10 +150,11 @@ You can reference almost any entity in Foundry in *any* textbox in Foundry, like
 
 | Entity          | Code                                |
 | --------------- | ----------------------------------- |
-| Character/Actor | `@Actor[Character Name]` (Note there must be an actor that exists with that name. Not just a Compendium entry.)            |
+| Character/Actor | `@Actor[Character Name]` (Note there must be an actor that exists with that name. Not just a Compendium entry.)           |
 | Scene           | `@Scene[Scene Name]`                |
-| Item            | `@Item[Item Name]` (As with actor references, this refers to an item (see item sidebar). A Compendium entry isn’t enough.)                  |
+| Item            | `@Item[Item Name]` (As with actor references, this refers to an item (see item sidebar). A Compendium entry isn’t enough.)                                    |
 | Journal Entry   | `@JournalEntry[Journal Entry Name]` |
+| Compendium      | `@Compendium[Entry Name]`           |
 | Roll Table      | `@RollTable[Roll Table Name]`       |
 | Macro           | `@Macro[Macro Name]`                |
 
