@@ -73,7 +73,8 @@ The `/r` or `/roll` command does a normal, public roll. You can use the followin
 
 ## Using Attributes
 
-Your character sheet stores a number of basic attributes about your character in the Attributes tab. You should keep these up to date along with your google sheets character sheet. These allow you to use your attributes as variables in all your formulas, so when you change one of your attribute all your formulas, macros, etc update along with it automatically.
+If you are using the Simple Worldbuilding System, your character sheet stores a number of basic attributes about your character in the Attributes tab. These allow you to use your attributes as variables in all your formulas, so when you change one of your attribute all your formulas, macros, etc update along with it automatically. Most systems have special attributes for different parts of the character sheet -- you will have to reference the system for those.
+
 You can reference these attributes in your roll commands by typing @attribute, replacing the word "attribute" with the attribute key. 
 
 For an attribute with the key "init", it looks like this:
