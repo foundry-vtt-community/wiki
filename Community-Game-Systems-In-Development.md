@@ -32,7 +32,7 @@ Requires the [Special Dice Roller](https://foundry-vtt-community.github.io/wiki/
 
 ---
 
-# Powered by the apocalypse
+# Powered by the Apocalypse
 
 ## Monster of the Week
 * **Author**: U~man#2374 on Discord	
