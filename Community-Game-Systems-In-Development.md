@@ -42,7 +42,7 @@ Requires the [Special Dice Roller](https://foundry-vtt-community.github.io/wiki/
 
 ### Link(s) to Game System	
 * [https://gitlab.com/mesfoliesludiques/foundryvtt-motw](https://gitlab.com/mesfoliesludiques/foundryvtt-motw)	
-* [https://gitlab.com/mesfoliesludiques/foundryvtt-motw/-/blob/master/system.json](https://gitlab.com/mesfoliesludiques/foundryvtt-motw/-/blob/master/system.json)
+* [https://gitlab.com/mesfoliesludiques/foundryvtt-motw/-/raw/master/system.json](https://gitlab.com/mesfoliesludiques/foundryvtt-motw/-/raw/master/system.json)
 
 ---
 
