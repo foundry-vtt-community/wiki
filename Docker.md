@@ -116,27 +116,28 @@ I created a directory structure as:
     * Dockerfile
 
 ### Contents of Docker File
-`FROM node:12-alpine`
+```yaml
+FROM node:12-alpine
 
-`ENV UID=1000`
-`ENV GUID=1000`
+ENV UID=1000
+ENV GUID=1000
 
-`RUN deluser node`
-`RUN adduser -u $UID -D foundry`
+RUN deluser node
+RUN adduser -u $UID -D foundry
 
-`USER foundry`
-`RUN mkdir -p /home/foundry/data`
-`RUN mkdir -p /home/foundry/app`
+USER foundry
+RUN mkdir -p /home/foundry/data
+RUN mkdir -p /home/foundry/app
 
-`WORKDIR /home/foundry/data`
-`COPY --chown=$UID /foundrydata/ .`
+WORKDIR /home/foundry/data
+COPY --chown=$UID /foundrydata/ .
 
-`WORKDIR /home/foundry/app`
-`COPY /foundryvtt/ .`
+WORKDIR /home/foundry/app
+COPY /foundryvtt/ .
 
-`EXPOSE 80:30000`
-`CMD ["node", "/home/foundry/app/resources/app/main.js", "--headless", "--dataPath=/home/foundry/data" ]`
-
+EXPOSE 80:30000
+CMD ["node", "/home/foundry/app/resources/app/main.js", "--headless", "--dataPath=/home/foundry/data" ]
+```
 ### Docker commands
 docker build . -t {something/something} 
 after the build is finished
