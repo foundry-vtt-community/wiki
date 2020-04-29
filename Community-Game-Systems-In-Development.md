@@ -47,7 +47,7 @@ Requires the [Special Dice Roller](https://foundry-vtt-community.github.io/wiki/
 ---
 
 ## Vampire the Requiem (World of Darkness 4e)
-* **Author**: Precisi - DM me on Discord if you want to help.
+* **Author**: Precisi#0763 - DM me on Discord if you want to help.
 * **Version**: 4e
 * **Foundry VTT Compatibility**: WiP
 * **Translation Support**: English
