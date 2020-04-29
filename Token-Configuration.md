@@ -33,13 +33,13 @@ The width and height values specified here are set to a number of grid squares (
 The scale slider only changes the image scale without changing the actual space taken by the token unit. A number higher than 1 results in a bigger image while a number below 1 makes it appear smaller.
 
 # Position Tab
-You should rarely need to use this tab, as all of these settings are generally used dynamically on the map or the [Token HUD](Token-HUD).
+You should rarely need to use this tab, as all of these settings are generally used dynamically on the map or the [Token HUD](/Token-HUD).
 
 ## X & Y Coordinates
 Pretty self explanatory, these are the coordinates of the token in pixels and are updated as you move the tokens around the map. You cannot manually update them with numbers. Do note that the coordinates cover a broader area than the actual map size, as there is a bit of padding around the edges to act as a "side table" area. As such, a token set to (0,0) won't actually be in the top left corner of the map, but rather some distance beyond that.
 
 ## Elevation
-This does not have an incidence on the appearance of the token, but it does set how far "above" the map the token is (such as with flying creatures of ledges) and that number appears above the token if it is different from 0. It can be quickly adjusted via the [Token HUD](Token-HUD), but it can be useful to set a default elevation for flying creatures.
+This does not have an incidence on the appearance of the token, but it does set how far "above" the map the token is (such as with flying creatures of ledges) and that number appears above the token if it is different from 0. It can be quickly adjusted via the [Token HUD](/Token-HUD), but it can be useful to set a default elevation for flying creatures.
 
 ## Rotation Controls
 Again, the rotation field is grayed out and can only be changed on the map, using `Shift` (faster), or `Ctrl` (slower), + mousewheel to rotate the token, or by using `Shift` + `WASD` to make the token face the correct direction directly. The _Lock Rotation_ option is mainly useful for "portrait" style tokens that should not face a direction be instead stay upright.
@@ -58,7 +58,7 @@ The distance in this section is set using the scale you specified for the scene 
 This section let's you set if a token is emitting light, like in the instance of a character carrying a torch illuminating the surroundings. The setup follows the same rules as the vision fields.
 
 # Resources Tab
-This is where you can setup which resources to track for a token. This is where you can track the attributes of tokens that are not linked to a character sheet individually. Note that these can also be edited in the [Token HUD](Token-HUD) once set to be tracked.
+This is where you can setup which resources to track for a token. This is where you can track the attributes of tokens that are not linked to a character sheet individually. Note that these can also be edited in the [Token HUD](/Token-HUD) once set to be tracked.
 
 ## Display Bars
 The choices here are pretty self explanatory. You do not need to make a bar visible at all to track an attribute, though it can be useful at a glance. The first tracked attribute's bar will appear bellow the token in green, while the second (if it exists) will appear above in pale blue.
