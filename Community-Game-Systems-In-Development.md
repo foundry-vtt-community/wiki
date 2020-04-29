@@ -62,6 +62,21 @@ TBD
 All Abilities, Items, Background Details, Upgrades, Classes. etc are Foundry Items. So just drag them from the Compendium and edit if necessary.
 
 ---
+=======
+## Vampire the Requiem (World of Darkness 4e)
+* **Author**: Precisi#0763 - DM me on Discord if you want to help.
+* **Version**: 4e
+* **Foundry VTT Compatibility**: WiP
+* **Translation Support**: English
+
+### Link(s) to Game System	
+* WiP
+* WiP
+
+### Description	
+I'm starting with getting working character sheets. After that I will try to implement all the disciplines and easier dice-rolling for the exploding and counting d10s. 
+
+---
 
 # Appendix	
 
