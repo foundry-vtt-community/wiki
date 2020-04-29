@@ -1,3 +1,10 @@
+## Script Macros
+Script Macros in Foundry use the underlying [JavaScript API](https://foundryvtt.com/api) to execute various commands. The API respects the permissions of the user executing the macro, so players cannot delete your big bad evil guy for example.
+
+A community-contributed repository of Script Macros can be found here: https://github.com/foundry-vtt-community/macros
+
+Some examples of using script macros follows.
+
 ### Examples
 #### Random Table Roll 
 
