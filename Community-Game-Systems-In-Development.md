@@ -46,6 +46,23 @@ Requires the [Special Dice Roller](https://foundry-vtt-community.github.io/wiki/
 
 ---
 
+# Blades in the Dark
+
+* **Author**: megastruktur#5704 on Discord	
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.5.3+	
+* **Translation Support**: EN
+
+### Link(s) to Game System	
+* [https://github.com/megastruktur/foundryvtt-blades-in-the-dark](https://github.com/megastruktur/foundryvtt-blades-in-the-dark)	
+* [https://raw.githubusercontent.com/megastruktur/foundryvtt-blades-in-the-dark/master/system.json](https://raw.githubusercontent.com/megastruktur/foundryvtt-blades-in-the-dark/master/system.json)
+
+### Description
+TBD
+All Abilities, Items, Background Details, Upgrades, Classes. etc are Foundry Items. So just drag them from the Compendium and edit if necessary.
+
+---
+=======
 ## Vampire the Requiem (World of Darkness 4e)
 * **Author**: Precisi#0763 - DM me on Discord if you want to help.
 * **Version**: 4e
@@ -59,7 +76,7 @@ Requires the [Special Dice Roller](https://foundry-vtt-community.github.io/wiki/
 ### Description	
 I'm starting with getting working character sheets. After that I will try to implement all the disciplines and easier dice-rolling for the exploding and counting d10s. 
 
----	
+---
 
 # Appendix	
 
