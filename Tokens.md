@@ -1,2 +1,3 @@
-# [Token Configuration](Token-Configuration)  
-# [Token HUD](Token-HUD)
+# [Token Configuration](/Token-Configuration)  
+
+# [Token HUD](/Token-HUD)
