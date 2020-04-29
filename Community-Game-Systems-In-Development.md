@@ -46,6 +46,18 @@ Requires the [Special Dice Roller](https://foundry-vtt-community.github.io/wiki/
 
 ---
 
+## Vampire the Requiem (World of Darkness 4e)
+* **Author**: Precisi - DM me on Discord if you want to help.
+* **Version**: 4e
+* **Foundry VTT Compatibility**: WiP
+* **Translation Support**: English
+### Link(s) to Game System	
+* WiP
+* WiP
+### Description	
+I'm starting with getting working character sheets. After that I will try to implement all the disciplines and easier dice-rolling for the exploding and counting d10s. 
+---	
+
 # Appendix	
 
 ## Appendix A: Adding a Game System	
