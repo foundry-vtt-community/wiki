@@ -105,6 +105,7 @@ sudo docker run --restart=always --name FoundryVTT.x.x.x -p 30000:30000 \
 ```
 
 ## jakvike 
+updated version of mikysan's dockerfile.  
 Using the node version zip. Extract the contents into foundryvtt directory below. This dockerfile will copy your modules, worlds, assets, etc. into your docker image. 
 I created a directory structure as:
 * FoundryVtt
