@@ -46,6 +46,23 @@ Requires the [Special Dice Roller](https://foundry-vtt-community.github.io/wiki/
 
 ---
 
+# Blades in the Dark
+
+* **Author**: megastruktur#5704 on Discord	
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.5.3+	
+* **Translation Support**: EN
+
+### Link(s) to Game System	
+* [https://github.com/megastruktur/foundryvtt-blades-in-the-dark](https://github.com/megastruktur/foundryvtt-blades-in-the-dark)	
+* [https://raw.githubusercontent.com/megastruktur/foundryvtt-blades-in-the-dark/master/system.json](https://raw.githubusercontent.com/megastruktur/foundryvtt-blades-in-the-dark/master/system.json)
+
+### Description
+TBD
+All Abilities, Items, Background Details, Upgrades, Classes. etc are Foundry Items. So just drag them from the Compendium and edit if necessary.
+
+---
+
 # Appendix	
 
 ## Appendix A: Adding a Game System	
