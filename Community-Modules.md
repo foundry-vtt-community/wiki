@@ -11,7 +11,7 @@
       * [Calendar/Weather](#calendarweather)
       * [Chat Autoloader](#chat-autoloader)
       * [Chat Colors &amp; More](#chat-colors--more)
-      * [Combat Utility Belt (Beta)](#combat-utility-belt-beta)
+      * [Combat Utility Belt](#combat-utility-belt)
       * [Create Actors from Folder](#create-actors-from-folder)
       * [Cursor Hider](#cursor-hider)
       * [Deselection](#deselection)
