@@ -16,5 +16,5 @@ Script macros are written in JavaScript and can utilize [API](https://foundryvtt
 
 [Examples](Script-Macros)
 
-See also: [API-Learning-API](Learning API), and [API Snippets](API-Snippets) (many of them can be used in a Macros)
+See also: [Learning API](API-Learning-API), and [API Snippets](API-Snippets) (many of them can be used in a Macros)
 
