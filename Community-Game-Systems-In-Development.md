@@ -51,11 +51,14 @@ Requires the [Special Dice Roller](https://foundry-vtt-community.github.io/wiki/
 * **Version**: 4e
 * **Foundry VTT Compatibility**: WiP
 * **Translation Support**: English
+
 ### Link(s) to Game System	
 * WiP
 * WiP
+
 ### Description	
 I'm starting with getting working character sheets. After that I will try to implement all the disciplines and easier dice-rolling for the exploding and counting d10s. 
+
 ---	
 
 # Appendix	
