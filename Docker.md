@@ -140,12 +140,8 @@ EXPOSE 80:30000
 CMD ["node", "/home/foundry/app/resources/app/main.js", "--headless", "--dataPath=/home/foundry/data" ]
 ```
 ### Docker commands
-```yaml
-docker build . -t {something/something}
-```
+```yaml docker build . -t {something/something}```
 
 after the build is finished
 
-```yaml
-docker run --rm -it  -p 80:30000/tcp {something/something}:latest
-```
+```yam docker run --rm -it  -p 80:30000/tcp {something/something}:latest```
