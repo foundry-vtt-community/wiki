@@ -144,4 +144,4 @@ CMD ["node", "/home/foundry/app/resources/app/main.js", "--headless", "--dataPat
 
 after the build is finished
 
-```yam docker run --rm -it  -p 80:30000/tcp {something/something}:latest```
+```yaml docker run --rm -it  -p 80:30000/tcp {something/something}:latest```
