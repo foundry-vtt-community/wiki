@@ -62,7 +62,7 @@ TBD
 All Abilities, Items, Background Details, Upgrades, Classes. etc are Foundry Items. So just drag them from the Compendium and edit if necessary.
 
 ---
-=======
+
 ## Vampire the Requiem (World of Darkness 4e)
 * **Author**: Precisi#0763 - DM me on Discord if you want to help.
 * **Version**: 4e
@@ -75,6 +75,14 @@ All Abilities, Items, Background Details, Upgrades, Classes. etc are Foundry Ite
 
 ### Description	
 I'm starting with getting working character sheets. After that I will try to implement all the disciplines and easier dice-rolling for the exploding and counting d10s. 
+
+---
+
+## Star Trek Adventures (2d20)
+* **Author**: NickEast#1311
+
+### Description
+The Modiphius 2d20-based RPG _Star Trek Adventures_ is in development for the Foundry VTT. This system will also be accompanied by a base system to build other 2d20 games on it. For the time begin however, the system remains under wraps pending requests for more formal permission from Modiphius.
 
 ---
 
