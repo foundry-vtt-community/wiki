@@ -117,7 +117,7 @@ I created a directory structure as:
     * Dockerfile
 
 ### Contents of Docker File
-```yaml
+```
 FROM node:12-alpine
 
 ENV UID=1000
