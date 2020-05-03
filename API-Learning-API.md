@@ -1,6 +1,6 @@
 # Learning API
 
-Foundry VTT API can be used to write [[script macros|Script-Macros]] (that can be used from hotbar or from chat) or to write your own [extension modules](/Community-Modules) or even your own [system implementations](/System-Development-for-Beginners).
+Foundry VTT API can be used to write [[script macros|Script-Macros]] (that can be used from hotbar or from chat) or to write your own [[extension modules|Community-Modules]] or even your own [[system implementations|System-Development-for-Beginners)]].
 
 There are many objects available in [Foundry API](https://foundryvtt.com/api/) with a lot of attributes and methods. But in the simplest case you'll want to write some macro to do something of the following:
 * manipulate tokens on map or manipulate data in Actor Sheets of those tokens.
@@ -28,13 +28,13 @@ Actual examples to update data of `token` or of `actor`:
 
 ## Permissions
 
-Only GM can change data of ANY token. Other users are usually very limited in what they can change. This can be configured on a per-token basis in the settings of token. Other objects have permissions too, so even a [Measurement Template](/Templates) has permissions (currenlty non configurable), so somthing created by master often can't be changed by other users. This restrictions apply to Macros that players run.
+Only GM can change data of ANY token. Other users are usually very limited in what they can change. This can be configured on a per-token basis in the settings of token. Other objects have permissions too, so even a [[Measurement Template|Templates]] has permissions (currenlty non configurable), so somthing created by master often can't be changed by other users. This restrictions apply to Macros that players run.
 
-How to "fix" this: either edit permissions for all the objects, or implement some "messaging" module that will handles specially formed whispers sent to GM and do some stuff in response to this. For example script-heavy map that uses [TriggerHappy](/Community-Modules#trigger-happy) may use this approach to send whispers to GM when player steps on Trap. On the side of GM that "potentially useful module" will parse the message and determine what macro to call (potentially rechecking conditions). In practice: it's easier to configure permissions than bother implementing such a module.
+How to "fix" this: either edit permissions for all the objects, or implement some "messaging" module that will handles specially formed whispers sent to GM and do some stuff in response to this. For example script-heavy map that uses [[TriggerHappy|Community-Modules#trigger-happy]] may use this approach to send whispers to GM when player steps on Trap. On the side of GM that "potentially useful module" will parse the message and determine what macro to call (potentially rechecking conditions). In practice: it's easier to configure permissions than bother implementing such a module.
 
 ## Actors and tokens
 
-Actor represents Characters or NPCs that you create in the [Actors directory](/Actors) of the [Sidebar](/Sidebar), or to be more precise, they only represent "data" of these objects (details later) that generally is accessible through character sheet.
+Actor represents Characters or NPCs that you create in the [[Actors directory|Actors]] of the [[Sidebar|Sidebar]], or to be more precise, they only represent "data" of these objects (details later) that generally is accessible through character sheet.
 
 Tokens represent tokens placed on the map. In the settings of token you can see a "Link actors data" checkbox. Let's call tokenks where this checkbox is set as "linked tokens", and in opposite case — "unlinked tokens".
 
