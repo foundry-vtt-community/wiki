@@ -1,6 +1,6 @@
 # Learning API
 
-Foundry VTT API can be used to write [script macros](/Script-Macros) (that can be used from hotbar or from chat) or to write your own [extension modules](/Community-Modules) or even your own [system implementations](/System-Development-for-Beginners).
+Foundry VTT API can be used to write [[script macros|Script-Macros]] (that can be used from hotbar or from chat) or to write your own [extension modules](/Community-Modules) or even your own [system implementations](/System-Development-for-Beginners).
 
 There are many objects available in [Foundry API](https://foundryvtt.com/api/) with a lot of attributes and methods. But in the simplest case you'll want to write some macro to do something of the following:
 * manipulate tokens on map or manipulate data in Actor Sheets of those tokens.
