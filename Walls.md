@@ -41,7 +41,12 @@ Global sounds are heard by all tokens through all wall types.
 
 **Edit a Wall Segment**: By double-clicking a wall segment point shows the wall segment properties.  You can change the properties of an existing wall in that popup screen.  The color of the wall segment will adjust to the appropriate color.
 
-**Edit multiple Wall Segments**: Hold down the `SHIFT` key while clicking on multiple wall segments' points. Double-click
+**Select multiple Wall Segments**: Use one or multiple of these methods:
+..* Hold down the `SHIFT` key while clicking on multiple wall segment points.
+..* Hold down the `ALT` key and click on a wall segment point to select a wall-chain (Wall segments connected to each other).
+..* Use the rectangular selection tool to select multiple wall segments.
+
+**Edit multiple Wall Segments**: First select multiple wall segments then double-click
 any wall segment point to bring up the properties which you can change for all of the selected wall segments.
 
 **Directional Wall Segments**: Wall segments can be directional (left/right/both) to block is various ways.  Edit the wall segment to modify this option.
