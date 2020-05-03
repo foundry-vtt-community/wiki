@@ -10,6 +10,25 @@
 
 Foundry media, such as music and artwork, that can be legally shared.
 
+## GAMEAUDIOGDC BUNDLE
+
+* **Artist**: various
+
+### Link(s) to Media
+* [https://sonniss.com/gameaudiogdc2016/](https://sonniss.com/gameaudiogdc2016/)
+* [https://sonniss.com/gameaudiogdc2017/](https://sonniss.com/gameaudiogdc2017/)
+* [https://sonniss.com/gameaudiogdc18/](https://sonniss.com/gameaudiogdc18/)
+* [https://sonniss.com/gameaudiogdc19/](https://sonniss.com/gameaudiogdc19/)
+
+### Description
+90 GB+ of "high-quality sound effects from many of the best sound recordists and
+designers in the world", *soniss.com*
+Everything is royalty-free and commercially usable.
+The files are uncompressed and will need to be compressed to be used
+effectively in Foundry VTT.
+
+---
+
 # Appendix
 
 ## Appendix A: Adding Media
