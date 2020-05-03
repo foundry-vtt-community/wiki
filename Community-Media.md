@@ -23,7 +23,7 @@ Foundry media, such as music and artwork, that can be legally shared.
 
 Compressed files by a community member:
 * [Google Drive Download](https://drive.google.com/file/d/1CCWQm7lGDHR0ssMUCKC-lWU0CXTBoDQ1/view?usp=sharing)
-
+Note: *always scan for viruses*
 ### Description
 90 GB+ of "high-quality sound effects from many of the best sound recordists and
 designers in the world", *soniss.com*
