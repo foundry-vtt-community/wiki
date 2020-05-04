@@ -205,6 +205,7 @@ async function processCombat(combat) {
 ## Ask for some input using Dialog
 
 [Dialog](https://foundryvtt.com/api/Dialog.html) example:
+
 ```js
 
 // Return distance from 2 tokens or ask it with dialog. 
