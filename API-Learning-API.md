@@ -1,6 +1,6 @@
 # Learning API
 
-Foundry VTT API can be used to write [script macros](/Script-Macros) (that can be used from hotbar or from chat) or to write your own [extension modules](/Community-Modules) or even your own [system implementations](/System-Development-for-Beginners).
+Foundry VTT API can be used to write [script macros](../Script-Macros) (that can be used from hotbar or from chat) or to write your own [extension modules](../Community-Modules) or even your own [system implementations](../System-Development-for-Beginners).
 
 There are many objects available in [Foundry API](https://foundryvtt.com/api/) with a lot of attributes and methods. But in the simplest case you'll want to write some macro to do something of the following:
 * manipulate tokens on map or manipulate data in Actor Sheets of those tokens.
@@ -28,13 +28,13 @@ Actual examples to update data of `token` or of `actor`:
 
 ## Permissions
 
-Only GM can change data of ANY token. Other users are usually very limited in what they can change. This can be configured on a per-token basis in the settings of token. Other objects have permissions too, so even a [Measurement Template](/Templates) has permissions (currenlty non configurable), so somthing created by master often can't be changed by other users. This restrictions apply to Macros that players run.
+Only GM can change data of ANY token. Other users are usually very limited in what they can change. This can be configured on a per-token basis in the settings of token. Other objects have permissions too, so even a [Measurement Template](../Templates) has permissions (currenlty non configurable), so somthing created by master often can't be changed by other users. This restrictions apply to Macros that players run.
 
-How to "fix" this: either edit permissions for all the objects, or implement some "messaging" module that will handles specially formed whispers sent to GM and do some stuff in response to this. For example script-heavy map that uses [TriggerHappy](/Community-Modules#trigger-happy) may use this approach to send whispers to GM when player steps on Trap. On the side of GM that "potentially useful module" will parse the message and determine what macro to call (potentially rechecking conditions). In practice: it's easier to configure permissions than bother implementing such a module.
+How to "fix" this: either edit permissions for all the objects, or implement some "messaging" module that will handles specially formed whispers sent to GM and do some stuff in response to this. For example script-heavy map that uses [TriggerHappy](../Community-Modules#trigger-happy) may use this approach to send whispers to GM when player steps on Trap. On the side of GM that "potentially useful module" will parse the message and determine what macro to call (potentially rechecking conditions). In practice: it's easier to configure permissions than bother implementing such a module.
 
 ## Actors and tokens
 
-Actor represents Characters or NPCs that you create in the [Actors directory](/Actors) of the [Sidebar](/Sidebar), or to be more precise, they only represent "data" of these objects (details later) that generally is accessible through character sheet.
+Actor represents Characters or NPCs that you create in the [Actors directory](../Actors) of the [Sidebar](../Sidebar), or to be more precise, they only represent "data" of these objects (details later) that generally is accessible through character sheet.
 
 Tokens represent tokens placed on the map. In the settings of token you can see a "Link actors data" checkbox. Let's call tokenks where this checkbox is set as "linked tokens", and in opposite case — "unlinked tokens".
 
@@ -264,81 +264,5 @@ roll = new Roll("1d20 + @attributes.str.mod + @strangeMacroishBonus", rollData).
     * `initiative`, `resource`, `active`.
   * `game.combat.combatants`: all "Combatant" objects of current combat.
 * distance between 2 tokens: [`canvas.grid.measureDistance(fromToken, toToken, {gridSpaces: True})`](https://foundryvtt.com/api/GridLayer.html#measureDistance)
-* Do something based on rolled initiative for active combat:
-```js
 
-async function processCombat(combat) {
-  var combat = combat ? combat : game.combat;  // curren combat of current scene by default
-
-  // Will change something based on difference between their initiative and best initiative:
-  const topInit = parseFloat(combat.turns[0].initiative);
-
-  // let's do this:
-  await Promise.all(combat.turns.map(async (turn) => {
-    const c = this.getCombatant(turn._id);
-    if ( !c || ! c.actor ) return ;
-    // Doing "something" (you probably should replace next part:
-    const newValue = Math.max(
-      0,
-      c.actor.data.data.resources.time.max - Math.round((topInit-parseFloat(turn.initiative))/3)
-    );
-    if ( c.actor.data.data.resources.time.value != newValue ) {
-      return c.actor.update({"data.resources.time.value": newValue});
-    };
-  }));
-}
-
-```
-* [Dialog](https://foundryvtt.com/api/Dialog.html). Example:
-```js
-
-// Return distance from 2 tokens or ask it with dialog. 
-// For example you can call it like distance, somethingElse = promptDistanceNSomethingElse(canvas.tokens.controlled[0], game.user.targets[0])
-export async function promptDistanceNSomethingElse(fromToken, toToken) {
-  var distance = 0,
-      somethingElse = 0;
-  if (!fromToken) {
-    ui.notifications.error('promptDistanceNSomethingElse needs at least fromActor arg');
-    throw "bad thing happened";
-  }
-  if ( toToken ) {
-    distance = canvas.grid.measureDistance(fromToken, toToken, {gridSpaces: false}) - 1; // -1 to have zero distance between tokens in neighbour grid cells.
-    distance = Math.round(distance*100)/100;
-    somethingElse = toToken.attributes.magicSecrets.somethingElse.value;
-  } else {
-    const content = `
-This action needs to know distance and somethingElse.
-<div class="form-group dialog distance-prompt">
-  <label>distance:</label> <input type="number" name="distance" value="0"/>
-</div>
-<div class="form-group dialog distance-prompt">
-  <label>somethingElse:</label> <input type="number" name="somethingElse" value="0"/>
-</div>
-    `;
-    [distance, somethingElse] = await new Promise((resolve, reject) => {
-      new Dialog({
-        title: "Distance",
-        content: content,
-        default: 'ok',
-        buttons: {
-          ok: {
-            icon: '<i class="fas fa-check"></i>',
-            label: 'ok',
-            default: true,
-            callback: html => {
-              resolve([
-                html.find('.distance-prompt.dialog [name="distance"]')[0].value,
-                html.find('.distance-prompt.dialog [name="somethingElse"]')[0].value,
-              ]);
-            },
-          }
-        }
-      }).render(true);
-    });
-    distance = parseInt(distance ? distance : 0);
-    somethingElse = parseInt(somethingElse ? somethingElse : 0);
-  }
-  return [distance, somethingElse];
-}
-
-```
+There are a lot of [other useful snippets](../API-Snippets).

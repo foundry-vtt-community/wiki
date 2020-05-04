@@ -156,3 +156,103 @@ Hooks.on("canvasPan", (canvas, options) => {
 ```js
 AudioHelper.play({src: "audio/SFX/Some File.mp3", volume: 0.8, autoplay: true, loop: false}, true);
 ```
+
+## Combat
+
+### Starting combat
+
+`token.toggleCombat()` or:
+```js
+// having `token` variable:
+combat = await game.combats.object.create({scene: canvas.scene._id, active: true});
+await combat.createEmbeddedEntity("Combatant", [{tokenId: token.id, hidden: token.data.hidden}]);
+```
+```js
+// existing combat from sidebar:
+combat = ui.combat.combat
+```
+
+### Do something based on rolled initiative for active combat
+
+```js
+
+async function processCombat(combat) {
+  var combat = combat ? combat : game.combat;  // curren combat of current scene by default
+
+  // Will change something based on difference between their initiative and best initiative:
+  const topInit = parseFloat(combat.turns[0].initiative);
+
+  // let's do this:
+  await Promise.all(combat.turns.map(async (turn) => {
+    const c = this.getCombatant(turn._id);
+    if ( !c || ! c.actor ) return ;
+    // Doing "something" (you probably should replace next part:
+    const newValue = Math.max(
+      0,
+      c.actor.data.data.resources.time.max - Math.round((topInit-parseFloat(turn.initiative))/3)
+    );
+    if ( c.actor.data.data.resources.time.value != newValue ) {
+      return c.actor.update({"data.resources.time.value": newValue});
+    };
+  }));
+}
+```
+
+## Simple distance between 2 tokens
+
+[`canvas.grid.measureDistance(fromToken, toToken, {gridSpaces: True})`](https://foundryvtt.com/api/GridLayer.html#measureDistance)
+
+## Ask for some input using Dialog
+
+[Dialog](https://foundryvtt.com/api/Dialog.html) example:
+```js
+
+// Return distance from 2 tokens or ask it with dialog. 
+// For example you can call it like distance, somethingElse = promptDistanceNSomethingElse(canvas.tokens.controlled[0], game.user.targets[0])
+export async function promptDistanceNSomethingElse(fromToken, toToken) {
+  var distance = 0,
+      somethingElse = 0;
+  if (!fromToken) {
+    ui.notifications.error('promptDistanceNSomethingElse needs at least fromActor arg');
+    throw "bad thing happened";
+  }
+  if ( toToken ) {
+    distance = canvas.grid.measureDistance(fromToken, toToken, {gridSpaces: false}) - 1; // -1 to have zero distance between tokens in neighbour grid cells.
+    distance = Math.round(distance*100)/100;
+    somethingElse = toToken.attributes.magicSecrets.somethingElse.value;
+  } else {
+    const content = `
+This action needs to know distance and somethingElse.
+<div class="form-group dialog distance-prompt">
+  <label>distance:</label> <input type="number" name="distance" value="0"/>
+</div>
+<div class="form-group dialog distance-prompt">
+  <label>somethingElse:</label> <input type="number" name="somethingElse" value="0"/>
+</div>
+    `;
+    [distance, somethingElse] = await new Promise((resolve, reject) => {
+      new Dialog({
+        title: "Distance",
+        content: content,
+        default: 'ok',
+        buttons: {
+          ok: {
+            icon: '<i class="fas fa-check"></i>',
+            label: 'ok',
+            default: true,
+            callback: html => {
+              resolve([
+                html.find('.distance-prompt.dialog [name="distance"]')[0].value,
+                html.find('.distance-prompt.dialog [name="somethingElse"]')[0].value,
+              ]);
+            },
+          }
+        }
+      }).render(true);
+    });
+    distance = parseInt(distance ? distance : 0);
+    somethingElse = parseInt(somethingElse ? somethingElse : 0);
+  }
+  return [distance, somethingElse];
+}
+```
