@@ -256,3 +256,19 @@ export async function promptDistanceNSomethingElse(fromToken, toToken) {
   return [distance, somethingElse];
 }
 ```
+
+
+## Specific to d&d 5
+
+### Assorted methods that work both on character-actors and on npc-actors:
+
+```js
+actor.useSpell(
+  actor.items.find(i=>{return i.data.type == "spell" && i.name = "Some SpellName"}),
+  {configureDialog: true}
+);
+actor.rollSkill("med"); // roll medicine
+actor.rollAbilityTest("str");
+actor.rollAbilitySave("dex");
+actor.rollDeathSave();
+```
