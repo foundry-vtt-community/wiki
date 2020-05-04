@@ -223,13 +223,13 @@ export async function promptDistanceNSomethingElse(fromToken, toToken) {
     somethingElse = toToken.attributes.magicSecrets.somethingElse.value;
   } else {
     const content = `
-This action needs to know distance and somethingElse.
-<div class="form-group dialog distance-prompt">
-  <label>distance:</label> <input type="number" name="distance" value="0"/>
-</div>
-<div class="form-group dialog distance-prompt">
-  <label>somethingElse:</label> <input type="number" name="somethingElse" value="0"/>
-</div>
+    This action needs to know distance and somethingElse.
+    <div class="form-group dialog distance-prompt">
+      <label>distance:</label> <input type="number" name="distance" value="0"/>
+    </div>
+    <div class="form-group dialog distance-prompt">
+      <label>somethingElse:</label> <input type="number" name="somethingElse" value="0"/>
+    </div>
     `;
     [distance, somethingElse] = await new Promise((resolve, reject) => {
       new Dialog({
