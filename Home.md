@@ -110,6 +110,8 @@
 
 # [API](API)
 
+## [Learning API](API-Learning-API)
+
 ## [API Snippets](API-Snippets)
 
 # [Community Contributed Content](Community-Contributed-Content)
