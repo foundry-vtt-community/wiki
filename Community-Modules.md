@@ -1107,7 +1107,7 @@ Once a token is selected a path will be drawn from the token to the user's mouse
 * **Foundry VTT Compatibility**: 0.5.5+
 * **System Compatibility (If applicable)**: Universal
 * **Module Requirement(s)**: None
-* **Module Conflicts**: None
+* **Module Conflicts**: Anything overrides `Token.prototype._drawNameplate`
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
