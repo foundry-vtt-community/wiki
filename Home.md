@@ -18,8 +18,6 @@
 
 ### [FreeBSD](FreeBSD)
 
-### [Docker](Docker)
-
 ## [Self-hosted Cloud](Self-hosted-Cloud)
 
 ### [Ubuntu VM](Ubuntu-VM)
@@ -27,6 +25,8 @@
 ### [DigitalOcean Initialization Script](DigitalOcean-Initialization-Script)
 
 ### [Self Hosting on AWS](Self-Hosting-on-AWS)
+
+## [Self-hosted Docker](Docker)
 
 ## [Connecting](Connecting)
 
