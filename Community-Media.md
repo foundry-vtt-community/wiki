@@ -3,6 +3,7 @@
    * [Foundry Media](#foundry-media)
    * [Maps](#maps)
       * [Eightfold](#eightfold)
+      * [Neutral Party](#neutral-party)
    * [Animated Maps](#animated-maps)
    * [Music and Audio](#music-and-audio)
       * [GAMEAUDIOGDC BUNDLE](#gameaudiogdc-bundle)
@@ -28,6 +29,20 @@ Foundry media, such as music and artwork, that can be legally shared.
 "Eightfold Paper is creating Battlemaps and Item Cards for Tabletop RPGs" *Eightfold Paper, Patreon*
 
 ![https://i.imgur.com/T1Hu9ZM.jpg](https://i.imgur.com/T1Hu9ZM.jpg)
+
+---
+
+## Neutral Party
+
+* **Artist**: Neutral Party
+
+### Link(s) to Media
+* [https://www.patreon.com/neutralparty/posts](https://www.patreon.com/neutralparty/posts)
+
+### Description
+"Neutral Party is creating RPG Maps", *Neutral Party, Patreon*.
+
+![https://i.imgur.com/nEnvCIZ.jpg](https://i.imgur.com/nEnvCIZ.jpg)
 
 ---
 
