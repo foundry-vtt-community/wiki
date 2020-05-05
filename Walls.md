@@ -43,7 +43,7 @@ Global sounds are heard by all tokens through all wall types.
 
 **Select multiple Wall Segments**: Use one or multiple of these methods:
 * Hold down the `SHIFT` key while clicking on multiple wall segment points.
-* Hold down the `ALT` key and click on a wall segment point to select a wall-chain (Wall segments connected to each other).
+* Hold down the `ALT` key and click on a wall segment point to select a wall-chain (All wall segments connected to each other).
 * Use the rectangular selection tool to select multiple wall segments.
 
 **Edit multiple Wall Segments**: First select multiple wall segments then double-click
