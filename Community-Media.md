@@ -4,6 +4,7 @@
    * [Free Media](#free-media)
       * [Map-Packs](#map-packs)
       * [Tokens](#tokens)
+      * [Sound and Music](#sound-and-music)
    * [Maps](#maps)
       * [2-Minute Tabletop](#2-minute-tabletop)
       * [Afternoonmaps](#afternoonmaps)
@@ -41,15 +42,21 @@ A short overview of free to use vtt media. Note that a lot of other sources on t
 
 These packs offer decals and tiles for map creation.
 
-* [Forgotten Adventures](https://www.forgotten-adventures.net/live-gallery/) Note: You can use the Google Drive link on the site for easy access.
+* [Forgotten Adventures](https://www.forgotten-adventures.net/live-gallery/): Note: You can use the Google Drive link on the site for easy access.
 
 ## Tokens
 
 These packs offer tokens for use in your vtt games. Note: You can use the Google Drive link on the site for easy access.
 
-* [Forgotten Adventures](https://www.forgotten-adventures.net/live-gallery/) Note: You can use the Google Drive link on the site for easy access.
+* [Forgotten Adventures](https://www.forgotten-adventures.net/live-gallery/): Note: You can use the Google Drive link on the site for easy access.
 
 * [Devin Nights Token Packs 1-20](https://immortalnights.com/tokensite/?product=all-free-tokens-in-one-file)
+
+## Sound and Music
+
+Free sound and music files for your vtt game.
+
+* [Gameaudio GDC Bundle](#gameaudiogdc-bundle): A huge amount of high quality sound files. 
 
 # Maps
 
