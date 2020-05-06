@@ -1,6 +1,9 @@
 <!--tl=2-->
 <!--ts-->
    * [Foundry Media](#foundry-media)
+   * [Free Media](#free-media)
+      * [Map-Packs](#map-packs)
+      * [Tokens](#tokens)
    * [Maps](#maps)
       * [2-Minute Tabletop](#2-minute-tabletop)
       * [Afternoonmaps](#afternoonmaps)
@@ -29,6 +32,24 @@
 # Foundry Media
 
 Foundry media, such as music and artwork, that can be legally shared.
+
+# Free Media
+
+A short overview of free to use vtt media. Note that a lot of other sources on this page might also be free or offer free media.
+
+## Map-Packs
+
+These packs offer decals and tiles for map creation.
+
+* [Forgotten Adventures](https://www.forgotten-adventures.net/live-gallery/) Note: You can use the Google Drive link on the site for easy access.
+
+## Tokens
+
+These packs offer tokens for use in your vtt games. Note: You can use the Google Drive link on the site for easy access.
+
+* [Forgotten Adventures](https://www.forgotten-adventures.net/live-gallery/) Note: You can use the Google Drive link on the site for easy access.
+
+* [Devin Nights Token Packs 1-20](https://immortalnights.com/tokensite/?product=all-free-tokens-in-one-file)
 
 # Maps
 
