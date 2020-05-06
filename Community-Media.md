@@ -44,6 +44,8 @@ These packs offer decals and tiles for map creation.
 
 * [Forgotten Adventures](https://www.forgotten-adventures.net/live-gallery/): Note: You can use the Google Drive link on the site for easy access.
 
+* [Fantastic Maps](http://www.fantasticmaps.com/free-stuff/): Tiles and Maps
+
 ## Tokens
 
 These packs offer tokens for use in your vtt games. Note: You can use the Google Drive link on the site for easy access.
