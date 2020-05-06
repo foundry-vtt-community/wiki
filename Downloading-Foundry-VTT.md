@@ -1,4 +1,4 @@
-While Foundry Virtual Tabletop is in Beta, it is distributed via download links from the [official Pateron](https://www.patreon.com/foundryvtt/overview) page.
+While Foundry Virtual Tabletop is in Beta, it is distributed via download links from the [official Patreon](https://www.patreon.com/foundryvtt/overview) page.
 
 To search all releases of Foundry, use the following filter URL: [https://www.patreon.com/foundryvtt/posts?tag=key](https://www.patreon.com/foundryvtt/posts?tag=key)
 
