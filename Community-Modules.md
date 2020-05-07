@@ -52,7 +52,7 @@
       * [Scaled Labels](#scaled-labels)
       * [Search Anywhere](#search-anywhere)
       * [Skycons](#skycons)
-      * [Speaker Stats] (#speaker-stats)
+      * [Speaker Stats](#speaker-stats)
       * [Squeaker](#squeaker)
       * [SVG Loader](#svg-loader)
       * [Teleport](#teleport)
@@ -1166,8 +1166,8 @@ Save/restore window position whem minimizing/maximizing.
 * **Translation Support**: English (full)
 
 ### Link(s) to Module
-* https://gitlab.com/jvir/foundryvtt-speakerstats
-* https://gitlab.com/jvir/foundryvtt-speakerstats/-/raw/master/module.json
+* [https://gitlab.com/jvir/foundryvtt-speakerstats]
+* Manifest: [https://gitlab.com/jvir/foundryvtt-speakerstats/-/raw/master/module.json]
 
 ### Description
 This FoundryVTT Module will add an button to the GM toolbar that allows to GM visualize the time spoken by each user as chat message.
