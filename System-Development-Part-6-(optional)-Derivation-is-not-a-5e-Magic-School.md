@@ -292,10 +292,9 @@ While wrapping the values in **Number** is not actually necessary here, it does 
 
 In any div on your character sheet’s HTML, add the following:
 
-  
-
-    Testing our Defense Derived: {{data.derived.defense.value}}
-    
+```
+Testing our Defense Derived: {{data.derived.defense.value}}
+```   
       
 
 If it worked, when you refresh your sheet, and you should see “Testing Our Defense Derived:” If the value is 0, it **very likely** won’t appear on your character sheet as anything but that. So let’s change our Agility score to a number. After it changes, the value should appear after our “...Derived:”
