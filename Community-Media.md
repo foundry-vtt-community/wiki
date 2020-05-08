@@ -19,12 +19,20 @@
       * [Maphammer](#maphammer)
       * [Neutral Party](#neutral-party)
       * [PogS Props](#pogs-props)
+      * [The Drafting Table](#the-drafting-table)
    * [Animated Maps](#animated-maps)
       * [Animated Dungeon Maps](#animated-dungeon-maps)
       * [Dynamic Dungeons](#dynamic-dungeons)
       * [Living Realms](#living-realms)
    * [Music and Audio](#music-and-audio)
-      * [GAMEAUDIOGDC BUNDLE](#gameaudiogdc-bundle)
+      * [Adventure Music](#adventure-music)
+      * [\[Bundle\] GAMEAUDIOGDC BUNDLE](#bundle-gameaudiogdc-bundle)
+      * [Michael Ghelfi](#michael-ghelfi)
+      * [Music d20](#music-d20)
+      * [Sword Coast Soundscapes](#sword-coast-soundscapes)
+   * [Other](#other)
+      * [Game-icons.net](#game-iconsnet)
+      * [\[Bundle\] WOW-Icons](#bundle-wow-icons)
    * [Appendix](#appendix)
       * [Appendix A: Adding Media](#appendix-a-adding-media)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -203,6 +211,18 @@ is creating Battlemaps, maps, tokens, stuff for RPGs", *PogS Props, Patreon*
 
 ---
 
+## The Drafting Table
+
+"The Drafting Table
+is creating Map assets, battlemaps, RPG Maps, and more!", *The Drafting Table, Patreon*
+
+### Link(s) to Media
+* [Patreon](https://www.patreon.com/draftingtable)
+
+![https://i.imgur.com/SABMeq7.jpg](https://i.imgur.com/SABMeq7.jpg)
+
+---
+
 # Animated Maps
 
 ## Animated Dungeon Maps
@@ -246,7 +266,80 @@ is creating Animated Maps for Tabletop RPG Games", *Living Realms, Patreon*
 
 Music and ambient sounds for your tabletop game.
 
-## GAMEAUDIOGDC BUNDLE
+## Adventure Music
+
+"Adventure Music is creating Instrumental Music for Dnd, Pathfinder and other
+RPG's", *Adventure Music, Patreon*
+
+### Link(s) to Media
+* [Patreon](https://www.patreon.com/adventuremusicjr)
+
+![https://imgur.com/YW9i7ni](https://i.imgur.com/YW9i7ni.jpg)
+
+---
+
+## Michael Ghelfi
+
+"My name is Michael Ghelfi and I'm a self-taught music and ambiences composer
+from Switzerland. [...]. I'm working on
+creating new music albums and expanding my RPG ambiences library to make it the
+biggest, the fullest and the most immersive ambience library ever, and for
+free.", *Michael Ghelfi, Michael Ghalfi Official Website*
+
+### Link(s) to Media
+* [Creator](https://michaelghelfi.com/)
+* [Bandcamp](https://michaelghelfi.bandcamp.com/)
+* [Youtube](https://www.youtube.com/channel/UCDed9jQ1Y1gKeyjvkyFGkCA)
+* [Patreon](https://www.patreon.com/MichaelGhelfi)
+
+![https://i.imgur.com/5Patpf9.jpg](https://i.imgur.com/5Patpf9.jpg)
+
+---
+
+## Music d20
+
+"My name is Will Savino, and when I'm not creating music and sound effects for
+video games, I'm a tabletop DM. I know how important audio can be for setting
+the mood of your adventures, and over time, I've created enough music for my own
+players that I figured I could share this audio with other tabletop DMs and
+parties." *Will Savino, Patreon*
+
+### Link(s) to Media
+* [Patreon](https://www.patreon.com/musicd20)
+
+![https://i.imgur.com/Ey0Tvcs.jpg](https://i.imgur.com/Ey0Tvcs.jpg)
+
+---
+
+## Sword Coast Soundscapes
+
+"Sword Coast Soundscapes
+is creating Ambient Soundscapes", *Sword Coast Soundscapes, Patreon*
+
+### Link(s) to Media
+* [Patreon](https://www.patreon.com/swordcoastsoundscapes)
+* [Bandcamp](https://swordcoastsoundscapes.bandcamp.com/)
+* [Youtube](https://www.youtube.com/channel/UCUGy8GD5oY4EX9awX4FSqBw)
+
+![https://i.imgur.com/fu3XtXg.jpg](https://i.imgur.com/fu3XtXg.jpg)
+
+---
+
+## Vindsvept
+
+"Vindsvept
+is creating Fantasy Music", *Vindsvept, Patreon*
+
+### Link(s) to Media
+* [Patreon](https://www.patreon.com/Vindsvept)
+* [Bandcamp](https://vindsvept.bandcamp.com/)
+* [Youtube](https://www.youtube.com/channel/UCfSUheoljDlGDjerRylO4Nw)
+
+![https://i.imgur.com/PRnfIn2.jpg](https://i.imgur.com/PRnfIn2.jpg)
+
+---
+
+## [Bundle] GAMEAUDIOGDC BUNDLE
 
 90 GB+ of "high-quality sound effects from many of the best sound recordists and
 designers in the world", *soniss.com*.
@@ -267,6 +360,35 @@ Compressed files by a community member:
 Note: *always scan for viruses*
 
 ---
+
+# Other
+
+## Game-icons.net
+
+More then 3800 free icons for your games. All in SVG.
+
+### Link(s) to Media
+* [Game-icons.net](https://game-icons.net/)
+
+![https://i.imgur.com/YTvfY9p.png](https://i.imgur.com/YTvfY9p.png)
+
+---
+
+## [Bundle] WOW-Icons
+
+2692 icons from World of Warcraft.
+
+Note: You will need to use a BLPNG Converter to convert the internally used BLP
+file format into generally usable PNG images.
+
+There is a dictionary available. It's created by the vtta-iconizer
+community and can be used to quickly search through the icons by keywords.
+
+### Link(s) to Media
+* [Icons](https://www.wowinterface.com/downloads/info24559-CleanIcons-ThinFanUpdate.html)
+* [Converter](https://www.wowinterface.com/downloads/info22128-BLPNGConverter.html)
+* [Dictionary](https://www.vttassets.com/assets/vtta-iconizer)
+
 
 # Appendix
 
