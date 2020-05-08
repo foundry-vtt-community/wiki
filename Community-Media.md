@@ -54,6 +54,9 @@ A short overview of free to use vtt media. Note that a lot of other sources on t
    * [Devin Nights Token Packs 1-20](https://immortalnights.com/tokensite/?product=all-free-tokens-in-one-file)
 * **Sound and Music**
    * [Gameaudio GDC Bundle](#gameaudiogdc-bundle): A huge amount of high quality sound files. 
+* **Icons**
+   * [Game-icons.net](#game-iconsnet)
+   * [\[Bundle\] WOW-Icons](#bundle-wow-icons)
 
 # Maps
 
