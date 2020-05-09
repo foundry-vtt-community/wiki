@@ -82,88 +82,63 @@ if(messageContent !== '') {
 Written by @Erogroth#7134 using @Felix#6196's code as a base along with some help from him as well.
 
 ### Rage toggle for inhabited character
-This rather complex macro enables toggling the barbarian rage for a character. It adds damage resistance for bludgeoning, piercing and slashing, and adds the rage bonus (as determined by the barbarian class level) to any items with melee weapon damage.
+This rather complex macro enables toggling the barbarian rage for a character. It adds damage resistance for bludgeoning, piercing and slashing, and adds the rage bonus (as determined by the barbarian class level) to the special traits.
 The character in question has to have a class called "Barbarian" with the specific level, since that is what's used to determin the damage bonus
 Written by Felix#6196, feel free to message if there are any questions.
 ```js
-// use the Actor the current user chose to represent
-let actor = game.user.character;
-// get the barbarian class item
-let barb = actor.items.find(i => i.name === 'Barbarian');
+let macroActor = game.user.character;
+let barb = macroActor.items.find(i => i.name === 'Barbarian');
 if (barb !== undefined) {
     let chatMsg = '';
     let enabled = false;
-	// store the state of the rage toggle in flags
-    if (actor.data.flags.rageMacro !== null && actor.data.flags.rageMacro !== undefined) {
+    if (macroActor.data.flags.rageMacro !== null && macroActor.data.flags.rageMacro !== undefined) {
         enabled = true;
     }
-	// if rage is active, disable it
     if (enabled) {
-        chatMsg = `${actor.name} is no longer raging.`;
+        chatMsg = `${macroActor.name} is no longer raging.`;
 
         // reset resistances
         let obj = {};
         obj['flags.rageMacro'] = null;
-        obj['data.traits.dr'] = actor.data.flags.rageMacro.oldResistances;
-        actor.update(obj);
+        obj['data.traits.dr'] = macroActor.data.flags.rageMacro.oldResistances;
+        obj['data.bonuses.mwak.damage'] = macroActor.data.flags.rageMacro.oldMwak;
+        macroActor.update(obj);
 
-        // reset items
-        for (let item of actor.items) {
-            if (item.data.flags.rageMacro !== null && item.data.flags.rageMacro !== undefined) {
-				// restoring the old value from flags
-                let oldDmg = item.data.flags.rageMacro.oldDmg;
-                let obj = {};
-                obj['data.damage.parts'] = oldDmg;
-                obj['flags.rageMacro'] = null;
-                item.update(obj);
-            }
-        }
-
-        // toggle rage icon
-		//  - this is optional and requires you to set the path for the token icon you want to use for rage
-        // token = canvas.tokens.ownedTokens.find(t => t.actor.id === actor.id);
-        // token.toggleEffect('path/to/icon.svg');
-
-	// if rage is disabled, enable it
+        // optional extra step to toggle rage icon on token
+        let token = canvas.tokens.ownedTokens.find(t => t.actor.id === macroActor.id);
+        token.toggleEffect('worlds/odyssey/images/playerfiles/icons/rage.svg');
     } else {
-        chatMsg = `${actor.name} is raging.`;
+        chatMsg = `${macroActor.name} is raging.`;
 
-        // update resistance
+        // calculate rage damage
+        let barblvl = barb.data.data.levels;
+        let ragedmg = 2 + Math.floor(barblvl / 9) - (barblvl === 8 ? 1 : 0);
+
+        // update actor
         let obj = {};
-		// storing old resistances in flags to restore later
         obj['flags.rageMacro.enabled'] = true;
-        obj['flags.rageMacro.oldResistances'] = JSON.parse(JSON.stringify(actor.data.data.traits.dr));
+        obj['flags.rageMacro.oldResistances'] = JSON.parse(JSON.stringify(macroActor.data.data.traits.dr));
+        obj['flags.rageMacro.oldMwak'] = macroActor.data.data.bonuses.mwak.damage;
 
-		// add bludgeoning, piercing and slashing resistance
-        let newResistance = actor.data.data.traits.dr;
+        let newResistance = macroActor.data.data.traits.dr;
         if (newResistance.value.indexOf('bludgeoning') === -1) newResistance.value.push('bludgeoning');
         if (newResistance.value.indexOf('piercing') === -1) newResistance.value.push('piercing');
         if (newResistance.value.indexOf('slashing') === -1) newResistance.value.push('slashing');
         obj['data.traits.dr'] = newResistance;
-        actor.update(obj);
+        obj['data.bonuses.mwak.damage'] = ragedmg;
 
-        // update items
-		// determining the barbarian level
-        let barblvl = barb.data.data.levels;
-		// the formula to determin the rage bonus damage depending on barbarian level
-        let ragedmg = 2 + Math.floor(barblvl / 9) - (barblvl === 8 ? 1 : 0);
-        for (let item of actor.items) {
-            let isMelee = getProperty(item, 'data.data.actionType') === 'mwak';
-            if (isMelee && item.data.data.damage.parts.length > 0) {
-                console.log('updating ' + item);
-                let obj = {};
-                let dmg = item.data.data.damage.parts;
-                obj['flags.rageMacro.oldDmg'] = JSON.parse(JSON.stringify(dmg));
-                dmg[0][0] = `${dmg[0][0]} + ${ragedmg}`;
-                obj['data.damage.parts'] = dmg;
-                item.update(obj);
-            }
+        macroActor.update(obj);
+
+        // optional extra step to toggle rage icon on token
+        let token = canvas.tokens.ownedTokens.find(t => t.actor.id === macroActor.id);
+        token.toggleEffect('worlds/odyssey/images/playerfiles/icons/rage.svg');
+        token.update({ img: 'worlds/odyssey/images/playerfiles/artagantokenANGERY.png' });
+
+        // remove charge
+        let rageItem = macroActor.items.find(i => i.name === 'Rage');
+        if (rageItem) {
+            rageItem.update({ 'data.uses.value': rageItem.data.data.uses.value - 1 })
         }
-
-        // toggle rage icon
-		//  - this is optional and requires you to set the path for the token icon you want to use for rage
-        // let token = canvas.tokens.ownedTokens.find(t => t.actor.id === actor.id);
-        // token.toggleEffect('path/to/icon.svg');
     }
     // write to chat
     let chatData = {
