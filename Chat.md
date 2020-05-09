@@ -192,7 +192,7 @@ You can embed most webpages in Foundry anywhere there is a text editor.  When yo
 <div style="overflow: hidden; position: relative; min-height: 100%;"><iframe style="border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%;" src="YOUR_LINK" width="100%" height="100%" allowfullscreen="true;">
 </iframe></div>
 ```
-This can be a useful way to embed rule references, SRDs, and even character sheets.
+This can be a useful way to embed rule references, SRDs, videos, and even character sheets. Some websites will not embed because of the website's private settings, and some websites (such as YouTube) require that you use a special embed link.
 
 # Approximating a Character Sheet
 If you’re using the Simple Worldbuilding System and are industrious, you can put together a perfectly serviceable (if ugly) character sheet with clickable roll buttons in the Description box of your character, using nothing but dice syntax, references, and formatting. Greta has the beginnings of one here:
