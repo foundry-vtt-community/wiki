@@ -185,8 +185,16 @@ You don’t have to learn any HTML at all in order to make your formatting nice 
 **Using an external HTML Editor**
 For macros, you will need to use an external HTML editor. You can use [this one](http://htmleditor.in/index.html).  Make sure to pass it through [this compressor](https://www.textfixer.com/html/compress-html-compression.php) before you paste it in, however. If you want to use an external HTML editor to create the code for text boxes that *do* have a built-in editor (in cases where the built-in editor doesn't have enough features,) you'll need to click the <> icon in the built-in text editor to directly edit (and paste in) the code.
 
-# Approximating a Character Sheet
+# Embedding Webpages
+You can embed most webpages in Foundry anywhere there is a text editor.  When you have the text editor open, click the source button (<>) and paste in the following code, replacing YOUR_LINK with the link to your desired website (including https:// in your link):
 
+```html
+<div style="overflow: hidden; position: relative; min-height: 100%;"><iframe style="border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%;" src="YOUR_LINK" width="100%" height="100%" allowfullscreen="true;">
+</iframe></div>
+```
+This can be a useful way to embed rule references, SRDs, and even character sheets.
+
+# Approximating a Character Sheet
 If you’re using the Simple Worldbuilding System and are industrious, you can put together a perfectly serviceable (if ugly) character sheet with clickable roll buttons in the Description box of your character, using nothing but dice syntax, references, and formatting. Greta has the beginnings of one here:
 
 ![](https://paper-attachments.dropbox.com/s_18A9487B0EE61A81F393FA91A13C89DE192362383B6581DB8EF3234F6BDD2D71_1587945338468_image.png)
