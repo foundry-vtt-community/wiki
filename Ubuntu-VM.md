@@ -36,8 +36,8 @@ Let's start with
 This guide is for linux, sinde all cheaper hosts on the internet are running Linux, so there's that. I will be using Ubuntu, if you are using a different Linux distribution, your commands and packages might differ.
 
 ```
-curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -`
-`sudo apt-get install -y nodejs
+curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
+sudo apt-get install -y nodejs
 ```
 
 This installs both nodejs and the node package manager npm. Check both with 
