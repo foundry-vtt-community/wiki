@@ -19,7 +19,7 @@ Replace vtt.example.com with your domain name where appropriate.
     SSLCertificateFile "/etc/letsencrypt/live/vtt.example.com/fullchain.pem"
     Include /etc/letsencrypt/options-ssl-apache.conf
     ProxyPreserveHost On
-    ProxyPass  "/socket.io/" "wss://localhost:30000/socket.io/"
+    ProxyPass  "/socket.io/" "ws://localhost:30000/socket.io/"
     ProxyPass / https://localhost:30000/
     ProxyPassReverse / https://localhost:30000/
 </VirtualHost>
