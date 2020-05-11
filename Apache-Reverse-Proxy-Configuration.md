@@ -26,9 +26,9 @@ Replace vtt.example.com with your domain name where appropriate.
     ProxyPassReverse / https://localhost:30000/
 </VirtualHost>
 
-
 # Forward normal http requests to https
 <VirtualHost *:80>
     ServerName vtt.example.com
     Redirect permanent / https://vtt.example.com/
-</VirtualHost>```
+</VirtualHost>
+```
