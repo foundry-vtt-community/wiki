@@ -393,24 +393,6 @@ location = /apple-touch-icon-precomposed.png { access_log off; log_not_found off
 location ~ /\. { deny  all; access_log off; log_not_found off; }
 ```
 
-### Additional Configuration for Nginx
-
-Create a new file `sudo nano /etc/nginx/conf.d/drop.conf` and insert the following contents in there:
-
-```
-# Most sites won't have configured favicon or robots.txt
-# and since its always grabbed, turn it off in access log
-# and turn off it's not-found error in the error log
-location = /favicon.ico { access_log off; log_not_found off; }
-location = /robots.txt { access_log off; log_not_found off; }
-location = /apple-touch-icon.png { access_log off; log_not_found off; }
-location = /apple-touch-icon-precomposed.png { access_log off; log_not_found off; }
-
-# Rather than just denying .ht* in the config, why not deny
-# access to all .invisible files
-location ~ /\. { deny  all; access_log off; log_not_found off; }
-```
-
 ## Final Steps
 
 Open up your web browser at http://foundry.myhost.com and it should automatically redirect to the encrypted site at https://foundry.myhost.com. Everything else should work as you are used to.
