@@ -63,8 +63,8 @@ All Abilities, Items, Background Details, Upgrades, Classes. etc are Foundry Ite
 
 ---
 
-## Vampire the Requiem (World of Darkness 4e)
-* **Author**: Precisi#0763 - DM me on Discord if you want to help.
+## Chronicles of Darkness / Vampire the Requiem (CoD / WoD / VtR 4e)
+* **Author**: Burzghash & Precisi#0763
 * **Version**: 4e
 * **Foundry VTT Compatibility**: WiP
 * **Translation Support**: English
@@ -74,8 +74,7 @@ All Abilities, Items, Background Details, Upgrades, Classes. etc are Foundry Ite
 * WiP
 
 ### Description	
-I'm starting with getting working character sheets. After that I will try to implement all the disciplines and easier dice-rolling for the exploding and counting d10s. 
-
+We almost have Chronicles of Darkness mortal sheets ready and will be implementing options to add on the various splat themes so you can convert a character to vampire, werewolf, etc. If you want to join the group DM we have to track the progress and get access to the early version DM Precisi#0763 to be added. 
 ---
 
 ## Star Trek Adventures (2d20)
