@@ -1,3 +1,5 @@
+This configuration is intended for use with Foundry 0.5.6 or later.  Compatibility with 0.5.5 and below is not guaranteed.
+
 Example configuration for setting up Apache2 as a reverse proxy for Foundry.  The list of modules required are in the comments at the start.  Credit to @Failbot42 on Discord for this.
 
 Replace vtt.example.com with your domain name where appropriate.
