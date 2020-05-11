@@ -74,7 +74,7 @@ All Abilities, Items, Background Details, Upgrades, Classes. etc are Foundry Ite
 * WiP
 
 ### Description	
-We almost have Chronicles of Darkness mortal sheets ready and will be implementing options to add on the various splat themes so you can convert a character to vampire, werewolf, etc. If you want to join the group DM we have to track the progress and get access to the early version DM Precisi#0763 to be added. 
+We almost have Chronicles of Darkness mortal sheets ready and will be implementing options to add on the various splat themes so you can convert a character to vampire, werewolf, etc. If you want to join the group DM we have to track the progress and get access to the early version DM Precisi#0763 via Discord to be added. 
 
 ---
 
