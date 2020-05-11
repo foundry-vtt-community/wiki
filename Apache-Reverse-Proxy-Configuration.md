@@ -21,6 +21,9 @@ Replace vtt.example.com with your domain name where appropriate.
     SSLCertificateFile "/etc/letsencrypt/live/vtt.example.com/fullchain.pem"
     Include /etc/letsencrypt/options-ssl-apache.conf
     ProxyPreserveHost On
+    # Note, change localhost:30000 if your Foundry instance is running on a
+    # different server or port. Additionally, if you are running Foundry
+    # with SSL enabled, change the ws:// to wss://
     ProxyPass  "/socket.io/" "ws://localhost:30000/socket.io/"
     ProxyPass / https://localhost:30000/
     ProxyPassReverse / https://localhost:30000/
