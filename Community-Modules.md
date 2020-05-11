@@ -99,6 +99,7 @@
       * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
       * [Stat Drawer](#stat-drawer)
       * [Token Info Icons](#token-info-icons)
+      * [UA Class Feature Variants](#ua-class-feature-variants)
       * [VTTA D&amp;D Beyond Integration](#vtta-dd-beyond-integration)
       * [VTTA Party](#vtta-party)
    * [Foundry VTT Modules for GURPS](#foundry-vtt-modules-for-gurps)
@@ -2101,6 +2102,25 @@ A module for Foundry VTT that lets you generate ablitiy scores for characters us
 
 ### Description
 Simple module that displays Speed, AC, and Passive Perception on Tokens for the GM.
+
+---
+
+## UA Class Feature Variants
+
+* **Author**: Snake__Venom on GitHub, Snake__Venom#8772 on Discord. He accepts donations on ko-fi here: [https://ko-fi.com/snake__venom](https://ko-fi.com/snake__venom).
+* **Version**: 1.0
+* **Foundry VTT Compatibility**: 0.5.5+
+* **System Compatibility (If applicable)**: DnD5e
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://github.com/Snake-Venom/ua_classfeaturevariants](https://github.com/Snake-Venom/ua_classfeaturevariants)
+* [https://raw.githubusercontent.com/Snake-Venom/ua_classfeaturevariants/master/module.json](https://raw.githubusercontent.com/Snake-Venom/ua_classfeaturevariants/master/module.json)
+
+### Description
+This module adds all [UA Class Feature Variants](https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf) as a compendium for easier import into your D&D 5e games.
 
 ---
 
