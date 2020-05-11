@@ -25,8 +25,9 @@ Replace vtt.example.com with your domain name where appropriate.
     # different server or port. Additionally, if you are running Foundry
     # with SSL enabled, change the ws:// to wss://
     ProxyPass  "/socket.io/" "ws://localhost:30000/socket.io/"
-    ProxyPass / https://localhost:30000/
-    ProxyPassReverse / https://localhost:30000/
+    # Similarly, if you have Foundry SSL enabled, change http:// to https://
+    ProxyPass / http://localhost:30000/
+    ProxyPassReverse / http://localhost:30000/
 </VirtualHost>
 
 # Forward normal http requests to https
