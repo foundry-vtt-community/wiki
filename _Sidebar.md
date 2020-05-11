@@ -16,7 +16,6 @@ Table of Contents
          * [<a href="Ubuntu-VM">Ubuntu VM</a>](#ubuntu-vm)
          * [<a href="DigitalOcean-Initialization-Script">DigitalOcean Initialization Script</a>](#digitalocean-initialization-script)
          * [<a href="Self-Hosting-on-AWS">Self Hosting on AWS</a>](#self-hosting-on-aws)
-         * [<a href="Apache-Reverse-Proxy-Configuration">Apache Reverse Proxy Configuration</a>](#apache-reverse-proxy-configuration)
       * [<a href="Docker">Self-hosted Docker</a>](#self-hosted-docker)
       * [<a href="Connecting">Connecting</a>](#connecting)
       * [<a href="Setting-up-Worlds">Setting up Worlds</a>](#setting-up-worlds)
