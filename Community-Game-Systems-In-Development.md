@@ -107,7 +107,7 @@ An in-progress game system for CyberpunkRED. Still very much in development as a
 
 ### Installing
 
-The stable release is now usable. Paste the manifest URL into foundry to download. See readme for current status and future plans.
+The stable release is now usable. Paste the manifest URL into FoundryVTT to download. See readme for current status and future plans.
 
 ---	
 
