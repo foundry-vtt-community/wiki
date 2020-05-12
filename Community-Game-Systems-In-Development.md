@@ -5,14 +5,14 @@
 The list below is an unofficial list of game systems that are still a work in progress. These are in various stages of development and may or may not be useable in their current state depending on your tolerance for bugs and rough edges.
 
 
-   * [Star Wars](#Star-Wars)	
-      * [Star Wars FFG](#Star-Wars-FFG)
-   * [Powered by the Apocalypse](#Powered-by-the-Apocalypse)
-      * [Monster of the Week](#Monster-of-the-Week)
-   * [Blades in the Dark](#Blades-in-the-Dark)
-   * [Chronicles of Darkness / Vampire the Requiem (CoD / WoD / VtR 4e))(#Chronicles-of-Darkness-/-Vampire-the-Requiem-(CoD-/-WoD-/-VtR-4e))
-   * [Star Trek Adventures (2d20)](#Star-Trek-Adventures-(2d20))
-   * [CyberpunkRED](#CyberpunkRED)
+   * [Star Wars](#star-wars)	
+      * [Star Wars FFG](#star-wars-ffg)
+   * [Powered by the Apocalypse](#powered-by-the-apocalypse)
+      * [Monster of the Week](#monster-of-the-week)
+   * [Blades in the Dark](#blades-in-the-dark)
+   * [Chronicles of Darkness / Vampire the Requiem (CoD / WoD / VtR 4e))(#chronicles-of-darkness-/-campire-the-requiem-(cod-/-wod-/-vtr-4e))
+   * [Star Trek Adventures (2d20)](#star-trek-adventures-(2d20))
+   * [CyberpunkRED](#cyberpunkred)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)	
