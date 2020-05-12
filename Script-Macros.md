@@ -194,7 +194,7 @@ Here are a few simple scripts useful for rolling skill checks using the dnd5e sy
 // This would roll an athletics skill check for the players character. 
 // Just replace 'ath' with the appropriate skill abbreviation for the
 // skill you'd like to roll.
-character.rollSkil('ath');
+character.rollSkill('ath');
 
 // This would be used if a player controls more than one character.
 // It would roll the check for which ever token the player has selected.
