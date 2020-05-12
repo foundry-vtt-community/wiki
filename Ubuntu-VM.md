@@ -68,10 +68,6 @@ This will install pm2 globally, so not just in the current directory for you to 
 
 ### Lets Grab Foundry and Unpack It
 
-Go to your patreon page and grab the link for the Linux version of foundry, it should look like this: 
-
-https://foundryvtt.s3-us-west-2.amazonaws.com/releases/[AccessKey]/FoundryVirtualTabletop-linux-x64.zip
-
 Create a suitable directory to unpack it:
 
 ```
@@ -82,10 +78,29 @@ cd ~/foundry
 
 will create a directory called foundry within your home directory. The command `pwd` (print working directory) will show you the full path to your current directory, for me it is `/home/ubuntu/foundry`. Take note of this directory.
 
-Let's download the Foundry archive, unpack it and remove the installation archive afterwards:
+**WARNING: The following steps will ONLY work if you are using a link from Patreon.  If you have a Foundry license, SKIP TO THE NEXT SET OF BOLDED TEXT**
+
+Go to your patreon page and grab the link for the Linux version of foundry, it should look like this: 
+
+https://foundryvtt.s3-us-west-2.amazonaws.com/releases/[AccessKey]/FoundryVirtualTabletop-linux-x64.zip
+
+Enter the following into the terminal to download Foundry from Patreon:
+
+```wget https://foundryvtt.s3-us-west-2.amazonaws.com/releases/[AccessKey]/FoundryVirtualTabletop-linux-x64.zip```
+
+You can pick this back up after the licenseholder steps.
+
+**LICENSE HOLDERS: Follow these steps instead.**
+
+Download the node.js zip file from [Foundry's website](https://foundryvtt.com) by going to your profile and clicking on Purchased Licenses.  From here, you'll need to use a file transfer utility that supports SCP or SFTP to upload the file to your virtual machine.  Examples of this are WinSCP (Windows), Cyberduck, (Windows, MacOS), or FileZilla (Windows, MacOS, Debian Linux).
+
+You'll need to use the same credentials you used to log in via SSH.  Provide your client of choice with the server address, username, and password or SSH private key, and you should be able to log in and navigate to the Foundry directory you just set up.  Drag and drop the .zip file to there.
+
+**RESUME HERE:**
+
+You may need to subsitute the actual name of the Foundry zip in the below commands if you uploaded it via a file transfer client.
 
 ```
-wget https://foundryvtt.s3-us-west-2.amazonaws.com/releases/[AccessKey]/FoundryVirtualTabletop-linux-x64.zip
 unzip FoundryVirtualTabletop-linux-x64.zip
 rm FoundryVirtualTabletop-linux-x64.zip
 ```
