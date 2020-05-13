@@ -13,6 +13,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Chronicles of Darkness / Vampire the Requiem (CoD / WoD / VtR 4e))(#chronicles-of-darkness-/-campire-the-requiem-(cod-/-wod-/-vtr-4e))
    * [Star Trek Adventures (2d20)](#star-trek-adventures-(2d20))
    * [CyberpunkRED](#cyberpunkred)
+   * [ZWEIHÄNDER Grim & Perilous RPG](#zweihÄnder-grim--perilous-rpg)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)	
@@ -110,6 +111,14 @@ An in-progress game system for CyberpunkRED. Still very much in development as a
 The stable release is now usable. Paste the manifest URL into FoundryVTT to download. See readme for current status and future plans.
 
 ---	
+
+## ZWEIHÄNDER Grim & Perilous RPG	
+* **Author**: Re4XN#8341 on Discord
+		
+### Description	
+An implementation of the ZWEIHÄNDER system for FoundryVTT. The system is still in very early development and, as such, unusable. If you wish to contribute, contact Re4XN#8341 on Discord.
+
+---
 
 ---
 
