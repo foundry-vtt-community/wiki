@@ -265,4 +265,4 @@ roll = new Roll("1d20 + @attributes.str.mod + @strangeMacroishBonus", rollData).
   * `game.combat.combatants`: all "Combatant" objects of current combat.
 * distance between 2 tokens: [`canvas.grid.measureDistance(fromToken, toToken, {gridSpaces: True})`](https://foundryvtt.com/api/GridLayer.html#measureDistance)
 
-There are a lot of [other useful snippets](..wiki/API-Snippets).
+There are a lot of [other useful snippets](https://github.com/foundry-vtt-community/wiki/wiki/API-Snippets).
