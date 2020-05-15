@@ -100,8 +100,12 @@ The Modiphius 2d20-based RPG _Star Trek Adventures_ is in development for the Fo
 * **Translation Support**: EN only for now	
 
 ### Link(s) to Game System	
-* Readme: [https://github.com/Gerdofal/foundryvtt-cyberpunkred](https://github.com/Gerdofal/foundryvtt-cyberpunkred)
+STABLE RELEASE (Use this!)
+* Readme: [https://github.com/Gerdofal/foundryvtt-cyberpunkred/blob/stable_release/README.md](https://github.com/Gerdofal/foundryvtt-cyberpunkred/blob/stable_release/README.md)
 * Manifest: [https://raw.githubusercontent.com/Gerdofal/foundryvtt-cyberpunkred/stable_release/system.json](https://raw.githubusercontent.com/Gerdofal/foundryvtt-cyberpunkred/stable_release/system.json)
+
+MASTER RELEASE (May not work as intended, used as a beta)
+* Readme: [https://github.com/Gerdofal/foundryvtt-cyberpunkred/blob/master/README.md](https://github.com/Gerdofal/foundryvtt-cyberpunkred/blob/master/README.md)
 
 ### Description	
 An in-progress game system for CyberpunkRED. Still very much in development as all we have are the jumpstart rules and the core rulebook isn't even out yet. Should be functional for the rules in the Cyberpunk RED Jumpstart Kit within a week or two.
