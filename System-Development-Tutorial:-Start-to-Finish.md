@@ -51,6 +51,10 @@ In addition to the above, there are several more sections that will be added to 
 - Overriding core behaviors (like the combat tracker)
 - Development patterns to be aware of in the API
 
+## Handlebars syntax test
+
+Ignore the section below, this is a test of using Handlebars syntax in the wiki.
+
 <!--- {% raw %} --->
 ```handlebars
     {{!-- ...continued... --}}
