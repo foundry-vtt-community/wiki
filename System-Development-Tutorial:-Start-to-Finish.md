@@ -56,7 +56,8 @@ In addition to the above, there are several more sections that will be added to 
 Ignore the section below, this is a test of using Handlebars syntax in the wiki.
 
 <!--- {% raw %} --->
-```handlebars
+
+```
     {{!-- ...continued... --}}
     {{!-- Sheet Tab Navigation --}}
     <nav class="sheet-tabs tabs" data-group="primary">
@@ -67,4 +68,5 @@ Ignore the section below, this is a test of using Handlebars syntax in the wiki.
     </nav>
     {{!-- ...continued... --}}
 ```
+
 <!--- {% endraw %} --->
