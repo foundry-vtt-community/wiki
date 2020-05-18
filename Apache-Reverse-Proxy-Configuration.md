@@ -17,6 +17,8 @@ First, although not Apache specific, ensure your Foundry configuration is set to
 "proxyPort": 443,
 ```
 
+**`NOTE`**: "sslKey" and "sslCert" are the same as for Apache2 configuration if you're using Foundry on the same server. Make sure Foundry (application) **has read access** to the keys. E.g. Certbot generates ssl-keys with `root:root` permissions and you will see `The proxy server could not handle the request` error if not change permissions.
+
 ### RewriteRule Method
 
 This method requires mod_rewrite (reference [here](https://www.happyassassin.net/posts/2018/11/23/reverse-proxying-websockets-with-apache-a-generic-approach-that-works-even-with-firefox/)) as well as mod_proxy, mod_proxy_http, and maybe mod_proxy_wstunnel modules enabled.
