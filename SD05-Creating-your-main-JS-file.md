@@ -1,4 +1,4 @@
-Let's take a look at the Boilerplate System's `/module/boilerplate.js` file. We'll look at each section of it to see what's happening:
+Let's take a look at the Boilerplate System's <!-- {% raw %} -->`/module/boilerplate.js`<!-- {% endraw %} --> file. We'll look at each section of it to see what's happening:
 
 ## Import your classes
 <!--- {% raw %} --->
@@ -13,15 +13,15 @@ import { BoilerplateItemSheet } from "./item/item-sheet.js";
 
 <!--- {% endraw %} --->
 
-In this first section, we've imported 4 classes, one each for the Actor and Item classes, and one each for the ActorSheet and ItemSheet classes. For this system, those classes have `Boilerplate` as a prefix for them, but you should use a name more appropriate to your system when creating your own. The code for them is defined in `/module/actor` and `/module/item`, so we have to reference their file locations when importing.
+In this first section, we've imported 4 classes, one each for the Actor and Item classes, and one each for the ActorSheet and ItemSheet classes. For this system, those classes have <!-- {% raw %} -->`Boilerplate`<!-- {% endraw %} --> as a prefix for them, but you should use a name more appropriate to your system when creating your own. The code for them is defined in <!-- {% raw %} -->`/module/actor`<!-- {% endraw %} --> and <!-- {% raw %} -->`/module/item`, so we have to reference their file locations when importing.
 
 Importing doesn't necessarily do anything at this point, but we do have the classes available in our file so that we can now let Foundry know how to use them.
 
 ## The 'init' hook
 
-Foundry has a very robust hooks system that lets you hook into different kinds of events, such as `init`, `ready`, or other hooks for chat messages, scene render, etc. In this case, we'll be using the `init` hook to initialize the important overrides in our system. In the example below, everything with the exception of registering the Handlebars helpers should be considered essential for your system's init hook.
+Foundry has a very robust hooks system that lets you hook into different kinds of events, such as <!-- {% raw %} -->`init`, <!-- {% raw %} -->`ready`, or other hooks for chat messages, scene render, etc. In this case, we'll be using the <!-- {% raw %} -->`init`<!-- {% endraw %} --> hook to initialize the important overrides in our system. In the example below, everything with the exception of registering the Handlebars helpers should be considered essential for your system's init hook.
 
-This example includes comments behind `//` that explain more about what's actually happening.
+This example includes comments behind <!-- {% raw %} -->`//`<!-- {% endraw %} --> that explain more about what's actually happening.
 
 <!--- {% raw %} --->
 
@@ -78,11 +78,11 @@ And that's it!
 
 ## Making it your own
 
-As with previous examples, this sample code using the Boilerplate System. You should rename your classes such as `MySystemNameActor` instead of `BoilerplateActor`, and you'll want to update the `.registerSheet()` lines to replace `boilerplate` with `mysystemname`, using your system's machine name.
+As with previous examples, this sample code using the Boilerplate System. You should rename your classes such as <!-- {% raw %} -->`MySystemNameActor`<!-- {% endraw %} --> instead of <!-- {% raw %} -->`BoilerplateActor`, and you'll want to update the <!-- {% raw %} -->`<!-- {% endraw %} -->.registerSheet()`<!-- {% endraw %} --> lines to replace <!-- {% raw %} -->`boilerplate`<!-- {% endraw %} --> with <!-- {% raw %} -->`mysystemname`, using your system's machine name.
 
 Now let's take a look at the extended Actor class.
 
 ---
 
-- **Prev:** [template.json](https://foundry-vtt-community.github.io/wiki/SD04-template.json)
-- **Next:** [Extending the Actor class](https://foundry-vtt-community.github.io/wiki/SD06-Extending-the-Actor-class)
+* **Prev:** [template.json](https://foundry-vtt-community.github.io/wiki/SD04-template.json)
+* **Next:** [Extending the Actor class](https://foundry-vtt-community.github.io/wiki/SD06-Extending-the-Actor-class)
