@@ -3,10 +3,10 @@ When building a new system, you have several options to choose from. You can cop
 ## Option 1: Download
 
 1. Download a zip version of the [Boilerplate System](https://gitlab.com/asacolips-projects/foundry-mods/boilerplate/-/archive/master/boilerplate-master.zip)
-2. Extract it to the <!-- {% raw %} -->`/Data/systems`<!--- {% endraw %} ---> directory in your Foundry userData folder and rename it from <!--- {% raw %} --->`boilerplate-master`<!--- {% endraw %} ---> to your system's name (lowercase, machine-safe).
-3. Search the directory for any files with the filename <!--- {% raw %} --->`boilerplate`<!--- {% endraw %} ---> and rename them to your system's machine-safe name, such as <!--- {% raw %} --->`mysystemname`<!--- {% endraw %} --->.
-4. Search the files for any occurrences of <!--- {% raw %} --->`Boilerplate`<!--- {% endraw %} ---> (case-sensitive) and replace those with a capitalized version of your system name that's still machine-safe, such as <!--- {% raw %} --->`MySystemName`<!--- {% endraw %} --->. These are typically used for the classes in the Javascript files.
-5. Search the files for any occurrences of <!--- {% raw %} --->`boilerplate`<!--- {% endraw %} ---> (case-sensitive) and replace those with a lowercase machine-safe version of your system name, such as <!--- {% raw %} --->`mysystemname`<!--- {% endraw %} --->.
+2. Extract it to the <!-- {% raw %} -->`/Data/systems`<!-- {% endraw %} --> directory in your Foundry userData folder and rename it from <!-- {% raw %} -->`boilerplate-master`<!-- {% endraw %} --> to your system's name (lowercase, machine-safe).
+3. Search the directory for any files with the filename <!-- {% raw %} -->`boilerplate`<!-- {% endraw %} --> and rename them to your system's machine-safe name, such as <!-- {% raw %} -->`mysystemname`<!-- {% endraw %} -->.
+4. Search the files for any occurrences of <!-- {% raw %} -->`Boilerplate`<!-- {% endraw %} --> (case-sensitive) and replace those with a capitalized version of your system name that's still machine-safe, such as <!-- {% raw %} -->`MySystemName`<!-- {% endraw %} -->. These are typically used for the classes in the Javascript files.
+5. Search the files for any occurrences of <!-- {% raw %} -->`boilerplate`<!-- {% endraw %} --> (case-sensitive) and replace those with a lowercase machine-safe version of your system name, such as <!-- {% raw %} -->`mysystemname`<!-- {% endraw %} -->.
 6. If the replace instructions from step 4 also included updating your description in system.json, you should edit that to be more readable now, such as "My System Name".
 
 ## Option 2:  Generate with npm
@@ -22,7 +22,7 @@ npm install -g generator-foundry
 
 <!--- {% endraw %} --->
 
-After that, you just need to open your <!--- {% raw %} --->`/Data/systems`<!--- {% endraw %} ---> directory in your Foundry userData folder in your terminal and run
+After that, you just need to open your <!-- {% raw %} -->`/Data/systems`<!-- {% endraw %} --> directory in your Foundry userData folder in your terminal and run
 
 <!--- {% raw %} --->
 
