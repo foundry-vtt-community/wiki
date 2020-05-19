@@ -1,4 +1,4 @@
-Your system's data model for character and item sheets is defined in `template.json`. Any changes you make to this file will require you to return to Foundry's setup screen and relaunch your world. The template.json for the Boilerplate System looks like this.
+Your system's data model for character and item sheets is defined in <!-- {% raw %} -->`template.json`<!-- {% endraw %} -->. Any changes you make to this file will require you to return to Foundry's setup screen and relaunch your world. The template.json for the Boilerplate System looks like this.
 
 <!--- {% raw %} --->
 
@@ -117,11 +117,11 @@ Those two properties correspond with the two entity types that you can make chan
 
 <!--- {% endraw %} --->
 
-The first property, `types`, defines the different sub-types of this entity type that your system will use.  In this example, those types are `character` and `npc`, but you can create as many as you need.
+The first property, <!-- {% raw %} -->`types`, defines the different sub-types of this entity type that your system will use.  In this example, those types are <!-- {% raw %} -->`character`<!-- {% endraw %} --> and <!-- {% raw %} -->`npc`, but you can create as many as you need.
 
-The second property, `templates`, is where you define common attributes that can be applied to any of the other sub-types. In this example, we've defined a `base` template that has a `health` property that has `value` and `max` properties.
+The second property, <!-- {% raw %} -->`templates`, is where you define common attributes that can be applied to any of the other sub-types. In this example, we've defined a <!-- {% raw %} -->`base`<!-- {% endraw %} --> template that has a <!-- {% raw %} -->`health`<!-- {% endraw %} --> property that has <!-- {% raw %} -->`value`<!-- {% endraw %} --> and <!-- {% raw %} -->`max`<!-- {% endraw %} --> properties.
 
-The third and fourth properties, `character` and `npc`, will match up with whatever you defined in the `types` property earlier. If you had more or less types defined, you would continue adding them one after the other just like how `character` and `npc` came after the `templates` property. Each of these sub-types can have templates applied to them, such as the `base` template in this example. They can also have custom properties unique to their sub-type, such as the `foo` and `bar` properties in this example.
+The third and fourth properties, <!-- {% raw %} -->`character`<!-- {% endraw %} --> and <!-- {% raw %} -->`npc`, will match up with whatever you defined in the <!-- {% raw %} -->`types`<!-- {% endraw %} --> property earlier. If you had more or less types defined, you would continue adding them one after the other just like how <!-- {% raw %} -->`character`<!-- {% endraw %} --> and <!-- {% raw %} -->`npc`<!-- {% endraw %} --> came after the <!-- {% raw %} -->`templates`<!-- {% endraw %} --> property. Each of these sub-types can have templates applied to them, such as the <!-- {% raw %} -->`base`<!-- {% endraw %} --> template in this example. They can also have custom properties unique to their sub-type, such as the <!-- {% raw %} -->`foo`<!-- {% endraw %} --> and <!-- {% raw %} -->`bar`<!-- {% endraw %} --> properties in this example.
 
 For more details, go to [https://foundryvtt.com/article/system-development/](https://foundryvtt.com/article/system-development/) and scroll down to the section for **The Data Template**.
 
@@ -169,5 +169,5 @@ For example, this snippet would add three different item types to your system, s
 
 ---
 
-- **Prev:** [system.json](https://foundry-vtt-community.github.io/wiki/SD03-system.json)
-- **Next:** [Creating your main system javascript file](https://foundry-vtt-community.github.io/wiki/SD05-Creating-your-main-JS-file)
+* **Prev:** [system.json](https://foundry-vtt-community.github.io/wiki/SD03-system.json)
+* **Next:** [Creating your main system javascript file](https://foundry-vtt-community.github.io/wiki/SD05-Creating-your-main-JS-file)
