@@ -38,6 +38,8 @@ From here, you can skip to the next page or keep reading if you'd like to read a
 
 ## Other options
 
-If you'd like to see other options for getting started with building a new system to start from, see the [Other options](https://foundry-vtt-community.github.io/wiki/SD01.2-other-options) page.
+If you'd like to see other options for getting started with building a new system to start from, see the [Other options](https://foundry-vtt-community.github.io/wiki/SD01.2-Other-options) page.
 
-- **Next**: [Stuff to be aware of](https://foundry-vtt-community.github.io/wiki/SD02-stuff-to-be-aware-of)
+---
+
+- **Next**: [Stuff to be aware of](https://foundry-vtt-community.github.io/wiki/SD02-Stuff-to-be-aware-of)
