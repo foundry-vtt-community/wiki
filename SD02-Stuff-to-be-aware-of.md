@@ -11,7 +11,7 @@ Systems are built using HTML, CSS, and Javascript. Teaching those is outside the
 
 ## Should I use scripts or ES modules?
 
-In your system.json file, there will be sections for both <!-- {% raw %} -->`scripts`<!-- {% endraw %} --> and <!-- {% raw %} -->`esmodules`<!-- {% endraw %} -->. This tutorial (and most systems developed currently) use the latter option, but it's also a bit more advanced. If you're struggling with them, it may be easier to just put all of your system code in a few <!-- {% raw %} -->`<!-- {% endraw %} -->.js`<!-- {% endraw %} --> files that you include in the scripts section of your system.json
+In your system.json file, there will be sections for both <!-- {% raw %} -->`scripts`<!-- {% endraw %} --> and <!-- {% raw %} -->`esmodules`<!-- {% endraw %} -->. This tutorial (and most systems developed currently) use the latter option, but it's also a bit more advanced. If you're struggling with them, it may be easier to just put all of your system code in a few .js files that you include in the scripts section of your system.json
 
 To use ES modules, you'll want to load a single <!-- {% raw %} -->`mysystemname.js`<!-- {% endraw %} --> file in your <!-- {% raw %} -->`esmodules`<!-- {% endraw %} --> section of system.json. That file will typically have an import section at the top that imports classes from other Javascript files that you create, and your hooks for Foundry will also be placed in there. We'll do a deeper dive on how that works later in the tutorial.
 
