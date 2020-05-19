@@ -156,7 +156,7 @@ The abilities div is very similar to resources, but in this case we have a group
 
 First, we're using the same `grid` classes as before, except now we're doing `grid-3col` for a three column layout.
 
-The big difference is that we're running a loop with `{{#each}}`. Let's look at that statement in more detail:
+The big difference is that we're running a loop with <!--- {% raw %} --->`{{#each}}`<!--- {% endraw %} --->. Let's look at that statement in more detail:
 
 <!--- {% raw %} --->
 
@@ -168,7 +168,7 @@ The big difference is that we're running a loop with `{{#each}}`. Let's look at 
 
 <!--- {% endraw %} --->
 
-An each block starts with `#each` and ends with `/each`. The first thing after the opening `{{#each` is the object or array we want to iterate over, or in this case `data.abilities`.
+An each block starts with `#each` and ends with `/each`. The first thing after the opening <!--- {% raw %} --->`{{#each`<!--- {% endraw %} ---> is the object or array we want to iterate over, or in this case `data.abilities`.
 
 You can either iterate over just the values, which would be `data.abilities as ability` or over the values with the keys available as well, which is what we're doing with `data.abilities as |ability key|`. By doing that we can access the index/key using the `{{key}}` variable, which would evaluate to something like "str", "dex" or "con". The `{{ability}}` variable will give us the object for each ability, which will allow us to print out the current value with `{{ability.value}}`.
 
