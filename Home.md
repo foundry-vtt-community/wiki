@@ -50,6 +50,8 @@
 
 ### [Part 6: (optional) Derivation is not a 5e Magic School](System-Development-Part-6-(optional)-Derivation-is-not-a-5e-Magic-School)
 
+## [System Development Tutorial: Start to Finish](System-Development-Tutorial-Start-to-Finish)
+
 # [The Virtual Tabletop](The-Virtual-Tabletop)
 
 ## [Scene Controls](Scene-Controls)
