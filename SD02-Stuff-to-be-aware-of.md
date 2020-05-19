@@ -39,5 +39,7 @@ Sometimes you need to include 3rd party libraries to do additional things, such 
 
 It's always more effort to go back and localize a system after it's developed, so if you're making a publicly available system, I strongly recommend localizing it from the start. I'll go into more detail on this as we begin developing our system, but to localize your system you'll need to make an `en.json` file (or whatever your default language is) in your system's `lang` dir, and add that to your system.json file. `en.json` consists of key/value pairs where you can specify what the text should be for the keys, and then in your templates you would do `{{localize "KEY.name" }}` to output its localized version.
 
+---
+
 - **Prev:** [Getting an empty system together](https://foundry-vtt-community.github.io/wiki/SD01-Getting-started)
 - **Next:** [system.json](https://foundry-vtt-community.github.io/wiki/SD03-system.json)
