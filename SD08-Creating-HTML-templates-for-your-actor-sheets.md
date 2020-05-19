@@ -37,7 +37,7 @@ Let's start by taking a look at how the <!-- {% raw %} -->`actor-sheet.html`<!--
 
 And here's an annotated version of what that looks like:
 
-![boilerplate character sheet annotated](https://mattsmithin.nyc3.digitaloceanspaces.com/assets/boilerplate-character.png)
+[![boilerplate character sheet annotated](https://mattsmithin.nyc3.digitaloceanspaces.com/assets/boilerplate-character.png)](https://mattsmithin.nyc3.digitaloceanspaces.com/assets/boilerplate-character.png)
 
 ## The <!-- {% raw %} -->`<form>`
 
