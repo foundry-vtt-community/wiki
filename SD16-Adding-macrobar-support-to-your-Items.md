@@ -1,6 +1,6 @@
 ## Update your main system JS
 
-First, we need to update your `game.mysystemname` object in your init hook. For the Boilerplate System, that looks like this:
+First, we need to update your <!-- {% raw %} -->`game.mysystemname`<!-- {% endraw %} --> object in your init hook. For the Boilerplate System, that looks like this:
 
 <!--- {% raw %} --->
 
@@ -14,9 +14,9 @@ game.boilerplate = {
 
 <!--- {% endraw %} --->
 
-The only change we've made from earlier is that we've added a new line for `rollItemMacro`, which we'll define later.
+The only change we've made from earlier is that we've added a new line for <!-- {% raw %} -->`rollItemMacro`, which we'll define later.
 
-Next we need to create (or modify) your ready hook in the main system JS file for your system. For the Boilerplate System, that's `boilerplate.js`
+Next we need to create (or modify) your ready hook in the main system JS file for your system. For the Boilerplate System, that's <!-- {% raw %} -->`boilerplate.js`
 
 <!--- {% raw %} --->
 
@@ -29,7 +29,7 @@ Hooks.once("ready", async function() {
 
 <!--- {% endraw %} --->
 
-Next we'll need to add two new functions to both add the drop behavior and the roll function. Place the following after (not inside) your ready hook. Rename the `createBoilerplateMacro` function both here and in the ready hook above to be more appropriate to your system, such as `createMySystemNameMacro`
+Next we'll need to add two new functions to both add the drop behavior and the roll function. Place the following after (not inside) your ready hook. Rename the <!-- {% raw %} -->`createBoilerplateMacro`<!-- {% endraw %} --> function both here and in the ready hook above to be more appropriate to your system, such as <!-- {% raw %} -->`createMySystemNameMacro`
 
 <!--- {% raw %} --->
 
@@ -51,7 +51,7 @@ async function createBoilerplateMacro(data, slot) {
   const item = data.data;
 
   // Create the macro command
-  const command = `game.boilerplate.rollItemMacro("${item.name}");`;
+  const command = <!-- {% raw %} -->`game.boilerplate.rollItemMacro("${item.name}");`;
   let macro = game.macros.entities.find(m => (m.name === item.name) && (m.command === command));
   if (!macro) {
     macro = await Macro.create({
@@ -87,13 +87,13 @@ function rollItemMacro(itemName) {
 
 <!--- {% endraw %} --->
 
-The first function is used to create a new macro entity on drop and set its command to `game.boilerplate.rollItemMacro(ITEMNAME)`, and the second function is the actual function that will trigger the roll on the item. Rename `boilerplate` in that command to whatever your system's namespace is. This namespace is for the same object we created in the first step of this tutorial, so it should match that.
+The first function is used to create a new macro entity on drop and set its command to <!-- {% raw %} -->`game.boilerplate.rollItemMacro(ITEMNAME)`, and the second function is the actual function that will trigger the roll on the item. Rename <!-- {% raw %} -->`boilerplate`<!-- {% endraw %} --> in that command to whatever your system's namespace is. This namespace is for the same object we created in the first step of this tutorial, so it should match that.
 
-The last line of the `rollItemMacro()` function is to call `item.roll()`. So let's switch over to your `Item` class and add that method.
+The last line of the <!-- {% raw %} -->`rollItemMacro()`<!-- {% endraw %} --> function is to call <!-- {% raw %} -->`item.roll()`<!-- {% endraw %} -->. So let's switch over to your <!-- {% raw %} -->`Item`<!-- {% endraw %} --> class and add that method.
 
-## Adding `roll()` to the Item class
+## Adding <!-- {% raw %} -->`roll()`<!-- {% endraw %} --> to the Item class
 
-The `roll()` method is what we're calling when the macro is clicked, so you can put any logic into this. Here's an example from the Boilerplate System, but you should modify this to fit your needs.
+The <!-- {% raw %} -->`roll()`<!-- {% endraw %} --> method is what we're calling when the macro is clicked, so you can put any logic into this. Here's an example from the Boilerplate System, but you should modify this to fit your needs.
 
 <!--- {% raw %} --->
 
@@ -112,7 +112,7 @@ async roll() {
 
   // Define the roll formula.
   let roll = new Roll('d20+@abilities.str.mod', actorData);
-  let label = `Rolling ${item.name}`;
+  let label = <!-- {% raw %} -->`Rolling ${item.name}`;
   // Roll and send to chat.
   roll.roll().toMessage({
     speaker: ChatMessage.getSpeaker({ actor: this.actor }),
@@ -127,7 +127,7 @@ We're almost done! The last thing we have to do is make sure your character shee
 
 ## Add drag events to the ActorSheet class
 
-In your `activeListeners()` method, add the following code.
+In your <!-- {% raw %} -->`activeListeners()`<!-- {% endraw %} --> method, add the following code.
 
 <!--- {% raw %} --->
 
@@ -148,9 +148,9 @@ if (this.actor.owner) {
 
 <!--- {% endraw %} --->
 
-If this is the actor's owner, we're going through all `<li>` tags with the `.item` class, ignoring those with the `.item-header` class. You should update those two selectors to match what your system actually uses if they're different. Once we're inside the loop we add the `draggable` attribute and `dragstart` event to the list item to make it draggable for macrobar support. This will also allow you to do other things with the drag event, but that's outside of the scope of this part of the tutorial.
+If this is the actor's owner, we're going through all <!-- {% raw %} -->`<li>`<!-- {% endraw %} --> tags with the <!-- {% raw %} -->`<!-- {% endraw %} -->.item`<!-- {% endraw %} --> class, ignoring those with the <!-- {% raw %} -->`<!-- {% endraw %} -->.item-header`<!-- {% endraw %} --> class. You should update those two selectors to match what your system actually uses if they're different. Once we're inside the loop we add the <!-- {% raw %} -->`draggable`<!-- {% endraw %} --> attribute and <!-- {% raw %} -->`dragstart`<!-- {% endraw %} --> event to the list item to make it draggable for macrobar support. This will also allow you to do other things with the drag event, but that's outside of the scope of this part of the tutorial.
 
 ---
 
-- **Prev:** [Separating item types into tabs](https://foundry-vtt-community.github.io/wiki/SD11.4-Separating-item-types-into-tabs)
-- **Next:** To be continued...
+* **Prev:** [Separating item types into tabs](https://foundry-vtt-community.github.io/wiki/SD11.4-Separating-item-types-into-tabs)
+* **Next:** To be continued...
