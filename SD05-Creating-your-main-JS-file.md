@@ -78,7 +78,7 @@ And that's it!
 
 ## Making it your own
 
-As with previous examples, this sample code using the Boilerplate System. You should rename your classes such as <!-- {% raw %} -->`MySystemNameActor`<!-- {% endraw %} --> instead of <!-- {% raw %} -->`BoilerplateActor`, and you'll want to update the <!-- {% raw %} -->`<!-- {% endraw %} -->.registerSheet()`<!-- {% endraw %} --> lines to replace <!-- {% raw %} -->`boilerplate`<!-- {% endraw %} --> with <!-- {% raw %} -->`mysystemname`, using your system's machine name.
+As with previous examples, this sample code using the Boilerplate System. You should rename your classes such as <!-- {% raw %} -->`MySystemNameActor`<!-- {% endraw %} --> instead of <!-- {% raw %} -->`BoilerplateActor`, and you'll want to update the <!-- {% raw %} -->`registerSheet()`<!-- {% endraw %} --> lines to replace <!-- {% raw %} -->`boilerplate`<!-- {% endraw %} --> with <!-- {% raw %} -->`mysystemname`, using your system's machine name.
 
 Now let's take a look at the extended Actor class.
 
