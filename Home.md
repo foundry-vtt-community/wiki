@@ -70,10 +70,6 @@
 
 ## [Macros](Macros)
 
-### [Chat Macros](Chat-Macros)
-
-### [Script Macros](Script-Macros)
-
 ## [Sidebar](Sidebar)
 
 ### [Chat](Chat)
