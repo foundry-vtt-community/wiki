@@ -20,7 +20,7 @@ If you have any questions, you can find me on the Foundry discord as @asacolips#
 	- Basic data vs. derived data
 	- Creating derived values with prepareData()
 	- _prepareCharacterData()
-- [Extending the ActorSheet class](https://foundry-vtt-community.github.io/wiki/SD07-Extending-ActorSheet-class)
+- [Extending the ActorSheet class](https://foundry-vtt-community.github.io/wiki/SD07-Extending-the-ActorSheet-class)
 	- defaultOptions
 	- getData()
 	- activateListeners()
