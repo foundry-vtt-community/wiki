@@ -56,7 +56,7 @@ Derived data is the kind of data that you don't actually store and instead calcu
 
 ## Creating derived values with prepareData()
 
-`prepareData()`<!-- {% endraw %} --> can be used to prepare additional data at runtime that we don't necessarily have defined in our main <!-- {% raw %} -->`template.json`<!-- {% endraw %} --> file.
+The <!-- {% raw %} -->`prepareData()`<!-- {% endraw %} --> method can be used to prepare additional data at runtime that we don't necessarily have defined in our main <!-- {% raw %} -->`template.json`<!-- {% endraw %} --> file.
 
 Let's take a closer look at the prepareData() method:
 
