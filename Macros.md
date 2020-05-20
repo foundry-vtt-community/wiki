@@ -113,6 +113,8 @@ List of ability abbreviations:
 #### Play Audio
 This is a direct way to play audio.
 
+<!--- {% raw %} --->
 ```js
 AudioHelper.play({src: "audio/SFX/Fire arrow.mp3", volume: 0.8, autoplay: true, loop: false}, true);
 ```
+<!--- {% endraw %} --->
