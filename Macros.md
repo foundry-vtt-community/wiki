@@ -20,6 +20,7 @@ A macro is a set of commands (such as a roll, a message, or a Javascript scriptl
 
 Macros were added in Foundry VTT version `0.4.4`
 
+## Community Contributed Macros
 A community-contributed repository of Macros can be found here: [github](https://github.com/foundry-vtt-community/macros).
 
 # Macro Types
@@ -48,108 +49,6 @@ table.draw();
 ```
 
 Replace the table name with the one you want to use.
-
-#### Rolling perception (in gm mode) for selected tokens or active players if no token is selected. For dnd5e
-```js
-let actors = [];
-// getting all actors of selected tokens
-for(let id in canvas.tokens._controlled){
-  actors.push(canvas.tokens._controlled[id].actor);
-}
-// if there are no selected tokens, get the actors the actors that represent active players
-if(actors.length<1) {
-  for(let id in game.users.entities) {
-    if(game.users.entities[id].active){
-	  if(game.users.entities[id].character !== null) {
-	    actors.push(game.users.entities[id].character)
-  	  }			
-	}
-  }
-}
-
-// roll for every actor
-let messageContent = '';
-for(let actor of actors) {
-  let modifier = actor.data.data.skills.prc.mod; // this is total bonus for perception (abilitie mod + proficiency)
-  let result = new Roll(`1d20+${modifier}`).roll().total; // rolling the formula
-  messageContent += `${actor.name} rolled <b>${result}</b> for perception<br>`; // creating the output string
-}
-
-// create the message
-if(messageContent !== '') {
-  let chatData = {
-    user: game.user._id,
-    speaker: ChatMessage.getSpeaker(),
-    content: messageContent,
-    whisper: game.users.entities.filter(u => u.isGM).map(u => u._id)
-  };
-  ChatMessage.create(chatData, {});
-}
-```
-You can edit `${actor.name} rolled <b>${result}</b> for perception<br>` to change the displayed text. Written by @Felix#6196, if there are any questions feel free to send a message.
-
-#### Pulls Passive Perception for all of your players and sends it to you as a private message. For dnd5e
-```js
-let actors = game.actors.entities.filter(e=> e.data.type==='character');
-
-
-// pull each player's passive perception
-let messageContent = '';
-let messageHeader = '<b>Passive Perception</b><br>';
-for(let actor of actors) {
-  let modifier = actor.data.data.skills.prc.mod; // this is total bonus for perception (abilitie mod + proficiency)
-  let result = 10 + modifier; // this gives the passive perception
-  messageContent += `${actor.name} <b>${result}</b><br>`; // creating the output string
-}
-
-// create the message
-if(messageContent !== '') {
-  let chatData = {
-    user: game.user._id,
-    speaker: ChatMessage.getSpeaker(),
-    content: messageHeader + messageContent,
-    whisper: game.users.entities.filter(u => u.isGM).map(u => u._id)
-  };
-  ChatMessage.create(chatData, {});
-}
-```
-Written by @Erogroth#7134 using @Felix#6196's code as a base along with some help from him as well.
-
-#### Consume various resources. 
-
-This was actually written as a module that provides the dailyGrind function to be called from a macro with
-```js
-MacroModule.dailyGrind(actor, [["ration1", 1], ["ration2", 2]])
-```
-
-As a standalone macro it looks like:
-
-```js
-// Consume items from inventory
-let consumption = [["ration1", 1], ["ration2", 2]];
-let updates = [];
-let consumed = "";
-for (let [name, quantity] of consumption) {
-  let item = actor.items.find(i=> i.name===name);
-  if (item.data.data.quantity < quantity) {
-    ui.notifications.warn(`${game.user.name} not enough ${name} remaining`);
-    consumed += `Only had ${item.data.data.quantity} ${name} but needed ${quantity} - death ensues<br>`;
-  } else {
-    updates.push({"_id": item._id, "data.quantity": item.data.data.quantity - quantity});
-    consumed += `Consumed ${quantity} ${item.data.name} and has ${item.data.data.quantity - quantity} left<br>`;
-  }
-}
-
-if (updates.length > 0) {
-  actor.updateManyEmbeddedEntities("OwnedItem", updates);
-}
-ChatMessage.create({
-  user: game.user._id,
-speaker: { actor: actor, alias: actor.name },
-  content: consumed,
-  type: CONST.CHAT_MESSAGE_TYPES.OTHER
-});
-```
 
 #### Rolling a skill check for DnD 5e
 
