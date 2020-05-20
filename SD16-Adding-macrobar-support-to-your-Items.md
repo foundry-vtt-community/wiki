@@ -14,7 +14,7 @@ game.boilerplate = {
 
 <!--- {% endraw %} --->
 
-The only change we've made from earlier is that we've added a new line for <!-- {% raw %} -->`rollItemMacro`, which we'll define later.
+The only change we've made from earlier is that we've added a new line for <!-- {% raw %} -->`rollItemMacro`<!-- {% endraw %} -->, which we'll define later.
 
 Next we need to create (or modify) your ready hook in the main system JS file for your system. For the Boilerplate System, that's <!-- {% raw %} -->`boilerplate.js`
 
@@ -51,7 +51,7 @@ async function createBoilerplateMacro(data, slot) {
   const item = data.data;
 
   // Create the macro command
-  const command = <!-- {% raw %} -->`game.boilerplate.rollItemMacro("${item.name}");`;
+  const command = `game.boilerplate.rollItemMacro("${item.name}");`;
   let macro = game.macros.entities.find(m => (m.name === item.name) && (m.command === command));
   if (!macro) {
     macro = await Macro.create({
@@ -87,7 +87,7 @@ function rollItemMacro(itemName) {
 
 <!--- {% endraw %} --->
 
-The first function is used to create a new macro entity on drop and set its command to <!-- {% raw %} -->`game.boilerplate.rollItemMacro(ITEMNAME)`, and the second function is the actual function that will trigger the roll on the item. Rename <!-- {% raw %} -->`boilerplate`<!-- {% endraw %} --> in that command to whatever your system's namespace is. This namespace is for the same object we created in the first step of this tutorial, so it should match that.
+The first function is used to create a new macro entity on drop and set its command to <!-- {% raw %} -->`game.boilerplate.rollItemMacro(ITEMNAME)`<!-- {% endraw %} -->, and the second function is the actual function that will trigger the roll on the item. Rename <!-- {% raw %} -->`boilerplate`<!-- {% endraw %} --> in that command to whatever your system's namespace is. This namespace is for the same object we created in the first step of this tutorial, so it should match that.
 
 The last line of the <!-- {% raw %} -->`rollItemMacro()`<!-- {% endraw %} --> function is to call <!-- {% raw %} -->`item.roll()`<!-- {% endraw %} -->. So let's switch over to your <!-- {% raw %} -->`Item`<!-- {% endraw %} --> class and add that method.
 
@@ -112,7 +112,7 @@ async roll() {
 
   // Define the roll formula.
   let roll = new Roll('d20+@abilities.str.mod', actorData);
-  let label = <!-- {% raw %} -->`Rolling ${item.name}`;
+  let label = `Rolling ${item.name}`;
   // Roll and send to chat.
   roll.roll().toMessage({
     speaker: ChatMessage.getSpeaker({ actor: this.actor }),
