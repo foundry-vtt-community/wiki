@@ -2,7 +2,7 @@ The ItemSheet class is the class associated with our item sheets. Let's take a l
 
 ## defaultOptions()
 
-Very similar to the actor sheet, we start out by defining our default options for this sheet. Our width and height tend to be smaller on item sheets so that they don't fully cover up the character sheet when they're opened. One thing that we did differently from the actor sheet is that this defaultOptions() method doesn't have a template property. That's intentional, and it could have been done on the actor sheet as well if we needed to. If you don't include a template property, you should create a `template()` getter method to return the correct template.
+Very similar to the actor sheet, we start out by defining our default options for this sheet. Our width and height tend to be smaller on item sheets so that they don't fully cover up the character sheet when they're opened. One thing that we did differently from the actor sheet is that this defaultOptions() method doesn't have a template property. That's intentional, and it could have been done on the actor sheet as well if we needed to. If you don't include a template property, you should create a <!-- {% raw %} -->`template()`<!-- {% endraw %} --> getter method to return the correct template.
 
 <!--- {% raw %} --->
 
@@ -28,7 +28,7 @@ export class BoilerplateItemSheet extends ItemSheet {
 
 ## get template()
 
-The `template()` method has the `get` keyword placed before it to signal that this is a getter method for a property. In this case, we're just returning a single `${path}/item-sheet.html` template for all items. However, if you have multiple item types such as `item`, `feat`, and `spell`, you could remove the first return statement and uncomment the second return statement to dynamically return a template matching the item type name, such as `templates/item/spell-sheet.html`.
+The <!-- {% raw %} -->`template()`<!-- {% endraw %} --> method has the <!-- {% raw %} -->`get`<!-- {% endraw %} --> keyword placed before it to signal that this is a getter method for a property. In this case, we're just returning a single <!-- {% raw %} -->`${path}/item-sheet.html`<!-- {% endraw %} --> template for all items. However, if you have multiple item types such as <!-- {% raw %} -->`item`<!-- {% endraw %} -->, <!-- {% raw %} -->`feat`<!-- {% endraw %} -->, and <!-- {% raw %} -->`spell`<!-- {% endraw %} -->, you could remove the first return statement and uncomment the second return statement to dynamically return a template matching the item type name, such as <!-- {% raw %} -->`templates/item/spell-sheet.html`<!-- {% endraw %} -->.
 
 <!--- {% raw %} --->
 
@@ -39,7 +39,7 @@ The `template()` method has the `get` keyword placed before it to signal that th
     // Return a single sheet for all item types.
     return `${path}/item-sheet.html`;
     // Alternatively, you could use the following return statement to do a
-    // unique item sheet by type, like `weapon-sheet.html`.
+    // unique item sheet by type, like <!-- {% raw %} -->`weapon-sheet.html`<!-- {% endraw %} -->.
 
     // return `${path}/${this.item.data.type}-sheet.html`;
   }
@@ -90,7 +90,7 @@ This is a small override to handle remembering the sheet's position.
 
 ## activateListeners()
 
-As with the actor sheet, this is where you would activate listeners and events for your item sheet. For example, if you had logic that happened on click or edit, or if you had a roll button within the item sheet, that could go in here. `html` is a jQuery object that you can use to find other elements, like `html.find('.rollable')`
+As with the actor sheet, this is where you would activate listeners and events for your item sheet. For example, if you had logic that happened on click or edit, or if you had a roll button within the item sheet, that could go in here. <!-- {% raw %} -->`html`<!-- {% endraw %} --> is a jQuery object that you can use to find other elements, like <!-- {% raw %} -->`html.find('.rollable')`<!-- {% endraw %} -->.
 
 <!--- {% raw %} --->
 
@@ -122,5 +122,5 @@ Don't forget closing brackets!
 
 ---
 
-- **Prev:** [Extending the Item class](https://foundry-vtt-community.github.io/wiki/SD09-Extending-the-Item-class)
-- **Next:** [Creating rollable buttons with event listeners](https://foundry-vtt-community.github.io/wiki/SD11.1-Creating-rollable-buttons-with-event-listeners)
+* **Prev:** [Extending the Item class](https://foundry-vtt-community.github.io/wiki/SD09-Extending-the-Item-class)
+* **Next:** [Creating rollable buttons with event listeners](https://foundry-vtt-community.github.io/wiki/SD11.1-Creating-rollable-buttons-with-event-listeners)
