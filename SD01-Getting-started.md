@@ -1,5 +1,3 @@
-# SD01: Getting started
-
 When building a new system, you have several options to choose from. You can copy an existing system (depending on its license) like the Simple World-building system, you can use a system generator, or you could start from scratch and have total control.
 
 ## Option 1: Download
