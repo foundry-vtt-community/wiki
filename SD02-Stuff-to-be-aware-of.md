@@ -23,11 +23,11 @@ The more CSS you add to your system, the more difficult it will be to maintain o
 
 The Boilerplate System we're using in this tutorial includes support for SCSS, but you can also just work directly with the CSS files instead if you prefer. For a great implementation that uses Less, download the dnd5e system.
 
-To build the SCSS files in this system, you'll need to go into the system's directory in your terminal, run <!-- {% raw %} -->`npm install`, and then <!-- {% raw %} -->`npm run gulp`<!-- {% endraw %} --> whenever you want to compile the SCSS into CSS. Using the gulp command will also kick off a watch process that will watch for additional changes.
+To build the SCSS files in this system, you'll need to go into the system's directory in your terminal, run <!-- {% raw %} -->`npm install`<!-- {% endraw %} -->, and then <!-- {% raw %} -->`npm run gulp`<!-- {% endraw %} --> whenever you want to compile the SCSS into CSS. Using the gulp command will also kick off a watch process that will watch for additional changes.
 
 ## Handlebars
 
-FoundryVTT uses [Handlebars](https://handlebarsjs.com/guide/#what-is-handlebars) to interpret its HTML templates and add basic support for things like variables, if statements, and loops. Handlebars is not a programming language like Javascript is, so if you want to do something more advanced than outputting a variable or iterating over a loop, you'll probably need to either handle the code for that in your actor/item's data methods in JS, or you can create a new Handlebars helper to add additional logic to your Handlebars files. For example, the Boilerplate System includes a Handlebars helper called <!-- {% raw %} -->`concat`<!-- {% endraw %} --> that will combine variable strings such as <!-- {% raw %} -->`{{concat "string 1, " "string 2"}}`
+FoundryVTT uses [Handlebars](https://handlebarsjs.com/guide/#what-is-handlebars) to interpret its HTML templates and add basic support for things like variables, if statements, and loops. Handlebars is not a programming language like Javascript is, so if you want to do something more advanced than outputting a variable or iterating over a loop, you'll probably need to either handle the code for that in your actor/item's data methods in JS, or you can create a new Handlebars helper to add additional logic to your Handlebars files. For example, the Boilerplate System includes a Handlebars helper called <!-- {% raw %} -->`concat`<!-- {% endraw %} --> that will combine variable strings such as <!-- {% raw %} -->`{{concat "string 1, " "string 2"}}`<!-- {% endraw %} -->.
 
 ## What about 3rd party libraries?
 
