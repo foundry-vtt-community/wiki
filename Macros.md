@@ -1,15 +1,12 @@
 <!--tl=4-->
 <!--ts-->
    * [What is a Macro?](#what-is-a-macro)
+      * [Community Contributed Macros](#community-contributed-macros)
    * [Macro Types](#macro-types)
       * [Chat Macros](#chat-macros)
-         * [Chat Macros Examples](#chat-macros-examples)
       * [Script Macros](#script-macros)
          * [Script Macros Examples](#script-macros-examples)
             * [Random Table Roll](#random-table-roll)
-            * [Rolling perception (in gm mode) for selected tokens or active players if no token is selected. For dnd5e](#rolling-perception-in-gm-mode-for-selected-tokens-or-active-players-if-no-token-is-selected-for-dnd5e)
-            * [Pulls Passive Perception for all of your players and sends it to you as a private message. For dnd5e](#pulls-passive-perception-for-all-of-your-players-and-sends-it-to-you-as-a-private-message-for-dnd5e)
-            * [Consume various resources.](#consume-various-resources)
             * [Rolling a skill check for DnD 5e](#rolling-a-skill-check-for-dnd-5e)
             * [Rolling an attribute check for DnD 5e](#rolling-an-attribute-check-for-dnd-5e)
             * [Play Audio](#play-audio)
@@ -26,11 +23,7 @@ A community-contributed repository of Macros can be found here: [github](https:/
 # Macro Types
 ## Chat Macros
 
-(needs content)
-
-### Chat Macros Examples
-
-(needs content)
+Chat macros are chat commands that have been saved for later reuse. See section on [Chat commands](https://foundry-vtt-community.github.io/wiki/Chat/)
 
 ## Script Macros
 
