@@ -1,4 +1,4 @@
-<!--tl=2-->
+<!--tl=4-->
 <!--ts-->
    * [What is a Macro?](#what-is-a-macro)
    * [Macro Types](#macro-types)
