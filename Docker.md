@@ -1,4 +1,4 @@
-You can use Docker to run Foundry VTT. You may use two different approaches.
+You can use Docker to run Foundry VTT. You may use several different approaches.
 
 ## mikysan's Dockerfile (Recommended Approach)
 
@@ -157,3 +157,35 @@ after the build is finished
 ```
 docker run --rm -it  -p 80:30000/tcp {something/something}:latest
 ```
+
+## thomasfa18's dockerhub image
+ 
+This is a prebuilt node image that expects to have two paths (pkg & data) mounted to it:
+/pkg - which is the contents of the node.js foundryvtt.zip from foundryvtt.com
+/data - this is/will be your userdata folder. (If you are migrating from an existing install you can copy your existing data or target that folder)
+
+The benefit of this image is that your app and data is decoupled from the node.js instance so you can place them on a shared folder if you like, and because ts a dockerhub image is can be easily pulled and run by many standalone home NAS devices (synology and qnap for instance).
+
+Firstly configure you app and data directories (if you are using a NAS, create these folder on your NAS)
+1. Create a new folder in the file system called `Docker`
+2. Under this folder create a new folder called `foundry`
+3. Under the foundry folder create a new folder called `pkg` and another folder called `data`
+3. Copy the contents of the node.js foundryvtt.zip to the `pkg` folder
+4. If you have existing userdata, copy this to the `data` folder
+
+To download and run the container on a synology NAS
+1. Install Docker from the package center
+2. From docker goto registry and search for thomasfa18
+3. Download the thomasfa18/node-foundry image
+4. Go to Image, click on thomasfa18/node-foundry:latest, click launch
+5. Click advance settings
+6. On the first tab tick the checkbox for 'Enable auto-restart'
+7. On the volume tab, add folders and mount paths that contain your data. eg. `docker/foundry/data` as mount path `/data` and `docker/foundry/pkg` as `/pkg`
+8. On Port Setting tab set the local port to the port you want to use on your NAS to access the foundry website eg 30000, and the container port to the default 30000 (if you are migrating use the port that corresponds to your existing configuration)
+9. Click next and then click apply
+10. Click on the container menu and confirm the docker container is now running (if you right click and go to detail you can also review the log file for the container). You can now access the foundry server from any browser on you home network, and the internet if you configure your port forwarding.
+
+It is a similar process to achieve the same using a computer, assuming you have already installed docker
+1. `docker pull thomasfa18/node-foundry:latest`
+2. `docker run -v [your windows path to foundry data]:/data -v [your windows path to the extracted node.js foundry package]:/pkg -it -p 30000:30000 thomasfa18/node-foundry:latest`
+*Note:* using `-it` runs the container interactively, if you close the command window you will shut down the container. If you omit the `-it` form the command you will need to find the container name using `docker stats` or something to be able to shut it down via `docker kill [container name]`
