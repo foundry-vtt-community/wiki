@@ -13,13 +13,13 @@ import { BoilerplateItemSheet } from "./item/item-sheet.js";
 
 <!--- {% endraw %} --->
 
-In this first section, we've imported 4 classes, one each for the Actor and Item classes, and one each for the ActorSheet and ItemSheet classes. For this system, those classes have <!-- {% raw %} -->`Boilerplate`<!-- {% endraw %} --> as a prefix for them, but you should use a name more appropriate to your system when creating your own. The code for them is defined in <!-- {% raw %} -->`/module/actor`<!-- {% endraw %} --> and <!-- {% raw %} -->`/module/item`, so we have to reference their file locations when importing.
+In this first section, we've imported 4 classes, one each for the Actor and Item classes, and one each for the ActorSheet and ItemSheet classes. For this system, those classes have <!-- {% raw %} -->`Boilerplate`<!-- {% endraw %} --> as a prefix for them, but you should use a name more appropriate to your system when creating your own. The code for them is defined in <!-- {% raw %} -->`/module/actor`<!-- {% endraw %} --> and <!-- {% raw %} -->`/module/item`<!-- {% endraw %} -->, so we have to reference their file locations when importing.
 
 Importing doesn't necessarily do anything at this point, but we do have the classes available in our file so that we can now let Foundry know how to use them.
 
 ## The 'init' hook
 
-Foundry has a very robust hooks system that lets you hook into different kinds of events, such as <!-- {% raw %} -->`init`, <!-- {% raw %} -->`ready`, or other hooks for chat messages, scene render, etc. In this case, we'll be using the <!-- {% raw %} -->`init`<!-- {% endraw %} --> hook to initialize the important overrides in our system. In the example below, everything with the exception of registering the Handlebars helpers should be considered essential for your system's init hook.
+Foundry has a very robust hooks system that lets you hook into different kinds of events, such as <!-- {% raw %} -->`init`<!-- {% endraw %} -->, <!-- {% raw %} -->`ready`<!-- {% endraw %} -->, or other hooks for chat messages, scene render, etc. In this case, we'll be using the <!-- {% raw %} -->`init`<!-- {% endraw %} --> hook to initialize the important overrides in our system. In the example below, everything with the exception of registering the Handlebars helpers should be considered essential for your system's init hook.
 
 This example includes comments behind <!-- {% raw %} -->`//`<!-- {% endraw %} --> that explain more about what's actually happening.
 
