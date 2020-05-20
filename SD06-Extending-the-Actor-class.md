@@ -124,4 +124,4 @@ And with that, we're done deriving new values! We don't have to return anything;
 ---
 
 * **Prev:** [Creating your main system javascript file](https://foundry-vtt-community.github.io/wiki/SD05-Creating-your-main-JS-file)
-* **Next:** [Extending the ActorSheet class](https://foundry-vtt-community.github.io/wiki/SD07-Extending-ActorSheet-class)
+* **Next:** [Extending the ActorSheet class](https://foundry-vtt-community.github.io/wiki/SD07-Extending-the-ActorSheet-class)
