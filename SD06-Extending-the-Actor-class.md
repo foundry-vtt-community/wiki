@@ -83,10 +83,10 @@ prepareData() {
 
 First, we're using <!-- {% raw %} -->`super.prepareData()`<!-- {% endraw %} --> to continue using the main Actor class' original prepareData() method.
 
-Second, we're making a few convenience variables related to the actor. Those are <!-- {% raw %} -->`actorData`, <!-- {% raw %} -->`data`, and <!-- {% raw %} -->`flags`<!-- {% endraw %} -->. These are optional, but without them you'll be doing stuff like <!-- {% raw %} -->`this.data.data.abilities.value`, which can get confusing.
+Second, we're making a few convenience variables related to the actor. Those are <!-- {% raw %} -->`actorData`<!-- {% endraw %} -->, <!-- {% raw %} -->`data`<!-- {% endraw %} -->, and <!-- {% raw %} -->`flags`<!-- {% endraw %} -->. These are optional, but without them you'll be doing stuff like <!-- {% raw %} -->`this.data.data.abilities.value`<!-- {% endraw %} -->, which can get confusing.
 
 > **What's up with <!-- {% raw %} -->`data.data`?**
-> Some data is always included regardless of system, like <!-- {% raw %} -->`name`<!-- {% endraw %} --> and is accessible at <!-- {% raw %} -->`actor.data.name`, while your system's unique properties are stored in a nested data property, such as <!-- {% raw %} -->`actor.data.data.abilities.str`<!-- {% endraw %} -->.
+> Some data is always included regardless of system, like <!-- {% raw %} -->`name`<!-- {% endraw %} --> and is accessible at <!-- {% raw %} -->`actor.data.name`<!-- {% endraw %} -->, while your system's unique properties are stored in a nested data property, such as <!-- {% raw %} -->`actor.data.data.abilities.str`<!-- {% endraw %} -->.
 
 Third, we're checking to see what type of actor this is. If this is a character, we run it through a custom method that we've created called <!-- {% raw %} -->`_prepareCharacterData()`<!-- {% endraw %} --> to prepare additional derived values. We could also do the same for things like NPCs if we had a need to.
 
