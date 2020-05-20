@@ -116,7 +116,7 @@ The first click listener we added was to create new items, but notice that it us
     // Grab any data associated with this control.
     const data = duplicate(header.dataset);
     // Initialize a default name.
-    const name = <!-- {% raw %} -->`New ${type.capitalize()}`;
+    const name = `New ${type.capitalize()}`;
     // Prepare the item object.
     const itemData = {
       name: name,
@@ -133,7 +133,7 @@ The first click listener we added was to create new items, but notice that it us
 
 <!--- {% endraw %} --->
 
-We're doing a few different things here. First, we're getting the element (header) that was clicked, and then we're finding out what type of item it was. In this case that type is <!-- {% raw %} -->`item`, but it could also be something like <!-- {% raw %} -->`feature`<!-- {% endraw %} --> or <!-- {% raw %} -->`spell`<!-- {% endraw %} -->.  After that, we're grabbing any custom data attributes on the element that was clicked and using them to create a new <!-- {% raw %} -->`itemData`<!-- {% endraw %} --> object. Finally, we're passing all of that over to <!-- {% raw %} -->`this.actor.createdOwnedItem(itemData)`<!-- {% endraw %} --> to create the item on this actor.
+We're doing a few different things here. First, we're getting the element (header) that was clicked, and then we're finding out what type of item it was. In this case that type is <!-- {% raw %} -->`item`<!-- {% endraw %} -->, but it could also be something like <!-- {% raw %} -->`feature`<!-- {% endraw %} --> or <!-- {% raw %} -->`spell`<!-- {% endraw %} -->.  After that, we're grabbing any custom data attributes on the element that was clicked and using them to create a new <!-- {% raw %} -->`itemData`<!-- {% endraw %} --> object. Finally, we're passing all of that over to <!-- {% raw %} -->`this.actor.createdOwnedItem(itemData)`<!-- {% endraw %} --> to create the item on this actor.
 
 And since these examples have all been the individual sections, don't forget your closing bracket for the class itself!
 
