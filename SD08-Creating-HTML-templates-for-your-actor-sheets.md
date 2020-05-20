@@ -410,5 +410,5 @@ Jumping back over to the actor-sheet.html template, we've covered the list of th
 
 ---
 
-* **Prev:** [Extending the ActorSheet class](https://foundry-vtt-community.github.io/wiki/SD07-Extending-ActorSheet-class)
+* **Prev:** [Extending the ActorSheet class](https://foundry-vtt-community.github.io/wiki/SD07-Extending-the-ActorSheet-class)
 * **Next:** [Extending the Item class](https://foundry-vtt-community.github.io/wiki/SD09-Extending-the-Item-class)
