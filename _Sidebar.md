@@ -38,8 +38,6 @@ Table of Contents
          * [<a href="Pins">Pins</a>](#pins)
          * [<a href="Sounds">Sounds</a>](#sounds)
       * [<a href="Macros">Macros</a>](#macros)
-         * [<a href="Chat-Macros">Chat Macros</a>](#chat-macros)
-         * [<a href="Script-Macros">Script Macros</a>](#script-macros)
       * [<a href="Sidebar">Sidebar</a>](#sidebar)
          * [<a href="Chat">Chat</a>](#chat)
          * [<a href="Combat-Tracker">Combat Tracker</a>](#combat-tracker)

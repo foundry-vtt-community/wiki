@@ -1,6 +1,9 @@
 <!--tl=2-->
 <!--ts-->
-
+   * [What is a Macro?](#what-is-a-macro)
+   * [Macro Types](#macro-types)
+      * [Chat Macros](#chat-macros)
+      * [Script Macros](#script-macros)
 <!--te-->
 
 # What is a Macro?
