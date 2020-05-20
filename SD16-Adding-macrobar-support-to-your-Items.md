@@ -148,7 +148,7 @@ if (this.actor.owner) {
 
 <!--- {% endraw %} --->
 
-If this is the actor's owner, we're going through all <!-- {% raw %} -->`<li>`<!-- {% endraw %} --> tags with the <!-- {% raw %} -->`<!-- {% endraw %} -->.item`<!-- {% endraw %} --> class, ignoring those with the <!-- {% raw %} -->`<!-- {% endraw %} -->.item-header`<!-- {% endraw %} --> class. You should update those two selectors to match what your system actually uses if they're different. Once we're inside the loop we add the <!-- {% raw %} -->`draggable`<!-- {% endraw %} --> attribute and <!-- {% raw %} -->`dragstart`<!-- {% endraw %} --> event to the list item to make it draggable for macrobar support. This will also allow you to do other things with the drag event, but that's outside of the scope of this part of the tutorial.
+If this is the actor's owner, we're going through all <!-- {% raw %} -->`<li>`<!-- {% endraw %} --> tags with the <!-- {% raw %} -->`.item`<!-- {% endraw %} --> class, ignoring those with the <!-- {% raw %} -->`.item-header`<!-- {% endraw %} --> class. You should update those two selectors to match what your system actually uses if they're different. Once we're inside the loop we add the <!-- {% raw %} -->`draggable`<!-- {% endraw %} --> attribute and <!-- {% raw %} -->`dragstart`<!-- {% endraw %} --> event to the list item to make it draggable for macrobar support. This will also allow you to do other things with the drag event, but that's outside of the scope of this part of the tutorial.
 
 ---
 
