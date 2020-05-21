@@ -80,13 +80,17 @@ Based on u/olirant's [tables for generating potions randomly](https://www.reddit
  * 1. Right click on the table you wish to extract. Inspect element and grab the table id or the data-content-chunk-id
       Should be something like <table id="table016" class="Table TableOverride-1">
       OR <table class="compendium-left-aligned-table" data-content-chunk-id="85e84434-84db-4247-a0da-b00a556756f2">
- * 2. Go to the Sources Tab -> Snippets -> new snippet and paste this file in there.
+ * 2. Open Chrome console window (F12) & go to the Sources Tab -> Snippets -> new snippet and paste this file in there.
  * 3. Run snippet (ctrl+Enter for windows). Json file to import will download.
  * 4. In foundry, make a new rollable table, then right click it on the sidebar and do an import.
  * 5. Import the downloaded file & celebrate.
  */
 
- let tableId = "table016";
+ let tableId = "table016"; // replace with the table id or data-content-chunk-id
+
+//////////////////////////////////////////////////
+// You should not need to modify anything below //
+//////////////////////////////////////////////////
 
  //Create console.save function
 (function(console){
@@ -150,7 +154,7 @@ for (let i = 0; i < rows.length; i++) {
       flags: {},
       type: 0,
       text,
-      img:  "icons/svg/d20-black.svg",
+      img: "icons/svg/d20-black.svg",
       weight: 1,
       range,
       drawn: false
