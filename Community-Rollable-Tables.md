@@ -75,7 +75,7 @@ Based on u/olirant's [tables for generating potions randomly](https://www.reddit
 
 ## Appendix D: Extracting DnDBeyond tables to importable json
 
-```javascript
+```
 
 /**
  * How to use this script.
