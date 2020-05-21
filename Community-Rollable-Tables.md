@@ -6,6 +6,7 @@
       * [Appendix A: Adding a Rollable Table](#appendix-a-adding-a-rollable-table)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
       * [Appendix C: Importing &amp; Exporting Tables](#appendix-c-importing--exporting-tables)
+      * [Appendix D: Extracting DnDBeyond tables to importable json](#appendix-d-extracting-dndbeyond-tables-to-importable-json)
 <!--te-->
 
 # Foundry VTT Rollable Tables for DnD 5E
@@ -72,7 +73,7 @@ Based on u/olirant's [tables for generating potions randomly](https://www.reddit
 **Importing**
 - To import table data just: copy the data of the table you want, paste the data as a new line in the `tables.db` file
 
-## Appendix D: Extracting DnDBeyond tables to importable rollable table.
+## Appendix D: Extracting DnDBeyond tables to importable json
 
 ```javascript
 /**
