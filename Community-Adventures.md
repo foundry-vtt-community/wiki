@@ -1,6 +1,7 @@
 <!--tl=2-->
 <!--ts-->
    * [Foundry VTT Adventures for DnD 5E](#foundry-vtt-adventures-for-dnd-5e)
+      * [A World Far Far Away](#a-world-far-far-away)
       * [The Lost City of Barakus](#the-lost-city-of-barakus)
    * [Appendix](#appendix)
       * [Appendix A: Adding an Adventure](#appendix-a-adding-an-adventure)
@@ -10,6 +11,31 @@
 # Foundry VTT Adventures for DnD 5E
 
 Foundry adventures that work within Dungeons and Dragons 5th Edition are noted here.
+
+## A World Far Far Away
+
+* **Author**: Kevin, @Kevin-#0001
+* **Version**: 1.1
+* **System Compatibility**: Dungeons and Dragons 5th Edition
+* **Foundry VTT Compatibility**: 0.5.3-(?)
+* **Translation Support**: EN (Full)
+
+### Link(s) to Adventure
+* Zip(free): [https://www.patreon.com/posts/shrek-is-love-36065571](https://www.patreon.com/posts/shrek-is-love-36065571)
+* PDF: [https://www.gmbinder.com/share/-M4yGi9hw8uKyPIp8PGZ](https://www.gmbinder.com/share/-M4yGi9hw8uKyPIp8PGZ)
+
+### Description
+
+**Note:** All the assets are online. Hopefully, this won't cause any problems, but it can't be played "locally"
+
+A small adventure to "trick" your players into playing D&D, but truly they are the once getting played. It has a lot of references to the Shrek Movie, the goal is for the players to slowly find out they're playing in the Shrek Universe. It comes with pre-made characters, but feel free to use any other characters too.
+
+**Summary:**
+Right, we all know what this means. It’s Shrek time. It is a 3rd level campaign for 4 players, with an estimated playtime of 2-4 hours. The adventure is based on taking down Shrek, but first, the adventurers are sent out unknowingly, or knowingly to “make the unholy creatures outside the kingdom Disappear”. Then the next day/week be sent out again, to defeat this ogre who has stolen “the lord's princess”.
+
+Lord Farq- Lord Mirdeo is the self-proclaimed king of the land, and needs a princess to cement this. The thing is that “An ogre has stolen his princess”, and he wishes to send these adventurers out to get her back.
+
+---
 
 ## The Lost City of Barakus
 
