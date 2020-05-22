@@ -124,6 +124,8 @@
 
 ## [Community Game Systems Repository](https://github.com/foundry-vtt-community/game_systems)
 
+## [Community Macros Repo](Chttps://github.com/foundry-vtt-community/macros)
+
 ## [Community Media](Community-Media)
 
 ## [Community Modules](Community-Modules)
@@ -132,9 +134,7 @@
 
 ## [Community Tools](Community-Tools)
 
-## [Community Rollable Tables](Community-Rollable-Tables)
-
-## [Community Rollable Table Repository](https://github.com/foundry-vtt-community/rollable_table)
+## [Community Tables Repository](https://github.com/foundry-vtt-community/tables)
 
 ## [Community Translations](Community-Translations)
 
