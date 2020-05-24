@@ -199,20 +199,22 @@ Adiciona o idioma Português (Brasil) para o sistema de jogo D&D 5E no FoundryVT
 
 ---
 
-## Russian (RU)
+## Russian (Foundry, D&D5, Dungeon World)
 
 * **Author**: Phenomen [Discord: Phenomen#1337]
-* **Version**: 0.4.7.1
-* **Foundry VTT Compatibility**: 0.4.7
+* **Version**: 0.6.0.1
+* **Foundry VTT Compatibility**: 0.6.0
 
 ### Links to Translation
-* Github: https://github.com/Phenomen/foundry-vtt-ru
-* Manifest: https://github.com/Phenomen/foundry-vtt-ru/raw/master/module.json
-
+* Github: [https://github.com/Phenomen/foundry-vtt-ru](https://github.com/Phenomen/foundry-vtt-ru)
+* Manifest: [https://github.com/Phenomen/foundry-vtt-ru/raw/master/module.json](https://github.com/Phenomen/foundry-vtt-ru/raw/master/module.json)
 ### Description
-This module adds the Russian language to Foundry VTT. 
+Russian language for FoundryVTT and D&D5, Dungeon World system.
 
-Этот модуль добавлять русский язык в Foundry VTT. Для установки скопируйте ссылку Manifest в окно Install Module. Для включения перевода, зайдите в Game Settings > Configure Settings и поменяйте Language на Russian. 
+Модуль добавляет русский язык в Foundry VTT, системы D&D5, Dungeon World и некоторые модули. Ведущий должен выполнить следующее:
+
+1. Game Settings > Manage Modules и поставить галочку на Translation: Russian.
+2. Game Settings > Configure Settings и поменять Language на Russian (игроки делают это сами индивидуально).
 
 ---
 

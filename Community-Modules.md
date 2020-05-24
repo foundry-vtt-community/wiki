@@ -99,6 +99,7 @@
       * [Request Roll](#request-roll)
       * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
       * [Stat Drawer](#stat-drawer)
+      * [Summoner](#summoner)
       * [Token Info Icons](#token-info-icons)
       * [VTTA D&amp;D Beyond Integration](#vtta-dd-beyond-integration)
       * [VTTA Party](#vtta-party)
@@ -2104,7 +2105,31 @@ This module provides a variant layout of the Core 5e Character Sheet in Foundry 
 A module for Foundry VTT that lets you generate ablitiy scores for characters using the "Holy Grail" method as described [here](https://www.reddit.com/r/DnD/comments/c67dft/oc_another_character_stat_generation_method_i/)!
 
 ---
+## Summoner
 
+* **Author**: Jon Whitehouse Discord@MTGCarver#7753
+* **Version**: 0.1.1
+* **Foundry VTT Compatibility**: 0.6.0
+* **System Compatibility (If applicable)**: DnD5e
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: None
+
+### Link(s) to Module
+* https://github.com/Jonwh25/summoner
+* https://raw.githubusercontent.com/Jonwh25/summoner/master/module.json
+
+### Description
+This FoundryVTT Module adds a simple compendium pack to help with DnD5e spells that summon creatures. It is nothing fancy. My players were casting find familiar and I tried to use the npc creatures that are in the DnD5e system and it wasn't working. So all I did was create actor/player types for each creature they could summon.
+
+Hope this saves you some time.
+
+Right now this only supports the following spells:
+
+*Find Familiar
+*Unseen Servant
+
+---
 ## Token Info Icons
 
 * **Author**: Jan Ole Peek (ChalkOne#0156 on Discord)
