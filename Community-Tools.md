@@ -61,9 +61,8 @@ A python3 script to process tables copied from online sources into a FoundryVTT 
 * Dice roll formatting
 * Output a single table as an importable RollTable json file
 * Output many tables as a (nearly) nicely importable compendium format
-* better-rolltables integration with:
-  * Automatic table embedding
-  * Smart handling of currency
+* better-rolltables integration with automatic table embedding and smart handling of currency
+
 ---
 
 App
