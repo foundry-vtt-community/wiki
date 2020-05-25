@@ -72,7 +72,7 @@ All Abilities, Items, Background Details, Upgrades, Classes. etc are Foundry Ite
 
 ## Chronicles of Darkness
 * **Author**: Burzghash#4196
-* **Version**: 2e
+* **Version**: 0.40
 * **Foundry VTT Compatibility**: 0.5.5+
 * **Translation Support**: EN
 
