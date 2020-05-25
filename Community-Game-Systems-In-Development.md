@@ -17,7 +17,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
-* [CallofCthulhu(7thEd.)](#CallofCthulhu(7thEd.))
+* [CallofCthulhu(7thEd.)](#callofcthulhu7thed)
 <!--te-->	
 
 # Star Wars	
@@ -131,8 +131,8 @@ An implementation of the ZWEIHÄNDER system for FoundryVTT. The system is still 
 * **Translation Support**:The author doesn't know how to translate and support is unknown.
 But the system versions are all fixed to English.
 ### Link(s) to Game System	
-* (The Unnamable) Manual:https://dreamyaziumarand.sakura.ne.jp/english/README.md[https://dreamyaziumarand.sakura.ne.jp/english/README.md](https://dreamyaziumarand.sakura.ne.jp/english/README.md)
-* Download :https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/system.json[https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/system.json](https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/system.json)
+* (The Unnamable) Manual:https:[https://dreamyaziumarand.sakura.ne.jp/english/README.md](https://dreamyaziumarand.sakura.ne.jp/english/README.md)
+* Download :[https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/system.json](https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/system.json)
 ### Description
 This game is a blasphemous game of Cosmic Horror... should be.
 (As far as I know, it's heavily paradise-colored, like Delta Green.)
