@@ -140,9 +140,6 @@ As those of you who have been playing for a long time will know,A lot of
 character sheets are lost in the Chaosium campaign.
 So I needed to create a character sheet right away, and I put the Actor sheet in text format.
 The folder "Character sheet template.txt" is the text template of 7htED.
-There are many reasons for the text method, but one of the big ones is that you can 
-just copy and paste a template to lose it on the
-spot and write a character sheet right away, saving you the hassle of data entry.
 There are many reasons for the text method, but one of the big ones is to lose it 
 on the spot and write the character sheet right away, eliminating the hassle of 
 data entry. You just need to copy and paste the template.
