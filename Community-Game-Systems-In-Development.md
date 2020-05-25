@@ -10,7 +10,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Powered by the Apocalypse](#powered-by-the-apocalypse)
       * [Monster of the Week](#monster-of-the-week)
    * [Blades in the Dark](#blades-in-the-dark)
-   * [Chronicles of Darkness / Vampire the Requiem (CoD / WoD / VtR 4e))(#chronicles-of-darkness-/-campire-the-requiem-(cod-/-wod-/-vtr-4e))
+   * [Chronicles of Darkness](#chronicles-of-darkness)
    * [Star Trek Adventures (2d20)](#star-trek-adventures-(2d20))
    * [CyberpunkRED](#cyberpunkred)
    * [ZWEIHÄNDER Grim & Perilous RPG](#zweihÄnder-grim--perilous-rpg)
@@ -70,18 +70,18 @@ All Abilities, Items, Background Details, Upgrades, Classes. etc are Foundry Ite
 
 ---
 
-## Chronicles of Darkness / Vampire the Requiem (CoD / WoD / VtR 4e)
-* **Author**: Burzghash & Precisi#0763
-* **Version**: 4e
-* **Foundry VTT Compatibility**: WiP
-* **Translation Support**: English
+## Chronicles of Darkness
+* **Author**: Burzghash#4196
+* **Version**: 2e
+* **Foundry VTT Compatibility**: 0.5.5+
+* **Translation Support**: EN
 
 ### Link(s) to Game System	
-* WiP
-* WiP
+* [https://github.com/Burzghash/cod](https://github.com/Burzghash/cod)
+* [https://raw.githubusercontent.com/Burzghash/cod/master/system.json](https://raw.githubusercontent.com/Burzghash/cod/master/system.json)
 
 ### Description	
-We almost have Chronicles of Darkness mortal sheets ready and will be implementing options to add on the various splat themes so you can convert a character to vampire, werewolf, etc. If you want to join the group DM we have to track the progress and get access to the early version DM Precisi#0763 via Discord to be added. 
+A system for playing for Chronicles of Darkness, 2nd edition within Foundry Virtual Tabletop. Mortal sheets are nearly complete, and an easy-to-use splat-selector allowing you to swap character type to the various supernaturals (Vampire, Werewolf, Mage, etc.) on the fly is in development. Currently seeking additional team members, especially those with talent in the areas of: JavaScript, HTML, CSS, art, and audio. Contact Burzghash#4196 on Discord for details.
 
 ---
 
