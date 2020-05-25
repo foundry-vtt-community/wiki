@@ -3,6 +3,7 @@
    * [Foundry VTT Tools (Universal)](#foundry-vtt-tools-universal)
       * [DunGen](#dungen)
       * [Foundry Project Creator (FPC)](#foundry-project-creator-fpc)
+      * [Table Importer](#table-importer)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Tool](#appendix-a-adding-a-tool)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -51,7 +52,7 @@ Please refer to the README and the FPC wiki for more information.
 * **Foundry VTT Compatibility**: 0.6
 
 ### Link(s) to Tool
-https://github.com/jennis0/foundryvtt-utils/
+[Link to the repo](https://github.com/jennis0/foundryvtt-utils/)
 
 ### Description
 A python3 script to process tables copied from online sources into a FoundryVTT compatible JSON format. It has several particularly useful features:
