@@ -205,8 +205,8 @@ It is a similar process to achieve the same using a computer, assuming you have 
 
     ```console
     docker-compose build \
-    --build-arg USERNAME=your_username \
-    --build-arg PASSWORD=your_password
+    --build-arg USERNAME='your_username' \
+    --build-arg PASSWORD='your_password'
     ```
 
 1. Start the container and detach:
