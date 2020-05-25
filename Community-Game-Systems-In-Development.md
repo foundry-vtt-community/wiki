@@ -81,7 +81,7 @@ All Abilities, Items, Background Details, Upgrades, Classes. etc are Foundry Ite
 * [https://raw.githubusercontent.com/Burzghash/cod/master/system.json](https://raw.githubusercontent.com/Burzghash/cod/master/system.json)
 
 ### Description	
-A system for playing for Chronicles of Darkness, 2nd edition within Foundry Virtual Tabletop. Mortal sheets are nearly complete, and an easy-to-use splat-selector allowing you to swap character type to the various supernaturals (Vampire, Werewolf, Mage, etc.) on the fly is in development. Currently seeking additional team members, especially those with talent in the areas of: JavaScript, HTML, CSS, art, and audio. Contact Burzghash#4196 on Discord for details.
+A system for playing for Chronicles of Darkness, 2nd edition within Foundry Virtual Tabletop. Mortal sheets are nearly complete, and an easy-to-use splat-selector allowing you to swap between the various supernaturals (Vampire, Werewolf, Mage, etc.) on the fly is in development. Currently welcoming additional volunteers, especially those with talent in the areas of: JavaScript, HTML, CSS, art, and audio. Contact Burzghash#4196 on Discord for details.
 
 ---
 
