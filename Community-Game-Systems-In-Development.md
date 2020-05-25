@@ -131,7 +131,7 @@ An implementation of the ZWEIHÄNDER system for FoundryVTT. The system is still 
 * **Translation Support**:The author doesn't know how to translate and support is unknown.
 But the system versions are all fixed to English.
 ### Link(s) to Game System	
-* (The Unnamable) Manual:https:[https://dreamyaziumarand.sakura.ne.jp/english/README.md](https://dreamyaziumarand.sakura.ne.jp/english/README.md)
+* (The Unnamable) Manual:[https://dreamyaziumarand.sakura.ne.jp/english/README.md](https://dreamyaziumarand.sakura.ne.jp/english/README.md)
 * Download :[https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/system.json](https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/system.json)
 ### Description
 This game is a blasphemous game of Cosmic Horror... should be.
