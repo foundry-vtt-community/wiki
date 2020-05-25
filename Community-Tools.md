@@ -44,6 +44,29 @@ Please refer to the README and the FPC wiki for more information.
 
 ---
 
+## Table Importer
+
+* **Author**:`_Joe_#5581` on Discord
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.6
+
+### Link(s) to Tool
+https://github.com/jennis0/foundryvtt-utils/
+
+### Description
+A python3 script to process tables copied from online sources into a FoundryVTT compatible JSON format. It has several particularly useful features:
+* Auto subtable generation
+* Auto generation of multiple tables from NxM arrays
+* Dice roll formatting
+* Output a single table as an importable RollTable json file
+* Output many tables as a (nearly) nicely importable compendium format
+* better-rolltables integration with:
+  * Automatic table embedding
+  * Smart handling of currency
+---
+
+App
+
 # Appendix
 
 ## Appendix A: Adding a Tool
