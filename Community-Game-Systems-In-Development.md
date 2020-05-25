@@ -16,7 +16,8 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [ZWEIHÄNDER Grim & Perilous RPG](#zweihÄnder-grim--perilous-rpg)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
-      * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)	
+      * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
+* [CallofCthulhu(7thEd.)](#CallofCthulhu(7thEd.))
 <!--te-->	
 
 # Star Wars	
@@ -123,6 +124,33 @@ The stable release is now usable. Paste the manifest URL into FoundryVTT to down
 An implementation of the ZWEIHÄNDER system for FoundryVTT. The system is still in very early development and, as such, unusable. If you wish to contribute, contact Re4XN#8341 on Discord.
 
 ---
+## CallofCthulhu(7thEd.)
+* **Author**:ただいま 	
+* **Version**:0.6.5(Tested with FoundryVTT in 6.0 version)
+* **Foundry VTT Compatibility**:The game system is unknown. But the compatibility of the system modules has been confirmed.
+* **Translation Support**:The author doesn't know how to translate and support is unknown.
+But the system versions are all fixed to English.
+### Link(s) to Game System	
+* (The Unnamable) Manual:https://dreamyaziumarand.sakura.ne.jp/english/README.md[https://dreamyaziumarand.sakura.ne.jp/english/README.md](https://dreamyaziumarand.sakura.ne.jp/english/README.md)
+* Download :https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/system.json[https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/system.json](https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/system.json)
+### Description
+This game is a blasphemous game of Cosmic Horror... should be.
+(As far as I know, it's heavily paradise-colored, like Delta Green.)
+As those of you who have been playing for a long time will know,A lot of 
+character sheets are lost in the Chaosium campaign.
+So I needed to create a character sheet right away, and I put the Actor sheet in text format.
+The folder "Character sheet template.txt" is the text template of 7htED.
+There are many reasons for the text method, but one of the big ones is that you can 
+just copy and paste a template to lose it on the
+spot and write a character sheet right away, saving you the hassle of data entry.
+There are many reasons for the text method, but one of the big ones is to lose it 
+on the spot and write the character sheet right away, eliminating the hassle of 
+data entry. You just need to copy and paste the template.
+The other reason is that it's flexible to other supplements 
+(because the system itself can be played on 6thED). Both the original settings and the 
+attachability are great.
+All that's left is to play the game as usual, with items listed as weapons.
+It's still under development, so there's no special system.
 
 ---
 
