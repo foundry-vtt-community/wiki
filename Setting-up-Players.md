@@ -5,15 +5,15 @@ To access this menu you will need to be inside of a World. Click on "Game Settin
 Each Player has 3 properties
 * **User Name**: Name as it will appear on the start-up screen when joining a World.
 * **Access Key**: A simple password used to restrict access for each Player. The Gamemaster will have to give this password to the Player in order for them to connect.
-* **Permission Level**: Defines what capabilities a Player will have. The levels are detailed below.
+* **Permission Level**: Defines what capabilities a Player will have (NONE, PLAYER, TRUSTED, ASSISTANT, or GAMEMASTER). The levels are detailed below.
 
 **⚠️ Warning ⚠️**
 > The Access Keys used in Foundry Virtual Tabletop are NOT cryptographically secure. Please do not reuse any password that you also use for other important accounts or services.
 
 # Permission Levels
 
-## Gamemaster
-Users with the Gamemaster permission level have full control over the world and it’s data. Be cautious which users you allow to have GM permission, and it is advisable to assign an access key for any GM players.
+## None
+Similar to the Player level of permission. Users with this role can be given token sight, but are unable to move actors on the canvas.
 
 ## Player
 The most basic level of permission. Players can join the game and be given access to control or observe Actors and Items. Basic player accounts do not have some of the permissions which Trusted Players possess.
@@ -24,8 +24,8 @@ A player flagged as “trusted” has some additional capabilities beyond that o
 ## Assistant Gamemaster
 An assistant GM is similar to a regular GameMaster, they can see the entire game canvas and can create or edit all content. Some permissions are limited, however: Assistant GMs are not allowed to delete Actors, Scenes, or Items.
 
-## None
-Similar to the Player level of permission. Users with this role can be given token sight, but are unable to move actors on the canvas.
+## Gamemaster
+Users with the Gamemaster permission level have full control over the world and it’s data. Be cautious which users you allow to have GM permission, and it is advisable to assign an access key for any GM players.
 
 # First Time
 

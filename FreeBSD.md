@@ -38,6 +38,9 @@ With the Foundry server running you can now access it via your browser by typing
 To shut the Foundry server down press both the `control` + `c` keys at the same time with the terminal in focus.
 
 You can save on some disk space by deleting the Linux-specific binary files.  You can delete the unneeded ones with the following command:
+
+<!--- {% raw %} --->
 ```
 rm -rf chrome* *.dat *.so locales *.bin *.pak swiftshader
 ```
+<!--- {% endraw %} --->

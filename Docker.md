@@ -189,3 +189,30 @@ It is a similar process to achieve the same using a computer, assuming you have 
 1. `docker pull thomasfa18/node-foundry:latest`
 2. `docker run -v [your windows path to foundry data]:/data -v [your windows path to the extracted node.js foundry package]:/pkg -it -p 30000:30000 thomasfa18/node-foundry:latest`
 *Note:* using `-it` runs the container interactively, if you close the command window you will shut down the container. If you omit the `-it` form the command you will need to find the container name using `docker stats` or something to be able to shut it down via `docker kill [container name]`
+
+## Felddy's Easy Docker Container
+
+1. Clone the project to your machine:
+
+    ```console
+    git clone https://github.com/felddy/foundryvtt-docker.git
+    cd foundryvtt-docker
+    ```
+
+1. Build the container using your FoundryVTT site credentials.  Your credentials
+   are only used to download a Foundry release, and **are not stored** in the
+   image:
+
+    ```console
+    docker-compose build \
+    --build-arg USERNAME='your_username' \
+    --build-arg PASSWORD='your_password'
+    ```
+
+1. Start the container and detach:
+
+    ```console
+    docker-compose up --detach
+    ```
+
+For more information about the available configuration options please see the [project README](https://github.com/felddy/foundryvtt-docker/blob/develop/README.md)

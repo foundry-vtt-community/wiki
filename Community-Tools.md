@@ -3,6 +3,7 @@
    * [Foundry VTT Tools (Universal)](#foundry-vtt-tools-universal)
       * [DunGen](#dungen)
       * [Foundry Project Creator (FPC)](#foundry-project-creator-fpc)
+      * [Table Importer](#table-importer)
    * [Appendix](#appendix)
       * [Appendix A: Adding a Tool](#appendix-a-adding-a-tool)
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -43,6 +44,28 @@ The **Project Creator** is a tool to quickly get started with developing modules
 Please refer to the README and the FPC wiki for more information.
 
 ---
+
+## Table Importer
+
+* **Author**:`_Joe_#5581` on Discord
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.6
+
+### Link(s) to Tool
+[Link to the repo](https://github.com/jennis0/foundryvtt-utils/)
+
+### Description
+A python3 script to process tables copied from online sources into a FoundryVTT compatible JSON format. It has several particularly useful features:
+* Auto subtable generation
+* Auto generation of multiple tables from NxM arrays
+* Dice roll formatting
+* Output a single table as an importable RollTable json file
+* Output many tables as a (nearly) nicely importable compendium format
+* better-rolltables integration with automatic table embedding and smart handling of currency
+
+---
+
+App
 
 # Appendix
 
