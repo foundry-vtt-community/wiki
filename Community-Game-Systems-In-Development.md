@@ -133,7 +133,8 @@ But the system versions are all fixed to English.
 ### Link(s) to Game System	
 * (The Unnamable) Manual:[https://dreamyaziumarand.sakura.ne.jp/english/README.md](https://dreamyaziumarand.sakura.ne.jp/english/README.md)
 * Download :[https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/system.json](https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/system.json)
-### Description
+* Partial source code disclosure (Github):[https://github.com/tadaimatrpg/callofcthulhu](https://github.com/tadaimatrpg/callofcthulhu)
+### Description  
 This game is a blasphemous game of Cosmic Horror... should be.
 (As far as I know, it's heavily paradise-colored, like Delta Green.)
 As those of you who have been playing for a long time will know,A lot of 
@@ -147,7 +148,8 @@ The other reason is that it's flexible to other supplements
 (because the system itself can be played on 6thED). Both the original settings and the 
 attachability are great.
 All that's left is to play the game as usual, with items listed as weapons.
-It's still under development, so there's no special system.
+It's still under development, so there's no special system.  
+![Example of a play image](https://dreamyaziumarand.sakura.ne.jp/cthulhu/kaihatuyou.jpg)  
 
 ---
 
