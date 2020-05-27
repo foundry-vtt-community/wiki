@@ -19,6 +19,7 @@ The list below is an unofficial list of game systems that are still a work in pr
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
 * [CallofCthulhu(7thEd.)](#callofcthulhu7thed)
+* [Stars Without Number](#stars-without-number)
 <!--te-->	
 
 # Star Wars	
@@ -167,6 +168,29 @@ Game System for playing 70's 80's old-school versions of Dungeons and Dragons. F
 
 * Basic/Expert D&D aka B/X
 * Original D&D aka OD&D
+
+---
+
+## Stars Without Number: Revised Edition
+* **Author**: [Spice-King](https://github.com/Spice-King)/Spice_King#3128	
+* **Version**: unreleased
+* **Foundry VTT Compatibility**: 0.6.0
+* **Translation Support**: English, mostly translatable
+### Link(s) to Game System
+* Coming Soon™ once I have something usable.
+### Description
+_The year is 3200 and mankind's empire lies in ashes._
+
+_The Jump Gates fell six hundred years ago, severing the links between the myriad worlds of the human diaspora._
+
+_Now, the long isolation of the Silence falls away as men and women return to the skies above their scattered worlds._
+
+_Will you be among them once more?_
+
+Stars Without Number: Revised Edition is an old-school-inspired game of sci-fi adventure, one built from the ground up to encourage sandbox play and simplify a GM's job in providing it. Familiar mechanics are employed to forge new worlds and explore new possibilities, guidelines built on long experience used to help a group venture in wholly new directions.
+
+#### Sheet support and plans
+Currently the there is support for the PC character actor sheet, with plans for custom sheets for drones, ships, NPCs, transhuman players, and more. Some support for a small number of item sheets are planned, ranging from armor, weapons to consumables and ship hulls. I hope to have most of the base game content in compendium form from the free edition and I plan to reach out to Kevin Crawford about distribution of the paid content in compendium form in a way that respects his IP once the system is feature complete.
 
 ---	
 
