@@ -86,7 +86,13 @@ When you pop that out into chat, it will look like this, assuming the init attri
 ![](https://i.imgur.com/Vw8jedz.png)
 
 
-It will automatically draw from your assigned character's attributes unless you have a different token selected.  
+It will automatically draw from your assigned character's attributes unless you have a different token selected.
+
+### Seeing a list of attributes
+
+If you wish to see the list of @attributes you can utilize, open console (F12) and type `_token.actor.data.data` (token should be selected). You will see a list of options you can reference in a dot notation. For example, if you wish to reference the stealth modifier, it would be: `@skills.ste.mod`.
+
+The top level attributes you can access with the @ symbol are: `@abilities, @attributes, @bonuses, @currency, @details, @resources, @skills, @spells, @traits`.
 
 
 # Formatting
