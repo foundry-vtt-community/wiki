@@ -17,7 +17,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [B/X D&D](#bx-dd)
    * [CallofCthulhu(7thEd.)](#callofcthulhu7thed)
    * [Stars Without Number](#stars-without-number)
-   * Tales from the Loop / Things from the Flood(#things-from-the-flood)
+   * [Tales from the Loop / Things from the Flood](#things-from-the-flood)
    * [Rêve de Dragon](#reve-de-dragon)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
