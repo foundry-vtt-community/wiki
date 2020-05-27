@@ -17,6 +17,7 @@ Table of Contents
          * [<a href="DigitalOcean-Initialization-Script">DigitalOcean Initialization Script</a>](#digitalocean-initialization-script)
          * [<a href="Self-Hosting-on-AWS">Self Hosting on AWS</a>](#self-hosting-on-aws)
       * [<a href="Docker">Self-hosted Docker</a>](#self-hosted-docker)
+      * [<a href="Kubernetes">Self-hosted Kubernetes</a>](#self-hosted-kubernetes)
       * [<a href="Connecting">Connecting</a>](#connecting)
       * [<a href="Setting-up-Worlds">Setting up Worlds</a>](#setting-up-worlds)
       * [<a href="Setting-up-Players">Setting up Players</a>](#setting-up-players)
