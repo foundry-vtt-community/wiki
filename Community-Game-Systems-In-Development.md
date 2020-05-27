@@ -14,7 +14,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Star Trek Adventures (2d20)](#star-trek-adventures-(2d20))
    * [CyberpunkRED](#cyberpunkred)
    * [ZWEIHÄNDER Grim & Perilous RPG](#zweihÄnder-grim--perilous-rpg)
-   * [B/X D&D](#B-X--D-D)
+   * [B/X D&D](#bx-dd)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
