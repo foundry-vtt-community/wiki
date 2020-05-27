@@ -210,6 +210,22 @@ Being a content light system, making this system is mostly about making it's she
 
 ---	
 
+## 7th Sea Second Edition
+* **Author**: [PsychoPH](https://github.com/psychoph)/psychoph#7872
+* **Version**: 0.0.1
+* **Foundry VTT Compatibility**: 0.6.0	
+* **Translation Support**: English, translatable
+### Link(s) to Game System	
+* [https://github.com/Detailing-the-Realm/svnsea2e](https://github.com/Detailing-the-Realm/svnsea2e)	
+* [https://raw.githubusercontent.com/Detailing-the-Realm/svnsea2e/master/system.json](https://raw.githubusercontent.com/Detailing-the-Realm/svnsea2e/master/system.json)	
+### Description	
+Adapting the (7th Sea Second Edition [https://www.chaosium.com/7th-sea/] system by John Wick to Foundry VTT. 
+7th Sea is a tabletop roleplaying game of swashbuckling and intrigue, exploration and adventure, taking place on the continent of Théah, a land of magic and mystery inspired by our own Europe.
+Players take on the roles of heroes thrown into global conspiracies and sinister plots, exploring ancient ruins of a race long vanished and protecting the rightful kings and queens of Théah from murderous villains. It is a world of sharp blades and sharp wits, where a cutting retort can be just as deadly as a sword’s point.
+I am putting this here as more of a commitment that I will work on it and other can submit requests or make push requests. The system is in very very early stages of design still, but it should install. I will use the readme file to publish the projects status and to do list. 
+
+---	
+
 # Appendix	
 
 ## Appendix A: Adding a Game System	
