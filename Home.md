@@ -28,6 +28,8 @@
 
 ## [Self-hosted Docker](Docker)
 
+## [Self-hosted Kubernetes](Kubernetes)
+
 ## [Connecting](Connecting)
 
 ## [Setting up Worlds](Setting-up-Worlds)
