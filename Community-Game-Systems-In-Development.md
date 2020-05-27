@@ -15,11 +15,13 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [CyberpunkRED](#cyberpunkred)
    * [ZWEIHÄNDER Grim & Perilous RPG](#zweihÄnder-grim--perilous-rpg)
    * [B/X D&D](#bx-dd)
+   * [CallofCthulhu(7thEd.)](#callofcthulhu7thed)
+   * [Stars Without Number](#stars-without-number)
+   * Tales from the Loop / Things from the Flood(#things-from-the-flood)
+   * [Rêve de Dragon](#reve-de-dragon)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
-* [CallofCthulhu(7thEd.)](#callofcthulhu7thed)
-* [Stars Without Number](#stars-without-number)
 <!--te-->	
 
 # Star Wars	
@@ -207,6 +209,21 @@ In Tales from the Loop, you are playing a kid in an alternative 80s uchrony insp
 Things from the Flood expands the timeline of the game into the 90s where player characters grew up to become teens. This extension has a way darker tone, with governments selling their secrets to corporations and technology becoming even more unpredictable and scary.
 
 Being a content light system, making this system is mostly about making it's sheet and some logic for integrated rolls. I don't know yet if TFTL and TFTF will coexist in the same game system or if they are going to be two separate things.
+
+---
+
+## Rêve de Dragon
+* **Author**: LeRatierBretonnien	
+* **Version**: 0.1	
+* **Foundry VTT Compatibility**: 0.6.0
+* **Translation Support**: French
+### Link(s) to Game System	
+* URL : https://gitlab.com/LeRatierBretonnien/foundryvtt-reve-de-dragon	
+* Manifest : https://gitlab.com/LeRatierBretonnien/foundryvtt-reve-de-dragon/-/raw/master/system.json	
+### Description	
+
+This is the system for the French RPG "Reve de Dragon" (known also in english as Rêve : The Dream Ourobouros"). 
+In French : l'objectif de ce système est d'avoir un niveau d'automatisation élevé : haut rêve, potions, alchimie, combats, etc. A l'heure actuelle, le système n'est pas spécialement utilisable, mais les progrés sont régulièrement commités sous giltab.
 
 ---	
 
