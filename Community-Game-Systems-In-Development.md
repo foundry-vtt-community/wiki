@@ -194,6 +194,22 @@ Currently the there is support for the PC character actor sheet, with plans for 
 
 ---	
 
+## Tales from the Loop / Things from the Flood
+* **Author**: onf#2586
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.6.0+
+* **Translation Support**: English / Français
+### Link(s) to Game System	
+* Not available yet
+### Description	
+In Tales from the Loop, you are playing a kid in an alternative 80s uchrony inspired by the world painted by [Simon Stalenhag](https://www.simonstalenhag.se/). Giant robots are eerily roaming enormous particle accelerators which are driving the world's technological leap, while also being the epicenter of strange mysteries. TFTL is about the ordinary meeting the extraordinary with a sci-fi twist. Government conspiracies, unknown technologies and chilling mysteries coexist with school dramas. 
+
+Things from the Flood expands the timeline of the game into the 90s where player characters grew up to become teens. This extension has a way darker tone, with governments selling their secrets to corporations and technology becoming even more unpredictable and scary.
+
+Being a content light system, making this system is mostly about making it's sheet and some logic for integrated rolls. I don't know yet if TFTL and TFTF will coexist in the same game system or if they are going to be two separate things.
+
+---	
+
 # Appendix	
 
 ## Appendix A: Adding a Game System	
