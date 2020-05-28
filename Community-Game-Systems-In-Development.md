@@ -227,6 +227,20 @@ In French : l'objectif de ce système est d'avoir un niveau d'automatisation él
 
 ---	
 
+## Shadow of the Demon Lord
+* **Author**: Xacus#7239 on discord	
+* **Version**: 0.1	
+* **Foundry VTT Compatibility**: 0.6.0+
+* **Translation Support**: English
+### Link(s) to Game System	
+* Not available yet	
+### Description	
+
+Shadow of the Demon Lord is a game made by Schwalb Entertainment and I got the permission to bring it to FoundryVTT.
+Enter a world on the brink of annihilation, its lands torn asunder by war, plague, and ancient horrors. Urth, the world of Shadow of the Demon Lord, is one of many imperiled by the shadowy menace lurking without and in this game you can play through its final days as embattled survivors fighting against what to many seems to be an inevitable end. 
+
+---
+
 # Appendix	
 
 ## Appendix A: Adding a Game System	
