@@ -1,6 +1,6 @@
 Get Modules for Foundry VTT on the official site: https://foundryvtt.com/packages/
 
-The list below is an unofficial list of game systems.
+The list below is an unofficial list of game modules.
 
 <!--tl=2-->
 <!--ts-->
