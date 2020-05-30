@@ -248,24 +248,7 @@ A simple game system for Foundry VTT which allows for flexible definition of Act
 
 # Appendix	
 
-## Appendix A: Adding a Game System	
-
-**Copy and paste the outline below in writing up new game system descriptions, formatting and all!**	
-```	
-## (Game System Name)	
-* **Author**: (Put author’s name here, including Discord username. If they accept contributions in code or donations, note this here as well.)	
-* **Version**: (Note current version of game system here.)	
-* **Foundry VTT Compatibility**: (Note which versions of Foundry Virtual Tabletop the game system is compatible with.)	
-* **Translation Support**: (Note which languages are supported, and if they have (full) or (partial) translations.	
-### Link(s) to Game System	
-* (Put a web URL here to find the game system.)	
-* (Put the manifest url here to update/install the game system.)	
-### Description	
-(Describe the game system here. This should include the game system’s function, installation instructions, and anything important to note. Due to the particular oddities of some archiving programs (WinRar, 7zip), and GitHub zip folders, including a screenshot of what the module should look like file-wise in the “public/systems/examplesystem” is appreciated, though not required.)	
----	
-```	
-
-## Appendix B: Best Editing Practices	
+## Appendix A: Best Editing Practices	
 
 - Links to game systems should link to the author’s page for it, if such exists. This helps emphasize the game system author’s control over their creation, and allows users to see information that the game system author deems important. If you have the game system author’s permission otherwise, or you are the creator, feel free to link directly to the game system download link. 	
 - Game Systems are sorted by system compatibility, then function, and then alphabetically.	
