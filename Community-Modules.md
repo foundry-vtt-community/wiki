@@ -1,3 +1,7 @@
+Get Modules for Foundry VTT on the official site: https://foundryvtt.com/packages/
+
+The list below is an unofficial list of game systems.
+
 <!--tl=2-->
 <!--ts-->
    * [Foundry VTT Modules (Universal)](#foundry-vtt-modules-universal)
@@ -2607,32 +2611,7 @@ This Foundry VTT module lets you send tiles to the front or the back of the scen
 
 ---
 # Appendix
-
-## Appendix A: Adding a Module
-
-**Copy and paste the outline below in writing up new module descriptions, formatting and all!**
-```
-## (Module Name)
-
-* **Author**: (Put author’s name here, including Discord username. If they accept contributions in code or donations, note this here as well.)
-* **Version**: (Note current version of module here.)
-* **Foundry VTT Compatibility**: (Note which versions of Foundry Virtual Tabletop the module is compatible with.)
-* **System Compatibility (If applicable)**: (Note which systems of Foundry Virtual Tabletop the module is compatible with.)
-* **Module Requirement(s)**: (If the module requires other modules to function, note them here.)
-* **Module Conflicts**: (If the module conflicts with other modules, either partially or completely, note conflicts here.)
-* **Translation Support**: (Note which languages are supported, and if they have (full) or (partial) translations.
-
-### Link(s) to Module
-* (Put a web URL here to find the module.)
-* (Put the manifest url here to update/install the module.)
-
-### Description
-(Describe the module here. This should include the module’s function, installation instructions, and anything important to note. Due to the particular oddities of some archiving programs (WinRar, 7zip), and GitHub zip folders, including a screenshot of what the module should look like file-wise in the “public/modules/examplemodule” is appreciated, though not required.)
-
----
-```
-
-## Appendix B: Best Editing Practices
+## Appendix A: Best Editing Practices
 
 - Ideally, the term module should be used over mod, unless it is in the mod’s name or the author’s description. Mod can carry connotations from other games that might not exist in Foundry VTT, while modules in Foundry VTT can range from NPC compendiums, to worlds, to “enhancement suite” functions. They’re effectively the same thing, but it helps to emphasize how flexible Foundry Virtual Tabletop is. 
 - Links to modules should link to the author’s page for it, if such exists. This helps emphasize the module author’s control over their creation, and allows users to see information that the module author deems important. If you have the module author’s permission otherwise, or you are the creator, feel free to link directly to the module download link. 
