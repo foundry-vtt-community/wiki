@@ -132,8 +132,7 @@ The list below is an unofficial list of game modules.
       * [SRD Bestiary Module](#srd-bestiary-module)
       * [Z Order (functionality integrated into core)](#z-order-functionality-integrated-into-core)
    * [Appendix](#appendix)
-      * [Appendix A: Adding a Module](#appendix-a-adding-a-module)
-      * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
+      * [Appendix A: Best Editing Practices](#appendix-a-best-editing-practices)
 <!--te-->
 
 # Foundry VTT Modules (Universal)
