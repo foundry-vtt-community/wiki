@@ -153,4 +153,4 @@ If this is the actor's owner, we're going through all <!-- {% raw %} -->`<li>`<!
 ---
 
 * **Prev:** [Separating item types into tabs](https://foundry-vtt-community.github.io/wiki/SD11.4-Separating-item-types-into-tabs)
-* **Next:** To be continued...
+* **Next:** [Localization](https://foundry-vtt-community.github.io/wiki/SD-13.0-Localization/)
