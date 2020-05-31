@@ -128,7 +128,7 @@ An implementation of the ZWEIHÄNDER system for FoundryVTT. The system is still 
 ---
 ## CallofCthulhu(7thEd.)
 * **Author**:ただいま 	
-* **Version**:0.6.5(Tested with FoundryVTT in 6.0 version)
+* **Version**:0.6.6(Tested with FoundryVTT in 6.0 version)
 * **Foundry VTT Compatibility**:The game system is unknown. But the compatibility of the system modules has been confirmed.
 * **Translation Support**:The author doesn't know how to translate and support is unknown.
 But the system versions are all fixed to English.
