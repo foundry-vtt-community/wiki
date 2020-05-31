@@ -41,5 +41,5 @@ It's always more effort to go back and localize a system after it's developed, s
 
 ---
 
-* **Prev:** [Getting an empty system together](https://foundry-vtt-community.github.io/wiki/SD01-Getting-started)
-* **Next:** [system.json](https://foundry-vtt-community.github.io/wiki/SD03-system.json)
+**Prev:** [Getting an empty system together](https://foundry-vtt-community.github.io/wiki/SD01-Getting-started)
+**Next:** [system.json](https://foundry-vtt-community.github.io/wiki/SD03-system.json)
