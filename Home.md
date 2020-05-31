@@ -4,7 +4,7 @@
 
 # [Getting Started](Getting-Started)
 
-## [Update Notes](Update-Notes)
+## [Update Notes](https://foundryvtt.com/releases/)
 
 ## [Downloading Foundry VTT](Downloading-Foundry-VTT)
 
