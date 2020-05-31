@@ -5,7 +5,7 @@ Table of Contents
    * [<a href="What-is-Foundry-VTT">What is Foundry VTT</a>](#what-is-foundry-vtt)
    * [<a href="FAQ">FAQ</a>](#faq)
    * [<a href="Getting-Started">Getting Started</a>](#getting-started)
-      * [<a href="Update-Notes">Update Notes</a>](#update-notes)
+      * [<a href="https://foundryvtt.com/releases/" rel="nofollow">Update Notes</a>](#update-notes)
       * [<a href="Downloading-Foundry-VTT">Downloading Foundry VTT</a>](#downloading-foundry-vtt)
       * [<a href="Self-hosted-Local">Self-hosted Local</a>](#self-hosted-local)
          * [<a href="Windows">Windows</a>](#windows)
