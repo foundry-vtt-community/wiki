@@ -32,6 +32,7 @@ If you have any questions, you can find me on the Foundry discord as @asacolips#
 	- [Grouping items by type](https://foundry-vtt-community.github.io/wiki/SD11.3-Grouping-items-by-type)
 	- [Separating item types into tabs](https://foundry-vtt-community.github.io/wiki/SD11.4-Separating-item-types-into-tabs)
 	- [Adding macrobar support for your items](https://foundry-vtt-community.github.io/wiki/SD16-Adding-macrobar-support-to-your-Items)
+- [Localization](https://foundry-vtt-community.github.io/wiki/SD-13.0-Localization)
 
 ## Sections that are Work-in-Progress
 
