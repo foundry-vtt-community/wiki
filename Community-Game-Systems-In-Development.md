@@ -18,6 +18,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Rêve de Dragon](#reve-de-dragon)
    * [Shadow of the Demon Lord](#shadow-of-the-demon-lord)
    * [Splittermond](#splittermond)
+   * [CallOfCthulhu](#callofcthulhu72)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -250,6 +251,18 @@ Enter a world on the brink of annihilation, its lands torn asunder by war, plagu
 * https://github.com/ap3h3ad/foundryvtt-splittermond
 ### Description	
 Splittermond is german-only (untranslated) High Fantasy RPG that was published 2014 by the german Uhrwerk Verlag and is since maintained by them. Installation info etc. will come with more progress being made.
+
+---
+
+## Call of Cthulhu 7
+* **Author**: Vétérini 
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.6.0, 0.6.1
+* **Translation Support**: English 
+### Link(s) to Game System	
+* https://raw.githubusercontent.com/HavlockV/CoC7-FoundryVTT/Develop/system.json 
+### Description	
+Call of Cthulhu v7 system for Foundry, ongoing work by Vétérini.
 
 ---	
 
