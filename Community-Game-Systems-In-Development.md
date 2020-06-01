@@ -17,6 +17,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Tales from the Loop / Things from the Flood](#things-from-the-flood)
    * [Rêve de Dragon](#reve-de-dragon)
    * [Shadow of the Demon Lord](#shadow-of-the-demon-lord)
+   * [Splittermond](#splittermond)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
