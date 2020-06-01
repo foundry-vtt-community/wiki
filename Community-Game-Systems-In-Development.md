@@ -240,6 +240,18 @@ Enter a world on the brink of annihilation, its lands torn asunder by war, plagu
 
 ---
 
+## Splittermond
+* **Author**: Loki (Discord: Loki#1340)
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.6.0, 0.6.1
+* **Translation Support**: German (full)
+### Link(s) to Game System	
+* https://github.com/ap3h3ad/foundryvtt-splittermond
+### Description	
+Splittermond is german-only (untranslated) High Fantasy RPG that was published 2014 by the german Uhrwerk Verlag and is since maintained by them. Installation info etc. will come with more progress being made.
+
+---	
+
 # Appendix	
 
 ## Appendix A: Adding a Game System	
