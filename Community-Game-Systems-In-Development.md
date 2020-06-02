@@ -28,14 +28,14 @@ The list below is an unofficial list of game systems that are still a work in pr
 
 ## Star Wars FFG	
 
-* **Author**: Jaxxa#1375 on Discord	
-* **Version**: 0.01	
-* **Foundry VTT Compatibility**: 0.5.5+	
+* **Author**: Blaze#0294 and Jaxxa#1375 on Discord	
+* **Version**: 0.060	
+* **Foundry VTT Compatibility**: 0.5.6+	
 * **Translation Support**: EN (full)	
 
 ### Link(s) to Game System	
-* [https://github.com/jaxxa/StarWarsFFG](https://github.com/jaxxa/StarWarsFFG)	
-* [https://raw.githubusercontent.com/jaxxa/StarWarsFFG/master/system.json](https://raw.githubusercontent.com/jaxxa/StarWarsFFG/master/system.json)	
+* [https://github.com/StarWarsFoundryVTT/StarWarsFFG](https://github.com/StarWarsFoundryVTT/StarWarsFFG)	
+* [https://raw.githubusercontent.com/StarWarsFoundryVTT/StarWarsFFG/master/system.json](https://raw.githubusercontent.com/StarWarsFoundryVTT/StarWarsFFG/master/system.json)	
 
 ### Description	
 This is an implementation of the Fantasy Flight Games Star Wars roleplaying system by in Foundry Virtual Tabletop. Please feel free to post issues or Pull Requests on the GitHub repo or suggestions and feedback on Discord.
