@@ -36,6 +36,7 @@ The list below is an unofficial list of game modules.
       * [GM Scene Background](#gm-scene-background)
       * [Grid Scaler](#grid-scaler)
       * [Group Initiative](#group-initiative)
+      * [Hook Macros](#hook-macros)
       * [Image Drop](#image-drop)
       * [Image Previewer](#image-previewer)
       * [Layer Hotkeys](#layer-hotkeys)
@@ -101,6 +102,7 @@ The list below is an unofficial list of game modules.
       * [Polyglot](#polyglot)
       * [Roll20 Converter](#roll20-converter)
       * [Request Roll](#request-roll)
+      * [Resources Plus](#resources-plus)
       * [Sky's 5th Edition Dungeons &amp; Dragons Sheet](#skys-5th-edition-dungeons--dragons-sheet)
       * [Stat Drawer](#stat-drawer)
       * [Summoner](#summoner)
@@ -758,6 +760,25 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 
 ### Description
 Allows rolling initiative once for each NPC group. Each NPC inside the group will use the same initiative result. 
+
+---
+
+## Hook Macros
+
+* **Author**: ardittristan#0001 on Discord.
+* **Version**: 1.2.1
+* **Foundry VTT Compatibility** 0.6.0
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None known
+* **Translation Support**: Not applicable
+
+### Link(s) to Module
+* [https://github.com/ardittristan/HookMacros](https://github.com/ardittristan/HookMacros)
+* [https://raw.githubusercontent.com/ardittristan/HookMacros/master/module.json](https://raw.githubusercontent.com/ardittristan/HookMacros/master/module.json)
+
+### Description
+Allows you to launch macros from hooks.
 
 ---
 
@@ -2063,6 +2084,25 @@ Bear in mind that exporting a campaign from Roll20 may violate the EULA.
 
 ### Description
 Request Roll is a module designed to help Gamemasters speed up the rolling process by requesting rolls from PCs. This can help reduce player navigation time, questions about where a roll is located, and other unforseen delays that cause chokepoitns in your game. You can select from a range of options varying from hidden rolls, where only the gm knows, to rolls with advantage or disadvantage! Consider installing this module to speed along your game!
+
+---
+
+## Resources Plus
+
+* **Author**: ardittristan#0001 on Discord.
+* **Version**: 1.3.1
+* **Foundry VTT Compatibility** 0.6.0
+* **System Compatibility (If applicable)**: DnD5e
+* **Module Requirement(s)**: None
+* **Module Conflicts**: does not show up in DNDBeyond Character Sheet for 5E
+* **Translation Support**: EN (Full)
+
+### Link(s) to Module
+* [https://github.com/ardittristan/5eSheet-resourcesPlus](https://github.com/ardittristan/5eSheet-resourcesPlus)
+* [https://raw.githubusercontent.com/ardittristan/5eSheet-resourcesPlus/master/module.json](https://raw.githubusercontent.com/ardittristan/5eSheet-resourcesPlus/master/module.json)
+
+### Description
+A module that allows you to add more resources to character sheets.
 
 ---
 
