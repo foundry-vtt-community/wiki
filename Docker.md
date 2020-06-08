@@ -207,7 +207,7 @@ docker run \
   --env FOUNDRT_PASSWORD='<your_password>' \
   --publish 30000:30000/tcp \
   --volume /data:<your_data_dir> \
-  felddy/foundryvtt:0.6.1
+  felddy/foundryvtt:latest
 ```
 
 For more information about the available configuration options please see the [project README](https://github.com/felddy/foundryvtt-docker/blob/develop/README.md).  If you have any questions please feel free to contact me on the FoundryVTT discord: `@felddy`
