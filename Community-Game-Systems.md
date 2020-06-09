@@ -21,6 +21,8 @@ The list below is an unofficial list of game systems.
       * [Shadowrun 5th Edition](#shadowrun-5th-edition)	
    * [Savage Worlds](#savage-worlds)	
       * [Savage Worlds Adventure Edition](#savage-worlds-adventure-edition)	
+   * [Adventure Game Engine (AGE)](#adventure-game-engine-age)
+      * [Blue Rose](#blue-rose)
    * [Other](#other)	
       * [Simple Worldbuilding System](#simple-worldbuilding-system)	
    * [Appendix](#appendix)	
@@ -224,6 +226,26 @@ Still work in progress. Message me with feature requests/bug reports.
 This system adds support for Savage Worlds Adventure Edition.		
 
 ---	
+
+# Adventure Game Engine (AGE)
+
+## Blue Rose	
+
+* **Author**: Studio 315b
+* **Version**: 0.2	
+* **Foundry VTT Compatibility**: 0.5.0+	
+* **Translation Support**: EN (full)	
+
+### Link(s) to Game System	
+* [https://gitlab.com/studio315b/blue-rose](https://gitlab.com/studio315b/blue-rose)	
+* [https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json](https://gitlab.com/studio315b/blue-rose/-/raw/master/src/system.json)	
+
+### Description	
+An implementation of the Blue Rose AGE ruleset. Only sheets are provided until an agreement can be made with Green Ronin Publishing.
+
+---	
+
+
 
 # Other	
 
