@@ -130,13 +130,13 @@ An implementation of the ZWEIHÄNDER system for FoundryVTT. The system is still 
 ---
 ## CallofCthulhu(7thEd.)
 * **Author**:ただいま#0125	
-* **Version**:0.6.6(Tested with FoundryVTT in 6.0 version)
+* **Version**:0.7.0(Tested with FoundryVTT in 0.6.2 version)
 * **Foundry VTT Compatibility**:The game system is unknown. But the compatibility of the system modules has been confirmed.
-* **Translation Support**:The author doesn't know how to translate and support is unknown.
-But the system versions are all fixed to English.
+* **Translation Support**:Possible. You can also use translations to change the status display in the actor's sheet.  
+ English and Japanese are registered by default.
 ### Link(s) to Game System	
 * (The Unnamable) Manual:[https://dreamyaziumarand.sakura.ne.jp/english/README.md](https://dreamyaziumarand.sakura.ne.jp/english/README.md)
-* Download :[https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/system.json](https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/system.json)
+* Download :[https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/master/system.json](https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/master/system.json)
 * Partial source code disclosure (Github):[https://github.com/tadaimatrpg/callofcthulhu](https://github.com/tadaimatrpg/callofcthulhu)
 ### Description  
 This game is a blasphemous game of Cosmic Horror... should be.
