@@ -363,7 +363,7 @@ server {
         proxy_set_header        X-Forwarded-Proto $scheme;
 
         # Adjust the port number you chose!
-        proxy_pass              https://127.0.0.1:8080;
+        proxy_pass              http://127.0.0.1:8080;
 
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
