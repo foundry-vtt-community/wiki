@@ -190,7 +190,7 @@ It is a similar process to achieve the same using a computer, assuming you have 
 2. `docker run -v [your windows path to foundry data]:/data -v [your windows path to the extracted node.js foundry package]:/pkg -it -p 30000:30000 thomasfa18/node-foundry:latest`
 *Note:* using `-it` runs the container interactively, if you close the command window you will shut down the container. If you omit the `-it` form the command you will need to find the container name using `docker stats` or something to be able to shut it down via `docker kill [container name]`
 
-## Felddy's Easy, One-Step, Docker Container ⚔️🎲🛡🐳
+## [Felddy's Easy, One-Step, Docker Container](https://github.com/felddy/foundryvtt-docker#readme) ⚔️🎲🛡🐳
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/felddy/foundryvtt)](https://hub.docker.com/r/felddy/foundryvtt)
 [![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/felddy/foundryvtt)](https://hub.docker.com/r/felddy/foundryvtt)
@@ -238,4 +238,4 @@ docker run \
   felddy/foundryvtt:latest
 ```
 
-For more information about the available configuration options please see the [project README](https://github.com/felddy/foundryvtt-docker/blob/develop/README.md).  If you have any questions please feel free to contact me on the FoundryVTT discord: `@felddy`
+For more information about the available configuration options please see the [project README](https://github.com/felddy/foundryvtt-docker#readme).  If you have any questions please feel free to contact me on the FoundryVTT discord: `@felddy`
