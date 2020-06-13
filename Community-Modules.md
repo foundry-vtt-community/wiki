@@ -107,6 +107,8 @@ The list below is an unofficial list of game modules.
       * [Token Info Icons](#token-info-icons)
       * [VTTA D&amp;D Beyond Integration](#vtta-dd-beyond-integration)
       * [VTTA Party](#vtta-party)
+   * [Foundry VTT Modules for DUNGEON WORLD](#foundry-vtt-modules-for-dungeon-world)
+      * [DUNGEON WORLD Module](#dungeon-world-module)
    * [Foundry VTT Modules for GURPS](#foundry-vtt-modules-for-gurps)
       * [GURPSModule](#gurpsmodule)
    * [Foundry VTT Modules for WFRP 4E](#foundry-vtt-modules-for-wfrp-4e)
