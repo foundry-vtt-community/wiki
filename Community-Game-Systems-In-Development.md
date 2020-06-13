@@ -135,7 +135,7 @@ An implementation of the ZWEIHÄNDER system for FoundryVTT. The system is still 
 * **Translation Support**:Possible. You can also use translations to change the status display in the actor's sheet.  
  English and Japanese are registered by default.
 ### Link(s) to Game System	
-* Download :[https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/master/system.json](https://dreamyaziumarand.sakura.ne.jp/callofcthulhu/run/master/system.json)  
+* Download :[https://github.com/tadaimatrpg/callofcthulhu/blob/master/system.json](https://github.com/tadaimatrpg/callofcthulhu/blob/master/system.json)  
 * (The Unnamable) Manual and Source code disclosure (Github):[https://github.com/tadaimatrpg/callofcthulhu](https://github.com/tadaimatrpg/callofcthulhu)
 ### Description  
 This game is a blasphemous game of Cosmic Horror... should be.  
