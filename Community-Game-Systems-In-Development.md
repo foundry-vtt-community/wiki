@@ -19,6 +19,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Shadow of the Demon Lord](#shadow-of-the-demon-lord)
    * [Splittermond](#splittermond)
    * [CallOfCthulhu](#callofcthulhu72)
+   * [Lancer](#lancer)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -262,6 +263,22 @@ Splittermond is german-only (untranslated) High Fantasy RPG that was published 2
 * https://raw.githubusercontent.com/HavlockV/CoC7-FoundryVTT/Develop/system.json 
 ### Description	
 Call of Cthulhu v7 system for Foundry, ongoing work by Vétérini.
+
+---	
+
+## LANCER
+* **Author**: Eranziel (Discord: Eranziel#0410)	
+* **Version**: Pre-release	
+* **Foundry VTT Compatibility**: 0.5.x, 0.6.x
+* **Translation Support**: English	
+### Link(s) to Game System	
+* Coming soon!	
+### Description	
+In Lancer, players adopt the roles of mechanized chassis pilots - mech pilots - comrades together in a galaxy of danger and hope. Some groups will fight to rectify the crimes of previous administrations; others will fight for their nation,  pieces in a greater game of hegemony. Others will carry the banner of a corpro-state or mercenary company, working to advance private interests while lining their pockets. Others still will fight for groups acting in opposition to those in power - for the underground, for the forgotten, agents of entropy and agents of yet more radical revolutions. 
+
+Lancer is an RPG focusing on tactical mech combat interspersed with narrative pilot-focused beats, set in an optimistic sci-fi future. 
+
+This Foundry system is in development, with an alpha release coming soon(tm). Initial release is planned to include a basic sheet for stat tracking, compendiums of the player-facing options from the core book, and basic macros for weapons and systems.
 
 ---	
 
