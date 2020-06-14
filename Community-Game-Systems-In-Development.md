@@ -270,9 +270,11 @@ Call of Cthulhu v7 system for Foundry, ongoing work by Vétérini.
 * **Author**: Eranziel (Discord: Eranziel#0410)	
 * **Version**: Pre-release	
 * **Foundry VTT Compatibility**: 0.5.x, 0.6.x
-* **Translation Support**: English	
+* **Translation Support**: English
+	
 ### Link(s) to Game System	
 * Coming soon!	
+
 ### Description	
 In Lancer, players adopt the roles of mechanized chassis pilots - mech pilots - comrades together in a galaxy of danger and hope. Some groups will fight to rectify the crimes of previous administrations; others will fight for their nation,  pieces in a greater game of hegemony. Others will carry the banner of a corpro-state or mercenary company, working to advance private interests while lining their pockets. Others still will fight for groups acting in opposition to those in power - for the underground, for the forgotten, agents of entropy and agents of yet more radical revolutions. 
 
