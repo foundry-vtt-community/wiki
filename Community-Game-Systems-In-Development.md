@@ -131,7 +131,7 @@ An implementation of the ZWEIHÄNDER system for FoundryVTT. The system is still 
 ---
 ## CallofCthulhu(7thEd.)
 * **Author**:ただいま#0125	
-* **Version**:0.8.1(Tested with FoundryVTT in 0.6.2 version)
+* **Version**:0.9.0(Tested with FoundryVTT in 0.6.2 version)
 * **Foundry VTT Compatibility**:The game system is unknown. But the compatibility of the system modules has been confirmed.
 * **Translation Support**:Possible. You can also use translations to change the status display in the actor's sheet.  
  English and Japanese are registered by default.
