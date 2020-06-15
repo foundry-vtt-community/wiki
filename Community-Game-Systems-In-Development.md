@@ -131,7 +131,7 @@ An implementation of the ZWEIHÄNDER system for FoundryVTT. The system is still 
 ---
 ## CallofCthulhu(7thEd.)
 * **Author**:ただいま#0125	
-* **Version**:0.9.0(Tested with FoundryVTT in 0.6.2 version)
+* **Version**:0.9.9(Tested with FoundryVTT in 0.6.2 version)
 * **Foundry VTT Compatibility**:The game system is unknown. But the compatibility of the system modules has been confirmed.
 * **Translation Support**:Possible. You can also use translations to change the status display in the actor's sheet.  
  English and Japanese are registered by default.
@@ -144,7 +144,7 @@ This game is a blasphemous game of Cosmic Horror... should be.
 As those of you who have been playing for a long time will know,A lot of  
 character sheets are lost in the Chaosium campaign.  
 So I needed to create a character sheet right away, and I put the Actor sheet in text format.  
-The folder "Character sheet template.txt" is the text template of 7htED.  
+Open the JournalEntry "template" in the Compendium and the "Character sheet template" of 7htED.  
 There are many reasons for the text method, but one of the big ones is to lose it   
 on the spot and write the character sheet right away, eliminating the hassle of  
 data entry. You just need to copy and paste the template.  
@@ -152,7 +152,7 @@ The other reason is that it's flexible to other supplements
 (because the system itself can be played on 6thED).  
 Both the original settings and theattachability are great.  
 All that's left is to play the game as usual, with items listed as weapons.  
-It's still under development, so there's no special system.   
+And the final piece. Version 1.0.0 will complete the system in FVTT version 7 or later.
 ![Example of a play image](https://dreamyaziumarand.sakura.ne.jp/cthulhu/kaihatuyou.jpg)  
 
 ---
