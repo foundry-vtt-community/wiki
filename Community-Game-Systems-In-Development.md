@@ -13,7 +13,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [ZWEIHÄNDER Grim & Perilous RPG](#zweihÄnder-grim--perilous-rpg)
    * [B/X D&D](#bx-dd)
    * [CallofCthulhu(7thEd.)](#callofcthulhu7thed)
-   * [Stars Without Number](#stars-without-number)
+   * [Stars Without Number: Revised Edition](#stars-without-number-revised-edition)
    * [Tales from the Loop / Things from the Flood](#things-from-the-flood)
    * [Rêve de Dragon](#reve-de-dragon)
    * [Shadow of the Demon Lord](#shadow-of-the-demon-lord)
