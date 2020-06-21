@@ -20,6 +20,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Splittermond](#splittermond)
    * [CallOfCthulhu](#callofcthulhu72)
    * [Lancer](#lancer)
+   * [Torchbearer](#torchbearer)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -282,7 +283,20 @@ Lancer is an RPG focusing on tactical mech combat interspersed with narrative pi
 
 This Foundry system is in development, with an alpha release coming soon(tm). Initial release is planned to include a basic sheet for stat tracking, compendiums of the player-facing options from the core book, and basic macros for weapons and systems.
 
+---
+
+## Torchbearer
+* **Author**: Nick Serluco (Discord: yougotnick#9692)
+* **Version**: 0.1
+* **Foundry VTT Compatibility**: 0.6.x
+* **Translation Support**: English 
+### Link(s) to Game System	
+* https://github.com/lupinelegend/torchbearer
+### Description	
+Torchbearer system for Foundry, ongoing work by Nick Serluco and Jason Reid.
+
 ---	
+
 
 # Appendix	
 
