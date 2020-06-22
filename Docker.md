@@ -215,7 +215,7 @@ docker run \
   --env FOUNDRY_PASSWORD='<your_password>' \
   --publish 30000:30000/tcp \
   --volume /data:<your_data_dir> \
-  felddy/foundryvtt:latest
+  felddy/foundryvtt:release
 ```
 
 If you are using `bash`, or a similar shell, consider pre-pending the Docker
@@ -235,7 +235,7 @@ docker run \
   --env FOUNDRY_RELEASE_URL='<temporary_url>' \
   --publish 30000:30000/tcp \
   --volume /data:<your_data_dir> \
-  felddy/foundryvtt:latest
+  felddy/foundryvtt:release
 ```
 
 For more information about the available configuration options please see the [project README](https://github.com/felddy/foundryvtt-docker#readme).  If you have any questions please feel free to contact me on the FoundryVTT discord: `@felddy`
