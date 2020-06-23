@@ -21,6 +21,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [CallOfCthulhu](#callofcthulhu72)
    * [Lancer](#lancer)
    * [Torchbearer](#torchbearer)
+   * [Wolves of God](#wolvesofgod) 
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -296,7 +297,18 @@ This Foundry system is in development, with an alpha release coming soon(tm). In
 Torchbearer system for Foundry, ongoing work by Nick Serluco and Jason Reid.
 
 ---	
+## Wolves of God
+* **Author**: Paul Umbers (Discord: 3rdDog (Paul)#6199)
+* **Version**: 0.1.0
+* **Foundry VTT Compatability**: 0.6.x
+* **Translation Support**: English
+### Link(s) to Game System
+* Coming soon, I'm keeping the repo private until I get the OK from Kevin Crawford
+### Description
+Kevin Crawford's [Wolves of God - Adventures in Dark Ages England](https://www.drivethrurpg.com/product/308470/Wolves-of-God-Adventures-in-Dark-Ages-England).
 
+
+---
 
 # Appendix	
 
