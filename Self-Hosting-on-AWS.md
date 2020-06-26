@@ -108,6 +108,7 @@ This is the basic S3 console.  Hit Create Bucket.
 The bucket name needs to follow a certain set of conventions.  First, it can only contain lowercase letters, numbers, and dashes.  Second it must be _globally_ unique across _all_ AWS regions and accounts -- for example, if I create a bucket called foundry-vtt-assets, you cannot create a bucket with the same name, even though we're using separate accounts.  Leave the region on the default.  Under Bucket settings for Block Public Access, uncheck Block _all_ public access and acknowledge the risk.
 
 Normally, I would not use this setting, but Foundry requires that the bucket be made public as it links players directly to assets in the bucket.  If the bucket isn't public, the links won't work.  Hit Create Bucket.
+**Using the public permission for your S3 bucket is a security risk!**
 
 When you go back to the dashboard, you should see the new bucket there.  Click on the little circle to the left of the name and click Copy ARN above it.  Paste that into a notepad -- we'll need it in the next section.  Click on the bucket name after you've got the ARN.
 
