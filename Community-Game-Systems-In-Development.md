@@ -20,6 +20,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Splittermond](#splittermond)
    * [CallOfCthulhu](#callofcthulhu72)
    * [Lancer](#lancer)
+   * [RWBY](#rwby)
    * [Torchbearer](#torchbearer)
    * [Wolves of God](#wolvesofgod) 
    * [Appendix](#appendix)	
@@ -297,6 +298,22 @@ This Foundry system is in development, with an alpha release coming soon(tm). In
 Torchbearer system for Foundry, ongoing work by Nick Serluco and Jason Reid.
 
 ---	
+
+
+## RWBY	
+* **Author**: Forien (Forien#2130) ([Patreon](https://www.patreon.com/forien))
+* **Version**: 0.0.1-alpha	
+* **Foundry VTT Compatibility**: 0.6.0+  
+* **Translation Support**: English  	
+### Link(s) to Game System	
+* System Repository: _none yet_
+* Manifest URL: _none yet_
+### Description	 
+Adaptation of [The Unofficial RWBY Tabletop RPG](https://www.reddit.com/r/Rwbytabletop/) by Andrew Diederich, prepared for Foundry VTT by Forien.
+
+
+---
+
 ## Wolves of God
 * **Author**: Paul Umbers (Discord: 3rdDog (Paul)#6199)
 * **Version**: 0.1.0
