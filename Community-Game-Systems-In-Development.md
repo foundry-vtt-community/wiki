@@ -155,7 +155,7 @@ The other reason is that it's flexible to other supplements
 Both the original settings and theattachability are great.  
 All that's left is to play the game as usual, with items listed as weapons.  
 And the final piece. Version 1.0.0 will complete the system in FVTT version 7 or later.
-![Example of a play image](https://dreamyaziumarand.sakura.ne.jp/cthulhu/kaihatuyou.jpg)  
+![Example of a play image](https://github.com/tadaimatrpg/tadaima/blob/master/kaihatuyou.jpg)  
 
 ---
 
