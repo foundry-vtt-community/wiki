@@ -197,7 +197,7 @@ ee /config/Config/options.json
 Change the following fields:
 ```
 "upnp": false,
-"hostname": "my-public-foundry-DNS",
+"hostname": "DOMAIN-FOR-FOUNDRY",
 "proxySSL": true,
 "proxyPort": 443,
 ```
