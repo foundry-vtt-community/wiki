@@ -404,41 +404,26 @@ Paste this:
 # Add the following lines to /etc/rc.conf.local or /etc/rc.conf
 # to enable this service:
 #
-# ddclient_enable (bool): Set to NO by default.
-# Set it to YES to enable ddclient.
+# ddclient_enable (bool):       Set to NO by default.
+#                               Set it to YES to enable ddclient.
 
 . /etc/rc.subr
 
 name=ddclient
 rcvar=ddclient_enable
+ddclient_conf="/etc/ddclient/ddclient.conf"
 
+command="/usr/local/sbin/${name}"
 load_rc_config $name
 
-: ${ddclient_enable:="NO"}
-
-procname="/usr/local/sbin/ddclient"
-ddclient_conf="/etc/ddclient/ddclient.conf"
-command="/usr/sbin/daemon"
-pidfile=$(grep -v '^\s*#' "${ddclient_conf}" | grep -i -m 1 pid= | awk -F '=' '{print $2}')
 delay=$(grep -v '^\s*#' "${ddclient_conf}" | grep -i -m 1 "daemon" | awk -F '=' '{print $2}')
 
 if [ -z "${delay}" ]
 then
-   ddclient_args="-daemon 300"
+        ddclient_flags="-daemon 300"
 else
-   ddclient_args=""
+        ddclient_flags=""
 fi
-
-command_args="-f -p ${pidfile} ${procname} ${ddclient_args}"
-
-start_precmd=ddclient_startprecmd
-
-ddclient_startprecmd()
-{
-   if [ ! -e ${pidfile} ]; then
-     install /dev/null ${pidfile};
-   fi
-}
 
 run_rc_command "$1"
 ```
