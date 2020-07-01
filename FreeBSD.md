@@ -256,7 +256,7 @@ At the top in the ```global:``` section, set the ```config dataset``` location. 
 - Set ```cert_staging``` to ```true```, so that you can verify that Let's Encrypt cert issue works and not run into rate limiting
 - Set ```cert_email``` to the email address you want to use with Let's Encrypt
 - Set ```cert_wildcard_domain``` to YOUR_DOMAIN if you chose to use a wildcard domain earlier, or delete it if you are not going to use a wildcard domain
-- The entries in ```cert_env`` are for Cloudflare by default. Replace these with the right entries for your DNS provider. In the case of dynu, it will be ```DYNU_API_KEY:``` and the API Key from the dynu.com site.
+- The entries in ```cert_env``` are for Cloudflare by default. Replace these with the right entries for your DNS provider. In the case of dynu, it will be ```DYNU_API_KEY:``` and the API Key from the dynu.com site.
 
 Now you are ready to install traefik. If you renamed the jail, use that name instead:
 
