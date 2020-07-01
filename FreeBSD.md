@@ -461,22 +461,6 @@ I am aware that this is often one of the hairier parts of getting this to work, 
 
 Note there is no authentication on the dashboard yet, we'll come back to that.
 
-##### Optional: Change traefik so that any changes made to configuration files take effect immediately, without needing to restart the service.
-
-```
-ee /config/traefik.toml
-```
-
-Add ```watch = true``` to the providers.file section so it reads:
-```
-[providers]
-  [providers.file]
-    directory = "/config/dynamic"
-    watch = true
-```
-
-Esc, Enter twice to save.
-
 #### Add Foundry to traefik
 
 Now let's add the foundry server to traefik.
