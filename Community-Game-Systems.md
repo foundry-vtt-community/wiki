@@ -249,7 +249,7 @@ An implementation of the Blue Rose AGE ruleset. Only sheets are provided until a
 
 # Chaosium
 
-## 7th Sea 2nd Edition
+## 7th Sea 2nd Edition (Unofficial)
 
 * **Author**: Psychoph
 * **Version**: 0.1.0	
