@@ -316,6 +316,16 @@ Verify that the changes are in:
 crontab -l
 ```
 
+Note that dynu does not work well with the way wildcard certificates are configured in ```dashboard.toml```. If you are using a wildcard domain and a DNS provider that does not work well with the default, swap it around thusly in that file:
+
+```
+        [http.routers.traefik.tls]
+          certResolver = "default" # From static configuration
+          [[http.routers.traefik.tls.domains]]
+            main = "*.MYDOMAIN"
+            sans = ["MYDOMAIN"]
+```
+
 Now verify that the certificate generation is working with the Let's Encrypt staging server.
 
 ```
@@ -351,7 +361,7 @@ iocage console traefikjail
 Let's install perl5 and get ddclient running.
 
 ```
-pkg install perl5 p5-Data-Validate-IP p5-IO-Socket-SSL p5-JSON-PP p5-JSON-Any
+pkg install perl5 p5-Data-Validate-IP p5-IO-Socket-SSL p5-JSON-PP
 unzip ddclient-VERSION.zip
 unzip ddclientconf.zip
 ```
