@@ -3,7 +3,17 @@ Unpack the zip file in a suitable location, and then open the unpacked folder. O
 
 You should now see a message saying VTT is running. 
 
-Closing the terminal will stop the application.
+Closing the terminal will stop the application. If you want to run the server for a long period of time even after the terminal is closed, or the server might close unintentionally after starting, daemon tools such as [`forever`](https://github.com/foreversd/forever) could be used.
+
+## Installation of `forever`
+```bash
+$ [sudo] npm install forever -g
+```
+
+### Configure daemon running
+```bash
+$ forever [-l forever.log] [-a] path/to/foundryvtt/resources/app/main.js --dataPath=path/to/foundrydata
+```
 
 For a server that runs without the need for a terminal or that restarts automatically at boot up, you should leverage a tool such as [`systemd`](https://www.freedesktop.org/wiki/Software/systemd/) or [`upstart`](http://upstart.ubuntu.com/).
 
