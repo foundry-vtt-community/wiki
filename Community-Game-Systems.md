@@ -265,6 +265,9 @@ An implementation of the Blue Rose AGE ruleset. Only sheets are provided until a
 
 Players take on the roles of heroes thrown into global conspiracies and sinister plots, exploring ancient ruins of a race long vanished and protecting the rightful kings and queens of Théah from murderous villains. It is a world of sharp blades and sharp wits, where a cutting retort can be just as deadly as a sword’s point.
 
+## Credits
+This FoundryVTT System uses trademarks and/or copyrights owned by Chaosium Inc/Moon Design Publications LLC, which are used under Chaosium Inc’s Fan Material Policy. We are expressly prohibited from charging you to use or access this content. This FoundryVTT system is not published, endorsed, or specifically approved by Chaosium Inc. For more information about Chaosium Inc’s products, please visit [www.chaosium.com](www.chaosium.com).
+
 ---	
 
 # Other	
