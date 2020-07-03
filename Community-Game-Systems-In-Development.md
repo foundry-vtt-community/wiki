@@ -337,7 +337,7 @@ Kevin Crawford's [Wolves of God - Adventures in Dark Ages England](https://www.d
 * System Repository: https://github.com/TomCosaert/FoundryVTT-ICRPG/
 * Manifest URL: https://raw.githubusercontent.com/TomCosaert/FoundryVTT-ICRPG/master/system.json
 ### Description	
-Index Card RPG (ICRPG) takes classic tabletop mechanics for telling stories, making monsters and rolling dice, but throws out all the clunky parts that keep most folks from trying an adventure or two.
+[Index Card RPG](https://www.icrpg.com/) (ICRPG) takes classic tabletop mechanics for telling stories, making monsters and rolling dice, but throws out all the clunky parts that keep most folks from trying an adventure or two.
 
 This Foundry VTT system allows creating character sheets, NPC sheets and items for ICRPG. The character sheet allows on-the-fly adding of items without the need to create them as stand-alone ones first. Items are easily equipped/unequipped directly from the character sheet's item list. Attributes are rollable by simply clicking them, i.e. Stats, Effort, Dying, Revive and Loot rolls. Note that items do not support attributes to be automatically added to the loot values of the character sheet. This is something the user has to track herself.
 
