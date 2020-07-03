@@ -22,7 +22,8 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Lancer](#lancer)
    * [RWBY](#rwby)
    * [Torchbearer](#torchbearer)
-   * [Wolves of God](#wolvesofgod) 
+   * [Wolves of God](#wolves-of-god) 
+   * [Index Card RPG](#index-card-rpg)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -333,12 +334,12 @@ Kevin Crawford's [Wolves of God - Adventures in Dark Ages England](https://www.d
 * **Foundry VTT Compatibility**: 0.6.4
 * **Translation Support**: English
 ### Link(s) to Game System
-* System Repository: _none yet_
-* Manifest URL: _none yet_
+* System Repository: https://github.com/TomCosaert/FoundryVTT-ICRPG/
+* Manifest URL: https://raw.githubusercontent.com/TomCosaert/FoundryVTT-ICRPG/master/system.json
 ### Description	
 Index Card RPG (ICRPG) takes classic tabletop mechanics for telling stories, making monsters and rolling dice, but throws out all the clunky parts that keep most folks from trying an adventure or two.
 
-This Foundry VTT system allows creating character sheets, NPC sheets and items for ICRPG. The character sheet allows on-the-fly adding of items without the need to create them as stand-alone ones first. Items support are easily equipped/unequipped directly from the character sheet's item list. Attributes are rollable by simply clicking them, i.e. Stats, Effort, Dying, Revive and Loot rolls. Note that items do not support attributes to be automatically added to the loot values of the character sheet. This is something the user has to track herself.
+This Foundry VTT system allows creating character sheets, NPC sheets and items for ICRPG. The character sheet allows on-the-fly adding of items without the need to create them as stand-alone ones first. Items are easily equipped/unequipped directly from the character sheet's item list. Attributes are rollable by simply clicking them, i.e. Stats, Effort, Dying, Revive and Loot rolls. Note that items do not support attributes to be automatically added to the loot values of the character sheet. This is something the user has to track herself.
 
 ---
 
