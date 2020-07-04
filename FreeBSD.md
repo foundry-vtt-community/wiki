@@ -54,25 +54,49 @@ While running Foundry on the base OS works, there are advantages to having it in
 For the following, I am describing my own setup. Adjust these instructions to your setup as needed.
 - I am using FreeNAS / TrueNAS Core as the server. Where you see references to "UI", the same steps can be done from command line on a base FreeBSD server.
 - I am running this in my home, which means my IP address is dynamic, and so is the DNS for it. Because of this, I am using dynu as a DNS provider. Any other DNS provider will, of course, work.
+- Assuming you, too, will run this in your home, verify that you are not behind CGNAT, *first*.
 - I am providing instructions for installing a traefik reverse proxy, and link to instructions for caddy and nginx. A reverse proxy is optional: It does have the advantage of being able to run more than one Foundry instance - each with its own license - in your home, and it does make it easy to enable https, which is a requirement for audio and video.
 - I am assuming use of the JitsiRTC module, and thus do not have any instructions for running the A/V server in your home. With Jitsi, you'd either use their public server or set up a private Jitsi server in the cloud. This does have the advantage of being light on your upstream bandwidth, your players will have better quality.
 - I did not get IPv6 to work with the dynu update client. While I reference IPv6 here and there, all instructions assume that your home is reachable via IPv4 and not behind Carrier Grade NAT.
 - Where I type something in all upper case, it is a place holder, to be replaced with a real value from your environment.
 
+## Checking for CGNAT if hosting at home / on consumer ISP
+
+CGNAT, Carrier Grade NAT, means you do not have your own public IPv4 address, and players outside your home won't be able to reach your Foundry server via IPv4. If that is your situation, use a hosting service such as https://forge-vtt.com/ instead or host your own instance. One set of good instructions is at https://benprice.dev/posts/fvtt-docker-tutorial/.
+
+You are *not* behind CGNAT if the outside address of your Internet gateway is also the public address shown to the Internet. There are three ways to check this.
+
+From Windows Powershell, run the following command. You expect to see only one hop for the first traceroute, and several for the traceroute to 8.8.8.8. If you see several hops for the first traceroute, you either have an unusual home setup with multiple routers, or you are behind CGNAT.
+
+```
+tracert (curl https://ifconfig.me/ip -UseBasicParsing); tracert 8.8.8.8
+```
+
+If you are on MacOS or Linux or BSD, same idea, but use this command in a Terminal instead
+
+```
+traceroute $(curl https://ifconfig.me/ip); traceroute 8.8.8.8
+```
+
+An alternate way to verify this is to log into the configuration dashboard of your Internet gateway, and check that the external IP address matches the address you see when you browse to https://ifconfig.me/ip .
+
+If you are behind CGNAT and you as well as *all* of your players have IPv6 configured, then these instructions will still work. You will however need to find a replacement for ddclient to update your dynamic DNS, until ddclient becomes fully v6-capable.
+
 ## Install FoundryVTT in a jail
 ### Initial jail creation
 Create a new jail from UI, assuming internal network is IPv4 or dual-stack IPv4/IPv6
 
-Choose "Advanced Jail Creation", give it a name, and set these options:
+Give the jail a name, make it a base jail, choose a release, and hit next.
 
-- Basejail
+For options in this screen:
 - VNET checked
 - DHCP, NAT and Berkeley Packet Filter unchecked
-- vnet_default_interface at auto
 - IPV4 interface blank
 - IP address, netmask, ipv4 default router
 - Autoconfigure IPv6 won't be used if you are going to use a reverse proxy, leave unchecked
 - Auto-start
+
+And create the jail.
 
 ### Install PM2 in the jail so Foundry can auto-start on jail start
 
@@ -84,21 +108,6 @@ iocage console FOUNDRY-JAIL-NAME
 ```
 
 From the jail CLI:
-
-```
-mkdir -p /usr/local/etc/pkg/repos
-cp /etc/pkg/FreeBSD.conf /usr/local/etc/pkg/repos/
-ee /usr/local/etc/pkg/repos/FreeBSD.conf
-```
-
-Change quarterly to latest so it reads:
-
-```
-FreeBSD: {
-   url: "pkg+http://pkg.FreeBSD.org/${ABI}/latest",
-```
-
-Hit ESC and then Enter twice to exit the editor and save the changes.
 
 ```
 pkg install node unzip npm ca_root_nss
@@ -121,7 +130,7 @@ crontab -e
 Hit "i" for insert, and copy this line and right-click to paste it:
 
 ```
-18 3 * * 0 pkg upgrade -y && pm2 update
+18 3 * * 0 pkg upgrade -y && npm install pm2@latest -g && pm2 update
 ```
 
 Hit ESC to exit insert mode
@@ -151,29 +160,39 @@ From UI:
 
 #### Download and transfer the FoundryVTT application
 
-Now let's install and start Foundry. Download the node.js package from your downloads at foundryvtt.com, under your login and then "Purchased Licenses". If FoundryVTT ever allows unauthenticated downloads, you could do this from within the jail.
-
-Using WinSCP or command line, copy the downloaded file into your jail. Example using scp from WSL (Windows Subsystem for Linux):
-
-```
-scp /mnt/c/Users/USERNAME/Downloads/foundry-VERSION.zip root@FREENAS-IP:/mnt/DATASTORE/iocage/jails/FOUNDRY-JAIL-NAME/root/root
-```
-
 Back into the jail CLI via
 ```
 iocage console foundry-jail-name
 ```
 
-And then from the jail CLI
+Create a foundry user
+
 ```
+pw user add -n foundry -c 'Foundry VTT' -d /home/foundry -m -s /usr/srbin/nologin
+```
+
+If you chose to have configuration in /config, make the foundry user owner
+
+```
+chown -R foundry:foundry /config
+```
+
+Now let's install and start Foundry. Click the link (chain icon) for the node.js package from your downloads at foundryvtt.com, under your login and then "Purchased Licenses". 
+
+And then from the jail CLI as below. Note the quotes around PASTE-FOUNDRY-LINK, they are required.
+
+```
+cd /home/foundry
 mkdir fvtt
-unzip foundry-VERSION.zip -d fvtt
+fetch "PASTE-FOUNDRY-LINK" -o foundryvtt.zip
+unzip foundryvtt.zip -d fvtt
+chown -R foundry:foundry fvtt
 ```
 
 Now let's start Foundry, then adjust the config file.
 
 ```
-pm2 start fvtt/resources/app/main.js -- --headless --dataPath=/config
+pm2 start fvtt/resources/app/main.js -u foundry -- --headless --dataPath=/config
 ```
 
 Make sure Foundry starts when the jail starts
@@ -452,7 +471,7 @@ service ddclient start
 
 Before we go any further, let's test that the dashboard is working. Configure your router to port-forward ports 80 and 443 to the static IP of your traefik jail, and verify that you can access the dashboard by the name you gave it in config.yml, for example traefik.MYDOMAIN. How you do this on your router / firewall / Internet gateway is out of scope of this article, and if your router has trouble with "hair-pinning", you may need to test first from external - for example with a smartphone on LTE, not WiFi - and then resolve the hair-pinning issue.
 
-I am aware that this is often one of the hairier parts of getting this to work, if you haven't forwarded a port before. It's a necessary step, and there will be forums for your router manufacturer that will guide you.
+I am aware that this is often one of the hairier parts of getting this to work, if you haven't forwarded a port before. It's a necessary step, and there will be forums for your router manufacturer that will guide you. See also "Players can't connect" at https://prezi.com/p/te97qzy1rlcs/foundry-vtt-troubleshooting/ .
 
 Note there is no authentication on the dashboard yet, we'll come back to that.
 
