@@ -19,7 +19,7 @@
 # Frequently Asked Questions
 
 ## How Do I Access Foundry VTT?
-Access to FVTT Beta is through Patreon. On release it will be a one-time purchase. Release is tentatively slated for Q2-2020. Price is not yet set. Only the host will need a license, everyone else can login via a webbrowser.
+Access to FVTT is via a one-time purchase on [https://foundryvtt.com](foundryvtt.com).  The license cost is $50 plus any available sales tax/VAT, and this license covers updates for the lifetime of the software.  Only the host will need a license, everyone else can login via a webbrowser.
 
 ## How Do I Link My Patreon to Discord?
 Refer to Patreon's instructions [here](https://support.patreon.com/hc/en-us/articles/212052266-How-do-I-receive-my-Discord-role-#h_21f22930-84c5-4950-b6b1-3e83312f66dc).
