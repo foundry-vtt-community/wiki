@@ -331,18 +331,18 @@ Kevin Crawford's [Wolves of God - Adventures in Dark Ages England](https://www.d
 
 ## Index Card RPG
 * **Author**: Tom Cosaert#1943
-* **Version**: 1.0.0
-* **Foundry VTT Compatibility**: 0.6.4
-* **Translation Support**: English
+* **Version**: 1.0.1
+* **Foundry VTT Compatibility**: 0.6.5
+* **Translation Support**: English, Spanish, German, Dutch
 ### Link(s) to Game System
 * System Repository: [https://github.com/TomCosaert/FoundryVTT-ICRPG/](https://github.com/TomCosaert/FoundryVTT-ICRPG/)
 * Manifest URL: [https://raw.githubusercontent.com/TomCosaert/FoundryVTT-ICRPG/master/system.json](https://raw.githubusercontent.com/TomCosaert/FoundryVTT-ICRPG/master/system.json)
 ### Description	
 [Index Card RPG](https://www.icrpg.com/) (ICRPG) takes classic tabletop mechanics for telling stories, making monsters and rolling dice, but throws out all the clunky parts that keep most folks from trying an adventure or two.
 
-This Foundry VTT system allows creating **character sheets, NPC sheets and items** for ICRPG. The character sheet allows on-the-fly adding of items without the need to create them as stand-alone ones first. Items are easily equipped/unequipped directly from the character sheet's item list. Attributes are rollable by simply clicking them, i.e. Stats, Effort, Dying, Revive and Loot rolls. Note that items do not support attributes to be automatically added to the loot values of the character sheet. This is something the user has to track herself.
+This game system allows easy creation and management of ICRPG player characters, NPCs and items. For more information about features and usage, visit the [GitHub repository](https://github.com/TomCosaert/FoundryVTT-ICRPG/) or my [personal blog](https://alphacore.be/foundryvtt-icrpg/).
 
-I acquired **permission** from the author/designer, Brandish Gilhelm of [Runehammer Games](https://www.runehammer.online/) to make this game system available to the Foundry VTT community.
+I acquired **permission** from the game designer Brandish Gilhelm (also known as Hankerin Ferinale) of [Runehammer Games](https://www.runehammer.online/) to make this game system available to the Foundry VTT community as-is, without including any source material content such as item loot tables as compendia.
 
 ---
 
