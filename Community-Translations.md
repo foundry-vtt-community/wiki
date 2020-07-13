@@ -1,6 +1,17 @@
 <!--tl=2-->
 <!--ts-->
-
+   * [Languages](#languages)
+      * [Chinese 中文（简体）](#chinese-中文简体)
+      * [French](#french)
+      * [German](#german)
+      * [Italian](#italian)
+      * [Korean](#korean)
+      * [Portuguese (BR)](#portuguese-br)
+      * [Russian (Foundry, D&amp;D5, Dungeon World)](#russian-foundry-dd5-dungeon-world)
+      * [Spanish](#spanish)
+   * [Appendix](#appendix)
+      * [Appendix A: Adding a Translation](#appendix-a-adding-a-translation)
+      * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
 <!--te-->
 
 # Languages
