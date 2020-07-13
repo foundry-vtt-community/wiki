@@ -1,19 +1,6 @@
 <!--tl=2-->
 <!--ts-->
-   * [Frequently Asked Questions](#frequently-asked-questions)
-      * [How Do I Access Foundry VTT?](#how-do-i-access-foundry-vtt)
-      * [How Do I Link My Patreon to Discord?](#how-do-i-link-my-patreon-to-discord)
-      * [How do I enable WebGL?](#how-do-i-enable-webgl)
-      * [How Do I Connect to an IPv6 Address?](#how-do-i-connect-to-an-ipv6-address)
-      * [How Do I Install Modules?](#how-do-i-install-modules)
-      * [I Forgot My Player Access Keys!](#i-forgot-my-player-access-keys)
-      * [Where Can I Place Content In Foundry?](#where-can-i-place-content-in-foundry)
-      * [How Do I Apply Damage?](#how-do-i-apply-damage)
-      * [How Do I Create a Custom Character Sheet](#how-do-i-create-a-custom-character-sheet)
-      * [How Do I Improve Performance?](#how-do-i-improve-performance)
-      * [How Do Walls Affect Performance?](#how-do-walls-affect-performance)
-   * [Suggestions/Ideas/Issues](#suggestionsideasissues)
-      * [I Have a Suggestion/Idea/Issue](#i-have-a-suggestionideaissue)
+
 <!--te-->
 
 # Frequently Asked Questions
