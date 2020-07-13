@@ -25,6 +25,8 @@ The list below is an unofficial list of game systems.
       * [Blue Rose](#blue-rose)
    * [Chaosium](#chaosium)
       * [7th Sea 2nd Edition](#7th-sea-2nd-edition)
+   * [Runehammer Games](#runehammer-games)
+      * [Index Card RPG](#index-card-rpg)
    * [Other](#other)	
       * [Simple Worldbuilding System](#simple-worldbuilding-system)	
    * [Appendix](#appendix)	
@@ -268,7 +270,24 @@ Players take on the roles of heroes thrown into global conspiracies and sinister
 ## Credits
 This FoundryVTT System uses trademarks and/or copyrights owned by Chaosium Inc/Moon Design Publications LLC, which are used under Chaosium Inc’s Fan Material Policy. We are expressly prohibited from charging you to use or access this content. This FoundryVTT system is not published, endorsed, or specifically approved by Chaosium Inc. For more information about Chaosium Inc’s products, please visit [www.chaosium.com](www.chaosium.com).
 
----	
+---
+
+# Runehammer Games
+
+## Index Card RPG
+* **Author**: Tom Cosaert#1943
+* **Version**: 1.0.1
+* **Foundry VTT Compatibility**: 0.6.0+
+* **Translation Support**: EN (full), ES (full), DE (full), NL (full)
+### Link(s) to Game System
+* System Repository: [https://github.com/TomCosaert/FoundryVTT-ICRPG/](https://github.com/TomCosaert/FoundryVTT-ICRPG/)
+* Manifest URL: [https://raw.githubusercontent.com/TomCosaert/FoundryVTT-ICRPG/master/system.json](https://raw.githubusercontent.com/TomCosaert/FoundryVTT-ICRPG/master/system.json)
+### Description	
+[Index Card RPG](https://www.icrpg.com/) (ICRPG) by [Runehammer Games](https://www.runehammer.online/) takes classic tabletop mechanics for telling stories, making monsters and rolling dice, but throws out all the clunky parts that keep most folks from trying an adventure or two.
+
+For more information, visit my [Personal Blog](https://alphacore.be/foundryvtt-icrpg/), the [Foundry VTT Package](https://foundryvtt.com/packages/icrpg/) page, or the [GitHub System Repository](https://github.com/TomCosaert/FoundryVTT-ICRPG/).
+
+---
 
 # Other	
 
