@@ -1,7 +1,11 @@
 # Basic Setup
 1. Download the latest Windows setup file from [Patreon](https://patreon.com/foundryvtt/posts)
-2. Run `FoundryVTT-0.4.X-Setup.dmg` to install Foundry VTT
+2. Run `FoundryVTT-0.4.X-Setup.dmg` to install Foundry VTT.
 Note: The .dmg is currently not signed, so you will need to allow the installation when prompted
+ a. Go to System Preferences under the Apple icon in your system tray,
+ b. Open Security & Privacy,
+ c. If settings are locked, use administrator login credentials to unlock the settings by clicking the padlock icon at bottom,
+ d. Click the "Open Anyway" button (may not be shown if you didn't try to open FoundryVTT right away after downloading), and choose Open in the next dialog box.  Finally, allow incoming connections in the next dialog.
 3. Follow the instructions to install Foundry.
 Note: If you select Run Foundry VTT at the end of installation you may be prompted to allow it through the macOS firewall.   
 4. When finished installed Foundry will open as a full screen application on the "Foundry Virtual Tabletop - Configuration and Setup" screen.
