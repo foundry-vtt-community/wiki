@@ -23,7 +23,6 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [RWBY](#rwby)
    * [Torchbearer](#torchbearer)
    * [Wolves of God](#wolves-of-god) 
-   * [Index Card RPG](#index-card-rpg)
    * [Old School Essentials](#old-school-essentials)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
@@ -325,24 +324,6 @@ Adaptation of [The Unofficial RWBY Tabletop RPG](https://www.reddit.com/r/Rwbyta
 * Coming soon, I'm keeping the repo private until I get the OK from Kevin Crawford
 ### Description
 Kevin Crawford's [Wolves of God - Adventures in Dark Ages England](https://www.drivethrurpg.com/product/308470/Wolves-of-God-Adventures-in-Dark-Ages-England).
-
-
----
-
-## Index Card RPG
-* **Author**: Tom Cosaert#1943
-* **Version**: 1.0.1
-* **Foundry VTT Compatibility**: 0.6.5
-* **Translation Support**: English, Spanish, German, Dutch
-### Link(s) to Game System
-* System Repository: [https://github.com/TomCosaert/FoundryVTT-ICRPG/](https://github.com/TomCosaert/FoundryVTT-ICRPG/)
-* Manifest URL: [https://raw.githubusercontent.com/TomCosaert/FoundryVTT-ICRPG/master/system.json](https://raw.githubusercontent.com/TomCosaert/FoundryVTT-ICRPG/master/system.json)
-### Description	
-[Index Card RPG](https://www.icrpg.com/) (ICRPG) takes classic tabletop mechanics for telling stories, making monsters and rolling dice, but throws out all the clunky parts that keep most folks from trying an adventure or two.
-
-This game system allows easy creation and management of ICRPG player characters, NPCs and items. For more information about features and usage, visit the [GitHub repository](https://github.com/TomCosaert/FoundryVTT-ICRPG/) or my [personal blog](https://alphacore.be/foundryvtt-icrpg/).
-
-I acquired **permission** from the game designer Brandish Gilhelm (also known as Hankerin Ferinale) of [Runehammer Games](https://www.runehammer.online/) to make this game system available to the Foundry VTT community as-is, without including any source material content such as item loot tables as compendia.
 
 ---
 
