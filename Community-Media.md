@@ -360,6 +360,26 @@ Compressed files by a community member:
 * [Google Drive Download](https://drive.google.com/file/d/1CCWQm7lGDHR0ssMUCKC-lWU0CXTBoDQ1/view?usp=sharing)
 Note: *always scan for viruses*
 
+### Foundry modules
+
+The above converted to ogg and reindexed into 4 packages for Foundry
+
+* [Foundry VTT - Game Audio Bundle 1 of 4](https://github.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-1)
+
+  150 playlists with 595 ogg files - 733Mb of sound effects and music.
+
+* [Foundry VTT - Game Audio Bundle 2 of 4](https://github.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-2)
+
+  61 playlists with 793 ogg files 721MB of sound effects and music.
+
+* [Foundry VTT - Game Audio Bundle 3 of 4](https://github.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-3)
+
+  183 playlists with 774 ogg files 626MB of sound effects and music
+
+* [Foundry VTT - Game Audio Bundle 4 of 4](https://github.com/datdamnzotz/FoundryVTT-Game-Audio-Bundle-4)
+
+  199 playlists with 940 ogg files 757MB of sound effects and music  
+
 ---
 
 # Other
@@ -372,6 +392,12 @@ More then 3800 free icons for your games. All in SVG.
 * [Game-icons.net](https://game-icons.net/)
 
 ![https://i.imgur.com/YTvfY9p.png](https://i.imgur.com/YTvfY9p.png)
+
+### Foundry module
+
+[Game-icons.net repackaged for Foundry VTT](https://github.com/datdamnzotz/icons/blob/master/README-FoundryVTT.md)
+
+Downloads all white and black background icons to your `Data/modules/game-icons-net` directory.  Just browse to this directory to see all the icons and use them.
 
 ---
 
