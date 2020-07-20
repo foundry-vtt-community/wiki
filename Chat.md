@@ -18,7 +18,7 @@ Causes the message to be spoken out of character (OOC). OOC messages will be out
 
 ## Emotes
 
-Syntax: `/emote {message}` or `/em {message}`
+Syntax: `/emote {message}` or `/em {message}` or with version 0.6.5 and later, `/me {message}`
 
 Causes the message to be an emote performed by the selected character. Emotes are in-character actions conveyed through text by the player, and therefore require the player to select a token (or link a character through the Player Configuration window). Entering "/emote waves his hand." while controlling a character named Simon will send the message, "Simon waves his hand."
 
