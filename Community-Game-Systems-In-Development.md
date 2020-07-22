@@ -18,7 +18,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Rêve de Dragon](#reve-de-dragon)
    * [Shadow of the Demon Lord](#shadow-of-the-demon-lord)
    * [Splittermond](#splittermond)
-   * [CallOfCthulhu](#callofcthulhu72)
+   * [Call Of Cthulhu 7th Ed.](#call-of-cthulhu-7)
    * [Lancer](#lancer)
    * [RWBY](#rwby)
    * [Torchbearer](#torchbearer)
