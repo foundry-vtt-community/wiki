@@ -259,14 +259,15 @@ Splittermond is german-only (untranslated) High Fantasy RPG that was published 2
 ---
 
 ## Call of Cthulhu 7
-* **Author**: Vétérini 
+* **Author**: [Vétérini](https://github.com/HavlockV/CoC7-FoundryVTT/), Discord : Vétérini#8953
 * **Version**: 0.2.1
 * **Foundry VTT Compatibility**: 0.6.0+
-* **Translation Support**: English, partial : French, Spanish, German.
+* **Translation Support**: English (full), partial : French, Spanish, German.
 ### Link(s) to Game System	
-* https://raw.githubusercontent.com/HavlockV/CoC7-FoundryVTT/master/system.json 
+* [https://github.com/HavlockV/CoC7-FoundryVTT/](https://github.com/HavlockV/CoC7-FoundryVTT/)
+* [https://raw.githubusercontent.com/HavlockV/CoC7-FoundryVTT/master/system.json](https://raw.githubusercontent.com/HavlockV/CoC7-FoundryVTT/master/system.json)
 ### Description	
-Call of Cthulhu v7 system for Foundry, ongoing work by Vétérini.
+An attempt to implement the Call of Cthulhu RPG into foundry VTT. Distributed without any material from the books. Keepers will need to write their own compendiums.
 
 ---	
 
