@@ -135,7 +135,7 @@ An implementation of the ZWEIHÄNDER system for FoundryVTT. The system is still 
 ---
 ## CallofCthulhu(7thEd.)
 * **Author**:ただいま#0125	
-* **Version**:0.9.12(Tested with FoundryVTT in 0.6.4 version)
+* **Version**:0.9.14(Tested with FoundryVTT in 0.6.5 version)
 * **Foundry VTT Compatibility**:The game system is unknown. But the compatibility of the system modules has been confirmed.
 * **Translation Support**:Possible. You can also use translations to change the status display in the actor's sheet.  
  English and Japanese are registered by default.
@@ -143,21 +143,15 @@ An implementation of the ZWEIHÄNDER system for FoundryVTT. The system is still 
 * Download :[https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json](https://raw.githubusercontent.com/tadaimatrpg/callofcthulhu/master/system.json)  
 * (The Unnamable) Manual and Source code disclosure (Github):[https://github.com/tadaimatrpg/callofcthulhu](https://github.com/tadaimatrpg/callofcthulhu)
 ### Description  
-This game is a blasphemous game of Cosmic Horror... should be.  
-(As far as I know, it's heavily paradise-colored, like Delta Green.)  
-As those of you who have been playing for a long time will know,A lot of  
-character sheets are lost in the Chaosium campaign.  
-So I needed to create a character sheet right away, and I put the Actor sheet in text format.  
-Open the JournalEntry "template" in the Compendium and the "Character sheet template" of 7htED.  
-There are many reasons for the text method, but one of the big ones is to lose it   
-on the spot and write the character sheet right away, eliminating the hassle of  
-data entry. You just need to copy and paste the template.  
-The other reason is that it's flexible to other supplements   
-(because the system itself can be played on 6thED).  
-Both the original settings and theattachability are great.  
-All that's left is to play the game as usual, with items listed as weapons.  
-And the final piece. Version 1.0.0 will complete the system in FVTT version 7 or later.
-![Example of a play image](https://github.com/tadaimatrpg/tadaima/blob/master/kaihatuyou.jpg)  
+Specifications since version 1.0.0  
+The implementation of the dice command will make all 7thED supplements compatible.  
+The dice command is a system that lets you determine success and failure.  
+A system called the Dice Bot will be implemented.  
+This system will use a text-based system. This system will use a text-based system,  
+ which will enable users to create characters and NPCs based on templates.  
+(However, it is necessary to prepare everything from scratch.)  
+The system assumes that everyone has a rulebook, so except for skill points, you need to look at the rulebook or supplements.  
+This system has cars and serves the obstacles, chase rules and MAP movement at will.  
 
 ---
 
