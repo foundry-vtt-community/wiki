@@ -188,7 +188,9 @@ A typical SSH command to log into an EC2 instance at the command line looks like
 
     ssh -i /path/to/keypair.pem ubuntu@<your-instance-public-ip>
 
-This should work in both a Linux or MacOS terminal, or in Microsoft Powershell on most modern installs of Windows 10.
+This should work in both a Linux or MacOS terminal.
+
+For Windows users, I advise using the free terminal emulator PuTTY.  AWS themselves have a complete guide on [how to connect to a running EC2 instance using PuTTY](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html) which is quite easy to follow.
 
 After you've set up Foundry, you'll want to add in the information that Foundry needs to connect to S3.  First, you need to create a .json file to contain the access key ID and secret access key, as well as your preferred region.  You can place this anywhere you like, but for simplicity's sake, I like to put it alongside my options.json file, like so.
 
