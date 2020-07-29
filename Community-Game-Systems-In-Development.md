@@ -17,7 +17,6 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Tales from the Loop / Things from the Flood](#things-from-the-flood)
    * [Rêve de Dragon](#reve-de-dragon)
    * [Shadow of the Demon Lord](#shadow-of-the-demon-lord)
-   * [Splittermond](#splittermond)
    * [Call Of Cthulhu 7th Ed.](#call-of-cthulhu-7)
    * [Lancer](#lancer)
    * [RWBY](#rwby)
@@ -237,18 +236,6 @@ In French : l'objectif de ce système est d'avoir un niveau d'automatisation él
 Shadow of the Demon Lord is a game made by Schwalb Entertainment and I got the permission to bring it to FoundryVTT.
 
 Enter a world on the brink of annihilation, its lands torn asunder by war, plague, and ancient horrors. Urth, the world of Shadow of the Demon Lord, is one of many imperiled by the shadowy menace lurking without and in this game you can play through its final days as embattled survivors fighting against what to many seems to be an inevitable end. 
-
----
-
-## Splittermond
-* **Author**: Loki (Discord: Loki#1340)
-* **Version**: 0.1
-* **Foundry VTT Compatibility**: 0.6.0, 0.6.1
-* **Translation Support**: German (full)
-### Link(s) to Game System	
-* https://github.com/ap3h3ad/foundryvtt-splittermond
-### Description	
-Splittermond is german-only (untranslated) High Fantasy RPG that was published 2014 by the german Uhrwerk Verlag and is since maintained by them. Installation info etc. will come with more progress being made.
 
 ---
 
