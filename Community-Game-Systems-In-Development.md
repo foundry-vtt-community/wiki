@@ -150,7 +150,7 @@ An implementation of the ZWEIHÄNDER system for FoundryVTT. The system is still 
 ---
 ## CallofCthulhu(7thEd.)
 * **Author**:ただいま#0125	
-* **Version**:1.0.0  
+* **Version**:1.1.0  
 * **Foundry VTT Compatibility**:0.7.0  
 * **Translation Support**:Possible. You can also use translations to change the status display in the actor's sheet.  
  English and Japanese are registered by default.
@@ -167,7 +167,8 @@ This system will use a text-based system. This system will use a text-based syst
 (However, it is necessary to prepare everything from scratch.)  
 The system assumes that everyone has a rulebook, so except for skill points, you need to look at the rulebook or supplements.  
 This system has cars and serves the obstacles, chase rules and MAP movement at will.  
-
+  
+![Image](https://raw.githubusercontent.com/tadaimatrpg/tadaima/master/kaihatuyou2.png)  
 ---
 
 ## B/X D&D	
