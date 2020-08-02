@@ -169,6 +169,7 @@ The system assumes that everyone has a rulebook, so except for skill points, you
 This system has cars and serves the obstacles, chase rules and MAP movement at will.  
   
 ![Image](https://raw.githubusercontent.com/tadaimatrpg/tadaima/master/kaihatuyou2.png)  
+
 ---
 
 ## B/X D&D	
