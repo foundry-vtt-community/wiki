@@ -2,7 +2,7 @@
   
   
 
-From here on the majority of our work is going to be editing html and css. You can keep the template.json folder open and use that to remember the structure of your data, if you get lost, remember that everything contained within the “character”: {} JSON is what Foundry sees as “data.<something>”
+From here on the majority of our work is going to be editing html and css. You can keep the template.json file open and use that to remember the structure of your data, if you get lost, remember that everything contained within the “character”: {} JSON is what Foundry sees as “data.<something>”
 
   
 
