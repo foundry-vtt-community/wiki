@@ -249,7 +249,7 @@ You can also add custom "@-attributes" to your formula if you wish:
 ```js
 const rollData = token.actor.getRollData();
 mergeObject(rollData, {strangeMacroishBonus: 42});
-roll = new Roll("1d20 + @attributes.str.mod + @strangeMacroishBonus", rollData).roll();
+let roll = new Roll("1d20 + @attributes.str.mod + @strangeMacroishBonus", rollData).roll();
 // The same `roll.toMessage({...})` code here.
 ```
 
