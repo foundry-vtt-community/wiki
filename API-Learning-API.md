@@ -238,7 +238,7 @@ ChatMessage.create({
 
 You can roll like this:
 ```js
-roll = new Roll("1d20 + @attributes.str.mod", token.actor.getRollData()).roll();
+let roll = new Roll("1d20 + @attributes.str.mod", token.actor.getRollData()).roll();
 roll.toMessage({
   flavor: `${actor.name} tries to bend a bar.`,
   speaker: ChatMessage.getSpeaker({token: token}),
