@@ -94,8 +94,8 @@ A system for playing for Chronicles of Darkness, 2nd edition within Foundry Virt
 ---
 
 ## Mage the Awakening 2e
-* **Author**: SoulCake#7804 (Discord)
-* **Version**: 0.1	
+* **Author**: SoulCake#7804 (Discord), happily accepting donations on [https://ko-fi.com/soulcake](https://ko-fi.com/soulcake) :)
+* **Version**: 0.2.3
 * **Foundry VTT Compatibility**: 0.6.2+
 * **Translation Support**: EN
 
@@ -104,7 +104,7 @@ A system for playing for Chronicles of Darkness, 2nd edition within Foundry Virt
 * [https://gitlab.com/MarlQ/mta/-/raw/master/system.json](https://gitlab.com/MarlQ/mta/-/raw/master/system.json)	
 
 ### Description	
-For now purely a system for Mage the Awakening 2e, supporting Mages, Sleepwalkers, and Sleepers. People can think of this as an alternative for the Chronicles of Darkness system by Burzghash, though some of my code has already found its way into Burzghash's system. It will be developed for at least another year, though development might continue afterwards if people are interested. The system is currently stable, and supports all necessary features to get started. The character sheet design is vastly different from the original.
+For now purely a system for Mage the Awakening 2e, supporting Mages, Sleepwalkers, and normal Mortals. People can think of this as an alternative for the Chronicles of Darkness system by Burzghash, though some of my code has already found its way into Burzghash's system. It will be developed for at least another year, though development might continue afterwards if people are interested. The system is currently stable, and supports all necessary features to get started. The character sheet design is vastly different from the original with many QoL features.
 
 ---	
 
