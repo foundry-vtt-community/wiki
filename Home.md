@@ -54,6 +54,8 @@
 
 ## [System Development Tutorial: Start to Finish](System-Development-Tutorial-Start-to-Finish)
 
+## [Local Play](Local-play)
+
 # [The Virtual Tabletop](The-Virtual-Tabletop)
 
 ## [Scene Controls](Scene-Controls)
