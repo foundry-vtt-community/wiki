@@ -22,6 +22,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Torchbearer](#torchbearer)
    * [Wolves of God](#wolves-of-god) 
    * [Old School Essentials](#old-school-essentials)
+   * [FVTT Dishonored (2d20)](#fvtt-dishonored-2d20)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -320,7 +321,20 @@ Kevin Crawford's [Wolves of God - Adventures in Dark Ages England](https://www.d
 * https://gitlab.com/mesfoliesludiques/foundryvtt-ose	
 * https://gitlab.com/mesfoliesludiques/foundryvtt-ose/-/raw/master/src/system.json
 ### Description	
-An Old School Essentials system with basic automation and a fine looking sheet. Fully compatible with B/X and with several options that can fit with other OSRs: Ascending AC, Individual initiative, Variable Weapon damage, and many more to come. 
+An Old School Essentials system with basic automation and a fine looking sheet. Fully compatible with B/X and with several options that can fit with other OSRs: Ascending AC, Individual initiative, Variable Weapon damage, and many more to come.
+
+---
+
+## FVTT-Dishonored (2d20)
+* **Author**: Curtis Reet (Discord: KaitoR#2355)
+* **Version**: 0.2.4
+* **Foundry VTT Compatibility**: 0.6.5
+* **Translation Support**: English
+### Link(s) to Game System	
+* https://github.com/CurtR95/FVTT-Dishonored	
+* https://github.com/CurtR95/FVTT-Dishonored/blob/master/system.json
+### Description	
+Unofficial replication of the Modiphius 2D20 system with a Dishonored Flavour. Permitted by Modiphius. The system features the core basic functionality to feasibly play the Dishonored RPG. It features no automation currently; however, all features currently exist that are required to play the game. Any assistance is welcome. Currently I am solo developing this - but anyone willing to assist, either with translations or code would be welcome!
 
 ---
 
