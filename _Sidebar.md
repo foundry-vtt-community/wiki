@@ -30,6 +30,7 @@ Table of Contents
          * [<a href="System-Development-Part-5-Wandering-in-000000">Part 5: Wandering in 000000</a>](#part-5-wandering-in-000000)
          * [<a href="System-Development-Part-6-(optional)-Derivation-is-not-a-5e-Magic-School">Part 6: (optional) Derivation is not a 5e Magic School</a>](#part-6-optional-derivation-is-not-a-5e-magic-school)
       * [<a href="System-Development-Tutorial-Start-to-Finish">System Development Tutorial: Start to Finish</a>](#system-development-tutorial-start-to-finish)
+      * [<a href="Local-play">Local Play</a>](#local-play)
    * [<a href="The-Virtual-Tabletop">The Virtual Tabletop</a>](#the-virtual-tabletop)
       * [<a href="Scene-Controls">Scene Controls</a>](#scene-controls)
          * [<a href="Actor">Actor</a>](#actor)
