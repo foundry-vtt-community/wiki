@@ -23,6 +23,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Wolves of God](#wolves-of-god) 
    * [Old School Essentials](#old-school-essentials)
    * [FVTT Dishonored (2d20)](#fvtt-dishonored-2d20)
+   * [Pokemon Tabletop United (PTU)](#pokemon-tabletop-united) 
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -337,6 +338,22 @@ An Old School Essentials system with basic automation and a fine looking sheet. 
 Unofficial replication of the Modiphius 2D20 system with a Dishonored Flavour. Permitted by Modiphius. The system features the core basic functionality to feasibly play the Dishonored RPG. It features no automation currently; however, all features currently exist that are required to play the game. Any assistance is welcome. Currently I am solo developing this - but anyone willing to assist, either with translations or code would be welcome!
 
 ---
+
+## Pokemon Tabletop United	
+* **Author**: Dylan Piera (Discord: SoaringDylan#0380), Tymo Wessel, Jeffrey Hollander & Cody Swendrowski	
+* **Version**: 0.0.12	
+* **Foundry VTT Compatibility**: 0.6.5, 0.7.0+
+* **Translation Support**: English	
+### Link(s) to Game System	
+* https://github.com/dylanpiera/Foundry-Pokemon-Tabletop-United-System
+* https://github.com/dylanpiera/Foundry-Pokemon-Tabletop-United-System/blob/master/system.json
+### Description	
+A Pen and Paper Roleplaying Game Set in the World of Pokemon. For a full list of currently supported features check out the github repo, as the system is constantly being updated. If you're looking to contribute, or to report any errors / suggestions, you can also do so over on the github, or DM me on Discord!
+
+To install, just import the system.json file to your FoundryVTT installation.
+
+![](https://i.imgur.com/gA6BO1X.png)
+---	
 
 # Appendix	
 
