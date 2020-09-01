@@ -8,6 +8,7 @@ The list below is an unofficial list of game systems that are still a work in pr
       * [Monster of the Week](#monster-of-the-week)
    * [Blades in the Dark](#blades-in-the-dark)
    * [Chronicles of Darkness](#chronicles-of-darkness)
+   * [Kryx RPG](#kryx-rpg)
    * [Star Trek Adventures (2d20)](#star-trek-adventures-(2d20))
    * [CyberpunkRED](#cyberpunkred)
    * [ZWEIHÄNDER Grim & Perilous RPG](#zweihÄnder-grim--perilous-rpg)
@@ -92,6 +93,21 @@ All Abilities, Items, Background Details, Upgrades, Classes. etc are Foundry Ite
 
 ### Description	
 A system for playing for Chronicles of Darkness, 2nd edition within Foundry Virtual Tabletop. Mortal sheets are nearly complete, and an easy-to-use splat-selector allowing you to swap between the various supernaturals (Vampire, Werewolf, Mage, etc.) on the fly is in development. Currently welcoming additional volunteers, especially those with talent in the areas of: JavaScript, HTML, CSS, art, and audio. Contact Burzghash#4196 on Discord for details.
+
+---
+
+## Kryx RPG
+* **Author**: shem / shemetz / itamarcu, shem#0226 on Discord
+* **Version**: 25.15.0-3
+* **Foundry VTT Compatibility**: 0.6.5+
+* **Translation Support**: EN
+
+### Link(s) to Game System	
+* [https://github.com/itamarcu/FoundryVTT-KryxRPG](https://github.com/itamarcu/FoundryVTT-KryxRPG)
+* [https://raw.githubusercontent.com/itamarcu/FoundryVTT-KryxRPG/master/system.json](https://raw.githubusercontent.com/itamarcu/FoundryVTT-KryxRPG/master/system.json)
+
+### Description	
+An implementation of the [Kryx RPG](https://www.kryxrpg.com/) system. It's based on the D&D 5e system (with major changes). Playable, a bit untested, currently lacks compatibility with 5e modules (which is a planned feature) and lacks most content from the website (also a planned feature).
 
 ---
 
