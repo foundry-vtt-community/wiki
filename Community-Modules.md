@@ -788,8 +788,8 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 https://gitlab.com/jesusafier/grape-hud/-/jobs/artifacts/master/raw/module.json?job=build-module
 ) 
 
-![vid1](https://i.imgur.com/g3K34hm.mp4)
-![vid2](https://i.imgur.com/RhLdrKl.mp4)
+![](https://i.imgur.com/g3K34hm.gif)
+![](https://i.imgur.com/RhLdrKl.gif)
 
 ### Description
 
@@ -814,7 +814,7 @@ Currently has the following features:
 * **Translation Support**: EN (full)
 
 ### Link(s) to Module
-* [https://gitlab.com/jesusafier/grape_juice-manual-roll](https://gitlab.com/jesusafier/grape_juice-manual-roll) 
+* [https://gitlab.com/fusafier/grape_juice-manual-roll](https://gitlab.com/jesusafier/grape_juice-manual-roll) 
 * [https://gitlab.com/jesusafier/grape_juice-manual-roll/-/jobs/artifacts/master/raw/module.json?job=build-module](https://gitlab.com/jesusafier/grape_juice-manual-roll/-/jobs/artifacts/master/raw/module.json?job=build-module) 
 
 ### Description
@@ -854,7 +854,7 @@ Allows rolling initiative once for each NPC group. Each NPC inside the group wil
 ### Link(s) to Module
 * [https://gitlab.com/jesusafier/haste](https://gitlab.com/jesusafier/haste) 
 * [https://gitlab.com/jesusafier/haste/-/jobs/artifacts/master/raw/module.json?job=build-module](https://gitlab.com/jesusafier/haste/-/jobs/artifacts/master/raw/module.json?job=build-module)
-![](https://i.imgur.com/NQfcIyl.mp4)
+
 
 ### Description
 An experimental performance enhancement tweak modules for FoundryVTT it has 2 features:
@@ -1078,7 +1078,7 @@ Backup your world before trying as it will change the walls in your world perman
 * [https://gitlab.com/jesusafier/minimap](https://gitlab.com/jesusafier/minimap)
 * [https://gitlab.com/jesusafier/minimap/-/jobs/artifacts/master/raw/module.json?job=build-module](https://gitlab.com/jesusafier/minimap/-/jobs/artifacts/master/raw/module.json?job=build-module)
 
-![](https://i.imgur.com/4feonG4.mp4)
+![](https://i.imgur.com/4feonG4.gif)
 
 ### Description
 Currently has the following features:
