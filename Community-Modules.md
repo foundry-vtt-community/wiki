@@ -17,6 +17,7 @@ The list below is an unofficial list of game modules.
       * [Chat Autoloader](#chat-autoloader)
       * [Chat Colors &amp; More](#chat-colors--more)
       * [Combat Utility Belt](#combat-utility-belt)
+      * [Compendium Folders](#compendium-folders)
       * [Create Actors from Folder](#create-actors-from-folder)
       * [Cursor Hider](#cursor-hider)
       * [Deselection](#deselection)
