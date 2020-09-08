@@ -767,6 +767,53 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 
 ---
 
+## Grape-Hud
+
+* **Author**: grape_juice#2539 on Discord.
+* **Version**: 0.0.10
+* **Foundry VTT Compatibility**: 0.6.0+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://gitlab.com/jesusafier/grape-hud](https://gitlab.com/jesusafier/grape-hud) 
+* [https://gitlab.com/jesusafier/grape-hud/-/raw/master/module.json](https://gitlab.com/jesusafier/grape-hud/-/raw/master/module.json) 
+
+### Description
+
+Diablo style Health and Mana orbs module for foundryVTT.
+
+Currently has the following features:
+
+- HP as health orb
+- Spell slots as mana orb
+- Shows up only for players
+
+---
+
+## Grape_Juice - Manual Roll
+
+* **Author**: grape_juice#2539 on Discord.
+* **Version**: 0.0.2
+* **Foundry VTT Compatibility**: pre 0.7.x
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://gitlab.com/jesusafier/grape_juice-manual-roll](https://gitlab.com/jesusafier/grape_juice-manual-roll) 
+* [https://gitlab.com/jesusafier/grape_juice-manual-roll/-/raw/master/module.json](https://gitlab.com/jesusafier/grape_juice-manual-roll/-/raw/master/module.json) 
+
+### Description
+Just a proof-of-concept for hooking into the roll system on pre 0.7.x
+
+Enabling the module will cause any roll you attempt to make open up a prompt that requests the outcome of a die roll.
+
+---
+
 ## Group Initiative
 
 * **Author**: tonifisler, thorni#4664 on Discord.
@@ -782,6 +829,27 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 
 ### Description
 Allows rolling initiative once for each NPC group. Each NPC inside the group will use the same initiative result. 
+
+---
+
+## Haste
+
+* **Author**: grape_juice#2539 on Discord.
+* **Version**: 0.4.9
+* **Foundry VTT Compatibility**: 0.6.0+
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN
+
+### Link(s) to Module
+* [https://gitlab.com/jesusafier/haste](https://gitlab.com/jesusafier/haste) 
+* [https://gitlab.com/jesusafier/haste/-/raw/master/module.json](https://gitlab.com/jesusafier/haste/-/raw/master/module.json)
+
+### Description
+An experimental performance enhancement tweak modules for FoundryVTT it has 2 features:
+
+- Wall fix - patches the FOW LOS FOV calculation to be much more efficient using spatial grid calculations. Big words that mean performance is basically unchanged when running 4000+ walls and 50+ light sources on large scenes.
+- Adaptive GPU FPS - Stops the canvas redraws when no changes occurred in the scene, reduces GPU usage to 0% unless a token moves or the canvas is panned. Best used when disabling cursor pointers. When using this options you can set the FPS limiter to 60fps.
 
 ---
 
@@ -982,6 +1050,29 @@ DEPRECATED Scene Playlist - DEPRECATED -- Use native Foundry functionality inste
 This module came about after looking at walls generated in DunGen and a discussion with Atropos about how to reduce the number or walls by merging neighbouring walls. For hand drawn maps there is only a small decrease but for DunGen and maps imported from Roll20 modules there can be 30% reduction in the number of walls. The results are not too far from hand crafted wall layouts.
 
 Backup your world before trying as it will change the walls in your world permanently. See the Readme.md for how to use.
+
+---
+
+## MiniMap
+
+* **Author**: grape_juice#2539 on discord
+* **Version**: 0.0.7
+* **Foundry VTT Compatibility**: 0.6+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: N/A
+* **Module Conflicts**: No known conflicts
+* **Translation Support**: EN (full)
+
+### Link(s) to Module
+* [https://gitlab.com/jesusafier/minimap](https://gitlab.com/jesusafier/minimap)
+* [https://gitlab.com/jesusafier/minimap/-/raw/master/module.json](https://gitlab.com/jesusafier/minimap/-/raw/master/module.json)
+
+### Description
+Currently has the following features:
+
+- Shows a minimap with a controllable view port, pan the map using the minimap.
+- Players view shows only explored areas.
+- All player token are shown live on the minimap.
 
 ---
 
