@@ -1078,8 +1078,6 @@ Backup your world before trying as it will change the walls in your world perman
 * [https://gitlab.com/jesusafier/minimap](https://gitlab.com/jesusafier/minimap)
 * [https://gitlab.com/jesusafier/minimap/-/jobs/artifacts/master/raw/module.json?job=build-module](https://gitlab.com/jesusafier/minimap/-/jobs/artifacts/master/raw/module.json?job=build-module)
 
-![](https://i.imgur.com/4feonG4.gif)
-
 ### Description
 Currently has the following features:
 
@@ -1087,6 +1085,7 @@ Currently has the following features:
 - Players view shows only explored areas.
 - All player token are shown live on the minimap.
 
+![](https://i.imgur.com/4feonG4.gif)
 ---
 
 ## Modbox
