@@ -43,13 +43,13 @@ Converts Fantasy Grounds campaigns into FoundryVTT worlds.
 
 Current Generic Support Status: (This works for all game systems)
 
-✅ Refence Manuals and Books display
-✅ Scenes including walls and doors (even for FGC)
-✅ Journals
-✅ Journals on Scenes (map pins)
-✅ Rollable tables
-✅ Image asset de-noise and upscalling Token Example, Map Example (FG has "optimized" image assets that look really bad in modern VTTs)
-✅ Token placement on scenes
+- Refence Manuals and Books display
+- Scenes including walls and doors (even for FGC)
+- Journals
+- Journals on Scenes (map pins)
+- Rollable tables
+- Image asset de-noise and upscalling Token Example, Map Example (FG has "optimized" image assets that look really bad in modern VTTs)
+- Token placement on scenes
 
 ---
 
