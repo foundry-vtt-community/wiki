@@ -385,16 +385,16 @@ An implementation of the German RPG "Splittermond" (Uhrwerk Verlag) as a game sy
 
 ---
 
-## (Lasers & Feelings)	
+## Lasers & Feelings
 * **Author**: Parker S. (sparkcities#2000)
 * **Version**: 0.1	
-* **Foundry VTT Compatibility**: 6.5
+* **Foundry VTT Compatibility**: 0.6.5
 * **Translation Support**: English	
 ### Link(s) to Game System	
 * Coming soon
 * Coming soon	
 ### Description	
-A [one-page rpg](http://onesevendesign.com/lasers_and_feelings_rpg.pdf) by John Harper with simple rules and mechanics that can easily be adapted for other settings.
+The [one-page rpg](http://onesevendesign.com/lasers_and_feelings_rpg.pdf) by John Harper with simple rules and mechanics that can easily be adapted for other settings.
 
 ---	
 
