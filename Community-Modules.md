@@ -788,8 +788,8 @@ This mod allows you to resize a grid more easily within Foundry, allowing easier
 https://gitlab.com/jesusafier/grape-hud/-/jobs/artifacts/master/raw/module.json?job=build-module
 ) 
 
-![](https://i.imgur.com/g3K34hm.mp4)
-![](https://i.imgur.com/RhLdrKl.mp4)
+![vid1](https://i.imgur.com/g3K34hm.mp4)
+![vid2](https://i.imgur.com/RhLdrKl.mp4)
 
 ### Description
 
