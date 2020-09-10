@@ -255,7 +255,6 @@ let roll = new Roll("1d20 + @abilities.str.mod + @strangeMacroishBonus", rollDat
 
 ### Other things useful for writing macros
 
-* `canvas.tokens.controlled` — selected tokens.
 * `game.user.targets` — targets selected by current user. It's a [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), so use appropriately or convert to array: `Array.from(game.user.targets)`
 * `game.combat` -- instance of [Combat](https://foundryvtt.com/api/Combat.html) that is active on current scene.
   * `game.combat.combatant` -- "Combatant" object of current turn. Has attributes:
@@ -265,4 +264,4 @@ let roll = new Roll("1d20 + @abilities.str.mod + @strangeMacroishBonus", rollDat
   * `game.combat.combatants`: all "Combatant" objects of current combat.
 * distance between 2 tokens: [`canvas.grid.measureDistance(fromToken, toToken, {gridSpaces: True})`](https://foundryvtt.com/api/GridLayer.html#measureDistance)
 
-There are a lot of [other useful snippets](https://github.com/foundry-vtt-community/wiki/wiki/API-Snippets).
+There are a lot of [other useful snippets](https://foundry-vtt-community.github.io/wiki/API-Snippets/).
