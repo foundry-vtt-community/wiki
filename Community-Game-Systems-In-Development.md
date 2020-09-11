@@ -25,7 +25,6 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Old School Essentials](#old-school-essentials)
    * [FVTT Dishonored (2d20)](#fvtt-dishonored-2d20)
    * [Pokemon Tabletop United (PTU)](#pokemon-tabletop-united)
-   * [Lasers & Feelings](#lasers-and-feelings) 
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
@@ -382,19 +381,6 @@ To install, just import the system.json file to your FoundryVTT installation.
 * Coming soon!	
 ### Description	
 An implementation of the German RPG "Splittermond" (Uhrwerk Verlag) as a game system for Foundry VTT. Still in very early development.
-
----
-
-## Lasers & Feelings
-* **Author**: Parker S. (sparkcities#2000)
-* **Version**: 0.1	
-* **Foundry VTT Compatibility**: 0.6.5
-* **Translation Support**: English	
-### Link(s) to Game System	
-* Coming soon
-* Coming soon	
-### Description	
-The [one-page rpg](http://onesevendesign.com/lasers_and_feelings_rpg.pdf) by John Harper with simple rules and mechanics that can easily be adapted for other settings.
 
 ---	
 
