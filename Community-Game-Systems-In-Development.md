@@ -25,6 +25,7 @@ The list below is an unofficial list of game systems that are still a work in pr
    * [Old School Essentials](#old-school-essentials)
    * [FVTT Dishonored (2d20)](#fvtt-dishonored-2d20)
    * [Pokemon Tabletop United (PTU)](#pokemon-tabletop-united)
+   * [Splittermond](#splittermond)
    * [Appendix](#appendix)	
       * [Appendix A: Adding a Game System](#appendix-a-adding-a-game-system)	
       * [Appendix B: Best Editing Practices](#appendix-b-best-editing-practices)
