@@ -243,3 +243,8 @@ docker run \
 ```
 
 For more information about the available configuration options please see the [project README](https://github.com/felddy/foundryvtt-docker#readme).  If you have any questions please feel free to contact me on the FoundryVTT discord: `@felddy`
+
+
+### Vicknesh's Docker Deployment guide
+
+Guide for setting up FoundryVTT with Caddy for TLS can be found [https://github.com/svicknesh/foundryvtt-docker-deploy](https://github.com/svicknesh/foundryvtt-docker-deploy)
