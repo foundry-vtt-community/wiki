@@ -1012,6 +1012,25 @@ Supports rolling dice in your chat window for various non regular dice systems:
 
 ---
 
+## Macro Folders
+
+* **Author**: Erceron#0370 (Discord).
+* **Version**: 1.0.5
+* **Foundry VTT Compatibility**: 0.6.5+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN
+
+### Link(s) to Module
+* [https://github.com/earlSt1/vtt-macro-folders](https://github.com/earlSt1/vtt-macro-folders) 
+* [https://raw.githubusercontent.com/earlSt1/vtt-macro-folders/master/module.json](https://raw.githubusercontent.com/earlSt1/vtt-macro-folders/master/module.json)
+
+### Description
+Adds a nested folder structure to the macros directory, allowing you to organize macros, and define "player folders", where macros created by that player will be placed.
+
+---
+
 ## Maestro
 
 * **Author**: Evan Clarke (errational#2007) (Donation/Sponsor? Sponsor button in the first link below)
@@ -1137,6 +1156,30 @@ Allows trusted players to drag items and actors they own to the canvas as long a
 ### Description
 
 Allows you to mark out linked regions on the map. Tokens present in the source region will be automatically cloned to the target region, and kept up-to-date with the original, mirroring movement and other changes. Ideal for multi-level maps, for example so that tokens on a floor below are visible from a balcony above. Also supports simple token teleports.
+
+---
+
+## Navigation Presets
+
+* **Author**: Erceron#0370 (Discord).
+* **Version**: 1.0.4
+* **Foundry VTT Compatibility**: 0.6.5+
+* **System Compatibility (If applicable)**: Universal
+* **Module Requirement(s)**: None
+* **Module Conflicts**: None
+* **Translation Support**: EN
+
+### Link(s) to Module
+* [https://github.com/earlSt1/vtt-navigation-presets](https://github.com/earlSt1/vtt-navigation-presets) 
+* [https://raw.githubusercontent.com/earlSt1/vtt-navigation-presets/master/module.json](https://raw.githubusercontent.com/earlSt1/vtt-navigation-presets/master/module.json)
+
+### Description
+
+Adds definable presets to the navigation bar, allowing you to switch between navigation "loadouts". Only visible to GMs.
+
+Instructions for use can be found at the [github page](https://github.com/earlSt1/vtt-navigation-presets)
+
+![](https://raw.githubusercontent.com/earlSt1/vtt-navigation-presets/master/example.png)
 
 ---
 
