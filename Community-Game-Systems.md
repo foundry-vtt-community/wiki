@@ -13,8 +13,10 @@ The list below is an unofficial list of game systems.
       * [WFRP 4E System](#wfrp-4e-system)	
    * [13th Age](#13th-age)	
       * [13th Age System (Archmage)](#13th-age-system-archmage)	
-   * [Fate](#fate)	
-      * [Fate Core &amp; Accelerated](#fate-core--accelerated)	
+   * [Fate](#fate)
+      * [Modular Fate Core](#Modular-Fate-Core)	
+      * [FateX](#fateX)	
+      * [Fate (Core/Accelerated/Condensed)](#fate-core--accelerated)	
    * [Starfinder](#starfinder)	
       * [starfinder](#starfinder-1)	
    * [Shadowrun](#shadowrun)	
@@ -148,11 +150,38 @@ To install, use the in-app installer and enter into the manifest URL: `https://g
 # Fate	
 
 Foundry systems based on the Fate Core and Accelerated systems by Evil Hat Productions, available under Creative Commons.	
+## Modular Fate Core
+* **Author**: Richard Bellingham (Skimble)
+* **Version**: 1.6
+* **Foundry VTT Compatibility**: 0.5.2+
+* **Translation Support**: EN (Full)
+### Link(s) to Game System	
+* Repository: [https://github.com/Sk1mble/modularFate](https://github.com/Sk1mble/modularFate)
+* Manifest: [https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json](https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json)
+### Description	
+A new system for Fate Core which supports arbitrary skills/stress tracks/conditions/aspects and other modular characteristics that will allow GMs to build almost any implementation of the Fate Core system. Includes default settings for Fate Core, Fate Condensed, and Fate Accelerated.
+## FateX	
+* **Author**: Richard Bellingham (Skimble)
+* **Version**: 1.0
+* **Translation Support**: EN (Full), DE, SP, FR
+### Link(s) to Game System	
+* Repository: [https://github.com/anvil-vtt/FateX](https://github.com/anvil-vtt/FateX)
+* Manifest URL: [https://github.com/anvil-vtt/FateX/releases/latest/download/system.json](https://github.com/anvil-vtt/FateX/releases/latest/download/system.json)
+### Description
+FateX is the extended Fate game system for FoundryVTT. This system allows you to play any Fate game you want. It provides default options for playing Fate Core, Fate Accelerated, and Fate Condensed, but can be used in all its derivative systems too.
 
+You're able to define your own aspects, skill lists, stress tracks, consequences, conditions, stunts, extras, and more.
+
+Using the "Actor template system", you're able to create and manage multiple templates which new actors may be based on. This allows you to have different base-sheets for PCs, NPCs, monsters, and any other type of character you can imagine.
+
+It's possible to use different mechanics for different character types. For example: while PCs may have core-style stress tracks (1,2,3,4), NPCs could have condensed style stress tracks (1,1,1,1). You're fully flexible to play the Fate game you want.
+Installation
+
+For manual installation, use the provided manifest URL in the "Install System" popup window while managing game systems.
 ## Fate Core & Accelerated	
 
 * **Author**: Nick van Oosten (NickEast#1131 on Discord)	
-* **Version**: 0.2.0	
+* **Version**: 0.3.1	
 * **Foundry VTT Compatibility**: 0.4.5+	
 * **Translation Support**: EN (Full)	
 
@@ -161,6 +190,7 @@ Foundry systems based on the Fate Core and Accelerated systems by Evil Hat Produ
 * Manifest (most recent version): [https://gitlab.com/foundry-projects/fate/raw/master/src/system.json](https://gitlab.com/foundry-projects/fate/raw/master/src/system.json)	
 
 ### Description	
+**This package is outdated and while still functional for a time will no longer be updated further. Users should migrate to one of the two other actively-developed systems**
 This system adds support for Fate Core and Fate Accelerated (FAE) to Foundry VTT. Currently still in development, and only the FAE character sheet is functional.	
 
 ---	
