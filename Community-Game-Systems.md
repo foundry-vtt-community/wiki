@@ -160,8 +160,9 @@ Foundry systems based on the Fate Core and Accelerated systems by Evil Hat Produ
 * Manifest: [https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json](https://raw.githubusercontent.com/Sk1mble/modularFate/master/system.json)
 ### Description	
 A new system for Fate Core which supports arbitrary skills/stress tracks/conditions/aspects and other modular characteristics that will allow GMs to build almost any implementation of the Fate Core system. Includes default settings for Fate Core, Fate Condensed, and Fate Accelerated.
+
 ## FateX	
-* **Author**: Richard Bellingham (Skimble)
+* **Author**: Patrick Bauer
 * **Version**: 1.0
 * **Translation Support**: EN (Full), DE, SP, FR
 ### Link(s) to Game System	
