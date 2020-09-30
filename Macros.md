@@ -118,3 +118,12 @@ This is a direct way to play audio.
 AudioHelper.play({src: "audio/SFX/Fire arrow.mp3", volume: 0.8, autoplay: true, loop: false}, true);
 ```
 <!--- {% endraw %} --->
+
+###Roll a die
+```const roll = new Roll(`1d6`);
+roll.roll();
+roll.toMessage({
+    flavor: "Sneak Attack Damage",
+});
+```
+<!--- {% endraw %} --->
