@@ -32,6 +32,8 @@ Script Macros in Foundry use the underlying [JavaScript API](https://foundryvtt.
 See also: [Learning API](https://foundry-vtt-community.github.io/wiki/API-Learning-API/), and [API Snippets](https://foundry-vtt-community.github.io/wiki/API-Snippets/) (many of them can be used in a Macros)
 Some examples of using script macros follows.
 
+Looking for more macros? Community macros are stored here: [Community Macros](https://github.com/foundry-vtt-community/macros)
+
 ### Script Macros Examples
 
 #### Random Table Roll 
@@ -119,7 +121,7 @@ AudioHelper.play({src: "audio/SFX/Fire arrow.mp3", volume: 0.8, autoplay: true, 
 ```
 <!--- {% endraw %} --->
 
-### Roll a die
+#### Roll a die
 This is a way to roll a die with a "script" macro instead of a chat macro.
 <!--- {% raw %} --->
 ```js
