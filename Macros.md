@@ -119,7 +119,7 @@ AudioHelper.play({src: "audio/SFX/Fire arrow.mp3", volume: 0.8, autoplay: true, 
 ```
 <!--- {% endraw %} --->
 
-###Roll a die
+### Roll a die
 This is a way to roll a die with a "script" macro instead of a chat macro.
 <!--- {% raw %} --->
 ```js
