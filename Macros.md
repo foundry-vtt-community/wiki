@@ -120,7 +120,10 @@ AudioHelper.play({src: "audio/SFX/Fire arrow.mp3", volume: 0.8, autoplay: true, 
 <!--- {% endraw %} --->
 
 ###Roll a die
-```const roll = new Roll(`1d6`);
+This is a way to roll a die with a "script" macro instead of a chat macro.
+<!--- {% raw %} --->
+```js
+const roll = new Roll(`1d6`);
 roll.roll();
 roll.toMessage({
     flavor: "Sneak Attack Damage",
