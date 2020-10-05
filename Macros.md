@@ -10,6 +10,7 @@
             * [Rolling a skill check for DnD 5e](#rolling-a-skill-check-for-dnd-5e)
             * [Rolling an attribute check for DnD 5e](#rolling-an-attribute-check-for-dnd-5e)
             * [Play Audio](#play-audio)
+            * [Roll a die](#roll-a-die)
 <!--te-->
 
 # What is a Macro?
