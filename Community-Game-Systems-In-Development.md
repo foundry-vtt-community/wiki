@@ -400,6 +400,7 @@ An implementation of the German RPG "Splittermond" (Uhrwerk Verlag) as a game sy
 https://www.strikerpg.com/
 
 ---
+
 ## Mutant Year Zero
 * **Author**: Stevan Radojevic (Discord:shteff#8724)
 * **Version**: 0.0.2	
@@ -412,6 +413,7 @@ https://www.strikerpg.com/
 Unofficial sheets for playing Mutant Year Zero. Still waiting for the reply from Free League. They are playable but not largely tested yet.
 You can find sheets for mutants, animals, robots and humans as well as the sheets for items like weapons, armor, abilities, talents, gear, artifacts.
 Abilities and talents should remap themselves to appropriate types when added to characters, so for example if an ability is added to a mutant it becomes 'mutation' but if you add it to a robot it becomes a module
+
 ---
 
 ```		
